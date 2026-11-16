@@ -38,7 +38,7 @@ $("#search").oninput=e=>{state.query=e.target.value;render();clearTimeout(search
 $("#clearSearch").onclick=()=>{$("#search").value="";state.query="";state.mode="demo";state.items=state.demo;state.remote=[];state.continuation=null;render()};
 $("#loadMore").onclick=()=>searchLive(state.query,true);
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));b.classList.add("active");state.filter=b.dataset.filter;render()});
-$("#perfumeGrid").onclick=e=>{const c=e.target.closest(".perfume-card");if(c)openDetail(c.dataset.id)};
+$("#perfumeGrid").onclick=e=>{if(e.target.closest("[data-fav]"))return;const c=e.target.closest(".perfume-card");if(c)openDetail(c.dataset.id)};
 $("#closeDetail").onclick=()=>$("#detailModal").classList.add("hidden");
 $("#aboutBtn").onclick=()=>$("#aboutModal").classList.remove("hidden");$("#closeAbout").onclick=$("#aboutOk").onclick=()=>$("#aboutModal").classList.add("hidden");
 $("#menuBtn").onclick=()=>$("#drawer").classList.remove("hidden");$("#closeDrawer").onclick=()=>$("#drawer").classList.add("hidden");$("#drawerAbout").onclick=e=>{e.preventDefault();$("#drawer").classList.add("hidden");$("#aboutModal").classList.remove("hidden")};
