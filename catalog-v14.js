@@ -1,76 +1,171 @@
-/* Perfume Finder v1.4 — full Scento sync, IndexedDB offline catalogue, Persian descriptions */
-(() => {
+/* catalog-v14.js — Catalog Module — PFCatalog */
+(function (global) {
+  'use strict';
+  const UI = global.PFUI;
+  if (!UI) { console.error('[PFCatalog] ui-v14.js required'); return; }
   const $ = s => document.querySelector(s);
-  const DATA_ROOT = 'https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/';
-  const DB_NAME = 'perfumeFinderDB', STORE = 'snapshots';
-  const PAGE_SIZE = 48;
-  let page = 1, countryFilter = 'all', timeFilter = 'all', allBrands = [], allMaterials = [], imageMap = {};
-  let favorites = new Set();
-  try { favorites = new Set(JSON.parse(localStorage.getItem('pf_favorites_v14') || '[]')); } catch {}
-  let favoritesOnly = false;
-  const faCountries = {
-    'France':'فرانسه','United Arab Emirates':'امارات متحده عربی','United Kingdom':'بریتانیا','United States':'ایالات متحده آمریکا',
-    'Italy':'ایتالیا','Oman':'عمان','Saudi Arabia':'عربستان سعودی','India':'هند','Spain':'اسپانیا','Switzerland':'سوئیس',
-    'Germany':'آلمان','Japan':'ژاپن','Turkey':'ترکیه','Kuwait':'کویت','Qatar':'قطر','Bahrain':'بحرین','Australia':'استرالیا',
-    'Austria':'اتریش','Belgium':'بلژیک','Brazil':'برزیل','Canada':'کانادا','China':'چین','Denmark':'دانمارک','Egypt':'مصر',
-    'Greece':'یونان','Indonesia':'اندونزی','Ireland':'ایرلند','Israel':'اسرائیل','Malaysia':'مالزی','Mexico':'مکزیک',
-    'Monaco':'موناکو','Netherlands':'هلند','Norway':'نروژ','Pakistan':'پاکستان','Poland':'لهستان','Portugal':'پرتغال',
-    'Russia':'روسیه','Singapore':'سنگاپور','South Korea':'کره جنوبی','Sweden':'سوئد','Thailand':'تایلند','Tunisia':'تونس'
-  };
-  const noteFa = {
-    'bergamot':'ترنج','mandarin':'نارنگی','orange':'پرتقال','lemon':'لیمو','lime':'لایم','grapefruit':'گریپ‌فروت','neroli':'نرولی',
-    'lavender':'اسطوخودوس','jasmine':'یاس','jasmine sambac':'یاس سامباک','rose':'رز','iris':'زنبق','violet':'بنفشه','tuberose':'مریم',
-    'orange blossom':'شکوفه پرتقال','geranium':'شمعدانی','lily':'سوسن','ylang-ylang':'یلانگ‌یلانگ','saffron':'زعفران','cardamom':'هل',
-    'cinnamon':'دارچین','pepper':'فلفل','pink pepper':'فلفل صورتی','black pepper':'فلفل سیاه','nutmeg':'جوز هندی','ginger':'زنجبیل',
-    'vanilla':'وانیل','musk':'مشک','amber':'کهربا','ambergris':'عنبرگریس','oud':'عود','agarwood':'چوب عود','sandalwood':'چوب صندل',
-    'cedar':'سدر','cedarwood':'چوب سدر','patchouli':'نعناع هندی','vetiver':'خس‌خس','tonka bean':'لوبیای تونکا','benzoin':'بنزوئین',
-    'incense':'بخور','frankincense':'کندر','leather':'چرم','suede':'جیر',' tobacco':'تنباکو','coffee':'قهوه','cocoa':'کاکائو',
-    'chocolate':'شکلات','caramel':'کارامل','praline':'پرالین','honey':'عسل','apple':'سیب','pear':'گلابی','peach':'هلو',
-    'plum':'آلو','pineapple':'آناناس','coconut':'نارگیل','fig':'انجیر','raspberry':'تمشک','blackcurrant':'انگورفرنگی سیاه',
-    'mint':'نعناع','basil':'ریحان','thyme':'آویشن','rosemary':'رزماری','oakmoss':'خزه بلوط','ambroxan':'آمبروکسان',
-    'cashmeran':'کشمران','iso e super':'ایزو ای سوپر','citrus':'مرکبات','white flowers':'گل‌های سفید','floral notes':'نت‌های گلی'
-  };
-  const familyFa = {
-    'white bloom':'شکوفه‌های سفید','petal garden':'باغ گلبرگ‌ها','wood & root':'چوب و ریشه','spice route':'مسیر ادویه',
-    'amber':'کهربایی','woody':'چوبی','floral':'گلی','fresh':'تازه و خنک','citrus':'مرکباتی','oriental':'شرقی',
-    'fruity':'میوه‌ای','gourmand':'خوراکی و شیرین','aromatic':'آروماتیک','chypre':'شیپغ','leather':'چرمی','aquatic':'آبی',
-    'green':'سبز','powdery':'پودری','musky':'مشکی','sweet':'شیرین','spicy':'ادویه‌ای'
-  };
-  const characterFa = {'floral':'گلی','creamy':'خامه‌ای','fresh':'تازه و شاداب','citrusy':'مرکباتی','warm':'گرم','spicy':'ادویه‌ای','sweet':'شیرین','woody':'چوبی','earthy':'خاکی','powdery':'پودری','smoky':'دودی','fruity':'میوه‌ای','musky':'مشکی','aromatic':'معطر','green':'سبز','aquatic':'آبی','resinous':'صمغی','leathery':'چرمی','soft':'ملایم','rich':'غنی'};
-  function openDB(){return new Promise((resolve,reject)=>{const req=indexedDB.open(DB_NAME,1);req.onupgradeneeded=()=>req.result.createObjectStore(STORE);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
-  async function dbGet(key){try{const db=await openDB();return await new Promise((resolve,reject)=>{const r=db.transaction(STORE).objectStore(STORE).get(key);r.onsuccess=()=>resolve(r.result||null);r.onerror=()=>reject(r.error)})}catch{return null}}
-  async function dbPut(key,value){try{const db=await openDB();await new Promise((resolve,reject)=>{const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).put(value,key);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error)})}catch(e){console.warn('IndexedDB write failed',e)}}
-  function parseCSV(src){const rows=[];let row=[],cell='',quoted=false;for(let i=0;i<src.length;i++){const c=src[i];if(c==='"'&&quoted&&src[i+1]==='"'){cell+='"';i++}else if(c==='"')quoted=!quoted;else if(c===','&&!quoted){row.push(cell);cell=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&src[i+1]==='\n')i++;row.push(cell);if(row.some(v=>v!==''))rows.push(row);row=[];cell=''}else cell+=c}if(cell||row.length){row.push(cell);rows.push(row)}const headers=rows.shift()||[];return rows.map(a=>Object.fromEntries(headers.map((h,i)=>[h,a[i]??''])))}
-  const split = s => String(s||'').split(';').map(x=>x.trim()).filter(Boolean);
-  const translate = s => {const key=String(s||'').trim().toLowerCase();return noteFa[key]||familyFa[key]||characterFa[key]||s};
-  const translateList = a => (a||[]).map(translate);
-  function persianDescription(row){const family=translate(row.family||row.secondary_family||'');const traits=split(row.character).map(x=>translate(x.toLowerCase()));const top=translateList(split(row.top_notes));const heart=translateList(split(row.heart_notes));const base=translateList(split(row.base_notes));let sentence='';if(family)sentence=`این عطر در خانوادهٔ «${family}» قرار می‌گیرد`;else sentence='این عطر ترکیبی چندلایه از رایحه‌های گوناگون دارد';if(traits.length)sentence+=` و حال‌وهوای آن ${traits.slice(0,4).join('، ')} است`;sentence+='.';if(top.length)sentence+=` شروع رایحه با ${top.slice(0,3).join('، ')} شکل می‌گیرد.`;if(heart.length)sentence+=` در قلب عطر، ${heart.slice(0,3).join('، ')} به مشام می‌رسد.`;if(base.length)sentence+=` در پایان، ${base.slice(0,3).join('، ')} ماندگاری و عمق رایحه را می‌سازند.`;return sentence}
-  function normalizePerfumes(rows,houses){const countryByHouse=new Map(houses.map(h=>[h.id,h.country]));return rows.map(r=>{const country=countryByHouse.get(r.house_id)||'';return {id:'scento:'+r.id,slug:(r.url||'').split('/').filter(Boolean).pop()||r.id,name:r.name,brand:r.house||'برند نامشخص',country:faCountries[country]||country||'خاستگاه ثبت نشده',countryEn:country,origin:country==='France'?'french':country==='United Arab Emirates'?'uae':'international',gender:'unknown',family:translate(r.family||r.secondary_family||''),familyEn:r.family||'',top:translateList(split(r.top_notes)),heart:translateList(split(r.heart_notes)),base:translateList(split(r.base_notes)),descriptionFa:persianDescription(r),descriptionOriginal:r.description||'',character:translateList(split(r.character)),seasons:split(r.seasons).map(x=>({'spring':'بهار','summer':'تابستان','autumn':'پاییز','winter':'زمستان'}[x]||x)),times:split(r.times_of_day).map(x=>({'day':'روز','evening':'عصر','night':'شب'}[x]||x)),year:r.year||'',url:r.url||'',source:'Scento',image:(imageMap[r.id]?.primary||''),gallery:(imageMap[r.id]?.gallery||[])}})}
-  function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-  function countryOptions(items){const select=$('#countryFilter');if(!select)return;const countries=[...new Set(items.map(x=>x.country).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'fa'));select.innerHTML='<option value="all">همه خاستگاه‌ها</option>'+countries.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')}
-  function getFiltered(){return state.items.filter(p=>{const f=state.filter;const genderOk=f==='all'||f==='french'&&p.origin==='french'||f==='uae'&&p.origin==='uae'||f===p.gender;const timeOk=timeFilter==='all'||(p.times||[]).some(t=>timeFilter==='day'?t==='روز':t==='شب');return genderOk&&timeOk&&(countryFilter==='all'||p.country===countryFilter)&&[p.name,p.brand,p.country,p.family,...p.top,...p.heart,...p.base].join(' ').toLowerCase().includes((state.query||'').toLowerCase())})}
-  function renderAll(){const filtered=getFiltered().filter(p=>!favoritesOnly||favorites.has(p.id));const favCount=$('#favoritesCount');if(favCount)favCount.textContent=favorites.size.toLocaleString('fa-IR');const shown=filtered.slice(0,page*PAGE_SIZE);$('#perfumeGrid').innerHTML=shown.map(p=>`<article class="perfume-card" data-id="${esc(p.id)}"><div class="perfume-img">${p.image?`<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=\\"bottle-placeholder\\">SCENTO</div>'">`:'<div class="bottle-placeholder">SCENTO</div>'}<button class="fav-btn ${favorites.has(p.id)?'is-fav':''}" data-fav="${esc(p.id)}" aria-label="افزودن به علاقه‌مندی‌ها">${favorites.has(p.id)?'♥':'♡'}</button></div><div class="perfume-info"><h3>${esc(p.name)}</h3><p>${esc(p.brand)} · ${esc(p.country)}</p><div class="tags"><span class="tag">${esc(p.family||'خانواده ثبت نشده')}</span><span class="tag">Scento</span></div></div></article>`).join('');$('#emptyState').classList.toggle('hidden',filtered.length>0);$('#countStat').textContent=state.items.length.toLocaleString('fa-IR');$('#brandStat').textContent=allBrands.length.toLocaleString('fa-IR');$('#materialStat').textContent=allMaterials.length.toLocaleString('fa-IR');$('#apiStatus').textContent=state.loading?'در حال همگام‌سازی تازه با Scento…':`نمایش ${shown.length.toLocaleString('fa-IR')} از ${filtered.length.toLocaleString('fa-IR')} عطر · ${state.items.length.toLocaleString('fa-IR')} عطر ذخیره‌شده`;let more=$('#catalogMore');if(more)more.classList.toggle('hidden',shown.length>=filtered.length);let meta=$('#catalogMeta');if(meta)meta.textContent=`${allBrands.length.toLocaleString('fa-IR')} برند · ${allMaterials.length.toLocaleString('fa-IR')} ماده و نت`}
-  function renderBrandCards(brands){const slider=$('#brandSlider');if(!slider)return;slider.innerHTML=brands.slice().sort((a,b)=>b.count-a.count).map(b=>`<button class="brand-card" type="button" data-brand="${esc(b.name)}"><span class="brand-country">${esc(faCountries[b.country]||b.country||'خاستگاه نامشخص')}</span><span class="brand-name">${esc(b.name)}</span><span class="brand-count"><b>${Number(b.count).toLocaleString('fa-IR')}</b><span>عطر</span></span></button>`).join('');const total=brands.reduce((n,b)=>n+b.count,0);$('#brandsSummary').textContent=`${brands.length.toLocaleString('fa-IR')} برند · ${total.toLocaleString('fa-IR')} عطر`}
-  async function fetchCSV(file){const url=DATA_ROOT+file+'?refresh='+Date.now();const res=await fetch(url,{cache:'no-store',headers:{Accept:'text/csv'}});if(!res.ok)throw new Error(`${file}: HTTP ${res.status}`);return parseCSV(await res.text())}
-  async function fetchImageMap(){const cached=await dbGet('image-map-v14');try{const res=await fetch('./data/perfume-images.json?refresh='+Date.now(),{cache:'no-store'});if(!res.ok)return cached||{};const data=await res.json();const map=data.images||data||{};await dbPut('image-map-v14',map);return map}catch{return cached||{}}}
-  async function syncAll(){state.loading=true;renderAll();const cached=await dbGet('full-catalog-v1');try{const [perfumes,houses,materials,images]=await Promise.all([fetchCSV('perfumes.csv'),fetchCSV('houses.csv'),fetchCSV('materials.csv'),fetchImageMap()]);imageMap=images;const items=normalizePerfumes(perfumes,houses);allBrands=houses.map(h=>({name:h.name,country:h.country,count:Number(h.perfume_count)||0,url:h.url}));allMaterials=materials;const snapshot={items,brands:allBrands,materials:allMaterials,updatedAt:Date.now(),sourceVersion:'Scento CSV live'};await dbPut('full-catalog-v1',snapshot);applySnapshot(snapshot);$('#syncStatus').textContent=`همگام‌سازی موفق · ${new Date(snapshot.updatedAt).toLocaleString('fa-IR')}`;$('#syncStatus').className='sync-good'}catch(err){console.warn('Scento refresh failed; loading offline snapshot',err);if(cached){applySnapshot(cached);$('#syncStatus').textContent='اتصال برقرار نشد؛ نسخه ذخیره‌شده نمایش داده می‌شود';$('#syncStatus').className='sync-offline'}else{$('#syncStatus').textContent='دریافت بانک اطلاعاتی ناموفق بود؛ اتصال اینترنت را بررسی کنید';$('#syncStatus').className='sync-offline'}}finally{state.loading=false;renderAll()}}
-  function applySnapshot(s){state.items=s.items||[];state.demo=state.items;allBrands=s.brands||[];allMaterials=s.materials||[];state.mode='catalog';countryOptions(state.items);renderBrandCards(allBrands);renderAll()}
-  function noteDiagram(title,items,kind){const palette={top:'diagram-top',heart:'diagram-heart',base:'diagram-base'};return `<div class="pyramid-level ${palette[kind]}"><div class="pyramid-label">${title}</div><div class="pyramid-notes">${(items||[]).length?(items||[]).map(n=>`<span>${esc(n)}</span>`).join(''):'<small>در منبع ثبت نشده</small>'}</div></div>`}
-  function localSimilar(p){const base=new Set([...(p.top||[]),...(p.heart||[]),...(p.base||[])].map(x=>String(x).toLowerCase()));return state.items.filter(x=>x.id!==p.id).map(x=>{const notes=[...(x.top||[]),...(x.heart||[]),...(x.base||[])];const shared=notes.filter(n=>base.has(String(n).toLowerCase()));const familyBonus=p.familyEn&&x.familyEn===p.familyEn?2:0;return {...x,shared,score:shared.length+familyBonus}}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,6)}
-  async function showPerfumeDetail(id){const p=state.items.find(x=>x.id===id);if(!p)return;$('#detailModal').classList.remove('hidden');$('#detailContent').innerHTML=`<p>در حال دریافت جزئیات و نت‌های تأییدشده…</p>`;let d=null, neighbours=null;try{const [a,b]=await Promise.all([fetch(`https://www.scento.com/api/perfume/v1/perfumes/${encodeURIComponent(p.slug)}`,{headers:{Accept:'application/json'}}),fetch(`https://www.scento.com/api/perfume/v1/perfumes/${encodeURIComponent(p.slug)}/neighbours`,{headers:{Accept:'application/json'}}).catch(()=>null)]);if(a.ok)d=await a.json();if(b&&b.ok)neighbours=await b.json()}catch{}const detail=d?.detail||{};const py=detail.pyramid||{};const top=(py.top||p.top),heart=(py.heart||p.heart),base=(py.base||p.base);const family=translate(detail.family||p.familyEn||p.family);const desc=p.descriptionFa||'توضیحات فارسی برای این عطر در دسترس نیست.';const remoteSims=neighbours?.detail?.neighbours||neighbours?.detail?.matches||[];const localSims=localSimilar(p);const simItems=remoteSims.length?remoteSims.slice(0,6).map(x=>({name:x.name||'عطر مشابه',house:x.house||'',page:x.page||'#',shared:x.shared||x.shared_notes||x.sharedNotes||[]})):localSims;const gallery=(p.gallery||[]).filter(u=>u&&u!==p.image).slice(0,5);$('#detailContent').innerHTML=`<div class="detail-top"><div class="detail-image">${p.image?`<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="eager">`:'<div class="bottle-placeholder">SCENTO</div>'}</div><div><p class="eyebrow">${esc(p.brand)}</p><h2>${esc(p.name)}</h2><p>${esc(family)} · ${esc(p.country)}</p><span class="tag">${p.year?'سال عرضه '+esc(p.year):'سال عرضه ثبت نشده'}</span></div></div><p class="detail-description persian-copy">${esc(desc)}</p><h3>ساختار شماتیک هرم رایحه</h3><div class="scent-pyramid">${noteDiagram('نت‌های آغازین · شروع رایحه',top,'top')}${noteDiagram('نت‌های میانی · قلب عطر',heart,'heart')}${noteDiagram('نت‌های پایانی · ماندگاری',base,'base')}</div><div class="detail-meta"><span>فصل مناسب: ${esc(p.seasons.join('، ')||'ثبت نشده')}</span><span>زمان استفاده: ${esc(p.times.join('، ')||'ثبت نشده')}</span></div>${gallery.length?`<div class="image-gallery">${gallery.map(u=>`<img src="${esc(u)}" loading="lazy" alt="${esc(p.name)}">`).join('')}</div>`:''}<h3>عطرهای مشابه</h3><div class="similar-list">${simItems.length?simItems.map(x=>`<a class="similar-item" href="${esc(x.page||'#')}" target="_blank" rel="noopener"><b>${esc(x.name)}</b><small>${esc(x.house||'')}</small><small>${x.shared?.length?'نت مشترک: '+esc(x.shared.slice(0,4).join('، ')):'پیشنهاد بر اساس شباهت نت و خانواده بویایی'}</small></a>`).join(''):'<span class="subtle">پیشنهاد مشابهی در دسترس نیست.</span>'}</div><details class="original-desc"><summary>نمایش توضیح اصلی منبع (انگلیسی)</summary><p>${esc(p.descriptionOriginal||'توضیح انگلیسی ثبت نشده است.')}</p></details><p><a class="source-link" href="${esc(p.url)}" target="_blank" rel="noopener">مشاهده صفحه منبع در Scento ↗</a></p>`}
-  // Override old catalogue render with fast paginated rendering over the full local database.
-  render = renderAll;
-  openDetail = showPerfumeDetail;
-  $('#search').oninput=e=>{state.query=e.target.value;page=1;renderAll()};
-  $('#perfumeGrid')?.addEventListener('click',e=>{const f=e.target.closest('[data-fav]');if(!f)return;e.stopPropagation();const id=f.dataset.fav;if(favorites.has(id))favorites.delete(id);else favorites.add(id);localStorage.setItem('pf_favorites_v14',JSON.stringify([...favorites]));const fc=$('#favoritesCount');if(fc)fc.textContent=favorites.size.toLocaleString('fa-IR');f.classList.toggle('is-fav',favorites.has(id));f.textContent=favorites.has(id)?'♥':'♡';if(favoritesOnly)renderAll()});
-  $('#favoritesOnly')?.addEventListener('click',()=>{favoritesOnly=!favoritesOnly;$('#favoritesOnly').classList.toggle('active',favoritesOnly);page=1;renderAll()});
-  $('#clearSearch').onclick=()=>{$('#search').value='';state.query='';page=1;renderAll()};
-  // Detach the earlier brand click handler so only the full local catalogue search runs.
-  const oldBrandSlider=$('#brandSlider');if(oldBrandSlider){const clean=oldBrandSlider.cloneNode(true);oldBrandSlider.replaceWith(clean)}
-  $('#countryFilter')?.addEventListener('change',e=>{countryFilter=e.target.value;page=1;renderAll()});
-  document.querySelectorAll('[data-time-filter]').forEach(b=>b.addEventListener('click',()=>{timeFilter=b.dataset.timeFilter;document.querySelectorAll('[data-time-filter]').forEach(x=>x.classList.toggle('active',x===b));page=1;renderAll()}));
-  $('#catalogMore')?.addEventListener('click',()=>{page++;renderAll()});
-  $('#brandSlider')?.addEventListener('click',e=>{const c=e.target.closest('[data-brand]');if(!c)return;$('#search').value=c.dataset.brand;state.query=c.dataset.brand;state.filter='all';document.querySelectorAll('.filters .chip').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));page=1;renderAll();$('#catalog').scrollIntoView({behavior:'smooth'})});
-  // Refresh on every page opening; IndexedDB is the offline fallback.
-  syncAll();
-})();
+
+  const state = { items: [], filtered: [], page: 1, pageSize: 20, gender: 'all', time: 'all', country: 'all', sort: 'popular', query: '' };
+  let ctx = { ratings: {}, favorites: new Set(), imageMap: new Map(), onOpenDetail: () => {}, onFavoritesChange: () => {}, onCountChange: () => {} };
+  let els = {};
+  let searchTimer = null;
+
+  function ensureSearch(item) {
+    if (!item._search) {
+      item._search = [item.name, item.brand, item.country, item.family, ...(item.top||[]), ...(item.heart||[]), ...(item.base||[])].join(' ').toLowerCase();
+    }
+    return item;
+  }
+
+  function filterItem(p) {
+    const gender = state.gender === 'all' || p.gender === state.gender;
+    const country = state.country === 'all' || p.country === state.country;
+    let time = true;
+    if (state.time === 'favorites') time = ctx.favorites.has(p.id);
+    else if (state.time === 'day') time = /day|morning|روز/.test(p.timeRaw);
+    else if (state.time === 'night') time = /night|evening|شب/.test(p.timeRaw);
+    const q = state.query.toLowerCase();
+    const match = !q || ensureSearch(p)._search.includes(q);
+    return gender && country && time && match;
+  }
+
+  function sortItems(list) {
+    if (state.sort === 'name') list.sort((a,b)=>a.name.localeCompare(b.name,'fa'));
+    else if (state.sort === 'year') list.sort((a,b)=>b.year-a.year);
+    else if (state.sort === 'rating') list.sort((a,b)=>UI.average(b.id,ctx.ratings)-UI.average(a.id,ctx.ratings));
+    return list;
+  }
+
+  function apply() { state.filtered = sortItems(state.items.filter(filterItem)); render(); syncHash(); return state.filtered; }
+  function getVisible() { return state.filtered.slice(0, state.page * state.pageSize); }
+
+  function render() {
+    if (!els.grid) return;
+    const visible = getVisible();
+    els.grid.setAttribute('aria-busy','false');
+    els.grid.innerHTML = UI.renderGrid(visible, ctx);
+    if (els.loadMore) els.loadMore.classList.toggle('hidden', visible.length >= state.filtered.length);
+    ctx.onCountChange({ total: state.filtered.length, visible: visible.length });
+  }
+
+  function syncHash() {
+    const p = new URLSearchParams();
+    if (state.query) p.set('q', state.query);
+    if (state.gender !== 'all') p.set('g', state.gender);
+    if (state.country !== 'all') p.set('c', state.country);
+    if (state.time !== 'all') p.set('t', state.time);
+    if (state.sort !== 'popular') p.set('s', state.sort);
+    const h = p.toString();
+    const target = h ? '#' + h : location.pathname + location.search;
+    try { history.replaceState(null, '', target); } catch {}
+  }
+
+  function readHash() {
+    const h = location.hash.replace(/^#/, '');
+    if (!h) return;
+    const p = new URLSearchParams(h);
+    const q=p.get('q'); if (q) state.query = q;
+    const g=p.get('g'); if (g) state.gender = g;
+    const c=p.get('c'); if (c) state.country = c;
+    const t=p.get('t'); if (t) state.time = t;
+    const s=p.get('s'); if (s) state.sort = s;
+  }
+
+  function syncUI() {
+    if (els.search) els.search.value = state.query || '';
+    if (els.country) els.country.value = state.country;
+    if (els.sort) els.sort.value = state.sort;
+    document.querySelectorAll('[data-filter]').forEach(b => { const on = b.dataset.filter === state.gender; b.classList.toggle('active', on); b.setAttribute('aria-pressed', on?'true':'false'); });
+    document.querySelectorAll('[data-time]').forEach(b => { const on = b.dataset.time === state.time; b.classList.toggle('active', on); b.setAttribute('aria-pressed', on?'true':'false'); });
+    if (els.searchBar) els.searchBar.classList.toggle('has-value', !!state.query);
+  }
+
+  function initCountries(items) {
+    if (!els.country) return;
+    const countries = [...new Set((items || state.items).map(p=>p.country).filter(x=>x&&x!=='نامشخص'))].sort();
+    els.country.innerHTML = '<option value="all">همه کشورها</option>' + countries.map(c=>`<option value="${UI.esc(c)}">${UI.esc(c)}</option>`).join('');
+    if (state.country !== 'all' && countries.includes(state.country)) els.country.value = state.country;
+    else if (state.country !== 'all') { state.country = 'all'; els.country.value = 'all'; }
+  }
+
+  function setItems(items) { state.items = items || []; state.page = 1; apply(); }
+  function setQuery(q) { state.query = String(q || ''); state.page = 1; apply(); syncUI(); }
+  function setFilter(key, value) { if (!(key in state)) return; state[key] = value; state.page = 1; apply(); syncUI(); }
+  function setPage(p) { state.page = Math.max(1, +p || 1); render(); }
+  function nextPage() { state.page++; render(); }
+  function setPageSize(n) { state.pageSize = Math.max(1, +n || 20); state.page = 1; render(); }
+
+  function reset() { state.query=''; state.gender='all'; state.time='all'; state.country='all'; state.sort='popular'; state.page=1; apply(); syncUI(); }
+
+  function refreshCard(id) {
+    if (!els.grid) return;
+    const card = [...els.grid.querySelectorAll('.perfume-card')].find(c => c.dataset.id === id);
+    if (!card) return;
+    const rl = card.querySelector('.rating-line');
+    if (rl) rl.outerHTML = UI.cardRating(id, ctx.ratings);
+  }
+
+  function getState() { return { ...state, items: state.items, filtered: [...state.filtered] }; }
+
+  function bindEvents() {
+    if (els.search) {
+      els.search.addEventListener('input', e => {
+        const q = e.target.value;
+        if (els.searchBar) els.searchBar.classList.toggle('has-value', !!q);
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => setQuery(q), 120);
+      });
+    }
+    if (els.searchClear) {
+      els.searchClear.addEventListener('click', () => { if (els.search) { els.search.value = ''; els.search.focus(); } setQuery(''); });
+    }
+    if (els.genderFilters) {
+      els.genderFilters.addEventListener('click', e => { const b = e.target.closest('[data-filter]'); if (b) setFilter('gender', b.dataset.filter); });
+    }
+    if (els.country) els.country.addEventListener('change', e => setFilter('country', e.target.value));
+    if (els.sort) els.sort.addEventListener('change', e => setFilter('sort', e.target.value));
+    document.querySelectorAll('[data-time]').forEach(b => b.addEventListener('click', () => setFilter('time', b.dataset.time)));
+    if (els.loadMore) els.loadMore.addEventListener('click', nextPage);
+    if (els.grid) {
+      els.grid.addEventListener('click', e => {
+        const fav = e.target.closest('[data-fav]');
+        if (fav) {
+          const id = fav.dataset.fav;
+          if (ctx.favorites.has(id)) ctx.favorites.delete(id); else ctx.favorites.add(id);
+          ctx.onFavoritesChange([...ctx.favorites]);
+          apply();
+          return;
+        }
+        const c = e.target.closest('[data-id]');
+        if (c) ctx.onOpenDetail(c.dataset.id);
+      });
+      els.grid.addEventListener('keydown', e => {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        const c = e.target.closest('.perfume-card[data-id]');
+        if (c && document.activeElement === c) { e.preventDefault(); ctx.onOpenDetail(c.dataset.id); }
+      });
+    }
+  }
+
+  function init(options) {
+    ctx = Object.assign(ctx, options || {});
+    els.grid = $('#catalogGrid');
+    els.loadMore = $('#loadMore');
+    els.search = $('#searchInput');
+    els.searchBar = els.search ? els.search.closest('.searchbar') : null;
+    els.searchClear = $('#searchClear');
+    els.country = $('#countryFilter');
+    els.sort = $('#sortFilter');
+    els.genderFilters = $('#genderFilters');
+    bindEvents();
+    readHash();
+    syncUI();
+    return global.PFCatalog;
+  }
+
+  function destroy() { els = {}; state.items = []; state.filtered = []; }
+
+  const PFCatalog = { init, destroy, setItems, initCountries, setQuery, setFilter, setPage, nextPage, setPageSize, reset, apply, render, refreshCard, readHash, syncHash, syncUI, getState, getVisible };
+  global.PFCatalog = PFCatalog;
+  if (typeof module !== 'undefined' && module.exports) module.exports = PFCatalog;
+})(typeof window !== 'undefined' ? window : globalThis);
