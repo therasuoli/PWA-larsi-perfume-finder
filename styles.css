@@ -15,3 +15,35 @@
 /* Scento brand slider — v1.2 */
 .brands-section{padding:42px 7% 36px;max-width:1250px;margin:auto;border-bottom:1px solid var(--line);overflow:hidden}.brands-heading{align-items:center}.brands-heading .subtle{margin:5px 0 0}.brand-slider-controls{display:flex;gap:6px;direction:ltr}.brand-slider-controls .icon-btn{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;color:var(--gold);font-size:18px}.brand-slider{display:flex;gap:13px;overflow-x:auto;overflow-y:hidden;padding:5px 2px 17px;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#806744 transparent;direction:rtl}.brand-card{flex:0 0 174px;min-height:148px;scroll-snap-align:start;text-align:right;background:linear-gradient(145deg,#28231b,#191713);border:1px solid #5b4931;border-radius:5px;padding:16px 15px;color:var(--cream);cursor:pointer;display:flex;flex-direction:column;justify-content:space-between;transition:transform .2s,border-color .2s,background .2s}.brand-card:hover{transform:translateY(-3px);border-color:var(--gold);background:linear-gradient(145deg,#342a1d,#1d1913)}.brand-card .brand-country{font-size:10px;color:var(--muted)}.brand-card .brand-name{font-size:14px;font-weight:600;line-height:1.6;margin:8px 0;min-height:44px}.brand-card .brand-count{display:flex;align-items:baseline;gap:5px;border-top:1px solid #ffffff15;padding-top:9px;color:var(--gold)}.brand-card .brand-count b{font:22px Georgia}.brand-card .brand-count span{font-size:10px;color:#c5b9a5}.brand-loading{padding:24px;color:var(--muted);font-size:12px}.brands-attribution{font-size:10px;color:var(--muted);margin:5px 0 0}.brand-card:focus-visible,.brand-slider-controls button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 @media(max-width:560px){.brands-section{padding:32px 5%}.brand-card{flex-basis:155px;min-height:140px}.brands-heading{flex-direction:row;align-items:center}.brands-heading h2{font-size:21px}.brand-slider-controls .icon-btn{width:33px;height:33px}}
+
+
+/* v1.3 — modern glass surfaces, responsive full-catalog UX */
+:root{--bg:#0d1115;--panel:#151c22;--gold:#d7b477;--cream:#f3f0e9;--muted:#a5afb6;--line:#2b3740;--accent:#8ca9a0}
+body{background:radial-gradient(ellipse at 80% -15%,#27352f 0,transparent 38%),var(--bg)}
+.topbar{background:#0d1115eF;border-bottom-color:#ffffff16}
+.hero{background:radial-gradient(ellipse at 75% 45%,#34453d 0,#1c2926 38%,#11191c 78%);border-bottom:1px solid #ffffff12}
+.hero-link,.source-link{color:var(--gold)}
+.perfume-card,.brand-card,.search-wrap,.feature-panel{border-radius:13px;overflow:hidden;box-shadow:0 10px 28px #0002}
+.perfume-card{background:linear-gradient(145deg,#1b252b,#12191e);border-color:#ffffff12}
+.perfume-card:hover{box-shadow:0 15px 34px #0005}
+.perfume-img{background:radial-gradient(circle at 50% 40%,#43564d,#202b2a 70%)}
+.bottle-placeholder{border-radius:12px 12px 20px 20px;background:linear-gradient(110deg,#8d9d8a99,#e0d2ae66,#5b705e99);border-color:#e4d4b188}
+.brand-card{background:linear-gradient(145deg,#26352f,#18221f);border-color:#ffffff19}
+.brand-card:hover{background:linear-gradient(145deg,#31463c,#1d2b25)}
+.chip{border-radius:30px}.chip.active{background:var(--gold)}
+.country-filter{background:#1c272c;color:var(--cream);border:1px solid var(--line);border-radius:30px;padding:7px 13px;font:inherit;font-size:11px;max-width:210px}
+.sync-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:8px 0 15px;flex-wrap:wrap}
+.sync-row span{font-size:10px}.sync-good{color:#9bc9a7}.sync-offline{color:#e5bd79}.sync-pending{color:var(--gold)}
+.catalog-more{display:block;max-width:260px;margin:24px auto 0}.catalog-more.hidden{display:none}
+.detail-card{border-radius:18px;background:linear-gradient(145deg,#1c2928,#171d20);border-color:#62786a66}
+.scent-pyramid{display:flex;flex-direction:column;gap:8px;margin:18px 0 22px;align-items:center}
+.pyramid-level{padding:13px 15px;border:1px solid #ffffff18;border-radius:12px;text-align:center;width:100%;position:relative;overflow:hidden}
+.pyramid-top{width:78%;background:linear-gradient(90deg,#d4b77b22,#d4b77b0a);border-color:#d4b77b66}
+.pyramid-heart{width:89%;background:linear-gradient(90deg,#a6b99d22,#a6b99d0a);border-color:#a6b99d66}
+.pyramid-base{width:100%;background:linear-gradient(90deg,#9aa9ba22,#9aa9ba0a);border-color:#9aa9ba66}
+.pyramid-label{font-size:11px;color:var(--gold);font-weight:700;margin-bottom:8px}
+.pyramid-notes{display:flex;justify-content:center;gap:7px;flex-wrap:wrap}.pyramid-notes span{background:#ffffff0d;border:1px solid #ffffff14;border-radius:20px;padding:4px 9px;font-size:10px}.pyramid-notes small{color:var(--muted)}
+.persian-copy{background:#ffffff08;border-right:3px solid var(--gold);padding:12px 14px;border-radius:8px}
+.detail-meta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.detail-meta span{font-size:10px;background:#ffffff0b;border-radius:20px;padding:5px 10px;color:var(--muted)}
+.original-desc{font-size:11px;color:var(--muted);margin:14px 0}.original-desc summary{cursor:pointer;color:var(--gold)}
+@media(max-width:560px){.sync-row{align-items:flex-start;flex-direction:column;gap:3px}.country-filter{max-width:100%;min-width:160px}.pyramid-top{width:90%}.pyramid-heart{width:95%}.quick-stats{gap:17px}.quick-stats b{font-size:18px}}
