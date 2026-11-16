@@ -1,25 +1,247 @@
 <!doctype html>
 <html lang="fa" dir="rtl" data-theme="dark">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101411"><meta name="description" content="Perfume Finder؛ کشف عطر از بانک اطلاعات Scento"><title>Perfume Finder — کشف دنیای عطر</title>
-<link rel="manifest" href="manifest.webmanifest"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101411">
+<meta name="description" content="Perfume Finder؛ کشف عطر از بانک اطلاعات Scento">
+<title>Perfume Finder — کشف دنیای عطر</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2.1">
 </head>
 <body>
-<div id="onboarding" class="onboarding hidden" aria-modal="true" role="dialog"><div class="onboard-card"><div class="brand-mark">PF</div><p class="eyebrow">SCENT DISCOVERY STUDIO</p><h1>دنیای رایحه‌ها،<br><em>با سلیقه تو</em></h1><p class="muted">عطرها را کشف کن، نت‌ها را بشناس و رایحه محبوبت را پیدا کن.</p><div class="onboard-points"><span>✦ بانک جهانی عطرها</span><span>✦ پیشنهاد رایحه مشابه</span><span>✦ کمد عطر شخصی</span></div><label class="terms"><input id="termsCheck" type="checkbox"><span>شرایط استفاده و رعایت حقوق محتوای Scento را می‌پذیرم.</span></label><button id="startApp" class="btn primary wide" disabled>ورود به Perfume Finder <span>←</span></button><small class="muted">اطلاعات علاقه‌مندی و امتیاز شخصی در همین مرورگر ذخیره می‌شود.</small></div></div>
-<header class="topbar"><a class="wordmark" href="#home"><span class="brand-mark small">PF</span><span>PERFUME <b>FINDER</b></span></a><nav class="desktop-nav"><a href="#catalog">کشف عطرها</a><a href="#brands">برندها</a><a href="#about">درباره ما</a></nav><div class="head-actions"><button id="themeBtn" class="icon-btn" aria-label="تغییر تم">☼</button><button id="settingsBtn" class="icon-btn" aria-label="تنظیمات نمایش">Aa</button><button id="menuBtn" class="icon-btn mobile-only" aria-label="منو">☰</button></div></header>
+
+<!-- ============ Onboarding ============ -->
+<div id="onboarding" class="onboarding hidden" aria-modal="true" role="dialog" aria-labelledby="onboardTitle">
+  <div class="onboard-card">
+    <div class="brand-mark">PF</div>
+    <p class="eyebrow">SCENT DISCOVERY STUDIO</p>
+    <h1 id="onboardTitle">دنیای رایحه‌ها،<br><em>با سلیقه تو</em></h1>
+    <p class="muted">عطرها را کشف کن، نت‌ها را بشناس و رایحه محبوبت را پیدا کن.</p>
+    <div class="onboard-points">
+      <span>✦ بانک جهانی عطرها</span>
+      <span>✦ پیشنهاد رایحه مشابه</span>
+      <span>✦ کمد عطر شخصی</span>
+    </div>
+    <label class="terms">
+      <input id="termsCheck" type="checkbox">
+      <span>شرایط استفاده و رعایت حقوق محتوای Scento را می‌پذیرم.</span>
+    </label>
+    <button id="startApp" class="btn primary wide" disabled>ورود به Perfume Finder <span>←</span></button>
+    <small class="muted">اطلاعات علاقه‌مندی و امتیاز شخصی در همین مرورگر ذخیره می‌شود.</small>
+  </div>
+</div>
+
+<!-- ============ Header ============ -->
+<header class="topbar">
+  <a class="wordmark" href="#home" aria-label="Perfume Finder">
+    <span class="brand-mark small">PF</span>
+    <span>PERFUME <b>FINDER</b></span>
+  </a>
+  <nav class="desktop-nav" aria-label="ناوبری اصلی">
+    <a href="#catalog">کشف عطرها</a>
+    <a href="#brands">برندها</a>
+    <a href="#about">درباره ما</a>
+  </nav>
+  <div class="head-actions">
+    <button id="themeBtn" class="icon-btn" aria-label="تغییر تم">☼</button>
+    <button id="settingsBtn" class="icon-btn" aria-label="تنظیمات نمایش">Aa</button>
+    <button id="menuBtn" class="icon-btn mobile-only" aria-label="منو">☰</button>
+  </div>
+</header>
+
+<!-- ============ Main ============ -->
 <main id="home">
-<section class="hero"><div class="hero-copy"><p class="eyebrow">THE ART OF FRAGRANCE</p><h1>رایحه‌ای که<br><em>داستان توست.</em></h1><p class="hero-sub">هزاران عطر، صدها برند و بی‌نهایت ترکیب برای کشف سلیقه بویایی تو.</p><div class="hero-actions"><a class="btn primary" href="#catalog">شروع جستجو <span>←</span></a><button id="surpriseBtn" class="btn ghost">یک عطر غافلگیرم کن ✦</button></div><div class="hero-stats"><div><b id="perfumeCount">—</b><small>عطر در بانک</small></div><i></i><div><b id="brandCount">—</b><small>برند و خانه عطر</small></div><i></i><div><b>جهانی</b><small>خاستگاه‌ها</small></div></div></div><div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-bottle"><div class="bottle-cap"></div><div class="bottle-neck"></div><div class="bottle-body"><span>PF</span><small>EAU DE PARFUM</small></div></div><div class="floating-note note-a">BERGAMOT</div><div class="floating-note note-b">AMBER · OUD</div><div class="hero-glow"></div></div></section>
-<section class="section" id="catalog"><div class="section-head"><div><p class="eyebrow">THE COLLECTION</p><h2>کشف عطرها</h2><p class="muted">رایحه بعدی خودت را پیدا کن.</p></div><div class="source-pill"><span class="live-dot"></span><span id="sourceStatus">آماده اتصال به Scento</span></div></div>
-<div class="searchbar"><span>⌕</span><input id="searchInput" type="search" placeholder="نام عطر، برند یا نت بویایی را جستجو کن..." autocomplete="off"><kbd>⌘ K</kbd></div>
-<div class="filter-row"><div class="chips" id="genderFilters"><button class="chip active" data-filter="all">همه عطرها</button><button class="chip" data-filter="women">زنانه</button><button class="chip" data-filter="men">مردانه</button><button class="chip" data-filter="unisex">یونیسکس</button></div><select id="countryFilter" aria-label="کشور سازنده"><option value="all">همه کشورها</option></select><select id="sortFilter" aria-label="مرتب‌سازی"><option value="popular">پیشنهادی</option><option value="name">نام عطر</option><option value="year">جدیدترین سال</option><option value="rating">بالاترین امتیاز کاربران</option></select></div>
-<div class="quick-filters"><button class="quick active" data-time="all">همه زمان‌ها</button><button class="quick" data-time="day">☀ روز</button><button class="quick" data-time="night">☾ شب</button><button class="quick" data-time="favorites">♡ علاقه‌مندی‌ها</button></div>
-<div id="catalogGrid" class="perfume-grid"><div class="loading-state"><span class="spinner"></span><p>در حال بارگذاری مجموعه عطرها…</p></div></div><div class="load-row"><button id="loadMore" class="btn ghost hidden">نمایش عطرهای بیشتر</button></div>
-</section>
-<section class="section similar-section" id="similar"><div class="section-head"><div><p class="eyebrow">SCENT MATCHING</p><h2>شاید این‌ها را هم دوست داشته باشی</h2><p class="muted">پیشنهادهایی بر اساس نت‌ها و خانواده‌های بویایی مشترک.</p></div><div class="slider-controls"><button id="similarPrev" aria-label="قبلی">←</button><button id="similarNext" aria-label="بعدی">→</button></div></div><div id="similarTrack" class="similar-track"><div class="empty-similar">ابتدا یک عطر را انتخاب کن تا پیشنهادهای مشابه نمایش داده شوند.</div></div></section>
-<section class="section brands-section" id="brands"><div class="section-head"><div><p class="eyebrow">HOUSES & HERITAGE</p><h2>خانه‌های عطر</h2><p class="muted">برندها را بر اساس تعداد عطرهای ثبت‌شده کشف کن.</p></div><div class="slider-controls"><button id="brandPrev" aria-label="قبلی">←</button><button id="brandNext" aria-label="بعدی">→</button></div></div><div id="brandTrack" class="brand-track"></div></section>
-<section class="about-band" id="about"><div><p class="eyebrow">ABOUT THE PROJECT</p><h2>عطر فقط یک رایحه نیست؛<br><em>امضای نامرئی توست.</em></h2><p>Perfume Finder یک تجربه مستقل برای جستجو، شناخت و مقایسه عطرهاست که از داده‌های عمومی Scento برای اطلاعات پایه استفاده می‌کند.</p></div><div class="about-seal">PF<span>EST. 2026</span></div></section>
-</main><footer><div class="footer-brand">PERFUME <b>FINDER</b></div><p>طراحی و توسعه: <strong>هادی رسولی · Hadi Rasouli</strong></p><small>اطلاعات عطر از Scento و منابع داده معرفی‌شده؛ تصاویر متعلق به صاحبان حقوق مربوطه است.</small><small>© 2026 Perfume Finder</small></footer>
-<div id="detailModal" class="modal hidden" role="dialog" aria-modal="true"><div class="modal-backdrop" data-close></div><article class="detail-panel"><button class="close-btn" data-close aria-label="بستن">×</button><div id="detailContent"></div></article></div>
-<div id="settingsModal" class="modal hidden" role="dialog" aria-modal="true"><div class="modal-backdrop" data-close></div><article class="settings-panel"><button class="close-btn" data-close>×</button><p class="eyebrow">PERSONALIZE</p><h2>تنظیمات نمایش</h2><label>اندازه نوشته <output id="fontValue">۱۰۰٪</output><input id="fontSize" type="range" min="90" max="120" value="100" step="5"></label><p>انتخاب تم</p><div class="theme-options"><button data-theme-choice="dark">شب تیره</button><button data-theme-choice="light">روز روشن</button><button data-theme-choice="sand">شن و چرم</button></div><p class="muted tiny">امتیازها و علاقه‌مندی‌ها در حافظه همین مرورگر ذخیره می‌شوند.</p></article></div>
-<div id="toast" class="toast" role="status"></div><script src="app.js"></script>
-</body></html>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">THE ART OF FRAGRANCE</p>
+      <h1>رایحه‌ای که<br><em>داستان توست.</em></h1>
+      <p class="hero-sub">هزاران عطر، صدها برند و بی‌نهایت ترکیب برای کشف سلیقه بویایی تو.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#catalog">شروع جستجو <span>←</span></a>
+        <button id="surpriseBtn" class="btn ghost" type="button">یک عطر غافلگیرم کن ✦</button>
+      </div>
+      <div class="hero-stats">
+        <div><b id="perfumeCount" aria-live="polite">—</b><small>عطر در بانک</small></div>
+        <i aria-hidden="true"></i>
+        <div><b id="brandCount" aria-live="polite">—</b><small>برند و خانه عطر</small></div>
+        <i aria-hidden="true"></i>
+        <div><b>جهانی</b><small>خاستگاه‌ها</small></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="hero-bottle">
+        <div class="bottle-cap"></div>
+        <div class="bottle-neck"></div>
+        <div class="bottle-body"><span>PF</span><small>EAU DE PARFUM</small></div>
+      </div>
+      <div class="floating-note note-a">BERGAMOT</div>
+      <div class="floating-note note-b">AMBER · OUD</div>
+      <div class="hero-glow"></div>
+    </div>
+  </section>
+
+  <!-- Catalog -->
+  <section class="section" id="catalog">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">THE COLLECTION</p>
+        <h2>کشف عطرها</h2>
+        <p class="muted">رایحه بعدی خودت را پیدا کن.</p>
+      </div>
+      <div class="source-pill">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span id="sourceStatus">آماده اتصال به Scento</span>
+      </div>
+    </div>
+
+    <div class="searchbar" role="search">
+      <span aria-hidden="true">⌕</span>
+      <input id="searchInput" type="search" placeholder="نام عطر، برند یا نت بویایی را جستجو کن..." autocomplete="off" aria-label="جستجوی عطر">
+      <button id="searchClear" class="search-clear" aria-label="پاک کردن جستجو" type="button">×</button>
+      <kbd aria-hidden="true">⌘ K</kbd>
+    </div>
+
+    <div class="filter-row">
+      <div class="chips" id="genderFilters" role="group" aria-label="فیلتر جنسیت">
+        <button class="chip active" data-filter="all" aria-pressed="true">همه عطرها</button>
+        <button class="chip" data-filter="women" aria-pressed="false">زنانه</button>
+        <button class="chip" data-filter="men" aria-pressed="false">مردانه</button>
+        <button class="chip" data-filter="unisex" aria-pressed="false">یونیسکس</button>
+      </div>
+      <select id="countryFilter" aria-label="کشور سازنده">
+        <option value="all">همه کشورها</option>
+      </select>
+      <select id="sortFilter" aria-label="مرتب‌سازی">
+        <option value="popular">پیشنهادی</option>
+        <option value="name">نام عطر</option>
+        <option value="year">جدیدترین سال</option>
+        <option value="rating">بالاترین امتیاز</option>
+      </select>
+    </div>
+
+    <div class="quick-filters" role="group" aria-label="فیلتر زمان استفاده">
+      <button class="quick active" data-time="all" aria-pressed="true">همه زمان‌ها</button>
+      <button class="quick" data-time="day" aria-pressed="false">☀ روز</button>
+      <button class="quick" data-time="night" aria-pressed="false">☾ شب</button>
+      <button class="quick" data-time="favorites" aria-pressed="false">♡ علاقه‌مندی‌ها</button>
+    </div>
+
+    <div id="catalogGrid" class="perfume-grid" aria-busy="true" aria-live="polite">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <div class="load-row">
+      <button id="loadMore" class="btn ghost hidden" type="button">نمایش عطرهای بیشتر</button>
+    </div>
+  </section>
+
+  <!-- Similar -->
+  <section class="section similar-section" id="similar">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">SCENT MATCHING</p>
+        <h2>شاید این‌ها را هم دوست داشته باشی</h2>
+        <p class="muted">پیشنهادهایی بر اساس نت‌ها و خانواده‌های بویایی مشترک.</p>
+      </div>
+      <div class="slider-controls">
+        <button id="similarPrev" aria-label="قبلی" type="button">←</button>
+        <button id="similarNext" aria-label="بعدی" type="button">→</button>
+      </div>
+    </div>
+    <div id="similarTrack" class="similar-track" aria-live="polite">
+      <div class="empty-similar">ابتدا یک عطر را انتخاب کن تا پیشنهادهای مشابه نمایش داده شوند.</div>
+    </div>
+  </section>
+
+  <!-- Brands -->
+  <section class="section brands-section" id="brands">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">HOUSES &amp; HERITAGE</p>
+        <h2>خانه‌های عطر</h2>
+        <p class="muted">برندها را بر اساس تعداد عطرهای ثبت‌شده کشف کن.</p>
+      </div>
+      <div class="slider-controls">
+        <button id="brandPrev" aria-label="قبلی" type="button">←</button>
+        <button id="brandNext" aria-label="بعدی" type="button">→</button>
+      </div>
+    </div>
+    <div id="brandTrack" class="brand-track" aria-live="polite"></div>
+  </section>
+
+  <!-- About -->
+  <section class="about-band" id="about">
+    <div>
+      <p class="eyebrow">ABOUT THE PROJECT</p>
+      <h2>عطر فقط یک رایحه نیست؛<br><em>امضای نامرئی توست.</em></h2>
+      <p>Perfume Finder یک تجربه مستقل برای جستجو، شناخت و مقایسه عطرهاست که از داده‌های عمومی Scento برای اطلاعات پایه استفاده می‌کند.</p>
+    </div>
+    <div class="about-seal" aria-hidden="true">PF<span>EST. 2026</span></div>
+  </section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer>
+  <div class="footer-brand">PERFUME <b>FINDER</b></div>
+  <p>طراحی و توسعه: <strong>هادی رسولی · Hadi Rasouli</strong></p>
+  <small>اطلاعات عطر از Scento و منابع داده معرفی‌شده؛ تصاویر متعلق به صاحبان حقوق مربوطه است.</small>
+  <small>© 2026 Perfume Finder</small>
+</footer>
+
+<!-- ============ Back to top ============ -->
+<button id="backTop" class="back-top" aria-label="بازگشت به بالا" type="button">↑</button>
+
+<!-- ============ Detail Modal ============ -->
+<div id="detailModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="جزئیات عطر">
+  <div class="modal-backdrop" data-close></div>
+  <article class="detail-panel">
+    <button class="close-btn" data-close aria-label="بستن" type="button">×</button>
+    <div id="detailContent"></div>
+  </article>
+</div>
+
+<!-- ============ Settings Modal ============ -->
+<div id="settingsModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="تنظیمات نمایش">
+  <div class="modal-backdrop" data-close></div>
+  <article class="settings-panel">
+    <button class="close-btn" data-close aria-label="بستن" type="button">×</button>
+    <p class="eyebrow">PERSONALIZE</p>
+    <h2>تنظیمات نمایش</h2>
+
+    <label for="fontSize">اندازه نوشته <output id="fontValue" for="fontSize">۱۰۰٪</output></label>
+    <input id="fontSize" type="range" min="90" max="120" value="100" step="5">
+
+    <p>انتخاب تم</p>
+    <div class="theme-options">
+      <button data-theme-choice="dark" type="button">شب تیره</button>
+      <button data-theme-choice="light" type="button">روز روشن</button>
+      <button data-theme-choice="sand" type="button">شن و چرم</button>
+    </div>
+
+    <p class="muted tiny">امتیازها و علاقه‌مندی‌ها در حافظه همین مرورگر ذخیره می‌شوند.</p>
+  </article>
+</div>
+
+<!-- ============ Toast ============ -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- ============ Scripts ============ -->
+<script src="app.js?v=2.1"></script>
+</body>
+</html>
