@@ -2,7 +2,7 @@
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#171512"><meta name="description" content="Perfume Finder؛ کشف دنیای عطرهای فرانسوی و اماراتی">
+<meta name="theme-color" content="#171512"><meta name="description" content="Perfume Finder؛ کشف عطرها از برندها و خاستگاه‌های سراسر جهان">
 <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
 <title>Perfume Finder | کشف رایحه</title>
 </head>
@@ -24,7 +24,7 @@
  </div>
 </div>
 
-<header class="topbar"><button class="icon-btn" id="menuBtn" aria-label="منو">☰</button><a class="brand" href="#"><span>PF</span><b>PERFUME FINDER</b></a><button class="icon-btn" id="aboutBtn" aria-label="درباره ما">ⓘ</button></header>
+<header class="topbar"><button class="icon-btn" id="menuBtn" aria-label="منو">☰</button><a class="brand" href="#"><span>PF</span><b>PERFUME FINDER</b></a><div class="top-actions"><button class="icon-btn theme-toggle" id="themeToggle" aria-label="تغییر حالت شب و روز" title="حالت شب و روز">☼</button><button class="icon-btn" id="aboutBtn" aria-label="درباره ما">ⓘ</button></div></header>
 <main id="app" class="hidden">
  <section class="hero">
   <div class="hero-copy"><p class="eyebrow">SCENT DISCOVERY · 2026</p><h1>هر رایحه،<br><em>یک داستان</em></h1><p>عطر مناسب حال‌وهوایت را پیدا کن.</p><a href="#catalog" class="hero-link">کشف عطرها <span>←</span></a></div>
@@ -39,18 +39,18 @@
  <section class="section" id="catalog">
   <div class="section-head"><div><p class="eyebrow">THE COLLECTION</p><h2>گنجینه عطرها</h2></div><span class="subtle">جستجو و فیلتر هوشمند</span></div>
   <div class="search-wrap"><span>⌕</span><input id="search" placeholder="نام عطر، برند، نت یا رایحه..." autocomplete="off"><button id="clearSearch">×</button></div>
-  <div class="api-toolbar"><span id="apiStatus" role="status">در حال آماده‌سازی جستجوی آنلاین…</span><button id="loadMore" class="chip hidden">نمایش نتایج بیشتر</button></div>
+  <div class="api-toolbar"><span id="apiStatus" role="status">در حال آماده‌سازی جستجوی آنلاین…</span><button id="loadMore" class="chip hidden">نمایش نتایج بیشتر</button></div><div class="catalog-actions"><button id="favoritesOnly" class="favorites-toggle" type="button">♡ فقط علاقه‌مندی‌ها <span id="favoritesCount">۰</span></button><span class="micro-hint">برای ذخیره عطر، قلب کارت را لمس کن</span></div>
   <p class="api-note">در هر بار باز کردن برنامه، فایل‌های کامل عطرها، برندها و مواد اولیه از Scento تازه‌سازی می‌شوند؛ سپس در حافظه محلی مرورگر ذخیره خواهند شد.</p><div class="sync-row"><span id="syncStatus" class="sync-pending">در انتظار همگام‌سازی…</span><span id="catalogMeta" class="subtle"></span></div>
-  <div class="filters"><button class="chip active" data-filter="all">همه</button><button class="chip" data-filter="french">فرانسوی</button><button class="chip" data-filter="uae">اماراتی</button><button class="chip" data-filter="women">زنانه</button><button class="chip" data-filter="men">مردانه</button><button class="chip" data-filter="unisex">یونیسکس</button><select id="countryFilter" class="country-filter"><option value="all">همه خاستگاه‌ها</option></select></div>
+  <div class="filters"><button class="chip active" data-filter="all">همه</button><button class="chip" data-filter="french">فرانسوی</button><button class="chip" data-filter="uae">اماراتی</button><button class="chip" data-filter="women">زنانه</button><button class="chip" data-filter="men">مردانه</button><button class="chip" data-filter="unisex">یونیسکس</button><select id="countryFilter" class="country-filter"><option value="all">همه خاستگاه‌ها</option></select></div><div class="time-filters" role="group" aria-label="زمان استفاده از عطر"><span>زمان استفاده:</span><button type="button" class="time-chip active" data-time-filter="all">همه</button><button type="button" class="time-chip" data-time-filter="day">روز</button><button type="button" class="time-chip" data-time-filter="night">شب</button></div>
   <div id="perfumeGrid" class="perfume-grid"></div><button id="catalogMore" class="btn btn-gold catalog-more hidden">نمایش عطرهای بیشتر</button>
   <p id="emptyState" class="empty hidden">عطری با این مشخصات پیدا نشد.</p>
  </section>
  <section class="feature-panel"><div><p class="eyebrow">FIND YOUR MATCH</p><h2>رایحه‌ای را دوست داری؟</h2><p>یک عطر را انتخاب کن تا پیشنهادهای مشابه بر اساس نت‌ها و ساختار رایحه نمایش داده شوند.</p></div><a href="#catalog" class="outline-link">انتخاب عطر <span>←</span></a></section>
  <section class="section"><div class="section-head"><div><p class="eyebrow">OUR PHILOSOPHY</p><h2>درباره Perfume Finder</h2></div></div><p class="about-copy">یک راهنمای جهانی برای شناخت عطرها از خاستگاه‌ها و برندهای گوناگون؛ با بانک اطلاعاتی محلی، جستجوی سریع، ترجمه فارسی توضیحات و نمایش شماتیک هرم رایحه.</p></section>
 </main>
-<footer><div class="footer-brand">PF <span>PERFUME FINDER</span></div><p>کشف کن، مقایسه کن، رایحه خودت را پیدا کن.</p><div class="footer-line"></div><small>طراحی و توسعه: <b>هادی رسولی</b> · Hadi Rasouli</small></footer>
-<div id="drawer" class="drawer hidden"><button id="closeDrawer" class="icon-btn">×</button><p class="eyebrow">MENU</p><a href="#catalog">همه عطرها</a><a href="#catalog" data-jump="french">عطرهای فرانسوی</a><a href="#catalog" data-jump="uae">عطرهای اماراتی</a><a href="#aboutBtn" id="drawerAbout">درباره ما</a><small>Perfume Finder · v1.1</small></div>
+<footer><div class="footer-brand">PF <span>PERFUME FINDER</span></div><p>کشف کن، مقایسه کن، رایحه خودت را پیدا کن.</p><div class="footer-line"></div><small>تصاویر محصول از صفحات Scento استخراج شده‌اند؛ حقوق تصاویر متعلق به صاحبان آن‌هاست.</small><br><small>طراحی و توسعه: <b>هادی رسولی</b> · Hadi Rasouli</small></footer>
+<div id="drawer" class="drawer hidden"><button id="closeDrawer" class="icon-btn">×</button><p class="eyebrow">MENU</p><a href="#catalog">همه عطرها</a><a href="#catalog" data-jump="french">عطرهای فرانسوی</a><a href="#catalog" data-jump="uae">عطرهای اماراتی</a><a href="#aboutBtn" id="drawerAbout">درباره ما</a><small>Perfume Finder · v1.4</small></div>
 <div id="detailModal" class="modal hidden"><div class="modal-card detail-card"><button class="close-modal" id="closeDetail">×</button><div id="detailContent"></div></div></div>
 <div id="aboutModal" class="modal hidden"><div class="modal-card"><button class="close-modal" id="closeAbout">×</button><p class="eyebrow">ABOUT US</p><h2>درباره ما</h2><p>Perfume Finder برای جستجو، شناخت و کشف عطرها ساخته شده است. اطلاعات نت‌ها و پیشنهادهای مشابه با اتصال به منبع داده معتبر تکمیل می‌شوند.</p><p>اطلاعات زنده عطرها از Scento Perfume API دریافت می‌شود. API رایگان، فقط خواندنی و بدون نیاز به کلید است.</p><p><a class="source-link" href="https://www.scento.com/developers/perfume-api" target="_blank" rel="noopener">مستندات رسمی API ↗</a></p><p>طراحی و توسعه: <b>هادی رسولی</b></p><button id="aboutOk" class="btn btn-gold">متوجه شدم</button></div></div>
-<script src="app.js"></script><script src="catalog-v13.js"></script>
+<script src="app.js"></script><script src="catalog-v14.js"></script><script src="ui-v14.js"></script>
 </body></html>
