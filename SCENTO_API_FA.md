@@ -135,3 +135,15 @@ async function getNeighbours(slug) {
 ## توسعه‌دهنده
 
 هادی رسولی — Hadi Rasouli
+
+
+## فهرست برندها و شمار عطرها
+
+برای نمایش کامل برندها از endpoint جستجوی API استفاده نمی‌شود؛ API جستجو برای query مشخص طراحی شده است. به‌جای آن، پروژه فایل عمومی `houses.csv` را از مخزن رسمی Scento دریافت می‌کند:
+
+`https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/houses.csv`
+
+ستون `name` نام برند، `country` کشور و `perfume_count` تعداد عطرهای آن برند در snapshot دیتاست را مشخص می‌کند. این روش باعث می‌شود شمار عطرها دقیقاً از رکورد منتشرشده Scento خوانده شود. فهرست در مرورگر cache می‌شود.
+
+مخزن داده: https://github.com/Scento-com/perfume-dataset
+مجوز: CC BY 4.0 — انتساب به Scento الزامی است.
