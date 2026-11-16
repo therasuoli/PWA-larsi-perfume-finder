@@ -1,11 +1,1 @@
-{
-  "name": "Perfume Finder",
-  "short_name": "Perfume Finder",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#0d1115",
-  "theme_color": "#0d1115",
-  "lang": "fa",
-  "dir": "rtl",
-  "icons": []
-}
+{"name":"Perfume Finder","short_name":"Perfume Finder","lang":"fa","dir":"rtl","start_url":"./","display":"standalone","background_color":"#101411","theme_color":"#101411","description":"کشف عطرها و رایحه‌ها"}
