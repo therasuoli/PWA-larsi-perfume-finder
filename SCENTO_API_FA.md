@@ -147,3 +147,21 @@ async function getNeighbours(slug) {
 
 مخزن داده: https://github.com/Scento-com/perfume-dataset
 مجوز: CC BY 4.0 — انتساب به Scento الزامی است.
+
+
+## استخراج تصاویر صفحات محصول — نسخه 1.4
+
+مستندات استخراج تصاویر در این پروژه براساس سورس HTML صفحه نمونه `club-de-nuit-intense-man-armaf` است:
+
+1. `og:image`: تصویر اصلی کمپین.
+2. JSON-LD با نوع `ProductGroup` یا `Product`: آرایه تصاویر و تصاویر variantها؛ اولویت نمایش با URL نسخه `/public` برای بطری و سپس `/campaign` است.
+3. تگ‌های `img` و `source` با `src` یا `srcSet`: اگر URL از مسیر `/_next/image?url=...` باشد، مقدار پارامتر `url` decode می‌شود.
+4. URLهای نسبی `/images/...` به دامنه `https://www.scento.com` تبدیل می‌شوند.
+
+استخراج در `scripts/sync_scento_images.py` انجام می‌شود و خروجی در `data/perfume-images.json` قرار می‌گیرد. مرورگر به‌جای خزش صفحات، این manifest را تازه می‌کند و تصاویر را lazy-load می‌کند. دلیل این جداسازی، جلوگیری از وابستگی به CORS و جلوگیری از خزش انبوه توسط هر بازدیدکننده است.
+
+نمونه‌های استخراج‌شده از صفحه Club de Nuit Intense Man:
+- بطری: `https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/91c07a8f-60ad-4cd3-5e54-91bacc7f4400/public`
+- تصویر کمپین: `https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/dd912dbf-d6e8-4b4d-4d4e-726d8d99fa00/campaign`
+
+توجه: مستندات و نمونه URLها فقط وجود ساختار تصویر در همان صفحه نمونه را تأیید می‌کنند؛ برای سایر عطرها باید اسکریپت استخراج اجرا شود و ممکن است تصاویر در دسترس نباشند. حقوق تصاویر و شرایط استفاده Scento باید رعایت شود.
