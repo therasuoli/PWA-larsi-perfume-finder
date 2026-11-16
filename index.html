@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171512"><meta name="description" content="Perfume Finder؛ کشف دنیای عطرهای فرانسوی و اماراتی">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+<title>Perfume Finder | کشف رایحه</title>
+</head>
+<body>
+<div id="intro" class="intro">
+  <div class="intro-glow"></div><div class="intro-mark">PF</div>
+  <p class="eyebrow">THE ART OF SCENT</p><h1>رایحه‌ای که<br><em>شبیه توست</em></h1>
+  <p class="intro-copy">دنیای عطرهای فرانسوی و اماراتی را کشف کن؛ نت‌ها را بشناس و رایحه‌های مشابه را پیدا کن.</p>
+  <div class="intro-dots"><i></i><i></i><i></i></div>
+  <button id="startIntro" class="btn btn-light">شروع تجربه <span>←</span></button>
+  <small>با ادامه، شرایط استفاده را می‌پذیرم.</small>
+</div>
+
+<div id="terms" class="modal hidden">
+ <div class="modal-card"><div class="modal-icon">✦</div><p class="eyebrow">BEFORE YOU EXPLORE</p><h2>شرایط استفاده</h2>
+ <div class="terms-text"><p>Perfume Finder یک ابزار معرفی و شناخت عطر است. اطلاعات رایحه، نت‌ها و خانواده بویایی ممکن است از منابع داده‌ای بیرونی دریافت شوند.</p><p>تصاویر محصولات ممکن است از وب‌سایت‌های عمومی بارگذاری و در حافظه مرورگر ذخیره شوند. مالکیت تصاویر متعلق به صاحبان آن‌هاست.</p><p>اطلاعات این برنامه جایگزین تست حضوری عطر یا مشاوره تخصصی فروش نیست. برای خرید، اصالت و مشخصات محصول را از فروشنده بررسی کنید.</p></div>
+ <label class="accept"><input type="checkbox" id="acceptTerms"> <span>شرایط استفاده و حریم خصوصی را خواندم و می‌پذیرم.</span></label>
+ <button id="acceptBtn" class="btn btn-gold" disabled>تأیید و ورود</button>
+ </div>
+</div>
+
+<header class="topbar"><button class="icon-btn" id="menuBtn" aria-label="منو">☰</button><a class="brand" href="#"><span>PF</span><b>PERFUME FINDER</b></a><button class="icon-btn" id="aboutBtn" aria-label="درباره ما">ⓘ</button></header>
+<main id="app" class="hidden">
+ <section class="hero">
+  <div class="hero-copy"><p class="eyebrow">SCENT DISCOVERY · 2026</p><h1>هر رایحه،<br><em>یک داستان</em></h1><p>عطر مناسب حال‌وهوایت را پیدا کن.</p><a href="#catalog" class="hero-link">کشف عطرها <span>←</span></a></div>
+  <div class="hero-bottle"><div class="orb"></div><div class="bottle"><div class="bottle-cap"></div><div class="bottle-neck"></div><div class="bottle-body"><span>PARFUM</span><b>ESSENCE</b></div></div></div>
+ </section>
+ <section class="quick-stats"><div><b id="countStat">۱۲+</b><span>نمونه نمایشی</span></div><div><b>FR / UAE</b><span>خاستگاه‌ها</span></div><div><b>3</b><span>گروه رایحه</span></div></section>
+ <section class="section" id="catalog">
+  <div class="section-head"><div><p class="eyebrow">THE COLLECTION</p><h2>گنجینه عطرها</h2></div><span class="subtle">جستجو و فیلتر هوشمند</span></div>
+  <div class="search-wrap"><span>⌕</span><input id="search" placeholder="نام عطر، برند، نت یا رایحه..." autocomplete="off"><button id="clearSearch">×</button></div>
+  <div class="filters"><button class="chip active" data-filter="all">همه</button><button class="chip" data-filter="french">فرانسوی</button><button class="chip" data-filter="uae">اماراتی</button><button class="chip" data-filter="women">زنانه</button><button class="chip" data-filter="men">مردانه</button><button class="chip" data-filter="unisex">یونیسکس</button></div>
+  <div id="perfumeGrid" class="perfume-grid"></div>
+  <p id="emptyState" class="empty hidden">عطری با این مشخصات پیدا نشد.</p>
+ </section>
+ <section class="feature-panel"><div><p class="eyebrow">FIND YOUR MATCH</p><h2>رایحه‌ای را دوست داری؟</h2><p>یک عطر را انتخاب کن تا پیشنهادهای مشابه بر اساس نت‌ها و ساختار رایحه نمایش داده شوند.</p></div><a href="#catalog" class="outline-link">انتخاب عطر <span>←</span></a></section>
+ <section class="section"><div class="section-head"><div><p class="eyebrow">OUR PHILOSOPHY</p><h2>درباره Perfume Finder</h2></div></div><p class="about-copy">یک راهنمای ساده و هوشمند برای شناخت عطرهای فرانسوی و اماراتی؛ از نت‌های آغازین تا رایحه ماندگار پایانی. هدف ما کمک به انتخاب آگاهانه‌تر و کشف رایحه‌های تازه است.</p></section>
+</main>
+<footer><div class="footer-brand">PF <span>PERFUME FINDER</span></div><p>کشف کن، مقایسه کن، رایحه خودت را پیدا کن.</p><div class="footer-line"></div><small>طراحی و توسعه: <b>هادی رسولی</b> · Hadi Rasouli</small></footer>
+<div id="drawer" class="drawer hidden"><button id="closeDrawer" class="icon-btn">×</button><p class="eyebrow">MENU</p><a href="#catalog">همه عطرها</a><a href="#catalog" data-jump="french">عطرهای فرانسوی</a><a href="#catalog" data-jump="uae">عطرهای اماراتی</a><a href="#aboutBtn" id="drawerAbout">درباره ما</a><small>Perfume Finder · v1.0</small></div>
+<div id="detailModal" class="modal hidden"><div class="modal-card detail-card"><button class="close-modal" id="closeDetail">×</button><div id="detailContent"></div></div></div>
+<div id="aboutModal" class="modal hidden"><div class="modal-card"><button class="close-modal" id="closeAbout">×</button><p class="eyebrow">ABOUT US</p><h2>درباره ما</h2><p>Perfume Finder برای جستجو، شناخت و کشف عطرها ساخته شده است. اطلاعات نت‌ها و پیشنهادهای مشابه با اتصال به منبع داده معتبر تکمیل می‌شوند.</p><p>طراحی و توسعه: <b>هادی رسولی</b></p><button id="aboutOk" class="btn btn-gold">متوجه شدم</button></div></div>
+<script src="app.js"></script>
+</body></html>
