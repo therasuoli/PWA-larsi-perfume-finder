@@ -1,0 +1,11 @@
+{
+  "name": "Perfume Finder",
+  "short_name": "Perfume Finder",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#11100e",
+  "theme_color": "#171512",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": []
+}
