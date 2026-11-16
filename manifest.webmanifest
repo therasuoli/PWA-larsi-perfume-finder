@@ -1,29 +1,25 @@
 {
-  "id": "/PWA-larsi-perfume-finder/",
-  "name": "Perfume Finder — کشف دنیای عطر",
+  "name": "Perfume Finder — Personal Scent Wardrobe",
   "short_name": "Perfume Finder",
-  "description": "کشف عطرها، شناخت نت‌ها و پیدا کردن رایحه محبوب بر اساس بانک اطلاعات Scento.",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
-  "orientation": "portrait-primary",
-  "theme_color": "#101411",
   "background_color": "#101411",
-  "categories": ["lifestyle", "shopping", "utilities"],
-  "prefer_related_applications": false,
+  "theme_color": "#101411",
+  "description": "کشف، مقایسه و مدیریت کمد عطر شخصی",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
-  ],
-  "shortcuts": [
-    { "name": "کشف عطرها", "short_name": "کاتالوگ", "url": "./index.html#catalog" },
-    { "name": "علاقه‌مندی‌ها", "short_name": "علاقه‌مندی", "url": "./index.html#t=favorites" },
-    { "name": "خانه‌های عطر", "short_name": "برندها", "url": "./index.html#brands" }
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
   ]
 }
