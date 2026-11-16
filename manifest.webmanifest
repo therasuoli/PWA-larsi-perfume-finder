@@ -3,8 +3,8 @@
   "short_name": "Perfume Finder",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#11100e",
-  "theme_color": "#171512",
+  "background_color": "#0d1115",
+  "theme_color": "#0d1115",
   "lang": "fa",
   "dir": "rtl",
   "icons": []
