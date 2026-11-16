@@ -1,52 +1,137 @@
-# Perfume Finder v2.0 — Final Edition
+# Changelog
 
-وب‌اپلیکیشن فارسی RTL برای جستجو و کشف عطرها؛ توسعه‌دهنده: هادی رسولی / Hadi Rasouli.
+تمام تغییرات مهم این پروژه در این فایل مستند می‌شود.
 
-## قابلیت‌های نسخه نهایی
-- رابط کاربری بازطراحی‌شده با اولویت موبایل، فونت Vazirmatn، اندازه نوشته قابل تنظیم و سه تم شب، روز و شن.
-- انبوردینگ اولیه و پذیرش شرایط استفاده.
-- بانک عطر Scento از دیتاست عمومی `Scento-com/perfume-dataset` با بارگذاری آنلاین CSV و کش آخرین نسخه موفق در مرورگر.
-- اتصال واقعی REST به Scento Perfume API برای جستجوی آنلاین، پرتره و هرم نت عطر، و عطرهای مشابه.
-- اسلایدر عطرهای مشابه با حرکت لمسی، کنترل قبلی/بعدی، نت‌های مشترک و تفاوت رایحه؛ از API همسایه‌های Scento استفاده می‌کند و الگوریتم محلی فقط fallback است.
-- کارت عطر، تصویر بطری و گالری در صورت وجود تصویر در manifest.
-- امتیاز پنج‌ستاره و علاقه‌مندی؛ در این نسخه امتیاز کاربران فقط روی دستگاه و مرورگر خودشان ذخیره می‌شود.
-- فیلتر جنسیت، کشور، روز/شب، برند، جستجو و مرتب‌سازی.
-- PWA و کش فایل‌های اصلی و تصاویر.
+قالب بر اساس [Keep a Changelog](https://keepachangelog.com/fa/1.1.0/) و
+[Semantic Versioning](https://semver.org/lang/fa/).
 
-## منابع زنده
-- Dataset CSV: `https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv`
-- Scento REST API: `https://www.scento.com/api/perfume/v1`
-- API docs / OpenAPI: `https://www.scento.com/developers/perfume-api` و `https://www.scento.com/api/perfume/v1/openapi.json`
+---
 
-در برنامه:
-- جستجو: `GET /search?q={query}&kind=perfume`
-- جزئیات: `GET /perfumes/{slug}`
-- عطرهای مشابه: `GET /perfumes/{slug}/neighbours`
+## [Unreleased]
 
-این API عمومی، فقط خواندنی، بدون API key و دارای CORS باز است. داده‌های Scento انگلیسی هستند؛ رابط کاربری فارسی است و نام نت‌ها در نسخه فعلی با متن اصلی نمایش داده می‌شوند.
+### Planned
+- مجازی‌سازی لیست عطرها برای بانک‌های بزرگ‌تر.
+- صفحهٔ اختصاصی برای هر برند.
+- فیلتر بر اساس خانوادهٔ بویایی.
+- خروجی/ورودی JSON برای کمد شخصی.
+- تست‌های خودکار با Vitest برای `ui-v14.js` و `catalog-v14.js`.
 
-## تصاویر Scento
-فایل `data/perfume-images.json` نگاشت شناسه/slug به تصویر اصلی و گالری را نگه می‌دارد. ساختار استخراج بر اساس سورس HTML نمونه‌ای است که در مستندات پروژه بررسی شده:
-1. JSON-LD از نوع `ProductGroup` و `Product` (تصویر بطری `/public` و تصویر کمپین `/campaign`).
-2. `og:image`.
-3. `img` و `source` با `src` و `srcSet`؛ آدرس‌های `/_next/image?url=...` decode می‌شوند.
+---
 
-برای ساخت یا به‌روزرسانی manifest:
-```bash
-python scripts/sync_scento_images.py --max-pages 5
-python scripts/sync_scento_images.py --delay 1.5
-```
-اسکریپت robots.txt را بررسی می‌کند، درخواست‌ها را ترتیبی و با مکث می‌فرستد، در 403/429 متوقف می‌شود و فایل خروجی را تدریجی ذخیره می‌کند. GitHub Action ماهانه و دستی نیز در `.github/workflows/sync-scento-images.yml` وجود دارد. اجرای خزش کامل در این بسته انجام نشده؛ manifest اولیه فقط شامل نمونه‌ای است که در مستندات کاربر موجود بود.
+## [2.1.0] — 2026-11-16
 
-## امتیاز ستاره‌ای — نکته شفافیت
-Scento API امتیاز کاربران، تعداد review یا رتبه‌بندی جمعی ارائه نمی‌کند. بنابراین برنامه امتیاز ساختگی نشان نمی‌دهد. هر کاربر می‌تواند به هر عطر از ۱ تا ۵ ستاره امتیاز بدهد؛ میانگین و تعداد رأی‌های ذخیره‌شده در همان مرورگر محاسبه می‌شود. برای امتیاز مشترک بین دستگاه‌ها/کاربران باید backend و پایگاه داده جداگانه اضافه شود.
+نسخهٔ «Stability & UX» — تمرکز روی رفع باگ‌های بحرانی، ماژولار کردن کد و بهبود
+دسترسی‌پذیری.
 
-## راه‌اندازی GitHub Pages
-1. محتویات پوشه را در ریشه مخزن قرار بده.
-2. GitHub Pages را روی branch اصلی و پوشه `/root` فعال کن.
-3. سایت را با HTTPS باز کن تا Service Worker فعال شود.
-4. در اولین ورود شرایط را بپذیر؛ دیتاست آنلاین دریافت و در localStorage ذخیره می‌شود.
-5. جستجو و جزئیات عطر از API واقعی Scento به‌روزرسانی می‌شود. اگر API یا دیتاست در دسترس نباشد، آخرین نسخه ذخیره‌شده استفاده می‌شود.
+### Added
+- **ماژول نمایش `ui-v14.js`** (`window.PFUI`): لایهٔ رندر خالص و بدون
+  side-effect، شامل `card`, `similarCard`, `detailHTML`, `starsHTML`,
+  `imgFor`/`imgHTML`, `renderGrid`, `renderSimilarTrack`, `renderBrandTrack`.
+- **ماژول کاتالوگ `catalog-v14.js`** (`window.PFCatalog`): مدیریت فیلتر،
+  مرتب‌سازی، صفحه‌بندی، جستجو و **hash-sync** (`#q=...&g=...&t=...&s=...`).
+- **دکمهٔ پاک کردن جستجو** داخل نوار جستجو (`#searchClear`).
+- **دکمهٔ بازگشت به بالا** (`#backTop`) با نمایش شرطی هنگام اسکرول.
+- **اسکلتون لودینگ** (۸ کارت) در گرید اولیه به‌جای اسپینر خالی.
+- **گالری تصاویر** در مودال جزئیات (اگر در `perfume-images.json` موجود باشد).
+- **میانبر `⌘K / Ctrl+K`** برای فوکوس روی جستجو.
+- **بستن مودال با `Escape`**.
+- **`aria-pressed`** برای چیپ‌ها، دکمه‌های زمان، ستاره‌ها و دکمهٔ علاقه‌مندی.
+- **`aria-live`** روی شمارنده‌ها، گرید کاتالوگ، اسلایدر مشابه‌ها و برندها.
+- **`aria-labelledby`** برای مودال انبوردینگ.
+- **`role="search"` / `role="group"`** برای نوار جستجو و گروه‌های فیلتر.
+- **پشتیبانی کیبورد** (`Enter` / `Space`) برای کارت‌های عطر و مشابه‌ها.
+- **`type="button"`** روی همهٔ دکمه‌های غیر submit.
+- **تایم‌اوت ۸ ثانیه‌ای** برای API Scento با `AbortController`.
+- **`skipWaiting` + `clients.claim`** در Service Worker برای آپدیت سریع.
+- **پیام‌رسانی SW به کلاینت** (`SW_ACTIVATED`) و `CLEAR_IMAGE_CACHE`.
+- **کش جداگانه برای تصاویر** با سقف ۳۰۰ (LRU) و `runtime` با سقف ۸۰.
+- **`manifest.webmanifest`** کامل با `id`, `scope`, `shortcuts`, `screenshots`,
+  آیکون‌های `maskable` و `display_override`.
+- **`styles.css` بازنویسی‌شده** با توکن‌های `--radius`, `--radius-sm`,
+  `--radius-pill`، حالت `:focus-visible` برای همهٔ عناصر تعاملی،
+  `skeleton-card`، `image-gallery`، `back-top`، و `@media print`.
+- **`sync_scento_images.py` بازنویسی‌شده**: retry با backoff، پشتیبانی از
+  `Allow` در `robots.txt`، نوشتن اتمیک، اعتبارسنجی، ذخیرهٔ دوره‌ای هر ۵ صفحه،
+  `--refresh-all`، مدیریت `Ctrl+C` با save، پارس بازگشتی JSON-LD.
+- **`sync-scento-images.yml` بهبودیافته**: نصب وابستگی‌های پایتون، ورودی‌های
+  `max_pages` و `delay`، اعتبارسنجی JSON، `pull --rebase` قبل از push،
+  گزارش diff در `$GITHUB_STEP_SUMMARY`، `concurrency` برای جلوگیری از اجرای
+  هم‌زمان.
 
-## مجوز و حقوق محتوا
-کد این پروژه برای انتشار شخصی/آزمایشی ارائه شده است. مجوز دیتاست و شرایط API را جداگانه بخوانید. مجوز دیتاست الزاماً مجوز بازنشر تصاویر را نمی‌دهد؛ تصاویر متعلق به Scento یا صاحبان حقوق مربوطه‌اند. به API فشار وارد نکنید و کل بانک آن را برای ساخت رقیب کپی نکنید.
+### Fixed
+- **اسلایدر اندازه نوشته** حالا واقعاً کار می‌کند: `--font-scale` روی `body`
+  اعمال می‌شود و متن‌های کلیدی به `em` تبدیل شده‌اند (قبلاً کلاس `large-type`
+  هیچ‌جا اضافه نمی‌شد).
+- **کرش مودال جزئیات** بعد از دریافت داده از API: `applyPortrait` حالا
+  `top`/`heart`/`base`/`season` را با `asNotes` نرمال می‌کند و ورودی‌های
+  رشته‌ای/آبجکتی دیگر صفحه را نمی‌شکنند.
+- **`localStorage` امن**: wrapper `store` با `try/catch` در همه‌جا؛ در حالت
+  Private یا پر شدن سهمیه، صفحه دیگر خالی نمی‌ماند.
+- **نمایش امتیاز شفاف**: «امتیاز تو: X از ۵» به‌جای «X رأی» گمراه‌کننده.
+- **به‌روزرسانی ستاره‌ها** بدون فراخوانی مجدد `openDetail` و بدون هدر رفتن
+  درخواست API (`refreshDetailRating` + `PFCatalog.refreshCard`).
+- **`sortFilter`** حالا صفحه را ریست می‌کند.
+- **خط «خانواده / فصل»** در مودال پس از دریافت داده API به‌روز می‌شود.
+- **`state.selected`** هنگام بستن مودال پاک می‌شود.
+- **منوی موبایل** با کلیک روی لینک بسته می‌شود.
+- **BOM ابتدای CSV** پاک می‌شود (`\uFEFF`).
+- **`id` پایدار** با هش (`brand|name`) وقتی ستون `id` یا `slug` نیست؛
+  علاقه‌مندی‌ها و امتیازها با تغییر ترتیب داده جابه‌جا نمی‌شوند.
+- **شمارندهٔ بانک و برند** دیگر با جستجوی آنلاین باد نمی‌کند
+  (`bankCount` / `brandCount` از `state.items` اصلی جدا شدند).
+- **inline `onerror`** حذف شد و با هندلر سراسری `error` در حالت capture
+  جایگزین شد (سازگار با CSP).
+- **`caches.addAll(CORE)`** با `cache.add` جدا برای هر فایل جایگزین شد تا
+  نبود یک فایل، نصب کل SW را رد نکند.
+- **HTML از cache-first** به **network-first** تغییر کرد تا کاربر نسخهٔ
+  قدیمی را نبیند.
+- **دکمه‌های قبلی/بعدی اسلایدر** در RTL اصلاح شد.
+- **`about-band`** در موبایل به ستون تبدیل می‌شود و محتوا کنار نمی‌زند.
+
+### Changed
+- **`index.html`** بازنویسی شد: ترتیب اسکریپت‌ها (`ui-v14.js` →
+  `catalog-v14.js` → `app.js`)، `?v=2.1` برای cache bust، متاتگ‌های iOS
+  (`apple-touch-icon`, `apple-mobile-web-app-capable`, ...)، و بهبود
+  ساختار ARIA.
+- **`app.js`** به یک لایهٔ نازک تبدیل شد که فقط داده، API، مودال و تم را
+  مدیریت می‌کند — همهٔ توابع رندر به `PFUI` و منطق فیلتر به `PFCatalog`
+  منتقل شدند.
+- **`styles.css`** با محافظت `overflow-x:hidden`، `:focus-visible` سراسری،
+  و `-webkit-text-size-adjust` برای iOS.
+- **نسخهٔ کش‌های SW** از `pf-v2-shell` به `pf-v2.1-{shell,runtime,img}`
+  ارتقا یافت.
+- **`theme-color`** به‌صورت داینامیک با تغییر تم به‌روز می‌شود.
+- **`README.md`** با ساختار جدید فایل‌ها و نکات استقرار هم‌گام شد.
+
+### Removed
+- کلاس بی‌اثر `body.large-type`.
+- هندلر inline `onerror` در `imgHTML`.
+- وابستگی `render()` به فیلتر/مرتب‌سازی مستقیم در `app.js` (به `catalog-v14.js`
+  منتقل شد).
+
+### Security
+- اعتبارسنجی URL تصویر در `imgFor` (فقط `https:` و دامنه‌های مجاز).
+- حذف `javascript:` و `data:` از `src` تصاویر.
+- `history.replaceState` با `try/catch`.
+
+### Accessibility
+- `aria-pressed`, `aria-live`, `aria-busy`, `aria-modal`, `aria-label` روی
+  عناصر تعاملی و شمارنده‌ها.
+- پشتیبانی کامل کیبورد برای ناوبری کارت‌ها.
+- فوکوس روی دکمهٔ بستن هنگام باز شدن مودال.
+- کنتراست بهتر `--muted` روی `--surface` در تم `sand`.
+
+---
+
+## [2.0.0] — Final Edition
+
+### Added
+- بازطراحی کامل UI و تجربه موبایل.
+- افزودن تم‌های Dark / Light / Sand و اندازه فونت قابل تنظیم.
+- انبوردینگ پویا و پذیرش شرایط.
+- اتصال REST واقعی به Scento برای Search، Perfume Portrait و Scent Neighbours.
+- اسلایدر مشابه‌ها با داده‌های Scento و fallback محلی مبتنی بر نت‌های مشترک.
+- امتیازدهی ۵ ستاره محلی و علاقه‌مندی‌های محلی.
+- بارگذاری دیتاست CSV از مخزن رسمی Scento و کش آخرین بانک دریافت‌شده.
+- manifest تصاویر، استخراج‌گر Scento و GitHub Action زمان‌بندی‌شده.
+- PWA و Service Worker.
