@@ -7,6 +7,10 @@
 <meta name="description" content="Perfume Finder؛ کشف عطر از بانک اطلاعات Scento">
 <title>Perfume Finder — کشف دنیای عطر</title>
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Perfume Finder">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,7 +18,6 @@
 </head>
 <body>
 
-<!-- ============ Onboarding ============ -->
 <div id="onboarding" class="onboarding hidden" aria-modal="true" role="dialog" aria-labelledby="onboardTitle">
   <div class="onboard-card">
     <div class="brand-mark">PF</div>
@@ -22,20 +25,17 @@
     <h1 id="onboardTitle">دنیای رایحه‌ها،<br><em>با سلیقه تو</em></h1>
     <p class="muted">عطرها را کشف کن، نت‌ها را بشناس و رایحه محبوبت را پیدا کن.</p>
     <div class="onboard-points">
-      <span>✦ بانک جهانی عطرها</span>
-      <span>✦ پیشنهاد رایحه مشابه</span>
-      <span>✦ کمد عطر شخصی</span>
+      <span>✦ بانک جهانی عطرها</span><span>✦ پیشنهاد رایحه مشابه</span><span>✦ کمد عطر شخصی</span>
     </div>
     <label class="terms">
       <input id="termsCheck" type="checkbox">
       <span>شرایط استفاده و رعایت حقوق محتوای Scento را می‌پذیرم.</span>
     </label>
-    <button id="startApp" class="btn primary wide" disabled>ورود به Perfume Finder <span>←</span></button>
+    <button id="startApp" class="btn primary wide" disabled type="button">ورود به Perfume Finder <span>←</span></button>
     <small class="muted">اطلاعات علاقه‌مندی و امتیاز شخصی در همین مرورگر ذخیره می‌شود.</small>
   </div>
 </div>
 
-<!-- ============ Header ============ -->
 <header class="topbar">
   <a class="wordmark" href="#home" aria-label="Perfume Finder">
     <span class="brand-mark small">PF</span>
@@ -47,16 +47,14 @@
     <a href="#about">درباره ما</a>
   </nav>
   <div class="head-actions">
-    <button id="themeBtn" class="icon-btn" aria-label="تغییر تم">☼</button>
-    <button id="settingsBtn" class="icon-btn" aria-label="تنظیمات نمایش">Aa</button>
-    <button id="menuBtn" class="icon-btn mobile-only" aria-label="منو">☰</button>
+    <button id="themeBtn" class="icon-btn" aria-label="تغییر تم" type="button">☼</button>
+    <button id="settingsBtn" class="icon-btn" aria-label="تنظیمات نمایش" type="button">Aa</button>
+    <button id="menuBtn" class="icon-btn mobile-only" aria-label="منو" type="button">☰</button>
   </div>
 </header>
 
-<!-- ============ Main ============ -->
 <main id="home">
 
-  <!-- Hero -->
   <section class="hero">
     <div class="hero-copy">
       <p class="eyebrow">THE ART OF FRAGRANCE</p>
@@ -88,7 +86,6 @@
     </div>
   </section>
 
-  <!-- Catalog -->
   <section class="section" id="catalog">
     <div class="section-head">
       <div>
@@ -111,10 +108,10 @@
 
     <div class="filter-row">
       <div class="chips" id="genderFilters" role="group" aria-label="فیلتر جنسیت">
-        <button class="chip active" data-filter="all" aria-pressed="true">همه عطرها</button>
-        <button class="chip" data-filter="women" aria-pressed="false">زنانه</button>
-        <button class="chip" data-filter="men" aria-pressed="false">مردانه</button>
-        <button class="chip" data-filter="unisex" aria-pressed="false">یونیسکس</button>
+        <button class="chip active" data-filter="all" aria-pressed="true" type="button">همه عطرها</button>
+        <button class="chip" data-filter="women" aria-pressed="false" type="button">زنانه</button>
+        <button class="chip" data-filter="men" aria-pressed="false" type="button">مردانه</button>
+        <button class="chip" data-filter="unisex" aria-pressed="false" type="button">یونیسکس</button>
       </div>
       <select id="countryFilter" aria-label="کشور سازنده">
         <option value="all">همه کشورها</option>
@@ -128,21 +125,17 @@
     </div>
 
     <div class="quick-filters" role="group" aria-label="فیلتر زمان استفاده">
-      <button class="quick active" data-time="all" aria-pressed="true">همه زمان‌ها</button>
-      <button class="quick" data-time="day" aria-pressed="false">☀ روز</button>
-      <button class="quick" data-time="night" aria-pressed="false">☾ شب</button>
-      <button class="quick" data-time="favorites" aria-pressed="false">♡ علاقه‌مندی‌ها</button>
+      <button class="quick active" data-time="all" aria-pressed="true" type="button">همه زمان‌ها</button>
+      <button class="quick" data-time="day" aria-pressed="false" type="button">☀ روز</button>
+      <button class="quick" data-time="night" aria-pressed="false" type="button">☾ شب</button>
+      <button class="quick" data-time="favorites" aria-pressed="false" type="button">♡ علاقه‌مندی‌ها</button>
     </div>
 
     <div id="catalogGrid" class="perfume-grid" aria-busy="true" aria-live="polite">
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div><div class="skeleton-card"></div>
+      <div class="skeleton-card"></div><div class="skeleton-card"></div>
+      <div class="skeleton-card"></div><div class="skeleton-card"></div>
+      <div class="skeleton-card"></div><div class="skeleton-card"></div>
     </div>
 
     <div class="load-row">
@@ -150,7 +143,6 @@
     </div>
   </section>
 
-  <!-- Similar -->
   <section class="section similar-section" id="similar">
     <div class="section-head">
       <div>
@@ -168,7 +160,6 @@
     </div>
   </section>
 
-  <!-- Brands -->
   <section class="section brands-section" id="brands">
     <div class="section-head">
       <div>
@@ -184,7 +175,6 @@
     <div id="brandTrack" class="brand-track" aria-live="polite"></div>
   </section>
 
-  <!-- About -->
   <section class="about-band" id="about">
     <div>
       <p class="eyebrow">ABOUT THE PROJECT</p>
@@ -196,7 +186,6 @@
 
 </main>
 
-<!-- ============ Footer ============ -->
 <footer>
   <div class="footer-brand">PERFUME <b>FINDER</b></div>
   <p>طراحی و توسعه: <strong>هادی رسولی · Hadi Rasouli</strong></p>
@@ -204,10 +193,8 @@
   <small>© 2026 Perfume Finder</small>
 </footer>
 
-<!-- ============ Back to top ============ -->
 <button id="backTop" class="back-top" aria-label="بازگشت به بالا" type="button">↑</button>
 
-<!-- ============ Detail Modal ============ -->
 <div id="detailModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="جزئیات عطر">
   <div class="modal-backdrop" data-close></div>
   <article class="detail-panel">
@@ -216,32 +203,28 @@
   </article>
 </div>
 
-<!-- ============ Settings Modal ============ -->
 <div id="settingsModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="تنظیمات نمایش">
   <div class="modal-backdrop" data-close></div>
   <article class="settings-panel">
     <button class="close-btn" data-close aria-label="بستن" type="button">×</button>
     <p class="eyebrow">PERSONALIZE</p>
     <h2>تنظیمات نمایش</h2>
-
     <label for="fontSize">اندازه نوشته <output id="fontValue" for="fontSize">۱۰۰٪</output></label>
     <input id="fontSize" type="range" min="90" max="120" value="100" step="5">
-
     <p>انتخاب تم</p>
     <div class="theme-options">
       <button data-theme-choice="dark" type="button">شب تیره</button>
       <button data-theme-choice="light" type="button">روز روشن</button>
       <button data-theme-choice="sand" type="button">شن و چرم</button>
     </div>
-
     <p class="muted tiny">امتیازها و علاقه‌مندی‌ها در حافظه همین مرورگر ذخیره می‌شوند.</p>
   </article>
 </div>
 
-<!-- ============ Toast ============ -->
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-<!-- ============ Scripts ============ -->
+<script src="ui-v14.js?v=14"></script>
+<script src="catalog-v14.js?v=14"></script>
 <script src="app.js?v=2.1"></script>
 </body>
 </html>
