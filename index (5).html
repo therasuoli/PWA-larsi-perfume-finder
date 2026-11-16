@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>عطریاب لارسی</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1c1820">
+<link rel="icon" href="icon.svg">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+<style>
+:root{--bg:#f6efe9;--card:#fff;--ink:#1c1820;--mut:#6d6470;--acc:#b5791c;--line:#e4d8cf;--fs:16px;--ff:Vazirmatn,Tahoma,sans-serif}
+[data-t=dark]{--bg:#1c1820;--card:#27222d;--ink:#f3ebe4;--mut:#a79eaa;--acc:#e0ad54;--line:#3a3340}
+*{box-sizing:border-box}html{font-size:var(--fs)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ff);line-height:1.7;padding-top:env(safe-area-inset-top)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:.5rem;padding:.6rem 1rem}
+header h1{font-size:clamp(1.05rem,3vw,1.4rem);margin:0;flex:1}
+button,.btn{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:.7rem;padding:.4rem .9rem}
+button.p{background:var(--acc);color:#fff;border-color:var(--acc)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+main{max-width:1100px;margin:auto;padding:1rem}
+#q{width:100%;font:inherit;font-size:1.1rem;padding:.9rem 1.1rem;border-radius:1rem;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+.chips{display:flex;gap:.4rem;flex-wrap:wrap;margin:.7rem 0}
+.chip{padding:.2rem .8rem;border-radius:2rem;font-size:.85rem}.chip.on{background:var(--ink);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.8rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:1rem;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;transition:transform .15s}
+.card:hover{transform:translateY(-3px)}
+.ph{aspect-ratio:1;display:grid;place-items:center;text-align:center;padding:.6rem;font-weight:700;color:#fff;background-size:cover;background-position:center}
+.card .b{padding:.6rem .8rem;font-size:.85rem}.card .b b{display:block;font-size:.95rem}
+.mut{color:var(--mut);font-size:.85rem}
+h2{font-size:1.15rem;margin:1.4rem 0 .6rem}
+.row{display:flex;gap:.8rem;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.6rem}.row .card{flex:0 0 150px;scroll-snap-align:start}
+.pyr span{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:2rem;padding:.1rem .8rem;margin:.15rem}
+.err{background:var(--card);border:1px dashed var(--acc);border-radius:1rem;padding:1.2rem;text-align:center}
+footer{text-align:center;padding:1.5rem 1rem 2.5rem;color:var(--mut);font-size:.8rem}
+a{color:var(--acc)}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.6);display:grid;place-items:center;z-index:20;padding:1rem}
+.ov>div{background:var(--card);border-radius:1.2rem;padding:1.4rem;max-width:480px;width:100%;max-height:90vh;overflow:auto}
+#menu{position:fixed;top:0;bottom:0;inset-inline-start:0;width:260px;background:var(--card);z-index:15;padding:1rem;transform:translateX(100%);transition:transform .25s;border-inline-end:1px solid var(--line)}
+#menu.o{transform:none}#menu a{display:block;padding:.6rem 0;text-decoration:none;color:var(--ink);cursor:pointer}
+#toast{position:fixed;bottom:1rem;inset-inline:1rem;margin:auto;max-width:420px;background:var(--ink);color:var(--bg);padding:.7rem 1rem;border-radius:1rem;z-index:30;display:none}
+#ib{position:fixed;bottom:1rem;inset-inline:1rem;margin:auto;max-width:420px;background:var(--card);border:1px solid var(--acc);border-radius:1rem;padding:.8rem 1rem;z-index:25;display:none;gap:.6rem;align-items:center}
+.step{animation:in .35s ease}@keyframes in{from{opacity:0;transform:translateX(-20px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><button id="mb" aria-label="منو">☰</button><h1>عطریاب لارسی</h1></header>
+<nav id="menu"><a data-go="home">خانه</a><a data-go="search">جستجو</a><a data-go="favs">علاقه‌مندی‌ها</a><a data-go="settings">تنظیمات</a><a data-go="about">درباره ما</a><a id="inst">نصب اپلیکیشن</a><a data-go="terms">شرایط استفاده</a></nav>
+<main id="app"></main>
+<footer>Powered by Scento Perfume API — <a href="https://www.scento.com" target="_blank" rel="noopener">scento.com</a><br>داده‌ها از Scento Perfume API (scento.com) دریافت می‌شوند.</footer>
+<div id="toast"></div>
+<div id="ib"><span style="flex:1">این برنامه را نصب کنید</span><button class="p" id="ibgo">نصب</button><button id="ibx">بعداً</button></div>
+<script>
+// ===== Config: change API_BASE here if Scento moves the API =====
+const API_BASE='https://www.scento.com/api/perfume/v1',TTL=6*3600e3;
+const $=s=>document.querySelector(s),app=$('#app');
+const ls={g:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}},s:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
+// ===== Persian dictionary (extend as needed) =====
+const FA={floral:'گلی',woody:'چوبی',oriental:'شرقی',fresh:'تازه',citrus:'مرکباتی',fruity:'میوه‌ای',aromatic:'معطر',gourmand:'شیرین',spicy:'ادویه‌ای',musk:'مشک',amber:'عنبر',vanilla:'وانیل',rose:'گل رز',jasmine:'یاس',sandalwood:'صندل',oud:'عود',bergamot:'برگاموت',lavender:'اسطوخودوس',patchouli:'پچولی',vetiver:'ریشه‌خس',leather:'چرم',tobacco:'تنباکو',iris:'زنبق',lemon:'لیمو',orange:'پرتقال',mint:'نعناع',cedar:'سرو',coffee:'قهوه',men:'مردانه',women:'زنانه',unisex:'یونیسکس',male:'مردانه',female:'زنانه',spring:'بهار',summer:'تابستان',autumn:'پاییز',fall:'پاییز',winter:'زمستان',aquatic:'دریایی',green:'سبز',powdery:'پودری',chypre:'شیپر',fougere:'فوژر',top:'نت بالا',heart:'نت میانی',base:'نت پایه',date:'قرار عاشقانه',office:'محل کار',evening:'شبانه',casual:'روزمره'};
+const fa=s=>FA[String(s).toLowerCase()]||s;
+// ===== API client with TTL cache + error mapping =====
+async function api(path,params={}){
+  const u=new URL(API_BASE+path);Object.entries(params).forEach(([k,v])=>v&&u.searchParams.set(k,v));
+  const key='c:'+u,c=ls.g(key);if(c&&Date.now()-c.t<TTL)return c.d;
+  let r;try{r=await fetch(u)}catch{if(c)return c.d;throw new Error('اتصال اینترنت یا سرویس Scento در دسترس نیست.')}
+  if(r.status===400)throw new Error('ورودی نامعتبر است. عبارت دیگری امتحان کنید.');
+  if(r.status===429)throw new Error('تعداد درخواست‌ها زیاد است؛ کمی بعد دوباره تلاش کنید.');
+  if(!r.ok){if(c)return c.d;throw new Error('خطا در دریافت اطلاعات ('+r.status+').')}
+  const d=await r.json();ls.s(key,{t:Date.now(),d});return d}
+// ===== Defensive response parsing (shape documented as folio/lede/detail/...) =====
+const list=d=>{const x=d?.detail;const a=Array.isArray(x)?x:x?.perfumes||x?.results||x?.items||x?.neighbours||x?.matches||[];return Array.isArray(a)?a:[]};
+const nm=p=>p.name||p.title||p.slug,hs=p=>p.house||p.brand||p.house_name||'',sl=p=>p.slug||p.id;
+const grad=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))%360;return`linear-gradient(135deg,hsl(${h} 45% 35%),hsl(${(h+50)%360} 50% 22%))`};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const card=p=>{const img=p.image||p.image_url||p.thumbnail;return`<div class="card" data-slug="${esc(sl(p))}"><div class="ph" style="background-image:${img?`url('${esc(img)}')`:grad(nm(p))}">${img?'':esc(nm(p))}</div><div class="b"><b>${esc(nm(p))}</b><span class="mut">${esc(hs(p))} ${p.year?'· '+esc(p.year):''}</span> ${p.gender?`<div class="mut">${esc(fa(p.gender))}</div>`:''}</div></div>`};
+const wire=el=>el.querySelectorAll('[data-slug]').forEach(c=>c.onclick=()=>go('p/'+c.dataset.slug));
+const errBox=(e,retry)=>`<div class="err"><p>${esc(e.message)}</p><button class="p" id="rt">تلاش دوباره</button></div>`;
+const cite=d=>d?`<p class="mut">${esc(d.cite||'')} ${d.scento_page?`<a href="${esc(d.scento_page)}" target="_blank" rel="noopener">مشاهده در Scento</a>`:''}</p>`:'';
+const favs=()=>ls.g('favs',[]);
+// ===== Views =====
+const V={
+async home(){app.innerHTML=`<input id="q" placeholder="جستجوی عطر، برند یا نت…" aria-label="جستجو"><div class="chips" id="fc"></div><div id="res"></div>`;
+  chips();const q=$('#q');let t;q.oninput=()=>{clearTimeout(t);t=setTimeout(()=>doSearch(q.value),400)};
+  $('#res').innerHTML='<h2>خانواده‌های بویایی</h2><div id="fam" class="mut">در حال بارگذاری…</div>';
+  try{const d=await api('/families');$('#fam').outerHTML='<div class="chips">'+list(d).map(f=>`<button class="chip" data-f="${esc(f.slug||f.name||f)}">${esc(fa(f.name||f.slug||f))}</button>`).join('')+'</div>'+cite(d);
+   document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{q.value=b.dataset.f;doSearch(b.dataset.f)})}catch(e){$('#fam').innerHTML=errBox(e);$('#rt').onclick=V.home}},
+async p(slug){app.innerHTML='<p class="mut">در حال بارگذاری…</p>';
+  try{const d=await api('/perfumes/'+encodeURIComponent(slug));const p=d.detail||{};const notes=p.notes||{};
+   const pyr=Object.entries(notes).map(([k,v])=>`<h2>${esc(fa(k))}</h2><div class="pyr">${[].concat(v).map(n=>`<span>${esc(fa(n.name||n))}</span>`).join('')}</div>`).join('');
+   const fv=favs().includes(slug);
+   app.innerHTML=`<button onclick="history.back()">← بازگشت</button><div class="ph" style="margin:1rem 0;border-radius:1rem;max-height:260px;background-image:${p.image?`url('${esc(p.image)}')`:grad(nm(p))}">${p.image?'':esc(nm(p))}</div><h1>${esc(nm(p))}</h1><p class="mut">${esc(hs(p))} ${p.year?'· '+esc(p.year):''} ${p.gender?'· '+esc(fa(p.gender)):''}</p><p>${esc(d.lede||'')}</p>
+   <p class="mut">${['family','concentration','longevity','sillage','rating'].filter(k=>p[k]).map(k=>esc(({family:'خانواده',concentration:'غلظت',longevity:'ماندگاری',sillage:'پخش بو',rating:'امتیاز'})[k])+': '+esc(fa(p[k]))).join(' · ')}</p>
+   <button class="p" id="fv">${fv?'حذف از علاقه‌مندی‌ها':'افزودن به علاقه‌مندی‌ها'}</button>${pyr}<h2>عطرهای مشابه</h2><div id="sim" class="mut">…</div>${cite(d)}`;
+   $('#fv').onclick=()=>{const f=favs();ls.s('favs',f.includes(slug)?f.filter(x=>x!==slug):[...f,slug]);V.p(slug)};
+   try{const n=await api('/perfumes/'+encodeURIComponent(slug)+'/neighbours');const L=list(n);$('#sim').outerHTML=L.length?`<div class="row" id="sim">${L.map(card).join('')}</div>`:'<p class="mut">موردی یافت نشد.</p>';wire(app)}catch(e){$('#sim').textContent=e.message}
+  }catch(e){app.innerHTML=errBox(e);$('#rt').onclick=()=>V.p(slug)}},
+async favs(){const f=favs();app.innerHTML='<h2>علاقه‌مندی‌ها</h2>'+(f.length?'<div class="grid" id="g"></div>':'<p class="mut">هنوز عطری ذخیره نکرده‌اید. از صفحه هر عطر آن را اضافه کنید.</p>');
+  const g=$('#g');if(!g)return;const out=await Promise.all(f.map(s=>api('/perfumes/'+s).then(d=>({...d.detail,slug:s})).catch(()=>null)));g.innerHTML=out.filter(Boolean).map(card).join('');wire(g)},
+settings(){const ff=ls.g('ff','Vazirmatn'),dk=ls.g('dark',false);
+  app.innerHTML=`<h2>تنظیمات</h2><p>فونت: <button data-ff="Vazirmatn">وزیرمتن</button> <button data-ff="Tahoma">تاهوما</button></p><p>اندازه متن: <button id="m">−</button> <button id="pl">+</button></p><p><button id="dm">${dk?'حالت روشن':'حالت تیره'}</button></p><p><button id="cl">پاک‌سازی حافظه نهان و داده‌ها</button></p>`;
+  document.querySelectorAll('[data-ff]').forEach(b=>b.onclick=()=>{ls.s('ff',b.dataset.ff);theme()});
+  $('#m').onclick=()=>{ls.s('fs',Math.max(13,ls.g('fs',16)-1));theme()};$('#pl').onclick=()=>{ls.s('fs',Math.min(24,ls.g('fs',16)+1));theme()};
+  $('#dm').onclick=()=>{ls.s('dark',!ls.g('dark',false));theme();V.settings()};
+  $('#cl').onclick=()=>{if(confirm('همه داده‌ها پاک شود؟')){localStorage.clear();location.reload()}}},
+about(){app.innerHTML=`<h2>درباره ما</h2><p><b>توسعه‌دهنده و طراحی:</b> هادی رسولی</p><p><b>به سفارش:</b> فروشگاه تخصصی لارسی — <a href="https://lar30.com" target="_blank" rel="noopener">Lar30.com</a></p><p><b>منبع داده:</b> Scento Perfume API (<a href="https://www.scento.com" target="_blank" rel="noopener">scento.com</a>)<br>داده‌ها از Scento Perfume API (scento.com) دریافت می‌شوند.</p><p>© 2026–1405 — هادی رسولی / فروشگاه لارسی (Lar30.com). All rights reserved.</p><p><a href="#terms">شرایط استفاده</a></p>`},
+terms(){app.innerHTML='<h2>شرایط استفاده</h2>'+TERMS},
+search(){V.home()}};
+const TERMS='<p>این برنامه صرفاً برای کشف و معرفی عطر است. اطلاعات عطرها از Scento Perfume API دریافت می‌شود و ممکن است همیشه دقیق یا کامل نباشد.</p><p>کپی‌برداری انبوه از محتوا یا ساخت کاتالوگ رقیب مجاز نیست. حقوق این برنامه متعلق به هادی رسولی و فروشگاه لارسی است.</p>';
+// ===== Search =====
+let F={};function chips(){const g=[['gender','مردانه','men'],['gender','زنانه','women'],['season','تابستان','summer'],['season','زمستان','winter']];
+  $('#fc').innerHTML=g.map(([k,l,v])=>`<button class="chip ${F[k]===v?'on':''}" data-k="${k}" data-v="${v}">${l}</button>`).join('');
+  document.querySelectorAll('#fc .chip').forEach(b=>b.onclick=()=>{F[b.dataset.k]=F[b.dataset.k]===b.dataset.v?null:b.dataset.v;chips();doSearch($('#q').value)})}
+async function doSearch(v){const R=$('#res');v=v.trim();if(!v)return V.home();
+  const extra=Object.values(F).filter(Boolean).join(' ');R.innerHTML='<p class="mut">در حال جستجو…</p>';
+  try{const d=await api('/search',{q:(v+' '+extra).trim()});const x=d.detail||{};
+   const sec=(t,a,fn)=>a?.length?`<h2>${t}</h2>${fn(a)}`:'';
+   const P=x.perfumes||(Array.isArray(x)?x:x.results)||[];
+   R.innerHTML=sec('عطرها',P,a=>`<div class="grid">${a.map(card).join('')}</div>`)+sec('برندها',x.houses,a=>`<div class="chips">${a.map(h=>`<span class="chip">${esc(h.name||h)}</span>`).join('')}</div>`)+sec('نت‌ها',x.notes||x.materials,a=>`<div class="chips">${a.map(n=>`<span class="chip">${esc(fa(n.name||n))}</span>`).join('')}</div>`)+(P.length||x.houses?.length||x.notes?.length?'':'<p class="mut">نتیجه‌ای یافت نشد. عبارت دیگری را امتحان کنید.</p>')+cite(d);wire(R)}
+  catch(e){R.innerHTML=errBox(e);$('#rt').onclick=()=>doSearch(v)}}
+// ===== Router, theme, menu =====
+function go(h){location.hash=h}
+function route(){const h=location.hash.slice(1)||'home';$('#menu').classList.remove('o');scrollTo(0,0);
+  pv();if(h.startsWith('p/'))V.p(h.slice(2));else(V[h]||V.home)()}
+addEventListener('hashchange',route);
+function theme(){const r=document.documentElement;r.dataset.t=ls.g('dark',false)?'dark':'light';r.style.setProperty('--fs',ls.g('fs',16)+'px');r.style.setProperty('--ff',`${ls.g('ff','Vazirmatn')},Tahoma,sans-serif`)}
+$('#mb').onclick=()=>$('#menu').classList.toggle('o');
+document.querySelectorAll('[data-go]').forEach(a=>a.onclick=()=>go(a.dataset.go));
+// ===== PWA install =====
+let dp=null;const toast=m=>{const t=$('#toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',4000)};
+addEventListener('beforeinstallprompt',e=>{e.preventDefault();dp=e;toast('این برنامه قابل نصب است!');setTimeout(banner,30000)});
+function pv(){ls.s('pv',ls.g('pv',0)+1);if(ls.g('pv',0)>=2)banner()}
+function banner(){if(dp&&!ls.g('ibx',false))$('#ib').style.display='flex'}
+async function install(){if(!dp)return toast('از منوی مرورگر گزینه «افزودن به صفحه اصلی» را بزنید.');dp.prompt();await dp.userChoice;dp=null;$('#ib').style.display='none'}
+$('#ibgo').onclick=install;$('#inst').onclick=install;$('#ibx').onclick=()=>{ls.s('ibx',true);$('#ib').style.display='none'};
+if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+// ===== First launch: terms -> onboarding =====
+function overlay(h){const o=document.createElement('div');o.className='ov';o.innerHTML='<div>'+h+'</div>';document.body.append(o);return o}
+function onboard(){const S=[['جستجوی هوشمند','نام عطر، برند یا نت را بنویسید تا نتایج دسته‌بندی‌شده ببینید.'],['عطرهای مشابه','در صفحه هر عطر، گزینه‌های نزدیک به آن را پیدا کنید.'],['نصب اپلیکیشن','از منو برنامه را روی صفحه اصلی نصب کنید.'],['تنظیمات','فونت، اندازه متن و حالت تیره را تغییر دهید.']];let i=0;
+  const o=overlay('');const draw=()=>{o.firstChild.innerHTML=`<div class="step"><h2>${S[i][0]}</h2><p>${S[i][1]}</p><p class="mut">${i+1} / ${S.length}</p></div><button id="sk">رد کردن</button> <button class="p" id="nx">${i<S.length-1?'بعدی':'شروع'}</button>`;
+   $('#sk').onclick=done;$('#nx').onclick=()=>i<S.length-1?(i++,draw()):done()};const done=()=>{ls.s('ob',true);o.remove()};draw()}
+function start(){theme();route();if(!ls.g('terms',false)){const o=overlay(`<h2>شرایط استفاده</h2>${TERMS}<label><input type="checkbox" id="ac"> شرایط را می‌پذیرم</label><p><button class="p" id="go" disabled>ادامه</button></p>`);
+  $('#ac').onchange=e=>$('#go').disabled=!e.target.checked;$('#go').onclick=()=>{ls.s('terms',true);o.remove();if(!ls.g('ob',false))onboard()}}else if(!ls.g('ob',false))onboard()}
+start();
+</script>
+</body>
+</html>
