@@ -57,7 +57,7 @@ const API_BASE='https://www.scento.com/api/perfume/v1',TTL=6*3600e3;
 const $=s=>document.querySelector(s),app=$('#app');
 const ls={g:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}},s:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
 // ===== Persian dictionary (extend as needed) =====
-const FA={floral:'گلی',woody:'چوبی',oriental:'شرقی',fresh:'تازه',citrus:'مرکباتی',fruity:'میوه‌ای',aromatic:'معطر',gourmand:'شیرین',spicy:'ادویه‌ای',musk:'مشک',amber:'عنبر',vanilla:'وانیل',rose:'گل رز',jasmine:'یاس',sandalwood:'صندل',oud:'عود',bergamot:'برگاموت',lavender:'اسطوخودوس',patchouli:'پچولی',vetiver:'ریشه‌خس',leather:'چرم',tobacco:'تنباکو',iris:'زنبق',lemon:'لیمو',orange:'پرتقال',mint:'نعناع',cedar:'سرو',coffee:'قهوه',men:'مردانه',women:'زنانه',unisex:'یونیسکس',male:'مردانه',female:'زنانه',spring:'بهار',summer:'تابستان',autumn:'پاییز',fall:'پاییز',winter:'زمستان',aquatic:'دریایی',green:'سبز',powdery:'پودری',chypre:'شیپر',fougere:'فوژر',top:'نت بالا',heart:'نت میانی',base:'نت پایه',date:'قرار عاشقانه',office:'محل کار',evening:'شبانه',casual:'روزمره'};
+const FA={'wood & root':'چوب و ریشه','spice route':'مسیر ادویه','petal garden':'باغ گلبرگ','amber & resin':'عنبر و رزین','eau de parfum':'ادو پرفیوم','eau de toilette':'ادو تویلت',day:'روز',apple:'سیب',cardamom:'هل',violet:'بنفشه',geranium:'شمعدانی',praline:'پرالین','guaiac wood':'چوب گایاک',pepper:'فلفل',cinnamon:'دارچین',saffron:'زعفران',incense:'کندر',ambroxan:'آمبروکسان',cedarwood:'چوب سرو',floral:'گلی',woody:'چوبی',oriental:'شرقی',fresh:'تازه',citrus:'مرکباتی',fruity:'میوه‌ای',aromatic:'معطر',gourmand:'شیرین',spicy:'ادویه‌ای',musk:'مشک',amber:'عنبر',vanilla:'وانیل',rose:'گل رز',jasmine:'یاس',sandalwood:'صندل',oud:'عود',bergamot:'برگاموت',lavender:'اسطوخودوس',patchouli:'پچولی',vetiver:'ریشه‌خس',leather:'چرم',tobacco:'تنباکو',iris:'زنبق',lemon:'لیمو',orange:'پرتقال',mint:'نعناع',cedar:'سرو',coffee:'قهوه',men:'مردانه',women:'زنانه',unisex:'یونیسکس',male:'مردانه',female:'زنانه',spring:'بهار',summer:'تابستان',autumn:'پاییز',fall:'پاییز',winter:'زمستان',aquatic:'دریایی',green:'سبز',powdery:'پودری',chypre:'شیپر',fougere:'فوژر',top:'نت بالا',heart:'نت میانی',base:'نت پایه',date:'قرار عاشقانه',office:'محل کار',evening:'شبانه',casual:'روزمره'};
 const fa=s=>FA[String(s).toLowerCase()]||s;
 // ===== API client with TTL cache + error mapping =====
 async function api(path,params={}){
@@ -68,37 +68,52 @@ async function api(path,params={}){
   if(r.status===429)throw new Error('تعداد درخواست‌ها زیاد است؛ کمی بعد دوباره تلاش کنید.');
   if(!r.ok){if(c)return c.d;throw new Error('خطا در دریافت اطلاعات ('+r.status+').')}
   const d=await r.json();ls.s(key,{t:Date.now(),d});return d}
-// ===== Defensive response parsing (shape documented as folio/lede/detail/...) =====
-const list=d=>{const x=d?.detail;const a=Array.isArray(x)?x:x?.perfumes||x?.results||x?.items||x?.neighbours||x?.matches||[];return Array.isArray(a)?a:[]};
-const nm=p=>p.name||p.title||p.slug,hs=p=>p.house||p.brand||p.house_name||'',sl=p=>p.slug||p.id;
+// ===== Response parsing (shapes verified against Scento docs) =====
+const first=d=>{const x=d?.detail;if(!x)return[];if(Array.isArray(x))return x;for(const k of['matches','neighbours','perfumes','picks','items','results','families','houses'])if(Array.isArray(x[k]))return x[k];for(const v of Object.values(x))if(Array.isArray(v)&&v.length&&typeof v[0]==='object')return v;return[]};
+const slugOf=p=>{const m=(p.page||p.url||'').match(/\/perfumes\/([^/?#]+)/);return m?m[1]:''};
+const nm=p=>p.name||p.title||'',hs=p=>p.house||'';
 const grad=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))%360;return`linear-gradient(135deg,hsl(${h} 45% 35%),hsl(${(h+50)%360} 50% 22%))`};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const card=p=>{const img=p.image||p.image_url||p.thumbnail;return`<div class="card" data-slug="${esc(sl(p))}"><div class="ph" style="background-image:${img?`url('${esc(img)}')`:grad(nm(p))}">${img?'':esc(nm(p))}</div><div class="b"><b>${esc(nm(p))}</b><span class="mut">${esc(hs(p))} ${p.year?'· '+esc(p.year):''}</span> ${p.gender?`<div class="mut">${esc(fa(p.gender))}</div>`:''}</div></div>`};
-const wire=el=>el.querySelectorAll('[data-slug]').forEach(c=>c.onclick=()=>go('p/'+c.dataset.slug));
-const errBox=(e,retry)=>`<div class="err"><p>${esc(e.message)}</p><button class="p" id="rt">تلاش دوباره</button></div>`;
-const cite=d=>d?`<p class="mut">${esc(d.cite||'')} ${d.scento_page?`<a href="${esc(d.scento_page)}" target="_blank" rel="noopener">مشاهده در Scento</a>`:''}</p>`:'';
+// Scento has no images: styled gradient placeholder (per spec)
+const card=p=>`<div class="card" data-n="${esc(nm(p))}" data-s="${esc(slugOf(p))}"><div class="ph" style="background-image:${grad(nm(p)+hs(p))}">${esc(nm(p))}</div><div class="b"><b>${esc(nm(p))}</b><span class="mut">${esc(hs(p))}</span>${p.family?`<div class="mut">${esc(fa(p.family))}</div>`:''}${p.shared?.length?`<div class="mut">مشترک: ${p.shared.map(x=>esc(fa(x))).join('، ')}</div>`:''}</div></div>`;
+const wire=el=>el.querySelectorAll('[data-n]').forEach(c=>c.onclick=()=>go('p/'+encodeURIComponent(c.dataset.n)+'/'+encodeURIComponent(c.dataset.s)));
+const errBox=e=>`<div class="err"><p>${esc(e.message)}</p><button class="p" id="rt">تلاش دوباره</button></div>`;
+const cite=d=>d?`<p class="mut">${esc(d.cite||'')} ${d.scento_page?.url?`· <a href="${esc(d.scento_page.url)}" target="_blank" rel="noopener">مشاهده در Scento</a>`:''}</p>`:'';
 const favs=()=>ls.g('favs',[]);
+const tags=a=>'<div class="pyr">'+(a||[]).map(n=>`<span>${esc(fa(n))}</span>`).join('')+'</div>';
+const OCC=[['date-night','قرار عاشقانه'],['office','محل کار'],['summer-days','روزهای تابستان'],['weekend','آخر هفته'],['wedding','عروسی'],['everyday','روزمره']];
+const FAM_SLUG=f=>f.slug||String(f.name||f.family||f).toLowerCase().replace(/&/g,'and').replace(/\s+/g,'-');
 // ===== Views =====
 const V={
-async home(){app.innerHTML=`<input id="q" placeholder="جستجوی عطر، برند یا نت…" aria-label="جستجو"><div class="chips" id="fc"></div><div id="res"></div>`;
+async home(){app.innerHTML=`<input id="q" placeholder="جستجوی عطر، برند یا نت (انگلیسی)…" aria-label="جستجو" value="${esc(S.q)}"><div class="chips" id="fc"></div><div id="res"></div>`;
   chips();const q=$('#q');let t;q.oninput=()=>{clearTimeout(t);t=setTimeout(()=>doSearch(q.value),400)};
-  $('#res').innerHTML='<h2>خانواده‌های بویایی</h2><div id="fam" class="mut">در حال بارگذاری…</div>';
-  try{const d=await api('/families');$('#fam').outerHTML='<div class="chips">'+list(d).map(f=>`<button class="chip" data-f="${esc(f.slug||f.name||f)}">${esc(fa(f.name||f.slug||f))}</button>`).join('')+'</div>'+cite(d);
-   document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{q.value=b.dataset.f;doSearch(b.dataset.f)})}catch(e){$('#fam').innerHTML=errBox(e);$('#rt').onclick=V.home}},
-async p(slug){app.innerHTML='<p class="mut">در حال بارگذاری…</p>';
-  try{const d=await api('/perfumes/'+encodeURIComponent(slug));const p=d.detail||{};const notes=p.notes||{};
-   const pyr=Object.entries(notes).map(([k,v])=>`<h2>${esc(fa(k))}</h2><div class="pyr">${[].concat(v).map(n=>`<span>${esc(fa(n.name||n))}</span>`).join('')}</div>`).join('');
-   const fv=favs().includes(slug);
-   app.innerHTML=`<button onclick="history.back()">← بازگشت</button><div class="ph" style="margin:1rem 0;border-radius:1rem;max-height:260px;background-image:${p.image?`url('${esc(p.image)}')`:grad(nm(p))}">${p.image?'':esc(nm(p))}</div><h1>${esc(nm(p))}</h1><p class="mut">${esc(hs(p))} ${p.year?'· '+esc(p.year):''} ${p.gender?'· '+esc(fa(p.gender)):''}</p><p>${esc(d.lede||'')}</p>
-   <p class="mut">${['family','concentration','longevity','sillage','rating'].filter(k=>p[k]).map(k=>esc(({family:'خانواده',concentration:'غلظت',longevity:'ماندگاری',sillage:'پخش بو',rating:'امتیاز'})[k])+': '+esc(fa(p[k]))).join(' · ')}</p>
-   <button class="p" id="fv">${fv?'حذف از علاقه‌مندی‌ها':'افزودن به علاقه‌مندی‌ها'}</button>${pyr}<h2>عطرهای مشابه</h2><div id="sim" class="mut">…</div>${cite(d)}`;
-   $('#fv').onclick=()=>{const f=favs();ls.s('favs',f.includes(slug)?f.filter(x=>x!==slug):[...f,slug]);V.p(slug)};
-   try{const n=await api('/perfumes/'+encodeURIComponent(slug)+'/neighbours');const L=list(n);$('#sim').outerHTML=L.length?`<div class="row" id="sim">${L.map(card).join('')}</div>`:'<p class="mut">موردی یافت نشد.</p>';wire(app)}catch(e){$('#sim').textContent=e.message}
-  }catch(e){app.innerHTML=errBox(e);$('#rt').onclick=()=>V.p(slug)}},
-async favs(){const f=favs();app.innerHTML='<h2>علاقه‌مندی‌ها</h2>'+(f.length?'<div class="grid" id="g"></div>':'<p class="mut">هنوز عطری ذخیره نکرده‌اید. از صفحه هر عطر آن را اضافه کنید.</p>');
-  const g=$('#g');if(!g)return;const out=await Promise.all(f.map(s=>api('/perfumes/'+s).then(d=>({...d.detail,slug:s})).catch(()=>null)));g.innerHTML=out.filter(Boolean).map(card).join('');wire(g)},
-settings(){const ff=ls.g('ff','Vazirmatn'),dk=ls.g('dark',false);
-  app.innerHTML=`<h2>تنظیمات</h2><p>فونت: <button data-ff="Vazirmatn">وزیرمتن</button> <button data-ff="Tahoma">تاهوما</button></p><p>اندازه متن: <button id="m">−</button> <button id="pl">+</button></p><p><button id="dm">${dk?'حالت روشن':'حالت تیره'}</button></p><p><button id="cl">پاک‌سازی حافظه نهان و داده‌ها</button></p>`;
+  if(S.q)return doSearch(S.q);
+  $('#res').innerHTML=`<h2>مناسب چه موقعیتی؟</h2><div class="chips">${OCC.map(([k,l])=>`<button class="chip" data-o="${k}">${l}</button>`).join('')}</div><h2>خانواده‌های بویایی</h2><div id="fam" class="mut">در حال بارگذاری…</div>`;
+  document.querySelectorAll('[data-o]').forEach(b=>b.onclick=()=>go('edit/'+b.dataset.o));
+  try{const d=await api('/families');$('#fam').outerHTML='<div class="chips">'+first(d).map(f=>`<button class="chip" data-f="${esc(FAM_SLUG(f))}">${esc(fa(f.name||f.family||f))}</button>`).join('')+'</div>'+cite(d);
+   document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>go('fam/'+b.dataset.f))}catch(e){$('#fam').innerHTML=errBox(e);$('#rt').onclick=V.home}},
+async list(path,title){app.innerHTML='<p class="mut">در حال بارگذاری…</p>';
+  try{const d=await api(path);app.innerHTML=`<button onclick="history.back()">← بازگشت</button><h2>${esc(title)}</h2><p>${esc(d.lede||'')}</p><div class="grid" id="g">${first(d).map(card).join('')}</div>${cite(d)}`;wire(app)}catch(e){app.innerHTML=errBox(e);$('#rt').onclick=()=>V.list(path,title)}},
+edit(o){V.list('/edits/'+o,(OCC.find(x=>x[0]===o)||[0,o])[1])},
+fam(f){V.list('/families/'+f,fa(f.replace(/-/g,' ')))},
+async note(m){app.innerHTML='<p class="mut">…</p>';
+  try{const d=await api('/materials/'+encodeURIComponent(m));const x=d.detail||{};
+   app.innerHTML=`<button onclick="history.back()">← بازگشت</button><h1>${esc(fa(x.name||m))}</h1><p>${esc(d.lede||'')}</p><p class="mut">${x.natural_or_synthetic?(x.natural_or_synthetic==='synthetic'?'مصنوعی':'طبیعی'):''}</p>${x.pairs_well_with?.length?'<h2>هم‌نشین خوب</h2>'+tags(x.pairs_well_with):''}${x.showcased_in?.length?`<h2>عطرهای دارای این نت</h2><div class="grid">${x.showcased_in.map(card).join('')}</div>`:''}${cite(d)}`;wire(app)}catch(e){app.innerHTML=errBox(e);$('#rt').onclick=()=>V.note(m)}},
+async p(name,slug){app.innerHTML='<p class="mut">در حال بارگذاری…</p>';
+  try{let d,err;for(const k of[slug,name].filter(Boolean)){try{d=await api('/perfumes/'+encodeURIComponent(k));break}catch(e){err=e}}if(!d)throw err;
+   const p=d.detail||{},py=p.pyramid||{},key=slug||name,fv=favs().includes(key);
+   app.innerHTML=`<button onclick="history.back()">← بازگشت</button><div class="ph" style="margin:1rem 0;border-radius:1rem;height:200px;background-image:${grad(nm(p)+hs(p))}">${esc(nm(p))}</div><h1>${esc(nm(p))}</h1><p class="mut">${esc(hs(p))}${p.year?' · '+esc(p.year):''}${p.concentration?' · '+esc(fa(p.concentration)):''}</p><p>${esc(d.lede||'')}</p>
+   <p class="mut">${p.family?'خانواده: '+esc(fa(p.family)):''}${p.subfamily?' / '+esc(fa(p.subfamily)):''}</p>
+   ${p.character?`<p>${esc(p.character)}</p>`:''}${tags(p.character_words)}
+   ${['top','heart','base'].filter(k=>py[k]?.length).map(k=>`<h2>${esc(fa(k))}</h2>${tags(py[k])}`).join('')}
+   ${p.wears?`<h2>زمان مناسب</h2>${tags([...(p.wears.seasons||[]),...(p.wears.hours||[])])}`:''}
+   <p><button class="p" id="fv">${fv?'حذف از علاقه‌مندی‌ها':'افزودن به علاقه‌مندی‌ها'}</button></p><h2>عطرهای مشابه</h2><div id="sim" class="mut">…</div>${cite(d)}`;
+   $('#fv').onclick=()=>{const f=favs();ls.s('favs',fv?f.filter(x=>x!==key):[...f,key]);ls.s('fn:'+key,nm(p));V.p(name,slug)};
+   try{const n=await api('/perfumes/'+encodeURIComponent(slug||name)+'/neighbours');const L=first(n);$('#sim').outerHTML=L.length?`<div class="row" id="sim">${L.map(card).join('')}</div>`:'<p class="mut">موردی یافت نشد.</p>';wire(app)}catch(e){$('#sim').textContent=e.message}
+  }catch(e){app.innerHTML=errBox(e);$('#rt').onclick=()=>V.p(name,slug)}},
+favs(){const f=favs();app.innerHTML='<h2>علاقه‌مندی‌ها</h2>'+(f.length?`<div class="grid">${f.map(k=>card({name:ls.g('fn:'+k,k),page:'/perfumes/'+k})).join('')}</div>`:'<p class="mut">هنوز عطری ذخیره نکرده‌اید. از صفحه هر عطر آن را اضافه کنید.</p>');wire(app)},
+settings(){const dk=ls.g('dark',false);
+  app.innerHTML=`<h2>تنظیمات</h2><p>فونت: <button data-ff="Vazirmatn">وزیرمتن</button> <button data-ff="Tahoma">تاهوما</button></p><p>اندازه متن: <button id="m">−</button> <button id="pl">+</button></p><p><button id="dm">${dk?'حالت روشن':'حالت تیره'}</button></p><p><button id="cl">پاک‌سازی حافظه نهان و داده‌ها</button></p><p><a href="#terms">شرایط استفاده</a></p>`;
   document.querySelectorAll('[data-ff]').forEach(b=>b.onclick=()=>{ls.s('ff',b.dataset.ff);theme()});
   $('#m').onclick=()=>{ls.s('fs',Math.max(13,ls.g('fs',16)-1));theme()};$('#pl').onclick=()=>{ls.s('fs',Math.min(24,ls.g('fs',16)+1));theme()};
   $('#dm').onclick=()=>{ls.s('dark',!ls.g('dark',false));theme();V.settings()};
@@ -107,21 +122,29 @@ about(){app.innerHTML=`<h2>درباره ما</h2><p><b>توسعه‌دهنده �
 terms(){app.innerHTML='<h2>شرایط استفاده</h2>'+TERMS},
 search(){V.home()}};
 const TERMS='<p>این برنامه صرفاً برای کشف و معرفی عطر است. اطلاعات عطرها از Scento Perfume API دریافت می‌شود و ممکن است همیشه دقیق یا کامل نباشد.</p><p>کپی‌برداری انبوه از محتوا یا ساخت کاتالوگ رقیب مجاز نیست. حقوق این برنامه متعلق به هادی رسولی و فروشگاه لارسی است.</p>';
-// ===== Search =====
-let F={};function chips(){const g=[['gender','مردانه','men'],['gender','زنانه','women'],['season','تابستان','summer'],['season','زمستان','winter']];
-  $('#fc').innerHTML=g.map(([k,l,v])=>`<button class="chip ${F[k]===v?'on':''}" data-k="${k}" data-v="${v}">${l}</button>`).join('');
-  document.querySelectorAll('#fc .chip').forEach(b=>b.onclick=()=>{F[b.dataset.k]=F[b.dataset.k]===b.dataset.v?null:b.dataset.v;chips();doSearch($('#q').value)})}
-async function doSearch(v){const R=$('#res');v=v.trim();if(!v)return V.home();
-  const extra=Object.values(F).filter(Boolean).join(' ');R.innerHTML='<p class="mut">در حال جستجو…</p>';
-  try{const d=await api('/search',{q:(v+' '+extra).trim()});const x=d.detail||{};
-   const sec=(t,a,fn)=>a?.length?`<h2>${t}</h2>${fn(a)}`:'';
-   const P=x.perfumes||(Array.isArray(x)?x:x.results)||[];
-   R.innerHTML=sec('عطرها',P,a=>`<div class="grid">${a.map(card).join('')}</div>`)+sec('برندها',x.houses,a=>`<div class="chips">${a.map(h=>`<span class="chip">${esc(h.name||h)}</span>`).join('')}</div>`)+sec('نت‌ها',x.notes||x.materials,a=>`<div class="chips">${a.map(n=>`<span class="chip">${esc(fa(n.name||n))}</span>`).join('')}</div>`)+(P.length||x.houses?.length||x.notes?.length?'':'<p class="mut">نتیجه‌ای یافت نشد. عبارت دیگری را امتحان کنید.</p>')+cite(d);wire(R)}
+// ===== Search: kind filter + "load more" via continuation =====
+const S={q:'',kind:''};
+function chips(){const g=[['','همه'],['perfume','عطر'],['house','برند'],['material','نت']];
+  $('#fc').innerHTML=g.map(([v,l])=>`<button class="chip ${S.kind===v?'on':''}" data-v="${v}">${l}</button>`).join('');
+  document.querySelectorAll('#fc .chip').forEach(b=>b.onclick=()=>{S.kind=b.dataset.v;chips();doSearch($('#q').value)})}
+function item(m){if(m.kind==='house')return`<button class="chip" data-h="${esc(m.name)}">${esc(m.name)}</button>`;
+  if(m.kind==='material')return`<button class="chip" data-m="${esc(m.name)}">${esc(fa(m.name))}</button>`;return null}
+async function doSearch(v,cont){const R=$('#res');v=v.trim();S.q=v;if(!v){S.q='';return V.home()}
+  if(!cont)R.innerHTML='<p class="mut">در حال جستجو…</p>';
+  try{const d=await api('/search',{q:v,kind:S.kind,continuation:cont});const M=first(d);
+   const P=M.filter(m=>!m.kind||m.kind==='perfume'),O=M.filter(m=>m.kind&&m.kind!=='perfume');
+   const html=(P.length?`<div class="grid">${P.map(card).join('')}</div>`:'')+(O.length?`<div class="chips" style="margin-top:1rem">${O.map(item).join('')}</div>`:'');
+   const more=d.continuation?`<p><button id="mr">نمایش بیشتر</button></p>`:'';
+   if(cont){$('#mr')?.parentElement.remove();R.insertAdjacentHTML('beforeend',html+more)}
+   else R.innerHTML=(M.length?`<p class="mut">${esc(d.detail?.total??'')} نتیجه</p>`+html+more:'<p class="mut">نتیجه‌ای یافت نشد. نام را به انگلیسی بنویسید (مثلاً Oud Wood).</p>')+cite(d);
+   wire(R);R.querySelectorAll('[data-h]').forEach(b=>b.onclick=()=>{S.kind='perfume';$('#q').value=b.dataset.h;chips();doSearch(b.dataset.h)});
+   R.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>go('note/'+encodeURIComponent(b.dataset.m)));
+   if($('#mr'))$('#mr').onclick=()=>doSearch(v,d.continuation)}
   catch(e){R.innerHTML=errBox(e);$('#rt').onclick=()=>doSearch(v)}}
 // ===== Router, theme, menu =====
 function go(h){location.hash=h}
 function route(){const h=location.hash.slice(1)||'home';$('#menu').classList.remove('o');scrollTo(0,0);
-  pv();if(h.startsWith('p/'))V.p(h.slice(2));else(V[h]||V.home)()}
+  pv();const[r0,...r]=h.split('/').map(decodeURIComponent);if(r0==='p')V.p(r[0],r[1]);else if(['edit','fam','note'].includes(r0))V[r0](r[0]);else(V[r0]||V.home)()}
 addEventListener('hashchange',route);
 function theme(){const r=document.documentElement;r.dataset.t=ls.g('dark',false)?'dark':'light';r.style.setProperty('--fs',ls.g('fs',16)+'px');r.style.setProperty('--ff',`${ls.g('ff','Vazirmatn')},Tahoma,sans-serif`)}
 $('#mb').onclick=()=>$('#menu').classList.toggle('o');
