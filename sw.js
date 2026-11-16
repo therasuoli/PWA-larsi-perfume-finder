@@ -1,8 +1,8 @@
-const CACHE_VERSION='pf-v3';
+const CACHE_VERSION='pf-v4-ai1';
 const SHELL_CACHE=`${CACHE_VERSION}-shell`;
 const ASSET_CACHE=`${CACHE_VERSION}-assets`;
 const IMAGE_CACHE=`${CACHE_VERSION}-images`;
-const CORE=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./data/perfume-images.json','./icons/icon-192.png','./icons/icon-512.png'];
+const CORE=['./','./index.html','./styles.css','./app.js','./ai-engine.js','./manifest.webmanifest','./data/perfume-images.json','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(SHELL_CACHE);await cache.addAll(CORE);await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith('pf-')&&!k.startsWith(CACHE_VERSION)).map(k=>caches.delete(k)));await self.clients.claim();const clients=await self.clients.matchAll({type:'window'});clients.forEach(c=>c.postMessage({type:'PF_UPDATE_READY',version:CACHE_VERSION}))})()));
 async function trim(cacheName,max){const cache=await caches.open(cacheName),keys=await cache.keys();if(keys.length>max)await Promise.all(keys.slice(0,keys.length-max).map(k=>cache.delete(k)))}
