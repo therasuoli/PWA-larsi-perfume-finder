@@ -3,6 +3,8 @@
 Build data/perfume-images.json from Scento product-page HTML.
 Polite, resumable, crash-safe.
 
+Only the primary (best) image per product is stored.
+
 Usage:
     python scripts/sync_scento_images.py                    # full crawl, skip existing
     python scripts/sync_scento_images.py --max-pages 5      # quick test
@@ -220,7 +222,7 @@ def extract(page: str, body: str) -> list:
         seen.add(u)
         uniq.append(u)
     uniq.sort(key=lambda u: 0 if u.endswith("/public") else 1 if u.endswith("/campaign") else 2)
-    return uniq[:10]
+    return uniq[:1]  # only the primary image
 
 
 # ---------------------------------------------------------------- manifest IO
@@ -321,12 +323,12 @@ def crawl(rows: list, manifest: dict, *, delay: float, force: bool, max_pages: i
                 urls = extract(page, body)
                 images[slug] = {
                     "primary": urls[0] if urls else "",
-                    "gallery": urls,
+                    "gallery": [],  # primary only — no gallery
                     "sourcePage": page,
                     "extractedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
                 }
                 done += 1
-                print(f"[{i}/{total}] ok {slug} ({len(urls)} image{'s' if len(urls) != 1 else ''})")
+                print(f"[{i}/{total}] ok {slug} ({'1 image' if urls else 'no image'})")
             except HTTPError as e:
                 if e.code in (403, 429):
                     print(f"[{i}/{total}] {e.code} for {slug}; stopping.", file=sys.stderr)
