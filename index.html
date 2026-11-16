@@ -34,6 +34,8 @@
  <section class="section" id="catalog">
   <div class="section-head"><div><p class="eyebrow">THE COLLECTION</p><h2>گنجینه عطرها</h2></div><span class="subtle">جستجو و فیلتر هوشمند</span></div>
   <div class="search-wrap"><span>⌕</span><input id="search" placeholder="نام عطر، برند، نت یا رایحه..." autocomplete="off"><button id="clearSearch">×</button></div>
+  <div class="api-toolbar"><span id="apiStatus" role="status">در حال آماده‌سازی جستجوی آنلاین…</span><button id="loadMore" class="chip hidden">نمایش نتایج بیشتر</button></div>
+  <p class="api-note">جستجوی آنلاین با Scento انجام می‌شود. بانک نمونه نیز برای نمایش اولیه و استفاده بدون اینترنت در دسترس است.</p>
   <div class="filters"><button class="chip active" data-filter="all">همه</button><button class="chip" data-filter="french">فرانسوی</button><button class="chip" data-filter="uae">اماراتی</button><button class="chip" data-filter="women">زنانه</button><button class="chip" data-filter="men">مردانه</button><button class="chip" data-filter="unisex">یونیسکس</button></div>
   <div id="perfumeGrid" class="perfume-grid"></div>
   <p id="emptyState" class="empty hidden">عطری با این مشخصات پیدا نشد.</p>
@@ -42,8 +44,8 @@
  <section class="section"><div class="section-head"><div><p class="eyebrow">OUR PHILOSOPHY</p><h2>درباره Perfume Finder</h2></div></div><p class="about-copy">یک راهنمای ساده و هوشمند برای شناخت عطرهای فرانسوی و اماراتی؛ از نت‌های آغازین تا رایحه ماندگار پایانی. هدف ما کمک به انتخاب آگاهانه‌تر و کشف رایحه‌های تازه است.</p></section>
 </main>
 <footer><div class="footer-brand">PF <span>PERFUME FINDER</span></div><p>کشف کن، مقایسه کن، رایحه خودت را پیدا کن.</p><div class="footer-line"></div><small>طراحی و توسعه: <b>هادی رسولی</b> · Hadi Rasouli</small></footer>
-<div id="drawer" class="drawer hidden"><button id="closeDrawer" class="icon-btn">×</button><p class="eyebrow">MENU</p><a href="#catalog">همه عطرها</a><a href="#catalog" data-jump="french">عطرهای فرانسوی</a><a href="#catalog" data-jump="uae">عطرهای اماراتی</a><a href="#aboutBtn" id="drawerAbout">درباره ما</a><small>Perfume Finder · v1.0</small></div>
+<div id="drawer" class="drawer hidden"><button id="closeDrawer" class="icon-btn">×</button><p class="eyebrow">MENU</p><a href="#catalog">همه عطرها</a><a href="#catalog" data-jump="french">عطرهای فرانسوی</a><a href="#catalog" data-jump="uae">عطرهای اماراتی</a><a href="#aboutBtn" id="drawerAbout">درباره ما</a><small>Perfume Finder · v1.1</small></div>
 <div id="detailModal" class="modal hidden"><div class="modal-card detail-card"><button class="close-modal" id="closeDetail">×</button><div id="detailContent"></div></div></div>
-<div id="aboutModal" class="modal hidden"><div class="modal-card"><button class="close-modal" id="closeAbout">×</button><p class="eyebrow">ABOUT US</p><h2>درباره ما</h2><p>Perfume Finder برای جستجو، شناخت و کشف عطرها ساخته شده است. اطلاعات نت‌ها و پیشنهادهای مشابه با اتصال به منبع داده معتبر تکمیل می‌شوند.</p><p>طراحی و توسعه: <b>هادی رسولی</b></p><button id="aboutOk" class="btn btn-gold">متوجه شدم</button></div></div>
+<div id="aboutModal" class="modal hidden"><div class="modal-card"><button class="close-modal" id="closeAbout">×</button><p class="eyebrow">ABOUT US</p><h2>درباره ما</h2><p>Perfume Finder برای جستجو، شناخت و کشف عطرها ساخته شده است. اطلاعات نت‌ها و پیشنهادهای مشابه با اتصال به منبع داده معتبر تکمیل می‌شوند.</p><p>اطلاعات زنده عطرها از Scento Perfume API دریافت می‌شود. API رایگان، فقط خواندنی و بدون نیاز به کلید است.</p><p><a class="source-link" href="https://www.scento.com/developers/perfume-api" target="_blank" rel="noopener">مستندات رسمی API ↗</a></p><p>طراحی و توسعه: <b>هادی رسولی</b></p><button id="aboutOk" class="btn btn-gold">متوجه شدم</button></div></div>
 <script src="app.js"></script>
 </body></html>
