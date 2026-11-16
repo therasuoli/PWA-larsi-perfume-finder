@@ -1,1 +1,16 @@
-{"images":{"club-de-nuit-intense-man-armaf":{"primary":"https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/91c07a8f-60ad-4cd3-5e54-91bacc7f4400/public","gallery":["https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/dd912dbf-d6e8-4b4d-4d4e-726d8d99fa00/campaign","https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/91c07a8f-60ad-4cd3-5e54-91bacc7f4400/public"]}}}
+{
+  "version": 1,
+  "source": "Scento",
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "count": 1,
+  "images": {
+    "club-de-nuit-intense-man-armaf": {
+      "primary": "https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/91c07a8f-60ad-4cd3-5e54-91bacc7f4400/public",
+      "gallery": [
+        "https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/dd912dbf-d6e8-4b4d-4d4e-726d8d99fa00/campaign",
+        "https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/91c07a8f-60ad-4cd3-5e54-91bacc7f4400/public"
+      ],
+      "sourcePage": "https://www.scento.com/perfumes/club-de-nuit-intense-man-armaf"
+    }
+  }
+}
