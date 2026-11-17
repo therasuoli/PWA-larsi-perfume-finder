@@ -1,6 +1,6 @@
-/* Larsi Perfume Finder — Service Worker (v4.1.0)
+/* Larsi Perfume Finder — Service Worker (v5.0.0)
    Strategies: shell/data = stale-while-revalidate · navigation = network-first (3.5s) · images = cache-first (LRU) · Scento API = network-first with cached fallback */
-const VERSION = '4.1.0';
+const VERSION = '5.0.0';
 const SHELL = `lpf-${VERSION}-shell`;
 const DATA = `lpf-${VERSION}-data`;
 const API = `lpf-${VERSION}-api`;
@@ -11,6 +11,8 @@ const CORE = [
   './manifest.webmanifest', './icons/logo.svg', './icons/icon-192.png', './icons/icon-512.png',
   './fonts/Vazirmatn-var.woff2', './data/perfumes.json', './data/meta.json', './data/perfume-images.json'
 ];
+
+self.addEventListener('message', event => { if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
