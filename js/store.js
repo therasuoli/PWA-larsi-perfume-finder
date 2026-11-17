@@ -12,6 +12,14 @@
   function migrate() {
     if (get('migrated', false)) return;
     try {
+      // Migrate all personal data from the immediately previous v4 namespace.
+      const v4 = key => raw('lpf:v4:' + key, null);
+      const v4Favs = v4('favs'); if (Array.isArray(v4Favs) && !get('favs', null)) set('favs', v4Favs.filter(x => typeof x === 'string'));
+      const v4Ratings = v4('ratings'); if (v4Ratings && typeof v4Ratings === 'object' && !get('ratings', null)) set('ratings', v4Ratings);
+      const v4Wardrobe = v4('wardrobe'); if (v4Wardrobe && typeof v4Wardrobe === 'object' && !get('wardrobe', null)) set('wardrobe', sanitizeWardrobe(v4Wardrobe));
+      const v4Disliked = v4('disliked'); if (Array.isArray(v4Disliked) && !get('disliked', null)) set('disliked', v4Disliked.filter(x => typeof x === 'string'));
+      const v4Theme = v4('theme'); if (v4Theme && !get('theme', null)) set('theme', v4Theme);
+      const v4Font = v4('font'); if (v4Font && !get('font', null)) set('font', v4Font);
       const oldFavs = raw('pf-v2-favs', []);
       if (Array.isArray(oldFavs) && oldFavs.length && !get('favs', null)) set('favs', oldFavs.filter(x => typeof x === 'string'));
       const oldRatings = raw('pf-v2-ratings', {});
@@ -66,11 +74,11 @@
     saveTheme() { set('theme', state.theme); },
     saveFont() { set('font', state.font); },
     exportAll() {
-      return { app: 'larsi-perfume-finder', version: 2, exportedAt: new Date().toISOString(), wardrobe: state.wardrobe, ratings: state.ratings, favorites: [...state.favs] };
+      return { app: 'larsi-perfume-finder', version: 3, exportedAt: new Date().toISOString(), wardrobe: state.wardrobe, ratings: state.ratings, favorites: [...state.favs], disliked: [...state.disliked], preferences: { theme: state.theme, font: state.font } };
     },
     importAll(x) {
       if (!x || typeof x !== 'object') throw new Error('invalid');
-      const hasAny = x.wardrobe || x.ratings || x.favorites;
+      const hasAny = x.wardrobe || x.ratings || x.favorites || x.disliked || x.preferences;
       if (!hasAny) throw new Error('invalid');
       if (x.wardrobe) Object.assign(state.wardrobe, sanitizeWardrobe(x.wardrobe));
       if (x.ratings && typeof x.ratings === 'object') {
@@ -80,7 +88,12 @@
         }
       }
       if (Array.isArray(x.favorites)) x.favorites.forEach(id => typeof id === 'string' && state.favs.add(id));
-      api.saveWardrobe(); api.saveRatings(); api.saveFavs();
+      if (Array.isArray(x.disliked)) x.disliked.forEach(id => typeof id === 'string' && state.disliked.add(id));
+      if (x.preferences && typeof x.preferences === 'object') {
+        if (['auto', 'dark', 'light', 'sand'].includes(x.preferences.theme)) state.theme = x.preferences.theme;
+        const font = Number(x.preferences.font); if (Number.isFinite(font) && font >= 90 && font <= 125) state.font = font;
+      }
+      api.saveWardrobe(); api.saveRatings(); api.saveFavs(); api.saveDisliked(); api.saveTheme(); api.saveFont();
     }
   };
   LPF.store = api;

@@ -495,7 +495,7 @@
   }
   function importData(file) {
     const r = new FileReader();
-    r.onload = () => { try { ST.importAll(JSON.parse(r.result)); renderWardrobe(); updateWardrobeBadge(); toast('اطلاعات با موفقیت وارد شد'); } catch { toast('فایل پشتیبان معتبر نیست'); } };
+    r.onload = () => { try { ST.importAll(JSON.parse(r.result)); applyTheme(S.theme); applyFont(S.font); renderWardrobe(); updateWardrobeBadge(); toast('اطلاعات با موفقیت ادغام شد'); } catch { toast('فایل پشتیبان معتبر نیست'); } };
     r.onerror = () => toast('خواندن فایل ممکن نشد'); r.readAsText(file);
   }
 
@@ -646,6 +646,17 @@
     let deferred = null;
     window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferred = e; dom.installBtn.hidden = false; });
     dom.installBtn.onclick = async () => { if (!deferred) return; deferred.prompt(); await deferred.userChoice; deferred = null; dom.installBtn.hidden = true; };
+    const updateBtn = $('#updateBtn');
+    if (updateBtn) updateBtn.onclick = async () => {
+      if (!('serviceWorker' in navigator)) { toast('مرورگر از به‌روزرسانی خودکار پشتیبانی نمی‌کند'); return; }
+      updateBtn.disabled = true; updateBtn.textContent = 'در حال بررسی…';
+      try {
+        const reg = await navigator.serviceWorker.getRegistration('./');
+        if (!reg) { await navigator.serviceWorker.register('./sw.js'); toast('ثبت برنامه برای به‌روزرسانی انجام شد؛ صفحه را دوباره باز کن'); }
+        else { await reg.update(); if (reg.waiting) { reg.waiting.postMessage({ type: 'SKIP_WAITING' }); toast('نسخه جدید دریافت شد؛ در حال آماده‌سازی…'); } else if (reg.installing) { toast('نسخه جدید در حال دریافت است؛ چند لحظه دیگر دوباره بررسی کن'); } else { toast('کاربر گرامی، شما از آخرین نسخه برنامه استفاده می‌کنید.'); } }
+      } catch { toast('بررسی به‌روزرسانی انجام نشد؛ اتصال اینترنت را بررسی کن'); }
+      finally { updateBtn.disabled = false; updateBtn.textContent = 'بررسی به‌روزرسانی برنامه'; }
+    };
     window.addEventListener('appinstalled', () => { dom.installBtn.hidden = true; toast('برنامه با موفقیت نصب شد'); });
     const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) && !navigator.standalone;
     if (ios) dom.iosHint.hidden = false;
