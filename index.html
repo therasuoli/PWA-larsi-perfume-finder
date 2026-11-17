@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Larsi Perfume Finder — کشف هوشمند عطر</title>
+<meta name="description" content="Larsi Perfume Finder؛ جستجو، مقایسه و کشف عطر بر اساس نت‌ها، خانواده بویایی و سلیقه شما. فروشگاه لارسی — lar30.com">
+<meta name="theme-color" content="#101411">
+<meta name="color-scheme" content="dark light">
+<meta name="application-name" content="Larsi Perfume Finder">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Larsi Finder">
+<meta property="og:title" content="Larsi Perfume Finder">
+<meta property="og:description" content="کشف هوشمند عطر — فروشگاه لارسی">
+<meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://imagedelivery.net" crossorigin>
+<link rel="dns-prefetch" href="https://www.scento.com">
+<link rel="stylesheet" href="css/app.css">
+<script>
+/* Start downloading the catalogue immediately (in parallel with CSS/JS), and apply theme + text size before first paint (no flash). */
+(function(){try{window.__lpfCatalog=fetch('data/perfumes.json').then(function(r){if(!r.ok)throw 0;return r.json()});window.__lpfCatalog.catch(function(){})}catch(e){}
+ try{
+  var P='lpf:v4:',t=JSON.parse(localStorage.getItem(P+'theme')||'"auto"'),f=JSON.parse(localStorage.getItem(P+'font')||'100');
+  var dark=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
+  var r=document.documentElement;r.dataset.theme=t==='auto'?dark:t;r.dataset.themePref=t;
+  if(f>=90&&f<=125)r.style.setProperty('--fs',f/100);
+  var c={dark:'#101411',light:'#f5f3ec',sand:'#211d17'}[r.dataset.theme];if(c)document.querySelector('meta[name=theme-color]').content=c;
+}catch(e){}})();
+</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecd5a0"/><stop offset="1" stop-color="#b8924f"/></linearGradient>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24"><path d="M7 4v14M4 15l3 3 3-3M17 20V6M14 9l3-3 3 3"/></symbol>
+    <symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8.5h14l-1 11.5H6z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M4 4h8l8 8-8 8-8-8z"/><circle cx="8.5" cy="8.5" r="1"/></symbol>
+    <symbol id="i-store" viewBox="0 0 24 24"><path d="M4 9l1.5-5h13L20 9M4 9v11h16V9M4 9c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4M5 13v6.5h14V13"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17.2l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11M8 11l4 4 4-4M5 20h14"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 16V5M8 9l4-4 4 4M5 20h14"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 11v6M14 11v6M7 7l1 13h8l1-13M9 7V4h6v3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2.5"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-bottle" viewBox="0 0 48 64"><path d="M18 2h12a2 2 0 0 1 2 2v6H16V4a2 2 0 0 1 2-2zM20 10h8v5h-8zM9 24a8 8 0 0 1 8-8h14a8 8 0 0 1 8 8v28a8 8 0 0 1-8 8H17a8 8 0 0 1-8-8z"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#catalog">پرش به فهرست عطرها</a>
+
+<header class="topbar" id="topbar">
+  <button id="menuBtn" class="icon-btn" type="button" aria-label="باز کردن منو" aria-expanded="false" aria-controls="drawer"><svg class="ic"><use href="#i-menu"/></svg></button>
+  <a class="brand" href="./" aria-label="Larsi Perfume Finder — صفحه اول">
+    <img class="brand-logo" src="icons/logo.svg" alt="" width="36" height="36" decoding="async">
+    <span class="brand-text"><b>Larsi</b> <span>Perfume Finder</span></span>
+  </a>
+  <div class="top-actions">
+    <button id="searchJump" class="icon-btn" type="button" aria-label="جستجو"><svg class="ic"><use href="#i-search"/></svg></button>
+    <button id="themeBtn" class="icon-btn" type="button" aria-label="تغییر تم"><svg class="ic"><use href="#i-theme"/></svg></button>
+    <button id="wardrobeBtn" class="icon-btn has-badge" type="button" aria-label="کمد عطر من"><svg class="ic"><use href="#i-bag"/></svg><span class="badge" id="wardrobeBadge" hidden>0</span></button>
+  </div>
+</header>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="منوی اصلی" aria-hidden="true" inert>
+  <div class="drawer-head">
+    <span class="brand-text"><b>Larsi</b> <span>Perfume Finder</span></span>
+    <button id="drawerClose" class="icon-btn" type="button" aria-label="بستن منو"><svg class="ic"><use href="#i-close"/></svg></button>
+  </div>
+  <nav class="drawer-nav" aria-label="بخش‌ها">
+    <a href="#top" data-nav="top"><svg class="ic"><use href="#i-spark"/></svg>صفحه اول</a>
+    <a href="#catalog" data-nav="catalog"><svg class="ic"><use href="#i-compass"/></svg>کشف عطرها</a>
+    <a href="#brands" data-nav="brands"><svg class="ic"><use href="#i-tag"/></svg>برندها</a>
+    <button type="button" data-sheet="wardrobe"><svg class="ic"><use href="#i-bag"/></svg>کمد عطر من<span class="badge inline" id="wardrobeBadge2" hidden>0</span></button>
+    <button type="button" data-sheet="about"><svg class="ic"><use href="#i-info"/></svg>درباره ما</button>
+    <a href="https://lar30.com" target="_blank" rel="noopener"><svg class="ic"><use href="#i-store"/></svg>فروشگاه لارسی · lar30.com</a>
+  </nav>
+  <section class="drawer-prefs" aria-label="تنظیمات نمایش">
+    <h2>نمایش</h2>
+    <div class="seg" id="themeSeg" role="radiogroup" aria-label="تم">
+      <button type="button" role="radio" data-theme-choice="auto">خودکار</button>
+      <button type="button" role="radio" data-theme-choice="dark">شب</button>
+      <button type="button" role="radio" data-theme-choice="light">روز</button>
+      <button type="button" role="radio" data-theme-choice="sand">شن</button>
+    </div>
+    <label class="range"><span>اندازه نوشته <output id="fontOut">۱۰۰٪</output></span><input id="fontRange" type="range" min="90" max="125" step="5" value="100"></label>
+    <button id="installBtn" class="btn" type="button" hidden><svg class="ic"><use href="#i-phone"/></svg>نصب برنامه روی دستگاه</button>
+    <p class="hint" id="iosHint" hidden>در Safari: دکمه اشتراک‌گذاری ← «Add to Home Screen».</p>
+  </section>
+  <div class="drawer-foot"><span>نسخه <b id="verText">۴٫۰٫۰</b></span><button type="button" class="link" data-sheet="about">تاریخچه تغییرات</button></div>
+</aside>
+
+<main id="top">
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-copy">
+      <p class="eyebrow">LARSI PERFUME FINDER</p>
+      <h1 id="heroTitle">عطر بعدی‌ات را<br><em>هوشمندانه</em> پیدا کن</h1>
+      <p class="lead">با نام، برند یا حتی نت بویایی جستجو کن؛ عطرها را مقایسه کن و رایحه‌های مشابه سلیقه‌ات را کشف کن.</p>
+      <form class="hero-search" id="heroSearch" role="search">
+        <svg class="ic"><use href="#i-search"/></svg>
+        <input id="heroInput" type="search" inputmode="search" enterkeyhint="search" placeholder="مثلاً عود، Aventus، وانیل…" autocomplete="off" aria-label="جستجوی عطر">
+        <button class="btn primary" type="submit">جستجو</button>
+      </form>
+      <div class="hero-meta">
+        <div><b id="statPerfumes">—</b><span>عطر در بانک</span></div>
+        <div><b id="statBrands">—</b><span>برند</span></div>
+        <button id="surpriseBtn" class="btn ghost" type="button"><svg class="ic"><use href="#i-spark"/></svg>غافلگیرم کن</button>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="glow"></div><div class="ring r1"></div><div class="ring r2"></div>
+      <svg class="hero-bottle" viewBox="0 0 48 64"><use href="#i-bottle"/></svg>
+      <span class="pill p1">BERGAMOT</span><span class="pill p2">OUD · AMBER</span><span class="pill p3">VANILLA</span>
+    </div>
+  </section>
+
+  <section class="section" id="catalog" aria-labelledby="catTitle">
+    <div class="section-head">
+      <div><p class="eyebrow">THE COLLECTION</p><h2 id="catTitle">کشف عطرها</h2></div>
+      <span class="status-pill" id="sourceStatus" role="status"><i class="dot"></i><span>در حال آماده‌سازی…</span></span>
+    </div>
+
+    <div class="toolbar">
+      <label class="search" for="searchInput">
+        <svg class="ic"><use href="#i-search"/></svg>
+        <input id="searchInput" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند یا نت (فارسی یا English)…" autocomplete="off">
+        <button id="searchClear" class="clear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
+        <kbd class="kbd" aria-hidden="true">/</kbd>
+      </label>
+      <button id="filterBtn" class="btn" type="button" aria-expanded="false" aria-controls="filterPanel"><svg class="ic"><use href="#i-sliders"/></svg>فیلترها<span class="badge inline" id="filterBadge" hidden>0</span></button>
+      <label class="select-wrap"><span class="sr">مرتب‌سازی</span>
+        <select id="sortSel" aria-label="مرتب‌سازی">
+          <option value="popular">محبوب‌ترین</option>
+          <option value="name">نام عطر (A–Z)</option>
+          <option value="year">جدیدترین سال</option>
+          <option value="rating">امتیاز من</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="filters" id="filterPanel" hidden>
+      <label>خانواده بویایی<select id="fFamily"></select></label>
+      <label>غلظت<select id="fConc"></select></label>
+      <label>فصل<select id="fSeason"></select></label>
+      <label>زمان استفاده<select id="fTime"></select></label>
+      <label>برند<select id="fBrand"></select></label>
+      <label>نت بویایی<input id="fNote" type="search" list="noteList" placeholder="مثلاً عود، رز، وانیل" autocomplete="off"></label>
+      <datalist id="noteList"></datalist>
+      <fieldset class="chars"><legend>ویژگی رایحه</legend><div id="charChips" class="chips"></div></fieldset>
+      <div class="filters-foot"><button id="filterReset" class="btn ghost" type="button">پاک‌کردن همه فیلترها</button></div>
+    </div>
+
+    <div class="active-chips" id="activeChips"></div>
+    <div class="result-bar">
+      <p id="resultCount" aria-live="polite">—</p>
+      <button id="favOnly" class="chip" type="button" aria-pressed="false"><svg class="ic"><use href="#i-heart"/></svg>فقط علاقه‌مندی‌ها</button>
+    </div>
+
+    <div class="grid" id="grid" aria-busy="true"></div>
+    <div id="sentinel" aria-hidden="true"></div>
+    <div class="more-row"><button id="loadMore" class="btn" type="button" hidden>نمایش عطرهای بیشتر</button></div>
+  </section>
+
+  <section class="section brands" id="brands" aria-labelledby="brandTitle">
+    <div class="section-head">
+      <div><p class="eyebrow">HOUSES &amp; HERITAGE</p><h2 id="brandTitle">خانه‌های عطر</h2></div>
+      <div class="arrows"><button id="brandPrev" class="icon-btn" type="button" aria-label="قبلی"><svg class="ic flip"><use href="#i-back"/></svg></button><button id="brandNext" class="icon-btn" type="button" aria-label="بعدی"><svg class="ic"><use href="#i-back"/></svg></button></div>
+    </div>
+    <div class="brand-track" id="brandTrack"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>طراحی و برنامه نویسی هادی رسولی</p>
+  <p>تمامی حقوق مادی و معنوی متعلق به فروشگاه لارسی می‌باشد.</p>
+  <a href="https://lar30.com" target="_blank" rel="noopener">lar30.com</a>
+</footer>
+
+<!-- Compare tray -->
+<div class="tray" id="tray" hidden>
+  <span id="trayText">۰ عطر برای مقایسه</span>
+  <div class="tray-actions"><button id="trayClear" class="btn ghost" type="button">پاک‌کردن</button><button id="trayOpen" class="btn primary" type="button" disabled>مقایسه</button></div>
+</div>
+
+<!-- Layers -->
+<div class="layer" id="layerDetail" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+  <div class="layer-bg" data-close></div>
+  <div class="panel panel-detail" tabindex="-1">
+    <div class="grab" aria-hidden="true"></div>
+    <button class="close-btn" type="button" data-close aria-label="بستن"><svg class="ic"><use href="#i-close"/></svg></button>
+    <div id="detailBody"></div>
+  </div>
+</div>
+
+<div class="layer" id="layerCompare" hidden role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+  <div class="layer-bg" data-close></div>
+  <div class="panel panel-wide" tabindex="-1">
+    <div class="grab" aria-hidden="true"></div>
+    <button class="close-btn" type="button" data-close aria-label="بستن"><svg class="ic"><use href="#i-close"/></svg></button>
+    <p class="eyebrow">SIDE BY SIDE</p><h2 id="compareTitle">مقایسه عطرها</h2>
+    <div id="compareBody"></div>
+  </div>
+</div>
+
+<div class="layer sheet" id="layerWardrobe" hidden role="dialog" aria-modal="true" aria-labelledby="wardrobeTitle">
+  <div class="layer-bg" data-close></div>
+  <div class="panel panel-page" tabindex="-1">
+    <header class="page-head"><button class="icon-btn" type="button" data-close aria-label="بازگشت"><svg class="ic"><use href="#i-back"/></svg></button><h2 id="wardrobeTitle">کمد عطر من</h2></header>
+    <div class="page-body" id="wardrobeBody"></div>
+  </div>
+</div>
+
+<div class="layer sheet" id="layerAbout" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+  <div class="layer-bg" data-close></div>
+  <div class="panel panel-page" tabindex="-1">
+    <header class="page-head"><button class="icon-btn" type="button" data-close aria-label="بازگشت"><svg class="ic"><use href="#i-back"/></svg></button><h2 id="aboutTitle">درباره ما</h2></header>
+    <div class="page-body about" id="aboutBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<input id="importFile" type="file" accept="application/json,.json" hidden>
+
+<noscript><p style="padding:24px;text-align:center">برای استفاده از Larsi Perfume Finder جاوااسکریپت باید فعال باشد.</p></noscript>
+
+<script src="js/config.js" defer></script>
+<script src="js/lang-fa.js" defer></script>
+<script src="js/store.js" defer></script>
+<script src="js/repo.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
