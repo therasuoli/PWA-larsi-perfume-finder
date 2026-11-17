@@ -2,5 +2,11 @@
   "generatedAt": "2026-11-16T22:09:49.057Z",
   "count": 1479,
   "brands": 160,
-  "source": "https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv"
+  "source": "https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv",
+  "targetCount": 5000,
+  "remainingToTarget": 3521,
+  "validCount": 1479,
+  "duplicateIds": 0,
+  "appVersion": "5.0.0",
+  "note": "آمار از فایل perfumes.json محاسبه شده است؛ هدف ۵۰۰۰ رکورد به معنی وجود این تعداد در نسخه فعلی نیست."
 }
