@@ -1,0 +1,61 @@
+name: Sync product images (عکس محصولات)
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: 'Max pages (0 = all missing, 50 = quick test)'
+        required: false
+        default: '0'
+        type: string
+      interval:
+        description: 'Seconds between requests'
+        required: false
+        default: '0.4'
+        type: string
+      force:
+        description: 'Re-crawl pages that already have an image'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+  schedule:
+    - cron: '17 3 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-images
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Crawl product images (polite, resumable)
+        env:
+          MAX_PAGES: ${{ github.event.inputs.max_pages || '0' }}
+          INTERVAL: ${{ github.event.inputs.interval || '0.4' }}
+          FORCE: ${{ github.event.inputs.force || 'false' }}
+        run: |
+          ARGS="--workers 3 --interval $INTERVAL --max-pages $MAX_PAGES"
+          if [ "$FORCE" = "true" ]; then ARGS="$ARGS --force"; fi
+          python scripts/sync_images.py $ARGS
+      - name: Validate JSON
+        run: |
+          python -c "import json; d=json.load(open('data/perfume-images.json')); n=sum(1 for v in d['images'].values() if v.get('primary')); print(len(d['images']),'records,',n,'with image')"
+      - name: Commit changes
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/perfume-images.json
+          if git diff --cached --quiet; then echo 'No image changes.'; else
+            git commit -m 'chore(data): update product image index'
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push
+          fi
