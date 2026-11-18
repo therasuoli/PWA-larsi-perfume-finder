@@ -1,15 +1,15 @@
-/* Larsi Perfume Finder — Service Worker (v5.0.0)
+/* Larsi Perfume Finder — Service Worker (v5.1.0)
    Strategies: shell/data = stale-while-revalidate · navigation = network-first (3.5s) · images = cache-first (LRU) · Scento API = network-first with cached fallback */
-const VERSION = '5.0.0';
+const VERSION = '5.1.0';
 const SHELL = `lpf-${VERSION}-shell`;
 const DATA = `lpf-${VERSION}-data`;
 const API = `lpf-${VERSION}-api`;
 const IMG = 'lpf-images-v1'; // survives version bumps — product photos are expensive to re-download
 const CORE = [
   './', './index.html', './css/app.css',
-  './js/config.js', './js/lang-fa.js', './js/store.js', './js/repo.js', './js/app.js',
+  './js/config.js', './js/lang-fa.js', './js/store.js', './js/guide-fa.js', './js/recommend.js', './js/repo.js', './js/app.js',
   './manifest.webmanifest', './icons/logo.svg', './icons/icon-192.png', './icons/icon-512.png',
-  './fonts/Vazirmatn-var.woff2', './data/perfumes.json', './data/meta.json', './data/perfume-images.json'
+  './fonts/Vazirmatn-var.woff2', './data/perfumes.json', './data/meta.json', './data/perfume-images.json', './data/brand-logos.json', './data/similar.json'
 ];
 
 self.addEventListener('message', event => { if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });
