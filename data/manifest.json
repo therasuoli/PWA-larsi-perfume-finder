@@ -1,6 +1,4 @@
 {
-  "name": "perfume-database-split",
-  "version": 1,
   "total": 3381,
   "chunk_size": 500,
   "chunks": [
@@ -46,5 +44,10 @@
       "start": 3001,
       "end": 3381
     }
-  ]
+  ],
+  "image_data": {
+    "matched_records": 1537,
+    "records_with_image_url": 3222,
+    "records_with_gallery": 1537
+  }
 }
