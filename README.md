@@ -38,12 +38,12 @@ js/store.js           داده شخصی (علاقه‌مندی، امتیاز، 
 js/repo.js            مخزن داده: بانک محلی + Scento API + ایندکس تصاویر
 js/app.js             رابط کاربری و منطق
 sw.js                 Service Worker (آفلاین، کش تصاویر)
-data/perfumes.json    بانک محلی ۱٬۴۷۹ عطر (فشرده، ~۱۹۰KB با gzip)
+data/perfumes-01.json … perfumes-07.json    بانک محلی ۳٬۳۸۱ رکورد در بخش‌های ۵۰۰تایی
 data/perfume-images.json  ایندکس تصاویر (با خزشگر پر می‌شود)
 data/meta.json        تاریخ ساخت و آمار بانک
-scripts/build-data.mjs    ساخت data/perfumes.json از CSV مخزن Scento
+scripts/build-data.mjs    ساخت بانک JSON و بخش‌ها از CSV مخزن Scento
 scripts/sync_images.py    خزشگر تصاویر محصولات
-.github/workflows/sync-data.yml   به‌روزرسانی ماهانه خودکار
+.github/workflows/update-catalog.yml   بروزرسانی هفتگی بانک؛ sync-data.yml خزش تصاویر
 ```
 
 ## توسعه بانک (نسخه بتا)
@@ -68,7 +68,7 @@ scripts/sync_images.py    خزشگر تصاویر محصولات
 
 | منبع | مسیر | توضیح |
 |---|---|---|
-| بانک محلی | `data/perfumes.json` | هم‌مبدأ، فوری، آفلاین؛ نمایش اولیه به شبکه خارجی وابسته نیست |
+| بانک محلی | `data/manifest.json` + `data/perfumes-*.json` | هم‌مبدأ، chunked؛ merged JSON فقط fallback |
 | Scento Dataset | `Scento-com/perfume-dataset` (CSV) | منبع بالادستی؛ `node scripts/build-data.mjs` بانک محلی را می‌سازد |
 | Scento API | `https://www.scento.com/api/perfume/v1` | `GET /search?q=` · `GET /perfumes/{slug}` · `GET /perfumes/{slug}/neighbours` |
 
@@ -95,3 +95,13 @@ node scripts/build-data.mjs      # ساخت دوباره بانک داده
 ## حریم خصوصی و مجوز
 
 امتیازها، علاقه‌مندی‌ها و کمد عطر فقط در مرورگر کاربر ذخیره می‌شوند. داده عطرها از Scento Perfume Dataset است و تصاویر متعلق به صاحبان حقوق مربوطه‌اند؛ مجوز دیتاست و شرایط API را جداگانه بخوانید و به API فشار نیاورید. فونت وزیرمتن با مجوز OFL (`fonts/OFL.txt`).
+
+## Alpha 5.2.0 — compact catalogue and scheduled refresh
+
+- The frontend loads catalogue data using `data/manifest.json` and parallel 500-record JSON chunks; the merged JSON is retained only as a compatibility fallback.
+- The home screen shows catalogue size, unique brands, scent-family count, and category tiles. Category tiles filter the catalogue.
+- GitHub Actions → **Refresh perfume catalogue (Alpha)** can be run manually, and is scheduled weekly. It fetches the Scento source CSV, rebuilds chunks and metadata, validates record counts and unique IDs, and commits only when data changes.
+- The existing image-sync workflow remains separate under **Sync product images**.
+- This workflow refreshes the Scento CSV source only; it does not crawl arbitrary retail websites.
+
+Run local validation with: `node scripts/validate-data.mjs`.
