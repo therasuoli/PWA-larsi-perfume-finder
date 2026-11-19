@@ -59,7 +59,8 @@
 
   function matches(p) {
     if (F.fav && !S.favs.has(p.id)) return false;
-    if (F.family && p.family !== F.family && p.family2 !== F.family) return false;
+    if (F.family === '__uncategorized__' && (p.family || p.family2)) return false;
+    if (F.family && F.family !== '__uncategorized__' && p.family !== F.family && p.family2 !== F.family) return false;
     if (F.conc && p.conc !== F.conc) return false;
     if (F.season && !(p.seasons || []).includes(F.season)) return false;
     if (F.time && !(p.times || []).includes(F.time)) return false;
@@ -190,6 +191,17 @@
     dom.noteList.innerHTML = [...df].sort((a, b) => b[1] - a[1]).slice(0, 90).map(([n]) => { const fa_ = FA.note(n); return `<option value="${esc(fa_ || n)}" label="${esc(n)}">`; }).join('');
   }
 
+  function renderCategories() {
+    const m = new Map();
+    let uncategorized = 0;
+    items.forEach(p => { const fams = [...new Set([p.family, p.family2].filter(Boolean))]; if (!fams.length) uncategorized++; fams.forEach(f => m.set(f, (m.get(f) || 0) + 1)); });
+    if (uncategorized) m.set('__uncategorized__', uncategorized);
+    const cats = [...m].sort((a, b) => b[1] - a[1]).slice(0, 12);
+    const categoryCount = m.size;
+    const target = $('#categoryGrid'); if (!target) return;
+    target.innerHTML = cats.map(([f, c]) => `<button class="category-card" type="button" data-family="${esc(f)}"><span>${esc(f === '__uncategorized__' ? 'بدون دسته‌بندی' : (FA.family(f) || f))}</span><b>${fa(c)}</b></button>`).join('');
+    const total = $('#categoryTotal'); if (total) total.textContent = `${fa(categoryCount)} دسته در بانک`;
+  }
   function renderBrands() {
     const m = new Map(); items.forEach(p => m.set(p.brand, (m.get(p.brand) || 0) + 1));
     dom.brandTrack.innerHTML = [...m].sort((a, b) => b[1] - a[1]).slice(0, 48).map(([n, c]) => `<button class="brand-card" type="button" data-brand="${esc(n)}"><b>${esc(n)}</b><span>${fa(c)} عطر</span></button>`).join('');
@@ -566,6 +578,20 @@
     if (!p.notes || !p.notes.length) p.notes = [...new Set([...(p.top || []), ...(p.heart || []), ...(p.base || [])])];
     return p;
   }
+  let xlsxLoadPromise = null;
+  function loadXlsxLibrary() {
+    if (window.XLSX) return Promise.resolve(window.XLSX);
+    if (xlsxLoadPromise) return xlsxLoadPromise;
+    xlsxLoadPromise = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js';
+      script.async = true; script.crossOrigin = 'anonymous';
+      script.onload = () => window.XLSX ? resolve(window.XLSX) : reject(new Error('کتابخانه Excel بارگذاری نشد'));
+      script.onerror = () => { xlsxLoadPromise = null; reject(new Error('دریافت کتابخانه Excel ناموفق بود')); };
+      document.head.appendChild(script);
+    });
+    return xlsxLoadPromise;
+  }
   async function bankReadFile(file) {
     if (!file) throw new Error('ابتدا فایل را انتخاب کن');
     if (file.size > 10 * 1024 * 1024) throw new Error('حجم فایل بیشتر از ۱۰ مگابایت است');
@@ -576,9 +602,9 @@
       rawRows = Array.isArray(data) ? data : data.perfumes || data.items || data.data;
     } else if (ext === 'csv') rawRows = bankParseCSV(await file.text());
     else if (['xlsx','xls'].includes(ext)) {
-      if (!window.XLSX) throw new Error('کتابخانه خواندن Excel بارگذاری نشده؛ اتصال اینترنت را بررسی کن');
-      const book = XLSX.read(await file.arrayBuffer(), { type: 'array' });
-      rawRows = XLSX.utils.sheet_to_json(book.Sheets[book.SheetNames[0]], { defval: '' });
+      const xlsx = await loadXlsxLibrary();
+      const book = xlsx.read(await file.arrayBuffer(), { type: 'array' });
+      rawRows = xlsx.utils.sheet_to_json(book.Sheets[book.SheetNames[0]], { defval: '' });
     } else throw new Error('فرمت فایل پشتیبانی نمی‌شود');
     if (!Array.isArray(rawRows)) throw new Error('ساختار فایل باید آرایه عطرها یا جدول باشد');
     const normalized = rawRows.map(bankNormalize).filter(Boolean);
@@ -770,6 +796,7 @@
       const dis = t.closest('[data-dislike]'); if (dis) { S.disliked.add(dis.dataset.dislike); ST.saveDisliked(); const a = dis.closest('.card'); if (a) a.remove(); toast('این پیشنهاد دیگر نمایش داده نمی‌شود'); return; }
       const op = t.closest('[data-open]'); if (op) { openDetail(op.dataset.open); return; }
       const br = t.closest('[data-brand]'); if (br) { F.brand = br.dataset.brand; syncFilterUI(); render(); $('#catalog').scrollIntoView({ behavior: 'smooth' }); return; }
+      const cat = t.closest('[data-family]'); if (cat) { F.family = cat.dataset.family; syncFilterUI(); render(); $('#catalog').scrollIntoView({ behavior: 'smooth' }); return; }
       if (t.closest('[data-reset]')) { resetFilters(); return; }
       const g = t.closest('[data-gallery]'); if (g) { const img = $('#dMedia img'); if (img) { img.src = g.dataset.gallery; img.classList.add('ready'); } return; }
       if (t.closest('[data-close]')) { closeTop(); return; }
@@ -874,8 +901,8 @@
       dom.grid.innerHTML = `<div class="empty"><p>بارگذاری بانک عطرها ممکن نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.</p><button class="btn primary" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;
       setStatus('بانک داده در دسترس نیست', true); return;
     }
-    items = list; buildIndex(); buildFilterOptions(); renderBrands();
-    $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand)).size);
+    items = list; buildIndex(); buildFilterOptions(); renderBrands(); renderCategories();
+    $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand)).size); $('#statCategories').textContent = fa(new Set(items.flatMap(p => [p.family, p.family2]).filter(Boolean)).size + (items.some(p => !p.family && !p.family2) ? 1 : 0));
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
     setStatus(`بانک محلی · ${fa(items.length)} عطر`, false);
     route(); registerSW();
