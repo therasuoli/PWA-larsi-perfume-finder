@@ -1,3 +1,14 @@
+## 5.2.0-alpha.1 — 2026-11-19
+
+- Removed the duplicate catalogue prefetch; the app loads the catalogue through the manifest/chunk loader only.
+- Added parallel loading of 500-record JSON chunks and a compatibility fallback to the merged JSON.
+- Added home-page category tiles with real category counts and click-to-filter.
+- Added the number of scent families to the home statistics.
+- Corrected catalogue metadata totals and normalized records missing brand values.
+- Added a GitHub Actions workflow to refresh, split, validate, and commit the Scento catalogue on schedule or manual dispatch.
+- Updated Service Worker cache manifest to actual app assets and versioned cache names; chunk files are cached from the catalogue manifest.
+- Removed the unused oversized embedded-image database file.
+
 # تغییرات نسخه‌ها
 
 ## 5.1.0-beta.1 — آبان ۱۴۰۵
