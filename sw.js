@@ -1,15 +1,15 @@
-/* Larsi Perfume Finder — Service Worker (v5.1.0-beta.1)
+/* Larsi Perfume Finder — Service Worker (v5.2.0-alpha.1)
    Strategies: shell/data = stale-while-revalidate · navigation = network-first (3.5s) · images = cache-first (LRU) · Scento API = network-first with cached fallback */
-const VERSION = '5.1.0-beta.1';
+const VERSION = '5.2.0-alpha.1';
 const SHELL = `lpf-${VERSION}-shell`;
 const DATA = `lpf-${VERSION}-data`;
 const API = `lpf-${VERSION}-api`;
 const IMG = 'lpf-images-v1'; // survives version bumps — product photos are expensive to re-download
 const CORE = [
   './', './index.html', './css/app.css',
-  './js/config.js', './js/lang-fa.js', './js/store.js', './js/guide-fa.js', './js/recommend.js', './js/repo.js', './js/app.js',
-  './manifest.webmanifest', './icons/logo.svg', './icons/icon-192.png', './icons/icon-512.png',
-  './fonts/Vazirmatn-var.woff2', './data/perfumes.json', './data/meta.json', './data/perfume-images.json', './data/brand-logos.json', './data/similar.json'
+  './js/config.js', './js/lang-fa.js', './js/store.js', './js/repo.js', './js/app.js',
+  './manifest.webmanifest', './icons/logo.svg', './icons/favicon-32.png', './icons/apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',
+  './fonts/Vazirmatn-var.woff2', './data/manifest.json', './data/meta.json', './data/perfume-images.json', './data/similar.json'
 ];
 
 self.addEventListener('message', event => { if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });
@@ -17,8 +17,10 @@ self.addEventListener('message', event => { if (event.data && event.data.type ==
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const shell = await caches.open(SHELL), data = await caches.open(DATA);
-    // allSettled: one missing optional file must never abort the whole install (this was the v3 bug)
-    await Promise.allSettled(CORE.map(async url => {
+    let core = CORE.slice();
+    try { const m = await fetch('./data/manifest.json').then(r => r.ok ? r.json() : null); if (m && Array.isArray(m.chunks)) core = core.concat(m.chunks.map(c => './data/' + c.file)); } catch {}
+    // allSettled: optional chunk failures do not abort shell installation.
+    await Promise.allSettled(core.map(async url => {
       const res = await fetch(new Request(url, { cache: 'reload' }));
       if (!res.ok) throw new Error(url + ' ' + res.status);
       await (url.startsWith('./data/') ? data : shell).put(url, res);
