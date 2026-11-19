@@ -5,8 +5,8 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '5.1.0-beta.1',
-    versionFa: '۵٫۱٫۰ بتا',
+    version: '5.2.0-alpha.1',
+    versionFa: '۵٫۲٫۰ آلفا',
     releaseFa: 'آبان ۱۴۰۵ · بتا',
     releaseISO: '2026-11-19',
     author: 'هادی رسولی',
@@ -14,6 +14,7 @@
     // Data repository: same-origin snapshot first (fast, offline-ready), live APIs second.
     data: {
       catalog: 'data/perfumes.json',
+      manifest: 'data/manifest.json',
       meta: 'data/meta.json',
       images: 'data/perfume-images.json',
       upstreamCsv: 'https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv'
