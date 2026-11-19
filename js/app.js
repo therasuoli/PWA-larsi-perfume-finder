@@ -499,6 +499,180 @@
     r.onerror = () => toast('خواندن فایل ممکن نشد'); r.readAsText(file);
   }
 
+
+  /* ================= beta bank developer ================= */
+  const bankDev = { clicks: 0, timer: 0, file: null, rows: [] };
+  const bankHash = 'd60cf79c464b08472bcaf510f39d9dcad65e9ff5422a165e77c9be22a2ca9569';
+  const bankEl = id => document.getElementById(id);
+  function bankStatus(message, error) {
+    const el = bankEl('bankDevStatus'); if (!el) return;
+    el.textContent = message; el.classList.toggle('error', !!error);
+  }
+  async function bankDigest(value) {
+    const bytes = new TextEncoder().encode(value);
+    const digest = await crypto.subtle.digest('SHA-256', bytes);
+    return [...new Uint8Array(digest)].map(x => x.toString(16).padStart(2, '0')).join('');
+  }
+  async function unlockBankDev() {
+    const password = window.prompt('رمز عبور توسعه بانک را وارد کنید:');
+    if (password == null) return;
+    try {
+      if (await bankDigest(password) !== bankHash) { toast('رمز عبور نادرست است'); return; }
+    } catch { toast('مرورگر از بررسی امن رمز پشتیبانی نمی‌کند'); return; }
+    closeDrawer(false);
+    const layer = bankEl('layerBankDev'); layer.hidden = false; layer.classList.add('open');
+    document.body.classList.add('lock');
+    bankEl('bankFile').focus({ preventScroll: true });
+  }
+  function bankParseCSV(text) {
+    const rows = []; let row = [], cell = '', quoted = false;
+    text = text.replace(/^\uFEFF/, '');
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (quoted) { if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; } else if (c === '"') quoted = false; else cell += c; }
+      else if (c === '"') quoted = true;
+      else if (c === ',') { row.push(cell); cell = ''; }
+      else if (c === '\n' || c === '\r') { if (c === '\r' && text[i + 1] === '\n') i++; row.push(cell); if (row.some(v => v.trim())) rows.push(row); row = []; cell = ''; }
+      else cell += c;
+    }
+    if (cell || row.length) { row.push(cell); if (row.some(v => v.trim())) rows.push(row); }
+    if (!rows.length) return [];
+    const headers = rows.shift().map(v => v.trim());
+    return rows.map(r => Object.fromEntries(headers.map((h, i) => [h, (r[i] || '').trim()])));
+  }
+  const bankList = v => Array.isArray(v) ? v.map(x => typeof x === 'object' && x ? x.name || x.note || x.title || '' : String(x)).map(x => x.trim()).filter(Boolean)
+    : typeof v === 'string' ? v.split(/[;|،]/).map(x => x.trim()).filter(Boolean) : [];
+  function bankNormalize(row, index) {
+    const pick = (...keys) => { for (const k of keys) if (row[k] != null && row[k] !== '') return row[k]; return ''; };
+    const name = String(pick('name','perfume','title','نام عطر','نام')).trim();
+    const brand = String(pick('brand','house','brand_name','برند','خانه')).trim() || 'Unknown';
+    const rawId = String(pick('id','slug','شناسه','کد')).trim();
+    if (!name) return null;
+    let slug = rawId || (brand + '-' + name).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    if (!slug) slug = 'imported-perfume-' + (index + 1);
+    const p = { id: slug, slug, name, brand };
+    const mappings = {
+      brandId:['brandId','brand_id','house_id'], conc:['conc','concentration','غلظت'], family:['family','خانواده'], family2:['family2','secondary_family'],
+      perfumers:['perfumers','عطرساز'], character:['character','ویژگی'], seasons:['seasons','فصل'], times:['times','times_of_day','زمان استفاده'],
+      top:['top','top_notes','نت ابتدایی','نت‌های ابتدایی'], heart:['heart','heart_notes','نت میانی','نت‌های میانی'],
+      base:['base','base_notes','نت پایانی','نت‌های پایانی'], notes:['notes','نت‌ها'], desc:['desc','description','توضیحات'], url:['url','link']
+    };
+    for (const [key, aliases] of Object.entries(mappings)) {
+      const value = pick(...aliases);
+      if (value !== '') p[key] = ['perfumers','character','seasons','times','top','heart','base','notes'].includes(key) ? bankList(value) : String(value).trim();
+    }
+    const year = Number(pick('year','سال')); if (Number.isFinite(year) && year > 0) p.year = year;
+    const rank = Number(pick('rank','popularity_rank')); if (Number.isFinite(rank) && rank > 0) p.rank = rank;
+    if (!p.notes || !p.notes.length) p.notes = [...new Set([...(p.top || []), ...(p.heart || []), ...(p.base || [])])];
+    return p;
+  }
+  async function bankReadFile(file) {
+    if (!file) throw new Error('ابتدا فایل را انتخاب کن');
+    if (file.size > 10 * 1024 * 1024) throw new Error('حجم فایل بیشتر از ۱۰ مگابایت است');
+    const ext = file.name.split('.').pop().toLowerCase();
+    let rawRows;
+    if (ext === 'json') {
+      const data = JSON.parse(await file.text());
+      rawRows = Array.isArray(data) ? data : data.perfumes || data.items || data.data;
+    } else if (ext === 'csv') rawRows = bankParseCSV(await file.text());
+    else if (['xlsx','xls'].includes(ext)) {
+      if (!window.XLSX) throw new Error('کتابخانه خواندن Excel بارگذاری نشده؛ اتصال اینترنت را بررسی کن');
+      const book = XLSX.read(await file.arrayBuffer(), { type: 'array' });
+      rawRows = XLSX.utils.sheet_to_json(book.Sheets[book.SheetNames[0]], { defval: '' });
+    } else throw new Error('فرمت فایل پشتیبانی نمی‌شود');
+    if (!Array.isArray(rawRows)) throw new Error('ساختار فایل باید آرایه عطرها یا جدول باشد');
+    const normalized = rawRows.map(bankNormalize).filter(Boolean);
+    if (!normalized.length) throw new Error('هیچ رکورد معتبر دارای نام عطر پیدا نشد');
+    const unique = new Map();
+    for (const p of normalized) unique.set(p.id, p);
+    return [...unique.values()];
+  }
+  function bankBase64(text) {
+    const bytes = new TextEncoder().encode(text); let binary = '';
+    for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+    return btoa(binary);
+  }
+  async function githubRequest(url, token, options = {}) {
+    const response = await fetch(url, { ...options, headers: {
+      Accept: 'application/vnd.github+json', Authorization: 'Bearer ' + token,
+      'X-GitHub-Api-Version': '2022-11-28', ...(options.headers || {})
+    }});
+    const body = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(body.message || ('GitHub HTTP ' + response.status));
+    return body;
+  }
+  async function bankUpload() {
+    const btn = bankEl('bankUploadBtn'); btn.disabled = true; btn.textContent = 'در حال اعتبارسنجی…';
+    try {
+      const file = bankDev.file, incoming = await bankReadFile(file);
+      const owner = bankEl('ghOwner').value.trim(), repoName = bankEl('ghRepo').value.trim(), branch = bankEl('ghBranch').value.trim() || 'main';
+      const token = bankEl('ghToken').value.trim();
+      if (!owner || !repoName || !token) throw new Error('مالک مخزن، نام مخزن و توکن GitHub الزامی است');
+      const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/contents/data/perfumes.json`;
+      bankStatus(`در حال دریافت بانک فعلی و ادغام ${fa(incoming.length)} رکورد…`);
+      let existing = [], sha;
+      try {
+        // Contents API omits file content for files over 1 MB; read bytes from raw and SHA from API.
+        const current = await githubRequest(url + '?ref=' + encodeURIComponent(branch), token);
+        sha = current.sha;
+        const rawUrl = `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/${encodeURIComponent(branch)}/data/perfumes.json?ts=${Date.now()}`;
+        const rawResponse = await fetch(rawUrl, { cache: 'no-store' });
+        if (!rawResponse.ok) throw new Error('دریافت نسخه فعلی بانک از GitHub ناموفق بود (' + rawResponse.status + ')');
+        existing = await rawResponse.json();
+        if (!Array.isArray(existing)) throw new Error('ساختار بانک فعلی معتبر نیست');
+      } catch (e) {
+        if (!String(e.message).includes('Not Found')) throw e;
+      }
+      const merged = new Map(existing.map(p => [String(p.id), p]));
+      let added = 0, updated = 0;
+      for (const p of incoming) {
+        if (merged.has(p.id)) updated++; else added++;
+        merged.set(p.id, { ...(merged.get(p.id) || {}), ...p });
+      }
+      const catalog = [...merged.values()];
+      const payload = { message: `feat(data): import ${incoming.length} perfume records via beta bank manager`, content: bankBase64(JSON.stringify(catalog, null, 2)), branch };
+      if (sha) payload.sha = sha;
+      await githubRequest(url, token, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+      const metaUrl = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/contents/data/meta.json`;
+      let metaSha;
+      try { metaSha = (await githubRequest(metaUrl + '?ref=' + encodeURIComponent(branch), token)).sha; } catch {}
+      const meta = { generatedAt: new Date().toISOString(), count: catalog.length, brands: new Set(catalog.map(p => p.brand)).size, source: 'Larsi Beta Bank Manager' };
+      const metaPayload = { message: 'chore(data): refresh perfume catalog metadata', content: bankBase64(JSON.stringify(meta, null, 2)), branch };
+      if (metaSha) metaPayload.sha = metaSha;
+      try { await githubRequest(metaUrl, token, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(metaPayload) }); } catch {}
+      bankStatus(`آپلود موفق بود. ${fa(added)} عطر جدید، ${fa(updated)} رکورد به‌روزرسانی شد. مجموع بانک: ${fa(catalog.length)} عطر. پس از انتشار GitHub Pages، برنامه را به‌روزرسانی کن.`);
+      toast('بانک عطرها در GitHub ثبت شد');
+      bankEl('ghToken').value = '';
+    } catch (e) {
+      bankStatus('خطا: ' + e.message, true); toast('آپلود انجام نشد');
+    } finally { bankEl('ghToken').value = ''; btn.disabled = !bankDev.file; btn.textContent = 'اعتبارسنجی و آپلود به GitHub'; }
+  }
+  function bindBankDev() {
+    const trigger = bankEl('bankDevBtn');
+    trigger.addEventListener('click', () => {
+      bankDev.clicks++;
+      clearTimeout(bankDev.timer);
+      if (bankDev.clicks >= 3) { bankDev.clicks = 0; unlockBankDev(); }
+      else bankDev.timer = setTimeout(() => { bankDev.clicks = 0; }, 1200);
+    });
+    bankEl('bankFile').addEventListener('change', async e => {
+      bankDev.file = e.target.files[0] || null;
+      bankEl('bankPreviewBtn').disabled = bankEl('bankUploadBtn').disabled = !bankDev.file;
+      bankEl('bankFileInfo').textContent = bankDev.file ? `${bankDev.file.name} · ${fa(Math.round(bankDev.file.size / 1024))} کیلوبایت` : 'فایلی انتخاب نشده است';
+      bankDev.rows = [];
+      bankStatus(bankDev.file ? 'فایل انتخاب شد؛ برای بررسی روی «پیش‌نمایش و شمارش» بزن.' : 'هنوز فایلی انتخاب نشده است.');
+    });
+    bankEl('bankPreviewBtn').addEventListener('click', async () => {
+      try { bankDev.rows = await bankReadFile(bankDev.file); bankStatus(`${fa(bankDev.rows.length)} رکورد معتبر آماده ادغام است. رکوردهای هم‌شناسه با داده جدید به‌روزرسانی می‌شوند.`); }
+      catch (e) { bankStatus('خطا: ' + e.message, true); }
+    });
+    bankEl('bankUploadBtn').addEventListener('click', bankUpload);
+    $$('#layerBankDev [data-bank-close]').forEach(el => el.addEventListener('click', () => {
+      const layer = bankEl('layerBankDev'); layer.classList.remove('open'); layer.hidden = true;
+      if (!anyLayerOpen() && dom.drawer.inert) document.body.classList.remove('lock');
+    }));
+  }
+
   /* ================= about ================= */
   function renderAbout() {
     const meta = repo.catalog.meta; const total = items.length;
@@ -551,6 +725,7 @@
     document.addEventListener('error', e => { const t = e.target; if (t.classList && t.classList.contains('lpf-img')) t.remove(); }, true);
 
     dom.menuBtn.onclick = openDrawer; $('#drawerClose').onclick = () => closeDrawer(); dom.scrim.onclick = () => closeDrawer();
+    bindBankDev();
     dom.drawer.addEventListener('click', e => {
       const sheet = e.target.closest('[data-sheet]'); const nv = e.target.closest('[data-nav]');
       if (sheet) { closeDrawer(false); openSheet(sheet.dataset.sheet); }
@@ -635,7 +810,7 @@
 
     // keyboard
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') { if (!dom.drawer.inert) closeDrawer(); else if (anyLayerOpen()) closeTop(); return; }
+      if (e.key === 'Escape') { const bd = bankEl('layerBankDev'); if (bd && !bd.hidden) { bd.classList.remove('open'); bd.hidden = true; if (!anyLayerOpen()) document.body.classList.remove('lock'); } else if (!dom.drawer.inert) closeDrawer(); else if (anyLayerOpen()) closeTop(); return; }
       trap(e);
       const typing = /^(input|textarea|select)$/i.test((document.activeElement || {}).tagName || '');
       if ((e.key === '/' && !typing) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k')) { e.preventDefault(); $('#catalog').scrollIntoView({ block: 'start' }); dom.search.focus(); }
