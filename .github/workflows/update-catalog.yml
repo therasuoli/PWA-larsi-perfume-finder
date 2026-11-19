@@ -1,0 +1,33 @@
+name: Refresh perfume catalogue (Alpha)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * 2'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-perfume-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild compact catalogue and chunks
+        run: node scripts/build-data.mjs
+      - name: Validate chunks and metadata
+        run: node scripts/validate-data.mjs
+      - name: Commit updated data files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/perfumes.json data/perfumes-*.json data/manifest.json data/meta.json
+          if git diff --cached --quiet; then echo 'Catalogue unchanged.'; else git commit -m 'chore(data): refresh perfume catalogue'; git push; fi
