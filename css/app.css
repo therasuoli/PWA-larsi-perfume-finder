@@ -281,6 +281,25 @@ summary{cursor:pointer;font-weight:700;font-size:.875rem}
 .credit{padding:18px;border:1px dashed color-mix(in srgb,var(--accent) 50%,transparent);border-radius:18px;text-align:center}
 .credit p{margin:2px 0;color:var(--text)}
 
+
+/* ---------- beta bank developer ---------- */
+.drawer-nav #bankDevBtn{border:1px dashed color-mix(in srgb,var(--accent) 55%,transparent);background:color-mix(in srgb,var(--accent-soft) 40%,transparent);cursor:pointer}
+.bank-dev{display:grid;gap:12px;align-content:start}
+.bank-dev-intro{padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--surface2)}
+.bank-dev-intro b{font-size:1rem}
+.bank-dev p{font-size:.8125rem;line-height:1.9;color:var(--muted);margin:4px 0}
+.bank-dev h3{font-size:1rem;margin:0}
+.bank-dev .field-label{font-size:.8125rem;font-weight:700;margin-top:5px}
+.bank-dev input[type=text],.bank-dev input[type=password],.bank-dev input[type=file]{width:100%;min-width:0;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);font:inherit;font-size:.875rem}
+.bank-dev input[type=file]{font-size:.75rem}
+.bank-dev-divider{height:1px;background:var(--line);margin:10px 0}
+.bank-dev-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.bank-dev-actions .btn{min-height:46px;font-size:.8rem}
+.bank-dev-status{padding:13px;border:1px solid var(--line);border-radius:12px;background:var(--surface2);font-size:.8125rem;line-height:1.9;overflow-wrap:anywhere}
+.bank-dev-status.error{border-color:var(--danger);color:var(--danger)}
+.bank-security{padding:12px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:8px}
+@media(max-width:420px){.bank-dev-actions{grid-template-columns:1fr}}
+
 /* ---------- toast ---------- */
 .toast{position:fixed;inset-inline:0;bottom:calc(22px + env(safe-area-inset-bottom));margin-inline:auto;width:max-content;max-width:min(92vw,440px);z-index:300;display:flex;align-items:center;gap:12px;padding:.6rem 1.1rem;border-radius:99px;background:var(--text);color:var(--bg);font-size:.8125rem;opacity:0;transform:translateY(16px);pointer-events:none;transition:.25s}
 .toast.show{opacity:1;transform:none;pointer-events:auto}
