@@ -5,10 +5,10 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '5.0.0',
-    versionFa: '۵٫۰٫۰',
-    releaseFa: 'آبان ۱۴۰۵',
-    releaseISO: '2026-11-17',
+    version: '5.1.0-beta.1',
+    versionFa: '۵٫۱٫۰ بتا',
+    releaseFa: 'آبان ۱۴۰۵ · بتا',
+    releaseISO: '2026-11-19',
     author: 'هادی رسولی',
     store: { name: 'فروشگاه لارسی', url: 'https://lar30.com', host: 'lar30.com' },
     // Data repository: same-origin snapshot first (fast, offline-ready), live APIs second.
@@ -30,6 +30,13 @@
     imageHosts: ['imagedelivery.net', 'www.scento.com', 'scento.com'],
     storagePrefix: 'lpf:v5:',
     changelog: [
+      { v: '5.1.0-beta.1', date: 'آبان ۱۴۰۵', items: [
+        'افزودن بخش مخفی توسعه بانک با ورود پس از سه بار کلیک و رمز عبور',
+        'ورود فایل‌های JSON، CSV و Excel و اعتبارسنجی رکوردها پیش از ثبت',
+        'ادغام هوشمند بر اساس شناسه عطر؛ افزودن رکوردهای جدید و به‌روزرسانی موارد تکراری',
+        'اتصال مستقیم و اختیاری به GitHub Contents API برای ثبت بانک و فراداده در مخزن',
+        'بهبود وضعیت نسخه بتا، مدیریت خطا و راهنمای امنیت توکن GitHub'
+      ] },
       { v: '5.0.0', date: 'آبان ۱۴۰۵', items: [
         'ارتقای نسخه برنامه و هماهنگ‌سازی شناسه کش و فایل‌های انتشار',
         'تکمیل پشتیبان‌گیری افزایشی شامل علاقه‌مندی‌ها، عطرهای نامطلوب، امتیازها، کمد عطر و تنظیمات',
