@@ -22,9 +22,8 @@
 <link rel="dns-prefetch" href="https://www.scento.com">
 <link rel="stylesheet" href="css/app.css">
 <script>
-/* Start downloading the catalogue immediately (in parallel with CSS/JS), and apply theme + text size before first paint (no flash). */
-(function(){try{window.__lpfCatalog=fetch('data/perfumes.json').then(function(r){if(!r.ok)throw 0;return r.json()});window.__lpfCatalog.catch(function(){})}catch(e){}
- try{
+/* Apply saved theme and text size before first paint. Catalogue is loaded in compact chunks by repo.js. */
+(function(){try{
   var P='lpf:v4:',t=JSON.parse(localStorage.getItem(P+'theme')||'"auto"'),f=JSON.parse(localStorage.getItem(P+'font')||'100');
   var dark=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
   var r=document.documentElement;r.dataset.theme=t==='auto'?dark:t;r.dataset.themePref=t;
@@ -124,6 +123,7 @@
       <div class="hero-meta">
         <div><b id="statPerfumes">—</b><span>عطر در بانک</span></div>
         <div><b id="statBrands">—</b><span>برند</span></div>
+        <div><b id="statCategories">—</b><span>دسته رایحه</span></div>
         <button id="surpriseBtn" class="btn ghost" type="button"><svg class="ic"><use href="#i-spark"/></svg>غافلگیرم کن</button>
       </div>
     </div>
@@ -132,6 +132,11 @@
       <svg class="hero-bottle" viewBox="0 0 48 64"><use href="#i-bottle"/></svg>
       <span class="pill p1">BERGAMOT · CITRUS</span><span class="pill p2">OUD · AMBER</span><span class="pill p3">VANILLA · MUSK</span>
     </div>
+  </section>
+
+  <section class="section categories" id="categories" aria-labelledby="categoryTitle">
+    <div class="section-head"><div><p class="eyebrow">SCENT FAMILIES</p><h2 id="categoryTitle">دسته‌بندی رایحه‌ها</h2></div><span class="muted" id="categoryTotal">—</span></div>
+    <div class="category-grid" id="categoryGrid" aria-label="دسته‌بندی عطرها"></div>
   </section>
 
   <section class="section" id="catalog" aria-labelledby="catTitle">
@@ -272,6 +277,6 @@
 <script src="js/lang-fa.js" defer></script>
 <script src="js/store.js" defer></script>
 <script src="js/repo.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer crossorigin="anonymous"></script>\n<script src="js/app.js" defer></script>
+<script src="js/app.js" defer></script>
 </body>
 </html>
