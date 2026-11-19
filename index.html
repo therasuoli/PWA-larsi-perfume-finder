@@ -91,6 +91,7 @@
     <a href="#brands" data-nav="brands"><svg class="ic"><use href="#i-tag"/></svg>برندها</a>
     <button type="button" data-sheet="wardrobe"><svg class="ic"><use href="#i-bag"/></svg>کمد عطر من<span class="badge inline" id="wardrobeBadge2" hidden>0</span></button>
     <button type="button" data-sheet="about"><svg class="ic"><use href="#i-info"/></svg>درباره ما</button>
+    <button type="button" id="bankDevBtn" aria-label="توسعه بانک؛ برای ورود سه بار کلیک کنید"><svg class="ic"><use href="#i-spark"/></svg>توسعه بانک</button>
     <a href="https://lar30.com" target="_blank" rel="noopener"><svg class="ic"><use href="#i-store"/></svg>فروشگاه لارسی · lar30.com</a>
   </nav>
   <section class="drawer-prefs" aria-label="تنظیمات نمایش">
@@ -106,7 +107,7 @@
     <button id="installBtn" class="btn" type="button" hidden><svg class="ic"><use href="#i-phone"/></svg>نصب برنامه روی دستگاه</button>
     <p class="hint" id="iosHint" hidden>در Safari: دکمه اشتراک‌گذاری ← «Add to Home Screen».</p>
   </section>
-  <div class="drawer-foot"><span>نسخه <b id="verText">۵٫۰٫۰</b></span><button type="button" class="link" data-sheet="about">تاریخچه تغییرات</button></div>
+  <div class="drawer-foot"><span>نسخه <b id="verText">۵٫۱٫۰ بتا</b></span><button type="button" class="link" data-sheet="about">تاریخچه تغییرات</button></div>
 </aside>
 
 <main id="top">
@@ -237,6 +238,31 @@
   </div>
 </div>
 
+<div class="layer sheet" id="layerBankDev" hidden role="dialog" aria-modal="true" aria-labelledby="bankDevTitle">
+  <div class="layer-bg" data-bank-close></div>
+  <div class="panel panel-page" tabindex="-1">
+    <header class="page-head"><button class="icon-btn" type="button" data-bank-close aria-label="بازگشت"><svg class="ic"><use href="#i-back"/></svg></button><h2 id="bankDevTitle">توسعه بانک عطرها · نسخه بتا</h2></header>
+    <div class="page-body bank-dev">
+      <section class="bank-dev-intro"><b>افزودن گروهی عطرها</b><p>فایل JSON، CSV یا Excel را انتخاب کن. داده‌ها بر اساس شناسه ادغام می‌شوند و رکوردهای قبلی حذف نخواهند شد.</p></section>
+      <label class="field-label" for="bankFile">فایل بانک (JSON / CSV / XLSX / XLS)</label>
+      <input id="bankFile" type="file" accept=".json,.csv,.xlsx,.xls,application/json,text/csv">
+      <p id="bankFileInfo" class="hint">حداکثر حجم پیشنهادی: ۱۰ مگابایت. ردیف اول فایل جدولی باید عنوان ستون‌ها باشد.</p>
+      <div class="bank-dev-divider"></div>
+      <h3>اتصال به مخزن GitHub</h3>
+      <p class="hint">برای ثبت مستقیم تغییرات، یک Fine-grained Personal Access Token با دسترسی Contents: Read and write فقط برای همین مخزن وارد کن. توکن در مرورگر ذخیره نمی‌شود.</p>
+      <label class="field-label" for="ghOwner">نام کاربری / مالک مخزن</label><input id="ghOwner" type="text" autocomplete="off" placeholder="مثلاً larsi">
+      <label class="field-label" for="ghRepo">نام مخزن</label><input id="ghRepo" type="text" autocomplete="off" placeholder="نام repository">
+      <label class="field-label" for="ghBranch">شاخه (Branch)</label><input id="ghBranch" type="text" value="main" autocomplete="off">
+      <label class="field-label" for="ghToken">GitHub Token</label><input id="ghToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+      <div class="bank-dev-actions">
+        <button class="btn primary" type="button" id="bankUploadBtn" disabled>اعتبارسنجی و آپلود به GitHub</button>
+        <button class="btn ghost" type="button" id="bankPreviewBtn" disabled>پیش‌نمایش و شمارش</button>
+      </div>
+      <div id="bankDevStatus" class="bank-dev-status" role="status" aria-live="polite">هنوز فایلی انتخاب نشده است.</div>
+      <p class="hint bank-security">نکته امنیتی: رمز ورود این بخش در کد سمت کاربر قرار دارد و صرفاً مانع دسترسی اتفاقی است، نه کنترل امنیتی واقعی. برای مخزن عمومی، توکن را کوتاه‌عمر و محدود به همان مخزن بساز و پس از استفاده revoke کن.</p>
+    </div>
+  </div>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <input id="importFile" type="file" accept="application/json,.json" hidden>
 
@@ -246,6 +272,6 @@
 <script src="js/lang-fa.js" defer></script>
 <script src="js/store.js" defer></script>
 <script src="js/repo.js" defer></script>
-<script src="js/app.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer crossorigin="anonymous"></script>\n<script src="js/app.js" defer></script>
 </body>
 </html>
