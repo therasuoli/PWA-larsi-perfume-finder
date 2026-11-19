@@ -75,12 +75,23 @@ for (const r of rows) {
 items.sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
 
 await mkdir(resolve(ROOT, 'data'), { recursive: true });
+const chunkSize = 500;
+const chunks = [];
+for (let i = 0; i < items.length; i += chunkSize) {
+  const file = `perfumes-${String(Math.floor(i / chunkSize) + 1).padStart(2, '0')}.json`;
+  const part = items.slice(i, i + chunkSize);
+  await writeFile(resolve(ROOT, 'data', file), JSON.stringify(part));
+  chunks.push({ file, count: part.length, start: i + 1, end: i + part.length });
+}
+// Keep the legacy merged JSON for backwards compatibility, but the PWA loader reads chunks.
 await writeFile(resolve(ROOT, 'data/perfumes.json'), JSON.stringify(items));
+const manifest = { total: items.length, chunk_size: chunkSize, chunks };
+await writeFile(resolve(ROOT, 'data/manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
 const meta = {
-  generatedAt: new Date().toISOString(),
-  count: items.length,
+  generatedAt: new Date().toISOString(), count: items.length,
   brands: new Set(items.map(i => i.brand)).size,
-  source: UPSTREAM
+  families: new Set(items.flatMap(i => [i.family, i.family2]).filter(Boolean)).size,
+  source: UPSTREAM, appVersion: '5.2.0-alpha.1', duplicateIds: 0
 };
 await writeFile(resolve(ROOT, 'data/meta.json'), JSON.stringify(meta, null, 2) + '\n');
-console.log(`data/perfumes.json: ${items.length} perfumes, ${meta.brands} brands`);
+console.log(`Chunked catalog: ${items.length} perfumes, ${meta.brands} brands, ${chunks.length} files`);
