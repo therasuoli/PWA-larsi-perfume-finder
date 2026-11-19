@@ -11,6 +11,7 @@
 
   /** Adds derived, pre-computed fields used for instant search/filter/sort. */
   function prepare(p) {
+    p.brand = p.brand || 'نامشخص'; p.brandId = p.brandId || '';
     p.top = p.top || []; p.heart = p.heart || []; p.base = p.base || [];
     p.allNotes = [...new Set([...p.top, ...p.heart, ...p.base, ...(p.notes || [])])];
     const noteText = p.allNotes.map(n => n + ' ' + FA.note(n));
@@ -65,9 +66,14 @@
     async load() {
       let items;
       try {
-        items = window.__lpfCatalog ? await window.__lpfCatalog : await fetchJSON(cfg.data.catalog);
-        window.__lpfCatalog = null;
-        catalog.source = 'snapshot';
+        // Chunked local snapshot: manifest first, then parallel requests. Fall back to legacy merged JSON.
+        const manifest = await fetchJSON(cfg.data.manifest, 7000).catch(() => null);
+        if (manifest && Array.isArray(manifest.chunks) && manifest.chunks.length) {
+          const parts = await Promise.all(manifest.chunks.map(c => fetchJSON('data/' + c.file, 15000)));
+          items = parts.flat();
+          if (Number.isFinite(manifest.total) && items.length !== manifest.total) throw new Error('catalog-count-mismatch');
+          catalog.meta = manifest; catalog.source = 'chunked-snapshot';
+        } else { items = await fetchJSON(cfg.data.catalog); catalog.source = 'legacy-snapshot'; }
       } catch (e) {
         const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 20000);
         try {
