@@ -1,12 +1,10 @@
 {
-  "generatedAt": "2026-11-19T16:45:00.000Z",
-  "count": 1479,
-  "brands": 160,
+  "generatedAt": "2026-11-19T19:17:00.000Z",
+  "count": 3381,
+  "brands": 161,
+  "families": 14,
   "source": "https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv",
-  "targetCount": 5000,
-  "remainingToTarget": 3521,
-  "validCount": 1479,
+  "appVersion": "5.2.0-alpha.1",
   "duplicateIds": 0,
-  "appVersion": "5.1.0-beta.1",
-  "note": "آمار از فایل perfumes.json محاسبه شده است؛ هدف ۵۰۰۰ رکورد به معنی وجود این تعداد در نسخه فعلی نیست."
+  "note": "آمار واقعی بانک. رکوردهای بدون برند با نام نامشخص نرمال‌سازی شدند."
 }
