@@ -20,6 +20,8 @@
       p.name, p.brand, p.conc, FA.concentration(p.conc), p.family, FA.family(p.family), p.family2, FA.family(p.family2),
       ...(p.character || []).map(c => c + ' ' + FA.char(c)), ...noteText, ...(p.perfumers || []), p.year || ''
     ].join(' '));
+    if (p.nameFa) p._s += ' ' + FA.norm(p.nameFa);
+    p._nl = new Set(p.allNotes.map(n => n.toLowerCase()));
     p._name = FA.norm(p.name); p._brand = FA.norm(p.brand);
     return p;
   }
@@ -54,10 +56,13 @@
     return o;
   }
 
-  async function fetchJSON(url, ms = 12000) {
-    const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), ms);
-    try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) throw new Error('HTTP ' + r.status); return await r.json(); }
-    finally { clearTimeout(t); }
+  async function fetchJSON(url, ms = 12000, retries = 1) {
+    for (let attempt = 0; ; attempt++) {
+      const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), ms);
+      try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) throw new Error('HTTP ' + r.status); return await r.json(); }
+      catch (e) { if (attempt >= retries) throw e; await new Promise(res => setTimeout(res, 400 * (attempt + 1))); }
+      finally { clearTimeout(t); }
+    }
   }
 
   /* ---------- catalogue ---------- */
