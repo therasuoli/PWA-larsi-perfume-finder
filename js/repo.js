@@ -1,4 +1,4 @@
-/* Data repository: local snapshot, Scento REST API (with timeout + circuit breaker) and the image index */
+/* Data repository: Supabase-only catalogue, optional enrichment API and image index */
 (function () {
   'use strict';
   const LPF = (window.LPF = window.LPF || {});
@@ -26,7 +26,7 @@
     return p;
   }
 
-  /* ---------- CSV fallback (only used if the local snapshot is unavailable) ---------- */
+  /* ---------- CSV parsing helpers (used by the developer import tool only) ---------- */
   function parseCSV(text) {
     const rows = []; let row = [], cell = '', q = false;
     if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
