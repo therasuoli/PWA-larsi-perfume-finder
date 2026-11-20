@@ -20,14 +20,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: '22'
       - name: Rebuild compact catalogue and chunks
         run: node scripts/build-data.mjs
       - name: Validate chunks and metadata
         run: node scripts/validate-data.mjs
+      - name: Sync catalogue to Supabase (optional)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/sync-supabase.mjs
       - name: Commit updated data files
         run: |
           git config user.name 'github-actions[bot]'
