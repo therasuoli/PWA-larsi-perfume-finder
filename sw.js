@@ -1,6 +1,6 @@
-/* Larsi Perfume Finder — Service Worker (v5.3.0-alpha.1)
+/* Larsi Perfume Finder — Service Worker (v5.3.1-alpha.1)
    Strategies: shell/data = stale-while-revalidate · navigation = network-first (3.5s) · images = cache-first (LRU) · Scento API = network-first with cached fallback */
-const VERSION = '5.3.0-alpha.1';
+const VERSION = '5.3.1-alpha.1';
 const SHELL = `lpf-${VERSION}-shell`;
 const DATA = `lpf-${VERSION}-data`;
 const API = `lpf-${VERSION}-api`;
