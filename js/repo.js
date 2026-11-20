@@ -69,29 +69,33 @@
   const catalog = {
     meta: null, source: 'snapshot',
     async load() {
-      let items;
-      try {
-        // Chunked local snapshot: manifest first, then parallel requests. Fall back to legacy merged JSON.
-        const manifest = await fetchJSON(cfg.data.manifest, 7000).catch(() => null);
-        if (manifest && Array.isArray(manifest.chunks) && manifest.chunks.length) {
-          const parts = await Promise.all(manifest.chunks.map(c => fetchJSON('data/' + c.file, 15000)));
-          items = parts.flat();
-          if (Number.isFinite(manifest.total) && items.length !== manifest.total) throw new Error('catalog-count-mismatch');
-          catalog.meta = manifest; catalog.source = 'chunked-snapshot';
-        } else { items = await fetchJSON(cfg.data.catalog); catalog.source = 'legacy-snapshot'; }
-      } catch (e) {
-        const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 20000);
+      // Supabase is the ONLY catalogue source. No local JSON or upstream CSV fallback.
+      const sb = cfg.supabase || {};
+      if (!sb.url || !sb.anonKey) throw new Error('supabase-config-missing');
+      const base = sb.url.replace(/\/$/, '') + '/rest/v1/' + encodeURIComponent(sb.table || 'perfumes');
+      const size = Math.max(1, Math.min(Number(sb.pageSize) || 1000, 1000));
+      const all = [];
+      for (let offset = 0; ; offset += size) {
+        const url = base + '?select=payload&order=id.asc';
+        const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), sb.timeoutMs || 12000);
+        let res;
         try {
-          const res = await fetch(cfg.data.upstreamCsv, { signal: ctl.signal });
-          if (!res.ok) throw new Error('HTTP ' + res.status);
-          items = parseCSV(await res.text()).filter(r => r.id && r.name).map(fromCsvRow);
-          items.sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
-          catalog.source = 'upstream';
-        } finally { clearTimeout(t); }
+          res = await fetch(url, {
+            headers: { apikey: sb.anonKey, Authorization: 'Bearer ' + sb.anonKey, Accept: 'application/json', Range: `${offset}-${offset + size - 1}`, 'Range-Unit': 'items' },
+            signal: ctl.signal
+          });
+        } finally { clearTimeout(timer); }
+        if (!res.ok) throw new Error('supabase-http-' + res.status);
+        const rows = await res.json();
+        if (!Array.isArray(rows)) throw new Error('supabase-invalid-response');
+        all.push(...rows.map(r => r && r.payload).filter(p => p && typeof p === 'object'));
+        if (rows.length < size) break;
       }
-      items.forEach(prepare);
-      fetchJSON(cfg.data.meta, 6000).then(m => { catalog.meta = m; }).catch(() => {});
-      return items;
+      if (!all.length) throw new Error('supabase-empty-catalog');
+      all.forEach(prepare);
+      catalog.meta = { total: all.length, source: 'supabase' };
+      catalog.source = 'supabase';
+      return all;
     },
     prepare
   };
