@@ -1,4 +1,4 @@
-// Upload the chunked catalogue to Supabase using the service-role key (GitHub secret only).
+// Upload the owner-managed chunked import catalogue to Supabase using the GitHub secret only.
 const fs = await import('node:fs/promises');
 const base = (process.env.SUPABASE_URL || '').replace(/\/$/, '');
 const key = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
