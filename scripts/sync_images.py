@@ -212,7 +212,7 @@ def main(argv=None):
         except Exception:
             return True
 
-    todo = [p for p in catalog if p.get('url') and (a.force or p['id'] not in images or stale_empty(images[p['id']]))]
+    todo = [p for p in catalog if p.get('url') and urlparse(p['url']).netloc in ALLOWED_HOSTS and (a.force or p['id'] not in images or stale_empty(images[p['id']]))]
     if a.max_pages:
         todo = todo[:a.max_pages]
     print(f'{len(images)} already indexed · {len(todo)} to crawl · {a.workers} workers · {a.interval}s interval')
