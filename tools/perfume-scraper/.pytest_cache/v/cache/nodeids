@@ -1,0 +1,19 @@
+[
+  "tests/test_core.py::test_all_sources_includes_brand_sites_and_iranian_shops",
+  "tests/test_core.py::test_create_session_has_retrying_http_adapters",
+  "tests/test_core.py::test_description_split_and_html_cleanup",
+  "tests/test_core.py::test_enrich_product_detail_page_extracts_descriptions_image_and_brand",
+  "tests/test_core.py::test_jsonld_product_extraction",
+  "tests/test_core.py::test_normalize",
+  "tests/test_core.py::test_translate_products_keeps_original_and_marks_unavailable",
+  "tests/test_core.py::test_workbook_has_eight_iranian_sources",
+  "tests/test_dashboard_and_progress.py::test_dashboard_download_zip_returns_output_bundle",
+  "tests/test_dashboard_and_progress.py::test_dashboard_includes_live_analytics_and_translation_toggle",
+  "tests/test_dashboard_and_progress.py::test_dashboard_runner_creates_outputs_and_final_state",
+  "tests/test_dashboard_and_progress.py::test_local_dashboard_serves_ui_and_source_json",
+  "tests/test_dashboard_and_progress.py::test_manual_url_source_parsing",
+  "tests/test_dashboard_and_progress.py::test_scrape_cancel_event_prevents_page_requests",
+  "tests/test_dashboard_and_progress.py::test_scrape_progress_callback_contains_products",
+  "tests/test_dashboard_and_progress.py::test_selected_store_source_filters_by_domain",
+  "tests/test_dashboard_and_progress.py::test_store_source_regions_exist_and_load"
+]
