@@ -12,21 +12,24 @@
 
   /* ================= state ================= */
   let items = [], view = [], shown = 0, pageSize = 24;
-  const byId = new Map(), bySlug = new Map(), remote = new Map(), df = new Map();
+  const byId = new Map(), bySlug = new Map(), df = new Map();
   const compare = new Set();
   const F = { q: '', family: '', conc: '', season: '', time: '', note: '', brand: '', chars: new Set(), fav: false, sort: 'popular' };
   const dom = {};
   let current = null; // perfume shown in detail
   let sentinelIO = null, colCache = { w: 0, c: 1 };
   const idfMemo = new Map();
+  let brandOptions = [], noteOptions = [];
+  const SEARCH_HISTORY_KEY = 'lpf:search-history:7.1.1';
+  let searchHistory = [];
+  try { searchHistory = JSON.parse(localStorage.getItem(SEARCH_HISTORY_KEY) || '[]').filter(x => typeof x === 'string').slice(0, 8); } catch { searchHistory = []; }
+  let suggestTimer = null;
 
   /* ================= small utils ================= */
   const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
   const initials = b => String(b || '?').split(/[\s&-]+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
   const faDate = iso => { try { return new Date(iso).toLocaleDateString('fa-IR-u-ca-persian', { year: 'numeric', month: 'long', day: 'numeric' }); } catch { return ''; } };
-  const getP = id => byId.get(id) || remote.get(id);
-  /** Only http(s) links are ever rendered as href (records can come from user-imported files). */
-  const safeUrl = u => { try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch { return ''; } };
+  const getP = id => byId.get(id);
   let toastTimer;
   function toast(msg, action) {
     const t = dom.toast; t.innerHTML = '';
@@ -54,11 +57,13 @@
 
   /* ================= matching, filtering, sorting ================= */
   function buildIndex() {
-    byId.clear(); bySlug.clear(); df.clear(); idfMemo.clear();
+    byId.clear(); bySlug.clear(); df.clear(); idfMemo.clear(); brandOptions=[]; noteOptions=[];
     for (const p of items) {
       byId.set(p.id, p); if (!bySlug.has(p.slug)) bySlug.set(p.slug, p);
       for (const n of p.allNotes) { const k = n.toLowerCase(); df.set(k, (df.get(k) || 0) + 1); }
     }
+    brandOptions = [...new Set(items.map(p=>p.brand).filter(Boolean))];
+    noteOptions = [...new Set(items.flatMap(p=>p.allNotes || []))];
   }
   // n must be lower-case; results are memoised because similarLocal() calls this tens of thousands of times
   const idf = n => { let v = idfMemo.get(n); if (v === undefined) { v = Math.log((items.length + 1) / ((df.get(n) || 0) + 1)) + 0.3; idfMemo.set(n, v); } return v; };
@@ -77,10 +82,12 @@
     return true;
   }
   function relevance(p, q) {
-    if (p._name === q) return 5;
-    if (p._name.startsWith(q)) return 4;
-    if (p._name.includes(q)) return 3;
+    if (p._name === q) return 6;
+    if (p._name.startsWith(q)) return 5;
+    if (p._name.includes(q)) return 4;
+    if (p._brand.startsWith(q)) return 3;
     if (p._brand.includes(q)) return 2;
+    if (p._s.includes(q)) return 1.5;
     return 1;
   }
   const rank = p => p.rank || 1e9;
@@ -95,6 +102,35 @@
     };
     return list.sort(by[F.sort] || by.popular);
   }
+
+  /* ================= smart live suggestions (local Supabase catalogue) ================= */
+  function closeSuggestions(which) { const panel = $('#' + which); if (panel) { panel.hidden = true; panel.innerHTML = ''; } const input = $('#' + (which === 'heroSuggestions' ? 'heroInput' : 'searchInput')); if(input) input.setAttribute('aria-expanded','false'); }
+  function saveSearch(q) { const value = String(q || '').trim(); if (value.length < 2) return; searchHistory = [value, ...searchHistory.filter(x => FA.norm(x) !== FA.norm(value))].slice(0, 8); try { localStorage.setItem(SEARCH_HISTORY_KEY, JSON.stringify(searchHistory)); } catch {} }
+  function suggestionRows(q) {
+    const n = FA.norm(q); if (!n) return [];
+    const tokens = n.split(/\s+/).filter(Boolean);
+    const productMatches = items.filter(p => tokens.every(t => p._s.includes(t))).sort((a,b) => relevance(b,n) - relevance(a,n) || rank(a)-rank(b)).slice(0,5);
+    const brands = brandOptions.filter(b => FA.norm(b).includes(n)).slice(0,3);
+    const notes = noteOptions.filter(x => FA.norm(x).includes(n)).slice(0,3);
+    return { products: productMatches, brands, notes };
+  }
+  function paintSuggestions(panelId, q) {
+    const panel = $('#' + panelId); if (!panel) return;
+    const query = String(q || '').trim();
+    if (query.length < 2) {
+      const recent = searchHistory.slice(0,5);
+      panel.innerHTML = recent.length ? `<div class="suggest-head">جستجوهای اخیر</div>${recent.map(v=>`<button type="button" class="suggest-row history" data-suggest-query="${esc(v)}">${icon('search')}<span>${esc(v)}</span></button>`).join('')}<button type="button" class="suggest-clear-history" data-clear-search-history>پاک کردن تاریخچه</button>` : '';
+      panel.hidden = !recent.length; const input=$('#'+(panelId==='heroSuggestions'?'heroInput':'searchInput')); if(input) input.setAttribute('aria-expanded',String(!panel.hidden)); return;
+    }
+    const r = suggestionRows(query); const rows = [];
+    r.products.forEach(p => rows.push(`<button type="button" class="suggest-row product" data-suggest-open="${esc(p.id)}"><span class="suggest-thumb">${esc(initials(p.brand))}</span><span><b>${esc(p.name)}</b><small>${esc(p.brand)} · ${esc(FA.family(p.family) || 'عطر')}</small></span><span class="suggest-type">عطر</span></button>`));
+    r.brands.forEach(b => rows.push(`<button type="button" class="suggest-row" data-suggest-query="${esc(b)}">${icon('tag')}<span>${esc(b)}</span><small>برند</small></button>`));
+    r.notes.forEach(n => rows.push(`<button type="button" class="suggest-row" data-suggest-query="${esc(n)}">${icon('spark')}<span>${esc(FA.note(n)||n)}</span><small>نت</small></button>`));
+    panel.innerHTML = rows.length ? `<div class="suggest-head">پیشنهادهای جستجو</div>${rows.join('')}<button type="button" class="suggest-all" data-suggest-query="${esc(query)}">جستجوی همه نتایج برای «${esc(query)}»</button>` : `<div class="suggest-empty">پیشنهادی پیدا نشد؛ جستجوی کامل را انجام بده.</div><button type="button" class="suggest-all" data-suggest-query="${esc(query)}">جستجوی «${esc(query)}» در بانک</button>`;
+    panel.hidden = false; const input=$('#'+(panelId==='heroSuggestions'?'heroInput':'searchInput')); if(input) input.setAttribute('aria-expanded','true');
+  }
+  function syncSearchValues(q) { dom.search.value=q; dom.heroInput.value=q; dom.clear.hidden=!q; }
+  function commitSearch(q, scroll=true) { F.q=String(q||'').trim(); syncSearchValues(F.q); saveSearch(F.q); closeSuggestions('heroSuggestions'); closeSuggestions('searchSuggestions'); render(); if(scroll) $('#catalog').scrollIntoView({behavior:'smooth'}); }
 
   /* ================= rendering: cards ================= */
   function mediaHTML(p, idx, alt) {
@@ -125,15 +161,6 @@
     markReadyImages();
     if (sentinelIO && shown < view.length) { const s = $('#sentinel'); sentinelIO.unobserve(s); sentinelIO.observe(s); }
   }
-  /** Adds photos to cards that were rendered before the image index arrived — no re-render, no scroll jump. */
-  function hydrateImages(root = dom.grid) {
-    $$('.card[data-id]', root).forEach(card => {
-      const m = $('.media', card); if (!m || $('img', m)) return;
-      const p = byId.get(card.dataset.id); const url = p && repo.images.get(p); if (!url) return;
-      const img = document.createElement('img'); img.className = 'lpf-img'; img.src = url; img.alt = ''; img.width = 320; img.height = 400; img.decoding = 'async'; img.loading = 'lazy';
-      m.append(img); if (img.complete && img.naturalWidth) img.classList.add('ready');
-    });
-  }
   function markReadyImages() { $$('img.lpf-img:not(.ready)', dom.grid).forEach(i => { if (i.complete && i.naturalWidth) i.classList.add('ready'); }); }
 
   function render() {
@@ -142,13 +169,13 @@
     pageSize = Math.max(12, gridCols() * 4);
     dom.grid.innerHTML = '';
     if (!view.length) {
-      dom.grid.innerHTML = `<div class="empty"><p>موردی پیدا نشد. عبارت جستجو یا فیلترها را تغییر بده.</p><button class="btn" type="button" data-reset>پاک‌کردن همه فیلترها</button></div>`;
+      const fallbackNotes = [...df.entries()].sort((a,b)=>b[1]-a[1]).slice(0,4).map(([n])=>n); dom.grid.innerHTML = `<div class="empty"><p>نتیجه‌ای در بانک پیدا نشد. عبارت را کوتاه‌تر کن یا یکی از رایحه‌های پرموجودی را امتحان کن.</p><div class="empty-suggestions">${fallbackNotes.map(n=>`<button class="chip" type="button" data-suggest-query="${esc(n)}">${esc(FA.note(n)||n)}</button>`).join('')}</div><button class="btn" type="button" data-reset>پاک‌کردن همه فیلترها</button></div>`;
       dom.loadMore.hidden = true; dom.grid.setAttribute('aria-busy', 'false');
     } else appendMore();
     const active = activeFilterCount();
     dom.count.textContent = active || F.q ? `${fa(view.length)} عطر پیدا شد (از ${fa(items.length)})` : `${fa(items.length)} عطر`;
     dom.filterBadge.hidden = !active; dom.filterBadge.textContent = fa(active);
-    renderActiveChips(); syncURL(); scheduleRemoteSearch();
+    renderActiveChips(); syncURL();
   }
   const activeFilterCount = () => ['family', 'conc', 'season', 'time', 'brand', 'note'].filter(k => F[k]).length + F.chars.size + (F.fav ? 1 : 0);
 
@@ -372,7 +399,7 @@
           <button class="btn${fav ? ' primary' : ''}" type="button" id="dFav" aria-pressed="${fav}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'}</span></button>
           <button class="btn" type="button" id="dCmp">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
           <button class="btn" type="button" id="dShare">${icon('share')}<span>اشتراک‌گذاری</span></button>
-          ${safeUrl(p.url) ? `<a class="btn" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${icon('link')}<span>${/(^|\.)scento\.com$/.test(new URL(safeUrl(p.url)).hostname) ? 'صفحه Scento' : 'صفحه منبع'}</span></a>` : ''}
+          
         </div>
         <div class="box"><h3>امتیاز من</h3>
           <div class="stars" id="dRate" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
@@ -384,8 +411,8 @@
       </div>
       <section class="similar" aria-labelledby="simTitle"><h3 id="simTitle">عطرهای مشابه</h3><div class="strip" id="simStrip"></div></section>
     </div>`;
-    renderGallery(p); loadLive(p);
-    $('#simStrip').innerHTML = '<p class="muted">در حال یافتن عطرهای مشابه…</p>';
+    renderGallery(p);
+    $('#simStrip').innerHTML = '<p class="muted">در حال تحلیل نت‌ها و آکوردهای مشترک از بانک عطر…</p>';
     (window.requestIdleCallback || (f => setTimeout(f, 30)))(() => { if (current && current.id === p.id) renderSimilarLocal(p); }, { timeout: 400 });
     markReadyImages2(dom.detailBody);
     const panel = $('.panel', layers.detail.el); if (panel) panel.scrollTop = 0;
@@ -404,32 +431,8 @@
     renderGallery(p); markReadyImages2(dom.detailBody);
   }
 
-  /* ---- Scento live data (optional enrichment — the app is fully usable without it) ---- */
-  function applyPortrait(p, folio) {
-    const d = (folio && folio.detail) || folio || {}; const py = d.pyramid || {};
-    const fill = (k, v) => { const a = repo.list(v); if (a.length && !(p[k] && p[k].length)) p[k] = a; };
-    fill('top', py.top); fill('heart', py.heart || py.middle); fill('base', py.base);
-    const fam = d.family || d.scento_family; if (!p.family && typeof fam === 'string') p.family = fam;
-    if (!p.desc && folio && typeof folio.lede === 'string') p.desc = folio.lede;
-    const se = repo.list(d.seasons).map(s => s.toLowerCase()).filter(s => FA.seasons[s]); if (se.length && !(p.seasons && p.seasons.length)) p.seasons = se;
-    repo.prepare(p);
-    repo.images.learn(p, folio);
-  }
-  async function loadLive(p) {
-    if (!p.slug || p.stub || repo.api.isPaused()) return;
-    try {
-      const folio = await repo.api.portrait(p.slug);
-      applyPortrait(p, folio); patchDetail(p); setStatus('اتصال زنده به Scento API', false);
-    } catch { if (!current || current.id !== p.id) return; setStatus('بانک محلی · حالت آفلاین', true); }
-    try {
-      const data = await repo.api.neighbours(p.slug);
-      if (!current || current.id !== p.id) return;
-      const ns = (data.detail && data.detail.neighbours) || data.neighbours || [];
-      if (ns.length) renderSimilarLive(p, ns);
-    } catch { /* keep local similarity */ }
-  }
-
-  /* ---- similar perfumes: local weighted algorithm + Scento neighbours ---- */
+  /* ---- similar perfumes: local weighted algorithm using only the Supabase catalogue ---- */
+  /* ---- similar perfumes: local weighted algorithm + منبع خارجی neighbours ---- */
   function similarLocal(p) {
     const base = p._nl;
     let baseW = 0; base.forEach(n => { baseW += idf(n); });
@@ -455,51 +458,10 @@
       <button class="act fav" type="button" data-dislike="${id}" aria-label="این پیشنهاد را نمی‌خواهم" title="این پیشنهاد را نمی‌خواهم">${icon('close')}</button></article>`;
   }
   function renderSimilarLocal(p) {
-    const el = $('#simStrip'); if (!el || el.dataset.live) return; const m = similarLocal(p);
+    const el = $('#simStrip'); if (!el) return; const m = similarLocal(p);
     el.innerHTML = m.length ? m.map(({ p: x, score, shared }) => simCardHTML(x, `${fa(score)}٪ شباهت`, shared.length ? 'نت‌های مشترک: ' + esc(shared.slice(0, 3).map(n => FA.note(n) || n).join('، ')) : esc(FA.family(x.family)))).join('') : '<p class="muted">برای این عطر پیشنهاد مشابهی در بانک پیدا نشد.</p>';
     markReadyImages2(el);
   }
-  function renderSimilarLive(p, ns) {
-    const el = $('#simStrip'); if (!el) return;
-    const cards = [];
-    for (const n of ns.slice(0, 12)) {
-      const slug = repo.slugOf(n.page || n.url || '', '');
-      let x = (slug && bySlug.get(slug)) || items.find(i => i.name.toLowerCase() === String(n.name || '').toLowerCase() && i.brand.toLowerCase() === String(n.house || '').toLowerCase());
-      if (!x) {
-        if (!n.name || !slug) continue;
-        const rid = 'r:' + slug; x = remote.get(rid);
-        if (!x) { x = repo.prepare({ id: rid, slug, name: n.name, brand: n.house || '—', family: n.family || '', url: n.page || n.url || '', remote: true }); remote.set(rid, x); }
-      }
-      if (x.id === p.id || S.disliked.has(x.id)) continue;
-      const shared = repo.list(n.shared);
-      cards.push(simCardHTML(x, `Scento · ${fa(shared.length)} نت مشترک`, esc(n.difference || (shared.length ? shared.slice(0, 3).map(s => FA.note(s) || s).join('، ') : ''))));
-    }
-    if (cards.length) { el.dataset.live = '1'; el.innerHTML = cards.join(''); markReadyImages2(el); }
-  }
-
-  /* ================= remote search (long tail beyond the bundled catalogue) ================= */
-  let remoteBlock;
-  const scheduleRemoteSearch = debounce(async () => {
-    const q = F.q.trim();
-    if (!remoteBlock) { remoteBlock = document.createElement('section'); remoteBlock.className = 'similar'; remoteBlock.style.cssText = 'margin-top:28px'; remoteBlock.hidden = true; dom.grid.parentNode.insertBefore(remoteBlock, $('.more-row')); }
-    if (q.length < 3 || view.length > 11 || repo.api.isPaused()) { remoteBlock.hidden = true; return; }
-    try {
-      const f = await repo.api.search(q);
-      if (q !== F.q.trim()) return;
-      const found = []; const matchesList = (f.detail && f.detail.matches) || f.matches || [];
-      for (const m of matchesList) {
-        if (!m.name) continue; const slug = repo.slugOf(m.url || m.page || '', ''); if (!slug) continue;
-        if (items.some(p => p.slug === slug || (p.name.toLowerCase() === m.name.toLowerCase() && p.brand.toLowerCase() === String(m.house || '').toLowerCase()))) continue;
-        const rid = 'r:' + slug; let x = remote.get(rid);
-        if (!x) { x = repo.prepare({ id: rid, slug, name: m.name, brand: m.house || '—', family: m.family || '', url: m.url || m.page || '', remote: true }); remote.set(rid, x); }
-        found.push(x);
-      }
-      if (!found.length) { remoteBlock.hidden = true; return; }
-      remoteBlock.innerHTML = `<h3>نتایج بیشتر از Scento</h3><div class="strip">${found.slice(0, 12).map(x => simCardHTML(x, 'Scento', '').replace(/<button class="act fav"[\s\S]*?<\/button>/, '')).join('')}</div>`;
-      remoteBlock.hidden = false; setStatus('اتصال زنده به Scento API', false);
-    } catch { remoteBlock.hidden = true; }
-  }, 550);
-
   /* ================= compare ================= */
   function renderCompare() {
     const ps = [...compare].map(getP).filter(Boolean);
@@ -595,14 +557,24 @@
     if (!slug) slug = 'imported-perfume-' + (index + 1);
     const p = { id: slug, slug, name, brand };
     const mappings = {
-      brandId:['brandId','brand_id','house_id'], conc:['conc','concentration','غلظت'], family:['family','خانواده'], family2:['family2','secondary_family'],
+      brandId:['brandId','brand_id','house_id'], nameFa:['nameFa','name_fa','persian_name','نام فارسی'], conc:['conc','concentration','غلظت'], family:['family','خانواده'], family2:['family2','secondary_family'],
       perfumers:['perfumers','عطرساز'], character:['character','ویژگی'], seasons:['seasons','فصل'], times:['times','times_of_day','زمان استفاده'],
       top:['top','top_notes','نت ابتدایی','نت‌های ابتدایی'], heart:['heart','heart_notes','نت میانی','نت‌های میانی'],
-      base:['base','base_notes','نت پایانی','نت‌های پایانی'], notes:['notes','نت‌ها'], desc:['desc','description','توضیحات'], url:['url','link']
+      base:['base','base_notes','نت پایانی','نت‌های پایانی'], notes:['notes','نت‌ها'], desc:['desc','description','توضیحات'],
+      short_description_fa:['short_description_fa','short_desc_fa','خلاصه فارسی'], short_description:['short_description','shortDesc'], desc_fa:['desc_fa'], descriptionFa:['descriptionFa'], long_description_fa:['long_description_fa'],
+      long_description:['long_description','full_description','توضیحات کامل'], description_fa:['description_fa','توضیحات فارسی'],
+      accords:['accords','main_accords','آکوردها'], tags:['tags','keywords','کلیدواژه'], aliases:['aliases','alternative_names','نام‌های جایگزین'],
+      image:['image','image_url','imageUrl','photo','photo_url','primary_image','cover'], images:['images','gallery']
     };
+    const arrayKeys = ['perfumers','character','seasons','times','top','heart','base','notes','accords','tags','aliases'];
     for (const [key, aliases] of Object.entries(mappings)) {
       const value = pick(...aliases);
-      if (value !== '') p[key] = ['perfumers','character','seasons','times','top','heart','base','notes'].includes(key) ? bankList(value) : String(value).trim();
+      if (value !== '') {
+        if (arrayKeys.includes(key)) p[key] = bankList(value);
+        else if (key === 'images') { if (Array.isArray(value)) p.images=value; else { try { const parsed=JSON.parse(String(value)); p.images=Array.isArray(parsed)?parsed:bankList(value); } catch { p.images=bankList(value); } } }
+        else if (key === 'image') p.image = typeof value === 'string' ? value.trim() : value;
+        else p[key] = String(value).trim();
+      }
     }
     const year = Number(pick('year','سال')); if (Number.isFinite(year) && year > 0) p.year = year;
     const rank = Number(pick('rank','popularity_rank')); if (Number.isFinite(rank) && rank > 0) p.rank = rank;
@@ -665,9 +637,7 @@
       const owner = bankEl('ghOwner').value.trim(), repoName = bankEl('ghRepo').value.trim(), branch = bankEl('ghBranch').value.trim() || 'main';
       const token = bankEl('ghToken').value.trim();
       if (!owner || !repoName || !token) throw new Error('مالک مخزن، نام مخزن و توکن GitHub الزامی است');
-      // Imports go to data/extra/bank-imports.json. That file is a build input: the "Refresh perfume catalogue"
-      // workflow merges it into the chunked catalogue (and re-runs on every push that touches data/extra/),
-      // so imported records are visible to the app and are never lost when the upstream dataset is refreshed.
+      // Imports are stored as an owner-managed JSON input. GitHub Actions builds and syncs it into Supabase; no external perfume dataset is fetched.
       const path = 'data/extra/bank-imports.json';
       const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/contents/${path}`;
       bankStatus(`در حال دریافت فایل ورودی‌های قبلی و ادغام ${fa(incoming.length)} رکورد…`);
@@ -693,7 +663,7 @@
       const payload = { message: `feat(data): import ${incoming.length} perfume records via beta bank manager`, content: bankBase64(JSON.stringify(records)), branch };
       if (sha) payload.sha = sha;
       await githubRequest(url, token, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
-      bankStatus(`آپلود موفق بود: ${fa(added)} عطر جدید و ${fa(updated)} به‌روزرسانی. مجموع ورودی‌های دستی: ${fa(records.length)}. چند دقیقه بعد (پس از اجرای خودکار «Refresh perfume catalogue» و انتشار GitHub Pages) در برنامه دیده می‌شوند؛ سپس «بررسی به‌روزرسانی برنامه» را بزن.`);
+      bankStatus(`آپلود موفق بود: ${fa(added)} عطر جدید و ${fa(updated)} به‌روزرسانی. مجموع ورودی‌های دستی: ${fa(records.length)}. چند دقیقه بعد (پس از اجرای خودکار Workflow «Build and sync owner perfume catalogue» و انتشار GitHub Pages) در برنامه دیده می‌شوند؛ سپس «بررسی به‌روزرسانی برنامه» را بزن.`);
       toast('ورودی‌ها در GitHub ثبت شد');
       bankEl('ghToken').value = '';
     } catch (e) {
@@ -728,50 +698,26 @@
 
   /* ================= about ================= */
   function renderAbout() {
-    const meta = repo.catalog.meta; const total = items.length;
-    const imgCount = items.filter(p => repo.images.get(p)).length;
-    const eps = cfg.api.endpoints.map(e => `<tr><td>${esc(e.title)}</td><td><code>GET ${esc(e.path)}</code></td><td class="probe" data-probe="${e.id}">—</td></tr>`).join('');
+    const total = items.length;
+    const imgCount = items.filter(p => !!repo.images.get(p)).length;
     dom.aboutBody.innerHTML = `
-      <section class="about-hero"><img src="icons/icon-192.png" alt="" width="84" height="84"><div><h3>${cfg.name}</h3><p>تجربه‌ای هوشمند و خوش‌ساخت برای کشف رایحه؛ طراحی و توسعه توسط هادی رسولی.</p><span class="ver">نسخه ${cfg.version} · ${cfg.releaseFa}</span></div></section><section class="about-me"><h3>درباره من</h3><p>من هادی رسولی هستم؛ توسعه‌دهنده و طراح این تجربه. هدفم ساخت ابزارهای ساده، کاربردی و خوش‌جزئیات است تا انتخاب عطر با جستجو، شناخت نت‌ها و مقایسه، لذت‌بخش‌تر شود.</p></section>
-
-      <section><h3>درباره این برنامه</h3>
-        <p>Larsi Perfume Finder یک وب‌اپلیکیشن فارسی (PWA) برای پیدا کردن عطر مناسب است. می‌توانی با نام عطر، برند یا حتی نت بویایی — مثلاً «عود» یا «وانیل» — جستجو کنی، عطرها را کنار هم مقایسه کنی و رایحه‌های نزدیک به سلیقه‌ات را کشف کنی. برنامه روی موبایل، تبلت و دسکتاپ اجرا می‌شود و قابل نصب روی صفحه اصلی گوشی است.</p>
-        <p>فروشگاه لارسی: <a class="link" href="${cfg.store.url}" target="_blank" rel="noopener">${cfg.store.host}</a></p></section>
-
+      <section class="about-hero"><img src="icons/icon-192.png" alt="" width="84" height="84"><div><h3>${cfg.name}</h3><p>تجربه‌ای هوشمند و خوش‌ساخت برای کشف رایحه؛ طراحی و توسعه توسط هادی رسولی.</p><span class="ver">نسخه ${cfg.version} · ${cfg.releaseFa}</span></div></section>
+      <section class="about-me"><h3>درباره من</h3><p>من هادی رسولی هستم؛ توسعه‌دهنده و طراح این تجربه. هدفم ساخت ابزارهای ساده، کاربردی و خوش‌جزئیات است تا انتخاب عطر با جستجو، شناخت نت‌ها و مقایسه، لذت‌بخش‌تر شود.</p></section>
+      <section><h3>درباره این برنامه</h3><p>Larsi Perfume Finder یک وب‌اپلیکیشن فارسی (PWA) برای پیدا کردن عطر مناسب است. جستجو، فیلتر، مقایسه و پیشنهاد عطرهای مشابه فقط با داده‌های کاتالوگ اختصاصی Supabase انجام می‌شوند. برنامه برای موبایل، تبلت و دسکتاپ طراحی شده و قابل نصب روی صفحه اصلی گوشی است.</p><p>فروشگاه لارسی: <a class="link" href="${cfg.store.url}" target="_blank" rel="noopener">${cfg.store.host}</a></p></section>
+      <section class="cache-tools"><h3>مدیریت حافظه برنامه</h3><p>برای رفع خطای نمایش نسخه قدیمی، کش فایل‌های برنامه و کاتالوگ محلی را پاک کن. کمد عطر، علاقه‌مندی‌ها، امتیازها و تنظیمات شخصی حفظ می‌شوند.</p><button class="btn ghost" type="button" id="clearAppCache">پاک کردن کش برنامه</button><span class="hint">پس از پاک‌سازی، برنامه دوباره بارگذاری می‌شود.</span></section>
       <section><h3>قابلیت‌های تخصصی</h3><div class="cards2">
-        <div class="mini-card"><h4>جستجوی دوزبانه</h4><p>نام، برند، خانواده بویایی و نت‌ها هم به فارسی و هم انگلیسی جستجو می‌شوند؛ حروف عربی/فارسی و ارقام نرمال‌سازی می‌شوند.</p></div>
-        <div class="mini-card"><h4>فیلتر واقعی</h4><p>خانواده بویایی، غلظت، فصل، زمان استفاده، نت، برند و ویژگی رایحه — همه از داده‌ی واقعی هر عطر.</p></div>
-        <div class="mini-card"><h4>عطرهای مشابه</h4><p>الگوریتم محلی نت‌های کمیاب را وزن بیشتری می‌دهد (مانند IDF)، سپس خانواده و ویژگی‌ها را می‌سنجد؛ در صورت دسترسی، پیشنهاد «همسایه‌ها» از Scento جایگزین می‌شود.</p></div>
+        <div class="mini-card"><h4>جستجوی دوزبانه</h4><p>نام عطر، نام فارسی، برند، نت‌ها، آکوردها، ویژگی‌ها و توضیحات کوتاه و بلند با نرمال‌سازی فارسی و انگلیسی جستجو می‌شوند.</p></div>
+        <div class="mini-card"><h4>پیشنهاد لحظه‌ای</h4><p>هنگام تایپ، عطرها، برندها و نت‌های مرتبط از بانک محلی برنامه پیشنهاد می‌شوند. انتخاب عطر باز می‌کند و انتخاب برند یا نت جستجو را ادامه می‌دهد.</p></div>
+        <div class="mini-card"><h4>عطرهای مشابه</h4><p>شباهت عطرها با وزن‌دهی نت‌های مشترک، خانواده بویایی و ویژگی‌های ثبت‌شده در همین کاتالوگ محاسبه می‌شود.</p></div>
         <div class="mini-card"><h4>مقایسه ۲ تا ۴ عطر</h4><p>جدول کنار‌هم برای نت‌ها، خانواده، فصل، زمان و امتیاز شخصی.</p></div>
         <div class="mini-card"><h4>کمد عطر شخصی</h4><p>وضعیت «دارم / می‌خواهم / تست کردم / فروختم»، یادداشت، امتیاز و علاقه‌مندی؛ با پشتیبان JSON.</p></div>
-        <div class="mini-card"><h4>آفلاین و سریع</h4><p>بانک داده و فایل‌های برنامه کش می‌شوند؛ تصاویر فقط هنگام نزدیک شدن به صفحه بارگذاری می‌شوند و در کش دائمی می‌مانند.</p></div></div></section>
-
-      <section><h3>منبع بانک عطر</h3>
-        <div class="table-wrap"><table class="src"><thead><tr><th>منبع</th><th>نشانی / مسیر</th><th>وضعیت</th></tr></thead><tbody>
-          <tr><td>بانک اصلی Supabase<br><span class="muted">${fa(total)} عطر · ${fa(new Set(items.map(p => p.brand)).size)} برند</span></td><td><code>Supabase · ${esc(cfg.supabase.table)}</code></td><td class="ok">منبع اصلی کاتالوگ</td></tr>
-          <tr><td>ایندکس تصاویر<br><span class="muted">${fa(imgCount)} از ${fa(total)} عطر تصویر دارند</span></td><td><code>${cfg.data.images}</code></td><td>${imgCount < total ? 'در حال تکمیل با خزش' : 'کامل'}</td></tr>
-          ${eps}
-        </tbody></table></div>
-        <p style="margin-top:10px"><button class="btn" type="button" id="probeBtn">بررسی اتصال APIهای تکمیلی</button> <span class="muted" style="font-size:.75rem">Base URL: <code style="direction:ltr;display:inline-block">${cfg.api.base}</code></span></p></section>
-
+        <div class="mini-card"><h4>کش سریع و آفلاین</h4><p>کاتالوگ در IndexedDB نگهداری می‌شود تا بازدید بعدی سریع‌تر باشد. تازه‌سازی بانک در زمان نیاز از Supabase انجام می‌شود.</p></div></div></section>
+      <section><h3>منبع داده</h3><div class="mini-card"><h4>Supabase · ${esc(cfg.supabase.table)}</h4><p>${fa(total)} عطر · ${fa(new Set(items.map(p => p.brand).filter(b => b !== UNKNOWN_BRAND)).size)} برند. این برنامه کاتالوگ را فقط از دیتابیس اختصاصی بارگذاری می‌کند و هیچ سرویس جستجو یا enrichment خارجی ندارد.</p><p class="muted">${fa(imgCount)} محصول دارای تصویر قابل نمایش از رکورد دیتابیس هستند.</p></div></section>
       <section class="contact-me" id="contactSection"><h3>تماس با من</h3><p>برای پیشنهاد، گزارش مشکل یا ارتباط با مجموعه لارسی، از مسیر رسمی زیر استفاده کن.</p><a class="btn primary" href="${cfg.store.url}" target="_blank" rel="noopener">وب‌سایت لارسی · ${cfg.store.host}</a></section>
-      <section><h3>حریم خصوصی</h3><p>امتیازها، علاقه‌مندی‌ها و کمد عطر فقط روی مرورگر خودت ذخیره می‌شوند و به هیچ سروری ارسال نمی‌شوند. برای انتقال بین دستگاه‌ها از «خروجی پشتیبان» در کمد عطر استفاده کن.</p></section>
-
+      <section><h3>حریم خصوصی</h3><p>امتیازها، علاقه‌مندی‌ها، تاریخچه جستجو و کمد عطر روی مرورگر ذخیره می‌شوند. برای انتقال بین دستگاه‌ها از خروجی پشتیبان در کمد عطر استفاده کن.</p></section>
       <section><h3>نسخه‌ها و تاریخچه تغییرات</h3>${cfg.changelog.map((c, i) => `<details${i === 0 ? ' open' : ''}><summary>نسخه ${c.v} · ${c.date}</summary><ul>${c.items.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>`).join('')}</section>
-
-      <section class="credit"><p><b>طراحی و برنامه نویسی هادی رسولی</b></p><p>تمامی حقوق مادی و معنوی متعلق به فروشگاه لارسی می‌باشد.</p><p><a class="link" href="${cfg.store.url}" target="_blank" rel="noopener">${cfg.store.host}</a></p>
-        <p class="muted" style="font-size:.6875rem;margin-top:8px">کاتالوگ اصلی عطرها از Supabase خوانده می‌شود. تصاویر متعلق به صاحبان حقوق مربوطه‌اند. فونت وزیرمتن با مجوز OFL.</p></section>`;
+      <section class="credit"><p><b>طراحی و برنامه نویسی هادی رسولی</b></p><p>تمامی حقوق مادی و معنوی متعلق به فروشگاه لارسی می‌باشد.</p><p><a class="link" href="${cfg.store.url}" target="_blank" rel="noopener">${cfg.store.host}</a></p><p class="muted" style="font-size:.6875rem;margin-top:8px">کاتالوگ از Supabase دریافت می‌شود؛ تصاویر توسط صاحبان حقوق مربوطه ارائه شده‌اند. فونت وزیرمتن با مجوز OFL.</p></section>`;
   }
-  async function probeAPIs() {
-    const btn = $('#probeBtn'); if (!btn) return; btn.disabled = true; btn.textContent = 'در حال بررسی…';
-    $$('.probe').forEach(c => { c.textContent = '…'; c.className = 'probe'; });
-    repo.api.reset();
-    const res = await repo.api.health();
-    for (const r of res) { const c = $(`.probe[data-probe="${r.id}"]`); if (c) { c.className = 'probe ' + (r.ok ? 'ok' : 'bad'); c.textContent = r.ok ? `فعال · ${fa(r.ms)}ms` : `در دسترس نیست (${r.code})`; } }
-    btn.disabled = false; btn.textContent = 'بررسی دوباره';
-    if (res.some(r => r.ok)) setStatus('اتصال زنده به Scento API', false);
-  }
-
   /* ================= events ================= */
   function bind() {
     document.addEventListener('load', e => { const t = e.target; if (t.classList && t.classList.contains('lpf-img')) t.classList.add('ready'); }, true);
@@ -794,11 +740,18 @@
     dom.wardrobeBtn.onclick = () => openSheet('wardrobe');
     dom.searchJump.onclick = () => { $('#catalog').scrollIntoView({ behavior: 'smooth' }); setTimeout(() => dom.search.focus(), 350); };
 
-    // search
-    const onSearch = debounce(v => { F.q = v; render(); }, 90);
-    dom.search.addEventListener('input', e => { dom.clear.hidden = !e.target.value; dom.heroInput.value = e.target.value; onSearch(e.target.value); });
-    dom.clear.onclick = () => { dom.search.value = ''; dom.clear.hidden = true; F.q = ''; dom.heroInput.value = ''; render(); dom.search.focus(); };
-    $('#heroSearch').addEventListener('submit', e => { e.preventDefault(); F.q = dom.heroInput.value; dom.search.value = F.q; dom.clear.hidden = !F.q; render(); $('#catalog').scrollIntoView({ behavior: 'smooth' }); dom.heroInput.blur(); });
+    // Search: fast local matching + live suggestions, using only the Supabase catalogue.
+    const onSearch = debounce(v => { F.q = v; render(); }, 75);
+    const onSuggest = (panel, value) => { clearTimeout(suggestTimer); suggestTimer = setTimeout(() => paintSuggestions(panel, value), 60); };
+    dom.search.addEventListener('input', e => { dom.clear.hidden = !e.target.value; dom.heroInput.value = e.target.value; onSearch(e.target.value); onSuggest('searchSuggestions', e.target.value); });
+    dom.heroInput.addEventListener('input', e => { dom.search.value=e.target.value; dom.clear.hidden=!e.target.value; onSearch(e.target.value); onSuggest('heroSuggestions',e.target.value); });
+    dom.search.addEventListener('focus', e => paintSuggestions('searchSuggestions', e.target.value));
+    dom.heroInput.addEventListener('focus', e => paintSuggestions('heroSuggestions', e.target.value));
+    [ [dom.search,'searchSuggestions'], [dom.heroInput,'heroSuggestions'] ].forEach(([input,panelId])=>input.addEventListener('keydown',e=>{ if(e.key==='ArrowDown'){const panel=$('#'+panelId); if(panel && !panel.hidden){e.preventDefault();panel.querySelector('button')?.focus();}} }));
+    dom.clear.onclick = () => { syncSearchValues(''); F.q = ''; closeSuggestions('searchSuggestions'); render(); dom.search.focus(); };
+    $('#heroSearch').addEventListener('submit', e => { e.preventDefault(); commitSearch(dom.heroInput.value); dom.heroInput.blur(); });
+    document.addEventListener('click', e => { if(!e.target.closest('.search-wrap') && !e.target.closest('.hero-search')) { closeSuggestions('heroSuggestions'); closeSuggestions('searchSuggestions'); } });
+    document.addEventListener('click', e => { const clearHistory=e.target.closest('[data-clear-search-history]'); if(clearHistory){ searchHistory=[]; try{localStorage.removeItem(SEARCH_HISTORY_KEY);}catch{} closeSuggestions('heroSuggestions'); closeSuggestions('searchSuggestions'); return; } const qbtn=e.target.closest('[data-suggest-query]'); const open=e.target.closest('[data-suggest-open]'); if(open){ closeSuggestions('heroSuggestions'); closeSuggestions('searchSuggestions'); openDetail(open.dataset.suggestOpen); } else if(qbtn){ commitSearch(qbtn.dataset.suggestQuery); } });
     $('#surpriseBtn').onclick = () => { if (items.length) openDetail(items[Math.floor(Math.random() * items.length)].id); };
 
     // filters
@@ -859,7 +812,8 @@
     });
     dom.wardrobeBody.addEventListener('change', e => { const s = e.target.closest('[data-wstatus]'); if (s && S.wardrobe[s.dataset.wstatus]) { S.wardrobe[s.dataset.wstatus].status = s.value; S.wardrobe[s.dataset.wstatus].updatedAt = new Date().toISOString(); ST.saveWardrobe(); renderWardrobe(); } });
     $('#importFile').onchange = e => { if (e.target.files[0]) importData(e.target.files[0]); e.target.value = ''; };
-    dom.aboutBody.addEventListener('click', e => { if (e.target.closest('#probeBtn')) probeAPIs(); });
+    
+    dom.aboutBody.addEventListener('click', async e => { const b=e.target.closest('#clearAppCache'); if(!b) return; if(!confirm('کش فایل‌های برنامه پاک شود؟ اطلاعات کمد عطر، علاقه‌مندی‌ها و امتیازهای شخصی حفظ می‌شوند.')) return; b.disabled=true; b.textContent='در حال پاک‌سازی…'; try { if('caches' in window) { const names=await caches.keys(); await Promise.all(names.filter(n=>n.startsWith('lpf-')||n.startsWith('pf-')).map(n=>caches.delete(n))); } await repo.catalog.clearCache(); try{localStorage.removeItem('lpf:v5:img-learned');}catch{} toast('کش برنامه پاک شد؛ در حال بارگذاری مجدد'); setTimeout(()=>location.reload(),500); } catch(err) { toast('پاک‌سازی کش انجام نشد؛ تنظیمات مرورگر را بررسی کن'); b.disabled=false; b.textContent='پاک کردن کش برنامه'; } });
 
     // compare tray
     dom.trayClear.onclick = () => { compare.clear(); $$('.act.cmp.on').forEach(b => { b.classList.remove('on'); b.setAttribute('aria-pressed', 'false'); }); updateTray(); };
@@ -867,6 +821,7 @@
 
     // keyboard
     document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && (!$('#heroSuggestions').hidden || !$('#searchSuggestions').hidden)) { closeSuggestions('heroSuggestions'); closeSuggestions('searchSuggestions'); return; }
       if (e.key === 'Escape') { const bd = bankEl('layerBankDev'); if (bd && !bd.hidden) { bd.classList.remove('open'); bd.hidden = true; if (!anyLayerOpen()) document.body.classList.remove('lock'); } else if (!dom.drawer.inert) closeDrawer(); else if (anyLayerOpen()) closeTop(); return; }
       trap(e);
       const typing = /^(input|textarea|select)$/i.test((document.activeElement || {}).tagName || '');
@@ -900,6 +855,20 @@
     try { if (navigator.share) await navigator.share(data); else { await navigator.clipboard.writeText(url); toast('لینک عطر کپی شد'); } } catch { /* cancelled */ }
   }
 
+  /* ================= onboarding ================= */
+  function initOnboarding(){
+    const root=$('#onboarding'); if(!root || localStorage.getItem('lpf:onboarding:7.1.1')==='done') return;
+    const slides=[
+      {k:'WELCOME TO LARSI',h:'دنیای رایحه‌ها<br><em>را کشف کن</em>',t:'یک تجربه آرام و هوشمند برای جستجو، شناخت و کشف عطرهایی که با سلیقه تو هماهنگ‌اند.',b:'شروع تجربه'},
+      {k:'SEARCH · EXPLORE · KNOW',h:'عطر را با هر نشانه‌ای<br><em>پیدا کن</em>',t:'نام عطر، برند، نت یا حتی بخشی از توصیف رایحه را بنویس. جستجو مستقیماً در بانک عطر متصل به برنامه انجام می‌شود.',b:'ادامه'},
+      {k:'YOUR FRAGRANCE JOURNEY',h:'مقایسه کن؛<br><em>انتخابی آگاهانه‌تر</em>',t:'عطرها را مقایسه کن، در کمد شخصی نگه دار و انتخاب‌های موردعلاقه‌ات را در همین دستگاه مدیریت کن.',b:'ورود به برنامه'}
+    ]; let i=0;
+    const draw=()=>{const x=slides[i]; $('#onboardKicker').textContent=x.k; $('#onboardingTitle').innerHTML=x.h; $('#onboardText').textContent=x.t; $('#onboardNext').innerHTML=x.b+' <span aria-hidden="true">←</span>'; $('#onboardDots').innerHTML=slides.map((_,j)=>`<i class="${j===i?'active':''}"></i>`).join(''); root.classList.toggle('last-step',i===slides.length-1);};
+    const close=()=>{root.hidden=true;document.body.classList.remove('lock');localStorage.setItem('lpf:onboarding:7.1.1','done');};
+    root.hidden=false; document.body.classList.add('lock'); draw();
+    $('#onboardNext').onclick=()=>{if(i<slides.length-1){i++;draw();}else close();}; $('#onboardSkip').onclick=close;
+  }
+
   /* ================= service worker ================= */
   function registerSW() {
     if (!('serviceWorker' in navigator) || !/^https?:$/.test(location.protocol)) return;
@@ -909,36 +878,37 @@
   }
 
   /* ================= boot ================= */
-  const delay = ms => new Promise(r => setTimeout(r, ms));
   async function init() {
     ['grid', 'loadMore', 'search', 'clear', 'sort', 'count', 'filterBtn', 'filterPanel', 'filterBadge', 'activeChips', 'favOnly', 'heroInput', 'status', 'tray', 'trayText', 'trayOpen', 'trayClear', 'toast', 'drawer', 'scrim', 'menuBtn', 'themeBtn', 'wardrobeBtn', 'searchJump', 'fontRange', 'fontOut', 'installBtn', 'iosHint', 'brandTrack', 'detailBody', 'compareBody', 'wardrobeBody', 'aboutBody', 'charChips', 'noteList']
       .forEach(k => { dom[k] = $('#' + ({ grid: 'grid', loadMore: 'loadMore', search: 'searchInput', clear: 'searchClear', sort: 'sortSel', count: 'resultCount', status: 'sourceStatus', trayText: 'trayText', toast: 'toast', filterBtn: 'filterBtn' }[k] || k)); });
     dom.fFamily = $('#fFamily'); dom.fConc = $('#fConc'); dom.fSeason = $('#fSeason'); dom.fTime = $('#fTime'); dom.fBrand = $('#fBrand'); dom.fNote = $('#fNote');
     dom.wBadge = $('#wardrobeBadge'); dom.wBadge2 = $('#wardrobeBadge2');
     registerLayers();
+    initOnboarding();
     $('#verText').textContent = cfg.versionFa;
     applyTheme(S.theme); applyFont(S.font, false);
     bind(); readURL();
     dom.grid.innerHTML = skeletons(8);
 
-    let list;
+    let list = null, cacheAge = Infinity;
     try {
-      const imgP = repo.images.load();
-      list = await repo.catalog.load();
-      await Promise.race([imgP, delay(700)]);
-      imgP.then(() => { if (items.length && repo.images.count) hydrateImages(); });
+      list = await repo.catalog.loadCache();
+      if (list && repo.catalog.meta && repo.catalog.meta.updatedAt) cacheAge = Date.now() - repo.catalog.meta.updatedAt;
+      if (!list) { list = await repo.catalog.load(); cacheAge = 0; }
     } catch (e) {
-      dom.grid.innerHTML = `<div class="empty"><p>بارگذاری بانک عطرها ممکن نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.</p><button class="btn primary" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;
+      dom.grid.innerHTML = `<div class="empty"><p>بارگذاری بانک عطرها از Supabase انجام نشد. اتصال را بررسی کن و دوباره تلاش کن.</p><button class="btn primary" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;
       setStatus('بانک داده در دسترس نیست', true); return;
     }
     items = list; buildIndex(); buildFilterOptions(); renderBrands(); renderCategories();
-    $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand).filter(b => b !== UNKNOWN_BRAND)).size); $('#statCategories').textContent = fa(new Set(items.flatMap(p => [p.family, p.family2]).filter(Boolean)).size + (items.some(p => !p.family && !p.family2) ? 1 : 0));
-    syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
-    setStatus(`بانک Supabase · ${fa(items.length)} عطر`, false);
+    const updateStats = () => { $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand).filter(b => b !== UNKNOWN_BRAND)).size); $('#statCategories').textContent = fa(new Set(items.flatMap(p => [p.family, p.family2]).filter(Boolean)).size + (items.some(p => !p.family && !p.family2) ? 1 : 0)); };
+    updateStats(); syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
+    setStatus(cacheAge < 6 * 60 * 60 * 1000 ? `کش کاتالوگ · ${fa(items.length)} عطر` : `بانک Supabase · ${fa(items.length)} عطر`, false);
+    // Refresh the catalogue in the background only when cached data is older than six hours.
+    if (cacheAge >= 6 * 60 * 60 * 1000) repo.catalog.load().then(fresh => { items=fresh; buildIndex(); buildFilterOptions(); renderBrands(); renderCategories(); updateStats(); syncFilterUI(); render(); setStatus(`بانک Supabase · ${fa(items.length)} عطر · تازه‌سازی شد`, false); }).catch(() => { if(items.length) setStatus(`کش آفلاین · ${fa(items.length)} عطر`, true); });
     route(); registerSW();
-    // Prefer the live API pulse check lazily (no blocking): mark offline status when the browser says so
+    // Online/offline indicator reflects connectivity only; catalogue data is always from Supabase or local cache.
     window.addEventListener('offline', () => setStatus('حالت آفلاین · بانک محلی', true));
-    window.addEventListener('online', () => { repo.api.reset(); setStatus(`بانک Supabase · ${fa(items.length)} عطر`, false); });
+    window.addEventListener('online', () => { setStatus(`بانک Supabase · ${fa(items.length)} عطر`, false); });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
