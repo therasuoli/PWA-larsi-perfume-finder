@@ -107,8 +107,9 @@
     const id = esc(p.id), fav = S.favs.has(p.id), cmp = compare.has(p.id);
     const meta = [FA.family(p.family), FA.concentration(p.conc), p.year || ''].filter(Boolean).join(' · ') || p.nameFa || '';
     const tags = (p.character || []).slice(0, 3).map(c => `<span class="tag">${esc(FA.char(c))}</span>`).join('');
+    const cardDesc = p.short_description_fa || p.short_desc_fa || p.short_description || p.shortDesc || p.desc_fa || p.description_fa || p.desc || p.description || (p.allNotes && p.allNotes.length ? `رایحه‌ای با نت‌های ${p.allNotes.slice(0, 3).map(n => FA.note(n) || n).join('، ')}؛ برای کشف جزئیات بیشتر باز کن.` : 'برای مشاهده مشخصات، نت‌ها و راهنمای انتخاب این عطر باز کن.');
     return `<article class="card" data-id="${id}">
-      <button class="card-open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="card-body"><span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span><span class="tags">${tags}</span></span></button>
+      <button class="card-open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="card-body"><span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span><span class="card-desc">${esc(String(cardDesc).slice(0, 155))}${String(cardDesc).length > 155 ? '…' : ''}</span><span class="tags">${tags}</span></span></button>
       <button class="act fav${fav ? ' on' : ''}" type="button" data-fav="${id}" aria-pressed="${fav}" aria-label="علاقه‌مندی">${icon('heart')}</button>
       <button class="act cmp${cmp ? ' on' : ''}" type="button" data-cmp="${id}" aria-pressed="${cmp}" aria-label="افزودن به مقایسه">${icon('compare')}</button>
     </article>`;
@@ -345,9 +346,15 @@
     return (s ? `<span>فصل‌ها:</span>${s}` : '') + (t ? `<span>زمان:</span>${t}` : '');
   };
 
-  function translatedDescription(p) { return p.desc_fa || p.description_fa || p.long_description_fa || p.short_description_fa || p.descriptionFa || (p.short_description_fa || '') || ''; }
-  function sourceDescription(p) { return p.desc || p.description || p.long_description || p.short_description || ''; }
-  function descriptionHtml(p, translated=false) { const faText=translatedDescription(p); const source=sourceDescription(p); const chosen=translated && faText ? faText : source; return `<p class=\"desc\" id=\"dDesc\" dir=\"auto\">${esc(chosen)}</p>${faText ? `<button class=\"btn ghost desc-toggle\" type=\"button\" id=\"dDescToggle\" data-show-fa=\"${translated ? '0' : '1'}\">${translated ? 'نمایش متن اصلی' : 'نمایش ترجمه فارسی'}</button>` : ''}`; }
+  function translatedDescription(p) { return p.long_description_fa || p.description_fa || p.desc_fa || p.descriptionFa || ''; }
+  function sourceDescription(p) { return p.long_description || p.description || p.desc || ''; }
+  function shortDescription(p) { return p.short_description_fa || p.short_desc_fa || p.short_description || p.shortDesc || ''; }
+  function descriptionHtml(p, translated=false) {
+    const short=shortDescription(p), faText=translatedDescription(p), source=sourceDescription(p), chosen=translated && faText ? faText : source;
+    const shortHtml=short && short!==chosen ? `<section class="description-block"><h3>خلاصه رایحه</h3><p class="desc" dir="auto">${esc(short)}</p></section>` : '';
+    const longHtml=chosen ? `<section class="description-block"><h3>توضیحات کامل</h3><p class="desc" id="dDesc" dir="auto">${esc(chosen)}</p></section>` : '';
+    return `${shortHtml}${longHtml}${faText && source ? `<button class="btn ghost desc-toggle" type="button" id="dDescToggle" data-show-fa="${translated ? '0' : '1'}">${translated ? 'نمایش متن اصلی' : 'نمایش ترجمه فارسی'}</button>` : ''}${!shortHtml && !longHtml ? `<section class="description-block"><h3>معرفی رایحه</h3><p class="desc" dir="auto">اطلاعات توصیفی برای این عطر در بانک ثبت نشده است؛ نت‌ها و مشخصات بالا از رکورد دیتابیس نمایش داده می‌شوند.</p></section>` : ''}`;
+  }
   function renderDetail(p) {
     current = p; document.title = `${p.name} | ${p.brand} — Larsi Perfume Finder`;
     const my = S.ratings[p.id] || 0, fav = S.favs.has(p.id), w = S.wardrobe[p.id];
@@ -725,7 +732,7 @@
     const imgCount = items.filter(p => repo.images.get(p)).length;
     const eps = cfg.api.endpoints.map(e => `<tr><td>${esc(e.title)}</td><td><code>GET ${esc(e.path)}</code></td><td class="probe" data-probe="${e.id}">—</td></tr>`).join('');
     dom.aboutBody.innerHTML = `
-      <section class="about-hero"><img src="icons/icon-192.png" alt="" width="84" height="84"><div><h3>${cfg.name}</h3><p>دستیار هوشمند کشف عطر برای مشتریان ${cfg.store.name}</p><span class="ver">نسخه ${cfg.version} · ${cfg.releaseFa}</span></div></section>
+      <section class="about-hero"><img src="icons/icon-192.png" alt="" width="84" height="84"><div><h3>${cfg.name}</h3><p>تجربه‌ای هوشمند و خوش‌ساخت برای کشف رایحه؛ طراحی و توسعه توسط هادی رسولی.</p><span class="ver">نسخه ${cfg.version} · ${cfg.releaseFa}</span></div></section><section class="about-me"><h3>درباره من</h3><p>من هادی رسولی هستم؛ توسعه‌دهنده و طراح این تجربه. هدفم ساخت ابزارهای ساده، کاربردی و خوش‌جزئیات است تا انتخاب عطر با جستجو، شناخت نت‌ها و مقایسه، لذت‌بخش‌تر شود.</p></section>
 
       <section><h3>درباره این برنامه</h3>
         <p>Larsi Perfume Finder یک وب‌اپلیکیشن فارسی (PWA) برای پیدا کردن عطر مناسب است. می‌توانی با نام عطر، برند یا حتی نت بویایی — مثلاً «عود» یا «وانیل» — جستجو کنی، عطرها را کنار هم مقایسه کنی و رایحه‌های نزدیک به سلیقه‌ات را کشف کنی. برنامه روی موبایل، تبلت و دسکتاپ اجرا می‌شود و قابل نصب روی صفحه اصلی گوشی است.</p>
@@ -739,21 +746,21 @@
         <div class="mini-card"><h4>کمد عطر شخصی</h4><p>وضعیت «دارم / می‌خواهم / تست کردم / فروختم»، یادداشت، امتیاز و علاقه‌مندی؛ با پشتیبان JSON.</p></div>
         <div class="mini-card"><h4>آفلاین و سریع</h4><p>بانک داده و فایل‌های برنامه کش می‌شوند؛ تصاویر فقط هنگام نزدیک شدن به صفحه بارگذاری می‌شوند و در کش دائمی می‌مانند.</p></div></div></section>
 
-      <section><h3>مخزن داده‌ها و APIها</h3>
+      <section><h3>منبع بانک عطر</h3>
         <div class="table-wrap"><table class="src"><thead><tr><th>منبع</th><th>نشانی / مسیر</th><th>وضعیت</th></tr></thead><tbody>
-          <tr><td>بانک محلی عطرها<br><span class="muted">${fa(total)} عطر · ${fa(new Set(items.map(p => p.brand)).size)} برند${meta ? ' · ساخت ' + faDate(meta.generatedAt) : ''}</span></td><td><code>${cfg.data.catalog}</code></td><td class="ok">همیشه در دسترس</td></tr>
-          <tr><td>مخزن اصلی داده (Scento Perfume Dataset)<br><span class="muted">به‌روزرسانی ماهانه با GitHub Action</span></td><td><code>Scento-com/perfume-dataset</code></td><td>منبع بالادستی</td></tr>
+          <tr><td>بانک اصلی Supabase<br><span class="muted">${fa(total)} عطر · ${fa(new Set(items.map(p => p.brand)).size)} برند</span></td><td><code>Supabase · ${esc(cfg.supabase.table)}</code></td><td class="ok">منبع اصلی کاتالوگ</td></tr>
           <tr><td>ایندکس تصاویر<br><span class="muted">${fa(imgCount)} از ${fa(total)} عطر تصویر دارند</span></td><td><code>${cfg.data.images}</code></td><td>${imgCount < total ? 'در حال تکمیل با خزش' : 'کامل'}</td></tr>
           ${eps}
         </tbody></table></div>
-        <p style="margin-top:10px"><button class="btn" type="button" id="probeBtn">بررسی اتصال APIها</button> <span class="muted" style="font-size:.75rem">Base URL: <code style="direction:ltr;display:inline-block">${cfg.api.base}</code></span></p></section>
+        <p style="margin-top:10px"><button class="btn" type="button" id="probeBtn">بررسی اتصال APIهای تکمیلی</button> <span class="muted" style="font-size:.75rem">Base URL: <code style="direction:ltr;display:inline-block">${cfg.api.base}</code></span></p></section>
 
+      <section class="contact-me" id="contactSection"><h3>تماس با من</h3><p>برای پیشنهاد، گزارش مشکل یا ارتباط با مجموعه لارسی، از مسیر رسمی زیر استفاده کن.</p><a class="btn primary" href="${cfg.store.url}" target="_blank" rel="noopener">وب‌سایت لارسی · ${cfg.store.host}</a></section>
       <section><h3>حریم خصوصی</h3><p>امتیازها، علاقه‌مندی‌ها و کمد عطر فقط روی مرورگر خودت ذخیره می‌شوند و به هیچ سروری ارسال نمی‌شوند. برای انتقال بین دستگاه‌ها از «خروجی پشتیبان» در کمد عطر استفاده کن.</p></section>
 
       <section><h3>نسخه‌ها و تاریخچه تغییرات</h3>${cfg.changelog.map((c, i) => `<details${i === 0 ? ' open' : ''}><summary>نسخه ${c.v} · ${c.date}</summary><ul>${c.items.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>`).join('')}</section>
 
       <section class="credit"><p><b>طراحی و برنامه نویسی هادی رسولی</b></p><p>تمامی حقوق مادی و معنوی متعلق به فروشگاه لارسی می‌باشد.</p><p><a class="link" href="${cfg.store.url}" target="_blank" rel="noopener">${cfg.store.host}</a></p>
-        <p class="muted" style="font-size:.6875rem;margin-top:8px">اطلاعات پایه‌ی عطرها از «Scento Perfume Dataset» و Scento API است و تصاویر متعلق به صاحبان حقوق مربوطه‌اند. فونت وزیرمتن با مجوز OFL.</p></section>`;
+        <p class="muted" style="font-size:.6875rem;margin-top:8px">کاتالوگ اصلی عطرها از Supabase خوانده می‌شود. تصاویر متعلق به صاحبان حقوق مربوطه‌اند. فونت وزیرمتن با مجوز OFL.</p></section>`;
   }
   async function probeAPIs() {
     const btn = $('#probeBtn'); if (!btn) return; btn.disabled = true; btn.textContent = 'در حال بررسی…';
@@ -774,7 +781,7 @@
     bindBankDev();
     dom.drawer.addEventListener('click', e => {
       const sheet = e.target.closest('[data-sheet]'); const nv = e.target.closest('[data-nav]');
-      if (sheet) { closeDrawer(false); openSheet(sheet.dataset.sheet); }
+      if (sheet) { closeDrawer(false); openSheet(sheet.dataset.sheet); if (sheet.hasAttribute('data-scroll-contact')) setTimeout(() => $('#contactSection')?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 180); }
       else if (nv) {
         e.preventDefault(); closeDrawer(false);
         const t = nv.dataset.nav === 'top' ? document.body : $('#' + nv.dataset.nav); (t === document.body ? window.scrollTo({ top: 0, behavior: 'smooth' }) : t.scrollIntoView({ behavior: 'smooth', block: 'start' }));
