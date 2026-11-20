@@ -18,12 +18,9 @@
 <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preload" href="fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="data/manifest.json" as="fetch" crossorigin="anonymous">
-<link rel="preconnect" href="https://imagedelivery.net" crossorigin>
-<link rel="dns-prefetch" href="https://www.scento.com">
 <link rel="stylesheet" href="css/app.css">
 <script>
-/* Apply saved theme and text size before first paint. Catalogue is loaded in compact chunks by repo.js. */
+/* Apply saved theme and text size before first paint. The catalog loads from Supabase with pagination and an IndexedDB cache. */
 (function(){try{
   var g=function(k,d){var v=localStorage.getItem('lpf:v5:'+k);if(v==null)v=localStorage.getItem('lpf:v4:'+k);return v==null?d:JSON.parse(v)};
   var t=g('theme','auto'),f=g('font',100);
@@ -110,7 +107,7 @@
     <button id="installBtn" class="btn" type="button" hidden><svg class="ic"><use href="#i-phone"/></svg>نصب برنامه روی دستگاه</button>
     <p class="hint" id="iosHint" hidden>در Safari: دکمه اشتراک‌گذاری ← «Add to Home Screen».</p>
   </section>
-  <div class="drawer-foot"><span>نسخه <b id="verText">۵٫۱٫۰ بتا</b></span><button type="button" class="link" data-sheet="about">تاریخچه تغییرات</button></div>
+  <div class="drawer-foot"><span>نسخه <b id="verText">۷٫۱٫۱</b></span><button type="button" class="link" data-sheet="about">تاریخچه تغییرات</button></div>
 </aside>
 
 <main id="top">
@@ -121,8 +118,9 @@
       <p class="lead">از میان هزاران رایحه، عطر هماهنگ با شخصیت و سلیقه‌ات را پیدا کن؛ هوشمندانه جستجو کن، مقایسه کن و انتخابی ماندگار داشته باش.</p>
       <form class="hero-search" id="heroSearch" role="search">
         <svg class="ic"><use href="#i-search"/></svg>
-        <input id="heroInput" type="search" inputmode="search" enterkeyhint="search" placeholder="مثلاً عود، Aventus، وانیل…" autocomplete="off" aria-label="جستجوی عطر">
+        <input id="heroInput" type="search" inputmode="search" enterkeyhint="search" placeholder="مثلاً عود، Aventus، وانیل…" autocomplete="off" aria-autocomplete="list" aria-controls="heroSuggestions" aria-label="جستجوی عطر">
         <button class="btn primary" type="submit">جستجو</button>
+        <div class="suggestions" id="heroSuggestions" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
       </form>
       <div class="hero-meta">
         <div><b id="statPerfumes">—</b><span>عطر در بانک</span></div>
@@ -150,12 +148,15 @@
     </div>
 
     <div class="toolbar">
-      <label class="search" for="searchInput">
-        <svg class="ic"><use href="#i-search"/></svg>
-        <input id="searchInput" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند یا نت (فارسی یا English)…" autocomplete="off">
-        <button id="searchClear" class="clear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
-        <kbd class="kbd" aria-hidden="true">/</kbd>
-      </label>
+      <div class="search-wrap">
+        <label class="search" for="searchInput">
+          <svg class="ic"><use href="#i-search"/></svg>
+          <input id="searchInput" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند، نت یا توضیحات…" autocomplete="off" aria-autocomplete="list" aria-controls="searchSuggestions">
+          <button id="searchClear" class="clear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
+          <kbd class="kbd" aria-hidden="true">/</kbd>
+        </label>
+        <div class="suggestions" id="searchSuggestions" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
+      </div>
       <button id="filterBtn" class="btn" type="button" aria-expanded="false" aria-controls="filterPanel"><svg class="ic"><use href="#i-sliders"/></svg>فیلترها<span class="badge inline" id="filterBadge" hidden>0</span></button>
       <label class="select-wrap"><span class="sr">مرتب‌سازی</span>
         <select id="sortSel" aria-label="مرتب‌سازی">
@@ -212,6 +213,16 @@
 </div>
 
 <!-- Layers -->
+<div class="onboarding" id="onboarding" hidden role="dialog" aria-modal="true" aria-labelledby="onboardingTitle">
+  <div class="onboarding-backdrop"></div>
+  <div class="onboarding-panel">
+    <div class="onboarding-top"><span class="onboarding-brand">LARSI <i>FRAGRANCE JOURNAL</i></span><button type="button" id="onboardSkip" class="link">رد کردن</button></div>
+    <div class="onboarding-visual"><div class="onboard-orb"></div><svg class="onboard-bottle" viewBox="0 0 48 64" aria-hidden="true"><use href="#i-bottle"/></svg><span class="onboard-spark">✦</span></div>
+    <div class="onboarding-content"><span class="onboarding-kicker" id="onboardKicker">WELCOME TO LARSI</span><h2 id="onboardingTitle">دنیای رایحه‌ها<br><em>را کشف کن</em></h2><p id="onboardText">یک تجربه آرام و هوشمند برای جستجو، شناخت و کشف عطرهایی که با سلیقه تو هماهنگ‌اند.</p></div>
+    <div class="onboarding-footer"><div class="onboard-dots" id="onboardDots"><i class="active"></i><i></i><i></i></div><button class="btn primary" id="onboardNext" type="button">شروع تجربه <span aria-hidden="true">←</span></button></div>
+  </div>
+</div>
+
 <div class="layer" id="layerDetail" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle">
   <div class="layer-bg" data-close></div>
   <div class="panel panel-detail" tabindex="-1">
