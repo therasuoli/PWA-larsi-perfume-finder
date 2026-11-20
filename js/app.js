@@ -927,11 +927,11 @@
     items = list; buildIndex(); buildFilterOptions(); renderBrands(); renderCategories();
     $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand).filter(b => b !== UNKNOWN_BRAND)).size); $('#statCategories').textContent = fa(new Set(items.flatMap(p => [p.family, p.family2]).filter(Boolean)).size + (items.some(p => !p.family && !p.family2) ? 1 : 0));
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
-    setStatus(`بانک محلی · ${fa(items.length)} عطر`, false);
+    setStatus(`بانک Supabase · ${fa(items.length)} عطر`, false);
     route(); registerSW();
     // Prefer the live API pulse check lazily (no blocking): mark offline status when the browser says so
     window.addEventListener('offline', () => setStatus('حالت آفلاین · بانک محلی', true));
-    window.addEventListener('online', () => { repo.api.reset(); setStatus(`بانک محلی · ${fa(items.length)} عطر`, false); });
+    window.addEventListener('online', () => { repo.api.reset(); setStatus(`بانک Supabase · ${fa(items.length)} عطر`, false); });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
