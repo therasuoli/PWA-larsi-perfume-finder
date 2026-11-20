@@ -2,15 +2,15 @@
   "id": "./",
   "name": "Larsi Perfume Finder",
   "short_name": "Larsi Finder",
-  "description": "کشف هوشمند عطر، مقایسه و کمد عطر شخصی — فروشگاه لارسی",
+  "description": "کشف هوشمند عطر، مقایسه و کمد عطر شخصی — فروشگاه لارسی · تجربه Editorial Luxury",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#101411",
-  "theme_color": "#101411",
+  "background_color": "#10251e",
+  "theme_color": "#10251e",
   "categories": [
     "shopping",
     "lifestyle"
@@ -47,5 +47,5 @@
       ]
     }
   ],
-  "version": "5.3.1-alpha.1"
+  "version": "7.1.1"
 }
