@@ -21,7 +21,7 @@
     },
     supabase: {
       url: 'https://eixzihvihoammvremxrl.supabase.co', // Supabase project URL
-      anonKey: '', // Supabase anon/public key only (never service role)
+      anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVpeHppaHZpaG9hbW12cmVteHJsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUxNzc4NDksImV4cCI6MjExMDc1Mzg0OX0.7Sg8--D4wfsKoBXM0P9vUP-gG1w6CIEUuAvaEwr4Qsw', // Supabase anon/public key only (never service role)
       table: 'perfumes',
       pageSize: 1000,
       timeoutMs: 12000
