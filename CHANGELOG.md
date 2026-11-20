@@ -1,3 +1,22 @@
+## 5.3.0-alpha.1 — 2026-11-20
+
+**Fixed**
+- Catalogue: chunks 04–07 (1,881 scraped records) were on disk but not listed in `manifest.json`, so the app never loaded them, and the weekly refresh kept resetting the manifest to 3 chunks. `build-data.mjs` now merges `data/extra/*.json`, deletes stale chunk files, and `validate-data.mjs` fails on orphan chunks.
+- Bank Dev upload wrote `data/perfumes.json`, which the app does not read and the weekly job overwrites. It now writes `data/extra/bank-imports.json` (a build input) and the catalogue workflow also runs on pushes to `data/extra/**`.
+- Boot script read the obsolete `lpf:v4:` storage namespace → wrong theme/font flash on every load.
+- Late-arriving image index re-rendered the whole grid (scroll jump, lost state); photos are now attached in place.
+- Store-stub records no longer query the Scento API (it tripped the circuit breaker and showed "offline").
+- "Uncategorised" tile selected a value missing from the family dropdown; `href` values are now restricted to http(s); source-link label reflects the real host; Persian descriptions are no longer forced LTR.
+- Image crawler only visits hosts it may extract images from (it was crawling a third-party shop).
+
+**Performance**
+- Similarity search: pre-computed lower-case note sets + memoised IDF, deferred to idle time.
+- Removed per-card `backdrop-filter`, animated `drop-shadow`; hero animation pauses off-screen; `content-visibility:auto` on cards; chunk fetch retry; manifest preload.
+- Catalogue payload for the same records dropped from ~4.7 MB to ~1.4 MB; removed unused 5 MB `perfume-database-with-images.json` and `similar.json` from the SW precache.
+
+**UI**
+- Sticky search toolbar, horizontally scrolling category tiles on phones, shimmer skeletons, sticky action bar in the phone detail sheet, higher-contrast light theme, larger minimum text size, 40px touch targets.
+
 ## 5.2.0-alpha.1 — 2026-11-19
 
 - Removed the duplicate catalogue prefetch; the app loads the catalogue through the manifest/chunk loader only.
