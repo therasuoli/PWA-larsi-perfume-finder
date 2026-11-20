@@ -4,8 +4,9 @@
  * Turns the upstream Scento CSV into a compact, same-origin snapshot: data/perfumes.json
  * Usage:  node scripts/build-data.mjs            (downloads the upstream CSV)
  *         node scripts/build-data.mjs ./file.csv (uses a local CSV)
+ *         node scripts/build-data.mjs ./base.json (offline: normalised JSON array + data/extra/*.json)
  */
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -39,44 +40,69 @@ const list = v => String(v || '').split(/[;|]/).map(s => s.trim()).filter(Boolea
 const slugOf = (url, id) => { try { return new URL(url).pathname.split('/').filter(Boolean).pop() || id; } catch { return id; } };
 
 const arg = process.argv[2];
-let csv;
-if (arg) csv = await readFile(resolve(arg), 'utf8');
-else {
-  const res = await fetch(UPSTREAM);
-  if (!res.ok) throw new Error('Upstream dataset HTTP ' + res.status);
-  csv = await res.text();
-}
-
-const rows = parseCSV(csv);
 const seen = new Set();
 const items = [];
-for (const r of rows) {
-  if (!r.id || !r.name || seen.has(r.id)) continue;
-  seen.add(r.id);
-  const o = { id: r.id, slug: slugOf(r.url, r.id), name: r.name, brand: r.house || 'Unknown', brandId: r.house_id || '' };
-  const year = parseInt(r.year, 10); if (year) o.year = year;
-  if (r.concentration) o.conc = r.concentration;
-  if (r.family) o.family = r.family;
-  if (r.secondary_family) o.family2 = r.secondary_family;
-  const put = (k, v) => { if (v.length) o[k] = v; };
-  put('perfumers', list(r.perfumers));
-  put('character', list(r.character));
-  put('seasons', list(r.seasons));
-  put('times', list(r.times_of_day));
-  put('top', list(r.top_notes));
-  put('heart', list(r.heart_notes));
-  put('base', list(r.base_notes));
-  put('notes', list(r.notes));
-  if (r.description) o.desc = r.description;
-  const rank = parseInt(r.popularity_rank, 10); if (rank) o.rank = rank;
-  if (r.url) o.url = r.url;
-  items.push(o);
+if (arg && arg.endsWith('.json')) {
+  // Offline rebuild from an already-normalised JSON array (e.g. a previous data/perfumes.json); extras are still merged below.
+  for (const o of JSON.parse(await readFile(resolve(arg), 'utf8'))) if (o && o.id && o.name && !seen.has(o.id)) { seen.add(o.id); items.push(o); }
+} else {
+  let csv;
+  if (arg) csv = await readFile(resolve(arg), 'utf8');
+  else {
+    const res = await fetch(UPSTREAM);
+    if (!res.ok) throw new Error('Upstream dataset HTTP ' + res.status);
+    csv = await res.text();
+  }
+  for (const r of parseCSV(csv)) {
+    if (!r.id || !r.name || seen.has(r.id)) continue;
+    seen.add(r.id);
+    const o = { id: r.id, slug: slugOf(r.url, r.id), name: r.name, brand: r.house || 'Unknown', brandId: r.house_id || '' };
+    const year = parseInt(r.year, 10); if (year) o.year = year;
+    if (r.concentration) o.conc = r.concentration;
+    if (r.family) o.family = r.family;
+    if (r.secondary_family) o.family2 = r.secondary_family;
+    const put = (k, v) => { if (v.length) o[k] = v; };
+    put('perfumers', list(r.perfumers));
+    put('character', list(r.character));
+    put('seasons', list(r.seasons));
+    put('times', list(r.times_of_day));
+    put('top', list(r.top_notes));
+    put('heart', list(r.heart_notes));
+    put('base', list(r.base_notes));
+    put('notes', list(r.notes));
+    if (r.description) o.desc = r.description;
+    const rank = parseInt(r.popularity_rank, 10); if (rank) o.rank = rank;
+    if (r.url) o.url = r.url;
+    items.push(o);
+  }
 }
+// ---- Extra sources: data/extra/*.json (store stubs, Bank-Dev imports, hand-made lists) ----
+// These files are never overwritten by the weekly refresh. They are merged AFTER the upstream
+// dataset; upstream records win on id/slug conflicts, and every record is normalised so the
+// catalogue always satisfies scripts/validate-data.mjs (name + brand + array fields).
+const extraDir = resolve(ROOT, 'data/extra');
+const seenSlug = new Set(items.map(i => i.slug));
+let extraCount = 0, extraSkipped = 0;
+const arrKeys = ['perfumers', 'character', 'seasons', 'times', 'top', 'heart', 'base', 'notes'];
+for (const f of (await readdir(extraDir).catch(() => [])).filter(n => n.endsWith('.json')).sort()) {
+  let arr;
+  try { arr = JSON.parse(await readFile(resolve(extraDir, f), 'utf8')); } catch (e) { throw new Error(`data/extra/${f}: ${e.message}`); }
+  if (!Array.isArray(arr)) throw new Error(`data/extra/${f} must be a JSON array`);
+  for (const r of arr) {
+    if (!r || !r.id || !r.name || seen.has(r.id) || (r.slug && seenSlug.has(r.slug))) { extraSkipped++; continue; }
+    const o = { ...r, brand: String(r.brand || '').trim() || 'نامشخص', slug: r.slug || r.id };
+    for (const k of arrKeys) if (o[k] != null && !Array.isArray(o[k])) o[k] = list(o[k]);
+    seen.add(o.id); seenSlug.add(o.slug); items.push(o); extraCount++;
+  }
+}
+// ranked records first (stable), unranked after
 items.sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
 
 await mkdir(resolve(ROOT, 'data'), { recursive: true });
 const chunkSize = 500;
 const chunks = [];
+// Remove chunk files from a previous (larger) build so no orphan chunk can ever linger unreferenced.
+for (const n of await readdir(resolve(ROOT, 'data'))) if (/^perfumes-\d+\.json$/.test(n)) await unlink(resolve(ROOT, 'data', n));
 for (let i = 0; i < items.length; i += chunkSize) {
   const file = `perfumes-${String(Math.floor(i / chunkSize) + 1).padStart(2, '0')}.json`;
   const part = items.slice(i, i + chunkSize);
@@ -87,11 +113,12 @@ for (let i = 0; i < items.length; i += chunkSize) {
 await writeFile(resolve(ROOT, 'data/perfumes.json'), JSON.stringify(items));
 const manifest = { total: items.length, chunk_size: chunkSize, chunks };
 await writeFile(resolve(ROOT, 'data/manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+const appVersion = ((await readFile(resolve(ROOT, 'js/config.js'), 'utf8')).match(/version:\s*'([^']+)'/) || [])[1] || 'unknown';
 const meta = {
   generatedAt: new Date().toISOString(), count: items.length,
   brands: new Set(items.map(i => i.brand)).size,
   families: new Set(items.flatMap(i => [i.family, i.family2]).filter(Boolean)).size,
-  source: UPSTREAM, appVersion: '5.2.0-alpha.1', duplicateIds: 0
+  source: UPSTREAM, extra: extraCount, appVersion, duplicateIds: 0
 };
 await writeFile(resolve(ROOT, 'data/meta.json'), JSON.stringify(meta, null, 2) + '\n');
-console.log(`Chunked catalog: ${items.length} perfumes, ${meta.brands} brands, ${chunks.length} files`);
+console.log(`Chunked catalog: ${items.length} perfumes (${extraCount} from data/extra, ${extraSkipped} skipped), ${meta.brands} brands, ${chunks.length} files`);
