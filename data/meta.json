@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-11-19T20:23:28.247Z",
-  "count": 1479,
-  "brands": 160,
+  "generatedAt": "2026-11-19T23:38:00.798Z",
+  "count": 3298,
+  "brands": 161,
   "families": 14,
   "source": "https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv",
-  "appVersion": "5.2.0-alpha.1",
+  "extra": 1819,
+  "appVersion": "5.3.0-alpha.1",
   "duplicateIds": 0
 }
