@@ -1,0 +1,24 @@
+{
+  "total": 1479,
+  "chunk_size": 500,
+  "chunks": [
+    {
+      "file": "perfumes-01.json",
+      "count": 500,
+      "start": 1,
+      "end": 500
+    },
+    {
+      "file": "perfumes-02.json",
+      "count": 500,
+      "start": 501,
+      "end": 1000
+    },
+    {
+      "file": "perfumes-03.json",
+      "count": 479,
+      "start": 1001,
+      "end": 1479
+    }
+  ]
+}
