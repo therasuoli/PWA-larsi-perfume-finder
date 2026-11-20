@@ -1,6 +1,6 @@
-/* Larsi Perfume Finder — Service Worker (v5.2.0-alpha.1)
+/* Larsi Perfume Finder — Service Worker (v5.3.0-alpha.1)
    Strategies: shell/data = stale-while-revalidate · navigation = network-first (3.5s) · images = cache-first (LRU) · Scento API = network-first with cached fallback */
-const VERSION = '5.2.0-alpha.1';
+const VERSION = '5.3.0-alpha.1';
 const SHELL = `lpf-${VERSION}-shell`;
 const DATA = `lpf-${VERSION}-data`;
 const API = `lpf-${VERSION}-api`;
@@ -9,7 +9,7 @@ const CORE = [
   './', './index.html', './css/app.css',
   './js/config.js', './js/lang-fa.js', './js/store.js', './js/repo.js', './js/app.js',
   './manifest.webmanifest', './icons/logo.svg', './icons/favicon-32.png', './icons/apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',
-  './fonts/Vazirmatn-var.woff2', './data/manifest.json', './data/meta.json', './data/perfume-images.json', './data/similar.json'
+  './fonts/Vazirmatn-var.woff2', './data/manifest.json', './data/meta.json', './data/perfume-images.json'
 ];
 
 self.addEventListener('message', event => { if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });
@@ -67,7 +67,8 @@ async function cacheFirstImage(req) {
   if (hit) return hit;
   try {
     const res = await fetch(req);
-    if (res && (res.ok || res.type === 'opaque')) { cache.put(req, res.clone()); trim(IMG, 700); }
+    // Opaque (no-cors) responses are padded to several MB each in the storage quota, so the cap is deliberately modest.
+    if (res && (res.ok || res.type === 'opaque')) { cache.put(req, res.clone()); trim(IMG, 400); }
     return res;
   } catch { return Response.error(); }
 }
