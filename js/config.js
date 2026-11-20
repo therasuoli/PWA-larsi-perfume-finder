@@ -19,6 +19,13 @@
       images: 'data/perfume-images.json',
       upstreamCsv: 'https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv'
     },
+    supabase: {
+      url: '', // Supabase project URL, e.g. https://xxxx.supabase.co
+      anonKey: '', // Supabase anon/public key only (never service role)
+      table: 'perfumes',
+      pageSize: 1000,
+      timeoutMs: 12000
+    },
     api: {
       base: 'https://www.scento.com/api/perfume/v1',
       timeoutMs: 6500,
