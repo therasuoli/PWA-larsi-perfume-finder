@@ -18,13 +18,16 @@
 <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preload" href="fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="data/manifest.json" as="fetch" crossorigin="anonymous">
 <link rel="preconnect" href="https://imagedelivery.net" crossorigin>
 <link rel="dns-prefetch" href="https://www.scento.com">
 <link rel="stylesheet" href="css/app.css">
 <script>
 /* Apply saved theme and text size before first paint. Catalogue is loaded in compact chunks by repo.js. */
 (function(){try{
-  var P='lpf:v4:',t=JSON.parse(localStorage.getItem(P+'theme')||'"auto"'),f=JSON.parse(localStorage.getItem(P+'font')||'100');
+  var g=function(k,d){var v=localStorage.getItem('lpf:v5:'+k);if(v==null)v=localStorage.getItem('lpf:v4:'+k);return v==null?d:JSON.parse(v)};
+  var t=g('theme','auto'),f=g('font',100);
+  if(['auto','dark','light','sand'].indexOf(t)<0)t='auto';
   var dark=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
   var r=document.documentElement;r.dataset.theme=t==='auto'?dark:t;r.dataset.themePref=t;
   if(f>=90&&f<=125)r.style.setProperty('--fs',f/100);
@@ -251,7 +254,7 @@
       <section class="bank-dev-intro"><b>افزودن گروهی عطرها</b><p>فایل JSON، CSV یا Excel را انتخاب کن. داده‌ها بر اساس شناسه ادغام می‌شوند و رکوردهای قبلی حذف نخواهند شد.</p></section>
       <label class="field-label" for="bankFile">فایل بانک (JSON / CSV / XLSX / XLS)</label>
       <input id="bankFile" type="file" accept=".json,.csv,.xlsx,.xls,application/json,text/csv">
-      <p id="bankFileInfo" class="hint">حداکثر حجم پیشنهادی: ۱۰ مگابایت. ردیف اول فایل جدولی باید عنوان ستون‌ها باشد.</p>
+      <p id="bankFileInfo" class="hint">رکوردها در <code>data/extra/bank-imports.json</code> ذخیره و هنگام ساخت بانک ادغام می‌شوند. حداکثر حجم پیشنهادی: ۱۰ مگابایت. ردیف اول فایل جدولی باید عنوان ستون‌ها باشد.</p>
       <div class="bank-dev-divider"></div>
       <h3>اتصال به مخزن GitHub</h3>
       <p class="hint">برای ثبت مستقیم تغییرات، یک Fine-grained Personal Access Token با دسترسی Contents: Read and write فقط برای همین مخزن وارد کن. توکن در مرورگر ذخیره نمی‌شود.</p>
