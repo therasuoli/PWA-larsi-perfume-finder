@@ -1,17 +1,15 @@
 #!/usr/bin/env node
 /**
  * Larsi Perfume Finder — data builder
- * Turns the upstream Scento CSV into a compact, same-origin snapshot: data/perfumes.json
- * Usage:  node scripts/build-data.mjs            (downloads the upstream CSV)
- *         node scripts/build-data.mjs ./file.csv (uses a local CSV)
- *         node scripts/build-data.mjs ./base.json (offline: normalised JSON array + data/extra/*.json)
+ * Rebuilds the catalogue from local owner-managed JSON/CSV files only. No network source is used.
+ * Usage: node scripts/build-data.mjs ./input.json|./input.csv
+ * Without an argument, uses existing data/perfumes.json (if present) and merges data/extra/*.json.
  */
 import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const UPSTREAM = 'https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv';
 
 function parseCSV(text) {
   const rows = []; let row = [], cell = '', q = false;
@@ -38,21 +36,17 @@ function parseCSV(text) {
 
 const list = v => String(v || '').split(/[;|]/).map(s => s.trim()).filter(Boolean);
 const slugOf = (url, id) => { try { return new URL(url).pathname.split('/').filter(Boolean).pop() || id; } catch { return id; } };
+const slugify = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const normalizeImported = o => ({ ...o, id: String(o.id), brand: String(o.brand || o.house || 'نامشخص').trim() || 'نامشخص', slug: String(o.slug || slugOf(o.url, slugify(`${o.brand || o.house || ''}-${o.name}`) || String(o.id))) });
 
 const arg = process.argv[2];
 const seen = new Set();
 const items = [];
 if (arg && arg.endsWith('.json')) {
   // Offline rebuild from an already-normalised JSON array (e.g. a previous data/perfumes.json); extras are still merged below.
-  for (const o of JSON.parse(await readFile(resolve(arg), 'utf8'))) if (o && o.id && o.name && !seen.has(o.id)) { seen.add(o.id); items.push(o); }
-} else {
-  let csv;
-  if (arg) csv = await readFile(resolve(arg), 'utf8');
-  else {
-    const res = await fetch(UPSTREAM);
-    if (!res.ok) throw new Error('Upstream dataset HTTP ' + res.status);
-    csv = await res.text();
-  }
+  for (const raw of JSON.parse(await readFile(resolve(arg), 'utf8'))) if (raw && raw.id && raw.name && !seen.has(String(raw.id))) { const o = normalizeImported(raw); seen.add(o.id); items.push(o); }
+} else if (arg && arg.endsWith('.csv')) {
+  const csv = await readFile(resolve(arg), 'utf8');
   for (const r of parseCSV(csv)) {
     if (!r.id || !r.name || seen.has(r.id)) continue;
     seen.add(r.id);
@@ -76,10 +70,13 @@ if (arg && arg.endsWith('.json')) {
     items.push(o);
   }
 }
-// ---- Extra sources: data/extra/*.json (store stubs, Bank-Dev imports, hand-made lists) ----
-// These files are never overwritten by the weekly refresh. They are merged AFTER the upstream
-// dataset; upstream records win on id/slug conflicts, and every record is normalised so the
-// catalogue always satisfies scripts/validate-data.mjs (name + brand + array fields).
+if (!arg) {
+  const baseFile = resolve(ROOT, 'data/perfumes.json');
+  try { const base = JSON.parse(await readFile(baseFile, 'utf8')); if (Array.isArray(base)) for (const raw of base) if (raw && raw.id && raw.name && !seen.has(String(raw.id))) { const o = normalizeImported(raw); seen.add(o.id); items.push(o); } } catch {}
+}
+// ---- Owner-managed import files: data/extra/*.json (store stubs, Bank-Dev imports, hand-made lists) ----
+// Owner-managed import files are merged without any remote catalogue dependency. Existing
+// records win on duplicate IDs; imported records must include a stable id and name.
 const extraDir = resolve(ROOT, 'data/extra');
 const seenSlug = new Set(items.map(i => i.slug));
 let extraCount = 0, extraSkipped = 0;
@@ -95,6 +92,7 @@ for (const f of (await readdir(extraDir).catch(() => [])).filter(n => n.endsWith
     seen.add(o.id); seenSlug.add(o.slug); items.push(o); extraCount++;
   }
 }
+if (!items.length) throw new Error('No local catalogue records found. Add owner-managed JSON files to data/extra/ or pass a local JSON/CSV file. No remote data source is configured.');
 // ranked records first (stable), unranked after
 items.sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
 
@@ -109,7 +107,7 @@ for (let i = 0; i < items.length; i += chunkSize) {
   await writeFile(resolve(ROOT, 'data', file), JSON.stringify(part));
   chunks.push({ file, count: part.length, start: i + 1, end: i + part.length });
 }
-// Keep the legacy merged JSON for backwards compatibility, but the PWA loader reads chunks.
+// Emit merged JSON and chunked import artifacts for validation and database sync; the PWA itself reads Supabase.
 await writeFile(resolve(ROOT, 'data/perfumes.json'), JSON.stringify(items));
 const manifest = { total: items.length, chunk_size: chunkSize, chunks };
 await writeFile(resolve(ROOT, 'data/manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
@@ -118,7 +116,7 @@ const meta = {
   generatedAt: new Date().toISOString(), count: items.length,
   brands: new Set(items.map(i => i.brand)).size,
   families: new Set(items.flatMap(i => [i.family, i.family2]).filter(Boolean)).size,
-  source: UPSTREAM, extra: extraCount, appVersion, duplicateIds: 0
+  source: 'local-owner-import', extra: extraCount, appVersion, duplicateIds: 0
 };
 await writeFile(resolve(ROOT, 'data/meta.json'), JSON.stringify(meta, null, 2) + '\n');
 console.log(`Chunked catalog: ${items.length} perfumes (${extraCount} from data/extra, ${extraSkipped} skipped), ${meta.brands} brands, ${chunks.length} files`);
