@@ -1,0 +1,151 @@
+name: Run Perfume Scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_list:
+        description: 'منبع آدرس‌ها از اکسل'
+        required: true
+        default: 'all_stores'
+        type: choice
+        options: [all_stores, selected_stores, manual_urls, iranian, brands, all, custom]
+      store_region:
+        description: 'برای all_stores/selected_stores: شیت منابع'
+        required: true
+        default: 'all'
+        type: choice
+        options: [all, Iran, UAE, Global, Niche, Official Brands]
+      store_selection:
+        description: 'برای selected_stores: نام فروشگاه‌ها یا دامنه‌ها؛ با کاما جدا کنید'
+        required: false
+        default: ''
+        type: string
+      urls:
+        description: 'فقط برای custom: هر آدرس در یک خط (یا با کاما جدا شود)'
+        required: false
+        type: string
+      limit:
+        description: 'حداکثر تعداد محصول از هر سایت؛ 0 یعنی بدون سقف'
+        required: true
+        default: '10'
+        type: string
+      max_pages:
+        description: 'حداکثر صفحه بررسی‌شده از هر سایت'
+        required: true
+        default: '12'
+        type: string
+      output_format:
+        description: 'فرمت خروجی'
+        required: true
+        default: 'xlsx'
+        type: choice
+        options: [xlsx, csv, json]
+      enrich_details:
+        description: 'تکمیل توضیحات کوتاه و بلند از صفحات محصول'
+        required: true
+        default: true
+        type: boolean
+      download_images:
+        description: 'دانلود تصاویر محصول (حجم خروجی بیشتر می‌شود)'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scraper-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    defaults:
+      run:
+        working-directory: tools/perfume-scraper
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Validate inputs
+        env:
+          LIMIT: ${{ inputs.limit }}
+          MAX_PAGES: ${{ inputs.max_pages }}
+        run: |
+          python - <<'PY'
+          import os
+          limit = int(os.environ.get('LIMIT') or 0)
+          pages = int(os.environ.get('MAX_PAGES') or 0)
+          if limit < 0:
+              raise SystemExit('limit must be 0 or greater')
+          if pages < 1:
+              raise SystemExit('max_pages must be at least 1')
+          PY
+      - name: Install scraper
+        run: python -m venv .venv && .venv/bin/python -m pip install --upgrade pip && .venv/bin/python -m pip install . && .venv/bin/python -m pip check
+      - name: Verify source data files
+        env:
+          SOURCE_LIST: ${{ inputs.source_list }}
+        run: |
+          mkdir -p run-output
+          {
+            echo "Repository root: $PWD"
+            echo "Expected store workbook: data/perfume-online-stores.xlsx"
+            echo "Expected brand workbook: data/perfume-brands-by-country.xlsx"
+            echo "Data directory listing:"
+            ls -lah data || true
+          } | tee run-output/preflight.txt
+          if [ "$SOURCE_LIST" != "manual_urls" ] && [ "$SOURCE_LIST" != "custom" ]; then
+            test -f data/perfume-online-stores.xlsx || { echo "ERROR: Missing data/perfume-online-stores.xlsx for selected store modes. Add it to tools/perfume-scraper/data/."; exit 1; }
+          fi
+          if [ "$SOURCE_LIST" = "brands" ] || [ "$SOURCE_LIST" = "all" ]; then
+            test -f data/perfume-brands-by-country.xlsx || { echo "ERROR: Missing data/perfume-brands-by-country.xlsx for brand mode. Add it to tools/perfume-scraper/data/."; exit 1; }
+          fi
+      - name: Run scraper
+        env:
+          SOURCE_LIST: ${{ inputs.source_list }}
+          URLS: ${{ inputs.urls }}
+          STORE_REGION: ${{ inputs.store_region }}
+          STORE_SELECTION: ${{ inputs.store_selection }}
+          LIMIT: ${{ inputs.limit }}
+          MAX_PAGES: ${{ inputs.max_pages }}
+          FORMAT: ${{ inputs.output_format }}
+          DOWNLOAD_IMAGES: ${{ inputs.download_images }}
+          ENRICH_DETAILS: ${{ inputs.enrich_details }}
+        run: |
+          mkdir -p run-output
+          set -o pipefail
+          IMAGE_FLAG=''
+          DETAIL_FLAG=''
+          if [ "$DOWNLOAD_IMAGES" = 'true' ]; then IMAGE_FLAG='--download-images'; fi
+          if [ "$ENRICH_DETAILS" = 'true' ]; then DETAIL_FLAG='--enrich-details'; fi
+          .venv/bin/perfume-scraper \
+            --source-list "$SOURCE_LIST" \
+            --urls "$URLS" \
+            --stores-xlsx data/perfume-online-stores.xlsx \
+            --store-region "$STORE_REGION" \
+            --store-selection "$STORE_SELECTION" \
+            --limit "$LIMIT" \
+            --max-pages "$MAX_PAGES" \
+            --format "$FORMAT" \
+            --brands data/perfume-brands-by-country.xlsx \
+            --delay 1.5 \
+            --output run-output \
+            $IMAGE_FLAG \
+            $DETAIL_FLAG \
+            --verbose 2>&1 | tee run-output/scrape.log
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: perfume-scraper-results-${{ github.run_number }}
+          path: run-output/
+          if-no-files-found: warn
+          retention-days: 14
