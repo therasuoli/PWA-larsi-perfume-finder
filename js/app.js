@@ -8,6 +8,7 @@
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const icon = (n, cls = '') => `<svg class="ic ${cls}"><use href="#i-${n}"/></svg>`;
   const TITLE = 'Larsi Perfume Finder — کشف هوشمند عطر';
+  const UNKNOWN_BRAND = 'نامشخص';
 
   /* ================= state ================= */
   let items = [], view = [], shown = 0, pageSize = 24;
@@ -16,12 +17,16 @@
   const F = { q: '', family: '', conc: '', season: '', time: '', note: '', brand: '', chars: new Set(), fav: false, sort: 'popular' };
   const dom = {};
   let current = null; // perfume shown in detail
+  let sentinelIO = null, colCache = { w: 0, c: 1 };
+  const idfMemo = new Map();
 
   /* ================= small utils ================= */
   const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
   const initials = b => String(b || '?').split(/[\s&-]+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
   const faDate = iso => { try { return new Date(iso).toLocaleDateString('fa-IR-u-ca-persian', { year: 'numeric', month: 'long', day: 'numeric' }); } catch { return ''; } };
   const getP = id => byId.get(id) || remote.get(id);
+  /** Only http(s) links are ever rendered as href (records can come from user-imported files). */
+  const safeUrl = u => { try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch { return ''; } };
   let toastTimer;
   function toast(msg, action) {
     const t = dom.toast; t.innerHTML = '';
@@ -49,13 +54,14 @@
 
   /* ================= matching, filtering, sorting ================= */
   function buildIndex() {
-    byId.clear(); bySlug.clear(); df.clear();
+    byId.clear(); bySlug.clear(); df.clear(); idfMemo.clear();
     for (const p of items) {
       byId.set(p.id, p); if (!bySlug.has(p.slug)) bySlug.set(p.slug, p);
       for (const n of p.allNotes) { const k = n.toLowerCase(); df.set(k, (df.get(k) || 0) + 1); }
     }
   }
-  const idf = n => Math.log((items.length + 1) / ((df.get(n.toLowerCase()) || 0) + 1)) + 0.3;
+  // n must be lower-case; results are memoised because similarLocal() calls this tens of thousands of times
+  const idf = n => { let v = idfMemo.get(n); if (v === undefined) { v = Math.log((items.length + 1) / ((df.get(n) || 0) + 1)) + 0.3; idfMemo.set(n, v); } return v; };
 
   function matches(p) {
     if (F.fav && !S.favs.has(p.id)) return false;
@@ -99,7 +105,7 @@
   }
   function cardHTML(p, idx) {
     const id = esc(p.id), fav = S.favs.has(p.id), cmp = compare.has(p.id);
-    const meta = [FA.family(p.family), FA.concentration(p.conc), p.year || ''].filter(Boolean).join(' · ');
+    const meta = [FA.family(p.family), FA.concentration(p.conc), p.year || ''].filter(Boolean).join(' · ') || p.nameFa || '';
     const tags = (p.character || []).slice(0, 3).map(c => `<span class="tag">${esc(FA.char(c))}</span>`).join('');
     return `<article class="card" data-id="${id}">
       <button class="card-open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="card-body"><span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span><span class="tags">${tags}</span></span></button>
@@ -109,13 +115,23 @@
   }
   function skeletons(n) { return Array.from({ length: n }, () => '<div class="card skeleton"><div class="media"></div><div class="line"></div><div class="line" style="width:55%"></div></div>').join(''); }
 
-  function gridCols() { const c = getComputedStyle(dom.grid).gridTemplateColumns.split(' ').filter(Boolean).length; return Math.max(1, c); }
+  function gridCols() { const w = dom.grid.clientWidth; if (w !== colCache.w) colCache = { w, c: Math.max(1, getComputedStyle(dom.grid).gridTemplateColumns.split(' ').filter(Boolean).length) }; return colCache.c; }
   function appendMore() {
     const n = pageSize; const slice = view.slice(shown, shown + n);
     dom.grid.insertAdjacentHTML('beforeend', slice.map((p, i) => cardHTML(p, shown + i)).join(''));
     shown += slice.length; dom.grid.setAttribute('aria-busy', 'false');
     dom.loadMore.hidden = shown >= view.length;
     markReadyImages();
+    if (sentinelIO && shown < view.length) { const s = $('#sentinel'); sentinelIO.unobserve(s); sentinelIO.observe(s); }
+  }
+  /** Adds photos to cards that were rendered before the image index arrived — no re-render, no scroll jump. */
+  function hydrateImages(root = dom.grid) {
+    $$('.card[data-id]', root).forEach(card => {
+      const m = $('.media', card); if (!m || $('img', m)) return;
+      const p = byId.get(card.dataset.id); const url = p && repo.images.get(p); if (!url) return;
+      const img = document.createElement('img'); img.className = 'lpf-img'; img.src = url; img.alt = ''; img.width = 320; img.height = 400; img.decoding = 'async'; img.loading = 'lazy';
+      m.append(img); if (img.complete && img.naturalWidth) img.classList.add('ready');
+    });
   }
   function markReadyImages() { $$('img.lpf-img:not(.ready)', dom.grid).forEach(i => { if (i.complete && i.naturalWidth) i.classList.add('ready'); }); }
 
@@ -138,7 +154,7 @@
   function renderActiveChips() {
     const chips = [];
     const add = (k, label) => chips.push(`<button class="chip" type="button" data-unset="${esc(k)}">${esc(label)} ${icon('close')}</button>`);
-    if (F.family) add('family', FA.family(F.family)); if (F.conc) add('conc', FA.concentration(F.conc));
+    if (F.family) add('family', F.family === '__uncategorized__' ? 'بدون دسته‌بندی' : FA.family(F.family)); if (F.conc) add('conc', FA.concentration(F.conc));
     if (F.season) add('season', FA.season(F.season)); if (F.time) add('time', FA.time(F.time));
     if (F.brand) add('brand', F.brand); if (F.note) add('note', 'نت: ' + F.note);
     F.chars.forEach(c => add('char:' + c, FA.char(c)));
@@ -181,11 +197,13 @@
     const opt = (v, t) => `<option value="${esc(v)}">${esc(t)}</option>`;
     const count = key => { const m = new Map(); items.forEach(p => [].concat(p[key] || []).forEach(v => m.set(v, (m.get(v) || 0) + 1))); return m; };
     const fams = new Map(); items.forEach(p => [p.family, p.family2].filter(Boolean).forEach(f => fams.set(f, (fams.get(f) || 0) + 1)));
-    dom.fFamily.innerHTML = opt('', 'همه خانواده‌ها') + [...fams].sort((a, b) => b[1] - a[1]).map(([f]) => opt(f, `${FA.family(f)} · ${f}`)).join('');
+    const noFam = items.reduce((n, p) => n + (p.family || p.family2 ? 0 : 1), 0);
+    dom.fFamily.innerHTML = opt('', 'همه خانواده‌ها') + [...fams].sort((a, b) => b[1] - a[1]).map(([f]) => opt(f, `${FA.family(f)} · ${f}`)).join('') + (noFam ? opt('__uncategorized__', 'بدون دسته‌بندی') : '');
     dom.fConc.innerHTML = opt('', 'همه غلظت‌ها') + [...count('conc')].sort((a, b) => b[1] - a[1]).map(([c]) => opt(c, FA.concentration(c))).join('');
     dom.fSeason.innerHTML = opt('', 'همه فصل‌ها') + ['spring', 'summer', 'autumn', 'winter'].map(s => opt(s, FA.season(s))).join('');
     dom.fTime.innerHTML = opt('', 'همه زمان‌ها') + ['day', 'evening', 'night'].map(t => opt(t, FA.time(t))).join('');
-    const brands = [...new Set(items.map(p => p.brand))].sort((a, b) => a.localeCompare(b, 'en'));
+    const brands = [...new Set(items.map(p => p.brand))].filter(b => b !== UNKNOWN_BRAND).sort((a, b) => a.localeCompare(b, 'en'));
+    if (items.some(p => p.brand === UNKNOWN_BRAND)) brands.push(UNKNOWN_BRAND);
     dom.fBrand.innerHTML = opt('', 'همه برندها') + brands.map(b => opt(b, b)).join('');
     dom.charChips.innerHTML = [...count('character')].sort((a, b) => b[1] - a[1]).slice(0, 14).map(([c]) => `<button class="chip" type="button" data-char="${esc(c)}" aria-pressed="false">${esc(FA.char(c))}</button>`).join('');
     dom.noteList.innerHTML = [...df].sort((a, b) => b[1] - a[1]).slice(0, 90).map(([n]) => { const fa_ = FA.note(n); return `<option value="${esc(fa_ || n)}" label="${esc(n)}">`; }).join('');
@@ -203,7 +221,7 @@
     const total = $('#categoryTotal'); if (total) total.textContent = `${fa(categoryCount)} دسته در بانک`;
   }
   function renderBrands() {
-    const m = new Map(); items.forEach(p => m.set(p.brand, (m.get(p.brand) || 0) + 1));
+    const m = new Map(); items.forEach(p => { if (p.brand !== UNKNOWN_BRAND) m.set(p.brand, (m.get(p.brand) || 0) + 1); });
     dom.brandTrack.innerHTML = [...m].sort((a, b) => b[1] - a[1]).slice(0, 48).map(([n, c]) => `<button class="brand-card" type="button" data-brand="${esc(n)}"><b>${esc(n)}</b><span>${fa(c)} عطر</span></button>`).join('');
   }
 
@@ -335,7 +353,7 @@
       <div class="d-media"><div id="dMedia">${mediaHTML(p, 0, p.name)}</div><div class="gallery" id="dGallery"></div></div>
       <div class="d-info">
         <div><p class="eyebrow">${esc(p.brand)}</p><h2 id="detailTitle">${esc(p.name)}</h2></div>
-        ${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
+        ${p.nameFa ? `<p class="sub" dir="rtl">${esc(p.nameFa)}</p>` : ''}${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
         <div class="tags big" id="dTags">${tagsHTML(p)}</div>
         <p class="desc" id="dDesc" dir="auto">${esc(p.desc || '')}</p>
         <div class="pyramid" id="dPyr">${pyramidHTML(p)}</div>
@@ -344,7 +362,7 @@
           <button class="btn${fav ? ' primary' : ''}" type="button" id="dFav" aria-pressed="${fav}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'}</span></button>
           <button class="btn" type="button" id="dCmp">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
           <button class="btn" type="button" id="dShare">${icon('share')}<span>اشتراک‌گذاری</span></button>
-          ${p.url ? `<a class="btn" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${icon('link')}<span>صفحه Scento</span></a>` : ''}
+          ${safeUrl(p.url) ? `<a class="btn" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${icon('link')}<span>${/(^|\.)scento\.com$/.test(new URL(safeUrl(p.url)).hostname) ? 'صفحه Scento' : 'صفحه منبع'}</span></a>` : ''}
         </div>
         <div class="box"><h3>امتیاز من</h3>
           <div class="stars" id="dRate" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
@@ -356,7 +374,9 @@
       </div>
       <section class="similar" aria-labelledby="simTitle"><h3 id="simTitle">عطرهای مشابه</h3><div class="strip" id="simStrip"></div></section>
     </div>`;
-    renderGallery(p); renderSimilarLocal(p); loadLive(p);
+    renderGallery(p); loadLive(p);
+    $('#simStrip').innerHTML = '<p class="muted">در حال یافتن عطرهای مشابه…</p>';
+    (window.requestIdleCallback || (f => setTimeout(f, 30)))(() => { if (current && current.id === p.id) renderSimilarLocal(p); }, { timeout: 400 });
     markReadyImages2(dom.detailBody);
     const panel = $('.panel', layers.detail.el); if (panel) panel.scrollTop = 0;
   }
@@ -386,7 +406,7 @@
     repo.images.learn(p, folio);
   }
   async function loadLive(p) {
-    if (!p.slug || repo.api.isPaused()) return;
+    if (!p.slug || p.stub || repo.api.isPaused()) return;
     try {
       const folio = await repo.api.portrait(p.slug);
       applyPortrait(p, folio); patchDetail(p); setStatus('اتصال زنده به Scento API', false);
@@ -401,20 +421,21 @@
 
   /* ---- similar perfumes: local weighted algorithm + Scento neighbours ---- */
   function similarLocal(p) {
-    const base = new Set(p.allNotes.map(n => n.toLowerCase()));
+    const base = p._nl;
     let baseW = 0; base.forEach(n => { baseW += idf(n); });
     const chars = new Set(p.character || []);
     const out = [];
     for (const x of items) {
       if (x.id === p.id || S.disliked.has(x.id)) continue;
-      const shared = x.allNotes.filter(n => base.has(n.toLowerCase()));
-      let wShared = 0; shared.forEach(n => { wShared += idf(n); });
-      let wAll = baseW; x.allNotes.forEach(n => { if (!base.has(n.toLowerCase())) wAll += idf(n); });
+      if (!x._nl.size && !x.family) continue; // stub records carry no scent data
+      let wShared = 0, wOnly = 0;
+      for (const n of x._nl) { if (base.has(n)) wShared += idf(n); else wOnly += idf(n); }
+      const wAll = baseW + wOnly;
       let score = wAll ? (wShared / wAll) * 70 : 0;
       if (p.family && x.family === p.family) score += 18; else if (p.family && (x.family2 === p.family || x.family === p.family2)) score += 8;
       const cs = (x.character || []).filter(c => chars.has(c)).length; const cu = new Set([...chars, ...(x.character || [])]).size || 1;
       score += (cs / cu) * 12;
-      if (score >= 14) out.push({ p: x, score: Math.min(99, Math.round(score)), shared });
+      if (score >= 14) out.push({ p: x, score: Math.min(99, Math.round(score)), shared: x.allNotes.filter(n => base.has(n.toLowerCase())) });
     }
     return out.sort((a, b) => b.score - a.score).slice(0, 14);
   }
@@ -424,7 +445,7 @@
       <button class="act fav" type="button" data-dislike="${id}" aria-label="این پیشنهاد را نمی‌خواهم" title="این پیشنهاد را نمی‌خواهم">${icon('close')}</button></article>`;
   }
   function renderSimilarLocal(p) {
-    const m = similarLocal(p); const el = $('#simStrip'); if (!el) return;
+    const el = $('#simStrip'); if (!el || el.dataset.live) return; const m = similarLocal(p);
     el.innerHTML = m.length ? m.map(({ p: x, score, shared }) => simCardHTML(x, `${fa(score)}٪ شباهت`, shared.length ? 'نت‌های مشترک: ' + esc(shared.slice(0, 3).map(n => FA.note(n) || n).join('، ')) : esc(FA.family(x.family)))).join('') : '<p class="muted">برای این عطر پیشنهاد مشابهی در بانک پیدا نشد.</p>';
     markReadyImages2(el);
   }
@@ -443,7 +464,7 @@
       const shared = repo.list(n.shared);
       cards.push(simCardHTML(x, `Scento · ${fa(shared.length)} نت مشترک`, esc(n.difference || (shared.length ? shared.slice(0, 3).map(s => FA.note(s) || s).join('، ') : ''))));
     }
-    if (cards.length) { el.innerHTML = cards.join(''); markReadyImages2(el); }
+    if (cards.length) { el.dataset.live = '1'; el.innerHTML = cards.join(''); markReadyImages2(el); }
   }
 
   /* ================= remote search (long tail beyond the bundled catalogue) ================= */
@@ -634,20 +655,23 @@
       const owner = bankEl('ghOwner').value.trim(), repoName = bankEl('ghRepo').value.trim(), branch = bankEl('ghBranch').value.trim() || 'main';
       const token = bankEl('ghToken').value.trim();
       if (!owner || !repoName || !token) throw new Error('مالک مخزن، نام مخزن و توکن GitHub الزامی است');
-      const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/contents/data/perfumes.json`;
-      bankStatus(`در حال دریافت بانک فعلی و ادغام ${fa(incoming.length)} رکورد…`);
+      // Imports go to data/extra/bank-imports.json. That file is a build input: the "Refresh perfume catalogue"
+      // workflow merges it into the chunked catalogue (and re-runs on every push that touches data/extra/),
+      // so imported records are visible to the app and are never lost when the upstream dataset is refreshed.
+      const path = 'data/extra/bank-imports.json';
+      const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/contents/${path}`;
+      bankStatus(`در حال دریافت فایل ورودی‌های قبلی و ادغام ${fa(incoming.length)} رکورد…`);
       let existing = [], sha;
       try {
-        // Contents API omits file content for files over 1 MB; read bytes from raw and SHA from API.
-        const current = await githubRequest(url + '?ref=' + encodeURIComponent(branch), token);
-        sha = current.sha;
-        const rawUrl = `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/${encodeURIComponent(branch)}/data/perfumes.json?ts=${Date.now()}`;
-        const rawResponse = await fetch(rawUrl, { cache: 'no-store' });
-        if (!rawResponse.ok) throw new Error('دریافت نسخه فعلی بانک از GitHub ناموفق بود (' + rawResponse.status + ')');
-        existing = await rawResponse.json();
-        if (!Array.isArray(existing)) throw new Error('ساختار بانک فعلی معتبر نیست');
+        const meta = await githubRequest(url + '?ref=' + encodeURIComponent(branch), token);
+        sha = meta.sha;
+        // The raw media type returns the file body directly (no 1 MB limit, no CDN cache lag).
+        const rawRes = await fetch(url + '?ref=' + encodeURIComponent(branch), { headers: { Accept: 'application/vnd.github.raw+json', Authorization: 'Bearer ' + token, 'X-GitHub-Api-Version': '2022-11-28' }, cache: 'no-store' });
+        if (!rawRes.ok) throw new Error('دریافت فایل ورودی‌های قبلی ناموفق بود (' + rawRes.status + ')');
+        existing = JSON.parse(await rawRes.text());
+        if (!Array.isArray(existing)) throw new Error('ساختار فایل ' + path + ' معتبر نیست');
       } catch (e) {
-        if (!String(e.message).includes('Not Found')) throw e;
+        if (!/Not Found/i.test(String(e.message))) throw e; // first import: the file does not exist yet
       }
       const merged = new Map(existing.map(p => [String(p.id), p]));
       let added = 0, updated = 0;
@@ -655,19 +679,12 @@
         if (merged.has(p.id)) updated++; else added++;
         merged.set(p.id, { ...(merged.get(p.id) || {}), ...p });
       }
-      const catalog = [...merged.values()];
-      const payload = { message: `feat(data): import ${incoming.length} perfume records via beta bank manager`, content: bankBase64(JSON.stringify(catalog, null, 2)), branch };
+      const records = [...merged.values()];
+      const payload = { message: `feat(data): import ${incoming.length} perfume records via beta bank manager`, content: bankBase64(JSON.stringify(records)), branch };
       if (sha) payload.sha = sha;
       await githubRequest(url, token, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
-      const metaUrl = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}/contents/data/meta.json`;
-      let metaSha;
-      try { metaSha = (await githubRequest(metaUrl + '?ref=' + encodeURIComponent(branch), token)).sha; } catch {}
-      const meta = { generatedAt: new Date().toISOString(), count: catalog.length, brands: new Set(catalog.map(p => p.brand)).size, source: 'Larsi Beta Bank Manager' };
-      const metaPayload = { message: 'chore(data): refresh perfume catalog metadata', content: bankBase64(JSON.stringify(meta, null, 2)), branch };
-      if (metaSha) metaPayload.sha = metaSha;
-      try { await githubRequest(metaUrl, token, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(metaPayload) }); } catch {}
-      bankStatus(`آپلود موفق بود. ${fa(added)} عطر جدید، ${fa(updated)} رکورد به‌روزرسانی شد. مجموع بانک: ${fa(catalog.length)} عطر. پس از انتشار GitHub Pages، برنامه را به‌روزرسانی کن.`);
-      toast('بانک عطرها در GitHub ثبت شد');
+      bankStatus(`آپلود موفق بود: ${fa(added)} عطر جدید و ${fa(updated)} به‌روزرسانی. مجموع ورودی‌های دستی: ${fa(records.length)}. چند دقیقه بعد (پس از اجرای خودکار «Refresh perfume catalogue» و انتشار GitHub Pages) در برنامه دیده می‌شوند؛ سپس «بررسی به‌روزرسانی برنامه» را بزن.`);
+      toast('ورودی‌ها در GitHub ثبت شد');
       bankEl('ghToken').value = '';
     } catch (e) {
       bankStatus('خطا: ' + e.message, true); toast('آپلود انجام نشد');
@@ -802,7 +819,10 @@
       if (t.closest('[data-close]')) { closeTop(); return; }
     });
     dom.loadMore.onclick = appendMore;
-    new IntersectionObserver(es => { if (es.some(x => x.isIntersecting) && shown < view.length && shown > 0) appendMore(); }, { rootMargin: '900px 0px' }).observe($('#sentinel'));
+    sentinelIO = new IntersectionObserver(es => { if (es.some(x => x.isIntersecting) && shown < view.length && shown > 0) appendMore(); }, { rootMargin: '900px 0px' });
+    sentinelIO.observe($('#sentinel'));
+    // Pause the decorative hero animations while the hero is off-screen (saves battery/GPU on phones)
+    const heroEl = $('.hero'); if (heroEl && 'IntersectionObserver' in window) new IntersectionObserver(es => heroEl.classList.toggle('is-off', !es[0].isIntersecting)).observe(heroEl);
     $('#brandPrev').onclick = () => dom.brandTrack.scrollBy({ left: 360, behavior: 'smooth' });
     $('#brandNext').onclick = () => dom.brandTrack.scrollBy({ left: -360, behavior: 'smooth' });
 
@@ -896,13 +916,13 @@
       const imgP = repo.images.load();
       list = await repo.catalog.load();
       await Promise.race([imgP, delay(700)]);
-      imgP.then(() => { if (items.length && repo.images.count) render(); });
+      imgP.then(() => { if (items.length && repo.images.count) hydrateImages(); });
     } catch (e) {
       dom.grid.innerHTML = `<div class="empty"><p>بارگذاری بانک عطرها ممکن نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.</p><button class="btn primary" type="button" onclick="location.reload()">تلاش دوباره</button></div>`;
       setStatus('بانک داده در دسترس نیست', true); return;
     }
     items = list; buildIndex(); buildFilterOptions(); renderBrands(); renderCategories();
-    $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand)).size); $('#statCategories').textContent = fa(new Set(items.flatMap(p => [p.family, p.family2]).filter(Boolean)).size + (items.some(p => !p.family && !p.family2) ? 1 : 0));
+    $('#statPerfumes').textContent = fa(items.length); $('#statBrands').textContent = fa(new Set(items.map(p => p.brand).filter(b => b !== UNKNOWN_BRAND)).size); $('#statCategories').textContent = fa(new Set(items.flatMap(p => [p.family, p.family2]).filter(Boolean)).size + (items.some(p => !p.family && !p.family2) ? 1 : 0));
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
     setStatus(`بانک محلی · ${fa(items.length)} عطر`, false);
     route(); registerSW();
