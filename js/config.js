@@ -20,7 +20,7 @@
       upstreamCsv: 'https://raw.githubusercontent.com/Scento-com/perfume-dataset/main/perfumes.csv'
     },
     supabase: {
-      url: '', // Supabase project URL, e.g. https://xxxx.supabase.co
+      url: 'https://eixzihvihoammvremxrl.supabase.co', // Supabase project URL
       anonKey: '', // Supabase anon/public key only (never service role)
       table: 'perfumes',
       pageSize: 1000,
