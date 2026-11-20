@@ -439,3 +439,11 @@ input[type=search]:focus,input[type=text]:focus,select:focus,textarea:focus{bord
 
 /* ---- data-saver / low-power: drop all ambient motion ---- */
 @media(prefers-reduced-data:reduce){.hero-art .ring,.hero-art .orbit-dot,.hero-art .hero-scent{display:none}}
+
+/* 5.3.1 refresh: refined homepage and richer perfume cards */
+.hero{padding-block:clamp(32px,7vw,96px);gap:clamp(24px,5vw,64px)} .hero-copy{max-width:760px} .hero h1{letter-spacing:-.035em;text-wrap:balance} .hero .lead{max-width:58ch;line-height:2.05} .hero-meta{gap:clamp(12px,2.6vw,28px)}
+.card{background:linear-gradient(180deg,var(--surface),color-mix(in srgb,var(--surface2) 26%,var(--surface)));box-shadow:0 8px 24px rgba(0,0,0,.035)} .card-body{gap:5px}
+.card .card-desc{font-size:.75rem;line-height:1.8;color:var(--muted);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;min-height:4.05em;margin-top:4px} .card .tags{margin-top:7px}
+.description-block{margin-block:18px;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--surface)} .description-block h3{font-size:1rem;margin:0 0 8px;color:var(--accent)} .description-block .desc{line-height:2.1;color:var(--text);margin:0;white-space:pre-wrap}
+.about-me,.contact-me{padding:18px;border:1px solid var(--line);border-radius:20px;background:var(--surface)} .about-me{background:linear-gradient(140deg,var(--surface2),var(--surface))} .contact-me a{margin-top:6px}
+@media(max-width:600px){.hero{padding-block:26px}.card .card-desc{-webkit-line-clamp:2;min-height:3.6em}.description-block{padding:13px}}
