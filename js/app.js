@@ -345,6 +345,9 @@
     return (s ? `<span>فصل‌ها:</span>${s}` : '') + (t ? `<span>زمان:</span>${t}` : '');
   };
 
+  function translatedDescription(p) { return p.desc_fa || p.description_fa || p.long_description_fa || p.short_description_fa || p.descriptionFa || (p.short_description_fa || '') || ''; }
+  function sourceDescription(p) { return p.desc || p.description || p.long_description || p.short_description || ''; }
+  function descriptionHtml(p, translated=false) { const faText=translatedDescription(p); const source=sourceDescription(p); const chosen=translated && faText ? faText : source; return `<p class=\"desc\" id=\"dDesc\" dir=\"auto\">${esc(chosen)}</p>${faText ? `<button class=\"btn ghost desc-toggle\" type=\"button\" id=\"dDescToggle\" data-show-fa=\"${translated ? '0' : '1'}\">${translated ? 'نمایش متن اصلی' : 'نمایش ترجمه فارسی'}</button>` : ''}`; }
   function renderDetail(p) {
     current = p; document.title = `${p.name} | ${p.brand} — Larsi Perfume Finder`;
     const my = S.ratings[p.id] || 0, fav = S.favs.has(p.id), w = S.wardrobe[p.id];
@@ -355,7 +358,7 @@
         <div><p class="eyebrow">${esc(p.brand)}</p><h2 id="detailTitle">${esc(p.name)}</h2></div>
         ${p.nameFa ? `<p class="sub" dir="rtl">${esc(p.nameFa)}</p>` : ''}${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
         <div class="tags big" id="dTags">${tagsHTML(p)}</div>
-        <p class="desc" id="dDesc" dir="auto">${esc(p.desc || '')}</p>
+        ${descriptionHtml(p)}
         <div class="pyramid" id="dPyr">${pyramidHTML(p)}</div>
         <div class="facts" id="dFacts">${factsHTML(p)}</div>
         <div class="actions">
@@ -388,7 +391,7 @@
   function patchDetail(p) {
     if (!current || current.id !== p.id) return;
     $('#dPyr').innerHTML = pyramidHTML(p); $('#dTags').innerHTML = tagsHTML(p); $('#dFacts').innerHTML = factsHTML(p);
-    const d = $('#dDesc'); if (!d.textContent && p.desc) d.textContent = p.desc;
+    const d = $('#dDesc'); if (d && !d.textContent) d.textContent = sourceDescription(p);
     const url = repo.images.get(p);
     if (url && !$('#dMedia img')) { $('#dMedia').innerHTML = mediaHTML(p, 0, p.name); }
     renderGallery(p); markReadyImages2(dom.detailBody);
@@ -829,7 +832,7 @@
     // detail interactions
     dom.detailBody.addEventListener('click', e => {
       const p = current; if (!p) return; const t = e.target;
-      if (t.closest('#dFav')) { toggleFav(p.id); const on = S.favs.has(p.id); const b = $('#dFav'); b.classList.toggle('primary', on); b.setAttribute('aria-pressed', String(on)); b.querySelector('span').textContent = on ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'; }
+      if (t.closest('#dDescToggle')) { const b=t.closest('#dDescToggle'); const showFa=b.dataset.showFa==='1'; const d=$('#dDesc'); d.textContent=showFa ? translatedDescription(p) : sourceDescription(p); d.dir='auto'; b.dataset.showFa=showFa?'0':'1'; b.textContent=showFa?'نمایش متن اصلی':'نمایش ترجمه فارسی'; return; } else if (t.closest('#dFav')) { toggleFav(p.id); const on = S.favs.has(p.id); const b = $('#dFav'); b.classList.toggle('primary', on); b.setAttribute('aria-pressed', String(on)); b.querySelector('span').textContent = on ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'; }
       else if (t.closest('#dCmp')) { toggleCompare(p.id); $('#dCmp span').textContent = compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'; }
       else if (t.closest('#dShare')) shareCurrent(p);
       else if (t.closest('[data-rate]')) setRating(p.id, +t.closest('[data-rate]').dataset.rate);
