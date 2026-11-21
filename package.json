@@ -8,6 +8,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build:data": "node scripts/build-data.mjs",
+    "fetch:data": "node scripts/fetch-to-repo.mjs",
     "sync": "node scripts/sync-supabase.mjs",
     "validate": "node scripts/validate-data.mjs",
     "build:seo": "node scripts/build-seo.mjs"

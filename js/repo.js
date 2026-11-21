@@ -91,6 +91,40 @@
       catalog.meta = { total: cached.items.length, source: 'indexeddb', updatedAt: cached.updatedAt, watermark: cached.watermark || '' };
       return cached.items;
     },
+    /** Load the catalogue from the chunked JSON files bundled in the repo (data/perfumes-NN.json).
+     *  This is the FASTEST source on GitHub Pages because the files are served from the CDN
+     *  alongside the rest of the app — no network round-trip to Supabase. Falls back to null
+     *  if the manifest can't be loaded (e.g. running locally without data/ files). */
+    async loadBundled() {
+      try {
+        const res = await fetch('data/manifest.json', { cache: 'no-cache' });
+        if (!res.ok) return null;
+        const manifest = await res.json();
+        if (!manifest || !Array.isArray(manifest.chunks) || !manifest.chunks.length) return null;
+        // Fetch all chunks in parallel — total ~3MB over HTTP/2 = ~100ms on GitHub Pages CDN
+        const parts = await Promise.all(manifest.chunks.map(async c => {
+          const r = await fetch('data/' + c.file);
+          if (!r.ok) throw new Error('bundled-chunk-failed: ' + c.file);
+          return r.json();
+        }));
+        const items = parts.flat();
+        if (!items.length) return null;
+        const prepared = await prepareAll(items);
+        catalog.meta = {
+          total: prepared.length,
+          source: 'bundled-json',
+          updatedAt: Date.now(),
+          watermark: manifest.watermark || '',
+        };
+        catalog.source = 'bundled-json';
+        // Seed the IndexedDB cache so future loads are instant and offline-friendly
+        cacheWrite(prepared, manifest.watermark || '').catch(() => { });
+        return prepared;
+      } catch (e) {
+        // Likely a network error or the manifest doesn't exist yet (first deploy without data/)
+        return null;
+      }
+    },
     /** Full catalogue fetch (first run or after cache clear). */
     async load() {
       const size = Math.max(1, Math.min(Number((cfg.supabase || {}).pageSize) || 1000, 1000));

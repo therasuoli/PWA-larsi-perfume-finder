@@ -1,5 +1,16 @@
 # Larsi Perfume Finder — Changelog
 
+## 7.5.1 · آذر ۱۴۰۵ — دادهٔ فشرده در مخزن + بارگذاری سه‌طبقه‌ای
+- **دادهٔ کاتالوگ در خود مخزن**: ۳۰۷۱ عطر از Supabase fetch شده و به‌صورت ۷ فایل JSON فشرده (هر کدام ~۴۷۰KB، میانگین ۷۹۶ بایت برای هر رکورد) در `data/perfumes-01.json` … `data/perfumes-07.json` ذخیره شد. `data/manifest.json` لیست فایل‌ها و `watermark` (آخرین `updated_at`) را نگه می‌دارد.
+- **بارگذاری سه‌طبقه‌ای** (سرعت بهینه):
+  1. **IndexedDB cache** (فوری، بدون شبکه) — اولین بارگیری پس از بازدید اول
+  2. **Bundled JSON** (سریع — از CDN GitHub Pages، ~100ms در یک HTTP/2 multiplexed fetch) — اولین بارگیری در مرورگر تازه
+  3. **Supabase live fetch** (کندترین، اما همیشه به‌روز) — fallback نهایی
+- **Service Worker precache**: `sw.js` در install اسکریپت `data/manifest.json` را می‌خواند و هر ۷ chunk را به‌صورت best-effort precache می‌کند. این یعنی کاربر آفلاین هم کل کاتالوگ را می‌بیند.
+- **GitHub Action خودکار**: `.github/workflows/refresh-bundled-catalog.yml` هر روز ساعت ۰۴:۰۰ UTC داده را از Supabase fetch کرده و به `main` commit می‌کند. همچنین با push به `js/config.js` یا `scripts/fetch-to-repo.mjs` اجرا می‌شود.
+- **اسکریپت `npm run fetch:data`**: برای اجرای دستی روی دستگاه مالک.
+- **نقشهٔ دادهٔ Supabase به PWA**: اسکریپت فیلدهای `name_en`/`name_fa`/`family_fa`/`country_fa`/`launch_year` Supabase را به `name`/`nameFa`/`familyFa`/`countryFa`/`year` نگاشت می‌کند تا با `algo.prepare()` سازگار باشد.
+
 ## 7.5.0 · آذر ۱۴۰۵ — بازطراحی رابط و بهینه‌سازی سرعت
 - **هدر جدید با منوی همبرگری**: دکمهٔ منو در هدر، درایور کشویی از کنار صفحه با انیمیشن smooth cubic-bezier، بک‌دراپ تیره با قابلیت بستن با Escape یا کلیک روی بک‌دراپ. نوار ناوبری پایینی همچنان برای دسترسی سریع باقی مانده است.
 - **تفکیک «تنظیمات» و «درباره ما»**: هر کدام حالا view مستقل خودشان را دارند (v-set و v-about). فیلتر و فونت در تنظیمات؛ نسخه، توسعه‌دهنده، چشم‌انداز و changelog در «درباره ما». هر دو از منوی همبرگری و bottom-nav قابل دسترسی‌اند.

@@ -1,4 +1,4 @@
-/* Larsi Perfume Finder — Service Worker v7.5.0; Supabase-only data source, delta sync client, Atelier Larsi shell */
+/* Larsi Perfume Finder — Service Worker v7.5.0; bundled JSON catalogue (fast first paint) + Supabase delta sync */
 const VERSION = '7.5.0';
 const SHELL = `lpf-${VERSION}-shell`;
 const IMG = 'lpf-images-v2';
@@ -12,7 +12,24 @@ self.addEventListener('message', event => { if (event.data && event.data.type ==
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const shell = await caches.open(SHELL);
+    // 1. Precache the static shell (JS, CSS, fonts, icons) — best-effort, never blocks install
     await Promise.allSettled(CORE.map(async url => { const res = await fetch(new Request(url, { cache: 'reload' })); if (!res.ok) throw new Error(url + ' ' + res.status); await shell.put(url, res); }));
+    // 2. Precache the bundled JSON catalogue chunks (data/manifest.json + data/perfumes-NN.json)
+    //    so the PWA can boot fully offline and show 3000+ perfumes in <100ms on a return visit.
+    //    The manifest lists the chunk filenames dynamically; if it's missing we just skip.
+    try {
+      const mRes = await fetch(new Request('data/manifest.json', { cache: 'reload' }));
+      if (mRes.ok) {
+        await shell.put(new Request('data/manifest.json'), mRes.clone());
+        const manifest = await mRes.json();
+        if (manifest && Array.isArray(manifest.chunks)) {
+          await Promise.allSettled(manifest.chunks.map(async c => {
+            const r = await fetch(new Request('data/' + c.file, { cache: 'reload' }));
+            if (r.ok) await shell.put(new Request('data/' + c.file), r);
+          }));
+        }
+      }
+    } catch { /* bundled data is best-effort — the app falls back to Supabase */ }
     await self.skipWaiting();
   })());
 });

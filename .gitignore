@@ -9,6 +9,5 @@ node_modules/
 *.pem
 *.key
 
-# Local data (owner-managed)
-data/perfumes-*.json
+# Local-only: build-similar.mjs output (large; regenerate on demand)
 data/similar.json

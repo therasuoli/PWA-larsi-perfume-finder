@@ -1,0 +1,74 @@
+# Larsi Perfume Finder — refresh-bundled-catalog.yml
+#
+# Pulls the full perfume catalogue from Supabase and writes it to the repo
+# as compact chunked JSON files. This makes the PWA load instantly from
+# GitHub Pages CDN (no Supabase round-trip on first paint).
+#
+# Triggers:
+#   - Daily at 04:00 UTC (06:30 Asia/Tehran)
+#   - Manually via the Actions tab → "Run workflow"
+#   - When this workflow itself, scripts/fetch-to-repo.mjs, or js/config.js changes
+#
+# Notes:
+#   - Only the publishable key is used (it's safe to ship in the browser).
+#   - The service-role key is NOT needed here — reads use the public anon REST API.
+#   - The PAT is needed only so the workflow can push the regenerated data back to main.
+name: Refresh bundled catalogue
+
+on:
+  schedule:
+    # 04:00 UTC daily = 06:30 Asia/Tehran (avoid peak traffic)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-bundled-catalog.yml'
+      - 'scripts/fetch-to-repo.mjs'
+      - 'js/config.js'
+
+permissions:
+  contents: write   # needed for git-auto-commit-action
+
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: true
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Fetch catalogue from Supabase and write compact chunked JSON
+        run: node scripts/fetch-to-repo.mjs
+        env:
+          # The script reads from js/config.js; the env vars below are only a fallback.
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+
+      - name: Show generated data summary
+        run: |
+          echo "### Catalogue refresh" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          cat data/meta.json >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Chunk files:" >> $GITHUB_STEP_SUMMARY
+          ls -lh data/perfumes-*.json | awk '{printf "- `%s` — %s\n", $9, $5}' >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): refresh bundled catalogue from Supabase'
+          file_pattern: 'data/*.json'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'

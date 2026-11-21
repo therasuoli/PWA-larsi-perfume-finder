@@ -1059,9 +1059,18 @@
 
     let list = null, cacheAge = Infinity;
     try {
-      // Speed: load cache first (instant), then network in background
+      // Speed tier 1: IndexedDB cache (instant — no network at all)
       list = await repo.catalog.loadCache();
       if (list && repo.catalog.meta && repo.catalog.meta.updatedAt) cacheAge = Date.now() - repo.catalog.meta.updatedAt;
+      // Speed tier 2: Bundled JSON chunked files in the repo (served from GitHub Pages CDN).
+      // This is the SECOND fastest source (a single HTTP/2 multiplexed fetch of ~3MB),
+      // and the FIRST source on a fresh browser with no IndexedDB cache yet.
+      // Falls back to null on the very first deploy before data/ files exist.
+      if (!list) {
+        list = await repo.catalog.loadBundled();
+        if (list) cacheAge = 0; // bundled data is current as of the last fetch-to-repo.mjs run
+      }
+      // Speed tier 3: Live fetch from Supabase (slowest, but always up-to-date)
       if (!list) { list = await repo.catalog.load(); cacheAge = 0; }
     } catch (e) {
       dom.grid.innerHTML = `<div class="empty"><p>بارگذاری بانک عطرها از Supabase انجام نشد. اتصال را بررسی کن و دوباره تلاش کن.</p><button class="btn pri" type="button" data-retry>تلاش دوباره</button></div>`;
