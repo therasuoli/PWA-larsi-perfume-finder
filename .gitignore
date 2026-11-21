@@ -1,3 +1,14 @@
 node_modules/
 *.log
 .DS_Store
+
+# SECURITY — never commit secrets to the repo
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Local data (owner-managed)
+data/perfumes-*.json
+data/similar.json

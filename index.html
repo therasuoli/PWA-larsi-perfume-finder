@@ -45,16 +45,46 @@
 <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 11v6M14 11v6M7 7l1 13h8l1-13M9 7V4h6v3"/></symbol>
 <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
 <symbol id="i-back" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-about" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v.01M12 11v5"/></symbol>
+<symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l2 3H4z"/><path d="M10 21a2 2 0 0 0 4 0"/></symbol>
 </defs></svg>
 
 <a class="skip" href="#v-home">پرش به محتوای اصلی</a>
 
-<header class="top">
+<!-- ============ NEW HEADER WITH HAMBURGER ============ -->
+<header class="top new-top">
+  <button class="round menu-btn" id="menuBtn" type="button" aria-label="باز کردن منو" aria-controls="sideMenu" aria-expanded="false">
+    <svg class="ic"><use href="#i-menu"/></svg>
+  </button>
   <a class="logo" href="./" aria-label="لارسی — صفحه اول">لار<i>سی</i></a>
   <div class="top-actions">
     <button class="round" id="themeBtn" type="button" aria-label="تغییر تم روشن و تیره"><svg class="ic"><use href="#i-moon"/></svg></button>
   </div>
 </header>
+
+<!-- ============ SIDE MENU (HAMBURGER) ============ -->
+<div class="menu-backdrop" id="menuBackdrop" hidden></div>
+<aside class="side-menu" id="sideMenu" aria-label="منوی اصلی" aria-hidden="true">
+  <div class="side-head">
+    <a class="logo" href="./" aria-label="لارسی — صفحه اول">لار<i>سی</i></a>
+    <button class="round" id="menuClose" type="button" aria-label="بستن منو"><svg class="ic"><use href="#i-close"/></svg></button>
+  </div>
+  <nav class="side-nav" aria-label="بخش‌های منو">
+    <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg><span>خانه</span></button>
+    <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطرها</span></button>
+    <button type="button" data-go="agent"><svg class="ic"><use href="#i-spark"/></svg><span>عطرساز</span></button>
+    <button type="button" data-go="ward"><svg class="ic"><use href="#i-bag"/></svg><span>کمد من</span><span class="n badge" id="sideWardBadge" hidden>0</span></button>
+    <hr>
+    <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg><span>تنظیمات</span></button>
+    <button type="button" data-go="about"><svg class="ic"><use href="#i-about"/></svg><span>درباره ما</span></button>
+  </nav>
+  <div class="side-foot">
+    <p>ایده، طراحی و توسعه</p>
+    <p><b>هادی رسولی</b> · ۲۰۲۶</p>
+    <p class="ver" id="sideVer">نسخه ۷٫۵٫۰</p>
+  </div>
+</aside>
 
 <main>
 
@@ -152,10 +182,10 @@
   <div class="grid" id="wardGrid"></div>
 </section>
 
-<!-- ============ SETTINGS ============ -->
+<!-- ============ SETTINGS (now only settings, no about) ============ -->
 <section class="view" id="v-set" aria-label="تنظیمات">
   <h2 style="margin-top:20px">تنظیمات</h2>
-  <p class="sub">نمایش، به‌روزرسانی، حافظه و درباره برنامه.</p>
+  <p class="sub">نمایش، به‌روزرسانی و حافظه برنامه.</p>
 
   <div class="set-group">
     <h2>فونت</h2>
@@ -211,12 +241,15 @@
     </div>
   </div>
 
-  <div class="set-group" id="aboutGroup">
-    <h2>درباره ما</h2>
-    <div id="aboutBody"></div>
-  </div>
-
 </section>
+
+<!-- ============ ABOUT (now its own view) ============ -->
+<section class="view" id="v-about" aria-label="درباره ما">
+  <h2 style="margin-top:20px">درباره ما</h2>
+  <p class="sub">آشنایی با برنامه، توسعه‌دهنده و چشم‌انداز آینده.</p>
+  <div id="aboutBody"></div>
+</section>
+
 </main>
 
 <footer class="site"><p>ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶</p></footer>
@@ -253,14 +286,19 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <input id="importFile" type="file" accept="application/json,.json" hidden>
 
+<!-- ============ REDESIGNED ONBOARDING ============ -->
 <div class="onboard" id="onboard" hidden role="dialog" aria-modal="true" aria-labelledby="onboardTitle">
   <div class="onboard-panel">
+    <button class="onboard-close" id="onboardClose" type="button" aria-label="بستن معرفی"><svg class="ic"><use href="#i-close"/></svg></button>
     <div class="onboard-kicker" id="onboardKicker">WELCOME TO LARSI</div>
     <div class="onboard-orb"><svg class="bottle" style="--liq:#C8648A;--lv:12px" aria-hidden="true"><use href="#b"/></svg></div>
     <h2 id="onboardTitle" style="margin:0">دنیای رایحه‌ها را کشف کن</h2>
     <p class="sub" id="onboardText" style="margin:0"></p>
+    <div class="onboard-progress" role="progressbar" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1">
+      <span class="onboard-progress-bar" id="onboardProgressBar" style="width:33%"></span>
+    </div>
+    <div class="onboard-dots" id="onboardDots"></div>
     <div class="onboard-foot">
-      <div class="onboard-dots" id="onboardDots"></div>
       <button class="link" type="button" id="onboardSkip">رد کردن</button>
       <button class="btn pri" type="button" id="onboardNext">شروع</button>
     </div>

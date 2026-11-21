@@ -216,6 +216,7 @@
     if (!force && seen()) return;
     const markDone = () => { try { localStorage.setItem('lpf:onboarding', 'done'); } catch { } };
     let i = 0;
+    const progressBar = $('#onboardProgressBar');
     const draw = () => {
       const x = SLIDES[i];
       $('#onboardKicker').textContent = x.k;
@@ -223,12 +224,35 @@
       $('#onboardText').textContent = x.t;
       $('#onboardNext').textContent = i === SLIDES.length - 1 ? 'شروع تجربه' : 'ادامه';
       $('#onboardDots').innerHTML = SLIDES.map((_, j) => `<i class="${j === i ? 'active' : ''}"></i>`).join('');
+      if (progressBar) {
+        progressBar.style.width = ((i + 1) / SLIDES.length * 100) + '%';
+        root.setAttribute('aria-valuenow', String(i + 1));
+      }
     };
-    const close = () => { root.hidden = true; document.body.classList.remove('lock'); markDone(); };
-    root.hidden = false; document.body.classList.add('lock'); draw();
-    $('#onboardNext').onclick = () => { if (i < SLIDES.length - 1) { i++; draw(); } else close(); };
-    $('#onboardSkip').onclick = close;
-    $('#onboardNext').focus();
+    const close = () => {
+      root.hidden = true;
+      document.body.classList.remove('lock');
+      markDone();
+    };
+    // Reset and show (the CSS transition handles the slide-in animation)
+    root.hidden = false;
+    document.body.classList.add('lock');
+    draw();
+    // Wire up the new close (X) button + skip + next
+    const closeBtn = $('#onboardClose');
+    const nextBtn = $('#onboardNext');
+    const skipBtn = $('#onboardSkip');
+    if (closeBtn) closeBtn.onclick = close;
+    if (nextBtn) {
+      nextBtn.onclick = () => { if (i < SLIDES.length - 1) { i++; draw(); } else close(); };
+      // Delay focus so the slide-in animation finishes first
+      setTimeout(() => nextBtn.focus(), 250);
+    }
+    if (skipBtn) skipBtn.onclick = close;
+    // Click outside the panel closes too
+    root.onclick = e => { if (e.target === root) close(); };
+    // Escape closes
+    root.onkeydown = e => { if (e.key === 'Escape') { e.preventDefault(); close(); } };
   }
 
   /* ================= bindings ================= */
@@ -262,6 +286,7 @@
     toastFn = toast;
     bind();
     applyTheme(S.theme); applyFont(S.font, false); applyFontFamily(S.fontFamily, false);
+    renderAbout();        // 7.5: about is now its own view, render once on boot
     showOnboarding(false);
   }
 

@@ -46,12 +46,39 @@ a { color: inherit; text-decoration: none }
 .muted { color: var(--mut) }
 .link { text-decoration: underline; text-underline-offset: 3px; color: var(--acc); font-weight: 700 }
 
-/* ---------- top bar ---------- */
-header.top { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 20px; position: sticky; top: 0; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 5 }
-.logo { font-weight: 800; font-size: 1.3rem; letter-spacing: -.01em }
+/* ---------- top bar (new: with hamburger) ---------- */
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 16px; position: sticky; top: 0; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 8 }
+header.new-top { gap: 12px }
+.menu-btn { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); background: var(--card); flex: none; transition: transform .15s ease, background .2s ease }
+.menu-btn:active { transform: scale(.94) }
+.menu-btn[aria-expanded="true"] { background: var(--ink); color: var(--bg) }
+.logo { font-weight: 800; font-size: 1.3rem; letter-spacing: -.01em; flex: 1; text-align: center }
 .logo i { font-style: normal; background: linear-gradient(transparent 62%, var(--acc) 62%); padding: 0 2px }
-.top-actions { display: flex; gap: 8px }
+.top-actions { display: flex; gap: 8px; flex: none }
 .round { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); background: var(--card) }
+
+/* ---------- side menu (hamburger drawer) ---------- */
+.menu-backdrop { position: fixed; inset: 0; z-index: 50; background: rgba(8, 16, 13, .55); opacity: 0; transition: opacity .25s ease; }
+.menu-backdrop.show { opacity: 1 }
+.side-menu { position: fixed; top: 0; inset-inline-start: 0; bottom: 0; width: min(320px, 86vw); background: var(--bg); color: var(--ink); z-index: 51; transform: translateX(-100%); transform: translateX(110%); transition: transform .28s cubic-bezier(.32,.72,0,1); display: flex; flex-direction: column; padding: 14px; box-shadow: 0 0 40px rgba(0,0,0,.4); overflow-y: auto; }
+:root[dir="rtl"] .side-menu { transform: translateX(-110%); }
+.side-menu[data-open="true"] { transform: translateX(0) !important }
+.side-head { display: flex; align-items: center; justify-content: space-between; padding: 8px 6px 14px; border-bottom: 1px solid var(--line) }
+.side-head .logo { text-align: start; font-size: 1.15rem }
+.side-nav { display: flex; flex-direction: column; padding: 10px 0; flex: 1 }
+.side-nav hr { border: 0; border-top: 1px solid var(--line); margin: 10px 4px }
+.side-nav button { display: flex; align-items: center; gap: 14px; padding: 13px 14px; border-radius: 12px; font-size: .9375rem; font-weight: 600; min-height: 50px; text-align: start; color: var(--ink); transition: background .15s ease, color .15s ease }
+.side-nav button:hover, .side-nav button:focus-visible { background: color-mix(in srgb, var(--acc) 12%, transparent) }
+.side-nav button[aria-current="page"] { background: color-mix(in srgb, var(--acc) 22%, transparent); color: var(--on); }
+.side-nav button[aria-current="page"] .ic { stroke: var(--on) }
+.side-nav .badge { margin-inline-start: auto; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; background: var(--acc); color: var(--on); font-size: .6875rem; line-height: 22px; text-align: center; font-weight: 700 }
+.side-foot { padding: 14px 6px; border-top: 1px solid var(--line); color: var(--mut); font-size: .75rem; line-height: 1.8 }
+.side-foot b { color: var(--ink); font-weight: 700 }
+.side-foot .ver { color: var(--acc); font-weight: 700; margin-top: 6px; font-size: .6875rem; letter-spacing: .04em }
+
+@media (min-width: 900px) {
+  .side-menu { width: 340px }
+}
 
 /* ---------- layout / views ---------- */
 main { max-width: 980px; margin: 0 auto; padding: 0 20px }
@@ -284,16 +311,29 @@ dialog.lb { max-width: 100%; width: 100%; height: 100dvh; max-height: 100dvh; bo
 #shutdown.done { animation: sh-gone .4s forwards }
 @keyframes sh-gone { to { opacity: 0 } }
 
-/* ---------- onboarding ---------- */
-.onboard { position: fixed; inset: 0; z-index: 90; background: var(--bg); display: grid; place-items: center; padding: 24px }
-.onboard-panel { max-width: 520px; display: grid; gap: 16px; text-align: center }
-.onboard-kicker { font-size: .75rem; letter-spacing: .2em; color: var(--mut) }
-.onboard-orb { width: 130px; height: 130px; margin: 0 auto; display: grid; place-items: center; border-radius: 50%; background: color-mix(in srgb, var(--acc) 20%, var(--bg)); border: 1px solid var(--line) }
-.onboard-orb svg { width: 64px; height: 86px }
-.onboard-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px }
-.onboard-dots { display: flex; gap: 6px }
-.onboard-dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--line) }
-.onboard-dots i.active { background: var(--acc) }
+/* ---------- onboarding (redesigned: smooth animations + working close button) ---------- */
+.onboard { position: fixed; inset: 0; z-index: 95; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); display: grid; place-items: center; padding: 24px; opacity: 0; pointer-events: none; transition: opacity .35s ease; }
+.onboard:not([hidden]) { opacity: 1; pointer-events: auto }
+.onboard-panel { max-width: 520px; width: 100%; display: grid; gap: 14px; text-align: center; position: relative; padding: 30px 26px 22px; background: var(--card); border: 1px solid var(--line); border-radius: 26px; box-shadow: var(--shadow); transform: translateY(20px) scale(.97); opacity: 0; transition: transform .45s cubic-bezier(.32,.72,0,1), opacity .35s ease; }
+.onboard:not([hidden]) .onboard-panel { transform: translateY(0) scale(1); opacity: 1; transition-delay: .05s }
+.onboard-panel::before { content: ""; position: absolute; top: 0; inset-inline: 25%; height: 3px; background: linear-gradient(90deg, transparent, var(--acc), transparent); border-radius: 0 0 3px 3px }
+.onboard-close { position: absolute; top: 12px; inset-inline-end: 12px; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--bg); border: 1px solid var(--line); color: var(--mut); transition: background .15s ease, color .15s ease, transform .15s ease }
+.onboard-close:hover, .onboard-close:focus-visible { background: var(--ink); color: var(--bg); transform: rotate(90deg) }
+.onboard-kicker { font-size: .7rem; letter-spacing: .25em; color: var(--acc); font-weight: 700 }
+.onboard-orb { width: 124px; height: 124px; margin: 6px auto 4px; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(circle at 30% 30%, color-mix(in srgb, var(--acc) 35%, var(--bg)), color-mix(in srgb, var(--acc) 10%, var(--bg))); border: 1px solid var(--line); position: relative; animation: orb-pulse 3s ease-in-out infinite; }
+.onboard-orb::after { content: ""; position: absolute; inset: -8px; border-radius: 50%; border: 1px dashed color-mix(in srgb, var(--acc) 40%, transparent); animation: orb-rotate 14s linear infinite; }
+.onboard-orb svg { width: 60px; height: 80px; position: relative; z-index: 2 }
+@keyframes orb-pulse { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.04) } }
+@keyframes orb-rotate { to { transform: rotate(360deg) } }
+.onboard-panel h2 { font-size: 1.4rem; line-height: 1.5; font-weight: 800 }
+.onboard-panel .sub { font-size: .9375rem; line-height: 1.9; color: var(--mut) }
+.onboard-progress { width: 100%; height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; margin: 6px 0 2px; }
+.onboard-progress-bar { display: block; height: 100%; background: var(--acc); border-radius: 2px; transition: width .45s cubic-bezier(.32,.72,0,1) }
+.onboard-dots { display: flex; gap: 8px; justify-content: center; margin: 4px 0 8px }
+.onboard-dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); transition: background .25s ease, transform .25s ease }
+.onboard-dots i.active { background: var(--acc); transform: scale(1.25) }
+.onboard-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 6px }
+.onboard-foot .btn.pri { min-height: 48px; padding: 0 26px }
 
 /* ---------- footer ---------- */
 footer.site { text-align: center; color: var(--mut); font-size: .8125rem; padding: 34px 0 10px }
@@ -311,3 +351,28 @@ footer.site { text-align: center; color: var(--mut); font-size: .8125rem; paddin
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important }
 }
+
+/* ---------- owner.html (BUG-004 fix: missing styles added) ---------- */
+:root { --surface: var(--card); --gutter: 20px; }
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; position: sticky; top: 0; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); z-index: 5 }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 1.1rem }
+.brand-text { display: flex; flex-direction: column; line-height: 1.2 }
+.brand-text b { font-weight: 800; font-size: 1.15rem }
+.brand-text span { font-size: .75rem; color: var(--mut); font-weight: 400 }
+.section { max-width: 760px; margin: 0 auto; padding: 22px 20px 60px }
+.page-body { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 18px; margin: 14px 0 }
+.bank-dev-intro b { display: block; font-size: 1rem; margin-bottom: 4px }
+.bank-dev-intro p { color: var(--mut); font-size: .875rem; line-height: 1.8 }
+.field-label { display: block; font-size: .8125rem; font-weight: 700; margin: 12px 0 6px; color: var(--ink) }
+.bank-dev-divider { height: 1px; background: var(--line); margin: 16px 0; border: 0 }
+.bank-dev-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px }
+.bank-dev-actions .btn { flex: 1; min-width: 140px }
+.bank-dev-status { padding: 10px 14px; background: var(--bg); border-radius: 10px; font-size: .875rem; line-height: 1.8; color: var(--ink); min-height: 44px }
+.bank-dev-status.error { color: var(--danger); border: 1px solid var(--danger) }
+.btn.primary, .btn.pri { background: var(--acc); border-color: var(--acc); color: var(--on) }
+.btn.primary:active, .btn.pri:active { transform: scale(.98) }
+.site-footer { text-align: center; color: var(--mut); font-size: .8125rem; padding: 26px 0 10px }
+input[type="text"], input[type="password"], input[type="file"] { width: 100%; min-height: 46px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--ink); font: inherit }
+input[type="file"] { padding: 8px }
+.hint { font-size: .75rem; color: var(--mut); line-height: 1.7 }
+code { font-family: monospace; background: rgba(240,184,58,.12); color: var(--acc); padding: 1px 6px; border-radius: 4px; font-size: .8125rem }

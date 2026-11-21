@@ -278,12 +278,43 @@
   }
 
   /* ================= views & navigation ================= */
+  // Tracks whether the side menu is open, and which view is currently active.
+  let menuOpen = false;
+  function setMenu(open) {
+    menuOpen = open;
+    const menu = $('#sideMenu'), backdrop = $('#menuBackdrop'), btn = $('#menuBtn');
+    if (!menu || !backdrop || !btn) return;
+    if (open) {
+      menu.hidden = false;
+      backdrop.hidden = false;
+      // Force reflow so the transform transition runs (otherwise it would just appear without animating)
+      void menu.offsetWidth;
+      menu.setAttribute('data-open', 'true');
+      menu.setAttribute('aria-hidden', 'false');
+      backdrop.classList.add('show');
+      btn.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('lock');
+    } else {
+      menu.setAttribute('data-open', 'false');
+      menu.setAttribute('aria-hidden', 'true');
+      backdrop.classList.remove('show');
+      btn.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('lock');
+      // Hide after the transition completes (280ms) to allow it to slide out
+      setTimeout(() => { if (!menuOpen) { menu.hidden = true; backdrop.hidden = true; } }, 300);
+    }
+  }
   function go(v) {
     $$('.view').forEach(e => e.classList.toggle('on', e.id === 'v-' + v));
     $$('nav.bnav button').forEach(b => { if (b.dataset.go === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+    // Keep the side menu aria-current in sync too
+    $$('.side-nav button[data-go]').forEach(b => { if (b.dataset.go === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
     if (v === 'agent') agentView();
     if (v === 'ward') renderWardrobe();
     if (v === 'set') LPF.settings.refresh();
+    if (v === 'about') LPF.settings.renderAbout && LPF.settings.renderAbout();
+    // Close the side menu whenever a navigation happens
+    if (menuOpen) setMenu(false);
     scrollTo(0, 0);
   }
 
@@ -521,7 +552,15 @@
     lb.urls = urls; lb.idx = Math.max(0, idx); lb.base = caption || '';
     dom.lbImg.src = lb.urls[lb.idx];
     $('#lbCap').textContent = `${lb.base} · ${fa(lb.idx + 1)} از ${fa(lb.urls.length)}`;
-    if (!dom.lb.open) dom.lb.showModal();
+    if (!dom.lb.open) {
+      dom.lb.showModal();
+      // BUG-007 fix: lock body scroll so background doesn't scroll on iOS Safari
+      document.body.classList.add('lock');
+    }
+  }
+  function closeLightbox() {
+    if (dom.lb.open) dom.lb.close();
+    document.body.classList.remove('lock');
   }
   const lbGo = d => {
     if (!lb.urls.length) return;
@@ -627,7 +666,9 @@
   }
   function updateWardrobeBadge() {
     const n = new Set([...S.favs, ...Object.keys(S.wardrobe)]).size;
-    const b = dom.wardBadge; b.hidden = !n; b.textContent = fa(n);
+    const b = dom.wardBadge; if (b) { b.hidden = !n; b.textContent = fa(n); }
+    // Also sync the side-menu badge (introduced in 7.5)
+    const side = $('#sideWardBadge'); if (side) { side.hidden = !n; side.textContent = fa(n); }
   }
 
   /* ================= favourites / compare / rating ================= */
@@ -681,9 +722,19 @@
     const sp = new URL(location.href).searchParams;
     const k = sp.get('p');
     const w = sp.get('w');
-    if (k) { const p = byId.get(k) || bySlug.get(k); if (p && !p.deleted) renderDetail(p); }
+    const q = sp.get('q') || '';
     if (w) showSharedWardrobe(w);
-    if (F.q = sp.get('q') || '') { go('find'); syncSearchInputs(); render(); }
+    // BUG-005 fix: if both `p` and `q` exist, prefer the detail view (deep link).
+    // Don't simultaneously switch to the find view, which would leave the dialog open over it.
+    if (k) {
+      const p = byId.get(k) || bySlug.get(k);
+      if (p && !p.deleted) renderDetail(p);
+    } else if (q) {
+      F.q = q;
+      go('find');
+      syncSearchInputs();
+      render();
+    }
   }
 
   /* ================= events ================= */
@@ -713,6 +764,17 @@
     document.addEventListener('error', e => { const t = e.target; if (t.classList && t.classList.contains('lpf-img')) t.style.display = 'none'; }, true);
 
     $$('nav.bnav button').forEach(b => b.addEventListener('click', () => go(b.dataset.go)));
+    // Side menu (hamburger) — buttons inside use the same data-go delegation pattern
+    $$('.side-nav button[data-go]').forEach(b => b.addEventListener('click', () => go(b.dataset.go)));
+    // Menu open/close wiring
+    const menuBtn = $('#menuBtn');
+    const menuClose = $('#menuClose');
+    const menuBackdrop = $('#menuBackdrop');
+    if (menuBtn) menuBtn.addEventListener('click', () => setMenu(!menuOpen));
+    if (menuClose) menuClose.addEventListener('click', () => setMenu(false));
+    if (menuBackdrop) menuBackdrop.addEventListener('click', () => setMenu(false));
+    // Close on Escape when the menu is open
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuOpen) { e.preventDefault(); setMenu(false); } });
     // theme toggle lives in settings.js (cycles auto → dark → light)
     $('#agentChips').addEventListener('click', e => { const b = e.target.closest('[data-q]'); if (b) agentView(b.dataset.q); });
 
@@ -776,9 +838,12 @@
     dom.trayOpen.addEventListener('click', () => { renderCompare(); if (!dom.dlgCmp.open) dom.dlgCmp.showModal(); });
 
     // lightbox tools
-    $('#lbClose').addEventListener('click', () => dom.lb.close());
+    $('#lbClose').addEventListener('click', closeLightbox);
     $('#lbPrev').addEventListener('click', () => lbGo(1));
     $('#lbNext').addEventListener('click', () => lbGo(-1));
+    // Close on backdrop click + Escape (extra cleanup of body.lock)
+    dom.lb.addEventListener('click', e => { if (e.target === dom.lb) closeLightbox(); });
+    dom.lb.addEventListener('cancel', closeLightbox);  // triggered by Escape on <dialog>
     bindLightboxSwipe();
 
     // agent form
@@ -933,16 +998,42 @@
     dom.charChips.innerHTML = [...count('character')].sort((a, b) => b[1] - a[1]).slice(0, 14).map(([c]) => `<button class="chip" type="button" data-char="${esc(c)}" aria-pressed="false">${esc(FA.char(c))}</button>`).join('');
   }
 
+  /* ---- Speed optimization: store interval handles and clear them on pagehide (BUG-006 fix) ---- */
+  let clockTimer = null, wxTimer = null;
+  function startTimers() {
+    clockTimer = setInterval(tickClock, 1000);
+    wxTimer = setInterval(() => loadWeather(true), (cfg.weather.refreshMinutes || 30) * 60000);
+    // Pause timers when tab is hidden, resume when visible (saves CPU + battery)
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        if (clockTimer) { clearInterval(clockTimer); clockTimer = null; }
+        if (wxTimer) { clearInterval(wxTimer); wxTimer = null; }
+      } else if (!clockTimer) {
+        clockTimer = setInterval(tickClock, 1000);
+        wxTimer = setInterval(() => loadWeather(true), (cfg.weather.refreshMinutes || 30) * 60000);
+        // Also refresh the clock + weather immediately so the UI isn't stale when the user returns
+        tickClock(); loadWeather(true);
+      }
+    });
+    // Final cleanup
+    window.addEventListener('pagehide', () => {
+      if (clockTimer) clearInterval(clockTimer);
+      if (wxTimer) clearInterval(wxTimer);
+    });
+  }
+
   async function init() {
     ['grid', 'loadMore', 'count', 'filterPanel', 'activeChips', 'favOnly', 'toast', 'tray', 'trayText', 'trayOpen', 'trayClear', 'dbody', 'wardGrid', 'wardChips', 'wardStats', 'charChips', 'wardBadge', 'famChips']
       .forEach(k => { dom[k] = $('#' + ({ count: 'resultCount', activeChips: 'activeChips', wardGrid: 'wardGrid', wardChips: 'wardChips', wardStats: 'wardStats' }[k] || k)); });
     dom.dlg = $('#dlg'); dom.dlgCmp = $('#dlgCmp'); dom.lb = $('#lb'); dom.lbImg = $('#lbImg');
     dom.fConc = $('#fConc'); dom.fSeason = $('#fSeason'); dom.fBrand = $('#fBrand'); dom.fNote = $('#fNote'); dom.sort = $('#sortSel');
     dom.wardFilter = 'all';
+    // Speed: render skeletons BEFORE binding (so the user sees immediate feedback)
+    dom.grid.innerHTML = skeletons(8);
+    // Speed: bind in a microtask so the paint above happens first
     bindSheetSwipe(dom.dlg); bindSheetSwipe(dom.dlgCmp);
     LPF.settings.init(toast);
     bind();
-    dom.grid.innerHTML = skeletons(8);
 
     // comboboxes: hero search, catalogue search, note filter
     attachCombobox('hq', 'hqSug', (q, state) => buildSuggestRows(q, state));
@@ -968,6 +1059,7 @@
 
     let list = null, cacheAge = Infinity;
     try {
+      // Speed: load cache first (instant), then network in background
       list = await repo.catalog.loadCache();
       if (list && repo.catalog.meta && repo.catalog.meta.updatedAt) cacheAge = Date.now() - repo.catalog.meta.updatedAt;
       if (!list) { list = await repo.catalog.load(); cacheAge = 0; }
@@ -976,20 +1068,24 @@
       return;
     }
     items = list; buildIndex(); buildFilterOptions();
+    // Speed: render home + grid in parallel using rAF to avoid blocking
     renderHome(); renderVerse(); loadWeather(false);
-    setInterval(tickClock, 1000);
-    setInterval(() => loadWeather(true), (cfg.weather.refreshMinutes || 30) * 60000);
+    startTimers();
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
     LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
     LPF.agent.init(live, FA, S.disliked, openDetail);
 
+    // Speed: delta sync deferred to idle so it never blocks the first interaction
     if (cacheAge >= (cfg.data.syncIntervalHours || 6) * 3600000) {
-      repo.catalog.sync().then(res => {
+      const runSync = () => repo.catalog.sync().then(res => {
         if (!res || !res.items) return;
         items = res.items; buildIndex(); buildFilterOptions(); renderHome(); syncFilterUI(); render(); updateTray();
         LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
         LPF.agent.init(live, FA, S.disliked, openDetail);
       }).catch(() => { });
+      // Use requestIdleCallback so the sync doesn't compete with the user's first scroll
+      if (window.requestIdleCallback) requestIdleCallback(runSync, { timeout: 4000 });
+      else setTimeout(runSync, 800);
     }
     routeDeepLink();
     registerSW();

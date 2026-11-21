@@ -13,7 +13,7 @@
   /* keyword → family groups (real catalogue families) */
   const KW = [
     [/آرام|سبک|خنک|ریلکس|دریا|معطر|روزانه|تمیز/, ['Green Leaf', 'Salt & Mineral']],
-    [/عاشق|رمانتیک|گلی|گل |بوسه|شکوفه/, ['Petal Garden', 'White Bloom']],
+    [/عاشق|رمانتیک|گلی|گل|بوسه|شکوفه/, ['Petal Garden', 'White Bloom']],
     [/شب|گرم|مهمان|عمیق|جذاب|شیک/, ['Amber & Resin', 'Oud Court']],
     [/شاداب|تازه|صبح|انرژی|لیمو|مرکبات/, ['Sunlit Citrus']],
     [/رسمی|اداری|باوقار|کلاسیک|چوب|مردانه/, ['Wood & Root', 'Smoke & Leather']],
@@ -51,7 +51,7 @@
       if (hitNotes.length) { score += 2 * Math.min(hitNotes.length, 2); reasons.push('نت ' + (state.fa.note(hitNotes[0]) || hitNotes[0])); }
       if (season && (p.seasons || []).includes(season)) { score += (p.seasons.length <= 2 ? 2 : 1); reasons.push('مناسب ' + state.fa.season(season)); }
       if (t.includes(norm(p.brand)) || t.includes(norm(p.name))) { score += 3; reasons.push('هم‌نام با جستجوی تو'); }
-      if (isFrench && p._country === 'France') { score += 2; reasons.push('ساخت فرانسه'); }
+      if (isFrench && (p._country === 'فرانسه' || p._country === 'France')) { score += 2; reasons.push('ساخت فرانسه'); }
       if (score > 0) results.push({ p, score, reasons });
     }
     results.sort((a, b) => b.score - a.score || (a.p.rank || 1e9) - (b.p.rank || 1e9));

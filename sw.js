@@ -1,5 +1,5 @@
-/* Larsi Perfume Finder — Service Worker v7.4.0; Supabase-only data source, delta sync client, Atelier Larsi shell */
-const VERSION = '7.4.0';
+/* Larsi Perfume Finder — Service Worker v7.5.0; Supabase-only data source, delta sync client, Atelier Larsi shell */
+const VERSION = '7.5.0';
 const SHELL = `lpf-${VERSION}-shell`;
 const IMG = 'lpf-images-v2';
 const CORE = [
