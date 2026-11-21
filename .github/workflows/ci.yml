@@ -1,0 +1,30 @@
+name: CI — tests and data pipeline checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Vitest — FA.norm, similarLocal, bankNormalize
+        run: npm test
+      - name: Data pipeline smoke test (empty-state friendly)
+        run: node scripts/build-data.mjs && node scripts/validate-data.mjs
