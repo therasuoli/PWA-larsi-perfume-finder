@@ -20,6 +20,7 @@
       const v4Disliked = v4('disliked'); if (Array.isArray(v4Disliked) && !get('disliked', null)) set('disliked', v4Disliked.filter(x => typeof x === 'string'));
       const v4Theme = v4('theme'); if (v4Theme && !get('theme', null)) set('theme', v4Theme);
       const v4Font = v4('font'); if (v4Font && !get('font', null)) set('font', v4Font);
+      const v4FontFamily = v4('fontFamily'); if (v4FontFamily && !get('fontFamily', null)) set('fontFamily', v4FontFamily);
       const oldFavs = raw('pf-v2-favs', []);
       if (Array.isArray(oldFavs) && oldFavs.length && !get('favs', null)) set('favs', oldFavs.filter(x => typeof x === 'string'));
       const oldRatings = raw('pf-v2-ratings', {});
@@ -35,8 +36,10 @@
       const t = localStorage.getItem('pf-v2-theme');
       if (t && !get('theme', null) && ['dark', 'light', 'sand'].includes(t)) set('theme', t);
       const f = parseInt(localStorage.getItem('pf-v2-font'), 10);
-      if (f && !get('font', null) && f >= 90 && f <= 125) set('font', f);
+      if (f && !get('font', null) && f >= 90 && f <= 150) set('font', f);
     } catch { /* ignore */ }
+    // 7.3: the 'sand' theme was retired; map any stored preference onto 'dark'.
+    try { if (get('theme', '') === 'sand') set('theme', 'dark'); } catch { }
     set('migrated', true);
   }
 
@@ -61,8 +64,9 @@
     ratings: get('ratings', {}),
     wardrobe: sanitizeWardrobe(get('wardrobe', {})),
     disliked: new Set(get('disliked', [])),
-    theme: get('theme', 'auto'),
-    font: get('font', 100)
+    theme: get('theme', 'auto') === 'sand' ? 'dark' : get('theme', 'auto'),
+    font: Math.min(150, Math.max(90, Number(get('font', 100)) || 100)),
+    fontFamily: get('fontFamily', (LPF.config.fonts && LPF.config.fonts.default) || 'vazir')
   };
 
   const api = {
@@ -73,8 +77,9 @@
     saveDisliked() { set('disliked', [...state.disliked]); },
     saveTheme() { set('theme', state.theme); },
     saveFont() { set('font', state.font); },
+    saveFontFamily() { set('fontFamily', state.fontFamily); },
     exportAll() {
-      return { app: 'larsi-perfume-finder', version: 3, exportedAt: new Date().toISOString(), wardrobe: state.wardrobe, ratings: state.ratings, favorites: [...state.favs], disliked: [...state.disliked], preferences: { theme: state.theme, font: state.font } };
+      return { app: 'larsi-perfume-finder', version: 3, exportedAt: new Date().toISOString(), wardrobe: state.wardrobe, ratings: state.ratings, favorites: [...state.favs], disliked: [...state.disliked], preferences: { theme: state.theme, font: state.font, fontFamily: state.fontFamily } };
     },
     importAll(x) {
       if (!x || typeof x !== 'object') throw new Error('invalid');
@@ -90,10 +95,11 @@
       if (Array.isArray(x.favorites)) x.favorites.forEach(id => typeof id === 'string' && state.favs.add(id));
       if (Array.isArray(x.disliked)) x.disliked.forEach(id => typeof id === 'string' && state.disliked.add(id));
       if (x.preferences && typeof x.preferences === 'object') {
-        if (['auto', 'dark', 'light', 'sand'].includes(x.preferences.theme)) state.theme = x.preferences.theme;
-        const font = Number(x.preferences.font); if (Number.isFinite(font) && font >= 90 && font <= 125) state.font = font;
+        if (['auto', 'dark', 'light', 'sand'].includes(x.preferences.theme)) state.theme = x.preferences.theme === 'sand' ? 'dark' : x.preferences.theme;
+        const font = Number(x.preferences.font); if (Number.isFinite(font) && font >= 90 && font <= 150) state.font = font;
+        if (['vazir', 'naskh', 'system'].includes(x.preferences.fontFamily)) state.fontFamily = x.preferences.fontFamily;
       }
-      api.saveWardrobe(); api.saveRatings(); api.saveFavs(); api.saveDisliked(); api.saveTheme(); api.saveFont();
+      api.saveWardrobe(); api.saveRatings(); api.saveFavs(); api.saveDisliked(); api.saveTheme(); api.saveFont(); api.saveFontFamily();
     }
   };
   LPF.store = api;

@@ -92,7 +92,15 @@ for (const f of (await readdir(extraDir).catch(() => [])).filter(n => n.endsWith
     seen.add(o.id); seenSlug.add(o.slug); items.push(o); extraCount++;
   }
 }
-if (!items.length) throw new Error('No local catalogue records found. Add owner-managed JSON files to data/extra/ or pass a local JSON/CSV file. No remote data source is configured.');
+if (!items.length) {
+  // Fresh clone with no owner imports yet: emit a valid empty catalogue instead of failing the workflow.
+  await mkdir(resolve(ROOT, 'data'), { recursive: true });
+  await writeFile(resolve(ROOT, 'data/manifest.json'), JSON.stringify({ total: 0, chunk_size: 500, chunks: [] }, null, 2) + '\n');
+  const appVersion0 = ((await readFile(resolve(ROOT, 'js/config.js'), 'utf8')).match(/version:\s*'([^']+)'/) || [])[1] || 'unknown';
+  await writeFile(resolve(ROOT, 'data/meta.json'), JSON.stringify({ generatedAt: new Date().toISOString(), count: 0, brands: 0, families: 0, source: 'local-owner-import', extra: 0, appVersion: appVersion0, duplicateIds: 0 }, null, 2) + '\n');
+  console.log('No local catalogue records found (fresh clone) — wrote an empty manifest. Add JSON arrays to data/extra/ to build the catalogue.');
+  process.exit(0);
+}
 // ranked records first (stable), unranked after
 items.sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
 

@@ -1,80 +1,48 @@
-## 5.3.0-alpha.1 — 2026-11-20
+# Larsi Perfume Finder — Changelog
 
-**Fixed**
-- Catalogue: chunks 04–07 (1,881 scraped records) were on disk but not listed in `manifest.json`, so the app never loaded them, and the weekly refresh kept resetting the manifest to 3 chunks. `build-data.mjs` now merges `data/extra/*.json`, deletes stale chunk files, and `validate-data.mjs` fails on orphan chunks.
-- Bank Dev upload wrote `data/perfumes.json`, which the app does not read and the weekly job overwrites. It now writes `data/extra/bank-imports.json` (a build input) and the catalogue workflow also runs on pushes to `data/extra/**`.
-- Boot script read the obsolete `lpf:v4:` storage namespace → wrong theme/font flash on every load.
-- Late-arriving image index re-rendered the whole grid (scroll jump, lost state); photos are now attached in place.
-- Store-stub records no longer query the Scento API (it tripped the circuit breaker and showed "offline").
-- "Uncategorised" tile selected a value missing from the family dropdown; `href` values are now restricted to http(s); source-link label reflects the real host; Persian descriptions are no longer forced LTR.
-- Image crawler only visits hosts it may extract images from (it was crawling a third-party shop).
+## 7.4.0 · آذر ۱۴۰۵ — رشد (بدون فروشگاه)
+- آنالیتیکس بدون کوکی و کاملاً محلی: رویدادهای جست‌وجو (با شمار نتیجه)، باز شدن جزئیات، پیام عطرساز، راهنمای هدیه و اشتراک کمد؛ فقط در همین مرورگر و قابل مشاهده در صفحه مالک. رویداد خرید وجود ندارد (لینک فروشگاه غیرفعال است).
+- صفحات استاتیک سئو برای ۱۰۰ عطر پرمخاطب (scripts/build-seo.mjs): عنوان و توضیح فارسی، canonical، Open Graph و Twitter Card، JSON-LD از نوع Product (بدون offers)، هرم نت‌ها، عطرهای مشابه با درصد شباهت و لینک «باز کردن در برنامه»؛ بدون هیچ لینک خرید.
+- sitemap.xml (۱۰۱ نشانی) و robots.txt (با بستن صفحه مالک از ایندکس) اضافه شد؛ بازتولید با آدرس واقعی GitHub Pages: node scripts/build-seo.mjs --base <آدرس>
+- لیست اشتراکی کمد بدون حساب: دکمه «اشتراک کمد» کمد را در لینک فشرده (?w=) می‌گذارد و گیرنده نمای فقط‌خواندنی با امکان «افزودن به کمد من» می‌بیند.
+- راهنمای هدیه سه‌سؤالی (برای کی / چه حسی / چه فصلی) با شش پیشنهاد دلیل‌دار از بانک.
+- پوش نوتیف و «مجله رایحه» فقط در صورت تأیید مالک اضافه می‌شود (فعلاً منتظر تصمیم).
 
-**Performance**
-- Similarity search: pre-computed lower-case note sets + memoised IDF, deferred to idle time.
-- Removed per-card `backdrop-filter`, animated `drop-shadow`; hero animation pauses off-screen; `content-visibility:auto` on cards; chunk fetch retry; manifest preload.
-- Catalogue payload for the same records dropped from ~4.7 MB to ~1.4 MB; removed unused 5 MB `perfume-database-with-images.json` and `similar.json` from the SW precache.
+## 7.3.0 · آذر ۱۴۰۵ — طراحی جدید «آتلیه لارسی»
+- بازطراحی کامل رابط بر اساس larsi-new-ui.html: پالت سبز شیشه‌ای و زعفرانی، تم روشن/تیره، بطری SVG با رنگ مایع بر اساس خانواده بویایی و سطح مایع بر اساس غلظت.
+- ناوبری جدید: Bottom Navigation پنج‌تبه (خانه، کشف، عطرساز، کمد من، تنظیمات)؛ منوی همبرگری حذف شد.
+- صفحه خانه: کارت زنده آب‌وهوای شیراز (Open-Meteo با کش ۱۰ دقیقه و تاریخ شمسی و ساعت زنده)، بیت حافظ (چرخش روزانه)، اسلایدرهای هوشمند (تازه‌ترین‌ها، خانه‌های عطر، کشورها با پرچم، خانواده‌های بویایی، مناسب هوای امروز) با پخش خودکار متوقف‌شونده هنگام تعامل و احترام به prefers-reduced-motion؛ هیچ لینک خریدی وجود ندارد.
+- عطرساز: دستیار گفتگویی محلی قاعده‌محور با دلیل زیر هر پیشنهاد؛ رابط اختیاری LLM فقط از طریق Edge Function (پیش‌فرض خاموش).
+- صفحه تنظیمات: انتخاب خانواده فونت (وزیرمتن، نوتو نسخ، فونت سیستم) با پیش‌نمایش زنده، اسلایدر اندازه متن ۹۰ تا ۱۵۰٪ با پیش‌نمایش زنده، تم روشن/دارک/پیروی از سیستم (اعمال قبل از اولین رندر)، بررسی نسخه جدید Service Worker با Toast «بارگذاری مجدد»، و دکمه «حذف کش کلی و بارگیری مجدد» با انیمیشن خاموش‌شدن CRT + تخلیه بطری (نسخه ساده در حالت reduced-motion) و حفظ کامل داده شخصی.
+- بخش «درباره ما» با توضیح برنامه، نسخه (از config)، توسعه‌دهنده، هدف، چشم‌انداز نسخه ۸ و تاریخچه تغییرات از همان CHANGELOG.md.
+- فوتر فقط یک خط: «ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶».
+- جزئیات عطر در Bottom Sheet بومی <dialog> با بستن با کشیدن (swipe-to-close)، گالری با لایت‌باکس (پیمایش لمسی و کیبورد)، ستون چسبان در جدول مقایسه، و Combobox کامل برای جستجو (ArrowUp/Down/Home/End/Enter/Escape + aria-activedescendant).
+- «جایگزین اقتصادی» با درصد شباهت در پیشنهادهای مشابه (بازگشت از کد مرده build-similar).
+- مدیریت «نمی‌خواهم ببینم»، «دیدن دوباره معرفی» و دکمه «گزارش نقص داده» (چک‌لیست ناقص‌ها + کپی/اشتراک‌گذاری + ثبت محلی) اضافه شد.
+- واژه‌نامه نت‌ها به ۴۲۰ کلید کامل شد؛ تصاویر با بارگذاری تنبل، sizes و blur-up (به‌محض لود شدن محو به‌داخل) و placeholder بطری.
+- باگ‌های رفع‌شده: [hidden] که با قواعد کلاس display هم‌پوشانی می‌کرد (قاعده سراسری !important)، پیشوند # مفقود در نگاشت DOM، اتصال دوباره دکمه تم، لینک پرش همیشه‌نمایان، کنتراست دستگیره شیت، و حذف داده‌های شخصی در سینک دلتا برای رکوردهای بدون شناسه (شناسه‌ی ترکیبی پایدار).
 
-**UI**
-- Sticky search toolbar, horizontally scrolling category tiles on phones, shimmer skeletons, sticky action bar in the phone detail sheet, higher-contrast light theme, larger minimum text size, 40px touch targets.
+## 7.2.0 · آذر ۱۴۰۵ — امنیت و تثبیت
+- توکن GitHub و رمز «توسعه بانک» از مرورگر حذف شد؛ آپلود و احراز هویت مالک به Supabase Edge Function منتقل شد و رابط عمومی «توسعه بانک» از منو کنار رفت (صفحه مستقل مالک: owner.html).
+- SheetJS نسخه 0.18.5 به‌صورت ثابت داخل مخزن (lib/xlsx) قرار گرفت و فقط برای صفحه مالک lazy-load می‌شود؛ هیچ وابستگی CDN در اجرا نماند.
+- سیاست امنیت محتوا (CSP) با متا تگ اضافه شد؛ script-src و connect-src محدود به خود برنامه و Supabase.
+- همگام‌سازی دلتا با updated_at: فقط رکوردهای تغییر‌یافته دریافت و در کش IndexedDB ادغام می‌شوند؛ تجزیه و آماده‌سازی کاتالوگ در Web Worker انجام می‌شود (با fallback به main thread).
+- مسیر حذف نرم رکورد اضافه شد (payload.deleted=true در Edge Function) و رکوردهای حذف‌شده از همه نمای‌ها پنهان می‌شوند.
+- ویژگی «جایگزین اقتصادی» بازگردانده شد: در پیشنهادهای مشابه، برندهای هم‌ارز اقتصادی برجسته و با درصد شباهت نمایش داده می‌شوند.
+- تست خودکار با Vitest برای FA.norm، similarLocal و bankNormalize (۴۵ حالت) و اجرا در workflow CI.
+- همه ارجاع‌ها به فروشگاه لارسی از رابط کاربری، منو، فوتر، درباره، manifest، متاتگ‌ها، og و کد حذف شد؛ فلگ config.store با مقدار enabled:false برای بازگشت آسان در آینده باقی ماند و هیچ کدی در حالت false لینک نمی‌سازد.
+- فوتر به یک خط ثابت تغییر کرد: «ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶».
+- پاک‌سازی: CHANGELOG تکراری و فایل Jekyll حذف شد؛ theme-color یکسان‌سازی شد (#101411)؛ نام متغیر گمراه‌کننده اسکریپت بوت اصلاح شد و اسکریپت به فایل خارجی js/boot.js منتقل شد.
+- تاریخچه جستجو و نشان آنبوردینگ به کلیدهای پایدار (بدون پسوند نسخه) منتقل شد و مقدار قدیمی مهاجرت داده می‌شود.
+- تاریخچه تغییرات «درباره برنامه» اکنون از همان فایل CHANGELOG.md خوانده می‌شود (یک منبع واحد).
+- باگ‌های رفع‌شده: جداسازی نقطه‌ویرگول فارسی (؛) در ورودی بانک، تولید شناسه یکتا برای نام‌های فقط‌فارسی در فرآیند واردکردن، حذف onclick درون‌خطی (ناسازگار با CSP)، فیلتر رکوردهای حذف‌شده از آمار و فهرست‌ها، و رفتار آرام workflow برای کلون تازه بدون داده.
 
-## 5.2.0-alpha.1 — 2026-11-19
-
-- Removed the duplicate catalogue prefetch; the app loads the catalogue through the manifest/chunk loader only.
-- Added parallel loading of 500-record JSON chunks and a compatibility fallback to the merged JSON.
-- Added home-page category tiles with real category counts and click-to-filter.
-- Added the number of scent families to the home statistics.
-- Corrected catalogue metadata totals and normalized records missing brand values.
-- Added a GitHub Actions workflow to refresh, split, validate, and commit the Scento catalogue on schedule or manual dispatch.
-- Updated Service Worker cache manifest to actual app assets and versioned cache names; chunk files are cached from the catalogue manifest.
-- Removed the unused oversized embedded-image database file.
-
-# تغییرات نسخه‌ها
-
-## 5.1.0-beta.1 — آبان ۱۴۰۵
-- افزودن بخش «توسعه بانک» در منوی همبرگری؛ ورود پس از سه بار کلیک و تأیید رمز.
-- پشتیبانی از ورود گروهی JSON، CSV و Excel (XLSX/XLS).
-- اعتبارسنجی، نرمال‌سازی و ادغام رکوردها بر اساس شناسه عطر؛ بدون حذف رکوردهای قبلی.
-- اتصال اختیاری به GitHub Contents API برای ثبت `data/perfumes.json` و فراداده بانک.
-- توکن GitHub در localStorage ذخیره نمی‌شود و پس از تلاش موفق از فیلد پاک می‌شود.
-- این قفل سمت مرورگر صرفاً بازدارنده است؛ برای کنترل دسترسی واقعی باید احراز هویت سمت سرور پیاده‌سازی شود.
-
-
-## 5.0.0 — آبان ۱۴۰۵
-- هماهنگ‌سازی نسخه برنامه، Manifest و Service Worker.
-- تکمیل پشتیبان شامل عطرهای نامطلوب و تنظیمات ظاهری.
-- ادغام امن نسخه پشتیبان با داده‌های موجود به‌جای جایگزینی کامل.
-- افزودن بررسی دستی به‌روزرسانی PWA.
-- آمار بانک: ۱٬۴۷۹ عطر، ۱۶۰ برند، ۰ شناسه تکراری؛ ۳٬۵۲۱ رکورد تا هدف ۵٬۰۰۰ باقی است.
-
-# نسخه ۴٫۱٫۰ — آبان ۱۴۰۵
-
-- شعار و پیام اصلی برند بازنویسی شد: «رایحه‌ای که امضای توست کشف کن».
-- بخش Hero با جلوه‌های حرکتی ظریف، حلقه‌های پویا و عناصر شناور ارتقا یافت.
-- انیمیشن‌ها با تنظیم کاهش حرکت سیستم سازگار شدند.
-- شماره نسخه در تنظیمات و Service Worker به ۴٫۱٫۰ ارتقا یافت.
-
-# Changelog
-
-## 4.0.0 — آبان ۱۴۰۵ (نسخه نهایی)
-**جدید**
-- نام برنامه: Larsi Perfume Finder؛ هویت بصری و آیکون‌های جدید (شامل maskable)
-- فوتر صفحه اول: «طراحی و برنامه نویسی هادی رسولی / تمامی حقوق مادی و معنوی متعلق به فروشگاه لارسی می‌باشد / lar30.com»
-- منوی همبرگری (Drawer) با تم، اندازه نوشته، نصب برنامه و نسخه
-- صفحه تخصصی «درباره ما»: قابلیت‌ها، جدول مخزن داده و APIها با تست زنده، تاریخچه نسخه‌ها
-- بانک محلی ۱٬۴۷۹ عطر + نام فارسی خانواده‌ها و ۴۲۰ نت؛ جستجوی فارسی/انگلیسی با نرمال‌سازی
-- فیلترهای واقعی: خانواده، غلظت، فصل، زمان، برند، نت، ویژگی؛ لینک عمیق `?p=slug`
-- عطرهای مشابه با وزن‌دهی IDF + پیشنهاد Scento
-- خزشگر تصاویر موازی و مؤدب؛ Service Worker با کش دائمی تصاویر
-
-**رفع اشکال**
-- Service Worker هرگز نصب نمی‌شد (مسیر `icons/` در حالی که پوشه `icon/` بود)
-- فیلترهای جنسیت/کشور/روز-شب با داده واقعی کار نمی‌کردند (دیتاست این ستون‌ها را ندارد)
-- اسلایدر اندازه نوشته اثری نداشت؛ دو بارگذاری تکراری کمد در `loadData`
-- رشته خالی در `data/perfume-images.json` و هماهنگی کلیدها؛ فایل‌های `catalog-v14.js`/`ui-v14.js` استفاده‌نشده و دو workflow تکراری حذف شدند
-- بارگذاری ۷۸۰KB CSV خام از شبکه خارجی در هر ورود؛ فونت Google → self-host
-- مهاجرت خودکار امتیازها، کمد و علاقه‌مندی‌های v2/v3
-
-## 3.0.0
-کمد عطر، مقایسه، فیلتر پیشرفته، پشتیبان JSON.
-## 2.0.0
-Scento API، سه تم، PWA.
+## 7.1.1 · آبان ۱۴۰۵ — Dream Editorial Search Intelligence
+- Removed all external perfume search/enrichment services and remote catalog acquisition.
+- Catalogue loading is Supabase-only. Product details and similarity recommendations use only Supabase records.
+- Expanded local search indexing to include Persian names, aliases, accords, tags, short and long descriptions.
+- Added instant local autocomplete for perfumes, brands and fragrance notes, and recent-search history.
+- Added IndexedDB catalogue cache with a six-hour freshness window and stale/offline fallback.
+- Images may be read from product payload image fields or approved project/CDN image hosts; no image crawling.
+- Reworked About page source information and cache-clearing behavior; personal data is preserved.
+- Updated manifest, onboarding marker and Service Worker to version 7.1.1.

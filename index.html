@@ -3,15 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Larsi Perfume Finder — کشف هوشمند عطر</title>
-<meta name="description" content="Larsi Perfume Finder؛ جستجو، مقایسه و کشف عطر بر اساس نت‌ها، خانواده بویایی و سلیقه شما. فروشگاه لارسی — lar30.com">
-<meta name="theme-color" content="#101411">
+<title>لارسی | پیدا کردن عطر</title>
+<meta name="description" content="Larsi Perfume Finder؛ جستجو، مقایسه و کشف عطر بر اساس نت‌ها، خانواده بویایی و سلیقه شما — بدون ثبت‌نام.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://eixzihvihoammvremxrl.supabase.co https://api.open-meteo.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="theme-color" content="#0E1F1B">
 <meta name="color-scheme" content="dark light">
 <meta name="application-name" content="Larsi Perfume Finder">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Larsi Finder">
+<meta name="apple-mobile-web-app-title" content="لارسی">
 <meta property="og:title" content="Larsi Perfume Finder">
-<meta property="og:description" content="کشف هوشمند عطر — فروشگاه لارسی">
+<meta property="og:description" content="کشف هوشمند عطر — جستجو، مقایسه و کمد شخصی">
 <meta property="og:type" content="website">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/logo.svg" type="image/svg+xml">
@@ -19,279 +20,263 @@
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preload" href="fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/app.css">
-<script>
-/* Apply saved theme and text size before first paint. The catalog loads from Supabase with pagination and an IndexedDB cache. */
-(function(){try{
-  var g=function(k,d){var v=localStorage.getItem('lpf:v5:'+k);if(v==null)v=localStorage.getItem('lpf:v4:'+k);return v==null?d:JSON.parse(v)};
-  var t=g('theme','auto'),f=g('font',100);
-  if(['auto','dark','light','sand'].indexOf(t)<0)t='auto';
-  var dark=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
-  var r=document.documentElement;r.dataset.theme=t==='auto'?dark:t;r.dataset.themePref=t;
-  if(f>=90&&f<=125)r.style.setProperty('--fs',f/100);
-  var c={dark:'#101411',light:'#f5f3ec',sand:'#211d17'}[r.dataset.theme];if(c)document.querySelector('meta[name=theme-color]').content=c;
-}catch(e){}})();
-</script>
+<script src="js/boot.js"></script>
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-  <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecd5a0"/><stop offset="1" stop-color="#b8924f"/></linearGradient>
-    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
-    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
-    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
-    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
-    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></symbol>
-    <symbol id="i-compare" viewBox="0 0 24 24"><path d="M7 4v14M4 15l3 3 3-3M17 20V6M14 9l3-3 3 3"/></symbol>
-    <symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></symbol>
-    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8.5h14l-1 11.5H6z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></symbol>
-    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></symbol>
-    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
-    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M4 4h8l8 8-8 8-8-8z"/><circle cx="8.5" cy="8.5" r="1"/></symbol>
-    <symbol id="i-store" viewBox="0 0 24 24"><path d="M4 9l1.5-5h13L20 9M4 9v11h16V9M4 9c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3"/></symbol>
-    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4M5 13v6.5h14V13"/></symbol>
-    <symbol id="i-link" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></symbol>
-    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17.2l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
-    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11M8 11l4 4 4-4M5 20h14"/></symbol>
-    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 16V5M8 9l4-4 4 4M5 20h14"/></symbol>
-    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 11v6M14 11v6M7 7l1 13h8l1-13M9 7V4h6v3"/></symbol>
-    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
-    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
-    <symbol id="i-back" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
-    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2.5"/><path d="M11 18h2"/></symbol>
-    <symbol id="i-bottle" viewBox="0 0 48 64"><path d="M18 2h12a2 2 0 0 1 2 2v6H16V4a2 2 0 0 1 2-2zM20 10h8v5h-8zM9 24a8 8 0 0 1 8-8h14a8 8 0 0 1 8 8v28a8 8 0 0 1-8 8H17a8 8 0 0 1-8-8z"/></symbol>
-  </defs>
-</svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<clipPath id="cp"><rect x="10" y="28" width="40" height="46" rx="11"/></clipPath>
+<symbol id="b" viewBox="0 0 60 80"><g clip-path="url(#cp)"><rect class="liq" x="8" y="28" width="44" height="50"/></g><rect class="glass" x="10" y="28" width="40" height="46" rx="11"/><rect class="glass" x="24" y="18" width="12" height="10"/><rect class="cap" x="20" y="5" width="20" height="13" rx="3"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></symbol>
+<symbol id="i-find" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+<symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8.5h14l-1 11.5H6z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-compare" viewBox="0 0 24 24"><path d="M7 4v14M4 15l3 3 3-3M17 20V6M14 9l3-3 3 3"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4M5 13v6.5h14V13"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17.2l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></symbol>
+<symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h13l-2.5 4L18 12H5"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11M8 11l4 4 4-4M5 20h14"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M12 16V5M8 9l4-4 4 4M5 20h14"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 11v6M14 11v6M7 7l1 13h8l1-13M9 7V4h6v3"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+</defs></svg>
 
-<a class="skip" href="#catalog">پرش به فهرست عطرها</a>
+<a class="skip" href="#v-home">پرش به محتوای اصلی</a>
 
-<header class="topbar" id="topbar">
-  <button id="menuBtn" class="icon-btn" type="button" aria-label="باز کردن منو" aria-expanded="false" aria-controls="drawer"><svg class="ic"><use href="#i-menu"/></svg></button>
-  <a class="brand" href="./" aria-label="Larsi Perfume Finder — صفحه اول">
-    <img class="brand-logo" src="icons/logo.svg" alt="" width="36" height="36" decoding="async">
-    <span class="brand-text"><b>Larsi</b> <span>Perfume Finder</span></span>
-  </a>
+<header class="top">
+  <a class="logo" href="./" aria-label="لارسی — صفحه اول">لار<i>سی</i></a>
   <div class="top-actions">
-    <button id="searchJump" class="icon-btn" type="button" aria-label="جستجو"><svg class="ic"><use href="#i-search"/></svg></button>
-    <button id="themeBtn" class="icon-btn" type="button" aria-label="تغییر تم"><svg class="ic"><use href="#i-theme"/></svg></button>
-    <button id="wardrobeBtn" class="icon-btn has-badge" type="button" aria-label="کمد عطر من"><svg class="ic"><use href="#i-bag"/></svg><span class="badge" id="wardrobeBadge" hidden>0</span></button>
+    <button class="round" id="themeBtn" type="button" aria-label="تغییر تم روشن و تیره"><svg class="ic"><use href="#i-moon"/></svg></button>
   </div>
 </header>
 
-<div class="scrim" id="scrim" hidden></div>
-<aside class="drawer" id="drawer" aria-label="منوی اصلی" aria-hidden="true" inert>
-  <div class="drawer-head">
-    <span class="brand-text"><b>Larsi</b> <span>Perfume Finder</span></span>
-    <button id="drawerClose" class="icon-btn" type="button" aria-label="بستن منو"><svg class="ic"><use href="#i-close"/></svg></button>
+<main>
+
+<!-- ============ HOME ============ -->
+<section class="view on" id="v-home" aria-label="خانه">
+  <h1>امروز دلت چه بویی می‌خواهد؟</h1>
+  <p class="lead">یک حال انتخاب کن؛ بقیه‌اش با ما.</p>
+  <div class="moods" id="moods" role="group" aria-label="حال و دل امروز"></div>
+  <div class="search-wrap">
+    <label class="search" for="hq">
+      <svg class="ic"><use href="#i-find"/></svg>
+      <input id="hq" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند یا نت را بنویس" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
+      <button class="clear" id="hqClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
+    </label>
+    <div class="suggest" id="hqSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
   </div>
-  <nav class="drawer-nav" aria-label="بخش‌ها">
-    <a href="#top" data-nav="top"><svg class="ic"><use href="#i-spark"/></svg>صفحه اول</a>
-    <a href="#catalog" data-nav="catalog"><svg class="ic"><use href="#i-compass"/></svg>کشف عطرها</a>
-    <a href="#brands" data-nav="brands"><svg class="ic"><use href="#i-tag"/></svg>برندها</a>
-    <button type="button" data-sheet="wardrobe"><svg class="ic"><use href="#i-bag"/></svg>کمد عطر من<span class="badge inline" id="wardrobeBadge2" hidden>0</span></button>
-    <button type="button" data-sheet="about"><svg class="ic"><use href="#i-info"/></svg>درباره من و برنامه</button>
-    <button type="button" data-sheet="about" data-scroll-contact><svg class="ic"><use href="#i-link"/></svg>تماس با من</button>
-    <button type="button" id="bankDevBtn" aria-label="توسعه بانک؛ برای ورود سه بار کلیک کنید"><svg class="ic"><use href="#i-spark"/></svg>توسعه بانک</button>
-    <a href="https://lar30.com" target="_blank" rel="noopener"><svg class="ic"><use href="#i-store"/></svg>فروشگاه لارسی · lar30.com</a>
-  </nav>
-  <section class="drawer-prefs" aria-label="تنظیمات نمایش">
-    <h2>نمایش</h2>
-    <div class="seg" id="themeSeg" role="radiogroup" aria-label="تم">
-      <button type="button" role="radio" data-theme-choice="auto">خودکار</button>
-      <button type="button" role="radio" data-theme-choice="dark">شب</button>
-      <button type="button" role="radio" data-theme-choice="light">روز</button>
-      <button type="button" role="radio" data-theme-choice="sand">شن</button>
-    </div>
-    <label class="range"><span>اندازه نوشته <output id="fontOut">۱۰۰٪</output></span><input id="fontRange" type="range" min="90" max="125" step="5" value="100"></label>
-    <button id="updateBtn" class="btn ghost" type="button">بررسی به‌روزرسانی برنامه</button>
-    <button id="installBtn" class="btn" type="button" hidden><svg class="ic"><use href="#i-phone"/></svg>نصب برنامه روی دستگاه</button>
-    <p class="hint" id="iosHint" hidden>در Safari: دکمه اشتراک‌گذاری ← «Add to Home Screen».</p>
-  </section>
-  <div class="drawer-foot"><span>نسخه <b id="verText">۷٫۱٫۱</b></span><button type="button" class="link" data-sheet="about">تاریخچه تغییرات</button></div>
-</aside>
 
-<main id="top">
-  <section class="hero" aria-labelledby="heroTitle">
-    <div class="hero-copy">
-      <p class="eyebrow">LARSI PERFUME FINDER</p>
-      <h1 id="heroTitle">رایحه‌ای که<br><em>امضای توست</em> کشف کن</h1>
-      <p class="lead">از میان هزاران رایحه، عطر هماهنگ با شخصیت و سلیقه‌ات را پیدا کن؛ هوشمندانه جستجو کن، مقایسه کن و انتخابی ماندگار داشته باش.</p>
-      <form class="hero-search" id="heroSearch" role="search">
-        <svg class="ic"><use href="#i-search"/></svg>
-        <input id="heroInput" type="search" inputmode="search" enterkeyhint="search" placeholder="مثلاً عود، Aventus، وانیل…" autocomplete="off" aria-autocomplete="list" aria-controls="heroSuggestions" aria-label="جستجوی عطر">
-        <button class="btn primary" type="submit">جستجو</button>
-        <div class="suggestions" id="heroSuggestions" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
-      </form>
-      <div class="hero-meta">
-        <div><b id="statPerfumes">—</b><span>عطر در بانک</span></div>
-        <div><b id="statBrands">—</b><span>برند</span></div>
-        <div><b id="statCategories">—</b><span>دسته رایحه</span></div>
-        <button id="surpriseBtn" class="btn ghost" type="button"><svg class="ic"><use href="#i-spark"/></svg>غافلگیرم کن</button>
-      </div>
-    </div>
-    <div class="hero-art" aria-hidden="true">
-      <div class="glow"></div><div class="ring r1"></div><div class="ring r2"></div><div class="orbit-dot od1"></div><div class="orbit-dot od2"></div><div class="hero-scent hs1">✦</div><div class="hero-scent hs2">✧</div>
-      <svg class="hero-bottle" viewBox="0 0 48 64"><use href="#i-bottle"/></svg>
-      <span class="pill p1">BERGAMOT · CITRUS</span><span class="pill p2">OUD · AMBER</span><span class="pill p3">VANILLA · MUSK</span>
-    </div>
-  </section>
+  <div class="wx" id="wx" aria-live="polite"></div>
 
-  <section class="section categories" id="categories" aria-labelledby="categoryTitle">
-    <div class="section-head"><div><p class="eyebrow">SCENT FAMILIES</p><h2 id="categoryTitle">دسته‌بندی رایحه‌ها</h2></div><span class="muted" id="categoryTotal">—</span></div>
-    <div class="category-grid" id="categoryGrid" aria-label="دسته‌بندی عطرها"></div>
-  </section>
+  <figure class="verse">
+    <div class="vm" id="verseText"></div>
+    <figcaption id="verseCap"></figcaption>
+    <p id="verseNote"></p>
+  </figure>
 
-  <section class="section" id="catalog" aria-labelledby="catTitle">
-    <div class="section-head">
-      <div><p class="eyebrow">THE COLLECTION</p><h2 id="catTitle">کشف عطرها</h2></div>
-      <span class="status-pill" id="sourceStatus" role="status"><i class="dot"></i><span>در حال آماده‌سازی…</span></span>
-    </div>
+  <h2>تازه‌ترین‌ها</h2><p class="sub">به ترتیب سال عرضه.</p><div class="rail" id="newest"></div>
+  <h2>خانه‌های عطر</h2><p class="sub">بیشترین عطر در بانک، اول.</p><div class="rail" id="brands"></div>
+  <h2>عطر از کدام کشور؟</h2><p class="sub">با پرچم هر سرزمین.</p><div class="rail" id="countries"></div>
+  <h2>خانواده‌های بویایی</h2><p class="sub">هر شیشه یک دنیا است. روی یکی بزن تا عطرهایش را ببینی.</p><div class="rail" id="fams"></div>
+  <h2>مناسب هوای امروز شیراز</h2><p class="sub" id="ws"></p><div class="rail" id="wrail"></div>
+</section>
 
-    <div class="toolbar">
-      <div class="search-wrap">
-        <label class="search" for="searchInput">
-          <svg class="ic"><use href="#i-search"/></svg>
-          <input id="searchInput" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند، نت یا توضیحات…" autocomplete="off" aria-autocomplete="list" aria-controls="searchSuggestions">
-          <button id="searchClear" class="clear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
-          <kbd class="kbd" aria-hidden="true">/</kbd>
-        </label>
-        <div class="suggestions" id="searchSuggestions" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
-      </div>
-      <button id="filterBtn" class="btn" type="button" aria-expanded="false" aria-controls="filterPanel"><svg class="ic"><use href="#i-sliders"/></svg>فیلترها<span class="badge inline" id="filterBadge" hidden>0</span></button>
-      <label class="select-wrap"><span class="sr">مرتب‌سازی</span>
-        <select id="sortSel" aria-label="مرتب‌سازی">
-          <option value="popular">محبوب‌ترین</option>
-          <option value="name">نام عطر (A–Z)</option>
-          <option value="year">جدیدترین سال</option>
-          <option value="rating">امتیاز من</option>
-        </select>
+<!-- ============ FIND ============ -->
+<section class="view" id="v-find" aria-label="کشف">
+  <h2 style="margin-top:20px">کشف عطرها</h2>
+  <p class="sub">جستجو در بانک عطر؛ با فیلتر خانواده، غلظت، فصل و برند.</p>
+  <div class="toolbar">
+    <div class="search-wrap">
+      <label class="search" for="q">
+        <svg class="ic"><use href="#i-find"/></svg>
+        <input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="جستجو در همه عطرها" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="qSug" aria-autocomplete="list" aria-label="جستجو">
+        <button class="clear" id="qClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
       </label>
+      <div class="suggest" id="qSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
     </div>
+    <button id="filterBtn" class="btn" type="button" aria-expanded="false" aria-controls="filterPanel">فیلترها</button>
+    <label class="search" style="min-height:50px" for="sortSel"><span class="sr">مرتب‌سازی</span>
+      <select id="sortSel" aria-label="مرتب‌سازی" style="background:none;border:0;outline:0;min-height:48px">
+        <option value="popular">محبوب‌ترین</option>
+        <option value="name">نام عطر (A–Z)</option>
+        <option value="year">جدیدترین سال</option>
+        <option value="rating">امتیاز من</option>
+      </select>
+    </label>
+  </div>
+  <div class="filters" id="filterPanel" hidden>
+    <label>غلظت<select id="fConc"></select></label>
+    <label>فصل<select id="fSeason"></select></label>
+    <label>برند<select id="fBrand"></select></label>
+    <label>نت بویایی<div class="search-wrap"><input id="fNote" type="search" autocomplete="off" placeholder="مثلاً عود، رز، وانیل" role="combobox" aria-expanded="false" aria-controls="fNoteSug" aria-autocomplete="list" aria-label="نت بویایی"><div class="suggest" id="fNoteSug" hidden role="listbox" aria-label="پیشنهاد نت‌ها"></div></div></label>
+    <fieldset class="chars"><legend>ویژگی رایحه</legend><div id="charChips" class="chips"></div></fieldset>
+    <div class="filters-foot"><button id="filterReset" class="btn ghost" type="button">پاک‌کردن همه فیلترها</button></div>
+  </div>
+  <div class="chips" id="famChips" role="group" aria-label="فیلتر خانواده بویایی"></div>
+  <div class="active-chips chips" id="activeChips"></div>
+  <div class="result-bar"><p id="resultCount" aria-live="polite">—</p><button id="favOnly" class="chip" type="button" aria-pressed="false">فقط علاقه‌مندی‌ها</button></div>
+  <div class="grid" id="grid" aria-busy="true"></div>
+  <div id="sentinel" aria-hidden="true"></div>
+  <div class="more-row"><button id="loadMore" class="btn" type="button" hidden>نمایش عطرهای بیشتر</button></div>
+</section>
 
-    <div class="filters" id="filterPanel" hidden>
-      <label>خانواده بویایی<select id="fFamily"></select></label>
-      <label>غلظت<select id="fConc"></select></label>
-      <label>فصل<select id="fSeason"></select></label>
-      <label>زمان استفاده<select id="fTime"></select></label>
-      <label>برند<select id="fBrand"></select></label>
-      <label>نت بویایی<input id="fNote" type="search" list="noteList" placeholder="مثلاً عود، رز، وانیل" autocomplete="off"></label>
-      <datalist id="noteList"></datalist>
-      <fieldset class="chars"><legend>ویژگی رایحه</legend><div id="charChips" class="chips"></div></fieldset>
-      <div class="filters-foot"><button id="filterReset" class="btn ghost" type="button">پاک‌کردن همه فیلترها</button></div>
+<!-- ============ AGENT ============ -->
+<section class="view" id="v-agent" aria-label="عطرساز">
+  <h2 style="margin-top:20px">عطرساز لارسی</h2>
+  <p class="sub">دستیار هوشمند؛ با هوای شیراز و سلیقه‌ات پیشنهاد می‌دهد — با دلیل هر پیشنهاد.</p>
+  <div class="chat" id="chat" aria-live="polite"></div>
+  <div class="chips" id="agentChips"></div>
+  <form class="search" id="agentForm">
+    <input id="agentInput" placeholder="مثلاً: عطر گرم برای مهمانی شب" aria-label="پیام به عطرساز" autocomplete="off">
+    <button class="btn pri" type="submit" style="min-height:44px;padding:0 18px">بفرست</button>
+  </form>
+</section>
+
+<!-- ============ WARDROBE ============ -->
+<section class="view" id="v-ward" aria-label="کمد من">
+  <h2 style="margin-top:20px">کمد من</h2>
+  <p class="sub">عطرهایی که دوست داری یا داری. فقط روی همین دستگاه می‌ماند.</p>
+  <div class="chips" id="wardChips" role="group" aria-label="وضعیت"></div>
+  <div class="stat-row" id="wardStats"></div>
+  <div class="w-tools">
+    <button class="btn" type="button" id="wExport"><svg class="ic"><use href="#i-down"/></svg>خروجی پشتیبان</button>
+    <button class="btn" type="button" id="wImport"><svg class="ic"><use href="#i-up"/></svg>ورود پشتیبان</button>
+    <button class="btn ghost" type="button" id="wShare"><svg class="ic"><use href="#i-share"/></svg>اشتراک کمد</button>
+  </div>
+  <div class="grid" id="wardGrid"></div>
+</section>
+
+<!-- ============ SETTINGS ============ -->
+<section class="view" id="v-set" aria-label="تنظیمات">
+  <h2 style="margin-top:20px">تنظیمات</h2>
+  <p class="sub">نمایش، به‌روزرسانی، حافظه و درباره برنامه.</p>
+
+  <div class="set-group">
+    <h2>فونت</h2>
+    <div class="seg" id="fontSeg" role="radiogroup" aria-label="خانواده فونت">
+      <button class="chip" type="button" role="radio" data-font-family="vazir" aria-checked="true">وزیرمتن</button>
+      <button class="chip" type="button" role="radio" data-font-family="naskh" aria-checked="false">نوتو نسخ</button>
+      <button class="chip" type="button" role="radio" data-font-family="system" aria-checked="false">فونت سیستم</button>
     </div>
+    <div class="font-preview" id="fontPreview" aria-live="polite">رایحه‌ای که پیش از تو سخن می‌گوید؛ وزیرمتن، نوتو نسخ یا فونت سیستم خودت را انتخاب کن و همین‌جا نتیجه را ببین.</div>
+  </div>
 
-    <div class="active-chips" id="activeChips"></div>
-    <div class="result-bar">
-      <p id="resultCount" aria-live="polite">—</p>
-      <button id="favOnly" class="chip" type="button" aria-pressed="false"><svg class="ic"><use href="#i-heart"/></svg>فقط علاقه‌مندی‌ها</button>
+  <div class="set-group">
+    <h2>اندازه متن</h2>
+    <label class="range"><span>از ۹۰ تا ۱۵۰ درصد — <output id="fontOut">۱۰۰٪</output></span>
+      <input id="fontRange" type="range" min="90" max="150" step="5" value="100">
+      <span class="vals"><span>۹۰٪</span><span>۱۵۰٪</span></span>
+    </label>
+  </div>
+
+  <div class="set-group">
+    <h2>تم</h2>
+    <div class="seg" id="themeSeg" role="radiogroup" aria-label="تم">
+      <button class="chip" type="button" role="radio" data-theme-choice="light" aria-checked="false">روشن</button>
+      <button class="chip" type="button" role="radio" data-theme-choice="dark" aria-checked="false">دارک</button>
+      <button class="chip" type="button" role="radio" data-theme-choice="auto" aria-checked="true">پیروی از سیستم</button>
     </div>
+    <p class="hint">قبل از اولین رندر اعمال می‌شود تا پرش رنگ نداشته باشی.</p>
+  </div>
 
-    <div class="grid" id="grid" aria-busy="true"></div>
-    <div id="sentinel" aria-hidden="true"></div>
-    <div class="more-row"><button id="loadMore" class="btn" type="button" hidden>نمایش عطرهای بیشتر</button></div>
-  </section>
-
-  <section class="section brands" id="brands" aria-labelledby="brandTitle">
-    <div class="section-head">
-      <div><p class="eyebrow">HOUSES &amp; HERITAGE</p><h2 id="brandTitle">خانه‌های عطر</h2></div>
-      <div class="arrows"><button id="brandPrev" class="icon-btn" type="button" aria-label="قبلی"><svg class="ic flip"><use href="#i-back"/></svg></button><button id="brandNext" class="icon-btn" type="button" aria-label="بعدی"><svg class="ic"><use href="#i-back"/></svg></button></div>
+  <div class="set-group">
+    <h2>برنامه</h2>
+    <div class="chips" style="margin:10px 0">
+      <button class="btn" type="button" id="updateBtn" style="flex:1">بررسی به‌روزرسانی</button>
     </div>
-    <div class="brand-track" id="brandTrack"></div>
-  </section>
+    <div class="chips" style="margin:10px 0">
+      <button class="btn ghost" type="button" id="installBtn" hidden><svg class="ic"><use href="#i-down"/></svg>نصب برنامه روی دستگاه</button>
+    </div>
+    <p class="hint" id="iosHint" hidden>در Safari: دکمه اشتراک‌گذاری ← «Add to Home Screen».</p>
+  </div>
+
+  <div class="set-group">
+    <h2>حافظه و نگهداری</h2>
+    <p class="hint" style="margin:4px 0 10px">کش برنامه پاک می‌شود؛ اطلاعات شخصی شما (علاقه‌مندی‌ها، کمد و امتیازها) حفظ می‌شود.</p>
+    <button class="btn danger" type="button" id="nukeBtn">حذف کش کلی و بارگیری مجدد</button>
+    <div class="chips" style="margin:14px 0 0">
+      <button class="btn ghost" type="button" id="replayIntroBtn">دیدن دوباره معرفی</button>
+    </div>
+    <div id="dislikeBox" hidden>
+      <h3 style="margin:14px 0 4px">نمی‌خواهم ببینم</h3>
+      <p class="hint">این پیشنهادها پنهان شده‌اند. هر کدام را خواستی برگردان.</p>
+      <div id="dislikeList"></div>
+      <button class="btn ghost" type="button" id="dislikeClear" style="margin-top:12px">پاک‌کردن همه</button>
+    </div>
+  </div>
+
+  <div class="set-group" id="aboutGroup">
+    <h2>درباره ما</h2>
+    <div id="aboutBody"></div>
+  </div>
+
+</section>
 </main>
 
-<footer class="site-footer">
-  <p>طراحی و برنامه نویسی هادی رسولی</p>
-  <p>تمامی حقوق مادی و معنوی متعلق به فروشگاه لارسی می‌باشد.</p>
-  <a href="https://lar30.com" target="_blank" rel="noopener">lar30.com</a>
-</footer>
+<footer class="site"><p>ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶</p></footer>
 
-<!-- Compare tray -->
+<nav class="bnav" aria-label="بخش‌ها">
+  <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg>خانه</button>
+  <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg>کشف</button>
+  <button type="button" data-go="agent"><svg class="ic"><use href="#i-spark"/></svg>عطرساز</button>
+  <button type="button" data-go="ward"><svg class="ic"><use href="#i-bag"/></svg>کمد من<span class="n" id="wardBadge" hidden>0</span></button>
+  <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg>تنظیمات</button>
+</nav>
+
+<!-- compare tray -->
 <div class="tray" id="tray" hidden>
   <span id="trayText">۰ عطر برای مقایسه</span>
-  <div class="tray-actions"><button id="trayClear" class="btn ghost" type="button">پاک‌کردن</button><button id="trayOpen" class="btn primary" type="button" disabled>مقایسه</button></div>
+  <div style="display:flex;gap:8px"><button id="trayClear" class="btn" type="button">پاک‌کردن</button><button id="trayOpen" class="btn pri" type="button" disabled>مقایسه</button></div>
 </div>
 
-<!-- Layers -->
-<div class="onboarding" id="onboarding" hidden role="dialog" aria-modal="true" aria-labelledby="onboardingTitle">
-  <div class="onboarding-backdrop"></div>
-  <div class="onboarding-panel">
-    <div class="onboarding-top"><span class="onboarding-brand">LARSI <i>FRAGRANCE JOURNAL</i></span><button type="button" id="onboardSkip" class="link">رد کردن</button></div>
-    <div class="onboarding-visual"><div class="onboard-orb"></div><svg class="onboard-bottle" viewBox="0 0 48 64" aria-hidden="true"><use href="#i-bottle"/></svg><span class="onboard-spark">✦</span></div>
-    <div class="onboarding-content"><span class="onboarding-kicker" id="onboardKicker">WELCOME TO LARSI</span><h2 id="onboardingTitle">دنیای رایحه‌ها<br><em>را کشف کن</em></h2><p id="onboardText">یک تجربه آرام و هوشمند برای جستجو، شناخت و کشف عطرهایی که با سلیقه تو هماهنگ‌اند.</p></div>
-    <div class="onboarding-footer"><div class="onboard-dots" id="onboardDots"><i class="active"></i><i></i><i></i></div><button class="btn primary" id="onboardNext" type="button">شروع تجربه <span aria-hidden="true">←</span></button></div>
+<!-- detail sheet -->
+<dialog id="dlg" aria-labelledby="dt"><div class="sheet" id="dbody"></div></dialog>
+<!-- compare sheet -->
+<dialog id="dlgCmp" aria-labelledby="cmpTitle"><div class="sheet" id="cmpBody"></div></dialog>
+<!-- lightbox -->
+<dialog id="lb" class="lb" aria-label="گالری تصویر">
+  <div class="lb-tools">
+    <button class="round" id="lbPrev" type="button" aria-label="تصویر قبلی"><svg class="ic" style="transform:scaleX(-1)"><use href="#i-back"/></svg></button>
+    <button class="round" id="lbClose" type="button" aria-label="بستن"><svg class="ic"><use href="#i-close"/></svg></button>
+    <button class="round" id="lbNext" type="button" aria-label="تصویر بعدی"><svg class="ic"><use href="#i-back"/></svg></button>
   </div>
-</div>
+  <img id="lbImg" alt="">
+  <p class="lb-cap" id="lbCap"></p>
+</dialog>
 
-<div class="layer" id="layerDetail" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle">
-  <div class="layer-bg" data-close></div>
-  <div class="panel panel-detail" tabindex="-1">
-    <div class="grab" aria-hidden="true"></div>
-    <button class="close-btn" type="button" data-close aria-label="بستن"><svg class="ic"><use href="#i-close"/></svg></button>
-    <div id="detailBody"></div>
-  </div>
-</div>
-
-<div class="layer" id="layerCompare" hidden role="dialog" aria-modal="true" aria-labelledby="compareTitle">
-  <div class="layer-bg" data-close></div>
-  <div class="panel panel-wide" tabindex="-1">
-    <div class="grab" aria-hidden="true"></div>
-    <button class="close-btn" type="button" data-close aria-label="بستن"><svg class="ic"><use href="#i-close"/></svg></button>
-    <p class="eyebrow">SIDE BY SIDE</p><h2 id="compareTitle">مقایسه عطرها</h2>
-    <div id="compareBody"></div>
-  </div>
-</div>
-
-<div class="layer sheet" id="layerWardrobe" hidden role="dialog" aria-modal="true" aria-labelledby="wardrobeTitle">
-  <div class="layer-bg" data-close></div>
-  <div class="panel panel-page" tabindex="-1">
-    <header class="page-head"><button class="icon-btn" type="button" data-close aria-label="بازگشت"><svg class="ic"><use href="#i-back"/></svg></button><h2 id="wardrobeTitle">کمد عطر من</h2></header>
-    <div class="page-body" id="wardrobeBody"></div>
-  </div>
-</div>
-
-<div class="layer sheet" id="layerAbout" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
-  <div class="layer-bg" data-close></div>
-  <div class="panel panel-page" tabindex="-1">
-    <header class="page-head"><button class="icon-btn" type="button" data-close aria-label="بازگشت"><svg class="ic"><use href="#i-back"/></svg></button><h2 id="aboutTitle">درباره ما</h2></header>
-    <div class="page-body about" id="aboutBody"></div>
-  </div>
-</div>
-
-<div class="layer sheet" id="layerBankDev" hidden role="dialog" aria-modal="true" aria-labelledby="bankDevTitle">
-  <div class="layer-bg" data-bank-close></div>
-  <div class="panel panel-page" tabindex="-1">
-    <header class="page-head"><button class="icon-btn" type="button" data-bank-close aria-label="بازگشت"><svg class="ic"><use href="#i-back"/></svg></button><h2 id="bankDevTitle">توسعه بانک عطرها · نسخه بتا</h2></header>
-    <div class="page-body bank-dev">
-      <section class="bank-dev-intro"><b>افزودن گروهی عطرها</b><p>فایل JSON، CSV یا Excel را انتخاب کن. داده‌ها بر اساس شناسه ادغام می‌شوند و رکوردهای قبلی حذف نخواهند شد.</p></section>
-      <label class="field-label" for="bankFile">فایل بانک (JSON / CSV / XLSX / XLS)</label>
-      <input id="bankFile" type="file" accept=".json,.csv,.xlsx,.xls,application/json,text/csv">
-      <p id="bankFileInfo" class="hint">رکوردها در <code>data/extra/bank-imports.json</code> ذخیره و هنگام ساخت بانک ادغام می‌شوند. حداکثر حجم پیشنهادی: ۱۰ مگابایت. ردیف اول فایل جدولی باید عنوان ستون‌ها باشد.</p>
-      <div class="bank-dev-divider"></div>
-      <h3>اتصال به مخزن GitHub</h3>
-      <p class="hint">برای ثبت مستقیم تغییرات، یک Fine-grained Personal Access Token با دسترسی Contents: Read and write فقط برای همین مخزن وارد کن. توکن در مرورگر ذخیره نمی‌شود.</p>
-      <label class="field-label" for="ghOwner">نام کاربری / مالک مخزن</label><input id="ghOwner" type="text" autocomplete="off" placeholder="مثلاً larsi">
-      <label class="field-label" for="ghRepo">نام مخزن</label><input id="ghRepo" type="text" autocomplete="off" placeholder="نام repository">
-      <label class="field-label" for="ghBranch">شاخه (Branch)</label><input id="ghBranch" type="text" value="main" autocomplete="off">
-      <label class="field-label" for="ghToken">GitHub Token</label><input id="ghToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
-      <div class="bank-dev-actions">
-        <button class="btn primary" type="button" id="bankUploadBtn" disabled>اعتبارسنجی و آپلود به GitHub</button>
-        <button class="btn ghost" type="button" id="bankPreviewBtn" disabled>پیش‌نمایش و شمارش</button>
-      </div>
-      <div id="bankDevStatus" class="bank-dev-status" role="status" aria-live="polite">هنوز فایلی انتخاب نشده است.</div>
-      <p class="hint bank-security">نکته امنیتی: رمز ورود این بخش در کد سمت کاربر قرار دارد و صرفاً مانع دسترسی اتفاقی است، نه کنترل امنیتی واقعی. برای مخزن عمومی، توکن را کوتاه‌عمر و محدود به همان مخزن بساز و پس از استفاده revoke کن.</p>
-    </div>
-  </div>
-</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <input id="importFile" type="file" accept="application/json,.json" hidden>
 
-<noscript><p style="padding:24px;text-align:center">برای استفاده از Larsi Perfume Finder جاوااسکریپت باید فعال باشد.</p></noscript>
+<div class="onboard" id="onboard" hidden role="dialog" aria-modal="true" aria-labelledby="onboardTitle">
+  <div class="onboard-panel">
+    <div class="onboard-kicker" id="onboardKicker">WELCOME TO LARSI</div>
+    <div class="onboard-orb"><svg class="bottle" style="--liq:#C8648A;--lv:12px" aria-hidden="true"><use href="#b"/></svg></div>
+    <h2 id="onboardTitle" style="margin:0">دنیای رایحه‌ها را کشف کن</h2>
+    <p class="sub" id="onboardText" style="margin:0"></p>
+    <div class="onboard-foot">
+      <div class="onboard-dots" id="onboardDots"></div>
+      <button class="link" type="button" id="onboardSkip">رد کردن</button>
+      <button class="btn pri" type="button" id="onboardNext">شروع</button>
+    </div>
+  </div>
+</div>
+
+<noscript><p style="padding:24px;text-align:center">برای استفاده از لارسی جاوااسکریپت باید فعال باشد.</p></noscript>
 
 <script src="js/config.js" defer></script>
 <script src="js/lang-fa.js" defer></script>
+<script src="js/algo.js" defer></script>
 <script src="js/store.js" defer></script>
 <script src="js/repo.js" defer></script>
+<script src="js/agent.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/settings.js" defer></script>
 <script src="js/app.js" defer></script>
 </body>
 </html>

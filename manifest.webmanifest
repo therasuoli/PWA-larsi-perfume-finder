@@ -2,18 +2,18 @@
   "id": "./",
   "name": "Larsi Perfume Finder",
   "short_name": "Larsi Finder",
-  "description": "کشف هوشمند عطر، مقایسه و کمد عطر شخصی — فروشگاه لارسی · تجربه Editorial Luxury",
+  "description": "کشف هوشمند عطر، مقایسه و کمد عطر شخصی — بدون ثبت‌نام",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#10251e",
-  "theme_color": "#10251e",
+  "background_color": "#0E1F1B",
+  "theme_color": "#0E1F1B",
   "categories": [
-    "shopping",
-    "lifestyle"
+    "lifestyle",
+    "utilities"
   ],
   "icons": [
     {
@@ -47,5 +47,5 @@
       ]
     }
   ],
-  "version": "7.1.1"
+  "version": "7.4.0"
 }

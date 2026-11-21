@@ -93,7 +93,32 @@
     'tropical fruits': 'میوه‌های استوایی', 'basil verbena': 'ریحان و وربنا', 'fresh wind': 'باد تازه', 'flax flower': 'گل کتان',
     'ginger lily': 'سوسن زنجبیلی', 'salty vanilla': 'وانیل شور', 'oolong tea': 'چای اولانگ', 'white currant': 'انگور فرنگی سفید',
     'red seaweed': 'جلبک قرمز', 'maninka fruit': 'میوه مانینکا', 'gunpowder': 'باروت', 'transparent wood': 'چوب شفاف',
-    'candied citrus': 'مرکبات شیرین‌شده'
+
+    'aerial flower': 'گل هوایی', 'alaskan wood': 'چوب آلاسکا', 'almdudler': 'آلمدودلر', 'amber lily': 'سوسن عنبری',
+    'amberketal': 'آمبرکتال', 'apricot blossom': 'شکوفه زردآلو', 'banana': 'موز', 'basmati rice': 'برنج باسماتی',
+    'beech': 'راش', 'black elder': 'سرخاب سیاه', 'black grape': 'انگور سیاه', 'black hemlock': 'تسوگا سیاه',
+    'blackcurrant liquor': 'مشروب انگور فرنگی سیاه', 'blue wisteria': 'ویستریا آبی', 'bluebell': 'زنگوله آبی',
+    'bouquet garni': 'دسته سبزی معطر', 'calophyllum': 'کالوفیلوم', 'camphor': 'کافور', 'candied fruits': 'میوه‌های شیرینی‌شده',
+    'candied orange': 'پرتقال شیرینی‌شده', 'cannabis': 'شاهدانه', 'carambola': 'کارامبولا', 'celery seeds': 'دانه کرفس',
+    'cistus ambrein': 'آمبرئین کیستوس', 'civettone': 'سیوتون', 'cloudberry': 'تمشک قطبی', 'coal': 'زغال',
+    'copaiba balm': 'بلسان کوپایبا', 'crocus': 'زعفران', 'cucumber': 'خیار', 'curry': 'کاری', 'daisy': 'مینا',
+    'dill': 'شوید', 'embers': 'اخگر', 'fennel': 'رازیانه', 'fenugreek': 'شنبلیله', 'flouve': 'فلوو',
+    'gentian': 'جنتیانا', 'geraniol': 'جیرانیول', 'gingerbread': 'کیک زنجبیل', 'goji berry': 'گوجی‌بری',
+    'green watery accord': 'آکورد سبز آبی', 'griotte syrup': 'شیره گیلاس ترش', 'heliotropin': 'هلیوتروپین',
+    'hydrangea': 'هورتانسیا', 'indole': 'ایندول', 'infinium': 'اینفینیوم', 'ironwood': 'چوب آهن',
+    'kingwood': 'چوب پادشاهی', 'kulfi': 'کولفی', 'kumquat': 'کومکوات', 'lemon sorbet': 'سوربه لیمو',
+    'lemon wood': 'چوب لیمو', 'linden blossom': 'شکوفه نمدار', 'linen': 'کتان', 'lingonberry': 'لینگون‌بری',
+    'liqueur': 'لیکور', 'liquor': 'مشروب', 'lovage': 'لیواجه', 'macadamia': 'مکادمیا', 'mahonia': 'ماهونیا',
+    'mandarin leaf': 'برگ نارنگی', 'marine leather': 'چرم دریایی', 'miracle berry': 'توت معجزه', 'monoi': 'مونوی',
+    'mossy stones': 'سنگ‌های خزه‌دار', 'muscenone': 'موسسنون', 'palm date': 'خرما', 'palmarosa': 'پالماروزا',
+    'papaya': 'پاپایا', 'papaya blossom': 'شکوفه پاپایا', 'pepperwood': 'چوب فلفلی', 'persimmon': 'خرمالو',
+    'pine resin': 'رزین کاج', 'pink guava': 'گواوا صورتی', 'prickly pear': 'انجیر هندی', 'pumpkin': 'کدو تنبل',
+    'rhubarb wood': 'چوب ریواس', 'rosyfolia': 'روزی‌فولیا', 'safraleine': 'سافرالین', 'satinwood': 'چوب ساتن',
+    'sego lily': 'لاله سگو', 'silk plant blossom': 'شکوفه شب‌بو', 'silk tree flower': 'گل شب‌بو', 'smoke': 'دود',
+    'soap bubbles': 'کف صابون', 'soil': 'خاک', 'solar salicylate': 'سالیسیلات خورشیدی', 'tanaka wood': 'چوب تاناکا',
+    'tea rose': 'رز چای', 'thibetone': 'تیبتون', 'tiger liana': 'لیانای ببری', 'tobacco flower': 'شکوفه تنباکو',
+    'treemoss': 'خزه درختی', 'turkish delight': 'راحت‌الحلقوم', 'vodka': 'ودکا', 'white fur': 'خز سفید',
+    'white linen': 'کتانی سفید', 'wintergreen': 'وینترگرین', 'wolfwood': 'چوب گرگ', 'candied citrus': 'مرکبات شیرین‌شده'
   };
 
   const AR = { 'ي': 'ی', 'ك': 'ک', 'ة': 'ه', 'ۀ': 'ه', 'أ': 'ا', 'إ': 'ا', 'ؤ': 'و' };

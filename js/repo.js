@@ -1,4 +1,5 @@
-/* Data repository: Supabase-only catalogue with local IndexedDB cache and direct record images */
+/* Data repository: Supabase-only catalogue with local IndexedDB cache, delta sync on updated_at,
+   soft-deleted records (payload.deleted) and off-main-thread parsing via a Web Worker. */
 (function () {
   'use strict';
   const LPF = (window.LPF = window.LPF || {});
@@ -8,30 +9,33 @@
   /* ---------- helpers ---------- */
   const list = v => (Array.isArray(v) ? v : String(v || '').split(/[;|]/)).map(x => (typeof x === 'object' && x ? x.name || x.note || x.title || '' : String(x)).trim()).filter(Boolean);
   const slugOf = (url, fb) => { try { return new URL(url).pathname.split('/').filter(Boolean).pop() || fb; } catch { return fb; } };
+  const prepare = p => LPF.algo.prepare(p, FA);
 
-  /** Adds derived, pre-computed fields used for instant search/filter/sort. */
-  function prepare(p) {
-    p.brand = p.brand || 'نامشخص'; p.brandId = p.brandId || '';
-    p.top = p.top || []; p.heart = p.heart || []; p.base = p.base || [];
-    p.allNotes = [...new Set([...p.top, ...p.heart, ...p.base, ...(p.notes || [])])];
-    const noteText = p.allNotes.map(n => n + ' ' + FA.note(n));
-    p._notesN = p.allNotes.map(n => FA.norm(n + ' ' + FA.note(n)));
-    const searchable = [
-      p.name, p.nameFa, p.name_fa, p.persian_name, p.brand, p.brandFa, p.brand_fa, p.house,
-      p.conc, FA.concentration(p.conc), p.family, FA.family(p.family), p.family2, FA.family(p.family2),
-      p.description, p.long_description, p.desc, p.short_description, p.short_description_fa,
-      p.short_desc_fa, p.shortDesc, p.description_fa, p.description_en, p.story, p.review, p.accords,
-      p.main_accords, p.tags, p.keywords, p.aliases, p.alternative_names, p.perfume_type,
-      ...(p.character || []).map(c => c + ' ' + FA.char(c)), ...noteText,
-      ...(p.perfumers || []), p.year || ''
-    ].flat().filter(Boolean).join(' ');
-    p._s = FA.norm(searchable);
-    p._nl = new Set(p.allNotes.map(n => n.toLowerCase()));
-    p._name = FA.norm(p.name); p._brand = FA.norm(p.brand);
-    return p;
+  /* ---------- off-main-thread preparation ---------- */
+  let worker = null, workerBroken = false, workerSeq = 0;
+  const workerJobs = new Map();
+  function getWorker() {
+    if (workerBroken || typeof Worker === 'undefined') return null;
+    if (worker) return worker;
+    try {
+      worker = new Worker('js/worker-catalog.js');
+      worker.onmessage = e => { const d = e.data || {}; const job = workerJobs.get(d.id); if (!job) return; workerJobs.delete(d.id); d.error ? job.reject(new Error(d.error)) : job.resolve(d.items); };
+      worker.onerror = () => { workerBroken = true; workerJobs.forEach(j => j.reject(new Error('worker-error'))); workerJobs.clear(); try { worker.terminate(); } catch { } worker = null; };
+    } catch { workerBroken = true; return null; }
+    return worker;
+  }
+  function prepareAll(rawItems) {
+    const w = getWorker();
+    if (!w) return Promise.resolve(rawItems.map(prepare)); // graceful fallback: prepare on the main thread
+    return new Promise((resolve, reject) => {
+      const id = ++workerSeq;
+      const timer = setTimeout(() => { workerJobs.delete(id); reject(new Error('worker-timeout')); }, 20000);
+      workerJobs.set(id, { resolve: items => { clearTimeout(timer); resolve(items); }, reject: err => { clearTimeout(timer); reject(err); } });
+      try { w.postMessage({ id, items: rawItems }); } catch (err) { clearTimeout(timer); workerJobs.delete(id); reject(err); }
+    }).catch(() => rawItems.map(prepare)); // never let a worker failure break a catalogue load
   }
 
-  /* ---------- catalogue + IndexedDB cache ---------- */
+  /* ---------- IndexedDB cache ---------- */
   const CACHE_DB = 'lpf-catalog-cache-v1', CACHE_STORE = 'catalog';
   function openCacheDB() {
     if (!('indexedDB' in window)) return Promise.resolve(null);
@@ -45,43 +49,100 @@
     const db = await openCacheDB(); if (!db) return null;
     return new Promise(resolve => { const tx = db.transaction(CACHE_STORE, 'readonly'); const req = tx.objectStore(CACHE_STORE).get('catalog'); req.onsuccess = () => { db.close(); resolve(req.result || null); }; req.onerror = () => { db.close(); resolve(null); }; });
   }
-  async function cacheWrite(items) {
+  async function cacheWrite(items, watermark) {
     const db = await openCacheDB(); if (!db) return false;
-    return new Promise(resolve => { const tx = db.transaction(CACHE_STORE, 'readwrite'); tx.objectStore(CACHE_STORE).put({ updatedAt: Date.now(), items }, 'catalog'); tx.oncomplete = () => { db.close(); resolve(true); }; tx.onerror = tx.onabort = () => { db.close(); resolve(false); }; });
+    return new Promise(resolve => { const tx = db.transaction(CACHE_STORE, 'readwrite'); tx.objectStore(CACHE_STORE).put({ updatedAt: Date.now(), watermark: watermark || '', items }, 'catalog'); tx.oncomplete = () => { db.close(); resolve(true); }; tx.onerror = tx.onabort = () => { db.close(); resolve(false); }; });
   }
   async function cacheClear() {
     const db = await openCacheDB(); if (!db) return false;
     return new Promise(resolve => { const tx = db.transaction(CACHE_STORE, 'readwrite'); tx.objectStore(CACHE_STORE).delete('catalog'); tx.oncomplete = () => { db.close(); resolve(true); }; tx.onerror = tx.onabort = () => { db.close(); resolve(false); }; });
   }
+
+  /* ---------- Supabase REST ---------- */
+  function endpoint() {
+    const sb = cfg.supabase || {};
+    if (!sb.url || !sb.anonKey) throw new Error('supabase-config-missing');
+    return sb.url.replace(/\/$/, '') + '/rest/v1/' + encodeURIComponent(sb.table || 'perfumes');
+  }
+  const headers = () => {
+    const sb = cfg.supabase || {};
+    return { apikey: sb.anonKey, Authorization: 'Bearer ' + sb.anonKey, Accept: 'application/json', 'Range-Unit': 'items' };
+  };
+  async function fetchRows(query, offset, size) {
+    const sb = cfg.supabase || {};
+    const url = endpoint() + query;
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), sb.timeoutMs || 12000); let res;
+    try { res = await fetch(url, { headers: { ...headers(), Range: `${offset}-${offset + size - 1}` }, signal: ctl.signal }); }
+    finally { clearTimeout(timer); }
+    if (!res.ok) throw new Error('supabase-http-' + res.status);
+    const rows = await res.json();
+    if (!Array.isArray(rows)) throw new Error('supabase-invalid-response');
+    return rows;
+  }
+  const later = (a, b) => (String(a || '') > String(b || '') ? String(a || '') : String(b || ''));
+
+  /* ---------- catalogue API ---------- */
   const catalog = {
     meta: null, source: 'supabase',
+    /** Instant cache read; sets catalog.meta and returns prepared items (or null). */
     async loadCache() {
       const cached = await cacheRead();
       if (!cached || !Array.isArray(cached.items) || !cached.items.length) return null;
-      cached.items.forEach(prepare); catalog.meta = { total: cached.items.length, source: 'indexeddb', updatedAt: cached.updatedAt }; return cached.items;
+      catalog.meta = { total: cached.items.length, source: 'indexeddb', updatedAt: cached.updatedAt, watermark: cached.watermark || '' };
+      return cached.items;
     },
+    /** Full catalogue fetch (first run or after cache clear). */
     async load() {
-      const sb = cfg.supabase || {};
-      if (!sb.url || !sb.anonKey) throw new Error('supabase-config-missing');
-      const base = sb.url.replace(/\/$/, '') + '/rest/v1/' + encodeURIComponent(sb.table || 'perfumes');
-      const size = Math.max(1, Math.min(Number(sb.pageSize) || 1000, 1000)); const all = [];
+      const size = Math.max(1, Math.min(Number((cfg.supabase || {}).pageSize) || 1000, 1000));
+      const all = []; let watermark = '';
       for (let offset = 0; ; offset += size) {
-        const url = base + '?select=payload&order=id.asc';
-        const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), sb.timeoutMs || 12000); let res;
-        try { res = await fetch(url, { headers: { apikey: sb.anonKey, Authorization: 'Bearer ' + sb.anonKey, Accept: 'application/json', Range: `${offset}-${offset + size - 1}`, 'Range-Unit': 'items' }, signal: ctl.signal }); }
-        finally { clearTimeout(timer); }
-        if (!res.ok) throw new Error('supabase-http-' + res.status);
-        const rows = await res.json(); if (!Array.isArray(rows)) throw new Error('supabase-invalid-response');
-        all.push(...rows.map(r => r && r.payload).filter(p => p && typeof p === 'object')); if (rows.length < size) break;
+        const rows = await fetchRows('?select=payload,updated_at&order=id.asc', offset, size);
+        for (const r of rows) { if (r && r.payload && typeof r.payload === 'object') { all.push(r.payload); watermark = later(watermark, r.updated_at); } }
+        if (rows.length < size) break;
       }
-      if (!all.length) throw new Error('supabase-empty-catalog'); all.forEach(prepare);
-      catalog.meta = { total: all.length, source: 'supabase', updatedAt: Date.now() }; catalog.source = 'supabase';
-      cacheWrite(all).catch(() => {}); return all;
+      if (!all.length) throw new Error('supabase-empty-catalog');
+      const items = await prepareAll(all);
+      catalog.meta = { total: items.length, source: 'supabase', updatedAt: Date.now(), watermark };
+      catalog.source = 'supabase';
+      cacheWrite(items, watermark).catch(() => { });
+      return items;
+    },
+    /** Delta sync: only rows changed since the cached watermark (updated_at). Merges by id,
+        honours payload.deleted soft-deletes, and returns fresh items plus change counts. */
+    async sync() {
+      const cached = await cacheRead();
+      const have = cached && Array.isArray(cached.items) && cached.items.length ? cached.items : null;
+      if (!have) { const items = await catalog.load(); return { items, changed: items.length, added: items.length, updated: 0, deleted: 0, watermark: catalog.meta.watermark }; }
+      const watermark = cached.watermark || '';
+      const size = Math.max(1, Math.min(Number((cfg.supabase || {}).pageSize) || 1000, 1000));
+      const changedRows = []; let newWatermark = watermark;
+      for (let offset = 0; ; offset += size) {
+        // gt (exclusive): rows at exactly the watermark were already merged by the previous full load.
+        const query = '?select=payload,updated_at&order=updated_at.asc' + (watermark ? '&updated_at=gt.' + encodeURIComponent(watermark) : '');
+        const rows = await fetchRows(query, offset, size);
+        for (const r of rows) { if (r && r.payload && typeof r.payload === 'object') { changedRows.push(r); newWatermark = later(newWatermark, r.updated_at); } }
+        if (rows.length < size) break;
+      }
+      if (!changedRows.length) { catalog.meta = { total: have.length, source: 'indexeddb', updatedAt: cached.updatedAt, watermark }; return { items: have, changed: 0, added: 0, updated: 0, deleted: 0, watermark }; }
+      const prepared = await prepareAll(changedRows.map(r => r.payload));
+      const byId = new Map(have.map(p => [p.id, p]));
+      let added = 0, updated = 0, deleted = 0;
+      for (const p of prepared) {
+        const prev = byId.get(p.id);
+        if (prev && !prev.deleted && p.deleted) deleted++;       // record soft-deleted since last sync
+        else if (!prev && !p.deleted) added++;                    // brand new record
+        else if (prev) updated++;                                 // record content refreshed
+        byId.set(p.id, p); // soft-deleted records stay in the mirror so they cannot resurrect
+      }
+      const items = [...byId.values()]; // stable order: existing stay in place, new ones append
+      catalog.meta = { total: items.length, source: 'supabase', updatedAt: Date.now(), watermark: newWatermark };
+      catalog.source = 'supabase';
+      cacheWrite(items, newWatermark).catch(() => { });
+      return { items, changed: changedRows.length, added, updated, deleted, watermark: newWatermark };
     },
     clearCache: cacheClear,
     prepare
   };
-
 
   /* ---------- Images ---------- */
   const isImageUrl = s => {

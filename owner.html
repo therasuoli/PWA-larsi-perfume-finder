@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>کنسول مالک — Larsi Perfume Finder</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="کنسول مدیریت بانک عطر — فقط برای مالک برنامه">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://eixzihvihoammvremxrl.supabase.co; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="theme-color" content="#101411">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/app.css">
+<script src="js/boot.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="./" aria-label="بازگشت به برنامه"><span class="brand-text"><b>Larsi</b> <span>Owner Console</span></span></a>
+  <span class="muted" style="font-size:.75rem">برای استفاده از خود برنامه به صفحه اصلی برگرد.</span>
+</header>
+
+<main class="section" style="max-width:760px;margin:0 auto;padding:22px var(--gutter) 60px">
+  <h1 style="font-size:1.4rem">کنسول مالک · توسعه و نگهداشت بانک</h1>
+  <p class="muted" style="margin:6px 0 18px">این صفحه در هیچ جای رابط عمومی برنامه لینک نمی‌شود. رمز و توکن در مرورگر ذخیره نمی‌شوند؛ احراز هویت و نوشتن داده در Edge Function انجام می‌شود.</p>
+
+  <div class="page-body bank-dev" id="ownerBody" style="border:1px solid var(--line);border-radius:18px;padding:18px;background:var(--surface)">
+    <section class="bank-dev-intro"><b>افزودن یا به‌روزرسانی گروهی عطرها</b>
+      <p>فایل JSON، CSV یا Excel را انتخاب کن. رکوردها بر اساس شناسه ادغام می‌شوند و رکوردهای قبلی حذف نمی‌شوند. کتابخانه Excel از خود مخزن بارگذاری می‌شود.</p>
+    </section>
+    <label class="field-label" for="bankFile">فایل بانک (JSON / CSV / XLSX / XLS)</label>
+    <input id="bankFile" type="file" accept=".json,.csv,.xlsx,.xls,application/json,text/csv">
+    <p id="bankFileInfo" class="hint">حداکثر حجم پیشنهادی: ۱۰ مگابایت. ردیف اول فایل جدولی باید عنوان ستون‌ها باشد.</p>
+
+    <div class="bank-dev-divider"></div>
+    <h3>احراز هویت مالک</h3>
+    <p class="hint">رمز در SUPABASE_SECRET با کلید <code style="direction:ltr">BANK_UPLOAD_PASSWORD</code> تنظیم می‌شود و هرگز در کد مرورگر نیست.</p>
+    <label class="field-label" for="ownerPassword">رمز مالک</label>
+    <input id="ownerPassword" type="password" autocomplete="off" spellcheck="false" placeholder="رمز تعیین‌شده در Supabase Secret">
+
+    <div class="bank-dev-actions">
+      <button class="btn ghost" type="button" id="bankPreviewBtn" disabled>پیش‌نمایش و شمارش</button>
+      <button class="btn primary" type="button" id="bankUploadBtn" disabled>اعتبارسنجی و ارسال</button>
+    </div>
+
+    <div class="bank-dev-divider"></div>
+    <h3>حذف نرم رکورد (deleted:true)</h3>
+    <p class="hint">شناسه‌ها را با ویرگول جدا کن. رکورد از بانک پاک نمی‌شود؛ با پرچم deleted برای همه کاربرها پنهان می‌شود و با یک آپلود مجدد بدون پرچم برمی‌گردد.</p>
+    <label class="field-label" for="deleteIds">شناسه‌ها (id)</label>
+    <input id="deleteIds" type="text" autocomplete="off" placeholder="مثلاً creed-aventus, dior-sauvage" style="direction:ltr">
+    <button class="btn ghost" type="button" id="deleteBtn">علامت‌گذاری به‌عنوان حذف‌شده</button>
+
+    <div id="bankDevStatus" class="bank-dev-status" role="status" aria-live="polite" style="margin-top:14px">هنوز فایلی انتخاب نشده است.</div>
+    <p class="hint" style="margin-top:10px">راهنمای کامل راه‌اندازی: فایل <code style="direction:ltr">docs/OWNER-SETUP.md</code>.</p>
+  </div>
+
+  <div class="page-body bank-dev" id="analyticsBox" style="border:1px solid var(--line);border-radius:18px;padding:18px;background:var(--surface);margin-top:18px">
+    <h3>آمار استفاده این دستگاه (بدون کوکی)</h3>
+    <p class="hint">روی هر مرورگر جدا ذخیره می‌شود؛ فقط برای آزمایش جریان رویدادها. رویدادها: جست‌وجو، باز شدن جزئیات، پیام عطرساز، راهنمای هدیه و اشتراک کمد — رویداد خرید وجود ندارد.</p>
+    <div id="analyticsSummary" role="status" aria-live="polite"></div>
+    <button class="btn ghost" type="button" id="analyticsRefresh" style="margin-top:10px">به‌روزرسانی آمار</button>
+    <button class="btn ghost" type="button" id="analyticsReset" style="margin-top:10px">پاک‌کردن آمار این دستگاه</button>
+  </div>
+</main>
+
+<footer class="site-footer"><p>ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶</p></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/config.js" defer></script>
+<script src="js/lang-fa.js" defer></script>
+<script src="js/algo.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/owner.js" defer></script>
+</body>
+</html>

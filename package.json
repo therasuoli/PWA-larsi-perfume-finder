@@ -1,0 +1,17 @@
+{
+  "name": "larsi-perfume-finder",
+  "version": "7.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Larsi Perfume Finder — PWA فارسی کشف و مقایسه عطر (بدون فریمورک، سازگار با GitHub Pages)",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:data": "node scripts/build-data.mjs",
+    "sync": "node scripts/sync-supabase.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}

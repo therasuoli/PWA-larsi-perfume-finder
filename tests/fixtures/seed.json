@@ -1,0 +1,684 @@
+[
+ {
+  "id": "creed-aventus",
+  "top": [
+   "Lemon",
+   "Pink Pepper",
+   "Apple",
+   "Bergamot",
+   "Blackcurrant"
+  ],
+  "url": "https://www.scento.com/perfumes/aventus-creed",
+  "base": [
+   "Birch",
+   "Ambroxan",
+   "Cedarwood",
+   "Oakmoss",
+   "Musk"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Sparkling lemon and blackcurrant open onto pineapple and jasmine, while birch and oakmoss give the base a smoky, earthy edge.",
+  "name": "Aventus",
+  "rank": 5,
+  "slug": "aventus-creed",
+  "year": 2010,
+  "brand": "Creed",
+  "heart": [
+   "Pineapple",
+   "Jasmine",
+   "Patchouli"
+  ],
+  "notes": [
+   "Lemon",
+   "Pink Pepper",
+   "Apple",
+   "Bergamot",
+   "Blackcurrant",
+   "Pineapple",
+   "Jasmine",
+   "Patchouli",
+   "Birch",
+   "Ambroxan",
+   "Cedarwood",
+   "Oakmoss",
+   "Musk"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Orchard Fruit",
+  "brandId": "creed",
+  "family2": "Wood & Root",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "character": [
+   "fruity",
+   "earthy",
+   "citrusy",
+   "floral"
+  ],
+  "perfumers": [
+   "Erwin Creed",
+   "Jean-Christophe Hérault"
+  ]
+ },
+ {
+  "id": "guerlain-shalimar",
+  "top": [
+   "Floral notes",
+   "Bergamot"
+  ],
+  "url": "https://www.scento.com/perfumes/shalimar-eau-de-parfum-guerlain",
+  "base": [
+   "Vanilla",
+   "Opoponax",
+   "Tonka Bean"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Floral notes and a flash of bergamot sit above iris, jasmine and rose, giving way to a dense, sweet base of vanilla, tonka bean and opoponax.",
+  "name": "Shalimar",
+  "rank": 3,
+  "site": "Scento API",
+  "slug": "shalimar-eau-de-parfum-guerlain",
+  "brand": "Guerlain",
+  "heart": [
+   "Iris",
+   "Jasmine",
+   "Rose"
+  ],
+  "image": "https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/dc1b06de-295c-433d-e0be-a04933e15b00/campaign",
+  "notes": [
+   "Floral notes",
+   "Bergamot",
+   "Iris",
+   "Jasmine",
+   "Rose",
+   "Vanilla",
+   "Opoponax",
+   "Tonka Bean"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Petal Garden",
+  "accords": [
+   "Floral notes and a flash of bergamot sit above iris",
+   "jasmine and rose",
+   "giving way to a dense",
+   "sweet base of vanilla",
+   "tonka bean and opoponax."
+  ],
+  "brandId": "guerlain",
+  "country": "France",
+  "family2": "Velvet Sweet",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "category": "Petal Garden",
+  "character": [
+   "floral",
+   "sweet",
+   "warm",
+   "powdery"
+  ],
+  "image_url": "https://imagedelivery.net/dTnWiVKich4PS2lEWud18g/dc1b06de-295c-433d-e0be-a04933e15b00/campaign",
+  "scraped_at": "2026-11-20T18:54:21Z",
+  "description": "Guerlain Shalimar Eau de Parfum samples & decants in 2, 5, 8 and 30 ml. Jacques Guerlain composed Shalimar Eau de Parfum by Guerlain.",
+  "product_url": "https://www.scento.com/perfumes/shalimar-eau-de-parfum-guerlain",
+  "source_type": "scento_api",
+  "image_number": 131,
+  "concentration": "eau de parfum",
+  "product_number": 151,
+  "long_description": "Guerlain Shalimar Eau de Parfum samples & decants in 2, 5, 8 and 30 ml. Jacques Guerlain composed Shalimar Eau de Parfum by Guerlain.",
+  "country_of_origin": "France",
+  "short_description": "Shalimar by Guerlain belongs to Scento’s Petal Garden family: floral notes and bergamot open onto iris, jasmine and rose, settling on vanilla, opoponax and tonka bean."
+ },
+ {
+  "id": "parfums-de-marly-layton",
+  "top": [
+   "Apple",
+   "Bergamot",
+   "Cardamom"
+  ],
+  "url": "https://www.scento.com/perfumes/layton-parfums-de-marly",
+  "base": [
+   "Patchouli",
+   "Vanilla",
+   "Guaiac Wood",
+   "Praline"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "An apple-and-lavender blend: bergamot and cardamom up top, violet and geranium in the middle, patchouli, vanilla and praline below.",
+  "name": "Layton",
+  "rank": 9,
+  "slug": "layton-parfums-de-marly",
+  "brand": "Parfums de Marly",
+  "heart": [
+   "Lavender",
+   "Violet",
+   "Geranium"
+  ],
+  "notes": [
+   "Apple",
+   "Bergamot",
+   "Cardamom",
+   "Lavender",
+   "Violet",
+   "Geranium",
+   "Patchouli",
+   "Vanilla",
+   "Guaiac Wood",
+   "Praline"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Wood & Root",
+  "brandId": "parfums-de-marly",
+  "family2": "Velvet Sweet",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "character": [
+   "sweet",
+   "warm",
+   "fresh",
+   "herbal"
+  ]
+ },
+ {
+  "id": "ysl-libre",
+  "top": [
+   "Mandarin",
+   "Neroli",
+   "Lavender"
+  ],
+  "url": "https://www.scento.com/perfumes/libre-yves-saint-laurent",
+  "base": [
+   "Musk",
+   "Vanilla"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Mandarin and neroli brighten a creamy bloom of orange blossom and jasmine sambac, settling into a quiet base of musk and vanilla.",
+  "name": "Libre",
+  "rank": 2,
+  "slug": "libre-yves-saint-laurent",
+  "brand": "Yves Saint Laurent",
+  "heart": [
+   "Orange Blossom",
+   "Jasmine Sambac"
+  ],
+  "notes": [
+   "Mandarin",
+   "Neroli",
+   "Lavender",
+   "Orange Blossom",
+   "Jasmine Sambac",
+   "Musk",
+   "Vanilla"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "White Bloom",
+  "brandId": "ysl",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "character": [
+   "floral",
+   "creamy",
+   "fresh",
+   "citrusy"
+  ]
+ },
+ {
+  "id": "mfk-baccarat-rouge-540",
+  "top": [
+   "Jasmine",
+   "Saffron"
+  ],
+  "url": "https://www.scento.com/perfumes/baccarat-rouge-540-maison-francis-kurkdjian",
+  "base": [
+   "Ambergris"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Jasmine and saffron open airy and golden, held together by cedarwood and an ambergris accord.",
+  "name": "Baccarat Rouge 540",
+  "rank": 6,
+  "slug": "baccarat-rouge-540-maison-francis-kurkdjian",
+  "brand": "Maison Francis Kurkdjian",
+  "heart": [
+   "Cedarwood"
+  ],
+  "notes": [
+   "Jasmine",
+   "Saffron",
+   "Cedarwood",
+   "Ambergris"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Wood & Root",
+  "brandId": "mfk",
+  "family2": "White Bloom",
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "character": [
+   "woody",
+   "warm",
+   "floral",
+   "spicy"
+  ]
+ },
+ {
+  "id": "byredo-gypsy-water",
+  "top": [
+   "Bergamot",
+   "Juniper",
+   "Lemon",
+   "Pepper"
+  ],
+  "url": "https://www.scento.com/perfumes/gypsy-water-byredo",
+  "base": [
+   "Amber",
+   "Sandalwood",
+   "Vanilla"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Woody and aromatic: bergamot, juniper, lemon and pepper, then incense, orris and pine needle over amber, sandalwood and vanilla.",
+  "name": "Gypsy Water",
+  "rank": 8,
+  "slug": "gypsy-water-byredo",
+  "brand": "Byredo",
+  "heart": [
+   "Incense",
+   "Iris",
+   "Pine Needle"
+  ],
+  "notes": [
+   "Bergamot",
+   "Juniper",
+   "Lemon",
+   "Pepper",
+   "Incense",
+   "Iris",
+   "Pine Needle",
+   "Amber",
+   "Sandalwood",
+   "Vanilla"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Green Leaf",
+  "brandId": "byredo",
+  "family2": "Amber & Resin",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "character": [
+   "warm",
+   "fresh",
+   "citrusy",
+   "green"
+  ]
+ },
+ {
+  "id": "kilian-angels-share",
+  "top": [
+   "Cognac"
+  ],
+  "url": "https://www.scento.com/perfumes/angels-share-by-kilian",
+  "base": [
+   "Tonka Bean",
+   "Sandalwood",
+   "Praline"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Cognac and oak give a boozy opening, followed by cinnamon and a sweet, nutty base of tonka bean, sandalwood and praline.",
+  "name": "Angels' Share",
+  "rank": 13,
+  "slug": "angels-share-by-kilian",
+  "brand": "Kilian Paris",
+  "heart": [
+   "Oakwood",
+   "Cinnamon"
+  ],
+  "notes": [
+   "Cognac",
+   "Oakwood",
+   "Cinnamon",
+   "Tonka Bean",
+   "Sandalwood",
+   "Praline"
+  ],
+  "times": [
+   "evening",
+   "night"
+  ],
+  "family": "Velvet Sweet",
+  "brandId": "kilian",
+  "family2": "Wood & Root",
+  "seasons": [
+   "autumn",
+   "winter"
+  ],
+  "character": [
+   "sweet",
+   "warm",
+   "woody",
+   "spicy"
+  ]
+ },
+ {
+  "id": "guerlain-mitsouko",
+  "top": [
+   "Citrus",
+   "Jasmine",
+   "Bergamot",
+   "Rose"
+  ],
+  "url": "https://www.scento.com/perfume-database/perfumes/guerlain-mitsouko",
+  "base": [
+   "Spice",
+   "Amber",
+   "Cinnamon",
+   "Vetiver",
+   "Oakmoss"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Citrus and jasmine turn to peach, ylang-ylang and rose, then spices, amber and cinnamon settle over vetiver and mossy oakmoss.",
+  "name": "Mitsouko",
+  "rank": 16,
+  "site": "Scento API",
+  "slug": "guerlain-mitsouko",
+  "year": 1919,
+  "brand": "Guerlain",
+  "heart": [
+   "Lilac",
+   "Peach",
+   "Jasmine",
+   "Ylang-Ylang",
+   "Rose"
+  ],
+  "image": "https://www.scento.com/brand-og/en/guerlain.png?v=1",
+  "notes": [
+   "Citrus",
+   "Jasmine",
+   "Bergamot",
+   "Rose",
+   "Lilac",
+   "Peach",
+   "Jasmine",
+   "Ylang-Ylang",
+   "Rose",
+   "Spice",
+   "Amber",
+   "Cinnamon",
+   "Vetiver",
+   "Oakmoss"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Petal Garden",
+  "accords": [
+   "Citrus and jasmine turn to peach",
+   "ylang-ylang and rose",
+   "then spices",
+   "amber and cinnamon settle over vetiver and mossy oakmoss."
+  ],
+  "brandId": "guerlain",
+  "country": "France",
+  "family2": "White Bloom",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "category": "Petal Garden",
+  "character": [
+   "floral",
+   "creamy",
+   "citrusy",
+   "spicy"
+  ],
+  "image_url": "https://www.scento.com/brand-og/en/guerlain.png?v=1",
+  "scraped_at": "2026-11-20T18:54:22Z",
+  "description": "Guerlain perfume at Scento: Shalimar, Mon Guerlain, La Petite Robe Noire, Angélique Noire and Aqua Allegoria in 2ml, 5ml and 8ml decants. Fast EU delivery.",
+  "product_url": "https://www.scento.com/brand/guerlain",
+  "source_type": "scento_api",
+  "image_number": 132,
+  "concentration": "eau de parfum",
+  "product_number": 152,
+  "long_description": "Guerlain perfume at Scento: Shalimar, Mon Guerlain, La Petite Robe Noire, Angélique Noire and Aqua Allegoria in 2ml, 5ml and 8ml decants. Fast EU delivery.",
+  "country_of_origin": "France",
+  "short_description": "Mitsouko by Guerlain (1919) belongs to Scento’s Petal Garden family: citrus, jasmine, bergamot and rose open onto lilac, peach, jasmine and ylang-ylang, settling on spice, amber, cinnamon and vetiver."
+ },
+ {
+  "id": "frederic-malle-portrait-of-a-lady",
+  "top": [
+   "Rose"
+  ],
+  "url": "https://www.scento.com/perfumes/portrait-of-a-lady-frederic-malle",
+  "base": [
+   "Patchouli",
+   "Sandalwood",
+   "Frankincense"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "A lavish rose enriched with blackcurrant, raspberry and clove, then deepened by patchouli and sandalwood.",
+  "name": "Portrait of a Lady",
+  "rank": 17,
+  "slug": "portrait-of-a-lady-frederic-malle",
+  "brand": "Frédéric Malle",
+  "heart": [
+   "Blackcurrant",
+   "Raspberry",
+   "Clove"
+  ],
+  "notes": [
+   "Rose",
+   "Blackcurrant",
+   "Raspberry",
+   "Clove",
+   "Patchouli",
+   "Sandalwood",
+   "Frankincense"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Orchard Fruit",
+  "brandId": "frederic-malle",
+  "family2": "Wood & Root",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "character": [
+   "fruity",
+   "spicy",
+   "warm",
+   "floral"
+  ],
+  "perfumers": [
+   "Dominique Ropion"
+  ]
+ },
+ {
+  "id": "creed-silver-mountain-water",
+  "top": [
+   "Bergamot",
+   "Mandarin",
+   "Neroli"
+  ],
+  "url": "https://www.scento.com/perfumes/silver-mountain-water-creed",
+  "base": [
+   "Sandalwood",
+   "Musk"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Neroli and mandarin sparkle above cool green tea and blackcurrant bud, with a sea-air freshness and a smooth finish of sandalwood and musk.",
+  "name": "Silver Mountain Water",
+  "rank": 19,
+  "slug": "silver-mountain-water-creed",
+  "brand": "Creed",
+  "heart": [
+   "Sea Notes",
+   "Tea",
+   "Blackcurrant"
+  ],
+  "notes": [
+   "Bergamot",
+   "Mandarin",
+   "Neroli",
+   "Sea Notes",
+   "Tea",
+   "Blackcurrant",
+   "Sandalwood",
+   "Musk"
+  ],
+  "times": [
+   "day"
+  ],
+  "family": "Sunlit Citrus",
+  "brandId": "creed",
+  "family2": "Orchard Fruit",
+  "seasons": [
+   "spring",
+   "summer"
+  ],
+  "character": [
+   "fresh",
+   "citrusy",
+   "fruity",
+   "green"
+  ]
+ },
+ {
+  "id": "mfk-aqua-universalis",
+  "top": [
+   "Lemon",
+   "Bergamot"
+  ],
+  "url": "https://www.scento.com/perfume-database/perfumes/mfk-aqua-universalis",
+  "base": [
+   "Musk"
+  ],
+  "conc": "eau-de-toilette",
+  "desc": "Lemon and bergamot are bright and clean, set against a soft floral heart. A veil of musk makes the whole composition feel fresh and airy.",
+  "name": "Aqua Universalis",
+  "rank": 22,
+  "slug": "mfk-aqua-universalis",
+  "brand": "Maison Francis Kurkdjian",
+  "heart": [
+   "Floral notes"
+  ],
+  "notes": [
+   "Lemon",
+   "Bergamot",
+   "Floral notes",
+   "Musk"
+  ],
+  "times": [
+   "day"
+  ],
+  "family": "Sunlit Citrus",
+  "brandId": "mfk",
+  "family2": "Petal Garden",
+  "seasons": [
+   "spring",
+   "summer"
+  ],
+  "character": [
+   "citrusy",
+   "floral",
+   "fresh",
+   "musky"
+  ]
+ },
+ {
+  "id": "byredo-bal-dafrique",
+  "top": [
+   "Buchu",
+   "African Marigold",
+   "Bergamot",
+   "Blackcurrant"
+  ],
+  "url": "https://www.scento.com/perfumes/bal-dafrique-byredo",
+  "base": [
+   "Tonka Bean",
+   "Cedarwood",
+   "Musk",
+   "Vetiver"
+  ],
+  "conc": "eau-de-parfum",
+  "desc": "Fresh and floral-woody: buchu, marigold, bergamot and blackcurrant, then cyclamen, jasmine and violet, over tonka, cedarwood, musks and vetiver.",
+  "name": "Bal d'Afrique",
+  "rank": 26,
+  "slug": "bal-dafrique-byredo",
+  "brand": "Byredo",
+  "heart": [
+   "Cyclamen",
+   "Jasmine",
+   "Violet"
+  ],
+  "notes": [
+   "Buchu",
+   "African Marigold",
+   "Bergamot",
+   "Blackcurrant",
+   "Cyclamen",
+   "Jasmine",
+   "Violet",
+   "Tonka Bean",
+   "Cedarwood",
+   "Musk",
+   "Vetiver"
+  ],
+  "times": [
+   "day",
+   "evening"
+  ],
+  "family": "Petal Garden",
+  "brandId": "byredo",
+  "family2": "Wood & Root",
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "character": [
+   "floral",
+   "powdery",
+   "fresh",
+   "citrusy"
+  ]
+ }
+]
