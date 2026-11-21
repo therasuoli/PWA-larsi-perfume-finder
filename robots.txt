@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /owner.html
 
-Sitemap: https://<owner>.github.io/PWA-larsi-perfume-finder/sitemap.xml
+Sitemap: https://therasuoli.github.io/PWA-larsi-perfume-finder/sitemap.xml
