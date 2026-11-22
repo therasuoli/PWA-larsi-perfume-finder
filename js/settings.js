@@ -14,7 +14,7 @@
   const catalog = { items: [], byId: new Map(), images: 0 };
 
   /* ================= theme / font / size ================= */
-  const THEME_NAMES = { auto: 'پیروی از سیستم', dark: 'دارک', light: 'روشن', noir: 'شامپاینی (۲۰۲۶)' };
+  const THEME_NAMES = { auto: 'پیروی از سیستم', dark: 'دارک', light: 'روشن', noir: 'شامپاینی (۲۰۲۶)', atelier: 'آتلیه' };
   const mqLight = window.matchMedia ? matchMedia('(prefers-color-scheme: light)') : null;
   function applyTheme(pref, announce) {
     if (pref === 'sand') pref = 'dark';
@@ -24,7 +24,7 @@
     const eff = pref === 'auto' ? (mqLight && mqLight.matches ? 'light' : 'dark') : pref;
     const root = document.documentElement;
     root.dataset.theme = eff; root.dataset.themePref = pref;
-    const meta = $('meta[name=theme-color]'); if (meta) meta.content = eff === 'light' ? '#E8EDE4' : eff === 'noir' ? '#0B0B0D' : '#0E1F1B';
+    const meta = $('meta[name=theme-color]'); if (meta) meta.content = eff === 'light' ? '#E8EDE4' : eff === 'noir' ? '#0B0B0D' : eff === 'atelier' ? '#f7f3ec' : '#0E1F1B';
     $$('#themeSeg [data-theme-choice]').forEach(b => b.setAttribute('aria-checked', String(b.dataset.themeChoice === pref)));
     if (announce) toastFn('تم: ' + (THEME_NAMES[pref] || pref));
   }
@@ -182,9 +182,9 @@
 
   /* ================= onboarding ================= */
   const SLIDES = [
-    { k: 'WELCOME TO LARSI', h: 'امروز دلت چه بویی می‌خواهد؟', t: 'لارسی یک راهنمای فارسی برای دنیای عطر است؛ بانک بزرگ، جست‌وجوی هوشمند و کمد شخصی — بدون ثبت‌نام.' },
-    { k: 'SEARCH · EXPLORE', h: 'عطر را با هر نشانه‌ای پیدا کن', t: 'نام عطر، برند، نت یا حال و دل. دستیار هوشمند هم اینجاست: بگو چه می‌خواهی، با دلیل پیشنهاد می‌دهد.' },
-    { k: 'COMPARE · KEEP', h: 'مقایسه کن، کمدت را بساز', t: '۲ تا ۴ عطر را کنار هم بگذار، امتیاز بده و مجموعه‌ات را روی همین دستگاه نگه دار.' }
+    { k: 'WELCOME TO LARSI', h: 'امروز دلت چه بویی می‌خواهد؟', t: 'لارسی یک راهنمای فارسی برای دنیای عطر است؛ بانک بزرگ، جست‌وجوی هوشمند و دستیار شخصی — بدون ثبت‌نام.' },
+    { k: 'SEARCH · EXPLORE', h: 'عطر را با هر نشانه‌ای پیدا کن', t: 'نام عطر، برند، نت یا حال و دل. جست‌وجوی هوشمند در بانکی بزرگ، عطر مناسب سلیقه‌ات را پیدا می‌کند.' },
+    { k: 'AI · ASSISTANT', h: 'دستیار هوشمند لارسی، همراه تو', t: 'بگو چه می‌خواهی، با دلیل پیشنهاد می‌دهد. رایحه‌های مشابه، پیشنهاد روز و کشف تازه — همه با زبان طبیعی.' }
   ];
   function showOnboarding(force) {
     const root = $('#onboard'); if (!root) return;
@@ -235,7 +235,7 @@
   function bind() {
     $$('#themeSeg [data-theme-choice]').forEach(b => b.addEventListener('click', () => applyTheme(b.dataset.themeChoice, true)));
     if (mqLight && mqLight.addEventListener) mqLight.addEventListener('change', () => { if (S.theme === 'auto') applyTheme('auto'); });
-    $('#themeBtn').addEventListener('click', () => { const order = ['auto', 'dark', 'light']; applyTheme(order[(order.indexOf(S.theme) + 1) % order.length], true); });
+    $('#themeBtn').addEventListener('click', () => { const order = ['auto', 'dark', 'light', 'noir', 'atelier']; applyTheme(order[(order.indexOf(S.theme) + 1) % order.length], true); });
     $$('#fontSeg [data-font-family]').forEach(b => b.addEventListener('click', () => applyFontFamily(b.dataset.fontFamily, true)));
     const range = $('#fontRange');
     range.addEventListener('input', e => applyFont(+e.target.value, false));
