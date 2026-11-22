@@ -120,7 +120,7 @@
     const s = LPF.analytics.summary();
     const row = (k, v) => `<tr><td>${esc(k)}</td><td style="text-align:end;font-weight:700">${fa(v)}</td></tr>`;
     el.innerHTML = `<table class="cmp-table" style="min-width:0;border:0"><thead><tr><th colspan="2">از ${esc(s.since.slice(0, 10))} · ${fa(s.events)} رویداد اخیر</th></tr></thead><tbody>
-      ${row('جست‌وجوها', s.totals.searches)}${row('جست‌وجوهای بدون نتیجه', s.totals.emptySearches)}${row('باز شدن جزئیات', s.totals.detailOpens)}${row('پیام‌های عطرساز', s.totals.agentMessages)}${row('راهنمای هدیه', s.totals.giftGuides)}${row('اشتراک کمد', s.totals.sharedWardrobes)}
+      ${row('جست‌وجوها', s.totals.searches)}${row('جست‌وجوهای بدون نتیجه', s.totals.emptySearches)}${row('باز شدن جزئیات', s.totals.detailOpens)}${row('پیام‌های دستیار', s.totals.agentMessages)}${row('راهنمای هدیه', s.totals.giftGuides)}${row('اشتراک کمد', s.totals.sharedWardrobes)}
       </tbody></table>
       ${s.topQueries.length ? `<h3 style="margin-top:14px">پرتکرارترین جست‌وجوها</h3><div class="chips">${s.topQueries.map(([q, n]) => `<span class="chip" style="pointer-events:none">${esc(q)} · ${fa(n)}</span>`).join('')}</div>` : ''}
       ${s.topPerfumes.length ? `<h3 style="margin-top:8px">پربازدیدترین عطرها</h3><div class="chips">${s.topPerfumes.map(([id, n]) => `<span class="chip" style="pointer-events:none;direction:ltr">${esc(id)} · ${fa(n)}</span>`).join('')}</div>` : ''}`;

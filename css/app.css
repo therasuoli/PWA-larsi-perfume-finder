@@ -85,11 +85,14 @@ header.new-top { gap: 12px }
 }
 
 /* ---------- layout / views ---------- */
-main { max-width: 980px; margin: 0 auto; padding: 0 20px }
+/* v7.9: Tighter spacing on desktop — reduce max-width and padding to eliminate large gaps */
+main { max-width: 720px; margin: 0 auto; padding: 0 16px }
+@media (min-width: 768px) { main { max-width: 840px; padding: 0 20px } }
+@media (min-width: 1200px) { main { max-width: 920px } }
 .view { display: none }
 .view.on { display: block }
 .lead { color: var(--mut); max-width: 46ch }
-.sub { color: var(--mut); font-size: .875rem; margin-bottom: 14px }
+.sub { color: var(--mut); font-size: .875rem; margin-bottom: 10px }
 .count { color: var(--mut); font-size: .875rem; margin: 4px 0 12px }
 
 /* ---------- search (combobox) ---------- */
@@ -198,10 +201,10 @@ img.lpf-img.ready { opacity: 1 }
   .hero-bottle svg, .hero-bottle .bottle-wrap { width: 220px; height: 294px }
 }
 
-/* ---------- section blocks (v7.6: consistent spacing) ---------- */
-.section-block { margin: 28px 0 12px; scroll-margin-top: 76px }
-.section-block h2 { font-size: 1.15rem; font-weight: 700; margin: 0 0 2px }
-.section-block .sub { margin-bottom: 10px }
+/* ---------- section blocks (v7.9: tighter spacing) ---------- */
+.section-block { margin: 18px 0 8px; scroll-margin-top: 76px }
+.section-block h2 { font-size: 1.1rem; font-weight: 700; margin: 0 0 2px }
+.section-block .sub { margin-bottom: 8px }
 
 /* ---------- IDENTIFY view (v7.6 new feature) ---------- */
 .identify-upload { position: relative; margin: 16px 0; border: 2px dashed var(--line); border-radius: var(--r); background: var(--card); padding: 36px 22px; text-align: center; cursor: pointer; transition: border-color .2s ease, background .2s ease, transform .15s ease; min-height: 180px; display: grid; place-items: center }
@@ -493,3 +496,28 @@ input[type="text"], input[type="password"], input[type="file"] { width: 100%; mi
 input[type="file"] { padding: 8px }
 .hint { font-size: .75rem; color: var(--mut); line-height: 1.7 }
 code { font-family: monospace; background: rgba(240,184,58,.12); color: var(--acc); padding: 1px 6px; border-radius: 4px; font-size: .8125rem }
+
+/* ---------- v7.9: AI-powered UI elements ---------- */
+/* AI Today's recommendation card */
+.ai-today-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; position: relative }
+.ai-today-card::before { content: ""; position: absolute; top: 0; inset-inline: 20%; height: 3px; background: linear-gradient(90deg, transparent, var(--acc), transparent) }
+.ai-today-badge { display: inline-block; font-size: .7rem; font-weight: 700; color: var(--acc); letter-spacing: .05em; padding: 8px 14px 0 }
+.ai-today-content { padding: 4px 14px 14px }
+.ai-today-content .ai-perfume-card { display: flex; gap: 12px; align-items: center; padding: 10px; background: var(--bg); border-radius: var(--r2); border: 1px solid var(--line) }
+.ai-today-content .ai-perfume-card .media { width: 64px; height: 80px; margin: 0; flex: none }
+.ai-today-content .ai-perfume-card .info { flex: 1; min-width: 0 }
+.ai-today-content .ai-perfume-card .info b { display: block; font-size: .9375rem }
+.ai-today-content .ai-perfume-card .info small { display: block; color: var(--mut); font-size: .75rem; margin-top: 2px }
+.ai-today-content .ai-reason { font-size: .8125rem; color: var(--mut); line-height: 1.7; margin-top: 8px; padding: 8px 12px; background: color-mix(in srgb, var(--acc) 6%, var(--bg)); border-radius: var(--r2); border-inline-start: 3px solid var(--acc) }
+
+/* AI smart search bar (in Find view) */
+.ai-search-bar { margin: 10px 0 16px }
+.ai-search-input { border-color: color-mix(in srgb, var(--acc) 30%, var(--line)) }
+.ai-search-input:focus-within { border-color: var(--acc); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 25%, transparent) }
+.ai-find-results { margin-top: 10px }
+.ai-find-results .ai-result-card { display: flex; gap: 10px; align-items: center; padding: 10px 12px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r2); margin-bottom: 8px; cursor: pointer; transition: border-color .15s ease }
+.ai-find-results .ai-result-card:hover { border-color: var(--acc) }
+.ai-find-results .ai-result-card .media { width: 48px; height: 60px; margin: 0; flex: none }
+.ai-find-results .ai-result-card .info b { font-size: .875rem }
+.ai-find-results .ai-result-card .info small { display: block; color: var(--mut); font-size: .75rem; margin-top: 2px }
+.ai-find-results .ai-loading { padding: 20px; text-align: center; color: var(--mut) }

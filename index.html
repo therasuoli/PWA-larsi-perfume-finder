@@ -75,7 +75,7 @@
     <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg><span>خانه</span></button>
     <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطرها</span></button>
     <button type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg><span>شناسایی هوشمند</span></button>
-    <button type="button" data-go="agent"><svg class="ic"><use href="#i-spark"/></svg><span>عطرساز</span></button>
+    <button type="button" data-go="agent"><svg class="ic"><use href="#i-spark"/></svg><span>دستیار هوشمند</span></button>
     <button type="button" data-go="ward"><svg class="ic"><use href="#i-bag"/></svg><span>کمد من</span><span class="n badge" id="sideWardBadge" hidden>0</span></button>
     <hr>
     <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg><span>تنظیمات</span></button>
@@ -126,8 +126,18 @@
     </div>
   </section>
 
-  <!-- Weather card -->
+  <!-- Weather card with AI-powered recommendation -->
   <div class="wx" id="wx" aria-live="polite"></div>
+
+  <!-- AI-powered "Perfume of the Day" recommendation -->
+  <section class="section-block" id="aiTodaySection" aria-label="پیشنهاد هوشمند امروز">
+    <div class="ai-today-card" id="aiTodayCard">
+      <div class="ai-today-badge">✨ پیشنهاد هوشمند</div>
+      <div class="ai-today-content" id="aiTodayContent">
+        <div class="dots"><i></i><i></i><i></i></div>
+      </div>
+    </div>
+  </section>
 
   <!-- Verse -->
   <figure class="verse">
@@ -178,6 +188,19 @@
 <section class="view" id="v-find" aria-label="کشف">
   <h2 style="margin-top:20px">کشف عطرها</h2>
   <p class="sub">جستجو در بانک عطر؛ با فیلتر خانواده، غلظت، فصل و برند.</p>
+
+  <!-- AI-powered smart search bar -->
+  <div class="ai-search-bar" id="aiSearchBar">
+    <div class="search-wrap">
+      <label class="search ai-search-input" for="aiFindInput">
+        <svg class="ic"><use href="#i-spark"/></svg>
+        <input id="aiFindInput" type="search" placeholder="بگو چه عطری می‌خوای… مثلاً: عطر گرم گلی برای زمستان" autocomplete="off" aria-label="جستجوی هوشمند">
+        <button class="btn pri" type="button" id="aiFindBtn" style="min-height:44px;padding:0 16px;font-size:.8125rem">پیشنهاد AI</button>
+      </label>
+    </div>
+    <div class="ai-find-results" id="aiFindResults" hidden></div>
+  </div>
+
   <div class="toolbar">
     <div class="search-wrap">
       <label class="search" for="q">
@@ -257,13 +280,13 @@
 </section>
 
 <!-- ============ AGENT ============ -->
-<section class="view" id="v-agent" aria-label="عطرساز">
-  <h2 style="margin-top:20px">عطرساز لارسی</h2>
+<section class="view" id="v-agent" aria-label="دستیار هوشمند">
+  <h2 style="margin-top:20px">دستیار هوشمند</h2>
   <p class="sub">دستیار هوشمند؛ با هوای شیراز و سلیقه‌ات پیشنهاد می‌دهد — با دلیل هر پیشنهاد.</p>
   <div class="chat" id="chat" aria-live="polite"></div>
   <div class="chips" id="agentChips"></div>
   <form class="search" id="agentForm">
-    <input id="agentInput" placeholder="مثلاً: عطر گرم برای مهمانی شب" aria-label="پیام به عطرساز" autocomplete="off">
+    <input id="agentInput" placeholder="مثلاً: عطر گرم برای مهمانی شب" aria-label="پیام به دستیار" autocomplete="off">
     <button class="btn pri" type="submit" style="min-height:44px;padding:0 18px">بفرست</button>
   </form>
 </section>

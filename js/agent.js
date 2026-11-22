@@ -1,4 +1,4 @@
-/* Larsi Perfume Finder — عطرساز لارسی (v7.8 — Smart Conversational Agent)
+/* Larsi Perfume Finder — دستیار هوشمند لارسی (v7.8 — Smart Conversational Agent)
  *
  * A significantly upgraded conversational fragrance concierge that:
  *   - Parses natural-language intent (mood, season, occasion, notes, brand)

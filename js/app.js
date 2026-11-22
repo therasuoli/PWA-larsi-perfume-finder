@@ -696,6 +696,31 @@
     tickClock();
     $('#ws').textContent = `${FA.season(season)} و هوای ${esc(cityName)}؛ به ترتیب تناسب.`;
     renderWeatherRail();
+    renderAIToday(); // v7.9: AI-powered daily recommendation
+  }
+
+  /* ================= v7.9: AI Today's Recommendation ================= */
+  /** Uses the recommendation engine to suggest a perfume based on weather + season. */
+  function renderAIToday() {
+    const el = $('#aiTodayContent');
+    if (!el || !live.length) return;
+    const season = LPF.wx.season || monthSeason();
+    const weather = { ok: LPF.wx.ok, temp: LPF.wx.t, humidity: LPF.wx.h };
+    const results = LPF.recommend.perfectForToday(items, weather, season, { maxResults: 1, disliked: S.disliked });
+    if (!results.length) { el.innerHTML = '<p class="muted" style="padding:12px">امروز پیشنهاد خاصی نداریم.</p>'; return; }
+    const { p, score, reasons } = results[0];
+    const cityName = (LPF.wx.location && LPF.wx.location.name) || 'شیراز';
+    const temp = LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—';
+    el.innerHTML = `
+      <div class="ai-perfume-card" role="button" tabindex="0" data-open="${esc(p.id)}">
+        ${mediaHTML(p, 99, p.name)}
+        <div class="info">
+          <b>${esc(p.name)}</b>
+          <small>${esc(p.brand)} · ${esc(FA.family(p.family || LPF.identify.mapFamilyFa(p.familyFa)) || 'عطر')}</small>
+        </div>
+      </div>
+      <div class="ai-reason">${esc(reasons.join('، '))} — ${esc(cityName)} ${temp}، ${esc(FA.season(season))}</div>`;
+    markReadyImages(el);
   }
   const tickClock = () => { const e = $('#wxClock'); if (e) e.textContent = new Date().toLocaleTimeString('fa-IR', { timeZone: 'Asia/Tehran', hour: '2-digit', minute: '2-digit', second: '2-digit' }); };
   function renderWeatherRail() {
@@ -741,7 +766,7 @@
   function agentView(text) {
     if (!agentGreeted) {
       agentGreeted = true;
-      say(`سلام! من عطرساز لارسی‌ام. ${LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : ''} بگو دنبال چه حسی هستی؛ هر پیشنهاد را با دلیلش می‌گویم.`);
+      say(`سلام! من دستیار هوشمند لارسی‌ام. ${LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : ''} بگو دنبال چه حسی هستی؛ هر پیشنهاد را با دلیلش می‌گویم.`);
       $('#agentChips').innerHTML = LPF.agent.QUICK.map(t => `<button class="chip" type="button" data-q="${esc(t)}">${esc(t)}</button>`).join('');
     }
     if (!text) return;
@@ -1262,6 +1287,43 @@
 
     // agent form
     $('#agentForm').addEventListener('submit', e => { e.preventDefault(); agentView($('#agentInput').value); $('#agentInput').value = ''; });
+
+    // v7.9: AI smart search in Find view — uses the same agent engine
+    const aiFindBtn = $('#aiFindBtn'), aiFindInput = $('#aiFindInput'), aiFindResults = $('#aiFindResults');
+    if (aiFindBtn && aiFindInput) {
+      const runAISearch = () => {
+        const query = aiFindInput.value.trim();
+        if (!query || query.length < 2) return;
+        LPF.analytics.track('search', { query, results: 0 });
+        // Show loading
+        if (aiFindResults) {
+          aiFindResults.hidden = false;
+          aiFindResults.innerHTML = '<div class="ai-loading"><div class="dots"><i></i><i></i><i></i></div></div>';
+        }
+        // Use the agent's scoring engine (synchronous — no network)
+        setTimeout(() => {
+          const intent = LPF.agent.parseIntent(query);
+          const results = LPF.agent.scoreAndRank(intent, 5);
+          if (!results.length) {
+            if (aiFindResults) aiFindResults.innerHTML = '<p class="muted" style="padding:14px;text-align:center">چیزی پیدا نشد. کلمات دیگری امتحان کن.</p>';
+            return;
+          }
+          if (aiFindResults) {
+            aiFindResults.innerHTML = results.map(({ p, reasons }) => `
+              <div class="ai-result-card" role="button" tabindex="0" data-open="${esc(p.id)}">
+                ${mediaHTML(p, 99, p.name)}
+                <div class="info">
+                  <b>${esc(p.name)}</b>
+                  <small>${esc(p.brand)} · ${esc(reasons[0] || '')}</small>
+                </div>
+              </div>`).join('');
+            markReadyImages(aiFindResults);
+          }
+        }, 300);
+      };
+      aiFindBtn.addEventListener('click', runAISearch);
+      aiFindInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); runAISearch(); } });
+    }
 
     // keyboard
     document.addEventListener('keydown', e => {

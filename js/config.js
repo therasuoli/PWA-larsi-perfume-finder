@@ -7,9 +7,9 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '7.8.3',
-    versionFa: '۷٫۸٫۳',
-    releaseFa: 'آذر ۱۴۰۵ · شناسایی هوشمند عکس با Puter.js — رایگان، بدون API Key، بدون ثبت‌نام',
+    version: '7.9.0',
+    versionFa: '۷٫۹٫۰',
+    releaseFa: 'آذر ۱۴۰۵ · دستیار هوشمند در کشف و هواشناسی، اصلاح فاصله‌های دسکتاپ',
     releaseISO: '2026-11-21',
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */
@@ -29,7 +29,7 @@
       cacheMinutes: 15,        // longer cache → fewer requests → faster perceived load
       refreshMinutes: 30
     },
-    agent: { enabled: false }, // عطرساز محلی (قاعده‌محور). LLM فقط با فعال‌سازی Edge Function.
+    agent: { enabled: false }, // دستیار محلی (قاعده‌محور). LLM فقط با فعال‌سازی Edge Function.
     supabase: {
       url: 'https://eixzihvihoammvremxrl.supabase.co',
       anonKey: 'sb_publishable_7OdhTeZxaRGSBDSutX4vxw_yZ4aiBjl', // public publishable key only — safe for the browser
