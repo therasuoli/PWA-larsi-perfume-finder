@@ -454,10 +454,13 @@
       .filter(p => repo.images.get(p) || p.family)
       .sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
     const top = candidates.slice(0, Math.min(candidates.length, 60));
-    // Rotate by day so the same 6 don't always show.
+    // Rotate by day so the same set doesn't always show.
     const start = (dayIndex * 6) % Math.max(1, top.length);
+    // Dedup-safe selection: cap at top.length and never push a duplicate.
+    // Previously, when top.length < 6, the modulo wrap produced repeated cards.
     const picked = [];
-    for (let i = 0; i < 6 && top.length; i++) picked.push(top[(start + i) % top.length]);
+    const want = Math.min(6, top.length);
+    for (let i = 0; i < want; i++) picked.push(top[(start + i) % top.length]);
     return picked;
   }
   function potdCardHTML(p, i) {
@@ -1554,7 +1557,11 @@
   function showSharedWardrobe(encoded) {
     let payload;
     try { payload = JSON.parse(b64url.dec(encoded)); } catch { toast('لینک کمد معتبر نیست'); return; }
-    const rows = [...(payload.f || []).map(id => ({ id, fav: true })), ...(payload.w || []).map(([id, st, r]) => ({ id, st, r }))];
+    // Defensive shape validation: payload.f and payload.w must be arrays.
+    // A crafted or truncated link (e.g. {"f":"abc"}) used to throw uncaught TypeError here.
+    const fArr = Array.isArray(payload && payload.f) ? payload.f : [];
+    const wArr = Array.isArray(payload && payload.w) ? payload.w : [];
+    const rows = [...fArr.map(id => ({ id, fav: true })), ...wArr.map(([id, st, r]) => ({ id, st, r }))];
     const seen = new Map();
     for (const r of rows) {
       const prev = seen.get(r.id) || { id: r.id };
@@ -1582,9 +1589,20 @@
     $('#swSave', dlg).onclick = () => {
       const statusMap = { o: 'owned', w: 'wishlist', t: 'tested', s: 'sold' };
       let n = 0;
+      const now = new Date().toISOString();
       for (const r of seen.values()) {
         if (r.fav) S.favs.add(r.id);
-        if (r.st) S.wardrobe[r.id] = { status: statusMap[r.st] || 'wishlist', note: '', updatedAt: new Date().toISOString() };
+        if (r.st) {
+          // Merge instead of overwrite: preserve any existing note/status the user already set.
+          // Previously this unconditionally replaced the entry with an empty note, losing user data.
+          const prev = S.wardrobe[r.id] || {};
+          const incomingStatus = statusMap[r.st] || 'wishlist';
+          S.wardrobe[r.id] = {
+            status: prev.status && prev.status !== 'wishlist' ? prev.status : incomingStatus,
+            note: prev.note || '',
+            updatedAt: now
+          };
+        }
         if (r.r) S.ratings[r.id] = Math.min(5, Math.max(1, r.r));
         if (r.fav || r.st) n++;
       }
