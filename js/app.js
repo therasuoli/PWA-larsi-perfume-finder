@@ -320,6 +320,17 @@
   }
 
   /* ================= home ================= */
+  /* Helper: hide a section-block when its inner rail is empty (v7.6.1).
+   * This prevents the large blank space that appears between the visible
+   * content and the bottom navigation when a rail has no data. */
+  function hideIfEmpty(railId, sectionEl) {
+    const rail = $('#' + railId);
+    if (!rail || !sectionEl) return;
+    // Trim innerHTML of whitespace; treat empty string or only fallback <p> as "no content"
+    const hasContent = rail.innerHTML.trim().length > 0 && !rail.querySelector('p.sub[style*="flex:none"]');
+    sectionEl.hidden = !hasContent;
+  }
+
   function renderHome() {
     // v7.6: Hero featured perfume of the day — rotates based on date
     const heroEl = $('#heroBottle'); if (heroEl) {
@@ -344,24 +355,79 @@
 
     $('#moods').innerHTML = MOODS.map(([label, fams], i) => `<button class="mood" type="button" data-mood="${i}" style="--liq:${famLiq(fams[0])}">${esc(label)}</button>`).join('') + `<button class="mood ghost2" type="button" id="giftBtn" style="background:transparent;color:var(--ink);border:1px solid var(--line)">${icon('spark')}هدیه می‌خواهم</button>`;
     const giftBtn = $('#giftBtn'); if (giftBtn) giftBtn.addEventListener('click', giftGuide);
-    const famCounts = new Map();
-    live.forEach(p => { const fams = [...new Set([p.family, p.family2].filter(Boolean))]; fams.forEach(f => famCounts.set(f, (famCounts.get(f) || 0) + 1)); });
-    const famList = [...famCounts].sort((a, b) => b[1] - a[1]);
-    $('#fams').innerHTML = famList.slice(0, 14).map(([f, c], i) => `<button class="fam" type="button" data-fam="${esc(f)}" style="--liq:${famLiq(f)}"><svg class="bottle" style="--liq:${famLiq(f)};--lv:${6 + i * 2.2}px" aria-hidden="true"><use href="#b"/></svg><b>${esc(FA.family(f))}</b><span>${fa(c)} عطر</span></button>`).join('');
+
+    /* ---- NEWEST rail ---- */
+    const newestSection = $('#newestSection');
     const withYear = live.filter(p => p.year).sort((a, b) => b.year - a.year).slice(0, 10);
-    $('#newest').innerHTML = withYear.length ? withYear.map(p => `<div class="rail-item">${cardHTML(p, 99)}<p class="sub" style="text-align:center;margin:6px 0 0">عرضه ${fa(p.year)}</p></div>`).join('')
-      : `<p class="sub" style="flex:none;max-width:230px">برای بیشتر عطرها سال عرضه ثبت نشده؛ از «خانواده‌های بویایی» یا جستجو شروع کن.</p>`;
+    if (withYear.length) {
+      $('#newest').innerHTML = withYear.map(p => `<div class="rail-item">${cardHTML(p, 99)}<p class="sub" style="text-align:center;margin:6px 0 0">عرضه ${fa(p.year)}</p></div>`).join('');
+      if (newestSection) newestSection.hidden = false;
+    } else if (newestSection) {
+      newestSection.hidden = true;   // hide the whole section-block, not just the rail
+    }
+
+    /* ---- BRANDS rail ---- */
+    const brandsSection = $('#brandsSection');
     const brandCounts = new Map();
     live.forEach(p => { if (p.brand !== UNKNOWN_BRAND && /^[A-Za-z0-9À-ÿ'&.\- ]+$/.test(p.brand)) brandCounts.set(p.brand, (brandCounts.get(p.brand) || 0) + 1); });
-    $('#brands').innerHTML = [...brandCounts].sort((a, b) => b[1] - a[1]).slice(0, 20).map(([b, c]) => `<button class="bx" type="button" data-brand="${esc(b)}"><span class="av">${esc(initials(b))}</span><b>${esc(b)}</b><span>${fa(c)} عطر</span></button>`).join('');
+    const brandList = [...brandCounts].sort((a, b) => b[1] - a[1]).slice(0, 20);
+    if (brandList.length) {
+      $('#brands').innerHTML = brandList.map(([b, c]) => `<button class="bx" type="button" data-brand="${esc(b)}"><span class="av">${esc(initials(b))}</span><b>${esc(b)}</b><span>${fa(c)} عطر</span></button>`).join('');
+      if (brandsSection) brandsSection.hidden = false;
+    } else if (brandsSection) {
+      brandsSection.hidden = true;
+    }
+
+    /* ---- COUNTRIES rail ---- */
+    const countriesSection = $('#countriesSection');
     const cCounts = new Map();
     live.forEach(p => { const c = countryOf(p); if (c) cCounts.set(c[1], (cCounts.get(c[1]) || 0) + 1); });
-    $('#countries').innerHTML = [...cCounts].sort((a, b) => b[1] - a[1]).map(([c, n]) => {
-      const entry = Object.values(COUNTRY).find(v => v[1] === c) || ['🌍', c];
-      return `<button class="bx cx" type="button" data-country="${esc(c)}"><span class="av" aria-hidden="true">${entry[0]}</span><b>${esc(c)}</b><span>${fa(n)} عطر</span></button>`;
-    }).join('');
+    const countryList = [...cCounts].sort((a, b) => b[1] - a[1]);
+    if (countryList.length) {
+      $('#countries').innerHTML = countryList.map(([c, n]) => {
+        const entry = Object.values(COUNTRY).find(v => v[1] === c) || ['🌍', c];
+        return `<button class="bx cx" type="button" data-country="${esc(c)}"><span class="av" aria-hidden="true">${entry[0]}</span><b>${esc(c)}</b><span>${fa(n)} عطر</span></button>`;
+      }).join('');
+      if (countriesSection) countriesSection.hidden = false;
+    } else if (countriesSection) {
+      countriesSection.hidden = true;
+    }
+
+    /* ---- FAMILIES rail (v7.6.1: fall back to Persian familyFa when English family is absent) ----
+       The Supabase rows currently store Persian family names (family_fa) but not the
+       English family keys that the PWA palette uses. To avoid showing an empty rail,
+       we group by whichever field is present. When grouping by familyFa, the chip
+       click will search for that Persian name instead of filtering by family. */
+    const famsSection = $('#famsSection');
+    const famCounts = new Map();
+    live.forEach(p => {
+      const fams = [...new Set([p.family, p.family2, p.familyFa].filter(Boolean))];
+      fams.forEach(f => famCounts.set(f, (famCounts.get(f) || 0) + 1));
+    });
+    const famList = [...famCounts].sort((a, b) => b[1] - a[1]).slice(0, 14);
+    if (famList.length) {
+      $('#fams').innerHTML = famList.map(([f, c], i) => {
+        // Display the Persian name when available, otherwise the English key
+        const label = FA.family(f) || f;
+        return `<button class="fam" type="button" data-fam="${esc(f)}" style="--liq:${famLiq(f)}"><svg class="bottle" style="--liq:${famLiq(f)};--lv:${6 + i * 2.2}px" aria-hidden="true"><use href="#b"/></svg><b>${esc(label)}</b><span>${fa(c)} عطر</span></button>`;
+      }).join('');
+      if (famsSection) famsSection.hidden = false;
+    } else if (famsSection) {
+      famsSection.hidden = true;
+    }
+
+    /* ---- WEATHER rail (rendered by renderWeatherRail; section hidden if empty) ---- */
     renderWeatherRail();
-    ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => autoplay($('#' + id)));
+    const wrailSection = $('#wrailSection');
+    if (wrailSection) {
+      // Defer the empty check until after renderWeatherRail has populated #wrail
+      setTimeout(() => {
+        const wrail = $('#wrail');
+        if (wrailSection) wrailSection.hidden = !(wrail && wrail.innerHTML.trim().length > 0);
+      }, 50);
+    }
+
+    ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => { const el = $('#' + id); if (el && !el.parentElement.hidden) autoplay(el); });
     markReadyImages($('#v-home'));
   }
 

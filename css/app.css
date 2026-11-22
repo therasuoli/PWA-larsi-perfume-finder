@@ -377,23 +377,27 @@ dialog.dragging { transition: none; animation: none; transform: translateY(var(-
 /* lightbox — full-screen overlay with arrow controls ON the image (Instagram-style).
    The close button stays in the top corner (within reach of a thumb),
    but the prev/next arrows are positioned at the left/right edges of the image
-   so the user doesn't have to reach for the top bar. */
-dialog.lb { max-width: 100%; width: 100%; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0; background: rgba(8, 16, 13, .96); display: grid; align-content: space-between; overflow: hidden }
+   so the user doesn't have to reach for the top bar.
+   BUG FIX (v7.6.1): `<dialog>` elements default to `display: none`, but our previous
+   `display: grid` declaration overrode that, leaving the lightbox visible even when
+   closed. Now we only set `display: grid` when the `[open]` attribute is present. */
+dialog.lb { max-width: 100%; width: 100%; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0; background: rgba(8, 16, 13, .96); overflow: hidden; display: none }
+dialog.lb[open] { display: grid; align-content: space-between }
 .lb img { display: block; margin: auto; max-width: 100%; max-height: 76dvh; object-fit: contain }
 .lb-tools { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 18px; color: #fff; z-index: 2 }
 .lb-tools .round { background: rgba(255, 255, 255, .12); border-color: rgba(255, 255, 255, .25); color: #fff; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px) }
 .lb-tools .round:hover { background: rgba(255, 255, 255, .22) }
-/* Prev/Next arrow buttons — float over the image's left and right edges.
-   These are visually distinct from the top-bar buttons (close), so the user
-   knows they navigate the gallery, not the modal. */
-.lb-nav { position: fixed; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .25); color: #fff; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); cursor: pointer; z-index: 3; transition: background .15s ease, transform .15s ease }
+/* Prev/Next arrow buttons — only visible when the lightbox is open.
+   They're `position: fixed` so they need their own visibility rule tied to dialog[open]. */
+.lb-nav { position: fixed; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; display: none; place-items: center; background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .25); color: #fff; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); cursor: pointer; z-index: 3; transition: background .15s ease, transform .15s ease }
+dialog.lb[open] ~ .lb-nav, dialog.lb[open] .lb-nav { display: grid }
 .lb-nav:hover { background: rgba(255, 255, 255, .26); transform: translateY(-50%) scale(1.06) }
 .lb-nav:active { transform: translateY(-50%) scale(.96) }
 .lb-nav.prev { inset-inline-start: 16px }
 .lb-nav.next { inset-inline-end: 16px }
 /* Hide the in-image nav buttons on very narrow screens — swipe is the only sensible input there */
 @media (max-width: 480px) {
-  .lb-nav { display: none }
+  .lb-nav { display: none !important }
 }
 .lb-cap { color: #d8e2da; text-align: center; padding: 0 18px 10px; font-size: .875rem }
 

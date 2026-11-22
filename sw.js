@@ -1,5 +1,5 @@
-/* Larsi Perfume Finder — Service Worker v7.6.0; bundled JSON catalogue + identify module */
-const VERSION = '7.6.0';
+/* Larsi Perfume Finder — Service Worker v7.6.1; bundled JSON catalogue + identify module */
+const VERSION = '7.6.1';
 const SHELL = `lpf-${VERSION}-shell`;
 const IMG = 'lpf-images-v2';
 const CORE = [
