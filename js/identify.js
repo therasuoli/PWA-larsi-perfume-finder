@@ -1,31 +1,24 @@
-/* Larsi Perfume Finder — Smart Image Identification (v7.7 — PRODUCTION FIX)
+/* Larsi Perfume Finder — Smart Image Identification (v7.8)
  *
- * DIAGNOSIS OF v7.6 BUG:
- *   The previous version matched uploaded images against `p.family` (English keys
- *   like 'Amber & Resin'), but the Supabase catalogue only stores `familyFa`
- *   (Persian names like 'عنبری'). As a result, `p.family` was always undefined
- *   and the matcher never returned any results.
+ * DUAL-MODE IDENTIFICATION:
+ *   1. AI Vision (preferred): sends image to Supabase Edge Function which calls
+ *      a vision model to identify the perfume. Image is NOT stored — only processed.
+ *   2. Client-side fallback: analyses dominant colour on-device using canvas,
+ *      matches against the catalogue's family colour palette.
  *
- * v7.7 FIX:
- *   1. Build a Persian→English family mapping so we can still use the FAM_LIQ palette.
- *   2. Also match by IMAGE COLOUR similarity — pre-compute a dominant colour for
- *      every perfume that has an image URL, then compare the uploaded photo's
- *      dominant colour to each perfume's pre-computed colour. This is true
- *      image-to-image matching and works even when family data is missing.
- *   3. Add proper validation, loading states, retry logic and error feedback.
+ * PRIVACY: Images are sent to the Edge Function for processing only. They are
+ * never stored in Supabase Storage, IndexedDB, or localStorage. The Edge
+ * Function receives the image as base64, processes it, and discards it.
  *
  * PIPELINE:
- *   upload → validate (type/size/format) → preprocess (canvas downscale)
- *   → sample dominant colour → match against pre-computed palette + family
- *   → rank candidates → render results with confidence scores
- *
- * PRIVACY: 100% on-device. No image is ever uploaded to a server.
+ *   upload → validate (type/size) → try AI vision → fallback to colour matching
+ *   → match against catalogue → render results with confidence scores
  */
 (function () {
   'use strict';
   const LPF = (window.LPF = window.LPF || {});
 
-  // ─── Family colour palette (English keys → hex) ───────────────────────────
+  // ─── Family colour palette ───────────────────────────────────────────────
   const FAM_LIQ = {
     'Wood & Root': '#8A5A3B', 'White Bloom': '#D4A5B5', 'Petal Garden': '#C8648A', 'Sunlit Citrus': '#8FAE2E',
     'Green Leaf': '#3F8A68', 'Velvet Sweet': '#B5652D', 'Spice Route': '#A64828', 'Orchard Fruit': '#C24E3A',
@@ -34,9 +27,6 @@
   };
 
   // ─── Persian → English family mapping ─────────────────────────────────────
-  // Maps the Persian family names stored in Supabase (familyFa) to the English
-  // keys used by FAM_LIQ. When a Persian name contains one of these substrings,
-  // it maps to the corresponding English family.
   const FA_FA_MAP = [
     { en: 'Wood & Root',      fa: ['چوبی', 'چوب', 'woody', 'woods'] },
     { en: 'White Bloom',      fa: ['سفید', 'شکوفه سفید', 'white floral', 'white bloom'] },
@@ -54,7 +44,6 @@
     { en: 'Oud Court',        fa: ['عود', 'oud', 'شرقی', 'oriental'] }
   ];
 
-  /** Maps a Persian family name to an English FAM_LIQ key (or null if no match). */
   function mapFamilyFa(fa) {
     if (!fa) return null;
     const lower = String(fa).toLowerCase();
@@ -88,13 +77,10 @@
     }
     return [h * 360, s * 100, l * 100];
   };
-  /** Weighted colour distance using HSL — better perceptual matching than raw RGB. */
   const colourDistance = (a, b) => {
     const [ha, sa, la] = rgbToHsl(a[0], a[1], a[2]);
     const [hb, sb, lb] = rgbToHsl(b[0], b[1], b[2]);
-    // Hue is circular — compute shortest angular distance
     let dh = Math.abs(ha - hb); if (dh > 180) dh = 360 - dh;
-    // Weighted Euclidean in HSL space (hue most important, then saturation, then lightness)
     return Math.sqrt(dh * dh * 1.0 + (sa - sb) * (sa - sb) * 0.5 + (la - lb) * (la - lb) * 0.3);
   };
   const nearestFamily = (rgb) => {
@@ -107,132 +93,118 @@
     return { family: best, similarity, distance: bestD };
   };
 
-  // ─── Image loading + validation ───────────────────────────────────────────
-  const ACCEPTED_TYPES = ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/bmp'];
-  const MAX_FILE_SIZE = 8 * 1024 * 1024; // 8 MB
+  // ─── File validation ──────────────────────────────────────────────────────
+  const ACCEPTED_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp', 'image/gif', 'image/bmp'];
+  const MAX_FILE_SIZE = 8 * 1024 * 1024;
 
-  /**
-   * Validates an uploaded file before processing.
-   * @returns {{ok: boolean, error?: string, message?: string}}
-   */
   function validateFile(file) {
     if (!file) return { ok: false, error: 'no-file', message: 'هیچ فایلی انتخاب نشده است.' };
-    if (!file.type.startsWith('image/')) return { ok: false, error: 'not-image', message: 'فایل باید تصویر باشد.' };
-    if (!ACCEPTED_TYPES.includes(file.type) && file.type !== 'image/jpeg') {
-      return { ok: false, error: 'unsupported-format', message: 'فرمت‌های مجاز: JPG، PNG، WEBP، GIF.' };
+    if (!file.type || !file.type.startsWith('image/')) {
+      return { ok: false, error: 'not-image', message: 'فایل باید تصویر باشد.' };
     }
-    if (file.size > MAX_FILE_SIZE) return { ok: false, error: 'too-large', message: 'حجم فایل باید کمتر از ۸ مگابایت باشد.' };
-    if (file.size < 1024) return { ok: false, error: 'too-small', message: 'فایل خیلی کوچک است.' };
+    if (!ACCEPTED_TYPES.includes(file.type) && file.type !== 'image/jpeg') {
+      return { ok: false, error: 'unsupported-format', message: 'فرمت‌های مجاز: JPG، PNG، WEBP.' };
+    }
+    if (file.size > MAX_FILE_SIZE) {
+      return { ok: false, error: 'too-large', message: 'حجم فایل باید کمتر از ۸ مگابایت باشد.' };
+    }
+    if (file.size < 100) {
+      return { ok: false, error: 'too-small', message: 'فایل خیلی کوچک یا خراب است.' };
+    }
     return { ok: true };
   }
 
-  /** Loads a File into an <img> element (with proper cleanup). */
+  // ─── Image loading ───────────────────────────────────────────────────────
   function loadImage(file) {
     return new Promise((resolve, reject) => {
       const url = URL.createObjectURL(file);
       const img = new Image();
-      img.onload = () => { resolve(img); URL.revokeObjectURL(url); };
+      img.crossOrigin = 'anonymous';
+      img.onload = () => { resolve(img); /* keep URL alive for canvas ops */ };
       img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('load-failed')); };
       img.src = url;
     });
   }
 
-  // ─── Colour sampling ────────────────────────────────────────────────────
-  /**
-   * Samples the dominant "liquor" colour from a perfume bottle photo.
-   * Uses a centre-weighted, saturation-weighted average over a 96×96 downscale.
-   */
+  // ─── Client-side colour sampling ──────────────────────────────────────────
   function sampleDominantColour(img) {
-    const SIZE = 96;
-    const canvas = document.createElement('canvas');
-    canvas.width = SIZE; canvas.height = SIZE;
-    const ctx = canvas.getContext('2d', { willReadFrequently: true });
-    ctx.drawImage(img, 0, 0, SIZE, SIZE);
-    const data = ctx.getImageData(0, 0, SIZE, SIZE).data;
-    let rSum = 0, gSum = 0, bSum = 0, weight = 0;
-    const cx = SIZE / 2, cy = SIZE / 2, innerR = SIZE * 0.32;
-    for (let y = 0; y < SIZE; y++) {
-      for (let x = 0; x < SIZE; x++) {
-        const i = (y * SIZE + x) * 4;
-        const r = data[i], g = data[i + 1], b = data[i + 2], a = data[i + 3];
-        if (a < 128) continue;
-        const dx = x - cx, dy = y - cy;
-        if (dx * dx + dy * dy > innerR * innerR) continue;
-        const [h, s, l] = rgbToHsl(r, g, b);
-        if (l < 10 || l > 90) continue;
-        if (s < 10) continue;
-        const w = s / 100;
-        rSum += r * w; gSum += g * w; bSum += b * w; weight += w;
+    try {
+      const SIZE = 96;
+      const canvas = document.createElement('canvas');
+      canvas.width = SIZE; canvas.height = SIZE;
+      const ctx = canvas.getContext('2d', { willReadFrequently: true });
+      ctx.drawImage(img, 0, 0, SIZE, SIZE);
+      const data = ctx.getImageData(0, 0, SIZE, SIZE).data;
+      let rSum = 0, gSum = 0, bSum = 0, weight = 0;
+      const cx = SIZE / 2, cy = SIZE / 2, innerR = SIZE * 0.32;
+      for (let y = 0; y < SIZE; y++) {
+        for (let x = 0; x < SIZE; x++) {
+          const i = (y * SIZE + x) * 4;
+          const r = data[i], g = data[i + 1], b = data[i + 2], a = data[i + 3];
+          if (a < 128) continue;
+          const dx = x - cx, dy = y - cy;
+          if (dx * dx + dy * dy > innerR * innerR) continue;
+          const [h, s, l] = rgbToHsl(r, g, b);
+          if (l < 10 || l > 90) continue;
+          if (s < 8) continue;
+          const w = s / 100;
+          rSum += r * w; gSum += g * w; bSum += b * w; weight += w;
+        }
       }
-    }
-    if (!weight) {
-      // Fallback: average the entire centre circle regardless of saturation
-      for (let y = 0; y < SIZE; y++) for (let x = 0; x < SIZE; x++) {
-        const i = (y * SIZE + x) * 4;
-        const dx = x - cx, dy = y - cy;
-        if (dx * dx + dy * dy > innerR * innerR) continue;
-        rSum += data[i]; gSum += data[i + 1]; bSum += data[i + 2]; weight++;
+      if (!weight) {
+        // Fallback: average the entire centre
+        for (let y = 0; y < SIZE; y++) for (let x = 0; x < SIZE; x++) {
+          const i = (y * SIZE + x) * 4;
+          const dx = x - cx, dy = y - cy;
+          if (dx * dx + dy * dy > innerR * innerR) continue;
+          rSum += data[i]; gSum += data[i + 1]; bSum += data[i + 2]; weight++;
+        }
       }
+      if (!weight) return null;
+      return [Math.round(rSum / weight), Math.round(gSum / weight), Math.round(bSum / weight)];
+    } catch (e) {
+      console.warn('sampleDominantColour error:', e);
+      return null;
     }
-    if (!weight) return null;
-    return [Math.round(rSum / weight), Math.round(gSum / weight), Math.round(bSum / weight)];
   }
 
-  /** Detects dark "cap" region at the top of the bottle. */
   function detectCapRatio(img) {
-    const W = 48, H = 48;
-    const canvas = document.createElement('canvas');
-    canvas.width = W; canvas.height = H;
-    const ctx = canvas.getContext('2d', { willReadFrequently: true });
-    ctx.drawImage(img, 0, 0, W, H);
-    const data = ctx.getImageData(0, 0, W, H).data;
-    let dark = 0, total = 0;
-    for (let y = 0; y < H * 0.25; y++) {
-      for (let x = 0; x < W; x++) {
-        const i = (y * W + x) * 4;
-        const l = (data[i] + data[i + 1] + data[i + 2]) / 3;
-        if (l < 60) dark++;
-        total++;
+    try {
+      const W = 48, H = 48;
+      const canvas = document.createElement('canvas');
+      canvas.width = W; canvas.height = H;
+      const ctx = canvas.getContext('2d', { willReadFrequently: true });
+      ctx.drawImage(img, 0, 0, W, H);
+      const data = ctx.getImageData(0, 0, W, H).data;
+      let dark = 0, total = 0;
+      for (let y = 0; y < H * 0.25; y++) {
+        for (let x = 0; x < W; x++) {
+          const i = (y * W + x) * 4;
+          const l = (data[i] + data[i + 1] + data[i + 2]) / 3;
+          if (l < 60) dark++;
+          total++;
+        }
       }
-    }
-    return dark / total;
+      return dark / total;
+    } catch { return 0; }
   }
 
-  // ─── Pre-computed colour cache ───────────────────────────────────────────
-  // When the PWA loads the catalogue, we pre-compute a dominant colour for each
-  // perfume that has an image URL. This is done off-main-thread (Web Worker)
-  // or lazily on first identify() call. The cache is stored in memory.
-  const colourCache = new Map(); // id → [r, g, b]
+  // ─── Colour cache for catalogue matching ───────────────────────────────────
+  const colourCache = new Map();
   let cacheBuilt = false;
 
-  /**
-   * Pre-computes dominant colours for all catalogue items with images.
-   * Called once after the catalogue loads. Uses the SVG bottle colour as a
-   * fallback when no real image is available.
-   */
   function buildColourCache(items) {
     if (cacheBuilt) return;
     cacheBuilt = true;
     for (const p of items) {
       if (p.deleted) continue;
-      // Use the family palette colour as the perfume's "representative" colour
-      // when we don't have a real image to sample. This is a reasonable proxy
-      // because the family palette was designed to match bottle liquor colours.
       const famEn = p.family || mapFamilyFa(p.familyFa);
       const hex = FAM_LIQ[famEn] || '#999999';
       colourCache.set(p.id, hexToRgb(hex));
     }
   }
 
-  // ─── Catalogue matching (FIXED) ──────────────────────────────────────────
-  /**
-   * v7.7 FIX: Now matches by BOTH family colour AND per-perfume colour cache.
-   * Previously only checked `p.family` (English) which was always undefined.
-   * Now:
-   *   1. Maps `familyFa` (Persian) → English family key via FA_FA_MAP.
-   *   2. Uses the per-perfume colour cache for image-to-image colour matching.
-   *   3. Combines family match + colour distance + popularity into a score.
-   */
+  // ─── Client-side catalogue matching ──────────────────────────────────────
   function matchCatalogue(items, liquorRgb, capRatio, opts) {
     if (!items || !items.length || !liquorRgb) return [];
     const maxResults = (opts && opts.maxResults) || 8;
@@ -243,19 +215,15 @@
       if (p.deleted) continue;
       const reasons = [];
       let score = 0;
-      // 1. Family match via Persian→English mapping (THE FIX)
       const famEn = p.family || mapFamilyFa(p.familyFa);
-      if (famEn === famMatch.family) {
-        score += 35; reasons.push('خانوادهٔ بویایی هم‌رنگ بطری');
-      } else if (famEn) {
-        // Partial credit for being in a related family (same hue range)
+      if (famEn === famMatch.family) { score += 35; reasons.push('خانوادهٔ بویایی هم‌رنگ بطری'); }
+      else if (famEn) {
         const famHex = FAM_LIQ[famEn];
         if (famHex) {
           const d = colourDistance(liquorRgb, hexToRgb(famHex));
           if (d < 60) { score += 15; reasons.push('خانوادهٔ نزدیک در رنگ'); }
         }
       }
-      // 2. Per-perfume colour similarity (image-to-image)
       const cachedColour = colourCache.get(p.id);
       if (cachedColour) {
         const d = colourDistance(liquorRgb, cachedColour);
@@ -263,11 +231,8 @@
         score += colourSim * 0.35;
         if (colourSim > 60) reasons.push(`${Math.round(colourSim)}٪ شباهت رنگی`);
       }
-      // 3. Popularity tiebreaker
       if (p.rank && p.rank < 500) score += Math.max(0, 8 - p.rank / 100);
-      // 4. Image present bonus
       if (LPF.repo && LPF.repo.images && LPF.repo.images.get(p)) score += 4;
-      // 5. Notes match (if the perfume has top notes, give a small bonus)
       if (p.top && p.top.length) score += 2;
       if (score >= 20) candidates.push({ p, score: Math.min(100, Math.round(score)), reasons });
     }
@@ -275,54 +240,200 @@
     return candidates.slice(0, maxResults);
   }
 
-  // ─── Public API ──────────────────────────────────────────────────────────
+  // ─── AI Vision via Edge Function ──────────────────────────────────────────
   /**
-   * Full identification pipeline: file → validate → load → sample → match.
-   * @param {File} file — uploaded image file
-   * @param {Array} items — catalogue items (LPF.repo / live array)
-   * @param {object} opts — { maxResults }
-   * @returns {Promise<object>} result with ok, liquorHex, family, results[]
+   * Sends the image to the Supabase Edge Function for AI-powered identification.
+   * The image is converted to base64 and sent in the request body. The Edge
+   * Function processes it with a vision model and returns the identification
+   * WITHOUT storing the image anywhere.
+   *
+   * @returns {Promise<object|null>} — { ok, brand, name, notes, confidence }
+   *          or null if the Edge Function is not deployed / fails.
+   */
+  async function identifyByAI(file) {
+    const cfg = LPF.config || {};
+    const functionsBase = cfg.supabase && cfg.supabase.functionsBase;
+    if (!functionsBase) return null;
+
+    // Convert file to base64 (strip the data URL prefix)
+    const base64 = await fileToBase64(file);
+    if (!base64) return null;
+
+    try {
+      const res = await fetch(functionsBase + '/identify-perfume', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          image: base64,
+          mimeType: file.type,
+          // Pass the catalogue's brand+name list so the AI can match against it
+          catalogue: (LPF._catalogueHints || []).slice(0, 500)
+        }),
+        signal: AbortSignal.timeout(30000)
+      });
+      if (!res.ok) {
+        console.warn('AI identify HTTP', res.status);
+        return null;
+      }
+      const data = await res.json();
+      if (data.error) {
+        console.warn('AI identify error:', data.error);
+        return null;
+      }
+      return {
+        ok: true,
+        method: 'ai-vision',
+        brand: data.brand || null,
+        name: data.name || null,
+        notes: data.notes || null,
+        accords: data.accords || null,
+        confidence: data.confidence || 70,
+        description: data.description || null
+      };
+    } catch (e) {
+      console.warn('AI identify failed:', e.message);
+      return null;
+    }
+  }
+
+  /** Converts a File to a base64 string (without data URL prefix). */
+  function fileToBase64(file) {
+    return new Promise((resolve) => {
+      try {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const result = String(reader.result || '');
+          // Strip "data:image/jpeg;base64," prefix
+          const base64 = result.split(',')[1] || result;
+          resolve(base64);
+        };
+        reader.onerror = () => resolve(null);
+        reader.readAsDataURL(file);
+      } catch { resolve(null); }
+    });
+  }
+
+  // ─── Main identify pipeline ──────────────────────────────────────────────
+  /**
+   * Full identification pipeline:
+   *   1. Validate the file
+   *   2. Try AI vision (Edge Function) — if deployed, this gives the best result
+   *   3. Fall back to client-side colour matching
+   *   4. Match against the catalogue
+   *   5. Return ranked candidates
+   *
+   * @param {File} file — uploaded image
+   * @param {Array} items — catalogue items
+   * @param {object} opts — { maxResults, useAI }
+   * @returns {Promise<object>} result
    */
   async function identify(file, items, opts) {
     // Step 1: validate
     const validation = validateFile(file);
     if (!validation.ok) {
-      return { ok: false, error: validation.error, message: validation.message, results: [] };
+      return { ok: false, error: validation.error, message: validation.message, results: [], method: 'none' };
     }
-    // Step 2: load image (with retry)
+
+    const maxResults = (opts && opts.maxResults) || 8;
+    const useAI = opts && opts.useAI !== false; // default: try AI
+
+    // Step 2: try AI vision (preferred path)
+    if (useAI) {
+      const aiResult = await identifyByAI(file);
+      if (aiResult && aiResult.ok) {
+        // Match the AI result against the catalogue to find the best candidate
+        const matched = matchAIResultToCatalogue(aiResult, items, maxResults);
+        return {
+          ok: matched.length > 0,
+          method: 'ai-vision',
+          aiResult,
+          liquorHex: null,
+          family: matched[0]?.p ? (matched[0].p.family || mapFamilyFa(matched[0].p.familyFa)) : null,
+          results: matched,
+          message: matched.length === 0 ? 'هوش مصنوعی عطر را شناسایی کرد اما در بانک پیدا نشد. نتیجه را ببینید.' : null
+        };
+      }
+    }
+
+    // Step 3: fall back to client-side colour matching
     let img;
     try {
       img = await loadImage(file);
     } catch (e) {
-      return { ok: false, error: 'load-failed', message: 'بارگذاری تصویر ناموفق بود. دوباره امتحان کن.', results: [] };
+      return { ok: false, error: 'load-failed', message: 'بارگذاری تصویر ناموفق بود. عکس دیگری امتحان کن.', results: [], method: 'none' };
     }
-    // Step 3: sample dominant colour
+
     const liquor = sampleDominantColour(img);
     if (!liquor) {
-      return { ok: false, error: 'no-colour', message: 'نتوانستیم رنگ غالب را تشخیص دهیم. عکس با نور بهتر امتحان کن.', results: [] };
+      return { ok: false, error: 'no-colour', message: 'نتوانستیم رنگ غالب را تشخیص دهیم. عکس با نور بهتر امتحان کن.', results: [], method: 'none' };
     }
-    // Step 4: detect cap (for bottle shape heuristic)
+
     const capRatio = detectCapRatio(img);
-    // Step 5: match against catalogue
-    const results = matchCatalogue(items, liquor, capRatio, opts);
+    const results = matchCatalogue(items, liquor, capRatio, { maxResults });
     const famMatch = nearestFamily(liquor);
+
     return {
       ok: results.length > 0,
+      method: 'colour-analysis',
       liquorHex: rgbToHex(liquor[0], liquor[1], liquor[2]),
       liquorRgb: liquor,
       capRatio,
       family: famMatch.family,
       familySimilarity: famMatch.similarity,
       results,
-      // If no results, provide a helpful message
       message: results.length === 0 ? 'هیچ تطبیقی پیدا نشد. عکس دیگری از زاویهٔ روبرو با نور طبیعی امتحان کن.' : null
     };
   }
 
+  /**
+   * Matches an AI vision result (brand + name) against the catalogue.
+   * Returns ranked candidates with confidence scores.
+   */
+  function matchAIResultToCatalogue(aiResult, items, maxResults) {
+    if (!aiResult || !items || !items.length) return [];
+    const brandNorm = aiResult.brand ? aiResult.brand.toLowerCase().trim() : '';
+    const nameNorm = aiResult.name ? aiResult.name.toLowerCase().trim() : '';
+    const candidates = [];
+
+    for (const p of items) {
+      if (p.deleted) continue;
+      let score = 0;
+      const reasons = [];
+      // Brand match (strongest signal)
+      if (brandNorm && p.brand) {
+        const pBrand = p.brand.toLowerCase().trim();
+        if (pBrand === brandNorm) { score += 50; reasons.push('برند دقیقاً مطابق'); }
+        else if (pBrand.includes(brandNorm) || brandNorm.includes(pBrand)) { score += 35; reasons.push('برند مشابه'); }
+        else if (pBrand.split(/\s+/).some(w => brandNorm.includes(w) && w.length > 3)) { score += 20; reasons.push('برند نزدیک'); }
+      }
+      // Name match
+      if (nameNorm && p.name) {
+        const pName = p.name.toLowerCase().trim();
+        if (pName === nameNorm) { score += 40; reasons.push('نام دقیقاً مطابق'); }
+        else if (pName.includes(nameNorm) || nameNorm.includes(pName)) { score += 25; reasons.push('نام مشابه'); }
+        else {
+          // Word-level overlap
+          const aiWords = nameNorm.split(/\s+/).filter(w => w.length > 2);
+          const pWords = pName.split(/\s+/).filter(w => w.length > 2);
+          const overlap = aiWords.filter(w => pWords.some(pw => pw.includes(w) || w.includes(pw)));
+          if (overlap.length) { score += overlap.length * 8; reasons.push(`کلمات مشترک: ${overlap.slice(0, 3).join('، ')}`); }
+        }
+      }
+      // Popularity + image bonus
+      if (p.rank && p.rank < 500) score += Math.max(0, 8 - p.rank / 100);
+      if (LPF.repo && LPF.repo.images && LPF.repo.images.get(p)) score += 3;
+      if (score >= 15) candidates.push({ p, score: Math.min(100, Math.round(score + aiResult.confidence * 0.2)), reasons });
+    }
+    candidates.sort((a, b) => b.score - a.score || (a.p.rank || 1e9) - (b.p.rank || 1e9));
+    return candidates.slice(0, maxResults);
+  }
+
+  // ─── Public API ──────────────────────────────────────────────────────────
   LPF.identify = {
     FAM_LIQ, FA_FA_MAP, mapFamilyFa,
     hexToRgb, rgbToHex, rgbToHsl, colourDistance, nearestFamily,
     validateFile, loadImage, sampleDominantColour, detectCapRatio,
-    buildColourCache, matchCatalogue, identify
+    buildColourCache, matchCatalogue, identifyByAI, matchAIResultToCatalogue,
+    fileToBase64, identify
   };
 })();

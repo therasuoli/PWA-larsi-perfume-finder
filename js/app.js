@@ -490,13 +490,15 @@
     if (preview) preview.src = URL.createObjectURL(file);
     result.hidden = false;
     drop.hidden = true;
-    // Show "analysing..." in the analysis panel
+    // Show "analysing..." in the analysis panel — with AI badge
     const analysis = $('#idAnalysis');
-    if (analysis) analysis.innerHTML = `<h3>در حال تحلیل تصویر…</h3><div class="dots"><i></i><i></i><i></i></div>`;
+    if (analysis) analysis.innerHTML = `<h3>در حال تحلیل هوشمند تصویر…</h3>
+      <p class="hint">تصویر برای شناسایی به هوش مصنوعی ارسال می‌شود ولی ذخیره نمی‌گردد.</p>
+      <div class="dots"><i></i><i></i><i></i></div>`;
     try {
-      // Small delay so the user sees the analysis happening (UX feedback)
-      await new Promise(r => setTimeout(r, 600));
-      const res = await LPF.identify.identify(file, live, { maxResults: 6 });
+      // Build catalogue hints for the AI (brand + name pairs)
+      LPF._catalogueHints = live.slice(0, 500).map(p => ({ brand: p.brand, name: p.name }));
+      const res = await LPF.identify.identify(file, live, { maxResults: 6, useAI: true });
       idState.lastResult = res;
       renderIdentifyResult(res);
     } catch (e) {
@@ -512,27 +514,52 @@
     const similar = $('#idSimilar');
     if (!analysis || !best || !bestCard || !others || !othersGrid) return;
     if (!res.ok) {
-      analysis.innerHTML = `<h3>تشخیص داده نشد</h3>
-        <p class="muted">نتوانستیم عطر را با اطمینان شناسایی کنیم. این ممکن است به این دلیل باشد:</p>
-        <ul style="margin:6px 0;padding-inline-start:18px;color:var(--mut);font-size:.875rem">
-          <li>عکس تاریک یا تار است</li>
-          <li>بطری در زاویه‌ای غیر از روبرو قرار دارد</li>
-          <li>عطر در بانک ما نیست</li>
-        </ul>
-        <p class="hint">سعی کن عکس با نور طبیعی و از روبرو باشد.</p>`;
-      best.hidden = true; others.hidden = true; similar.hidden = true;
+      // If AI identified something but it's not in our catalogue, show the AI result anyway
+      if (res.aiResult && (res.aiResult.brand || res.aiResult.name)) {
+        analysis.innerHTML = `<h3>نتیجهٔ هوش مصنوعی</h3>
+          <p>هوش مصنوعی این عطر را شناسایی کرد:</p>
+          <div class="swatch" style="margin:8px 0">
+            <b style="font-size:1.1rem;color:var(--acc)">${esc(res.aiResult.brand || '')} ${esc(res.aiResult.name || '')}</b>
+          </div>
+          ${res.aiResult.description ? `<p class="muted" style="font-size:.8125rem">${esc(res.aiResult.description)}</p>` : ''}
+          ${res.aiResult.notes && res.aiResult.notes.length ? `<div class="chips" style="margin:8px 0">${res.aiResult.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div>` : ''}
+          <p class="hint">این عطر در بانک لارسی نیست. می‌توانی با جستجوی دستی عطرهای مشابه را پیدا کنی.</p>`;
+        best.hidden = true; others.hidden = true; similar.hidden = true;
+      } else if (!res.ok) {
+        analysis.innerHTML = `<h3>تشخیص داده نشد</h3>
+          <p class="muted">نتوانستیم عطر را با اطمینان شناسایی کنیم. این ممکن است به این دلیل باشد:</p>
+          <ul style="margin:6px 0;padding-inline-start:18px;color:var(--mut);font-size:.875rem">
+            <li>عکس تاریک یا تار است</li>
+            <li>بطری در زاویه‌ای غیر از روبرو قرار دارد</li>
+            <li>عطر در بانک ما نیست</li>
+          </ul>
+          <p class="hint">سعی کن عکس با نور طبیعی و از روبرو باشد.</p>`;
+        best.hidden = true; others.hidden = true; similar.hidden = true;
+      }
       return;
     }
-    // Analysis panel: show detected colour + predicted family
-    const famName = FA.family(res.family) || res.family;
-    analysis.innerHTML = `
-      <h3>تحلیل تصویر</h3>
-      <div class="swatch"><i style="background:${res.liquorHex}"></i><span>رنگ غالب بطری: <b style="color:var(--ink);font-family:monospace;direction:ltr">${esc(res.liquorHex)}</b></span></div>
-      <div class="swatch"><i style="background:${famLiq(res.family)}"></i><span>خانوادهٔ پیش‌بینی‌شده: <b style="color:var(--ink)">${esc(famName)}</b> (${fa(res.familySimilarity)}٪ شباهت)</span></div>
-      <div class="stat-row">
-        <div class="stat"><b>${fa(res.results.length)}</b><span>نتیجهٔ кандидا</span></div>
-        <div class="stat"><b>${fa(res.capRatio > 0.3 ? '✓' : '—')}</b><span>کلاه بطری شناسایی شد</span></div>
-      </div>`;
+    // ─── Analysis panel: show method + detected info ──────────────────────
+    if (res.method === 'ai-vision' && res.aiResult) {
+      const ai = res.aiResult;
+      analysis.innerHTML = `
+        <h3>تحلیل هوش مصنوعی ✨</h3>
+        ${ai.brand ? `<div class="swatch"><b style="color:var(--ink);font-size:.9375rem">برند: ${esc(ai.brand)}</b></div>` : ''}
+        ${ai.name ? `<div class="swatch"><b style="color:var(--ink);font-size:.9375rem">نام: ${esc(ai.name)}</b></div>` : ''}
+        ${ai.confidence ? `<div class="stat-row"><div class="stat"><b>${fa(ai.confidence)}٪</b><span>اطمینان</span></div></div>` : ''}
+        ${ai.notes && ai.notes.length ? `<div style="margin:8px 0"><small style="color:var(--mut)">نت‌های شناسایی‌شده:</small><div class="chips" style="margin:4px 0">${ai.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div></div>` : ''}
+        ${ai.description ? `<p class="muted" style="font-size:.8125rem">${esc(ai.description)}</p>` : ''}`;
+    } else {
+      // Colour analysis fallback
+      const famName = FA.family(res.family) || res.family;
+      analysis.innerHTML = `
+        <h3>تحلیل رنگ تصویر</h3>
+        <div class="swatch"><i style="background:${res.liquorHex}"></i><span>رنگ غالب بطری: <b style="color:var(--ink);font-family:monospace;direction:ltr">${esc(res.liquorHex)}</b></span></div>
+        <div class="swatch"><i style="background:${famLiq(res.family)}"></i><span>خانوادهٔ پیش‌بینی‌شده: <b style="color:var(--ink)">${esc(famName)}</b> (${fa(res.familySimilarity)}٪ شباهت)</span></div>
+        <div class="stat-row">
+          <div class="stat"><b>${fa(res.results.length)}</b><span>نتیجه</span></div>
+          <div class="stat"><b>${fa(res.capRatio > 0.3 ? '✓' : '—')}</b><span>کلاه شناسایی شد</span></div>
+        </div>`;
+    }
     // Best match card
     if (res.results.length) {
       const top = res.results[0];
@@ -1469,7 +1496,7 @@
     startTimers();
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
     LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
-    LPF.agent.init(live, FA, S.disliked, openDetail);
+    LPF.agent.init(live, FA, S.disliked, openDetail, ST);
 
     // Speed: delta sync deferred to idle so it never blocks the first interaction
     if (cacheAge >= (cfg.data.syncIntervalHours || 6) * 3600000) {
@@ -1477,7 +1504,7 @@
         if (!res || !res.items) return;
         items = res.items; buildIndex(); buildFilterOptions(); renderHome(); syncFilterUI(); render(); updateTray();
         LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
-        LPF.agent.init(live, FA, S.disliked, openDetail);
+        LPF.agent.init(live, FA, S.disliked, openDetail, ST);
       }).catch(() => { });
       // Use requestIdleCallback so the sync doesn't compete with the user's first scroll
       if (window.requestIdleCallback) requestIdleCallback(runSync, { timeout: 4000 });
