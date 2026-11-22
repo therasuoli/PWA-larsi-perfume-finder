@@ -44,24 +44,6 @@
   }
 
   /* ================= about ================= */
-  let changelogCache = null;
-  async function fetchChangelog() {
-    if (changelogCache) return changelogCache;
-    const fallback = [{ v: cfg.version, date: cfg.releaseFa, items: ['برای جزئیات کامل، فایل CHANGELOG.md مخزن برنامه را ببین.'] }];
-    try {
-      const res = await fetch(cfg.docs.changelog, { cache: 'no-cache' });
-      if (!res.ok) throw new Error('http');
-      const md = await res.text();
-      const versions = [];
-      for (const line of md.split(/\r?\n/)) {
-        const h = line.match(/^##\s+(.+)$/);
-        if (h) versions.push({ v: h[1].split('·')[0].trim(), date: (h[1].split('·')[1] || '').trim(), items: [] });
-        else if (/^\s*[-*]\s+/.test(line) && versions.length) versions[versions.length - 1].items.push(line.replace(/^\s*[-*]\s+/, '').trim());
-      }
-      changelogCache = versions.length ? versions : fallback;
-    } catch { changelogCache = fallback; }
-    return changelogCache;
-  }
   function renderAbout() {
     const total = catalog.items.filter(p => !p.deleted).length;
     const brands = new Set(catalog.items.filter(p => !p.deleted && p.brand && p.brand !== 'نامشخص').map(p => p.brand)).size;
@@ -69,7 +51,6 @@
     el.innerHTML = `
       <div class="about-hero"><img src="icons/icon-192.png" alt="" width="84" height="84"><div>
         <h3>${cfg.nameFa} <span style="color:var(--mut);font-weight:400">(${esc(cfg.name)})</span></h3>
-        <span class="ver">نسخه ${cfg.versionFa} · ${cfg.releaseFa} · ${esc(cfg.releaseISO)}</span>
       </div></div>
       <p>لارسی، نخستین سوپراپلیکیشن هوشمند و دستیار خرید ادکلن در ایران است که با هدف ارتقای تجربه انتخاب و خرید عطر طراحی شده است.</p>
       <p>بانک اطلاعاتی این اپلیکیشن در آینده‌ای نزدیک به بیش از ۵۰۰ هزار نوع ادکلن و هزاران برند معتبر تکمیل خواهد شد. در نسخهٔ کنونی، ${fa(total)} عطر از ${fa(brands)} برند با ${fa(catalog.images)} تصویر در دسترس است.</p>
@@ -80,14 +61,7 @@
         <li>چت زنده و ارائه پیشنهادات دقیق و شخصی‌سازی‌شده با دستیار هوشمند لارسی</li>
       </ul>
       <p>تمامی حقوق مادی و معنوی این اپلیکیشن متعلق به فروشگاه لارسی است. هرگونه کپی‌برداری از ایده و استفاده از اطلاعات این سوپراپلیکیشن پیگرد قانونی دارد.</p>
-      <p class="hint"><b>نسخهٔ اپلیکیشن:</b> ${cfg.versionFa} (build ${esc(cfg.version)}) · ${cfg.releaseFa}</p>
-      <p class="hint"><b>توسعه‌دهنده:</b> هادی رسولی</p>
-      <div id="aboutChangelog"><h3 style="margin:12px 0 2px">تاریخچه تغییرات</h3><p class="hint">در حال دریافت…</p></div>
-      <p class="hint" style="margin-top:12px">ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶</p>`;
-    fetchChangelog().then(versions => {
-      const c = $('#aboutChangelog'); if (!c) return;
-      c.innerHTML = '<h3 style="margin:12px 0 2px">تاریخچه تغییرات</h3>' + versions.map((v, i) => `<details${i === 0 ? ' open' : ''}><summary>نسخه ${esc(v.v)} · ${esc(v.date)}</summary><ul>${v.items.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>`).join('');
-    });
+      <p class="hint" style="margin-top:14px">Dev : Hadi Rasuoli | larsi copyright ©</p>`;
   }
 
   /* ================= update check ================= */

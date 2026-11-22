@@ -1,21 +1,15 @@
-/* Regression test for the About page placeholder bug (settings.js::renderAbout).
+/* Regression test for the About page (settings.js::renderAbout).
  *
- * Bug history:
- *   - An earlier build shipped the literal text "[درج شماره نسخه]" in the About
- *     page because the version was hardcoded as a placeholder instead of bound
- *     to cfg.versionFa.
- *   - The user reported seeing this exact placeholder on the live site.
+ * Requirements (per user, v7.9.10):
+ *   - No changelog/history section.
+ *   - No version line (neither the hero "نسخه …" span, nor a body "نسخهٔ اپلیکیشن" line).
+ *   - No "توسعه‌دهنده: هادی رسولی" line.
+ *   - No old footer "ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶".
+ *   - Footer text must be: "Dev : Hadi Rasuoli | larsi copyright ©"
+ *   - Brand copy (سوپراپلیکیشن / قابلیت‌های کلیدی / حقوق مادی / شناسایی ادکلن) preserved.
  *
- * Guard: this test reads settings.js as a source string and asserts that
- *   (1) the renderAbout function always binds the version to cfg.versionFa,
- *   (2) no known placeholder tokens survive in the About render template,
- *   (3) the requested user-facing copy (سوپراپلیکیشن, قابلیت‌های کلیدی, حقوق مادی)
- *       is actually present, since the user explicitly asked for this copy.
- *
- * Static analysis is appropriate here because settings.js touches the DOM
- * and is hard to import in pure Node without a full JSDOM harness; the
- * renderAbout body is a single template literal whose content is fully
- * visible from the source.
+ * Static analysis on settings.js source — settings.js touches the DOM, so we
+ * inspect the renderAbout template literal directly instead of importing it.
  */
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
@@ -28,7 +22,6 @@ const SRC = readFileSync(resolve(ROOT, 'js/settings.js'), 'utf8');
 function extractRenderAbout(src) {
   const start = src.indexOf('function renderAbout()');
   if (start === -1) return '';
-  // Find the matching closing brace at the same nesting level.
   let depth = 0, i = src.indexOf('{', start), end = -1;
   for (; i < src.length; i++) {
     if (src[i] === '{') depth++;
@@ -39,47 +32,49 @@ function extractRenderAbout(src) {
 
 const ABOUT = extractRenderAbout(SRC);
 
-describe('About page — no version placeholder regression (settings.js)', () => {
+describe('About page — v7.9.10 cleanup (settings.js)', () => {
   it('exposes a renderAbout function', () => {
     expect(ABOUT.length).toBeGreaterThan(0);
   });
 
-  it('binds the version from cfg.versionFa (not a hardcoded placeholder)', () => {
-    // The version line must read cfg.versionFa, not a literal "[درج شماره نسخه]".
-    expect(ABOUT).toContain('cfg.versionFa');
-    expect(ABOUT).not.toContain('[درج شماره نسخه]');
-    expect(ABOUT).not.toContain('[درج نسخه]');
-    expect(ABOUT).not.toContain('XXX');
-    expect(ABOUT).not.toContain('TODO');
-    expect(ABOUT).not.toContain('TBD');
+  it('has no changelog / history section', () => {
+    expect(ABOUT).not.toContain('aboutChangelog');
+    expect(ABOUT).not.toContain('تاریخچه تغییرات');
+    expect(ABOUT).not.toContain('fetchChangelog');
   });
 
-  it('never ships a bare bracketed placeholder for any field', () => {
-    // Catches future regressions where any [foo] placeholder leaks in.
-    const matches = ABOUT.match(/\[[^\]]*\]/g) || [];
-    // Allow template-literal interpolation markers? No — those use ${...}, not [...].
-    // An empty [] or a [word] inside the About template is suspicious.
-    const suspicious = matches.filter(m => m.length > 0);
-    expect(suspicious).toEqual([]);
+  it('shows no version line anywhere in the About body', () => {
+    expect(ABOUT).not.toContain('نسخه ${cfg.versionFa}');
+    expect(ABOUT).not.toContain('نسخهٔ اپلیکیشن');
   });
 
-  it('includes the user-requested About copy', () => {
-    // The user explicitly asked to update the About page with this copy.
+  it('has no "توسعه‌دهنده: هادی رسولی" line', () => {
+    expect(ABOUT).not.toContain('توسعه‌دهنده');
+  });
+
+  it('does not ship the old footer attribution', () => {
+    expect(ABOUT).not.toContain('ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی');
+  });
+
+  it('uses the new footer: "Dev : Hadi Rasuoli | larsi copyright ©"', () => {
+    expect(ABOUT).toContain('Dev : Hadi Rasuoli | larsi copyright ©');
+  });
+
+  it('keeps the brand copy the user requested', () => {
     expect(ABOUT).toContain('سوپراپلیکیشن');
     expect(ABOUT).toContain('قابلیت‌های کلیدی');
     expect(ABOUT).toContain('حقوق مادی');
     expect(ABOUT).toContain('شناسایی ادکلن');
   });
 
-  it('keeps the dynamic data-binding for catalog counts', () => {
-    // total / brands / catalog.images must stay bound to live data, not hardcoded.
+  it('keeps dynamic catalog data-binding (perfumes / brands / images)', () => {
     expect(ABOUT).toContain('fa(total)');
     expect(ABOUT).toContain('fa(brands)');
     expect(ABOUT).toContain('fa(catalog.images)');
   });
 
-  it('keeps the changelog container and developer attribution', () => {
-    expect(ABOUT).toContain('aboutChangelog');
-    expect(ABOUT).toContain('هادی رسولی');
+  it('never ships a bare bracketed placeholder', () => {
+    const matches = ABOUT.match(/\[[^\]]*\]/g) || [];
+    expect(matches).toEqual([]);
   });
 });
