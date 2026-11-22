@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>لارسی | پیدا کردن عطر</title>
 <meta name="description" content="Larsi Perfume Finder؛ جستجو، مقایسه و کشف عطر بر اساس نت‌ها، خانواده بویایی و سلیقه شما — بدون ثبت‌نام.">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://js.puter.com; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://eixzihvihoammvremxrl.supabase.co https://api.open-meteo.com https://api.puter.com https://puter.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://js.puter.com; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://eixzihvihoammvremxrl.supabase.co https://api.open-meteo.com https://api.puter.com https://puter.com https://api.js.puter.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="theme-color" content="#0E1F1B">
 <meta name="color-scheme" content="dark light">
 <meta name="application-name" content="Larsi Perfume Finder">
@@ -139,6 +139,28 @@
         <div class="dots"><i></i><i></i><i></i></div>
       </div>
     </div>
+  </section>
+
+  <!-- ============ PERFUME OF THE DAY — 6 products modern slider ============ -->
+  <section class="section-block pdot-section" id="potdSection" aria-label="عطر روزانه">
+    <div class="pdot-head">
+      <div>
+        <h2>عطر روزانه</h2>
+        <p class="sub">شش انتخاب منتخب امروز؛ هر روز با چرخشی تازه از بانک عطر.</p>
+      </div>
+      <div class="pdot-nav">
+        <button class="pdot-btn" type="button" id="potdPrev" aria-label="عطر قبلی">
+          <svg class="ic"><use href="#i-back"/></svg>
+        </button>
+        <button class="pdot-btn" type="button" id="potdNext" aria-label="عطر بعدی">
+          <svg class="ic" style="transform:scaleX(-1)"><use href="#i-back"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="pdot-viewport" id="potdViewport">
+      <div class="pdot-track" id="potdTrack" aria-live="polite"></div>
+    </div>
+    <div class="pdot-dots" id="potdDots" role="tablist" aria-label="صفحات عطر روز"></div>
   </section>
 
   <!-- Verse -->
@@ -446,5 +468,7 @@
 <script src="js/analytics.js" defer></script>
 <script src="js/settings.js" defer></script>
 <script src="js/app.js" defer></script>
+<!-- Puter.js — public, no API key needed. Loaded async so it never blocks the app. -->
+<script src="https://js.puter.com/v2" async></script>
 </body>
 </html>

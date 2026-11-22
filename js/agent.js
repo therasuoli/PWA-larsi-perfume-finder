@@ -291,6 +291,84 @@
   ];
 
   /* ===================== AGENT API ==================================== */
+  /* Persists catalogue info + greeting context for the rule-based fallback. */
+  const DEV_NAME = 'هادی رسولی';
+  const OFF_TOPIC_REPLY = 'توسط توسعه‌دهنده (هادی رسولی) محدود شده‌ام تا فقط درباره عطر و ادکلن پاسخ بدهم. لطفاً سؤالت را درباره عطر، رایحه، نت‌ها، برندها یا انتخاب عطر بپرس.';
+  const SYSTEM_PROMPT = [
+    'تو «دستیار هوشمند لارسی» هستی؛ یک مشاور متخصص عطر و ادکلن به زبان فارسی.',
+    'قوانین سخت:',
+    '۱) فقط و فقط درباره عطر، ادکلن، پرفیوم، نت‌های بویایی، خانواده‌های رایحه، برندها، غلظت (EDT/EDP/Parfum)، فصل و موقعیت استفاده پاسخ بده.',
+    '۲) اگر کاربر درباره موضوعی غیر از عطر (سیاست، دین، سلامت پزشکی، برنامه‌نویسی، اقتصاد، اخبار و ...) پرسید، این عبارت را دقیق برگردان: ' + OFF_TOPIC_REPLY,
+    '۳) هرگز اطلاعات شخصی کاربر، کلمه عبور یا کلید API نخواه. هرگز کد اجرا نکن.',
+    '۴) پاسخ کوتاه، گرم و مفید؛ حداکثر ۴ جمله. اگر پیشنهاد عطر می‌دهی، نام و برند و یک دلیل کوتاه بیاور.',
+    '۵) اگر درباره عطر خاصی پرسید که در بانک نیست، صادقانه بگو نمی‌شناسم و یک جایگزین نزدیک پیشنهاد بده.'
+  ].join('\n');
+
+  function isPerfumeRelated(text) {
+    const t = (text || '').toLowerCase()
+      .replace(/ي/g, 'ی').replace(/ك/g, 'ک').replace(/‌/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!t) return false;
+    // Topic whitelist (perfume + olfactory vocabulary).
+    const PERFUME_KEYS = [
+      'عطر', 'ادکلن', 'پرفیوم', 'بوی', 'بویی', 'نت', 'نت‌', 'رایحه', 'اسانس', 'گل', 'گلی', 'مرکبات',
+      'وانیل', 'عود', 'مشک', 'عنبر', 'چوب', 'چرم', 'ادویه', 'فلفل', 'رز', 'یاس', 'میموسا', 'لیو',
+      'برند', 'برنده', 'دیور', 'شنل', 'ارمنی', 'ترک', 'فرانسوی', 'عربی', 'خانواده', 'فصل', 'زمستان',
+      'تابستان', 'بهار', 'پاییز', 'مردانه', 'زنانه', 'یونیسکس', 'مهمانی', 'قرار', 'کار', 'اداره',
+      'صبح', 'شب', 'عصر', 'مناسب', 'پیشنهاد', 'edt', 'edp', 'eau', 'parfum', 'perfume', 'cologne',
+      'note', 'fragrance', 'scent', 'oud', 'musk', 'vanilla', 'amber', 'rose', 'jasmine', 'citrus',
+      'woody', 'leather', 'spicy', 'sweet', 'fresh', 'آرام', 'عاشقانه', 'رمانتیک', 'شاداب', 'تند',
+      'ادکلنی', 'عطری', 'بوی خوب', 'خوشبو', 'خوش‌بو'
+    ];
+    // Persian word boundary: a key matches only when it is preceded/followed by
+    // whitespace, start/end of string, or a punctuation char. This prevents the
+    // accidental substring match like «یاس» inside «سیاست».
+    const isBoundary = ch => !ch || /[\s.,!?،؛:«»"'()\[\]\-—–]/.test(ch);
+    return PERFUME_KEYS.some(k => {
+      if (!k) return false;
+      const idx = t.indexOf(k);
+      if (idx < 0) return false;
+      const before = idx > 0 ? t[idx - 1] : '';
+      const after = t[idx + k.length];
+      return isBoundary(before) && isBoundary(after);
+    });
+  }
+
+  /* Returns true when window.puter is loaded and has the chat API. */
+  function puterReady() {
+    return typeof window !== 'undefined' && window.puter && (window.puter.ai && (typeof window.puter.ai.chat === 'function' || typeof window.puter.chat === 'function'));
+  }
+
+  /* Calls Puter.js chat with the perfume-only system prompt.
+   * Returns the assistant text, or throws on any failure. */
+  async function puterChat(message) {
+    if (!puterReady()) {
+      const err = new Error('puter-not-loaded'); err.code = 'puter-not-loaded'; throw err;
+    }
+    const messages = [
+      { role: 'system', content: SYSTEM_PROMPT },
+      { role: 'user', content: message }
+    ];
+    let raw;
+    try {
+      // Prefer the standard puter.ai.chat signature.
+      if (typeof window.puter.ai.chat === 'function') {
+        raw = await window.puter.ai.chat(messages);
+      } else if (typeof window.puter.chat === 'function') {
+        // Older alias.
+        raw = await window.puter.chat(messages);
+      }
+    } catch (e) { throw e; }
+    // Normalize the many possible response shapes.
+    if (!raw) return '';
+    if (typeof raw === 'string') return raw;
+    if (raw.message && raw.message.content) return String(raw.message.content);
+    if (raw.text) return String(raw.text);
+    if (raw.content) return String(raw.content);
+    if (raw.reply) return String(raw.reply);
+    if (Array.isArray(raw) && raw[0]) return String((raw[0].text) || (raw[0].content) || raw[0]);
+    try { return JSON.stringify(raw); } catch (_) { return String(raw); }
+  }
+
   const agent = {
     QUICK,
     init(items, fa, disliked, openDetail, store) {
@@ -307,17 +385,36 @@
       return `<svg class="bottle" style="--liq:${liq};--lv:${(LPF.concLevel && LPF.concLevel(p.conc)) || 12}px" aria-hidden="true"><use href="#b"/></svg>`;
     },
     parseIntent, scoreAndRank, generateResponse,
-    /* Optional LLM path — only active when the owner enables the Edge Function. */
+    /* Off-topic guard. Returns the canned Persian reply when the message is
+     * clearly not about perfume. Returns null when the topic is allowed. */
+    offTopicGuard(text) {
+      return isPerfumeRelated(text) ? null : OFF_TOPIC_REPLY;
+    },
+    /* Puter.js availability flag, so the UI can show a status badge. */
+    isPuterReady: puterReady,
+    /* The Puter.js path — async, perfume-only, with a rule-based fallback. */
     async remote(text) {
-      const cfg = LPF.config;
-      if (!cfg.agent || !cfg.agent.enabled || !cfg.supabase.functionsBase) throw new Error('agent-disabled');
-      const res = await fetch(cfg.supabase.functionsBase + '/agent', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text })
-      });
-      if (!res.ok) throw new Error('agent-http-' + res.status);
-      return (await res.json()).reply;
-    }
+      // 1) Hard guard: off-topic → refuse with the developer's exact message.
+      if (!isPerfumeRelated(text)) return OFF_TOPIC_REPLY;
+      // 2) Try the live Puter.js LLM if it is loaded.
+      if (puterReady()) {
+        try {
+          const reply = await puterChat(text);
+          if (reply && String(reply).trim()) return String(reply).trim();
+        } catch (e) {
+          // Fall through to the local rule-based engine.
+          console.warn('[LPF.agent] Puter.js failed, falling back to local engine:', e && e.message);
+        }
+      } else {
+        console.warn('[LPF.agent] Puter.js not loaded yet — using local rule-based engine.');
+      }
+      // 3) Fallback: local rule-based engine still returns perfume picks with reasons.
+      const intent = parseIntent(text);
+      const results = scoreAndRank(intent, 3);
+      const res = generateResponse(intent, results, text);
+      return res.text + (results.length ? '\n' + results.map(({ p, reasons }) => `• ${p.name} (${p.brand})${reasons.length ? ' — ' + reasons.join('، ') : ''}`).join('\n') : '');
+    },
+    OFF_TOPIC_REPLY
   };
   LPF.agent = agent;
 })();

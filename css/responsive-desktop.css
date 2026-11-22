@@ -3,73 +3,125 @@
    Only overrides that apply to desktop screens. */
 
 @media (min-width: 1024px) {
-  /* Full-width container — no wasted side gaps */
-  main { max-width: 1200px; padding: 0 32px }
+  /* Full-width container — tighter side gaps so content uses more of the wide screen */
+  main { max-width: 1400px; padding: 0 40px }
 
-  /* Grid: 4 columns on desktop */
-  .grid { grid-template-columns: repeat(4, 1fr) }
+  /* Slightly larger typography on desktop */
+  body { font-size: 1rem }
+
+  /* Grid: 6 columns on desktop for a denser, richer catalog */
+  .grid { grid-template-columns: repeat(6, 1fr); gap: 18px }
+
+  /* Cards are larger and more legible on desktop */
+  .card .stage { aspect-ratio: 4/5 }
+  .card .meta { font-size: .8125rem }
+  .card h3 { font-size: .9375rem }
 
   /* Hero: larger with side-by-side */
-  .hero { min-height: 360px; padding: 32px 28px 28px }
-  .hero h1 { font-size: clamp(1.8rem, 4vw, 2.2rem) }
-  .hero-sub { font-size: 1rem }
-  .hero-actions .btn { min-height: 48px; padding: 0 20px; font-size: .9rem }
-  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 200px; height: 267px }
+  .hero { min-height: 380px; padding: 36px 32px 32px }
+  .hero h1 { font-size: clamp(2rem, 4.4vw, 2.6rem) }
+  .hero-sub { font-size: 1.0625rem }
+  .hero-actions .btn { min-height: 52px; padding: 0 24px; font-size: .9375rem }
+  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 230px; height: 307px }
 
-  /* Section blocks: tighter spacing */
-  .section-block { margin: 20px 0 8px }
-  .section-block h2 { font-size: 1.2rem }
+  /* Section blocks: tighter spacing, larger headings */
+  .section-block { margin: 24px 0 10px }
+  .section-block h2 { font-size: 1.375rem }
+  .section-block .sub { font-size: .9375rem }
 
-  /* Bottom nav: centered, max-width, rounded top corners */
+  /* Bottom nav: properly centered on desktop.
+     On RTL pages, app.css sets `inset-inline: 0` which pins the bar to both
+     edges. We re-anchor to the inline-center: set inset-inline-start:50%
+     (→ right:50% in RTL) and inset-inline-end:50% (→ left:50% in RTL),
+     give the bar its natural width, then translate it back by half its
+     own width so it straddles the center line. */
   nav.bnav {
-    max-width: 720px;
-    left: 50%;
-    transform: translateX(-50%);
+    inset-inline-start: 50%;
+    inset-inline-end: 50%;
+    transform: translateX(50%);
+    max-width: 760px;
+    width: max-content;
     border-radius: 22px 22px 0 0;
     border: 1px solid var(--line);
     border-bottom: 0;
+    box-shadow: 0 -8px 30px rgba(20, 48, 42, .10);
   }
-  nav.bnav button { max-width: 144px; font-size: .8rem; min-height: 56px }
+  nav.bnav button { max-width: 152px; font-size: .8125rem; min-height: 60px }
 
-  /* Identify grid: 4 columns */
-  .identify-grid { grid-template-columns: repeat(4, 1fr) }
+  /* Identify grid: 6 columns */
+  .identify-grid { grid-template-columns: repeat(6, 1fr) }
 
   /* Identify best card: larger */
-  .identify-best-card { grid-template-columns: 120px 1fr }
+  .identify-best-card { grid-template-columns: 140px 1fr }
 
   /* Detail sheet: wider */
-  dialog { max-width: 640px }
-  dialog.wide { max-width: 960px }
+  dialog { max-width: 720px }
+  dialog.wide { max-width: 1080px }
 
   /* Headings */
-  h1 { font-size: clamp(1.8rem, 4vw, 2.2rem) }
-  h2 { font-size: 1.2rem }
+  h1 { font-size: clamp(2rem, 4.4vw, 2.6rem) }
+  h2 { font-size: 1.375rem }
 
   /* Moods: larger buttons */
-  .mood { min-height: 50px; padding: 0 22px; font-size: .9375rem }
+  .mood { min-height: 56px; padding: 0 26px; font-size: 1rem }
 
   /* Weather card: larger text */
-  .wx big { font-size: 2.4rem }
+  .wx big { font-size: 2.6rem }
 
   /* Verse: larger text */
-  .vm { font-size: 1.2rem }
+  .vm { font-size: 1.3rem }
 
   /* Chat messages: wider */
   .msg { max-width: 70% }
 
   /* Rating: more gap */
-  .rating { gap: 10px }
+  .rating { gap: 12px }
 
   /* Gallery thumbnails: slightly larger */
-  .gallery img { width: 80px; height: 80px }
+  .gallery img { width: 88px; height: 88px }
 
-  /* Rail: more gap between items */
-  .rail { gap: 16px }
+  /* Rail: larger items, more gap for a professional modern look */
+  .rail { gap: 20px; padding-inline: 0; margin-inline: 0 }
+  .rail-item { width: 220px }
+  .fam { width: 168px }
+  .bx { width: 140px }
+
+  /* Search + toolbar larger tap targets on desktop */
+  .search { min-height: 56px; font-size: 1rem }
+  .toolbar .btn { min-height: 50px }
+
+  /* Mood + chips: more breathing room */
+  .moods { gap: 12px }
+  .chips { gap: 10px }
+  .chip { min-height: 44px; padding: 0 18px; font-size: .9375rem }
+  .btn { min-height: 48px; font-size: .9375rem }
+
+  /* Perfume Of The Day slider — show 3 larger cards per view on desktop */
+  .pdot-section { margin: 32px 0 18px }
+  .pdot-head h2 { font-size: 1.5rem }
+  .pdot-head .sub { font-size: .9375rem }
+  .pdot-btn { width: 52px; height: 52px }
+  .pdot-btn .ic { width: 26px; height: 26px }
+  .pdot-track { gap: 22px }
+  .pdot-card { flex: 0 0 calc((100% - 44px) / 3); max-width: calc((100% - 44px) / 3) }
+  .pdot-card .stage { margin: 14px 14px 0; aspect-ratio: 4/5 }
+  .pdot-card .hero-d .bottle { width: 180px; height: 240px }
+  .pdot-card .body { padding: 14px 20px 18px }
+  .pdot-card h3 { font-size: 1.125rem }
+  .pdot-card .meta { font-size: .875rem }
+  .pdot-card .badge-day { top: 14px; inset-inline-start: 14px; font-size: .75rem; padding: 4px 12px }
 }
 
 @media (min-width: 1400px) {
-  /* Very large screens: 5 columns for card grids */
-  main { max-width: 1320px }
-  .grid { grid-template-columns: repeat(5, 1fr) }
-  .identify-grid { grid-template-columns: repeat(5, 1fr) }
+  /* Very large screens: 6 columns stays, container expands */
+  main { max-width: 1560px; padding: 0 56px }
+  .grid { grid-template-columns: repeat(6, 1fr) }
+  .identify-grid { grid-template-columns: repeat(6, 1fr) }
+  .rail-item { width: 240px }
+  .fam { width: 184px }
+  .bx { width: 156px }
+  /* POTD: still 3 cards per view but each one is bigger and richer */
+  .pdot-card { flex: 0 0 calc((100% - 44px) / 3); max-width: calc((100% - 44px) / 3) }
+  .pdot-card .hero-d .bottle { width: 200px; height: 267px }
+  .pdot-card h3 { font-size: 1.25rem }
 }

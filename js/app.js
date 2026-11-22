@@ -435,6 +435,104 @@
 
     ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => { const el = $('#' + id); if (el && !el.parentElement.hidden) autoplay(el); });
     markReadyImages($('#v-home'));
+
+    /* ---- v7.9.4: Perfume Of The Day — 6-card modern slider ---- */
+    renderPerfumeOfTheDay();
+  }
+
+  /* ================= v7.9.4: Perfume Of The Day slider =================
+   * Picks 6 perfumes deterministically per day (rotates daily), renders them
+   * into a horizontal snap slider with prev/next arrows and dot indicators.
+   * Larger cards than the rail for a gallery feel on desktop. */
+  let potdIdx = 0, potdItems = [], potdVp = null;
+  function pickPerfumeOfTheDay() {
+    if (!live.length) return [];
+    const dayIndex = Math.floor(Date.now() / 86400000);
+    // Prefer perfumes that have images and a known family, ranked by popularity.
+    const candidates = live
+      .filter(p => !p.deleted && !S.disliked.has(p.id))
+      .filter(p => repo.images.get(p) || p.family)
+      .sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
+    const top = candidates.slice(0, Math.min(candidates.length, 60));
+    // Rotate by day so the same 6 don't always show.
+    const start = (dayIndex * 6) % Math.max(1, top.length);
+    const picked = [];
+    for (let i = 0; i < 6 && top.length; i++) picked.push(top[(start + i) % top.length]);
+    return picked;
+  }
+  function potdCardHTML(p, i) {
+    const id = esc(p.id);
+    const liq = famLiq(p.family);
+    const famLabel = FA.family(p.family) || p.familyFa || 'عطر';
+    const mainImg = repo.images.get(p);
+    const badge = i === 0 ? `<span class="badge-day">امروز</span>` : '';
+    const imgTag = mainImg
+      ? `<img class="lpf-img" src="${esc(mainImg)}" sizes="(max-width:640px) 64vw, (max-width:900px) 30vw, 30vw" alt="${esc(p.name)}" width="320" height="400" decoding="async" loading="${i < 3 ? 'eager' : 'lazy'}" ${i < 3 ? 'fetchpriority="high"' : ''}>`
+      : '';
+    return `<article class="pdot-card" data-id="${id}" tabindex="0" style="--liq:${liq}" role="button" aria-label="${esc(p.brand + ' ' + p.name)}">
+      ${badge}
+      <div class="stage">
+        <div class="hero-d">${bottleHTML(p)}${imgTag}</div>
+      </div>
+      <div class="body">
+        <h3>${esc(p.name)}</h3>
+        <span class="meta">${esc(p.brand)} · ${esc(famLabel)}${p.year ? ' · ' + fa(p.year) : ''}</span>
+      </div>
+    </article>`;
+  }
+  function potdUpdateDots() {
+    if (!potdVp) return;
+    const cards = $$('article.pdot-card', potdVp);
+    if (!cards.length) return;
+    const vpLeft = potdVp.scrollLeft, vpRight = vpLeft + potdVp.clientWidth;
+    let active = 0, bestDist = Infinity;
+    cards.forEach((c, i) => {
+      const cLeft = c.offsetLeft - potdVp.offsetLeft, cRight = cLeft + c.offsetWidth;
+      const center = (Math.max(cLeft, vpLeft) + Math.min(cRight, vpRight)) / 2;
+      const dist = Math.abs(center - (vpLeft + vpRight) / 2);
+      if (dist < bestDist) { bestDist = dist; active = i; }
+    });
+    potdIdx = active;
+    const dots = $('#potdDots');
+    if (dots) dots.querySelectorAll('button').forEach((b, i) => b.setAttribute('aria-selected', i === active ? 'true' : 'false'));
+    const prev = $('#potdPrev'), next = $('#potdNext');
+    if (prev) prev.disabled = active === 0;
+    if (next) next.disabled = active >= cards.length - 1;
+  }
+  function potdScrollTo(i) {
+    if (!potdVp) return;
+    const cards = $$('article.pdot-card', potdVp);
+    const c = cards[i];
+    if (!c) return;
+    potdVp.scrollTo({ left: c.offsetLeft - potdVp.offsetLeft, behavior: reduced() ? 'auto' : 'smooth' });
+  }
+  function renderPerfumeOfTheDay() {
+    const track = $('#potdTrack'), vp = $('#potdViewport'), section = $('#potdSection');
+    if (!track || !vp || !section) return;
+    potdItems = pickPerfumeOfTheDay();
+    if (!potdItems.length) { section.hidden = true; return; }
+    section.hidden = false;
+    track.innerHTML = potdItems.map((p, i) => potdCardHTML(p, i)).join('');
+    const dots = $('#potdDots');
+    if (dots) dots.innerHTML = potdItems.map((_, i) => `<button type="button" role="tab" aria-selected="${i === 0 ? 'true' : 'false'}" aria-label="عطر ${fa(i + 1)}"></button>`).join('');
+    potdVp = vp;
+    potdIdx = 0;
+    potdUpdateDots();
+    markReadyImages(track);
+    // Click → open detail; dots → scroll; arrows → scroll by one card.
+    track.onclick = e => { const c = e.target.closest('article.pdot-card'); if (c && c.dataset.id) openDetail(c.dataset.id); };
+    track.onkeydown = e => {
+      const c = e.target.closest('article.pdot-card');
+      if (!c) return;
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(c.dataset.id); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); potdScrollTo(Math.max(0, potdIdx - 1)); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); potdScrollTo(Math.min(potdItems.length - 1, potdIdx + 1)); }
+    };
+    const prev = $('#potdPrev'), next = $('#potdNext');
+    if (prev) prev.onclick = () => potdScrollTo(Math.max(0, potdIdx - 1));
+    if (next) next.onclick = () => potdScrollTo(Math.min(potdItems.length - 1, potdIdx + 1));
+    if (dots) dots.onclick = e => { const b = e.target.closest('button'); if (b) potdScrollTo([...dots.children].indexOf(b)); };
+    vp.onscroll = () => { clearTimeout(vp._t); vp._t = setTimeout(potdUpdateDots, 80); };
   }
 
   /* ================= v7.7: Smart recommendation rails ================= */
@@ -757,27 +855,61 @@
 
   /* ================= agent chat view ================= */
   let agentGreeted = false;
+  let puterStatusKnown = false;
   function say(html, user) {
     const d = document.createElement('div'); d.className = 'msg' + (user ? ' u' : ''); d.innerHTML = html;
     $('#chat').append(d);
     d.scrollIntoView({ block: 'end', behavior: reduced() ? 'auto' : 'smooth' });
     return d;
   }
+  function agentGreetingHTML() {
+    const puterOn = LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady();
+    const connectedBanner = puterOn
+      ? '<div class="ai-connected-banner">✅ دستیار هوشمند به هوش مصنوعی وصل شد</div>'
+      : '';
+    const badge = puterOn ? '<span class="ai-pill on">✨ هوش مصنوعی زنده</span>' : '<span class="ai-pill off">در حال اتصال…</span>';
+    const weatherLine = LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : '';
+    return `${connectedBanner}${badge}<p style="margin:6px 0 0">سلام! من دستیار هوشمند لارسی‌ام. ${weatherLine} ${puterOn ? 'به موتور هوش مصنوعی متصل شده‌ام و' : ''} فقط درباره عطر و ادکلن پاسخ می‌دهم — هر پیشنهاد را با دلیلش می‌گویم. ${puterOn ? '' : '(در حال اتصال به موتور زنده…)'} بگو دنبال چه حسی هستی.</p>`;
+  }
+  function refreshPuterBadge() {
+    if (puterStatusKnown) return;
+    if (LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady()) {
+      puterStatusKnown = true;
+      const firstBotMsg = document.querySelector('#chat .msg:not(.u)');
+      if (firstBotMsg) firstBotMsg.innerHTML = agentGreetingHTML();
+    }
+  }
   function agentView(text) {
     if (!agentGreeted) {
       agentGreeted = true;
-      say(`سلام! من دستیار هوشمند لارسی‌ام. ${LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : ''} بگو دنبال چه حسی هستی؛ هر پیشنهاد را با دلیلش می‌گویم.`);
+      say(agentGreetingHTML());
       $('#agentChips').innerHTML = LPF.agent.QUICK.map(t => `<button class="chip" type="button" data-q="${esc(t)}">${esc(t)}</button>`).join('');
+      // Poll briefly for Puter.js to come up, then flip the badge.
+      let tries = 0;
+      const iv = setInterval(() => { refreshPuterBadge(); if (++tries > 6 || puterStatusKnown) clearInterval(iv); }, 1500);
     }
     if (!text) return;
     say(esc(text), true);
     LPF.analytics.track('agent');
     const w = say('<span class="dots"><i></i><i></i><i></i></span>');
-    setTimeout(() => {
-      const res = LPF.agent.answer(text);
-      w.innerHTML = LPF.agent.messageHTML(res, LPF.agent.bottleOf);
-      w.scrollIntoView({ block: 'end', behavior: reduced() ? 'auto' : 'smooth' });
-    }, reduced() ? 60 : 700);
+    const startedAt = Date.now();
+    const minDelay = reduced() ? 60 : 400;
+    // v7.9.4: route through the async Puter.js path with a perfume-only guard
+    // and a graceful fallback to the local rule-based engine.
+    Promise.resolve()
+      .then(() => LPF.agent.remote(text))
+      .then(reply => {
+        const elapsed = Date.now() - startedAt;
+        const wait = Math.max(0, minDelay - elapsed);
+        setTimeout(() => {
+          w.innerHTML = esc(String(reply));
+          w.scrollIntoView({ block: 'end', behavior: reduced() ? 'auto' : 'smooth' });
+        }, wait);
+      })
+      .catch(err => {
+        console.error('[LPF.agent] remote failed:', err);
+        w.innerHTML = '<p class="muted">یک لحظه مشکلی پیش آمد؛ دوباره امتحان کن.</p>';
+      });
   }
   LPF.agentView = agentView;
 

@@ -456,15 +456,73 @@ dialog.lb[open] ~ .lb-nav, dialog.lb[open] .lb-nav { display: grid }
 /* ---------- footer ---------- */
 footer.site { text-align: center; color: var(--mut); font-size: .8125rem; padding: 34px 0 10px }
 
+/* ---------- AI status pill (agent chat) ---------- */
+.ai-pill { display: inline-flex; align-items: center; gap: 6px; font-size: .75rem; font-weight: 700; padding: 4px 12px; border-radius: 99px; line-height: 1.4 }
+.ai-pill.on { color: var(--on); background: linear-gradient(135deg, var(--acc), color-mix(in srgb, var(--acc) 60%, #6a4)) }
+.ai-pill.off { color: var(--mut); background: color-mix(in srgb, var(--line) 35%, var(--card)); border: 1px solid var(--line) }
+
+/* ---------- AI connected banner ---------- */
+.ai-connected-banner {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 8px; padding: 10px 14px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--acc) 18%, var(--card)), color-mix(in srgb, var(--acc) 8%, var(--card)));
+  border: 1px solid color-mix(in srgb, var(--acc) 40%, var(--line));
+  border-radius: 14px;
+  color: var(--ink);
+  font-size: .875rem; font-weight: 700;
+  animation: ai-pop .35s ease-out;
+}
+@keyframes ai-pop { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ---------- Perfume Of The Day — modern 6-card slider ----------
+   Mobile-first: 1.5 cards visible; tablet 2.5; desktop 3 + nav arrows.
+   Cards are larger than rail-items for a professional, gallery feel. */
+.pdot-section { margin: 26px 0 14px }
+.pdot-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px }
+.pdot-head h2 { font-size: 1.2rem; font-weight: 700; margin: 0 }
+.pdot-head .sub { margin: 2px 0 0; font-size: .8125rem }
+.pdot-nav { display: flex; gap: 8px; flex: none }
+.pdot-btn { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); background: var(--card); color: var(--ink); transition: background .15s ease, transform .15s ease, opacity .15s ease }
+.pdot-btn:hover { background: color-mix(in srgb, var(--acc) 14%, var(--card)) }
+.pdot-btn:active { transform: scale(.92) }
+.pdot-btn[disabled] { opacity: .35; cursor: not-allowed }
+.pdot-btn .ic { width: 22px; height: 22px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round }
+
+.pdot-viewport { overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; -webkit-overflow-scrolling: touch; margin-inline: -16px; padding-inline: 16px }
+.pdot-viewport::-webkit-scrollbar { display: none }
+.pdot-track { display: flex; gap: 14px; padding: 4px 0 10px }
+
+.pdot-card { scroll-snap-align: start; flex: 0 0 64%; max-width: 64%; position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; transition: transform .18s ease, box-shadow .2s ease; cursor: pointer }
+.pdot-card:hover, .pdot-card:focus-visible { transform: translateY(-3px); box-shadow: var(--shadow); outline: none }
+.pdot-card:active { transform: translateY(-1px) scale(.99) }
+.pdot-card .stage { display: grid; place-items: center; aspect-ratio: 4/5; border-radius: var(--r2); background: color-mix(in srgb, var(--liq, #999) 16%, var(--bg)); margin: 10px 10px 0; position: relative }
+.pdot-card .hero-d { width: 64%; aspect-ratio: 4/5; position: relative; display: grid; place-items: center }
+.pdot-card .hero-d .bottle { width: 110px; height: 146px }
+.pdot-card .lpf-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: var(--r2) }
+.pdot-card .body { padding: 10px 14px 14px }
+.pdot-card h3 { font-size: .9375rem; font-weight: 700; margin: 0; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical }
+.pdot-card .meta { font-size: .75rem; color: var(--mut); display: block; margin-top: 4px }
+.pdot-card .badge-day { position: absolute; top: 10px; inset-inline-start: 10px; font-size: .6875rem; font-weight: 700; color: var(--on); background: var(--acc); padding: 3px 10px; border-radius: 99px; z-index: 2 }
+
+.pdot-dots { display: flex; gap: 8px; justify-content: center; margin-top: 12px }
+.pdot-dots button { width: 8px; height: 8px; border-radius: 50%; background: var(--line); border: 0; padding: 0; cursor: pointer; transition: background .2s ease, transform .2s ease, width .2s ease }
+.pdot-dots button[aria-selected="true"] { background: var(--acc); transform: scale(1.2); width: 22px; border-radius: 99px }
+
 /* ---------- responsive ---------- */
 @media (min-width: 640px) {
   .grid { grid-template-columns: repeat(3, 1fr) }
   .rail { margin-inline: 0; padding-inline: 0 }
-  .toolbar { grid-template-columns: 1fr auto auto } 
+  .toolbar { grid-template-columns: 1fr auto auto }
+  .pdot-card { flex: 0 0 40%; max-width: 40% }
+  .pdot-card .hero-d .bottle { width: 130px; height: 173px }
 }
 @media (min-width: 900px) {
   .grid { grid-template-columns: repeat(4, 1fr) }
   .msg { max-width: 70% }
+  .pdot-card { flex: 0 0 30%; max-width: 30% }
+  .pdot-card .hero-d .bottle { width: 150px; height: 200px }
+  .pdot-card h3 { font-size: 1rem }
+  .pdot-card .meta { font-size: .8125rem }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important }
