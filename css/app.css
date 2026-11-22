@@ -85,15 +85,52 @@ header.new-top { gap: 12px }
 }
 
 /* ---------- layout / views ---------- */
-/* v7.9: Tighter spacing on desktop — reduce max-width and padding to eliminate large gaps */
-main { max-width: 720px; margin: 0 auto; padding: 0 16px }
-@media (min-width: 768px) { main { max-width: 840px; padding: 0 20px } }
-@media (min-width: 1200px) { main { max-width: 920px } }
+/* v7.9.1: Desktop multi-column layout — uses full width on large screens */
+main { max-width: 100%; margin: 0 auto; padding: 0 16px }
 .view { display: none }
 .view.on { display: block }
 .lead { color: var(--mut); max-width: 46ch }
 .sub { color: var(--mut); font-size: .875rem; margin-bottom: 10px }
 .count { color: var(--mut); font-size: .875rem; margin: 4px 0 12px }
+
+/* Desktop (≥768px): widen container and use multi-column grid for homepage */
+@media (min-width: 768px) {
+  main { max-width: 1100px; padding: 0 24px }
+  /* Homepage: 2-column grid on desktop.
+     Left column: hero + moods + search + AI today + verse
+     Right column: weather + trending + newest + brands + countries + families + weather rail */
+  #v-home.on {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  /* Hero spans full width (both columns) */
+  #v-home > .hero { grid-column: 1 / -1 }
+  /* Moods + search also span full width */
+  #v-home > .section-block:nth-child(2),
+  #v-home > .section-block:nth-child(3) { grid-column: 1 / -1 }
+  /* Weather goes to right column */
+  #v-home > .wx { grid-column: 2; grid-row: 4 / 7 }
+  /* AI today + verse go to left column */
+  #aiTodaySection { grid-column: 1; grid-row: 4 }
+  #v-home > .verse { grid-column: 1; grid-row: 5 }
+  /* Rails span full width below the grid */
+  #likedSection, #trendingSection, #newestSection, #brandsSection,
+  #countriesSection, #famsSection, #wrailSection {
+    grid-column: 1 / -1;
+  }
+  /* Larger fonts on desktop */
+  h1 { font-size: clamp(2rem, 4vw, 2.8rem) }
+  h2 { font-size: 1.3rem }
+  .hero h1 { font-size: clamp(1.8rem, 5vw, 2.6rem) }
+}
+
+/* Large desktop (≥1200px): even wider */
+@media (min-width: 1200px) {
+  main { max-width: 1280px; padding: 0 32px }
+  #v-home.on { grid-template-columns: 1.5fr 1fr; gap: 28px }
+}
 
 /* ---------- search (combobox) ---------- */
 .search { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 99px; padding: 0 18px; min-height: 54px }
@@ -318,6 +355,12 @@ nav.bnav { position: fixed; bottom: 0; inset-inline: 0; display: flex; justify-c
 nav.bnav button { flex: 1; max-width: 168px; min-height: 56px; display: grid; justify-items: center; align-content: center; gap: 0; font-size: .72rem; color: var(--mut); border-radius: 16px; position: relative }
 nav.bnav button[aria-current="page"] { color: var(--ink); font-weight: 700; background: color-mix(in srgb, var(--acc) 28%, transparent) }
 nav.bnav .n { position: absolute; top: 4px; inset-inline-end: 30%; min-width: 18px; height: 18px; border-radius: 9px; background: var(--acc); color: var(--on); font-size: .6875rem; line-height: 18px; text-align: center }
+
+/* v7.9.1: Desktop bottom nav — wider buttons, contained in a centered bar */
+@media (min-width: 768px) {
+  nav.bnav { max-width: 800px; left: 50%; transform: translateX(-50%); border-radius: 22px 22px 0 0; border: 1px solid var(--line); border-bottom: 0 }
+  nav.bnav button { max-width: 160px; font-size: .8rem; min-height: 60px }
+}
 .tray { position: fixed; bottom: calc(var(--nav) + 16px); inset-inline: 0; margin: auto; width: max-content; max-width: 92%; display: flex; align-items: center; gap: 12px; background: var(--ink); color: var(--bg); padding: 10px 10px 10px 20px; border-radius: 99px; z-index: 7; box-shadow: var(--shadow) }
 .tray .btn { min-height: 40px; font-size: .75rem; border-color: color-mix(in srgb, var(--bg) 60%, transparent); color: var(--bg); background: transparent; padding: 0 14px }
 .tray .btn.pri { background: var(--acc); color: var(--on); border-color: var(--acc) }
@@ -467,6 +510,14 @@ footer.site { text-align: center; color: var(--mut); font-size: .8125rem; paddin
 @media (min-width: 900px) {
   .grid { grid-template-columns: repeat(4, 1fr) }
   .msg { max-width: 70% }
+}
+/* v7.9.1: Desktop find view — 5 columns on very wide screens */
+@media (min-width: 1200px) {
+  .grid { grid-template-columns: repeat(5, 1fr) }
+  .identify-grid { grid-template-columns: repeat(5, 1fr) }
+  /* Detail sheet wider on desktop */
+  dialog { max-width: 720px }
+  dialog.wide { max-width: 1100px }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important }

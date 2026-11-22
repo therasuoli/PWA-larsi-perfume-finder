@@ -7,9 +7,9 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '7.9.0',
-    versionFa: '۷٫۹٫۰',
-    releaseFa: 'آذر ۱۴۰۵ · دستیار هوشمند در کشف و هواشناسی، اصلاح فاصله‌های دسکتاپ',
+    version: '7.9.1',
+    versionFa: '۷٫۹٫۱',
+    releaseFa: 'آذر ۱۴۰۵ · چیدمان چندستونی دسکتاپ، استفاده از کل عرض صفحه'
     releaseISO: '2026-11-21',
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */
