@@ -10,31 +10,26 @@
   .grid { grid-template-columns: repeat(4, 1fr) }
 
   /* Hero: larger with side-by-side */
-  .hero { min-height: 380px; padding: 36px 32px 30px }
-  .hero h1 { font-size: clamp(2rem, 4vw, 2.6rem) }
-  .hero-sub { font-size: 1.05rem }
-  .hero-actions .btn { min-height: 50px; padding: 0 22px; font-size: .9375rem }
-  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 220px; height: 294px }
+  .hero { min-height: 360px; padding: 32px 28px 28px }
+  .hero h1 { font-size: clamp(1.8rem, 4vw, 2.2rem) }
+  .hero-sub { font-size: 1rem }
+  .hero-actions .btn { min-height: 48px; padding: 0 20px; font-size: .9rem }
+  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 200px; height: 267px }
 
-  /* Section blocks: slightly more spacing */
-  .section-block { margin: 24px 0 12px }
-  .section-block h2 { font-size: 1.3rem }
+  /* Section blocks: tighter spacing */
+  .section-block { margin: 20px 0 8px }
+  .section-block h2 { font-size: 1.2rem }
 
-  /* Cards: slightly larger images */
-  .stage svg { width: 62px; height: 84px }
-  .open { padding: 16px 14px 14px }
-  .name { font-size: 1rem }
-
-  /* Bottom nav: centered, rounded top corners */
+  /* Bottom nav: centered, max-width, rounded top corners */
   nav.bnav {
-    max-width: 860px;
+    max-width: 720px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 22px 22px 0 0;
     border: 1px solid var(--line);
     border-bottom: 0;
   }
-  nav.bnav button { max-width: 172px; font-size: .8rem; min-height: 60px }
+  nav.bnav button { max-width: 144px; font-size: .8rem; min-height: 56px }
 
   /* Identify grid: 4 columns */
   .identify-grid { grid-template-columns: repeat(4, 1fr) }
@@ -43,25 +38,21 @@
   .identify-best-card { grid-template-columns: 120px 1fr }
 
   /* Detail sheet: wider */
-  dialog { max-width: 680px }
-  dialog.wide { max-width: 1000px }
+  dialog { max-width: 640px }
+  dialog.wide { max-width: 960px }
 
-  /* Compare table: wider */
-  .cmp-table { min-width: 700px }
-
-  /* Larger headings overall */
-  h1 { font-size: clamp(2rem, 4vw, 2.6rem) }
-  h2 { font-size: 1.3rem }
+  /* Headings */
+  h1 { font-size: clamp(1.8rem, 4vw, 2.2rem) }
+  h2 { font-size: 1.2rem }
 
   /* Moods: larger buttons */
-  .mood { min-height: 50px; padding: 0 24px; font-size: .9375rem }
+  .mood { min-height: 50px; padding: 0 22px; font-size: .9375rem }
 
   /* Weather card: larger text */
-  .wx big { font-size: 2.6rem }
-  .wx p { font-size: .9375rem }
+  .wx big { font-size: 2.4rem }
 
   /* Verse: larger text */
-  .vm { font-size: 1.25rem }
+  .vm { font-size: 1.2rem }
 
   /* Chat messages: wider */
   .msg { max-width: 70% }
@@ -72,9 +63,8 @@
   /* Gallery thumbnails: slightly larger */
   .gallery img { width: 80px; height: 80px }
 
-  /* Search: taller */
-  .search { min-height: 56px }
-  .search input { min-height: 52px }
+  /* Rail: more gap between items */
+  .rail { gap: 16px }
 }
 
 @media (min-width: 1400px) {
