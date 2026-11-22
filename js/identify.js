@@ -242,58 +242,106 @@
 
   // ─── AI Vision via Edge Function ──────────────────────────────────────────
   /**
-   * Sends the image to the Supabase Edge Function for AI-powered identification.
-   * The image is converted to base64 and sent in the request body. The Edge
-   * Function processes it with a vision model and returns the identification
-   * WITHOUT storing the image anywhere.
+   * v7.8.3: Uses Puter.js (https://js.puter.com/v2/) — a FREE, keyless, signup-less
+   * AI platform that provides access to GPT-4 Vision and other vision models
+   * directly from the browser. No API key needed, no server needed.
+   *
+   * Puter.js is loaded dynamically on first use via a <script> tag.
+   * The image is sent to the AI model for processing and is NEVER stored.
    *
    * @returns {Promise<object|null>} — { ok, brand, name, notes, confidence }
-   *          or null if the Edge Function is not deployed / fails.
+   *          or null if Puter.js fails to load / identify.
    */
+  let puterLoaded = false;
+
+  /** Dynamically loads the Puter.js SDK. */
+  function loadPuter() {
+    return new Promise((resolve, reject) => {
+      if (puterLoaded && window.puter) { resolve(window.puter); return; }
+      if (window.puter) { puterLoaded = true; resolve(window.puter); return; }
+      const script = document.createElement('script');
+      script.src = 'https://js.puter.com/v2/';
+      script.onload = () => {
+        if (window.puter) { puterLoaded = true; resolve(window.puter); }
+        else reject(new Error('puter-load-failed'));
+      };
+      script.onerror = () => reject(new Error('puter-script-error'));
+      document.head.appendChild(script);
+    });
+  }
+
   async function identifyByAI(file) {
-    const cfg = LPF.config || {};
-    const functionsBase = cfg.supabase && cfg.supabase.functionsBase;
-    if (!functionsBase) return null;
-
-    // Convert file to base64 (strip the data URL prefix)
-    const base64 = await fileToBase64(file);
-    if (!base64) return null;
-
     try {
-      const res = await fetch(functionsBase + '/identify-perfume', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          image: base64,
-          mimeType: file.type,
-          // Pass the catalogue's brand+name list so the AI can match against it
-          catalogue: (LPF._catalogueHints || []).slice(0, 500)
-        }),
-        signal: AbortSignal.timeout(30000)
+      const puter = await loadPuter();
+
+      // Convert the image file to a data URL for Puter's vision API
+      const dataUrl = await fileToDataUrl(file);
+      if (!dataUrl) return null;
+
+      // Build the prompt with catalogue hints
+      const hints = (LPF._catalogueHints || []).slice(0, 100)
+        .map(p => `${p.brand} ${p.name}`).join('\n');
+
+      const prompt = `You are a perfume expert. Look at this image of a perfume bottle and identify it.
+Return your answer as JSON ONLY (no markdown, no code blocks) with these fields:
+{"brand":"brand name","name":"perfume name","notes":["note1","note2"],"accords":["woody","fresh"],"confidence":85,"description":"brief description"}
+
+${hints ? `Here are perfumes from our database that might match:\n${hints}\n` : ''}
+Respond ONLY with valid JSON.`;
+
+      // Call Puter's AI vision API
+      // puter.ai.chat(prompt, imageUrl, options)
+      const response = await puter.ai.chat(prompt, dataUrl, {
+        model: 'gpt-4o-mini'  // Puter supports multiple models, this one has vision
       });
-      if (!res.ok) {
-        console.warn('AI identify HTTP', res.status);
-        return null;
-      }
-      const data = await res.json();
-      if (data.error) {
-        console.warn('AI identify error:', data.error);
-        return null;
-      }
+
+      // The response is a string (the AI's text output)
+      const content = typeof response === 'string' ? response :
+                      response?.message?.content || response?.text || String(response || '');
+
+      if (!content) return null;
+
+      // Parse the JSON from the AI response
+      const parsed = parseAIJsonResponse(content);
+      if (!parsed) return null;
+
       return {
         ok: true,
-        method: 'ai-vision',
-        brand: data.brand || null,
-        name: data.name || null,
-        notes: data.notes || null,
-        accords: data.accords || null,
-        confidence: data.confidence || 70,
-        description: data.description || null
+        method: 'puter-ai-vision',
+        brand: parsed.brand || null,
+        name: parsed.name || null,
+        notes: parsed.notes || null,
+        accords: parsed.accords || null,
+        confidence: parsed.confidence || 70,
+        description: parsed.description || null
       };
     } catch (e) {
-      console.warn('AI identify failed:', e.message);
+      console.warn('Puter AI identify failed:', e.message);
       return null;
     }
+  }
+
+  /** Converts a File to a data URL (data:image/jpeg;base64,...). */
+  function fileToDataUrl(file) {
+    return new Promise((resolve) => {
+      try {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = () => resolve(null);
+        reader.readAsDataURL(file);
+      } catch { resolve(null); }
+    });
+  }
+
+  /** Parses a JSON response from the AI, handling markdown code fences. */
+  function parseAIJsonResponse(content) {
+    // Remove markdown code fences if present
+    let clean = content.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim();
+    try { return JSON.parse(clean); } catch {}
+    // Try to extract JSON from the text
+    const match = clean.match(/\{[\s\S]*\}/);
+    if (match) { try { return JSON.parse(match[0]); } catch {} }
+    return null;
   }
 
   /** Converts a File to a base64 string (without data URL prefix). */

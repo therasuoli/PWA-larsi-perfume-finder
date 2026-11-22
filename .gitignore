@@ -11,3 +11,5 @@ node_modules/
 
 # Local-only: build-similar.mjs output (large; regenerate on demand)
 data/similar.json
+supabase/.temp/
+supabase/functions/test-zai/
