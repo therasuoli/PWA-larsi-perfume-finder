@@ -476,14 +476,14 @@
       ${p.nameFa ? `<p class="sub" style="margin:0 0 6px">${esc(p.nameFa)}</p>` : ''}
       ${sub ? `<p class="sub" style="margin:0">${esc(sub)}</p>` : ''}
       <div class="chips">${[p.family && FA.family(p.family), p.family2 && FA.family(p.family2), ...(p.character || []).map(FA.char)].filter(Boolean).map(t => `<span class="chip" aria-disabled="true" style="pointer-events:none">${esc(t)}</span>`).join('')}</div>
-      ${desc ? `<p style="margin:8px 0" dir="auto">${esc(String(desc).slice(0, 360))}${String(desc).length > 360 ? '…' : ''}</p>` : (short ? `<p class="muted" style="margin:8px 0">${esc(short)}</p>` : '')}
+      ${desc ? `<p class="desc-text" dir="auto">${esc(String(desc).slice(0, 360))}${String(desc).length > 360 ? '…' : ''}</p>` : (short ? `<p class="muted desc-text" dir="auto">${esc(short)}</p>` : '')}
       <div class="pyr">${pyramidHTML(p)}</div>
       <p class="sub" style="margin:14px 0 4px">مناسب فصل‌ها</p>
       ${seasonBars(p)}
-      <div class="acts">
-        <button class="btn${fav ? ' pri' : ''}" type="button" data-fav="${esc(p.id)}" aria-pressed="${fav}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'}</span></button>
-        <button class="btn" type="button" data-cmp="${esc(p.id)}" aria-pressed="${compare.has(p.id)}">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
-        <button class="btn" type="button" id="dShare">${icon('share')}<span>اشتراک‌گذاری</span></button>
+      <div class="acts detail-actions">
+        <button class="btn${fav ? ' pri' : ''}" type="button" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'}</span></button>
+        <button class="btn ghost" type="button" id="dShare" aria-label="اشتراک‌گذاری این عطر">${icon('share')}<span>اشتراک‌گذاری</span></button>
+        <button class="btn ghost" type="button" data-cmp="${esc(p.id)}" aria-pressed="${compare.has(p.id)}" aria-label="${compare.has(p.id) ? 'حذف از مقایسه' : 'افزودن به مقایسه'}">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
       </div>
       <div class="set-group" style="margin:6px 0"><h3>امتیاز من</h3>
         <div class="rating" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
@@ -499,8 +499,14 @@
     $('#simStrip').innerHTML = '<p class="muted">در حال تحلیل نت‌های مشترک از بانک…</p>';
     (window.requestIdleCallback || (f => setTimeout(f, 30)))(() => { if (current && current.id === p.id) renderSimilarLocal(p); }, { timeout: 400 });
     markReadyImages(dom.dbody);
-    if (!dom.dlg.open) dom.dlg.showModal();
+    if (!dom.dlg.open) {
+      dom.dlg.showModal();
+      // Body scroll lock for the detail sheet (iOS Safari fix)
+      document.body.classList.add('lock');
+    }
     dom.dlg.scrollTop = 0;
+    // Move focus to the dialog title so screen-reader users land on the right heading
+    setTimeout(() => { const t = $('#dt'); if (t) t.setAttribute('tabindex', '-1'), t.focus(); }, 50);
   }
   function renderGallery(p) {
     const g = repo.images.gallery(p).filter(u => u !== repo.images.get(p));
@@ -546,12 +552,24 @@
     dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); }); // backdrop tap
   }
 
-  /* --- lightbox --- */
+  /* --- lightbox ---
+   * Conditional rendering: the <dialog id="lb"> element itself is always present
+   * in the DOM (because it's a <dialog>), but we treat it as fully closed by
+   * (a) clearing the image src,
+   * (b) clearing the caption, and
+   * (c) resetting the internal state.
+   * So a closed lightbox shows nothing — no "ghost" image, no leftover caption. */
   const lb = { urls: [], idx: 0, base: '' };
   function openLightbox(urls, idx, caption) {
-    lb.urls = urls; lb.idx = Math.max(0, idx); lb.base = caption || '';
+    // Defensive: never open the lightbox with no images, or with a bad index
+    if (!Array.isArray(urls) || !urls.length) return;
+    lb.urls = urls;
+    lb.idx = Math.max(0, Math.min(idx || 0, urls.length - 1));
+    lb.base = caption || '';
     dom.lbImg.src = lb.urls[lb.idx];
     $('#lbCap').textContent = `${lb.base} · ${fa(lb.idx + 1)} از ${fa(lb.urls.length)}`;
+    // Highlight the active thumbnail in the source gallery
+    syncActiveThumb();
     if (!dom.lb.open) {
       dom.lb.showModal();
       // BUG-007 fix: lock body scroll so background doesn't scroll on iOS Safari
@@ -561,13 +579,28 @@
   function closeLightbox() {
     if (dom.lb.open) dom.lb.close();
     document.body.classList.remove('lock');
+    // BUG-fix: reset all state so the next open() never shows a stale image
+    lb.urls = []; lb.idx = 0; lb.base = '';
+    // Clear the DOM too — this prevents a flash of the previous image if the
+    // dialog briefly re-opens with new content
+    dom.lbImg.removeAttribute('src');
+    $('#lbCap').textContent = '';
   }
   const lbGo = d => {
     if (!lb.urls.length) return;
     lb.idx = (lb.idx + d + lb.urls.length) % lb.urls.length;
     dom.lbImg.src = lb.urls[lb.idx];
     $('#lbCap').textContent = `${lb.base} · ${fa(lb.idx + 1)} از ${fa(lb.urls.length)}`;
+    syncActiveThumb();
   };
+  /** Highlights the gallery thumbnail that matches the currently-shown lightbox image. */
+  function syncActiveThumb() {
+    if (!current) return;
+    const url = lb.urls[lb.idx];
+    $$('[data-lightbox]', dom.dbody).forEach(img => {
+      img.classList.toggle('sel', img.dataset.lightbox === url);
+    });
+  }
   function bindLightboxSwipe() {
     let startX = 0, tracking = false;
     dom.lb.addEventListener('pointerdown', e => { tracking = true; startX = e.clientX; });
@@ -775,6 +808,51 @@
     if (menuBackdrop) menuBackdrop.addEventListener('click', () => setMenu(false));
     // Close on Escape when the menu is open
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuOpen) { e.preventDefault(); setMenu(false); } });
+
+    // Body scroll lock + state reset on close for the three <dialog> modals
+    // (detail sheet, compare sheet, lightbox). When a dialog closes — whether by
+    // Escape, backdrop click, swipe-to-close, or our explicit closeLightbox() —
+    // we MUST remove the body.lock class so the page can scroll again, and reset
+    // any internal state so the next open() doesn't show stale content.
+    [dom.dlg, dom.dlgCmp, dom.lb].forEach(d => {
+      if (!d) return;
+      d.addEventListener('close', () => {
+        document.body.classList.remove('lock');
+        if (d === dom.lb) {
+          // Lightbox: full state reset (image src, caption, internal state)
+          // (closeLightbox already does this, but the 'close' event fires even
+          // when Escape is pressed — which doesn't go through closeLightbox.)
+          lb.urls = []; lb.idx = 0; lb.base = '';
+          dom.lbImg.removeAttribute('src');
+          const cap = $('#lbCap'); if (cap) cap.textContent = '';
+        }
+        if (d === dom.dlg) {
+          // Detail sheet: reset current so a stale re-open can't happen.
+          // Note: we don't null `current` here because toggleFav/toggleCompare
+          // rely on it during the close transition; they're idempotent.
+        }
+      });
+    });
+
+    // Focus trap inside any open <dialog>: Tab on the last focusable element
+    // wraps to the first, and Shift+Tab on the first wraps to the last.
+    // This is the WCAG-recommended pattern for modal dialogs.
+    const FOCUSABLE = 'a[href], button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    [dom.dlg, dom.dlgCmp, dom.lb].forEach(d => {
+      if (!d) return;
+      d.addEventListener('keydown', e => {
+        if (e.key !== 'Tab' || !d.open) return;
+        const focusable = $$(FOCUSABLE, d).filter(el => el.offsetParent !== null || el === document.activeElement);
+        if (focusable.length < 2) return;
+        const first = focusable[0], last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault(); last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault(); first.focus();
+        }
+      });
+    });
+
     // theme toggle lives in settings.js (cycles auto → dark → light)
     $('#agentChips').addEventListener('click', e => { const b = e.target.closest('[data-q]'); if (b) agentView(b.dataset.q); });
 
@@ -835,12 +913,15 @@
 
     // compare tray
     dom.trayClear.addEventListener('click', () => { compare.clear(); $$('[data-cmp]').forEach(b => b.setAttribute('aria-pressed', 'false')); updateTray(); });
-    dom.trayOpen.addEventListener('click', () => { renderCompare(); if (!dom.dlgCmp.open) dom.dlgCmp.showModal(); });
+    dom.trayOpen.addEventListener('click', () => { renderCompare(); if (!dom.dlgCmp.open) { dom.dlgCmp.showModal(); document.body.classList.add('lock'); } });
 
     // lightbox tools
     $('#lbClose').addEventListener('click', closeLightbox);
     $('#lbPrev').addEventListener('click', () => lbGo(1));
     $('#lbNext').addEventListener('click', () => lbGo(-1));
+    // On-image prev/next buttons (Instagram-style) — same handlers, hidden on narrow screens via CSS
+    const lbNavPrev = $('#lbNavPrev'); if (lbNavPrev) lbNavPrev.addEventListener('click', () => lbGo(1));
+    const lbNavNext = $('#lbNavNext'); if (lbNavNext) lbNavNext.addEventListener('click', () => lbGo(-1));
     // Close on backdrop click + Escape (extra cleanup of body.lock)
     dom.lb.addEventListener('click', e => { if (e.target === dom.lb) closeLightbox(); });
     dom.lb.addEventListener('cancel', closeLightbox);  // triggered by Escape on <dialog>

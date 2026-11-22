@@ -14,7 +14,12 @@
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */
     store: { enabled: false, url: '' },
-    data: { syncIntervalHours: 6 },
+    /* Cache freshness window. The PWA fetches a delta from Supabase only when the cache
+     * is older than this. Lower = fresher data + more network traffic; higher = faster
+     * first paint + less traffic. The fallback for offline users is always the last
+     * cached version, regardless of age, so this only controls the "is the cache fresh
+     * enough to skip the sync?" decision. */
+    data: { syncIntervalHours: 1 },
     fonts: {
       default: 'vazir',
       keys: { vazir: 'وزیرمتن', naskh: 'نوتو نسخ', system: 'فونت سیستم' }

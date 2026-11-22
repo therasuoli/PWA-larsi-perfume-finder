@@ -247,9 +247,13 @@ nav.bnav .n { position: absolute; top: 4px; inset-inline-end: 30%; min-width: 18
 .tray .btn { min-height: 40px; font-size: .75rem; border-color: color-mix(in srgb, var(--bg) 60%, transparent); color: var(--bg); background: transparent; padding: 0 14px }
 .tray .btn.pri { background: var(--acc); color: var(--on); border-color: var(--acc) }
 
-/* ---------- dialogs (bottom sheets) ---------- */
+/* ---------- dialogs (bottom sheets) ----------
+ * The <dialog> backdrop is a separate overlay (rgba + blur) so the cards in the
+ * background look dimmed and out of focus — this is the modern mobile-sheet UX.
+ * Note: backdrop-filter has wide browser support now (Chrome 76+, Safari 9+,
+ * Firefox 103+), and degrades gracefully to a plain rgba overlay. */
 dialog { border: 0; padding: 0; margin: auto 0 0; width: 100%; max-width: 620px; max-height: 92dvh; background: var(--bg); color: var(--ink); border-radius: 28px 28px 0 0; overflow: auto; margin-inline: auto }
-dialog::backdrop { background: rgba(8, 16, 13, .55) }
+dialog::backdrop { background: rgba(8, 16, 13, .7); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px) }
 dialog[open] { animation: up .28s ease-out }
 @keyframes up { from { transform: translateY(40px); opacity: 0 } }
 dialog.wide { max-width: 980px }
@@ -264,24 +268,61 @@ dialog.dragging { transition: none; animation: none; transform: translateY(var(-
 .pyr div { padding: 12px 16px; border-radius: var(--r2); background: var(--card); border-inline-start: 6px solid var(--liq) }
 .pyr small { display: block; color: var(--mut); font-size: .8125rem }
 .pyr .note-chip { display: inline-block; margin: 3px 0 0 6px; font-size: .8125rem }
-.sea { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 10px 0 18px; text-align: center; font-size: .8125rem; color: var(--mut) }
-.sea i { display: block; height: 8px; border-radius: 4px; background: var(--line); margin-bottom: 4px; overflow: hidden }
-.sea i b { display: block; height: 100%; background: var(--liq) }
+/* Season bars — thicker (14px, was 8px) and filled with the brand color
+   (var(--acc), the saffron accent) so they're easier to read at a glance.
+   The track stays a muted line so empty seasons are clearly visible. */
+.sea { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 10px 0 18px; text-align: center; font-size: .8125rem; color: var(--mut) }
+.sea i { display: block; height: 14px; border-radius: 7px; background: var(--line); margin-bottom: 6px; overflow: hidden }
+.sea i b { display: block; height: 100%; background: var(--acc); border-radius: 7px; transition: width .3s ease }
+.sea i b.empty { background: var(--line); width: 8% !important }
 .acts { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0 }
 .acts .btn { flex: 1; min-width: 130px }
-.gallery { display: flex; gap: 8px; margin: 4px 0 8px; overflow-x: auto; scrollbar-width: none }
-.gallery img { width: 64px; height: 64px; border-radius: 12px; object-fit: cover; border: 1px solid var(--line); cursor: zoom-in }
-.gallery img.sel { outline: 3px solid var(--acc) }
-.rating { display: flex; gap: 4px; margin: 6px 0 }
-.rating button { width: 44px; height: 44px; display: grid; place-items: center }
+/* Detail-action buttons have a clearer hierarchy: the first one (favorite, when active)
+   is filled with the brand color; the others are outline/ghost. */
+.acts.detail-actions .btn:first-child { flex: 1.4 }   /* slightly wider for the primary action */
+.acts.detail-actions .btn:not(:first-child):not(.pri) { background: transparent; border-color: var(--line); color: var(--ink) }
+
+/* Gallery thumbnails: more gap so they're easier to tap, and a clear active state */
+.gallery { display: flex; gap: 10px; margin: 4px 0 8px; overflow-x: auto; scrollbar-width: none; padding: 2px }
+.gallery img { width: 72px; height: 72px; border-radius: 12px; object-fit: cover; border: 2px solid transparent; cursor: zoom-in; transition: border-color .15s ease, transform .15s ease }
+.gallery img:hover, .gallery img:focus-visible { transform: scale(1.05) }
+.gallery img.sel { border-color: var(--acc); box-shadow: 0 0 0 1px var(--bg) inset /* gives the border a thin gap from the image */ }
+
+/* Rating: more gap so the stars are easier to tap, plus a clear hover state */
+.rating { display: flex; gap: 8px; margin: 6px 0 }
+.rating button { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 12px; transition: background .15s ease, transform .1s ease }
+.rating button:hover { background: color-mix(in srgb, var(--acc) 14%, transparent) }
+.rating button:active { transform: scale(.92) }
 .rating button.on svg { fill: var(--acc); stroke: var(--ink) }
 .d-note { width: 100%; min-height: 88px; padding: 10px 14px; border-radius: var(--r2); border: 1px solid var(--line); background: var(--card); resize: vertical }
 
-/* lightbox */
-dialog.lb { max-width: 100%; width: 100%; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0; background: rgba(8, 16, 13, .96); display: grid; align-content: space-between }
+/* Detail description text — RTL-aware justification.
+   `text-align: justify` works for both LTR and RTL paragraphs in modern browsers
+   when combined with `dir="auto"` (which picks the direction per paragraph based
+   on its first strong character). */
+.desc-text { margin: 8px 0; line-height: 1.9; text-align: justify; text-justify: inter-word; word-spacing: -0.05em }
+
+/* lightbox — full-screen overlay with arrow controls ON the image (Instagram-style).
+   The close button stays in the top corner (within reach of a thumb),
+   but the prev/next arrows are positioned at the left/right edges of the image
+   so the user doesn't have to reach for the top bar. */
+dialog.lb { max-width: 100%; width: 100%; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0; background: rgba(8, 16, 13, .96); display: grid; align-content: space-between; overflow: hidden }
 .lb img { display: block; margin: auto; max-width: 100%; max-height: 76dvh; object-fit: contain }
-.lb-tools { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 18px; color: #fff }
-.lb-tools .round { background: rgba(255, 255, 255, .12); border-color: rgba(255, 255, 255, .25); color: #fff }
+.lb-tools { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 18px; color: #fff; z-index: 2 }
+.lb-tools .round { background: rgba(255, 255, 255, .12); border-color: rgba(255, 255, 255, .25); color: #fff; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px) }
+.lb-tools .round:hover { background: rgba(255, 255, 255, .22) }
+/* Prev/Next arrow buttons — float over the image's left and right edges.
+   These are visually distinct from the top-bar buttons (close), so the user
+   knows they navigate the gallery, not the modal. */
+.lb-nav { position: fixed; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .25); color: #fff; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); cursor: pointer; z-index: 3; transition: background .15s ease, transform .15s ease }
+.lb-nav:hover { background: rgba(255, 255, 255, .26); transform: translateY(-50%) scale(1.06) }
+.lb-nav:active { transform: translateY(-50%) scale(.96) }
+.lb-nav.prev { inset-inline-start: 16px }
+.lb-nav.next { inset-inline-end: 16px }
+/* Hide the in-image nav buttons on very narrow screens — swipe is the only sensible input there */
+@media (max-width: 480px) {
+  .lb-nav { display: none }
+}
 .lb-cap { color: #d8e2da; text-align: center; padding: 0 18px 10px; font-size: .875rem }
 
 /* compare table */
