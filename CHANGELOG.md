@@ -1,5 +1,47 @@
 # Larsi Perfume Finder — Changelog
 
+## 7.9.8 · آذر ۱۴۰۵ — بازبینی عمیق امنیت و پایداری (app.js, agent.js, identify.js, recommend.js)
+ممیزی عمیق چهار ماژول اصلی و رفع ۲۱ باگ (۲ بحرانی + ۱۹ با اهمیت بالا) که در ممیزی خط‌به‌خط یافت شد.
+
+### app.js (۱۱ رفع)
+- **حفاظت از امتیاز کاربر هنگام import کمد اشتراکی:** امتیاز موجود کاربر دیگر با امتیاز دوست بازنویسی نمی‌شود؛ فقط زمانی که کاربر امتیازی ندارد، امتیاز لینک اعمال می‌شود.
+- **اعتبارسنجی شکل payload لینک اشتراکی (سخت‌تر):** عناصر غیرآرایه‌ای در `payload.w` (مانند `null` یا `{}`) دیگر `TypeError` پرتاب نمی‌کنند و `routeDeepLink → init → registerSW` را قطع نمی‌کردند — اکنون با guard `Array.isArray` و `filter(Boolean)` فیلتر می‌شوند.
+- **نقشهٔ وضعیت export/import متقارن:** `STATUS_TO_LETTER` / `LETTER_TO_STATUS` به‌عنوان منبع واحد؛ وضعیت‌های ناشناخته به‌جای `'sold'` به `'wishlist'` نگاشت می‌شوند (round-trip دیگر فساد نمی‌کند).
+- **حفظ یکنواخت وضعیت موجود:** شرط `prev.status !== 'wishlist'` حذف شد؛ هر وضعیت موجود (از جمله wishlist) اکنون حفظ می‌شود، مطابق با مستندات.
+- **فیلتر disliked در شبکهٔ اصلی:** `matches()` اکنون `S.disliked` را بررسی می‌کند؛ عطرهای رد شده دیگر در browse/search ظاهر نمی‌شوند (قبلاً فقط در POTD/recommend فیلتر می‌شدند).
+- **حفظ وضعیت کمد هنگام ذخیره بدون انتخاب chip:** وقتی کاربر همهٔ chips را deselect می‌کند، وضعیت قبلی حفظ می‌شود (قبلاً به‌اشتباه `'owned'` می‌شد).
+- **`Array.isArray` guards در `levelHTML`/`pyramidHTML`/`list`/`renderIdentifyResult`:** فیلدهای note که به‌صورت رشته می‌رسند (از Supabase text columns) دیگر `.map` را نمی‌شکنند.
+- **اعتبارسنجی سختگیرانهٔ پاسخ sync:** `Array.isArray(res.items) && res.items.length` به‌جای truthiness؛ پاسخ خراب دیگر `byId` را corrupt نمی‌کند.
+- **تطبیق `current` پس از sync:** اگر عطر باز در حین sync حذف/تغییر کند، sheet بسته یا با دادهٔ تازه re-render می‌شود (قبلاً stale می‌ماند).
+- **اعتبارسنجی timezone در `Intl.DateTimeFormat`:** timezone غیر IANA از IP-geo API دیگر `RangeError` پرتاب نمی‌کند؛ fallback به `'Asia/Tehran'`.
+
+### agent.js (۸ رفع)
+- **دفاع prompt injection:** پیام کاربر به‌صورت DATA در triple-quote فریم‌بندی می‌شود و system prompt صریحاً آن را به‌عنوان محتوا نشانه‌گذاری می‌کند.
+- **timeout سخت ۱۲ ثانیه روی `puter.ai.chat`:** stream گیر‌کرده دیگر UI را بی‌نهایت hang نمی‌کند؛ fallback به موتور محلی فعال می‌شود.
+- **null guards در `scoreAndRank`:** `state.fa`, `state.store.state.favs`, `LPF.location.tempToMood` در برابر init ناقص مقاوم شدند؛ دیگر `TypeError` کل loop را abort نمی‌کند.
+- **مستندسازی قرارداد امن `remote()`:** کامنت صریح اضافه شد که callers باید `esc()` کنند (caller فعلی `app.js:agentView` این کار را می‌کند).
+
+### identify.js (۷ رفع)
+- **invalidation cache رنگ:** cache بر اساس کلید محتوایی (length + first id) بازسازی می‌شود؛ عطرهای اضافه‌شده پس از اولین فراخوانی دیگر bonus رنگ را از دست نمی‌دهند.
+- **رفت نشتی URL object:** `loadImage` اکنون `{img, url}` برمی‌گرداند و caller در `finally` آن را revoke می‌کند؛ نشتی حافظه در موبایل‌های ضعیف (crash پس از ۲۰-۵۰ شناسایی) برطرف شد.
+- **coercion confidence به عدد:** `Number(parsed.confidence)` با fallback 70؛ NaN دیگر در `matchAIResultToCatalogue` sort را به‌هم نمی‌زند (هم در `identifyByAI` و هم در `matchAIResultToCatalogue`).
+- **prompt injection در catalogue hints:** هر hint با `JSON.stringify` فریم‌بندی می‌شود تا رشته‌های恶意 در نام عطرها به‌عنوان دستور تفسیر نشوند.
+- **JSON parser متوازن‌براکت:** جایگزین greedy regex `\{[\s\S]*\}`؛ JSON که با prose محاط شده دیگر fail نمی‌شود.
+- **تطبیق کلمه با stem حداقل ۴ کاراکتر:** کلمات عمومی کوتاه (eau, noir, bleu) دیگر ده‌ها عطر بی‌ربط را spuriously match نمی‌کنند.
+- **استفاده از `capRatio` در score:** پارامتر مرده اکنون bonus کوچک به خانواده‌های oud/leather با کلاه تیره می‌دهد.
+
+### recommend.js (۶ رفع)
+- **guards null در `perfectForToday`:** `weather` و `LPF.location.tempToMood` بررسی می‌شوند؛ رد geolocation دیگر section را crash نمی‌کند.
+- **guards وابستگی load-order:** `LPF.identify` و `LPF.fa` با optional chaining؛ recommend.js اکنون بدون crash اگر قبل از identify.js load شود.
+- **diversity per-brand:** cap ۲ عطر در هر برند در `becauseYouLiked`, `perfectForToday`, `quizRecommend`؛ کاربر دیگر ۱۰ عطر تقریباً یکسان از یک house نمی‌بیند.
+- **تکمیل trendingNow:** نتایج واقعی ۱-۲ تایی دیگر دور ریخته نمی‌شوند؛ با عطرهای rich پر می‌شوند.
+- **fallback خالی در quizRecommend:** اگر هیچ خانواده/فصلی تطابق نکند، fallback به محبوب‌ترین‌ها (نه صفحهٔ خالی).
+- **آستانهٔ score تطبیقی:** وقتی هیچ سیگنال خانواده‌ای نیست (مثلاً "خودم" + "هر وقت")، آستانه از ۲۰ به ۸ کاهش می‌یابد.
+
+### تست
+- **`tests/identify-regression.test.js` (جدید، ۵ تست):** regression برای confidence coercion و word-overlap matching.
+- مجموع تست‌ها از ۵۱ به ۵۶ رسید؛ همگی سبز.
+
 ## 7.9.7 · آذر ۱۴۰۵ — رفع سه باگ بحرانی (import کمد، validation لینک اشتراکی، dedup اسلایدر)
 - **۱. حفاظت از یادداشت کاربر هنگام import کمد اشتراکی (`app.js:showSharedWardrobe`):**
   - **باگ:** دکمهٔ «افزودن به کمد من» یادداشت و وضعیت موجود کاربر را بی‌شرط با مقادیر خالی/پیش‌فرض بازنویسی می‌کرد. یک کاربر که برای عطرهایش یادداشت خرید یا تجربهٔ پوشیدن نوشته بود، با import کمد یک دوست، تمام داده‌های شخصی‌اش را از دست می‌داد. از دست رفتن دادهٔ غیرقابل بازیابی.

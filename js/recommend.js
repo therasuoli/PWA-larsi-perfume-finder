@@ -28,6 +28,9 @@
    */
   function becauseYouLiked(likedIds, items, ctx, opts) {
     if (!likedIds || !likedIds.length || !items || !items.length) return [];
+    // Guard the algo dependency — a caller passing a raw (un-prepared) perfume or a null ctx
+    // used to throw inside algo.similarLocal on `p._nl.forEach`, breaking the whole home section.
+    if (!LPF.algo || !LPF.algo.similarLocal || !ctx) return [];
     const maxResults = (opts && opts.maxResults) || 10;
     const disliked = (opts && opts.disliked) || new Set();
     const likedSet = new Set(likedIds);
@@ -35,7 +38,7 @@
 
     for (const id of likedIds) {
       const p = items.find(x => x.id === id);
-      if (!p) continue;
+      if (!p || !p._nl) continue; // skip records that weren't run through algo.prepare
       const sims = LPF.algo.similarLocal(p, items, ctx, { disliked });
       for (const s of sims) {
         if (likedSet.has(s.p.id)) continue; // don't recommend what they already liked
@@ -49,7 +52,30 @@
         }
       }
     }
-    return [...scored.values()].sort((a, b) => b.score - a.score).slice(0, maxResults);
+    const sorted = [...scored.values()].sort((a, b) => b.score - a.score);
+    // Diversity: cap at max 2 per brand so the user never sees 10 near-identical perfumes
+    // from a single house. Pad from the remaining sorted list if room is left.
+    return enforceBrandDiversity(sorted, maxResults);
+  }
+
+  /** Caps recommendations at `cap` per brand, then pads from the remaining sorted list. */
+  function enforceBrandDiversity(sorted, maxResults, cap) {
+    const brandCap = cap || 2;
+    const byBrand = new Map();
+    const diverse = [];
+    const leftovers = [];
+    for (const r of sorted) {
+      const cnt = byBrand.get(r.p.brand) || 0;
+      if (cnt < brandCap) { byBrand.set(r.p.brand, cnt + 1); diverse.push(r); }
+      else leftovers.push(r);
+      if (diverse.length >= maxResults) break;
+    }
+    // If we couldn't reach maxResults with the cap, fill the rest from leftovers (still better than a short list).
+    for (const r of leftovers) {
+      if (diverse.length >= maxResults) break;
+      diverse.push(r);
+    }
+    return diverse.slice(0, maxResults);
   }
 
   // ─── Trending (from local analytics) ─────────────────────────────────────
@@ -73,6 +99,16 @@
         .filter(Boolean)
         .slice(0, maxResults);
       if (results.length >= 3) return results;
+      // Pad real results (1-2 entries) with rich perfumes instead of discarding them.
+      if (results.length) {
+        const seen = new Set(results.map(r => r.p.id));
+        const pad = items
+          .filter(p => !p.deleted && p.year && (p.top || p.notes) && !seen.has(p.id))
+          .sort((a, b) => richness(b) - richness(a))
+          .slice(0, maxResults - results.length)
+          .map(p => ({ p, score: richness(p), reasons: ['دادهٔ کامل'] }));
+        return [...results, ...pad].slice(0, maxResults);
+      }
     }
     // Fallback: perfumes with the richest data (most notes + image + year)
     return items
@@ -95,8 +131,12 @@
    */
   function perfectForToday(items, weather, season, opts) {
     if (!items || !items.length) return [];
+    // Null-guard weather + location: a denied geolocation or failed weather fetch used to
+    // throw TypeError on `weather.temp` and on `LPF.location.tempToMood`, breaking the section.
+    if (!weather || weather.temp == null || !LPF.location || !LPF.location.tempToMood) return [];
     const maxResults = (opts && opts.maxResults) || 10;
     const mood = LPF.location.tempToMood(weather.temp, weather.humidity, season);
+    if (!mood) return []; // out-of-range temp → no mood, no recommendations
     const preferredFamilies = new Set(mood.families || []);
     const avoidFamilies = new Set(mood.avoid || []);
     const disliked = (opts && opts.disliked) || new Set();
@@ -104,8 +144,8 @@
     const candidates = [];
     for (const p of items) {
       if (p.deleted || disliked.has(p.id)) continue;
-      // Map familyFa → English for matching
-      const famEn = p.family || LPF.identify.mapFamilyFa(p.familyFa);
+      // Map familyFa → English for matching. Null-guard LPF.identify (load-order coupling).
+      const famEn = p.family || (LPF.identify && LPF.identify.mapFamilyFa ? LPF.identify.mapFamilyFa(p.familyFa) : null);
       let score = 0;
       const reasons = [];
       if (preferredFamilies.has(famEn)) {
@@ -120,7 +160,7 @@
       if (LPF.repo && LPF.repo.images && LPF.repo.images.get(p)) score += 3;
       if (score >= 25) candidates.push({ p, score: Math.min(100, Math.round(score)), reasons });
     }
-    return candidates.sort((a, b) => b.score - a.score).slice(0, maxResults);
+    return enforceBrandDiversity(candidates.sort((a, b) => b.score - a.score), maxResults);
   }
 
   // ─── Guided quiz discovery ───────────────────────────────────────────────
@@ -176,18 +216,35 @@
       if (opt.families) opt.families.forEach(f => fams.add(f));
       if (opt.season !== undefined) season = opt.season;
     }
+    // Relax the score threshold when there's no family signal (e.g. user picked "me" + "any").
+    // Previously this could return an empty list with no fallback, leaving a blank results screen.
+    const threshold = fams.size ? 20 : 8;
     const candidates = [];
     for (const p of items) {
       if (p.deleted || disliked.has(p.id)) continue;
-      const famEn = p.family || LPF.identify.mapFamilyFa(p.familyFa);
+      const famEn = p.family || (LPF.identify && LPF.identify.mapFamilyFa ? LPF.identify.mapFamilyFa(p.familyFa) : null);
       let score = 0; const reasons = [];
-      if (fams.size && fams.has(famEn)) { score += 30; reasons.push('خانوادهٔ ' + (LPF.fa.family(famEn) || famEn)); }
-      if (season && p.seasons && p.seasons.includes(season)) { score += 20; reasons.push('مناسب ' + LPF.fa.season(season)); }
+      if (fams.size && fams.has(famEn)) {
+        score += 30;
+        reasons.push('خانوادهٔ ' + ((LPF.fa && LPF.fa.family ? LPF.fa.family(famEn) : null) || famEn || ''));
+      }
+      if (season && p.seasons && p.seasons.includes(season)) {
+        score += 20;
+        if (LPF.fa && LPF.fa.season) reasons.push('مناسب ' + LPF.fa.season(season));
+      }
       if (p.rank && p.rank < 500) score += Math.max(0, 8 - p.rank / 100);
       if (LPF.repo && LPF.repo.images && LPF.repo.images.get(p)) score += 3;
-      if (score >= 20) candidates.push({ p, score: Math.min(100, Math.round(score)), reasons });
+      if (score >= threshold) candidates.push({ p, score: Math.min(100, Math.round(score)), reasons });
     }
-    return candidates.sort((a, b) => b.score - a.score).slice(0, maxResults);
+    // If still empty (small catalogue with no family/season overlap), fall back to popularity.
+    if (!candidates.length) {
+      return items
+        .filter(p => !p.deleted && !disliked.has(p.id))
+        .sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9))
+        .slice(0, maxResults)
+        .map(p => ({ p, score: 5, reasons: ['محبوب'] }));
+    }
+    return enforceBrandDiversity(candidates.sort((a, b) => b.score - a.score), maxResults);
   }
 
   // ─── Public API ──────────────────────────────────────────────────────────

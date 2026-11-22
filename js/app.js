@@ -120,6 +120,7 @@
   }
   function matches(p) {
     if (p.deleted) return false;
+    if (S.disliked.has(p.id)) return false; // respect explicit "don't show" across browse/search too (was grid-only gap)
     if (F.fav && !S.favs.has(p.id)) return false;
     if (F.family) {
       if (F.family === '__uncategorized__') { if (p.family || p.family2) return false; }
@@ -623,7 +624,7 @@
             <b style="font-size:1.1rem;color:var(--acc)">${esc(res.aiResult.brand || '')} ${esc(res.aiResult.name || '')}</b>
           </div>
           ${res.aiResult.description ? `<p class="muted" style="font-size:.8125rem">${esc(res.aiResult.description)}</p>` : ''}
-          ${res.aiResult.notes && res.aiResult.notes.length ? `<div class="chips" style="margin:8px 0">${res.aiResult.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div>` : ''}
+          ${Array.isArray(res.aiResult.notes) && res.aiResult.notes.length ? `<div class="chips" style="margin:8px 0">${res.aiResult.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div>` : ''}
           <p class="hint">این عطر در بانک لارسی نیست. می‌توانی با جستجوی دستی عطرهای مشابه را پیدا کنی.</p>`;
         best.hidden = true; others.hidden = true; similar.hidden = true;
       } else if (!res.ok) {
@@ -647,7 +648,7 @@
         ${ai.brand ? `<div class="swatch"><b style="color:var(--ink);font-size:.9375rem">برند: ${esc(ai.brand)}</b></div>` : ''}
         ${ai.name ? `<div class="swatch"><b style="color:var(--ink);font-size:.9375rem">نام: ${esc(ai.name)}</b></div>` : ''}
         ${ai.confidence ? `<div class="stat-row"><div class="stat"><b>${fa(ai.confidence)}٪</b><span>اطمینان</span></div></div>` : ''}
-        ${ai.notes && ai.notes.length ? `<div style="margin:8px 0"><small style="color:var(--mut)">نت‌های شناسایی‌شده:</small><div class="chips" style="margin:4px 0">${ai.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div></div>` : ''}
+        ${Array.isArray(ai.notes) && ai.notes.length ? `<div style="margin:8px 0"><small style="color:var(--mut)">نت‌های شناسایی‌شده:</small><div class="chips" style="margin:4px 0">${ai.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div></div>` : ''}
         ${ai.description ? `<p class="muted" style="font-size:.8125rem">${esc(ai.description)}</p>` : ''}`;
     } else {
       // Colour analysis fallback
@@ -788,7 +789,13 @@
     const season = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
     const loc = LPF.wx.location || LPF.location.DEFAULTS[0];
     const tz = loc.tz || 'Asia/Tehran';
-    const dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: tz }).format(new Date());
+    // Validate tz against Intl's known list — a malformed string from a flaky IP-geo API
+    // used to throw RangeError inside Intl.DateTimeFormat, propagating as unhandled rejection
+    // and silently skipping renderWeatherRail / renderAIToday.
+    const validTz = (Intl.supportedValuesOf && Intl.supportedValuesOf('timeZone') || ['Asia/Tehran']).includes(tz) ? tz : 'Asia/Tehran';
+    let dt;
+    try { dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: validTz }).format(new Date()); }
+    catch { dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Tehran' }).format(new Date()); }
     const cityName = loc.name || 'شیراز';
     const staleBadge = LPF.wx.stale ? ' <small style="opacity:.6">(کش قدیمی)</small>' : '';
     el.innerHTML = `<div class="row"><span class="live">${LPF.wx.ok ? 'زنده' : LPF.wx.ok === null ? 'در حال دریافت' : 'آفلاین'}</span><span id="wxClock"></span></div>
@@ -932,13 +939,15 @@
     return LPF.algo.similarLocal(p, items, simCtx, { disliked: S.disliked });
   }
   function levelHTML(title, arr, liq) {
-    return arr && arr.length ? `<div style="--liq:${liq}"><small>${title}</small>${arr.map(n => { const f = FA.note(n); return `<span class="note-chip">${esc(f || n)}${f ? ` <small class="muted">${esc(n)}</small>` : ''}</span>`; }).join('')}</div>` : '';
+    // Guard with Array.isArray — a string passes `arr.length` but has no `.map`, throwing TypeError.
+    if (!Array.isArray(arr) || !arr.length) return '';
+    return `<div style="--liq:${liq}"><small>${title}</small>${arr.map(n => { const f = FA.note(n); return `<span class="note-chip">${esc(f || n)}${f ? ` <small class="muted">${esc(n)}</small>` : ''}</span>`; }).join('')}</div>`;
   }
   function pyramidHTML(p) {
     const liq = famLiq(p.family);
     const html = levelHTML('نت‌های سر — چند دقیقهٔ نخست', p.top, liq) + levelHTML('نت‌های قلب — ساعت‌های اصلی', p.heart, liq) + levelHTML('نت‌های پایه — ردِ ماندگار', p.base, liq);
     if (html) return html;
-    const flat = (p.notes && p.notes.length ? p.notes : p.allNotes) || [];
+    const flat = (Array.isArray(p.notes) ? p.notes : Array.isArray(p.allNotes) ? p.allNotes : []) || [];
     return flat.length ? levelHTML('نت‌های اصلی', flat, liq) : '<p class="muted">برای این عطر نت بویایی ثبت نشده است.</p>';
   }
   function seasonBars(p) {
@@ -1145,7 +1154,8 @@
     const ps = [...compare].map(getP).filter(Boolean);
     const body = $('#cmpBody');
     if (ps.length < 2) { body.innerHTML = '<p class="muted">حداقل دو عطر را برای مقایسه انتخاب کن.</p>'; return; }
-    const list = a => (a && a.length ? a.map(n => FA.note(n) || n).join('، ') : '—');
+    // Coerce non-array note fields to array — Supabase text columns sometimes arrive as strings.
+    const list = a => (Array.isArray(a) ? a.map(n => FA.note(n) || n).join('، ') : a ? esc(String(a)) : '—');
     const rows = [
       ['برند', p => p.brand], ['غلظت', p => FA.concentration(p.conc) || '—'], ['سال عرضه', p => p.year || '—'],
       ['خانواده', p => [FA.family(p.family), FA.family(p.family2)].filter(Boolean).join(' + ') || '—'],
@@ -1384,7 +1394,10 @@
         const st = $('[data-status][aria-pressed="true"]', dom.dbody);
         const note = $('#dNote').value.trim();
         if (!st && !note) { toast('ابتدا یک وضعیت انتخاب کن یا یادداشت بنویس'); return; }
-        S.wardrobe[current.id] = { status: st ? st.dataset.status : 'owned', note, updatedAt: new Date().toISOString() };
+        // Preserve existing status when user deselects all chips — previously defaulted to 'owned', silently flipping wishlist→owned.
+        const prev = S.wardrobe[current.id];
+        const status = st ? st.dataset.status : (prev && prev.status) || 'wishlist';
+        S.wardrobe[current.id] = { status, note, updatedAt: new Date().toISOString() };
         ST.saveWardrobe(); updateWardrobeBadge(); renderWardrobe(); toast('در کمد عطر ذخیره شد'); renderDetail(current); return;
       }
       if (t.closest('#dUnsave') && current) { delete S.wardrobe[current.id]; ST.saveWardrobe(); updateWardrobeBadge(); renderWardrobe(); toast('از کمد حذف شد'); renderDetail(current); return; }
@@ -1539,6 +1552,11 @@
   }
 
   /* ================= shared wardrobe (no account) ================= */
+  // Single source of truth for status letter mapping — fixes two bugs:
+  //  (a) export used to default unknown statuses to 's' (sold); now defaults to 'w' (wishlist).
+  //  (b) import/export round-trip is now symmetric and explicit.
+  const STATUS_TO_LETTER = { owned: 'o', wishlist: 'w', tested: 't', sold: 's' };
+  const LETTER_TO_STATUS = { o: 'owned', w: 'wishlist', t: 'tested', s: 'sold' };
   const b64url = { enc: s => btoa(unescape(encodeURIComponent(s))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''), dec: s => decodeURIComponent(escape(atob(s.replace(/-/g, '+').replace(/_/g, '/')))) };
   function shareWardrobe() {
     const ids = [...S.favs, ...Object.keys(S.wardrobe)];
@@ -1546,7 +1564,8 @@
     LPF.analytics.track('share');
     const payload = {
       f: [...S.favs],
-      w: Object.entries(S.wardrobe).map(([id, v]) => [id, v.status === 'owned' ? 'o' : v.status === 'wishlist' ? 'w' : v.status === 'tested' ? 't' : 's', S.ratings[id] || 0]),
+      // Look up status letter via the shared map; unknown/missing → 'w' (wishlist), never 's' (sold).
+      w: Object.entries(S.wardrobe).map(([id, v]) => [id, STATUS_TO_LETTER[v && v.status] || 'w', S.ratings[id] || 0]),
       at: new Date().toISOString().slice(0, 10)
     };
     const url = location.origin + location.pathname + '?w=' + b64url.enc(JSON.stringify(payload));
@@ -1558,10 +1577,19 @@
     let payload;
     try { payload = JSON.parse(b64url.dec(encoded)); } catch { toast('لینک کمد معتبر نیست'); return; }
     // Defensive shape validation: payload.f and payload.w must be arrays.
-    // A crafted or truncated link (e.g. {"f":"abc"}) used to throw uncaught TypeError here.
+    // A crafted link like {"f":[],"w":[null]} used to throw an uncaught TypeError inside .map,
+    // which propagated up through routeDeepLink → init and silently skipped registerSW().
     const fArr = Array.isArray(payload && payload.f) ? payload.f : [];
     const wArr = Array.isArray(payload && payload.w) ? payload.w : [];
-    const rows = [...fArr.map(id => ({ id, fav: true })), ...wArr.map(([id, st, r]) => ({ id, st, r }))];
+    const rows = [
+      ...fArr.map(id => ({ id, fav: true })),
+      ...wArr.map(e => {
+        if (!Array.isArray(e)) return null;            // non-array element → skip
+        const [id, st, r] = e;
+        if (id == null) return null;                    // missing id → skip
+        return { id, st, r };
+      }).filter(Boolean)
+    ];
     const seen = new Map();
     for (const r of rows) {
       const prev = seen.get(r.id) || { id: r.id };
@@ -1587,23 +1615,27 @@
     dlg.addEventListener('click', e => { if (e.target === dlg) close(); });
     $('#swClose', dlg).onclick = close;
     $('#swSave', dlg).onclick = () => {
-      const statusMap = { o: 'owned', w: 'wishlist', t: 'tested', s: 'sold' };
       let n = 0;
       const now = new Date().toISOString();
       for (const r of seen.values()) {
         if (r.fav) S.favs.add(r.id);
         if (r.st) {
-          // Merge instead of overwrite: preserve any existing note/status the user already set.
-          // Previously this unconditionally replaced the entry with an empty note, losing user data.
+          // Merge, never overwrite: preserve the user's existing status AND note uniformly.
+          // Previously the condition `prev.status !== 'wishlist'` treated wishlist as overridable,
+          // which contradicted the "preserve existing status" promise. Now any existing status wins.
           const prev = S.wardrobe[r.id] || {};
-          const incomingStatus = statusMap[r.st] || 'wishlist';
+          const incomingStatus = LETTER_TO_STATUS[r.st] || 'wishlist';
           S.wardrobe[r.id] = {
-            status: prev.status && prev.status !== 'wishlist' ? prev.status : incomingStatus,
-            note: prev.note || '',
+            status: prev && prev.status ? prev.status : incomingStatus,
+            note: prev && prev.note ? prev.note : '',
             updatedAt: now
           };
         }
-        if (r.r) S.ratings[r.id] = Math.min(5, Math.max(1, r.r));
+        // Rating: only set if the user has none — never overwrite an existing rating with a friend's.
+        if (r.r && !S.ratings[r.id]) {
+          const clamped = Math.min(5, Math.max(1, Number(r.r) || 0));
+          if (Number.isFinite(clamped)) S.ratings[r.id] = clamped;
+        }
         if (r.fav || r.st) n++;
       }
       ST.saveFavs(); ST.saveWardrobe(); ST.saveRatings();
@@ -1722,10 +1754,22 @@
     // Speed: delta sync deferred to idle so it never blocks the first interaction
     if (cacheAge >= (cfg.data.syncIntervalHours || 6) * 3600000) {
       const runSync = () => repo.catalog.sync().then(res => {
-        if (!res || !res.items) return;
+        // Strict validation: a truthy-but-non-array `res.items` (e.g. an HTML error page parsed
+        // into an object, or a string) used to reassign `items` to a non-array and then crash
+        // inside buildIndex() — `live = items.filter(...)` — leaving `byId` already cleared and
+        // every subsequent openDetail silently failing for the rest of the session.
+        if (!res || !Array.isArray(res.items) || !res.items.length) return;
         items = res.items; buildIndex(); buildFilterOptions(); renderHome(); syncFilterUI(); render(); updateTray();
         LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
         LPF.agent.init(live, FA, S.disliked, openDetail, ST);
+        // Reconcile the open detail sheet against the fresh catalogue: if the perfume was
+        // deleted in sync, close the sheet; if it was updated, re-render with the new object
+        // so the user never sees stale notes/name from the pre-sync product.
+        if (current) {
+          const fresh = byId.get(current.id);
+          if (!fresh || fresh.deleted) { if (dom.dlg && dom.dlg.open) dom.dlg.close(); current = null; }
+          else if (fresh !== current) { current = fresh; renderDetail(fresh); }
+        }
       }).catch(() => { });
       // Use requestIdleCallback so the sync doesn't compete with the user's first scroll
       if (window.requestIdleCallback) requestIdleCallback(runSync, { timeout: 4000 });
