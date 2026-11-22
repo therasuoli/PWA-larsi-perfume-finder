@@ -1,9 +1,9 @@
 /* Larsi Perfume Finder — Service Worker v7.8.3 */
-const VERSION = '7.9.1';
+const VERSION = '7.9.2';
 const SHELL = `lpf-${VERSION}-shell`;
 const IMG = 'lpf-images-v2';
 const CORE = [
-  './', './index.html', './css/app.css', './CHANGELOG.md',
+  './', './index.html', './css/app.css', './css/responsive-tablet.css', './css/responsive-desktop.css', './CHANGELOG.md',
   './js/boot.js', './js/config.js', './js/lang-fa.js', './js/algo.js', './js/identify.js', './js/location.js', './js/recommend.js', './js/store.js', './js/repo.js', './js/agent.js', './js/analytics.js', './js/settings.js', './js/app.js', './js/worker-catalog.js',
   './manifest.webmanifest', './icons/logo.svg', './icons/favicon-32.png', './icons/apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',
   './fonts/Vazirmatn-var.woff2', './fonts/NotoNaskhArabic-400.woff2', './fonts/NotoNaskhArabic-700.woff2'

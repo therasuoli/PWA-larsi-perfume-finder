@@ -1,0 +1,32 @@
+/* Larsi Perfume Finder — Tablet Styles (≥768px)
+   Loaded after app.css. Only overrides that apply to tablet.
+   Mobile styles are untouched. */
+
+@media (min-width: 768px) {
+  /* Wider container — use more screen real estate */
+  main { max-width: 800px; padding: 0 24px }
+
+  /* Grid: 3 columns on tablet (was 2 on mobile) */
+  .grid { grid-template-columns: repeat(3, 1fr) }
+
+  /* Hero: side-by-side layout (text + bottle) */
+  .hero { grid-template-columns: 1.6fr 1fr; min-height: 340px }
+  .hero-bottle { position: relative; top: auto; inset-inline-end: auto; margin: auto }
+  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 200px; height: 267px }
+
+  /* Larger headings */
+  h1 { font-size: clamp(1.8rem, 5vw, 2.4rem) }
+  h2 { font-size: 1.2rem }
+
+  /* Verse: more padding */
+  .verse { padding: 32px 28px 24px }
+
+  /* Identify results: 3 columns */
+  .identify-grid { grid-template-columns: repeat(3, 1fr) }
+
+  /* Identify result: side-by-side preview + analysis */
+  .identify-result { grid-template-columns: 200px 1fr }
+
+  /* Compare table: wider */
+  dialog { max-width: 680px }
+}
