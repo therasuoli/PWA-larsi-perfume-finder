@@ -7,11 +7,18 @@
       if (v == null) v = localStorage.getItem('lpf:v4:' + key);
       return v == null ? fallback : JSON.parse(v);
     };
-    var themePref = read('theme', 'auto');
-    if (['auto', 'dark', 'light', 'sand'].indexOf(themePref) < 0) themePref = 'auto';
-    // Effective theme: follow the system when 'auto'; 'sand' (retired in 7.3) maps onto dark.
+    // v7.9.6: one-time migration to the cinematic "Noir Champagne" theme.
+    // If the user has never explicitly chosen a theme, default to 'noir'.
+    // Mark v5:themeChosen so we never override an explicit choice afterwards.
+    var choseTheme = read('themeChosen', false);
+    var themePref = read('theme', 'noir');
+    if (!choseTheme) themePref = 'noir'; // first-visit default until user picks
+    if (['auto', 'dark', 'light', 'sand', 'noir'].indexOf(themePref) < 0) themePref = 'noir';
+    // Effective theme: 'noir' is now the cinematic default; 'auto' follows system; 'sand' (retired) → dark.
     var prefersLight = window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches;
-    var effective = themePref === 'auto' ? (prefersLight ? 'light' : 'dark') : (themePref === 'sand' ? 'dark' : themePref);
+    var effective = themePref === 'auto' ? (prefersLight ? 'light' : 'dark')
+                  : themePref === 'sand' ? 'dark'
+                  : themePref; // 'noir', 'dark', 'light' map straight through
     var root = document.documentElement;
     root.dataset.theme = effective;
     root.dataset.themePref = themePref;
@@ -22,7 +29,7 @@
     if (!['vazir', 'naskh', 'system'].includes(fontFamily)) fontFamily = 'vazir';
     root.dataset.font = fontFamily;
     var meta = document.querySelector('meta[name=theme-color]');
-    if (meta) meta.content = effective === 'light' ? '#E8EDE4' : '#0E1F1B';
+    if (meta) meta.content = effective === 'light' ? '#E8EDE4' : effective === 'noir' ? '#0B0B0D' : '#0E1F1B';
     // Clean the cache-bust query left behind by the full cache reset, so URLs stay shareable.
     if (location.search.indexOf('fresh=') > -1) history.replaceState(history.state, '', location.pathname + location.hash);
   } catch (e) { /* first run or storage blocked: dark defaults below */ }

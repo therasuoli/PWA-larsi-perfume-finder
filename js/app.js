@@ -867,13 +867,13 @@
     // Three states: online (green), connecting (yellow), offline (red/grey)
     const state = puterOn ? 'online' : (puterStatusKnown === false ? 'offline' : 'connecting');
     const stateText = {
-      online: 'هوش مصنوعی آنلاین',
+      online: 'لارسی آنلاین',
       connecting: 'در حال اتصال…',
       offline: 'آفلاین — حالت محلی'
     }[state];
     const statusDot = `<span class="ai-status" data-state="${state}" role="status" aria-live="polite"><span class="ai-status-dot"></span><span class="ai-status-text">${stateText}</span></span>`;
-    const weatherLine = LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : '';
-    return `${statusDot}<p style="margin:8px 0 0">سلام! من دستیار هوشمند لارسی‌ام. ${weatherLine} ${puterOn ? 'به موتور هوش مصنوعی متصل شده‌ام و' : ''} فقط درباره عطر و ادکلن پاسخ می‌دهم — هر پیشنهاد را با دلیلش می‌گویم. ${puterOn ? '' : '(در حال اتصال به موتور زنده…)'} بگو دنبال چه حسی هستی.</p>`;
+    const weatherLine = LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه‌ست و ${FA.season(LPF.wx.season || monthSeason())} سراغمون رسیده. ` : '';
+    return `${statusDot}<p style="margin:8px 0 0">سلام! من لارسی‌ام، دستیار خودمونیِ تو برای عطر. ${weatherLine}هر چی دوست داری بپرس — از عطر و رایحه تا چیزای دیگه؛ اگه بتونم جواب می‌دم. اگه پیشنهاد عطر بخوای، قشنگ با دلیلش بهت می‌گم. بگو دنبال چه حسی هستی؟ 🌿</p>`;
   }
   function refreshPuterBadge() {
     const puterOn = !!(LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady());
@@ -883,7 +883,7 @@
       if (el.dataset.state !== newState) {
         el.dataset.state = newState;
         const txt = el.querySelector('.ai-status-text');
-        if (txt) txt.textContent = { online: 'هوش مصنوعی آنلاین', connecting: 'در حال اتصال…', offline: 'آفلاین — حالت محلی' }[newState];
+        if (txt) txt.textContent = { online: 'لارسی آنلاین', connecting: 'در حال اتصال…', offline: 'آفلاین — حالت محلی' }[newState];
       }
     });
     if (puterOn) puterStatusKnown = true;

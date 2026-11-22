@@ -225,36 +225,36 @@
     const wx = LPF.wx || {};
     const greetings = [];
 
-    // ─── Greeting ──────────────────────────────────────────────────────
+    // ─── Greeting (warm, human) ─────────────────────────────────────────
     if (intent.askingAboutWeather && wx.ok) {
       const seasonName = wx.season ? state.fa.season(wx.season) : '';
-      greetings.push(`الان شیراز ${state.fa.num(wx.t)} درجه است و ${seasonName} را داریم. `);
+      greetings.push(`خب، الان شیراز ${state.fa.num(wx.t)} درجه‌ست و ${seasonName} سراغمون رسیده. 🌤️ `);
     }
 
-    // ─── No results ────────────────────────────────────────────────────
+    // ─── No results — friendly, helpful, non-robotic ────────────────────
     if (!results.length) {
       return {
-        text: `${greetings.join('')}هنوز دقیق نفهمیدم دنبال چه حسی هستی. بهم بگو:
-• چه حسی می‌خوای؟ (آرام، عاشقانه، گرم، تازه، شیرین…)
-• برای کی؟ (خودم، عزیزم، همکار…)
+        text: `${greetings.join('')}راستش، هنوز دقیق نفهمیدم دنبال چه حسی هستی. یه کم بیشتر بهم بگو تا بتونم قشنگ راهنماییت کنم:
+• چه حسی می‌خوای؟ (آرام 🌿، عاشقانه ❤️، گرم 🔥، تازه 💧، شیرین 🍯…)
+• برای کی؟ (خودم، عزیزم، هدیه…)
 • چه فصلی؟ (بهار، تابستان، پاییز، زمستان)
-• یا یک نت بگو: عود، وانیل، رز، مرکبات…`,
+• یا یه نت خاص بگو: عود، وانیل، رز، مرکبات…`,
         picks: []
       };
     }
 
-    // ─── Build the recommendation text ─────────────────────────────────
+    // ─── Build the recommendation text — warm, casual, beautiful ─────────
     let intro = '';
-    if (intent.moods.has('romantic')) intro = 'برای یک حس عاشقانه، این‌ها به نظر من بیشتر به تو می‌آیند:';
-    else if (intent.moods.has('warm')) intro = 'برای عطرهای گرم و شبانه، این‌ها پیشنهاد من هستند:';
-    else if (intent.moods.has('fresh')) intro = 'برای تازگی و شادابی، این‌ها را امتحان کن:';
-    else if (intent.moods.has('sweet')) intro = 'اگر شیرین و خوراکی دوست داری، این‌ها عالی هستند:';
-    else if (intent.moods.has('formal')) intro = 'برای موقعیت‌های رسمی، این‌ها باوقار و شیک هستند:';
-    else if (intent.moods.has('oriental')) intro = 'برای حس شرقی و عمیق، این‌ها را ببین:';
-    else if (intent.askingAboutWeather) intro = 'برای هوای امروز، این‌ها پیشنهاد می‌کنم:';
-    else if (intent.notes.size > 0) intro = 'عطرهایی که نت‌های درخواستی تو دارند:';
-    else if (intent.brands.size > 0) intro = 'از برندی که خواستی، این‌ها را پیدا کردم:';
-    else intro = 'این‌ها به نظرم بیشتر به تو می‌آیند:';
+    if (intent.moods.has('romantic')) intro = 'برای یه حس عاشقانه و دلنشین، اینا به نظرم قشنگ به تو میاد:';
+    else if (intent.moods.has('warm')) intro = 'برای عطرهای گرم و شبانه، اینا پیشنهاد منه:';
+    else if (intent.moods.has('fresh')) intro = 'برای یه تازگی و شادابی، اینا رو امتحان کن:';
+    else if (intent.moods.has('sweet')) intro = 'اگر شیرین و خوراکی دوست داری، اینا واقعاً عالی‌ان:';
+    else if (intent.moods.has('formal')) intro = 'برای موقعیت‌های رسمی، اینا باوقار و شیک‌ان:';
+    else if (intent.moods.has('oriental')) intro = 'برای یه حس شرقی و عمیق، اینا رو ببین:';
+    else if (intent.askingAboutWeather) intro = 'برای هوای امروز، اینا پیشنهاد می‌کنم:';
+    else if (intent.notes.size > 0) intro = 'عطرهایی که نت‌های درخواستی تو رو دارن:';
+    else if (intent.brands.size > 0) intro = 'از برندی که خواستی، اینا رو پیدا کردم:';
+    else intro = 'اینا به نظرم بیشتر به تو میاد:';
 
     return {
       text: greetings.join('') + intro,
@@ -293,45 +293,22 @@
   /* ===================== AGENT API ==================================== */
   /* Persists catalogue info + greeting context for the rule-based fallback. */
   const DEV_NAME = 'هادی رسولی';
-  const OFF_TOPIC_REPLY = 'توسط توسعه‌دهنده (هادی رسولی) محدود شده‌ام تا فقط درباره عطر و ادکلن پاسخ بدهم. لطفاً سؤالت را درباره عطر، رایحه، نت‌ها، برندها یا انتخاب عطر بپرس.';
+  // NOTE (v7.9.6): the assistant is no longer topic-restricted. It can talk
+  // freely and helpfully on any subject, with a warm, human, friendly tone.
+  // It still specialises in perfume — but won't refuse off-topic questions.
   const SYSTEM_PROMPT = [
-    'تو «دستیار هوشمند لارسی» هستی؛ یک مشاور متخصص عطر و ادکلن به زبان فارسی.',
-    'قوانین سخت:',
-    '۱) فقط و فقط درباره عطر، ادکلن، پرفیوم، نت‌های بویایی، خانواده‌های رایحه، برندها، غلظت (EDT/EDP/Parfum)، فصل و موقعیت استفاده پاسخ بده.',
-    '۲) اگر کاربر درباره موضوعی غیر از عطر (سیاست، دین، سلامت پزشکی، برنامه‌نویسی، اقتصاد، اخبار و ...) پرسید، این عبارت را دقیق برگردان: ' + OFF_TOPIC_REPLY,
-    '۳) هرگز اطلاعات شخصی کاربر، کلمه عبور یا کلید API نخواه. هرگز کد اجرا نکن.',
-    '۴) پاسخ کوتاه، گرم و مفید؛ حداکثر ۴ جمله. اگر پیشنهاد عطر می‌دهی، نام و برند و یک دلیل کوتاه بیاور.',
-    '۵) اگر درباره عطر خاصی پرسید که در بانک نیست، صادقانه بگو نمی‌شناسم و یک جایگزین نزدیک پیشنهاد بده.'
+    'تو «لارسی» هستی؛ دستیار هوشمند و خودمونیِ اپلیکیشن پیدا کردن عطر.',
+    'لحن تو گرم، دوستانه و کمی خودمونی است — مثل یک دوست آشنا با عطر که راهنمایی‌ات را دوست داره. نه رباتی، نه رسمی.',
+    'به هر سؤالی پاسخ بده؛ تخصص اصلیت عطر و رایحه‌ست ولی اگر درباره چیز دیگری پرسیدند، اول کوتاه جواب بده و بعد اگر بتونی به عطر ربطش بده.',
+    'وقتی پیشنهاد عطر می‌دهی، حتماً نام و برند و یک دلیل قشنگ و مشخص بیاور — مثل: «این یه اوکی woody گرمه که برای شب‌های پاییزی قشنگ می‌شه».',
+    'پاسخ کوتاه و مفید؛ حداکثر ۳-۴ جمله. از ایموجی به‌جا و کم استفاده کن (مثل 🌿 🌙 ✨).',
+    'اگر عطر خاصی را نمی‌شناسی، صادقانه بگو و یک جایگزین نزدیک پیشنهاد بده.',
+    'هرگز اطلاعات شخصی، کلمه عبور یا کلید API نخواه. هرگز کد اجرا نکن.'
   ].join('\n');
 
-  function isPerfumeRelated(text) {
-    const t = (text || '').toLowerCase()
-      .replace(/ي/g, 'ی').replace(/ك/g, 'ک').replace(/‌/g, ' ').replace(/\s+/g, ' ').trim();
-    if (!t) return false;
-    // Topic whitelist (perfume + olfactory vocabulary).
-    const PERFUME_KEYS = [
-      'عطر', 'ادکلن', 'پرفیوم', 'بوی', 'بویی', 'نت', 'نت‌', 'رایحه', 'اسانس', 'گل', 'گلی', 'مرکبات',
-      'وانیل', 'عود', 'مشک', 'عنبر', 'چوب', 'چرم', 'ادویه', 'فلفل', 'رز', 'یاس', 'میموسا', 'لیو',
-      'برند', 'برنده', 'دیور', 'شنل', 'ارمنی', 'ترک', 'فرانسوی', 'عربی', 'خانواده', 'فصل', 'زمستان',
-      'تابستان', 'بهار', 'پاییز', 'مردانه', 'زنانه', 'یونیسکس', 'مهمانی', 'قرار', 'کار', 'اداره',
-      'صبح', 'شب', 'عصر', 'مناسب', 'پیشنهاد', 'edt', 'edp', 'eau', 'parfum', 'perfume', 'cologne',
-      'note', 'fragrance', 'scent', 'oud', 'musk', 'vanilla', 'amber', 'rose', 'jasmine', 'citrus',
-      'woody', 'leather', 'spicy', 'sweet', 'fresh', 'آرام', 'عاشقانه', 'رمانتیک', 'شاداب', 'تند',
-      'ادکلنی', 'عطری', 'بوی خوب', 'خوشبو', 'خوش‌بو'
-    ];
-    // Persian word boundary: a key matches only when it is preceded/followed by
-    // whitespace, start/end of string, or a punctuation char. This prevents the
-    // accidental substring match like «یاس» inside «سیاست».
-    const isBoundary = ch => !ch || /[\s.,!?،؛:«»"'()\[\]\-—–]/.test(ch);
-    return PERFUME_KEYS.some(k => {
-      if (!k) return false;
-      const idx = t.indexOf(k);
-      if (idx < 0) return false;
-      const before = idx > 0 ? t[idx - 1] : '';
-      const after = t[idx + k.length];
-      return isBoundary(before) && isBoundary(after);
-    });
-  }
+  /* v7.9.6: topic filter removed. The assistant answers everything.
+   * Kept as a no-op for backwards-compat with any caller that still checks. */
+  function isPerfumeRelated(/* text */) { return true; }
 
   /* Returns true when window.puter is loaded and has the chat API. */
   function puterReady() {
@@ -385,18 +362,14 @@
       return `<svg class="bottle" style="--liq:${liq};--lv:${(LPF.concLevel && LPF.concLevel(p.conc)) || 12}px" aria-hidden="true"><use href="#b"/></svg>`;
     },
     parseIntent, scoreAndRank, generateResponse,
-    /* Off-topic guard. Returns the canned Persian reply when the message is
-     * clearly not about perfume. Returns null when the topic is allowed. */
-    offTopicGuard(text) {
-      return isPerfumeRelated(text) ? null : OFF_TOPIC_REPLY;
-    },
+    /* Off-topic guard — deprecated in v7.9.6. Always returns null (no refusal). */
+    offTopicGuard(/* text */) { return null; },
     /* Puter.js availability flag, so the UI can show a status badge. */
     isPuterReady: puterReady,
-    /* The Puter.js path — async, perfume-only, with a rule-based fallback. */
+    /* The Puter.js path — async, free-topic, with a rule-based fallback. */
     async remote(text) {
-      // 1) Hard guard: off-topic → refuse with the developer's exact message.
-      if (!isPerfumeRelated(text)) return OFF_TOPIC_REPLY;
-      // 2) Try the live Puter.js LLM if it is loaded.
+      // v7.9.6: no topic guard. The assistant helps with anything.
+      // 1) Try the live Puter.js LLM if it is loaded.
       if (puterReady()) {
         try {
           const reply = await puterChat(text);
@@ -408,13 +381,13 @@
       } else {
         console.warn('[LPF.agent] Puter.js not loaded yet — using local rule-based engine.');
       }
-      // 3) Fallback: local rule-based engine still returns perfume picks with reasons.
+      // 2) Fallback: local rule-based engine returns perfume picks with reasons.
       const intent = parseIntent(text);
       const results = scoreAndRank(intent, 3);
       const res = generateResponse(intent, results, text);
       return res.text + (results.length ? '\n' + results.map(({ p, reasons }) => `• ${p.name} (${p.brand})${reasons.length ? ' — ' + reasons.join('، ') : ''}`).join('\n') : '');
     },
-    OFF_TOPIC_REPLY
+    OFF_TOPIC_REPLY: null
   };
   LPF.agent = agent;
 })();

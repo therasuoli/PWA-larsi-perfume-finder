@@ -14,17 +14,19 @@
   const catalog = { items: [], byId: new Map(), images: 0 };
 
   /* ================= theme / font / size ================= */
-  const THEME_NAMES = { auto: 'پیروی از سیستم', dark: 'دارک', light: 'روشن' };
+  const THEME_NAMES = { auto: 'پیروی از سیستم', dark: 'دارک', light: 'روشن', noir: 'شامپاینی (۲۰۲۶)' };
   const mqLight = window.matchMedia ? matchMedia('(prefers-color-scheme: light)') : null;
   function applyTheme(pref, announce) {
     if (pref === 'sand') pref = 'dark';
     S.theme = pref; ST.saveTheme();
+    // v7.9.6: mark that the user has explicitly chosen a theme, so boot.js won't migrate them again.
+    try { localStorage.setItem('lpf:v5:themeChosen', JSON.stringify(true)); } catch (e) {}
     const eff = pref === 'auto' ? (mqLight && mqLight.matches ? 'light' : 'dark') : pref;
     const root = document.documentElement;
     root.dataset.theme = eff; root.dataset.themePref = pref;
-    const meta = $('meta[name=theme-color]'); if (meta) meta.content = eff === 'light' ? '#E8EDE4' : '#0E1F1B';
+    const meta = $('meta[name=theme-color]'); if (meta) meta.content = eff === 'light' ? '#E8EDE4' : eff === 'noir' ? '#0B0B0D' : '#0E1F1B';
     $$('#themeSeg [data-theme-choice]').forEach(b => b.setAttribute('aria-checked', String(b.dataset.themeChoice === pref)));
-    if (announce) toastFn('تم: ' + THEME_NAMES[pref]);
+    if (announce) toastFn('تم: ' + (THEME_NAMES[pref] || pref));
   }
   function applyFont(v, save) {
     S.font = Math.min(150, Math.max(90, Math.round(v)));

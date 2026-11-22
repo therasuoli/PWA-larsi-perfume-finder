@@ -64,7 +64,12 @@
     ratings: get('ratings', {}),
     wardrobe: sanitizeWardrobe(get('wardrobe', {})),
     disliked: new Set(get('disliked', [])),
-    theme: get('theme', 'auto') === 'sand' ? 'dark' : get('theme', 'auto'),
+    // v7.9.6: 'noir' is the cinematic default for new users; existing 'auto'/'sand' choices are honoured.
+    theme: (() => {
+      const t = get('theme', 'noir');
+      if (t === 'sand') return 'dark';
+      return ['auto', 'dark', 'light', 'noir'].includes(t) ? t : 'noir';
+    })(),
     font: Math.min(150, Math.max(90, Number(get('font', 100)) || 100)),
     fontFamily: get('fontFamily', (LPF.config.fonts && LPF.config.fonts.default) || 'vazir')
   };
@@ -95,7 +100,7 @@
       if (Array.isArray(x.favorites)) x.favorites.forEach(id => typeof id === 'string' && state.favs.add(id));
       if (Array.isArray(x.disliked)) x.disliked.forEach(id => typeof id === 'string' && state.disliked.add(id));
       if (x.preferences && typeof x.preferences === 'object') {
-        if (['auto', 'dark', 'light', 'sand'].includes(x.preferences.theme)) state.theme = x.preferences.theme === 'sand' ? 'dark' : x.preferences.theme;
+        if (['auto', 'dark', 'light', 'sand', 'noir'].includes(x.preferences.theme)) state.theme = x.preferences.theme === 'sand' ? 'dark' : x.preferences.theme;
         const font = Number(x.preferences.font); if (Number.isFinite(font) && font >= 90 && font <= 150) state.font = font;
         if (['vazir', 'naskh', 'system'].includes(x.preferences.fontFamily)) state.fontFamily = x.preferences.fontFamily;
       }
