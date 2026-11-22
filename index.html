@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl" data-theme="noir">
+<html lang="fa" dir="rtl" data-theme="atelier">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -105,36 +105,51 @@
 <!-- ============ HOME (REDESIGNED v7.6) ============ -->
 <section class="view on" id="v-home" aria-label="خانه">
   <!-- Hero featured perfume of the day -->
-  <section class="hero" id="heroHome" aria-label="عطر روز">
+  <section class="hero atelier-hero" id="heroHome" aria-label="عطر روز">
     <div class="hero-bg" id="heroBg"></div>
     <div class="hero-content">
-      <span class="hero-kicker">عطر روز · شیراز</span>
-      <h1 id="heroTitle">امروز دلت چه بویی می‌خواهد؟</h1>
-      <p class="hero-sub" id="heroSub">یک حال انتخاب کن؛ بقیه‌اش با ما.</p>
+      <span class="hero-eyebrow"><span class="spark">✦</span> دنیای عطر، هوشمندتر از همیشه</span>
+      <h1 id="heroTitle">عطرِ خودت را <span class="hero-accent">پیدا کن.</span></h1>
+      <p class="hero-sub" id="heroSub">برای انتخاب عطر، شناخت رایحه‌ها و پیدا کردن گزینه‌های تازه؛ همه‌چیز را یک‌جا در لارسی تجربه کن.</p>
+      <form class="hero-search search-wrap" id="heroSearchForm" onsubmit="return false">
+        <input id="hq" type="search" inputmode="search" enterkeyhint="search" placeholder="اسم عطر، برند یا رایحه‌ای که دوست داری..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
+        <button type="submit" class="hero-search-btn" aria-label="جستجو">جستجو ✦</button>
+        <button class="clear" id="hqClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
+        <div class="suggest" id="hqSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
+      </form>
+      <div class="hero-foot">
+        <span>✧ پیشنهادهای هوشمند</span>
+        <span>◈ بانک عطرها</span>
+        <span>⌁ تجربه شخصی</span>
+      </div>
       <div class="hero-actions">
         <button class="btn pri" type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطرها</span></button>
         <button class="btn ghost" type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg><span>شناسایی با عکس</span></button>
       </div>
     </div>
-    <div class="hero-bottle" id="heroBottle" aria-hidden="true"></div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orb" id="heroBottle">
+        <div class="orbit"></div>
+        <div class="orbit two"></div>
+        <div class="float-chip one">✦ <b>رایحه پیشنهادی</b></div>
+        <div class="float-chip two">AI · <b>همراه کشف تو</b></div>
+      </div>
+    </div>
   </section>
 
   <!-- Mood selector -->
   <section class="section-block" aria-label="حال و دل">
-    <h2>حال امروز تو چیست؟</h2>
-    <p class="sub">روی یک حال بزن تا عطرهای متناسب با آن را ببینی.</p>
+    <div class="section-head"><div><span class="kicker">MOOD DISCOVERY</span><h2>امروز چه حال‌وهوایی داری؟</h2></div><p class="sub">حست را انتخاب کن تا عطرهایی با همان حال‌وهوا پیدا کنیم.</p></div>
     <div class="moods" id="moods" role="group" aria-label="حال و دل امروز"></div>
   </section>
 
-  <!-- Search -->
-  <section class="section-block" aria-label="جستجو">
+  <!-- Search (kept for accessibility fallback; hero search is primary now) -->
+  <section class="section-block visually-hidden" aria-label="جستجو" hidden>
     <div class="search-wrap">
-      <label class="search" for="hq">
+      <label class="search" for="hqFallback">
         <svg class="ic"><use href="#i-find"/></svg>
-        <input id="hq" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند یا نت را بنویس" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
-        <button class="clear" id="hqClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
+        <input id="hqFallback" type="search" placeholder="جستجوی عطر">
       </label>
-      <div class="suggest" id="hqSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
     </div>
   </section>
 
@@ -365,8 +380,8 @@
   <div class="set-group">
     <h2>تم</h2>
     <div class="seg" id="themeSeg" role="radiogroup" aria-label="تم">
-      <button class="chip" type="button" role="radio" data-theme-choice="noir" aria-checked="true">شامپاینی ✨</button>
-      <button class="chip" type="button" role="radio" data-theme-choice="atelier" aria-checked="false">آتلیه 🎨</button>
+      <button class="chip" type="button" role="radio" data-theme-choice="atelier" aria-checked="true">آتلیه 🎨</button>
+      <button class="chip" type="button" role="radio" data-theme-choice="noir" aria-checked="false">شامپاینی ✨</button>
       <button class="chip" type="button" role="radio" data-theme-choice="dark" aria-checked="false">دارک</button>
       <button class="chip" type="button" role="radio" data-theme-choice="light" aria-checked="false">روشن</button>
       <button class="chip" type="button" role="radio" data-theme-choice="auto" aria-checked="false">پیروی از سیستم</button>
@@ -411,14 +426,14 @@
 
 </main>
 
-<footer class="site"><p>Dev : Hadi Rasuoli | larsi copyright ©</p></footer>
+<footer class="site larsi-footer"><p class="footer-copyright">all copyright larsi ® | @ the.rasuoli</p></footer>
 
-<nav class="bnav" aria-label="بخش‌ها">
-  <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg>خانه</button>
-  <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg>کشف</button>
-  <button type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg>شناسایی</button>
-  <button type="button" data-go="ward"><svg class="ic"><use href="#i-bag"/></svg>کمد من<span class="n" id="wardBadge" hidden>0</span></button>
-  <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg>تنظیمات</button>
+<nav class="bnav" aria-label="ناوبری اصلی">
+  <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg><span>خانه</span></button>
+  <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطر</span></button>
+  <button type="button" class="nav-ai" data-go="agent" aria-label="دستیار هوشمند لارسی"><span class="ai-orbit" aria-hidden="true">✦</span><span>دستیار</span></button>
+  <button type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg><span>شناسایی</span></button>
+  <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg><span>بیشتر</span></button>
 </nav>
 
 <!-- compare tray -->

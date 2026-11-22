@@ -7,9 +7,9 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '7.9.12',
-    versionFa: '۷٫۹٫۱۲',
-    releaseFa: 'آذر ۱۴۰۵ · بازطراحی هدر «Larsi Perfume Finder» + تم آتلیه + حذف کمد از انبوردینگ',
+    version: '7.9.13',
+    versionFa: '۷٫۹٫۱۳',
+    releaseFa: 'آذر ۱۴۰۵ · بازطراحی کامل ظاهر بر اساس پرامپت لارسی: تم آتلیه پیش‌فرض + هیرو سینمایی + مودال دوستونی + فوتر تیره',
     releaseISO: '2026-11-22',
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */

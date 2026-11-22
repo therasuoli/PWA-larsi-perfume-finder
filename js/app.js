@@ -227,8 +227,10 @@
   function cardHTML(p, idx) {
     const id = esc(p.id), fav = S.favs.has(p.id), cmp = compare.has(p.id);
     const meta = [FA.family(p.family), FA.concentration(p.conc), p.year || ''].filter(Boolean).join(' · ') || (p.nameFa || '');
+    const rate = (p.longevity || p.sillage) ? Math.round(((p.longevity || 0) + (p.sillage || 0)) / ((p.longevity ? 1 : 0) + (p.sillage ? 1 : 0))) : 0;
+    const stars = rate ? '★'.repeat(rate) + '☆'.repeat(5 - rate) : '';
     return `<article class="card" data-id="${id}" style="--liq:${famLiq(p.family)}">
-      <button class="open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span></button>
+      <button class="open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span>${stars ? `<span class="rate">★<b>${rate.toFixed(1)}</b><span class="rate-stars">${stars}</span></span>` : ''}</button>
       <button class="fav" type="button" data-fav="${id}" aria-pressed="${fav}" aria-label="علاقه‌مندی">${icon('heart')}</button>
       <button class="act cmp2" type="button" data-cmp="${id}" aria-pressed="${cmp}" aria-label="افزودن به مقایسه">${icon('compare')}</button>
     </article>`;
@@ -342,10 +344,10 @@
       if (featured) {
         const liq = famLiq(featured.family);
         heroEl.innerHTML = `<svg class="bottle" style="--liq:${liq};--lv:${concLevel(featured.conc)}px" aria-hidden="true"><use href="#b"/></svg>`;
-        const heroBg = $('#heroBg');
-        if (heroBg) heroBg.style.background = `radial-gradient(circle at 80% 20%, color-mix(in srgb, ${liq} 32%, var(--card)) 0%, transparent 60%), linear-gradient(135deg, var(--card) 0%, var(--bg) 100%)`;
-        const heroTitle = $('#heroTitle'); if (heroTitle) heroTitle.textContent = featured.name;
-        const heroSub = $('#heroSub'); if (heroSub) heroSub.textContent = `${featured.brand} · ${FA.family(featured.family) || 'عطر'}`;
+        // v7.9.13: don't clobber the atelier hero gradient (cinematic dark canvas).
+        // The hero art (orb+bottle) is enough; the featured perfume tint is applied to the bottle only.
+        const heroTitle = $('#heroTitle'); if (heroTitle) heroTitle.innerHTML = `${esc(featured.name)} <span class="hero-accent">پیدا کن.</span>`;
+        const heroSub = $('#heroSub'); if (heroSub) heroSub.textContent = `${featured.brand} · ${FA.family(featured.family) || 'عطر'} — برای انتخاب عطر، شناخت رایحه‌ها و پیدا کردن گزینه‌های تازه؛ همه‌چیز را یک‌جا در لارسی تجربه کن.`;
         heroEl.setAttribute('role', 'button');
         heroEl.setAttribute('aria-label', `عطر روز: ${featured.name} از ${featured.brand}`);
         heroEl.onclick = () => openDetail(featured.id);
@@ -962,34 +964,60 @@
     const short = p.short_description_fa || p.short_desc_fa || p.short_description || p.shortDesc || '';
     const mainImg = repo.images.get(p);
     dom.dbody.style.setProperty('--liq', famLiq(p.family));
+    // v7.9.13: atelier two-column modal (photo | info), then body with stats grid,
+    // notes in 3 columns, accord bars from longevity/sillage, and similar grid.
+    const longevity = Number(p.longevity) || 0, sillage = Number(p.sillage) || 0;
+    const accordBars = [
+      ['ماندگاری', longevity ? Math.round(longevity / 5 * 100) : 0],
+      ['پخش بو', sillage ? Math.round(sillage / 5 * 100) : 0],
+      ['امتیاز من', my ? Math.round(my / 5 * 100) : 0],
+    ].filter(r => r[1] > 0);
+    const stats = [
+      ['جنسیت', FA.gender ? FA.gender(p.gender) : p.gender],
+      ['فصل پیشنهادی', (Array.isArray(p.seasons) ? p.seasons.map(s => FA.season ? FA.season(s) : s).join('، ') : (p.seasons || ''))],
+      ['غلظت', FA.concentration(p.conc)],
+      ['ماندگاری', longevity ? `${longevity} از ۵` : ''],
+      ['پخش بو', sillage ? `${sillage} از ۵` : ''],
+      ['سال عرضه', p.year || ''],
+      ['امتیاز من', my ? `${my} از ۵` : 'ثبت نشده'],
+    ].filter(s => s[1]);
     dom.dbody.innerHTML = `
       <div class="grab" data-grab aria-hidden="true"></div>
-      <div class="hero-d" style="--liq:${famLiq(p.family)}">${bottleHTML(p)}${mainImg ? `<img class="lpf-img" src="${esc(mainImg)}" sizes="${IMG_SIZES}" alt="${esc(p.name)}" width="320" height="400" decoding="async">` : ''}</div>
-      <div class="gallery" id="dGallery" role="list" aria-label="گالری تصویر"></div>
-      <p class="brand-n">${esc(p.brand)} · ${esc(FA.family(p.family) || 'عطر')}</p>
-      <h2 id="dt" style="margin:2px 0 4px">${esc(p.name)}</h2>
-      ${p.nameFa ? `<p class="sub" style="margin:0 0 6px">${esc(p.nameFa)}</p>` : ''}
-      ${sub ? `<p class="sub" style="margin:0">${esc(sub)}</p>` : ''}
-      <div class="chips">${[p.family && FA.family(p.family), p.family2 && FA.family(p.family2), ...(p.character || []).map(FA.char)].filter(Boolean).map(t => `<span class="chip" aria-disabled="true" style="pointer-events:none">${esc(t)}</span>`).join('')}</div>
-      ${desc ? `<p class="desc-text" dir="auto">${esc(String(desc).slice(0, 360))}${String(desc).length > 360 ? '…' : ''}</p>` : (short ? `<p class="muted desc-text" dir="auto">${esc(short)}</p>` : '')}
-      <div class="pyr">${pyramidHTML(p)}</div>
-      <p class="sub" style="margin:14px 0 4px">مناسب فصل‌ها</p>
-      ${seasonBars(p)}
-      <div class="acts detail-actions">
-        <button class="btn${fav ? ' pri' : ''}" type="button" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'}</span></button>
-        <button class="btn ghost" type="button" id="dShare" aria-label="اشتراک‌گذاری این عطر">${icon('share')}<span>اشتراک‌گذاری</span></button>
-        <button class="btn ghost" type="button" data-cmp="${esc(p.id)}" aria-pressed="${compare.has(p.id)}" aria-label="${compare.has(p.id) ? 'حذف از مقایسه' : 'افزودن به مقایسه'}">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
+      <div class="modal-top">
+        <div class="modal-photo" id="dPhoto">${bottleHTML(p)}${mainImg ? `<img class="lpf-img" src="${esc(mainImg)}" sizes="${IMG_SIZES}" alt="${esc(p.name)}" width="320" height="400" decoding="async">` : ''}</div>
+        <div class="modal-info">
+          <p class="modal-brand">${esc(p.brand)} · ${esc(FA.family(p.family) || 'عطر')}</p>
+          <h2 id="dt" class="modal-title">${esc(p.name)}</h2>
+          ${p.nameFa ? `<p class="modal-fa">${esc(p.nameFa)}</p>` : ''}
+          ${desc ? `<p class="modal-desc" dir="auto">${esc(String(desc).slice(0, 360))}${String(desc).length > 360 ? '…' : ''}</p>` : (short ? `<p class="modal-desc muted" dir="auto">${esc(short)}</p>` : '')}
+          <div class="modal-tags">${[p.family && FA.family(p.family), p.family2 && FA.family(p.family2), ...(p.character || []).map(FA.char), FA.concentration(p.conc), p.year].filter(Boolean).map(t => `<span class="chip" aria-disabled="true" style="pointer-events:none">${esc(t)}</span>`).join('')}</div>
+          ${longevity ? `<div class="modal-rating"><strong>${longevity.toFixed(1)}</strong><span class="stars">${'★'.repeat(longevity)}${'☆'.repeat(5-longevity)}</span><span class="rating-count">ماندگاری از ۵</span></div>` : ''}
+        </div>
       </div>
-      <div class="set-group" style="margin:6px 0"><h3>امتیاز من</h3>
-        <div class="rating" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
-        <p class="hint">امتیاز فقط روی همین دستگاه ذخیره می‌شود.</p></div>
-      <div class="set-group" style="margin:6px 0"><h3>کمد من</h3>
-        <div class="chips">${ST.STATUSES.map(s => `<button class="chip" type="button" data-status="${s}" aria-pressed="${!!(w && w.status === s)}">${FA.status[s]}</button>`).join('')}</div>
-        <textarea class="d-note" id="dNote" rows="2" placeholder="یادداشت شخصی، تجربه استفاده یا تاریخ خرید…" maxlength="600">${esc(w ? w.note : '')}</textarea>
-        <div class="acts" style="margin:8px 0 0"><button class="btn pri" type="button" id="dSave">ذخیره در کمد</button>${w ? '<button class="btn ghost" type="button" id="dUnsave">حذف از کمد</button>' : ''}</div></div>
-      <h3 style="margin:20px 0 10px">عطرهای نزدیک به این</h3>
-      <div class="grid" style="grid-template-columns:repeat(3,1fr)" id="simStrip"></div>
-      <div class="acts"><button class="btn ghost" type="button" id="dReport">${icon('flag')}<span>گزارش نقص داده</span></button></div>`;
+      <div class="modal-body">
+        <div class="modal-stats" id="dStats">${stats.map(s => `<div class="stat"><small>${esc(s[0])}</small><b>${esc(s[1])}</b></div>`).join('')}</div>
+        <div class="gallery" id="dGallery" role="list" aria-label="گالری تصویر"></div>
+        ${sub ? `<p class="sub modal-submeta">${esc(sub)}</p>` : ''}
+        <h3 class="modal-section-title">نت‌های بویایی</h3>
+        <div class="note-layout">${pyramidHTML(p) || '<p class="muted">برای این عطر نت بویایی ثبت نشده است.</p>'}</div>
+        ${accordBars.length ? `<h3 class="modal-section-title">حال‌وهوای رایحه</h3><div class="accord-bars">${accordBars.map(r => `<div class="accord-row"><span>${esc(r[0])}</span><div class="bar"><i style="width:${r[1]}%"></i></div></div>`).join('')}</div>` : ''}
+        <h3 class="modal-section-title">مناسب فصل‌ها</h3>
+        ${seasonBars(p)}
+        <div class="acts detail-actions">
+          <button class="btn${fav ? ' pri' : ''}" type="button" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'افزودن به کمد من'}</span></button>
+          <button class="btn ghost" type="button" id="dShare" aria-label="اشتراک‌گذاری این عطر">${icon('share')}<span>اشتراک‌گذاری</span></button>
+          <button class="btn ghost" type="button" data-cmp="${esc(p.id)}" aria-pressed="${compare.has(p.id)}" aria-label="${compare.has(p.id) ? 'حذف از مقایسه' : 'افزودن به مقایسه'}">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
+        </div>
+        <div class="set-group" style="margin:6px 0"><h3>امتیاز من</h3>
+          <div class="rating" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
+          <p class="hint">امتیاز فقط روی همین دستگاه ذخیره می‌شود.</p></div>
+        <div class="set-group" style="margin:6px 0"><h3>کمد من</h3>
+          <div class="chips">${ST.STATUSES.map(s => `<button class="chip" type="button" data-status="${s}" aria-pressed="${!!(w && w.status === s)}">${FA.status[s]}</button>`).join('')}</div>
+          <textarea class="d-note" id="dNote" rows="2" placeholder="یادداشت شخصی، تجربه استفاده یا تاریخ خرید…" maxlength="600">${esc(w ? w.note : '')}</textarea>
+          <div class="acts" style="margin:8px 0 0"><button class="btn pri" type="button" id="dSave">ذخیره در کمد</button>${w ? '<button class="btn ghost" type="button" id="dUnsave">حذف از کمد</button>' : ''}</div></div>
+        <h3 class="modal-section-title">عطرهای مشابه؛ بر اساس نت‌های مشترک</h3>
+        <div class="grid" style="grid-template-columns:repeat(3,1fr)" id="simStrip"></div>
+        <div class="acts"><button class="btn ghost" type="button" id="dReport">${icon('flag')}<span>گزارش نقص داده</span></button></div>`;
     renderGallery(p);
     $('#simStrip').innerHTML = '<p class="muted">در حال تحلیل نت‌های مشترک از بانک…</p>';
     (window.requestIdleCallback || (f => setTimeout(f, 30)))(() => { if (current && current.id === p.id) renderSimilarLocal(p); }, { timeout: 400 });
