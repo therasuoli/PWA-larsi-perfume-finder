@@ -427,8 +427,45 @@
       }, 50);
     }
 
+    /* ---- v7.7: "Because you liked" rail (only if user has favourites) ---- */
+    renderBecauseYouLiked();
+
+    /* ---- v7.7: "Trending now" rail ---- */
+    renderTrendingNow();
+
     ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => { const el = $('#' + id); if (el && !el.parentElement.hidden) autoplay(el); });
     markReadyImages($('#v-home'));
+  }
+
+  /* ================= v7.7: Smart recommendation rails ================= */
+  function renderBecauseYouLiked() {
+    const el = $('#likedRail');
+    if (!el) return;
+    const likedIds = [...S.favs];
+    if (likedIds.length < 1) { el.parentElement.hidden = true; return; }
+    // Build similarity context once
+    if (!simCtx) simCtx = LPF.algo.similarContext(items);
+    const results = LPF.recommend.becauseYouLiked(likedIds.slice(0, 5), items, simCtx, { maxResults: 10, disliked: S.disliked });
+    if (!results.length) { el.parentElement.hidden = true; return; }
+    el.parentElement.hidden = false;
+    el.innerHTML = results.map(({ p, score, reasons }) => `
+      <div class="rail-item">${cardHTML(p, 99)}<p class="sub" style="text-align:center;margin:6px 0 0;font-size:.7rem;color:var(--acc)">${esc(reasons[0] || '')}</p></div>
+    `).join('');
+    markReadyImages(el);
+    autoplay(el);
+  }
+
+  function renderTrendingNow() {
+    const el = $('#trendingRail');
+    if (!el) return;
+    const results = LPF.recommend.trendingNow(items, { maxResults: 10 });
+    if (!results.length) { el.parentElement.hidden = true; return; }
+    el.parentElement.hidden = false;
+    el.innerHTML = results.map(({ p, reasons }) => `
+      <div class="rail-item">${cardHTML(p, 99)}<p class="sub" style="text-align:center;margin:6px 0 0;font-size:.7rem;color:var(--mut)">${esc(reasons[0] || 'محبوب')}</p></div>
+    `).join('');
+    markReadyImages(el);
+    autoplay(el);
   }
 
   /* ================= IDENTIFY view (v7.6 new feature) ================= */
@@ -570,41 +607,67 @@
     const fileInput = $('#idFile'); if (fileInput) fileInput.value = '';
   }
 
-  /* --- weather (Open-Meteo, Shiraz) --- */
-  LPF.wx = { ok: null, t: 0, h: 0, c: 0, season: null };
+  /* --- weather (v7.7: location-aware, hemisphere-aware) ---
+   * Uses LPF.location engine for GPS→IP→manual detection.
+   * Uses hemisphere-aware season detection (not hardcoded to Northern).
+   * Falls back to Shiraz if location detection fails on first run. */
+  LPF.wx = { ok: null, t: 0, h: 0, c: 0, season: null, location: null };
   const wxSeason = t => (t == null ? null : t < 9 ? 'winter' : t < 17 ? 'autumn' : t < 27 ? 'spring' : 'summer');
-  const monthSeason = () => { const m = new Date().getMonth(); return m >= 2 && m <= 4 ? 'spring' : m >= 5 && m <= 7 ? 'summer' : m >= 8 && m <= 10 ? 'autumn' : 'winter'; };
+  const monthSeason = (lat) => LPF.location.getSeason(lat || 29.5918, new Date());
+
   async function loadWeather(force) {
     try {
-      let applied = false;
-      if (!force) {
-        try {
-          const c = JSON.parse(localStorage.getItem('lpf:wx') || 'null');
-          if (c && Date.now() - c.at < (cfg.weather.cacheMinutes || 10) * 60000) { LPF.wx.t = c.t; LPF.wx.h = c.h; LPF.wx.c = c.c; LPF.wx.ok = true; applied = true; }
-        } catch { }
+      // v7.7: get user location (cached from previous detection or default to Shiraz)
+      let loc = LPF.location.loadLocation();
+      if (!loc) {
+        // First run: try auto-detect, fall back to Shiraz
+        loc = await LPF.location.detectLocation().catch(() => null);
+        if (!loc) loc = LPF.location.DEFAULTS[0]; // Shiraz fallback
       }
-      if (!applied) {
-        const { latitude: lat, longitude: lon } = cfg.weather;
-        const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,weather_code&timezone=Asia%2FTehran`);
-        if (!res.ok) throw new Error('wx-http-' + res.status);
-        const j = (await res.json()).current;
-        LPF.wx.t = Math.round(j.temperature_2m); LPF.wx.h = j.relative_humidity_2m; LPF.wx.c = j.weather_code; LPF.wx.ok = true;
-        try { localStorage.setItem('lpf:wx', JSON.stringify({ t: LPF.wx.t, h: LPF.wx.h, c: LPF.wx.c, at: Date.now() })); } catch { }
+      LPF.wx.location = loc;
+
+      // Use the new location engine to fetch weather
+      const wx = await LPF.location.getWeather(loc);
+      if (wx && wx.ok) {
+        LPF.wx.t = wx.temp;
+        LPF.wx.h = wx.humidity;
+        LPF.wx.c = wx.code;
+        LPF.wx.ok = true;
+        LPF.wx.feelsLike = wx.feelsLike;
+        LPF.wx.windSpeed = wx.windSpeed;
+      } else if (wx && wx.stale) {
+        // Stale cache — show with a warning
+        LPF.wx.t = wx.temp; LPF.wx.h = wx.humidity; LPF.wx.c = wx.code; LPF.wx.ok = true; LPF.wx.stale = true;
+      } else {
+        LPF.wx.ok = false;
       }
-    } catch { LPF.wx.ok = false; }
-    LPF.wx.season = wxSeason(LPF.wx.ok ? LPF.wx.t : null) || monthSeason();
+    } catch {
+      LPF.wx.ok = false;
+    }
+    // Determine season using hemisphere-aware logic
+    const lat = LPF.wx.location ? LPF.wx.location.lat : 29.5918;
+    LPF.wx.season = LPF.location.getSeason(lat, new Date());
+    // If weather is available, also consider temperature-based season
+    if (LPF.wx.ok) {
+      const tempSeason = wxSeason(LPF.wx.t);
+      if (tempSeason) LPF.wx.season = tempSeason; // temperature-based overrides calendar
+    }
     drawWeather();
   }
   function drawWeather() {
     const el = $('#wx'); if (!el) return;
-    const [ic, tx] = wxCond(LPF.wx.c);
-    const season = LPF.wx.season || monthSeason(); LPF.wx.season = season;
-    const dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Tehran' }).format(new Date());
+    const [ic, tx] = LPF.location.wxCodeToText(LPF.wx.c);
+    const season = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
+    const loc = LPF.wx.location || LPF.location.DEFAULTS[0];
+    const tz = loc.tz || 'Asia/Tehran';
+    const dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: tz }).format(new Date());
+    const cityName = loc.name || 'شیراز';
+    const staleBadge = LPF.wx.stale ? ' <small style="opacity:.6">(کش قدیمی)</small>' : '';
     el.innerHTML = `<div class="row"><span class="live">${LPF.wx.ok ? 'زنده' : LPF.wx.ok === null ? 'در حال دریافت' : 'آفلاین'}</span><span id="wxClock"></span></div>
-      <div class="row"><big>${LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—'} <span aria-hidden="true">${ic}</span></big><div style="text-align:end"><b>شیراز</b><br>${tx}${LPF.wx.ok ? ' — رطوبت ' + fa(LPF.wx.h) + '٪' : ''}</div></div>
+      <div class="row"><big>${LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—'} <span aria-hidden="true">${ic}</span></big><div style="text-align:end"><b>${esc(cityName)}</b>${staleBadge}<br>${tx}${LPF.wx.ok ? ' — رطوبت ' + fa(LPF.wx.h) + '٪' : ''}</div></div>
       <p>${dt}</p><p>${LPF.wx.ok ? ADV[SEASONS.indexOf(season)] : 'اتصال برقرار نیست؛ بر اساس ماه جاری پیشنهاد می‌دهیم.'}</p>`;
     tickClock();
-    $('#ws').textContent = `${FA.season(season)} و هوای شیراز؛ به ترتیب تناسب.`;
+    $('#ws').textContent = `${FA.season(season)} و هوای ${esc(cityName)}؛ به ترتیب تناسب.`;
     renderWeatherRail();
   }
   const tickClock = () => { const e = $('#wxClock'); if (e) e.textContent = new Date().toLocaleTimeString('fa-IR', { timeZone: 'Asia/Tehran', hour: '2-digit', minute: '2-digit', second: '2-digit' }); };

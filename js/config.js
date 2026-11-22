@@ -7,9 +7,9 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '7.6.1',
-    versionFa: '۷٫۶٫۱',
-    releaseFa: 'آذر ۱۴۰۵ · رفع باگ بحرانی: لایت‌باکس همیشه visible بود + پنهان‌سازی section-block های خالی',
+    version: '7.7.0',
+    versionFa: '۷٫۷٫۰',
+    releaseFa: 'آذر ۱۴۰۵ · اصلاح شناسایی تصویر، موتور موقعیت‌نگار، پیشنهادهای هوشمند',
     releaseISO: '2026-11-21',
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */
