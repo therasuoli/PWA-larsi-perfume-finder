@@ -864,20 +864,29 @@
   }
   function agentGreetingHTML() {
     const puterOn = LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady();
-    const connectedBanner = puterOn
-      ? '<div class="ai-connected-banner">✅ دستیار هوشمند به هوش مصنوعی وصل شد</div>'
-      : '';
-    const badge = puterOn ? '<span class="ai-pill on">✨ هوش مصنوعی زنده</span>' : '<span class="ai-pill off">در حال اتصال…</span>';
+    // Three states: online (green), connecting (yellow), offline (red/grey)
+    const state = puterOn ? 'online' : (puterStatusKnown === false ? 'offline' : 'connecting');
+    const stateText = {
+      online: 'هوش مصنوعی آنلاین',
+      connecting: 'در حال اتصال…',
+      offline: 'آفلاین — حالت محلی'
+    }[state];
+    const statusDot = `<span class="ai-status" data-state="${state}" role="status" aria-live="polite"><span class="ai-status-dot"></span><span class="ai-status-text">${stateText}</span></span>`;
     const weatherLine = LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : '';
-    return `${connectedBanner}${badge}<p style="margin:6px 0 0">سلام! من دستیار هوشمند لارسی‌ام. ${weatherLine} ${puterOn ? 'به موتور هوش مصنوعی متصل شده‌ام و' : ''} فقط درباره عطر و ادکلن پاسخ می‌دهم — هر پیشنهاد را با دلیلش می‌گویم. ${puterOn ? '' : '(در حال اتصال به موتور زنده…)'} بگو دنبال چه حسی هستی.</p>`;
+    return `${statusDot}<p style="margin:8px 0 0">سلام! من دستیار هوشمند لارسی‌ام. ${weatherLine} ${puterOn ? 'به موتور هوش مصنوعی متصل شده‌ام و' : ''} فقط درباره عطر و ادکلن پاسخ می‌دهم — هر پیشنهاد را با دلیلش می‌گویم. ${puterOn ? '' : '(در حال اتصال به موتور زنده…)'} بگو دنبال چه حسی هستی.</p>`;
   }
   function refreshPuterBadge() {
-    if (puterStatusKnown) return;
-    if (LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady()) {
-      puterStatusKnown = true;
-      const firstBotMsg = document.querySelector('#chat .msg:not(.u)');
-      if (firstBotMsg) firstBotMsg.innerHTML = agentGreetingHTML();
-    }
+    const puterOn = !!(LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady());
+    // Update visible status indicator in the first bot message (and any others that exist)
+    const newState = puterOn ? 'online' : (puterStatusKnown === false ? 'offline' : 'connecting');
+    document.querySelectorAll('#chat .ai-status').forEach(el => {
+      if (el.dataset.state !== newState) {
+        el.dataset.state = newState;
+        const txt = el.querySelector('.ai-status-text');
+        if (txt) txt.textContent = { online: 'هوش مصنوعی آنلاین', connecting: 'در حال اتصال…', offline: 'آفلاین — حالت محلی' }[newState];
+      }
+    });
+    if (puterOn) puterStatusKnown = true;
   }
   function agentView(text) {
     if (!agentGreeted) {

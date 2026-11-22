@@ -456,21 +456,68 @@ dialog.lb[open] ~ .lb-nav, dialog.lb[open] .lb-nav { display: grid }
 /* ---------- footer ---------- */
 footer.site { text-align: center; color: var(--mut); font-size: .8125rem; padding: 34px 0 10px }
 
-/* ---------- AI status pill (agent chat) ---------- */
+/* ---------- AI status pill (legacy, kept for compatibility) ---------- */
 .ai-pill { display: inline-flex; align-items: center; gap: 6px; font-size: .75rem; font-weight: 700; padding: 4px 12px; border-radius: 99px; line-height: 1.4 }
 .ai-pill.on { color: var(--on); background: linear-gradient(135deg, var(--acc), color-mix(in srgb, var(--acc) 60%, #6a4)) }
 .ai-pill.off { color: var(--mut); background: color-mix(in srgb, var(--line) 35%, var(--card)); border: 1px solid var(--line) }
 
-/* ---------- AI connected banner ---------- */
-.ai-connected-banner {
-  display: flex; align-items: center; gap: 8px;
-  margin-bottom: 8px; padding: 10px 14px;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--acc) 18%, var(--card)), color-mix(in srgb, var(--acc) 8%, var(--card)));
-  border: 1px solid color-mix(in srgb, var(--acc) 40%, var(--line));
-  border-radius: 14px;
-  color: var(--ink);
-  font-size: .875rem; font-weight: 700;
+/* ---------- AI live status indicator (pulsing dot, online/offline) ----------
+   Replaces the static "دستیار هوشمند وصل شد" banner with a schematic
+   status light: green pulse = online, amber = connecting, red/grey = offline. */
+.ai-status {
+  display: inline-flex; align-items: center; gap: 9px;
+  margin-bottom: 10px; padding: 9px 16px 9px 14px;
+  background: color-mix(in srgb, var(--card) 88%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
+  border-radius: 99px;
+  font-size: .8125rem; font-weight: 700; color: var(--ink);
+  line-height: 1; user-select: none;
   animation: ai-pop .35s ease-out;
+}
+.ai-status-dot {
+  position: relative;
+  width: 10px; height: 10px; flex: 0 0 10px;
+  border-radius: 50%;
+  background: var(--dot, #888);
+  box-shadow: 0 0 0 0 var(--dot, #888);
+  transition: background .3s ease, box-shadow .3s ease;
+}
+.ai-status-dot::after {
+  content: ''; position: absolute; inset: 0;
+  border-radius: 50%; background: inherit;
+  animation: ai-pulse 1.8s cubic-bezier(.4,0,.6,1) infinite;
+}
+/* Online — green pulse */
+.ai-status[data-state="online"] {
+  --dot: #22c55e;
+  border-color: color-mix(in srgb, #22c55e 35%, var(--line));
+  background: color-mix(in srgb, #22c55e 10%, var(--card));
+}
+.ai-status[data-state="online"] .ai-status-text { color: #16a34a }
+/* Connecting — amber slow pulse */
+.ai-status[data-state="connecting"] {
+  --dot: #f59e0b;
+  border-color: color-mix(in srgb, #f59e0b 35%, var(--line));
+  background: color-mix(in srgb, #f59e0b 10%, var(--card));
+}
+.ai-status[data-state="connecting"] .ai-status-text { color: #d97706 }
+.ai-status[data-state="connecting"] .ai-status-dot::after { animation-duration: 2.6s }
+/* Offline — grey/red, no pulse */
+.ai-status[data-state="offline"] {
+  --dot: #ef4444;
+  border-color: color-mix(in srgb, #ef4444 30%, var(--line));
+  background: color-mix(in srgb, #ef4444 7%, var(--card));
+}
+.ai-status[data-state="offline"] .ai-status-text { color: #b91c1c }
+.ai-status[data-state="offline"] .ai-status-dot::after { animation: none }
+@media (prefers-reduced-motion: reduce) {
+  .ai-status-dot::after { animation: none !important }
+}
+@keyframes ai-pulse {
+  0%   { transform: scale(1);   opacity: .7 }
+  70%  { transform: scale(2.6); opacity: 0  }
+  100% { transform: scale(2.6); opacity: 0  }
 }
 @keyframes ai-pop { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
 

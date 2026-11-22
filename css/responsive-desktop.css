@@ -3,50 +3,98 @@
    Only overrides that apply to desktop screens. */
 
 @media (min-width: 1024px) {
-  /* Full-width container — tighter side gaps so content uses more of the wide screen */
-  main { max-width: 1400px; padding: 0 40px }
+  /* Full-width container — wider max-width (1560px), tighter side gaps */
+  main { max-width: 1560px; padding: 0 clamp(24px, 3vw, 48px) }
 
   /* Slightly larger typography on desktop */
   body { font-size: 1rem }
 
   /* Grid: 6 columns on desktop for a denser, richer catalog */
-  .grid { grid-template-columns: repeat(6, 1fr); gap: 18px }
+  .grid { grid-template-columns: repeat(6, 1fr); gap: 20px }
 
   /* Cards are larger and more legible on desktop */
   .card .stage { aspect-ratio: 4/5 }
   .card .meta { font-size: .8125rem }
   .card h3 { font-size: .9375rem }
 
-  /* Hero: larger with side-by-side */
-  .hero { min-height: 380px; padding: 36px 32px 32px }
-  .hero h1 { font-size: clamp(2rem, 4.4vw, 2.6rem) }
-  .hero-sub { font-size: 1.0625rem }
-  .hero-actions .btn { min-height: 52px; padding: 0 24px; font-size: .9375rem }
-  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 230px; height: 307px }
-
-  /* Section blocks: tighter spacing, larger headings */
-  .section-block { margin: 24px 0 10px }
-  .section-block h2 { font-size: 1.375rem }
-  .section-block .sub { font-size: .9375rem }
-
-  /* Bottom nav: properly centered on desktop.
-     On RTL pages, app.css sets `inset-inline: 0` which pins the bar to both
-     edges. We re-anchor to the inline-center: set inset-inline-start:50%
-     (→ right:50% in RTL) and inset-inline-end:50% (→ left:50% in RTL),
-     give the bar its natural width, then translate it back by half its
-     own width so it straddles the center line. */
-  nav.bnav {
-    inset-inline-start: 50%;
-    inset-inline-end: 50%;
-    transform: translateX(50%);
-    max-width: 760px;
-    width: max-content;
-    border-radius: 22px 22px 0 0;
-    border: 1px solid var(--line);
-    border-bottom: 0;
-    box-shadow: 0 -8px 30px rgba(20, 48, 42, .10);
+  /* Hero: modern 2026 glassmorphism, larger with side-by-side */
+  .hero {
+    min-height: 420px;
+    padding: 48px 48px 44px;
+    border-radius: 32px;
+    background: linear-gradient(135deg,
+      color-mix(in srgb, var(--acc) 14%, var(--card)) 0%,
+      color-mix(in srgb, var(--acc) 6%, var(--card)) 60%,
+      var(--card) 100%);
+    border: 1px solid color-mix(in srgb, var(--acc) 22%, var(--line));
+    box-shadow: 0 24px 60px -20px color-mix(in srgb, var(--acc) 28%, transparent),
+                inset 0 1px 0 color-mix(in srgb, white 8%, transparent);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    position: relative; overflow: hidden;
   }
-  nav.bnav button { max-width: 152px; font-size: .8125rem; min-height: 60px }
+  .hero::before {
+    content: ''; position: absolute; top: -60%; inset-inline-end: -10%;
+    width: 60%; height: 200%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--acc) 22%, transparent) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero > * { position: relative; z-index: 1 }
+  .hero h1 { font-size: clamp(2.4rem, 5vw, 3.2rem); letter-spacing: -.02em; line-height: 1.05 }
+  .hero-sub { font-size: 1.125rem; max-width: 56ch; opacity: .9 }
+  .hero-actions { gap: 12px }
+  .hero-actions .btn { min-height: 56px; padding: 0 28px; font-size: 1rem; border-radius: 18px; font-weight: 700 }
+  .hero-actions .btn.pri {
+    box-shadow: 0 10px 30px -8px color-mix(in srgb, var(--acc) 50%, transparent);
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .hero-actions .btn.pri:hover { transform: translateY(-2px); box-shadow: 0 16px 40px -10px color-mix(in srgb, var(--acc) 60%, transparent) }
+  .hero-actions .btn:active { transform: translateY(0) }
+  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 260px; height: 347px; filter: drop-shadow(0 18px 40px color-mix(in srgb, var(--acc) 30%, transparent)) }
+
+  /* Section blocks: tighter spacing, larger headings, modern accent */
+  .section-block { margin: 28px 0 12px }
+  .section-block h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -.01em }
+  .section-block .sub { font-size: .9375rem; opacity: .8 }
+
+  /* Bottom nav: full-width, edge-to-edge bar on desktop (per user request).
+     Buttons span the entire header width; max-width caps the bar at a
+     readable measure so it doesn't get absurdly wide on huge monitors. */
+  nav.bnav {
+    inset-inline: 0;
+    max-width: 100%;
+    width: 100%;
+    transform: none;
+    border-radius: 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 0;
+    padding: 10px clamp(16px, 3vw, 40px) calc(10px + env(safe-area-inset-bottom));
+    box-shadow: 0 -10px 30px rgba(20, 48, 42, .10);
+    gap: 4px;
+  }
+  nav.bnav > * { max-width: none }
+  nav.bnav button {
+    flex: 1 1 0;
+    max-width: none;
+    min-height: 64px;
+    font-size: .875rem;
+    border-radius: 18px;
+    position: relative;
+    transition: background .25s ease, color .25s ease, transform .15s ease;
+  }
+  nav.bnav button:hover {
+    background: color-mix(in srgb, var(--acc) 10%, transparent);
+    color: var(--ink);
+  }
+  nav.bnav button:active { transform: translateY(1px) }
+  nav.bnav button[aria-current="page"] {
+    color: var(--on);
+    background: linear-gradient(135deg, var(--acc), color-mix(in srgb, var(--acc) 65%, #1c3a32));
+    box-shadow: 0 6px 18px color-mix(in srgb, var(--acc) 35%, transparent);
+  }
+  /* Cap the bar content width on very wide screens for readability */
+  @media (min-width: 1600px) {
+    nav.bnav { padding-inline: max(16px, calc((100vw - 1560px) / 2)) }
+  }
 
   /* Identify grid: 6 columns */
   .identify-grid { grid-template-columns: repeat(6, 1fr) }
@@ -54,19 +102,46 @@
   /* Identify best card: larger */
   .identify-best-card { grid-template-columns: 140px 1fr }
 
-  /* Detail sheet: wider */
-  dialog { max-width: 720px }
+  /* Detail sheet: wider, modern glass */
+  dialog { max-width: 720px; border-radius: 24px; overflow: hidden }
   dialog.wide { max-width: 1080px }
 
-  /* Headings */
-  h1 { font-size: clamp(2rem, 4.4vw, 2.6rem) }
-  h2 { font-size: 1.375rem }
+  /* Headings — modern 2026: bolder, tighter tracking */
+  h1 { font-size: clamp(2rem, 4.4vw, 2.6rem); letter-spacing: -.015em; line-height: 1.1 }
+  h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -.01em }
 
-  /* Moods: larger buttons */
-  .mood { min-height: 56px; padding: 0 26px; font-size: 1rem }
+  /* Cards — 2026 hover lift + subtle gradient border */
+  .card {
+    border-radius: 18px;
+    transition: transform .25s cubic-bezier(.34,1.56,.64,1), box-shadow .25s ease;
+    box-shadow: 0 4px 14px -6px rgba(20, 48, 42, .12);
+  }
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 36px -12px color-mix(in srgb, var(--acc) 32%, rgba(20, 48, 42, .25));
+  }
+  .card .stage { border-radius: 14px; overflow: hidden }
+  .card .stage img { transition: transform .35s ease }
+  .card:hover .stage img { transform: scale(1.05) }
 
-  /* Weather card: larger text */
-  .wx big { font-size: 2.6rem }
+  /* Moods: larger, modern pill buttons */
+  .mood {
+    min-height: 60px; padding: 0 30px; font-size: 1rem;
+    border-radius: 18px; font-weight: 600;
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+  }
+  .mood:hover { transform: translateY(-2px); box-shadow: 0 8px 20px -8px color-mix(in srgb, var(--acc) 40%, transparent) }
+  .mood:active { transform: translateY(0) }
+
+  /* Weather card: larger, glassy */
+  .wx {
+    border-radius: 22px;
+    background: color-mix(in srgb, var(--card) 90%, transparent);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border: 1px solid color-mix(in srgb, var(--acc) 18%, var(--line));
+    box-shadow: 0 10px 30px -12px color-mix(in srgb, var(--acc) 22%, transparent);
+  }
+  .wx big { font-size: 2.8rem; font-weight: 800; letter-spacing: -.02em }
 
   /* Verse: larger text */
   .vm { font-size: 1.3rem }
