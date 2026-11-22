@@ -1,10 +1,10 @@
-/* Larsi Perfume Finder — Service Worker v7.5.0; bundled JSON catalogue (fast first paint) + Supabase delta sync */
-const VERSION = '7.5.0';
+/* Larsi Perfume Finder — Service Worker v7.6.0; bundled JSON catalogue + identify module */
+const VERSION = '7.6.0';
 const SHELL = `lpf-${VERSION}-shell`;
 const IMG = 'lpf-images-v2';
 const CORE = [
   './', './index.html', './css/app.css', './CHANGELOG.md',
-  './js/boot.js', './js/config.js', './js/lang-fa.js', './js/algo.js', './js/store.js', './js/repo.js', './js/agent.js', './js/analytics.js', './js/settings.js', './js/app.js', './js/worker-catalog.js',
+  './js/boot.js', './js/config.js', './js/lang-fa.js', './js/algo.js', './js/identify.js', './js/store.js', './js/repo.js', './js/agent.js', './js/analytics.js', './js/settings.js', './js/app.js', './js/worker-catalog.js',
   './manifest.webmanifest', './icons/logo.svg', './icons/favicon-32.png', './icons/apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png',
   './fonts/Vazirmatn-var.woff2', './fonts/NotoNaskhArabic-400.woff2', './fonts/NotoNaskhArabic-700.woff2'
 ];

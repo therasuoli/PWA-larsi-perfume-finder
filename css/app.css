@@ -57,11 +57,15 @@ header.new-top { gap: 12px }
 .top-actions { display: flex; gap: 8px; flex: none }
 .round { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); background: var(--card) }
 
-/* ---------- side menu (hamburger drawer) ---------- */
+/* ---------- side menu (hamburger drawer) ----------
+ * BUG FIX: previously the menu had conflicting transforms that left it
+ * VISIBLE by default in RTL mode. The menu is anchored to the start edge
+ * (right side in RTL) via `inset-inline-start: 0`, so to hide it OFF-screen
+ * we translate it in the SAME direction it's anchored — positive X in RTL.
+ * It only slides in when [data-open="true"] is set by the click handler. */
 .menu-backdrop { position: fixed; inset: 0; z-index: 50; background: rgba(8, 16, 13, .55); opacity: 0; transition: opacity .25s ease; }
 .menu-backdrop.show { opacity: 1 }
-.side-menu { position: fixed; top: 0; inset-inline-start: 0; bottom: 0; width: min(320px, 86vw); background: var(--bg); color: var(--ink); z-index: 51; transform: translateX(-100%); transform: translateX(110%); transition: transform .28s cubic-bezier(.32,.72,0,1); display: flex; flex-direction: column; padding: 14px; box-shadow: 0 0 40px rgba(0,0,0,.4); overflow-y: auto; }
-:root[dir="rtl"] .side-menu { transform: translateX(-110%); }
+.side-menu { position: fixed; top: 0; inset-inline-start: 0; bottom: 0; width: min(320px, 86vw); background: var(--bg); color: var(--ink); z-index: 51; transform: translateX(110%); transition: transform .28s cubic-bezier(.32,.72,0,1); display: flex; flex-direction: column; padding: 14px; box-shadow: 0 0 40px rgba(0,0,0,.4); overflow-y: auto; }
 .side-menu[data-open="true"] { transform: translateX(0) !important }
 .side-head { display: flex; align-items: center; justify-content: space-between; padding: 8px 6px 14px; border-bottom: 1px solid var(--line) }
 .side-head .logo { text-align: start; font-size: 1.15rem }
@@ -147,30 +151,98 @@ main { max-width: 980px; margin: 0 auto; padding: 0 20px }
 .cap { fill: var(--ink) }
 
 /* ---------- cards grid ---------- */
+/* v7.6: standardised image aspect ratio = 4:5 (portrait perfume bottle).
+   All card images, hero images, gallery thumbnails and identify-result
+   images use the same ratio so the visual rhythm is consistent. */
 .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px }
-.card { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden }
-.open { display: block; width: 100%; text-align: start; padding: 16px 14px 14px }
-.stage { display: grid; place-items: center; height: 130px; border-radius: var(--r2); background: color-mix(in srgb, var(--liq, #999) 16%, var(--bg)); margin-bottom: 12px }
-.stage svg { width: 62px; height: 84px }
-.brand-n { font-size: .8125rem; color: var(--mut) }
-.name { display: block; font-weight: 700; line-height: 1.5; direction: ltr; text-align: start }
+.card { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; transition: transform .15s ease, box-shadow .2s ease }
+.card:active { transform: scale(.98) }
+.open { display: block; width: 100%; text-align: start; padding: 14px 12px 12px }
+/* Stage / media — 4:5 portrait ratio (e.g., 140×175 on mobile, 180×225 on desktop) */
+.stage { display: grid; place-items: center; aspect-ratio: 4/5; border-radius: var(--r2); background: color-mix(in srgb, var(--liq, #999) 16%, var(--bg)); margin-bottom: 10px }
+.stage svg { width: 56px; height: 76px }
+.brand-n { font-size: .75rem; color: var(--mut); display: block }
+.name { display: block; font-weight: 700; line-height: 1.4; direction: ltr; text-align: start; font-size: .9375rem }
 .card .meta { font-size: .75rem; color: var(--mut); display: block; margin-top: 2px }
 .pill-match { display: inline-block; margin-top: 8px; font-size: .75rem; font-weight: 700; color: var(--mut); background: color-mix(in srgb, var(--line) 45%, var(--card)); padding: 2px 10px; border-radius: 99px }
 .pill-match.economic { color: var(--on); background: var(--acc) }
 .mini { display: block; font-size: .75rem; color: var(--mut); margin-top: 4px; line-height: 1.7 }
-.fav { position: absolute; top: 8px; inset-inline-start: 8px; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--card) 80%, transparent) }
+.fav { position: absolute; top: 8px; inset-inline-start: 8px; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--card) 80%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px) }
 .fav[aria-pressed="true"] svg { fill: var(--acc); stroke: var(--ink) }
-.act.cmp2 { position: absolute; top: 8px; inset-inline-end: 8px; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--card) 80%, transparent) }
+.act.cmp2 { position: absolute; top: 8px; inset-inline-end: 8px; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--card) 80%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px) }
 .act.cmp2[aria-pressed="true"] svg { fill: var(--acc) }
 img.lpf-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .35s }
 img.lpf-img.ready { opacity: 1 }
 .ph { position: absolute; inset: 0; display: grid; place-items: center; color: color-mix(in srgb, var(--ink) 55%, transparent) }
-.media { position: relative; display: block; height: 150px; border-radius: var(--r2); overflow: hidden; background: color-mix(in srgb, var(--liq, #999) 14%, var(--bg)); margin-bottom: 12px }
+.media { position: relative; display: block; aspect-ratio: 4/5; border-radius: var(--r2); overflow: hidden; background: color-mix(in srgb, var(--liq, #999) 14%, var(--bg)); margin-bottom: 10px }
 .skeleton { pointer-events: none }
 .skeleton .media, .skeleton .line { animation: shimmer 1.2s infinite alternate }
 .skeleton .line { height: .8rem; border-radius: 6px; background: color-mix(in srgb, var(--line) 45%, var(--card)); margin-top: 8px }
 .skeleton .line.w55 { width: 55% }
 @keyframes shimmer { to { opacity: .45 } }
+
+/* ---------- HERO (v7.6: redesigned homepage hero) ---------- */
+.hero { position: relative; margin: 12px 0 24px; padding: 28px 22px 24px; border-radius: var(--r); overflow: hidden; min-height: 320px; display: grid; grid-template-columns: 1fr; gap: 18px; align-items: end; border: 1px solid var(--line) }
+.hero-bg { position: absolute; inset: 0; z-index: 0; background: radial-gradient(circle at 80% 20%, color-mix(in srgb, var(--acc) 24%, var(--card)) 0%, transparent 60%), linear-gradient(135deg, var(--card) 0%, var(--bg) 100%); transition: background .5s ease }
+.hero-content { position: relative; z-index: 2; display: grid; gap: 8px }
+.hero-kicker { font-size: .7rem; letter-spacing: .2em; color: var(--acc); font-weight: 700; text-transform: uppercase }
+.hero h1 { font-size: clamp(1.6rem, 6vw, 2.4rem); line-height: 1.3; font-weight: 800; margin: 4px 0 6px; max-width: 18ch }
+.hero-sub { font-size: .95rem; color: var(--mut); max-width: 32ch; line-height: 1.7 }
+.hero-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px }
+.hero-actions .btn { min-height: 46px; padding: 0 18px; font-size: .875rem }
+.hero-bottle { position: absolute; top: 10%; inset-inline-end: -10%; z-index: 1; opacity: .9; pointer-events: none }
+.hero-bottle svg, .hero-bottle .bottle-wrap { width: 180px; height: 240px }
+@media (min-width: 640px) {
+  .hero { grid-template-columns: 1.6fr 1fr; min-height: 360px }
+  .hero-bottle { position: relative; top: auto; inset-inline-end: auto; margin: auto }
+  .hero-bottle svg, .hero-bottle .bottle-wrap { width: 220px; height: 294px }
+}
+
+/* ---------- section blocks (v7.6: consistent spacing) ---------- */
+.section-block { margin: 28px 0 12px; scroll-margin-top: 76px }
+.section-block h2 { font-size: 1.15rem; font-weight: 700; margin: 0 0 2px }
+.section-block .sub { margin-bottom: 10px }
+
+/* ---------- IDENTIFY view (v7.6 new feature) ---------- */
+.identify-upload { position: relative; margin: 16px 0; border: 2px dashed var(--line); border-radius: var(--r); background: var(--card); padding: 36px 22px; text-align: center; cursor: pointer; transition: border-color .2s ease, background .2s ease, transform .15s ease; min-height: 180px; display: grid; place-items: center }
+.identify-upload:hover, .identify-upload:focus-visible { border-color: var(--acc); background: color-mix(in srgb, var(--acc) 8%, var(--card)); outline: none }
+.identify-upload:active { transform: scale(.99) }
+.identify-upload.dragover { border-color: var(--acc); background: color-mix(in srgb, var(--acc) 14%, var(--card)) }
+.identify-upload-inner { display: grid; gap: 6px; place-items: center }
+.identify-upload-inner .ic-big { width: 56px; height: 56px; color: var(--acc) }
+.identify-upload-inner b { font-size: 1rem; font-weight: 700 }
+.identify-upload-inner .hint { font-size: .75rem; color: var(--mut) }
+
+.identify-result { display: grid; grid-template-columns: 1fr; gap: 14px; margin: 16px 0 }
+@media (min-width: 640px) { .identify-result { grid-template-columns: 200px 1fr } }
+.identify-preview { position: relative; aspect-ratio: 4/5; border-radius: var(--r); overflow: hidden; background: var(--card); border: 1px solid var(--line) }
+.identify-preview img { width: 100%; height: 100%; object-fit: cover; display: block }
+.identify-preview .round { position: absolute; top: 8px; inset-inline-end: 8px; width: 36px; height: 36px; background: rgba(0,0,0,.6); border-color: rgba(255,255,255,.25); color: #fff; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px) }
+.identify-analysis { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 10px; align-content: start }
+.identify-analysis h3 { margin: 0; font-size: 1rem }
+.identify-analysis .swatch { display: inline-flex; align-items: center; gap: 10px; font-size: .8125rem; color: var(--mut) }
+.identify-analysis .swatch i { display: inline-block; width: 32px; height: 32px; border-radius: 8px; border: 1px solid var(--line) }
+.identify-analysis .stat-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 4px }
+.identify-analysis .stat-row .stat { flex: 1; min-width: 90px; padding: 8px; background: var(--bg); border-radius: var(--r2); border: 1px solid var(--line) }
+.identify-analysis .stat b { display: block; font-size: 1.1rem; color: var(--acc); font-weight: 800 }
+.identify-analysis .stat span { font-size: .7rem; color: var(--mut) }
+
+.identify-best { margin: 18px 0 12px }
+.identify-best h3 { font-size: 1rem; font-weight: 700; margin: 0 0 8px; color: var(--acc) }
+.identify-best-card { background: var(--card); border: 2px solid var(--acc); border-radius: var(--r); padding: 14px; display: grid; grid-template-columns: 100px 1fr; gap: 14px; align-items: center; box-shadow: 0 8px 24px color-mix(in srgb, var(--acc) 18%, transparent) }
+.identify-best-card .media { aspect-ratio: 4/5; margin: 0; max-width: 100px }
+.identify-best-card .info { display: grid; gap: 4px }
+.identify-best-card .info b { font-size: 1rem }
+.identify-best-card .info .brand-n { font-size: .8125rem }
+.identify-best-card .info .score { font-size: .875rem; color: var(--acc); font-weight: 700 }
+.identify-best-card .info .actions { display: flex; gap: 8px; margin-top: 6px }
+.identify-best-card .info .actions .btn { min-height: 40px; padding: 0 14px; font-size: .8125rem }
+
+.identify-others, .identify-similar { margin: 18px 0 12px }
+.identify-others h3, .identify-similar h3 { font-size: 1rem; font-weight: 700; margin: 0 0 10px }
+.identify-grid { grid-template-columns: repeat(2, 1fr) }
+@media (min-width: 640px) { .identify-grid { grid-template-columns: repeat(3, 1fr) } }
+@media (min-width: 900px) { .identify-grid { grid-template-columns: repeat(4, 1fr) } }
 
 /* ---------- chips / buttons ---------- */
 .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 }

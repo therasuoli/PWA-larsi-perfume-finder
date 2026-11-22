@@ -47,12 +47,13 @@
 <symbol id="i-back" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
 <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
 <symbol id="i-about" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v.01M12 11v5"/></symbol>
-<symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l2 3H4z"/><path d="M10 21a2 2 0 0 0 4 0"/></symbol>
+<symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="4"/></symbol>
+<symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 9a2 2 0 0 1 2-2h2l2-2h6l2 2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.5"/></symbol>
 </defs></svg>
 
 <a class="skip" href="#v-home">پرش به محتوای اصلی</a>
 
-<!-- ============ NEW HEADER WITH HAMBURGER ============ -->
+<!-- ============ NEW HEADER WITH HAMBURGER (click-to-open only) ============ -->
 <header class="top new-top">
   <button class="round menu-btn" id="menuBtn" type="button" aria-label="باز کردن منو" aria-controls="sideMenu" aria-expanded="false">
     <svg class="ic"><use href="#i-menu"/></svg>
@@ -63,7 +64,7 @@
   </div>
 </header>
 
-<!-- ============ SIDE MENU (HAMBURGER) ============ -->
+<!-- ============ SIDE MENU (HAMBURGER DRAWER) — hidden by default, click to open ============ -->
 <div class="menu-backdrop" id="menuBackdrop" hidden></div>
 <aside class="side-menu" id="sideMenu" aria-label="منوی اصلی" aria-hidden="true">
   <div class="side-head">
@@ -73,6 +74,7 @@
   <nav class="side-nav" aria-label="بخش‌های منو">
     <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg><span>خانه</span></button>
     <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطرها</span></button>
+    <button type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg><span>شناسایی هوشمند</span></button>
     <button type="button" data-go="agent"><svg class="ic"><use href="#i-spark"/></svg><span>عطرساز</span></button>
     <button type="button" data-go="ward"><svg class="ic"><use href="#i-bag"/></svg><span>کمد من</span><span class="n badge" id="sideWardBadge" hidden>0</span></button>
     <hr>
@@ -82,39 +84,84 @@
   <div class="side-foot">
     <p>ایده، طراحی و توسعه</p>
     <p><b>هادی رسولی</b> · ۲۰۲۶</p>
-    <p class="ver" id="sideVer">نسخه ۷٫۵٫۰</p>
+    <p class="ver" id="sideVer">نسخه ۷٫۶٫۰</p>
   </div>
 </aside>
 
 <main>
 
-<!-- ============ HOME ============ -->
+<!-- ============ HOME (REDESIGNED v7.6) ============ -->
 <section class="view on" id="v-home" aria-label="خانه">
-  <h1>امروز دلت چه بویی می‌خواهد؟</h1>
-  <p class="lead">یک حال انتخاب کن؛ بقیه‌اش با ما.</p>
-  <div class="moods" id="moods" role="group" aria-label="حال و دل امروز"></div>
-  <div class="search-wrap">
-    <label class="search" for="hq">
-      <svg class="ic"><use href="#i-find"/></svg>
-      <input id="hq" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند یا نت را بنویس" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
-      <button class="clear" id="hqClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
-    </label>
-    <div class="suggest" id="hqSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
-  </div>
+  <!-- Hero featured perfume of the day -->
+  <section class="hero" id="heroHome" aria-label="عطر روز">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-content">
+      <span class="hero-kicker">عطر روز · شیراز</span>
+      <h1 id="heroTitle">امروز دلت چه بویی می‌خواهد؟</h1>
+      <p class="hero-sub" id="heroSub">یک حال انتخاب کن؛ بقیه‌اش با ما.</p>
+      <div class="hero-actions">
+        <button class="btn pri" type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطرها</span></button>
+        <button class="btn ghost" type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg><span>شناسایی با عکس</span></button>
+      </div>
+    </div>
+    <div class="hero-bottle" id="heroBottle" aria-hidden="true"></div>
+  </section>
 
+  <!-- Mood selector -->
+  <section class="section-block" aria-label="حال و دل">
+    <h2>حال امروز تو چیست؟</h2>
+    <p class="sub">روی یک حال بزن تا عطرهای متناسب با آن را ببینی.</p>
+    <div class="moods" id="moods" role="group" aria-label="حال و دل امروز"></div>
+  </section>
+
+  <!-- Search -->
+  <section class="section-block" aria-label="جستجو">
+    <div class="search-wrap">
+      <label class="search" for="hq">
+        <svg class="ic"><use href="#i-find"/></svg>
+        <input id="hq" type="search" inputmode="search" enterkeyhint="search" placeholder="نام عطر، برند یا نت را بنویس" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
+        <button class="clear" id="hqClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
+      </label>
+      <div class="suggest" id="hqSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
+    </div>
+  </section>
+
+  <!-- Weather card -->
   <div class="wx" id="wx" aria-live="polite"></div>
 
+  <!-- Verse -->
   <figure class="verse">
     <div class="vm" id="verseText"></div>
     <figcaption id="verseCap"></figcaption>
     <p id="verseNote"></p>
   </figure>
 
-  <h2>تازه‌ترین‌ها</h2><p class="sub">به ترتیب سال عرضه.</p><div class="rail" id="newest"></div>
-  <h2>خانه‌های عطر</h2><p class="sub">بیشترین عطر در بانک، اول.</p><div class="rail" id="brands"></div>
-  <h2>عطر از کدام کشور؟</h2><p class="sub">با پرچم هر سرزمین.</p><div class="rail" id="countries"></div>
-  <h2>خانواده‌های بویایی</h2><p class="sub">هر شیشه یک دنیا است. روی یکی بزن تا عطرهایش را ببینی.</p><div class="rail" id="fams"></div>
-  <h2>مناسب هوای امروز شیراز</h2><p class="sub" id="ws"></p><div class="rail" id="wrail"></div>
+  <!-- Rails -->
+  <section class="section-block" aria-label="تازه‌ترین‌ها">
+    <h2>تازه‌ترین‌ها</h2>
+    <p class="sub">به ترتیب سال عرضه.</p>
+    <div class="rail" id="newest"></div>
+  </section>
+  <section class="section-block" aria-label="خانه‌های عطر">
+    <h2>خانه‌های عطر</h2>
+    <p class="sub">بیشترین عطر در بانک، اول.</p>
+    <div class="rail" id="brands"></div>
+  </section>
+  <section class="section-block" aria-label="کشورها">
+    <h2>عطر از کدام کشور؟</h2>
+    <p class="sub">با پرچم هر سرزمین.</p>
+    <div class="rail" id="countries"></div>
+  </section>
+  <section class="section-block" aria-label="خانواده‌های بویایی">
+    <h2>خانواده‌های بویایی</h2>
+    <p class="sub">هر شیشه یک دنیا است. روی یکی بزن تا عطرهایش را ببینی.</p>
+    <div class="rail" id="fams"></div>
+  </section>
+  <section class="section-block" aria-label="مناسب هوای امروز">
+    <h2>مناسب هوای امروز شیراز</h2>
+    <p class="sub" id="ws"></p>
+    <div class="rail" id="wrail"></div>
+  </section>
 </section>
 
 <!-- ============ FIND ============ -->
@@ -156,6 +203,49 @@
   <div class="more-row"><button id="loadMore" class="btn" type="button" hidden>نمایش عطرهای بیشتر</button></div>
 </section>
 
+<!-- ============ IDENTIFY (NEW v7.6) — Smart image-based perfume identification ============ -->
+<section class="view" id="v-identify" aria-label="شناسایی هوشمند عطر">
+  <h2 style="margin-top:20px">شناسایی هوشمند عطر</h2>
+  <p class="sub">عکس عطرت را بارگذاری کن؛ ما آن را در بانک پیدا می‌کنیم و عطرهای مشابه را نشان می‌دهیم.</p>
+
+  <!-- Upload zone -->
+  <div class="identify-upload" id="idDrop" role="button" tabindex="0" aria-label="بارگذاری عکس عطر">
+    <input type="file" id="idFile" accept="image/*" capture="environment" hidden>
+    <div class="identify-upload-inner" id="idDropInner">
+      <svg class="ic ic-big"><use href="#i-camera"/></svg>
+      <b>عکس عطر را اینجا بکش یا کلیک کن</b>
+      <span class="hint">JPG، PNG یا WEBP · حداکثر ۸ مگابایت</span>
+    </div>
+  </div>
+
+  <!-- Preview + analysis -->
+  <div class="identify-result" id="idResult" hidden>
+    <div class="identify-preview">
+      <img id="idPreview" alt="عکس بارگذاری‌شده">
+      <button class="round" id="idRetake" type="button" aria-label="عکس جدید"><svg class="ic"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="identify-analysis" id="idAnalysis"></div>
+  </div>
+
+  <!-- Best match -->
+  <div class="identify-best" id="idBest" hidden>
+    <h3>بهترین تطبیق</h3>
+    <div class="identify-best-card" id="idBestCard"></div>
+  </div>
+
+  <!-- Other candidates -->
+  <div class="identify-others" id="idOthers" hidden>
+    <h3>نتایج دیگر</h3>
+    <div class="grid identify-grid" id="idOthersGrid"></div>
+  </div>
+
+  <!-- Similar perfumes (after user picks a match) -->
+  <div class="identify-similar" id="idSimilar" hidden>
+    <h3>عطرهای مشابه</h3>
+    <div class="grid identify-grid" id="idSimilarGrid"></div>
+  </div>
+</section>
+
 <!-- ============ AGENT ============ -->
 <section class="view" id="v-agent" aria-label="عطرساز">
   <h2 style="margin-top:20px">عطرساز لارسی</h2>
@@ -182,7 +272,7 @@
   <div class="grid" id="wardGrid"></div>
 </section>
 
-<!-- ============ SETTINGS (now only settings, no about) ============ -->
+<!-- ============ SETTINGS ============ -->
 <section class="view" id="v-set" aria-label="تنظیمات">
   <h2 style="margin-top:20px">تنظیمات</h2>
   <p class="sub">نمایش، به‌روزرسانی و حافظه برنامه.</p>
@@ -243,7 +333,7 @@
 
 </section>
 
-<!-- ============ ABOUT (now its own view) ============ -->
+<!-- ============ ABOUT ============ -->
 <section class="view" id="v-about" aria-label="درباره ما">
   <h2 style="margin-top:20px">درباره ما</h2>
   <p class="sub">آشنایی با برنامه، توسعه‌دهنده و چشم‌انداز آینده.</p>
@@ -257,7 +347,7 @@
 <nav class="bnav" aria-label="بخش‌ها">
   <button type="button" data-go="home" aria-current="page"><svg class="ic"><use href="#i-home"/></svg>خانه</button>
   <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg>کشف</button>
-  <button type="button" data-go="agent"><svg class="ic"><use href="#i-spark"/></svg>عطرساز</button>
+  <button type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg>شناسایی</button>
   <button type="button" data-go="ward"><svg class="ic"><use href="#i-bag"/></svg>کمد من<span class="n" id="wardBadge" hidden>0</span></button>
   <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg>تنظیمات</button>
 </nav>
@@ -312,6 +402,7 @@
 <script src="js/config.js" defer></script>
 <script src="js/lang-fa.js" defer></script>
 <script src="js/algo.js" defer></script>
+<script src="js/identify.js" defer></script>
 <script src="js/store.js" defer></script>
 <script src="js/repo.js" defer></script>
 <script src="js/agent.js" defer></script>

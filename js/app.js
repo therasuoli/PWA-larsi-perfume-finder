@@ -313,6 +313,7 @@
     if (v === 'ward') renderWardrobe();
     if (v === 'set') LPF.settings.refresh();
     if (v === 'about') LPF.settings.renderAbout && LPF.settings.renderAbout();
+    if (v === 'identify') renderIdentifyView();
     // Close the side menu whenever a navigation happens
     if (menuOpen) setMenu(false);
     scrollTo(0, 0);
@@ -320,6 +321,27 @@
 
   /* ================= home ================= */
   function renderHome() {
+    // v7.6: Hero featured perfume of the day — rotates based on date
+    const heroEl = $('#heroBottle'); if (heroEl) {
+      // Pick a "perfume of the day" deterministically based on date
+      const dayIndex = Math.floor(Date.now() / 86400000);
+      const candidates = live.filter(p => repo.images.get(p)).sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
+      const featured = candidates.length ? candidates[dayIndex % Math.min(candidates.length, 50)] : null;
+      if (featured) {
+        const liq = famLiq(featured.family);
+        heroEl.innerHTML = `<svg class="bottle" style="--liq:${liq};--lv:${concLevel(featured.conc)}px" aria-hidden="true"><use href="#b"/></svg>`;
+        const heroBg = $('#heroBg');
+        if (heroBg) heroBg.style.background = `radial-gradient(circle at 80% 20%, color-mix(in srgb, ${liq} 32%, var(--card)) 0%, transparent 60%), linear-gradient(135deg, var(--card) 0%, var(--bg) 100%)`;
+        const heroTitle = $('#heroTitle'); if (heroTitle) heroTitle.textContent = featured.name;
+        const heroSub = $('#heroSub'); if (heroSub) heroSub.textContent = `${featured.brand} · ${FA.family(featured.family) || 'عطر'}`;
+        heroEl.setAttribute('role', 'button');
+        heroEl.setAttribute('aria-label', `عطر روز: ${featured.name} از ${featured.brand}`);
+        heroEl.onclick = () => openDetail(featured.id);
+      } else {
+        heroEl.innerHTML = `<svg class="bottle" style="--liq:${famLiq('Amber & Resin')};--lv:12px" aria-hidden="true"><use href="#b"/></svg>`;
+      }
+    }
+
     $('#moods').innerHTML = MOODS.map(([label, fams], i) => `<button class="mood" type="button" data-mood="${i}" style="--liq:${famLiq(fams[0])}">${esc(label)}</button>`).join('') + `<button class="mood ghost2" type="button" id="giftBtn" style="background:transparent;color:var(--ink);border:1px solid var(--line)">${icon('spark')}هدیه می‌خواهم</button>`;
     const giftBtn = $('#giftBtn'); if (giftBtn) giftBtn.addEventListener('click', giftGuide);
     const famCounts = new Map();
@@ -341,6 +363,145 @@
     renderWeatherRail();
     ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => autoplay($('#' + id)));
     markReadyImages($('#v-home'));
+  }
+
+  /* ================= IDENTIFY view (v7.6 new feature) ================= */
+  /* State for the identify flow */
+  const idState = { busy: false, lastResult: null };
+  function renderIdentifyView() {
+    // Reset the upload zone to its initial state
+    const drop = $('#idDrop'), result = $('#idResult'), best = $('#idBest'), others = $('#idOthers'), similar = $('#idSimilar');
+    if (drop) drop.hidden = false;
+    if (result) result.hidden = true;
+    if (best) best.hidden = true;
+    if (others) others.hidden = true;
+    if (similar) similar.hidden = true;
+  }
+  async function handleIdentifyFile(file) {
+    if (!file || idState.busy) return;
+    idState.busy = true;
+    const drop = $('#idDrop'), result = $('#idResult');
+    if (!drop || !result) { idState.busy = false; return; }
+    // Show preview immediately (user feedback)
+    const preview = $('#idPreview');
+    if (preview) preview.src = URL.createObjectURL(file);
+    result.hidden = false;
+    drop.hidden = true;
+    // Show "analysing..." in the analysis panel
+    const analysis = $('#idAnalysis');
+    if (analysis) analysis.innerHTML = `<h3>در حال تحلیل تصویر…</h3><div class="dots"><i></i><i></i><i></i></div>`;
+    try {
+      // Small delay so the user sees the analysis happening (UX feedback)
+      await new Promise(r => setTimeout(r, 600));
+      const res = await LPF.identify.identify(file, live, { maxResults: 6 });
+      idState.lastResult = res;
+      renderIdentifyResult(res);
+    } catch (e) {
+      if (analysis) analysis.innerHTML = `<h3>خطا در تحلیل</h3><p class="muted">${esc(String(e.message || e))}</p><p class="hint">عکس دیگری امتحان کن یا از جستجوی دستی استفاده کن.</p>`;
+    } finally {
+      idState.busy = false;
+    }
+  }
+  function renderIdentifyResult(res) {
+    const analysis = $('#idAnalysis');
+    const best = $('#idBest'), bestCard = $('#idBestCard');
+    const others = $('#idOthers'), othersGrid = $('#idOthersGrid');
+    const similar = $('#idSimilar');
+    if (!analysis || !best || !bestCard || !others || !othersGrid) return;
+    if (!res.ok) {
+      analysis.innerHTML = `<h3>تشخیص داده نشد</h3>
+        <p class="muted">نتوانستیم عطر را با اطمینان شناسایی کنیم. این ممکن است به این دلیل باشد:</p>
+        <ul style="margin:6px 0;padding-inline-start:18px;color:var(--mut);font-size:.875rem">
+          <li>عکس تاریک یا تار است</li>
+          <li>بطری در زاویه‌ای غیر از روبرو قرار دارد</li>
+          <li>عطر در بانک ما نیست</li>
+        </ul>
+        <p class="hint">سعی کن عکس با نور طبیعی و از روبرو باشد.</p>`;
+      best.hidden = true; others.hidden = true; similar.hidden = true;
+      return;
+    }
+    // Analysis panel: show detected colour + predicted family
+    const famName = FA.family(res.family) || res.family;
+    analysis.innerHTML = `
+      <h3>تحلیل تصویر</h3>
+      <div class="swatch"><i style="background:${res.liquorHex}"></i><span>رنگ غالب بطری: <b style="color:var(--ink);font-family:monospace;direction:ltr">${esc(res.liquorHex)}</b></span></div>
+      <div class="swatch"><i style="background:${famLiq(res.family)}"></i><span>خانوادهٔ پیش‌بینی‌شده: <b style="color:var(--ink)">${esc(famName)}</b> (${fa(res.familySimilarity)}٪ شباهت)</span></div>
+      <div class="stat-row">
+        <div class="stat"><b>${fa(res.results.length)}</b><span>نتیجهٔ кандидا</span></div>
+        <div class="stat"><b>${fa(res.capRatio > 0.3 ? '✓' : '—')}</b><span>کلاه بطری شناسایی شد</span></div>
+      </div>`;
+    // Best match card
+    if (res.results.length) {
+      const top = res.results[0];
+      const p = top.p;
+      const imgUrl = repo.images.get(p);
+      bestCard.innerHTML = `
+        ${mediaHTML(p, 99, p.name)}
+        <div class="info">
+          <b>${esc(p.name)}</b>
+          <span class="brand-n">${esc(p.brand)}</span>
+          <span class="score">${fa(top.score)}٪ تطبیق · ${esc(FA.family(p.family) || 'عطر')}</span>
+          ${top.reasons.length ? `<span class="mini">${esc(top.reasons.join('، '))}</span>` : ''}
+          <div class="actions">
+            <button class="btn pri" type="button" data-open="${esc(p.id)}">نمایش جزئیات</button>
+            <button class="btn ghost" type="button" id="idShowSimilar">عطرهای مشابه</button>
+          </div>
+        </div>`;
+      best.hidden = false;
+      // Wire "show similar" button
+      const simBtn = $('#idShowSimilar');
+      if (simBtn) simBtn.onclick = () => renderIdentifySimilar(p);
+    } else {
+      best.hidden = true;
+    }
+    // Other candidates
+    if (res.results.length > 1) {
+      othersGrid.innerHTML = res.results.slice(1).map(({ p, score }) => `
+        <article class="card" data-id="${esc(p.id)}" style="--liq:${famLiq(p.family)}">
+          <button class="open" type="button" data-open="${esc(p.id)}" aria-label="${esc(p.brand + ' ' + p.name)}">
+            ${mediaHTML(p, 99, p.name)}
+            <span class="brand-n">${esc(p.brand)}</span>
+            <span class="name" style="font-size:.8125rem">${esc(p.name)}</span>
+            <span class="pill-match">${fa(score)}٪ تطبیق</span>
+          </button>
+        </article>`).join('');
+      others.hidden = false;
+      markReadyImages(othersGrid);
+    } else {
+      others.hidden = true;
+    }
+    similar.hidden = true; // reset; shown only when user clicks "show similar"
+  }
+  function renderIdentifySimilar(p) {
+    const similar = $('#idSimilar'), grid = $('#idSimilarGrid');
+    if (!similar || !grid) return;
+    grid.innerHTML = '<p class="muted">در حال تحلیل نت‌های مشترک از بانک…</p>';
+    similar.hidden = false;
+    similar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    (window.requestIdleCallback || (f => setTimeout(f, 30)))(() => {
+      const m = similarLocal(p);
+      grid.innerHTML = m.length ? m.map(({ p: x, score, shared }) => `
+        <article class="card" data-id="${esc(x.id)}" style="--liq:${famLiq(x.family)}">
+          <button class="open" type="button" data-open="${esc(x.id)}" aria-label="${esc(x.brand + ' ' + x.name)}">
+            ${mediaHTML(x, 99, x.name)}
+            <span class="brand-n">${esc(x.brand)}</span>
+            <span class="name" style="font-size:.8125rem">${esc(x.name)}</span>
+            <span class="pill-match">${fa(score)}٪ شباهت</span>
+            ${shared.length ? `<span class="mini">${esc(shared.slice(0, 3).map(n => FA.note(n) || n).join('، '))}</span>` : ''}
+          </button>
+        </article>`).join('') : '<p class="muted">برای این عطر پیشنهاد مشابهی در بانک پیدا نشد.</p>';
+      markReadyImages(grid);
+    }, { timeout: 400 });
+  }
+  function resetIdentifyView() {
+    const drop = $('#idDrop');
+    if (drop) drop.hidden = false;
+    const result = $('#idResult'); if (result) result.hidden = true;
+    const best = $('#idBest'); if (best) best.hidden = true;
+    const others = $('#idOthers'); if (others) others.hidden = true;
+    const similar = $('#idSimilar'); if (similar) similar.hidden = true;
+    const preview = $('#idPreview'); if (preview) preview.removeAttribute('src');
+    const fileInput = $('#idFile'); if (fileInput) fileInput.value = '';
   }
 
   /* --- weather (Open-Meteo, Shiraz) --- */
@@ -855,6 +1016,22 @@
 
     // theme toggle lives in settings.js (cycles auto → dark → light)
     $('#agentChips').addEventListener('click', e => { const b = e.target.closest('[data-q]'); if (b) agentView(b.dataset.q); });
+
+    // ============ IDENTIFY view bindings (v7.6) ============
+    const idDrop = $('#idDrop'), idFile = $('#idFile'), idRetake = $('#idRetake');
+    if (idDrop && idFile) {
+      // Click → opens file picker
+      idDrop.addEventListener('click', () => idFile.click());
+      // Keyboard activation (Enter / Space) for accessibility
+      idDrop.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); idFile.click(); } });
+      // Drag-and-drop
+      ['dragenter', 'dragover'].forEach(ev => idDrop.addEventListener(ev, e => { e.preventDefault(); idDrop.classList.add('dragover'); }));
+      ['dragleave', 'drop'].forEach(ev => idDrop.addEventListener(ev, e => { e.preventDefault(); idDrop.classList.remove('dragover'); }));
+      idDrop.addEventListener('drop', e => { const f = e.dataTransfer.files[0]; if (f) handleIdentifyFile(f); });
+      // File input change
+      idFile.addEventListener('change', e => { if (e.target.files[0]) handleIdentifyFile(e.target.files[0]); e.target.value = ''; });
+    }
+    if (idRetake) idRetake.addEventListener('click', resetIdentifyView);
 
     // global click delegation
     document.addEventListener('click', e => {
