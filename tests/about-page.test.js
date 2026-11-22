@@ -56,8 +56,10 @@ describe('About page — v7.9.10 cleanup (settings.js)', () => {
     expect(ABOUT).not.toContain('ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی');
   });
 
-  it('uses the new footer: "Dev : Hadi Rasuoli | larsi copyright ©"', () => {
-    expect(ABOUT).toContain('Dev : Hadi Rasuoli | larsi copyright ©');
+  it('does not duplicate the footer inside the About body', () => {
+    // The site-wide footer (in index.html) already shows on the About view,
+    // so the About body must NOT carry its own copy (user: "یکی حذف کن").
+    expect(ABOUT).not.toContain('Dev : Hadi Rasuoli');
   });
 
   it('keeps the brand copy the user requested', () => {

@@ -58,6 +58,16 @@ body {
 body.lock { overflow: hidden }
 
 h1, h2, h3, p { margin: 0 }
+
+/* Justify body paragraphs (article copy, About text, dialog/sheet text).
+   RTL-safe: text-justify: inter-word distributes spacing evenly in Persian.
+   Excluded: cards, buttons, badges, option rows, labels — those keep their
+   own text-align: start / center so their layout is not disturbed. */
+main > p, #aboutBody > p, #aboutBody li, .sheet > p, .sheet li, article > p, .desc-text {
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: -0.02em;
+}
 h1 { font-size: clamp(1.9rem, 7vw, 3rem); line-height: 1.4; font-weight: 800; margin: 18px 0 8px; max-width: 16ch }
 h2 { font-size: 1.3rem; font-weight: 700; margin: 40px 0 4px }
 h3 { font-size: 1.05rem; font-weight: 700 }
