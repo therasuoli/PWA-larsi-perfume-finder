@@ -132,6 +132,13 @@ const DELAY_MIN = parseInt(arg('delay-min', '4000'), 10);
 const DELAY_MAX = parseInt(arg('delay-max', '8000'), 10);
 const RESUME = process.argv.includes('--resume');
 const VERBOSE = process.argv.includes('--verbose');
+// Continuous mode: re-fetch perfumes whose extractedAt is older than N hours.
+// Used by the hourly cron to refresh stale data without re-discovering everything.
+// Values:
+//   -2 (default, OFF): only extract URLs that haven't been processed yet
+//   -1 or 0: force full refresh (re-fetch everything)
+//   >0: refresh records whose extractedAt is older than N hours
+const REFRESH_OLDER_THAN_HOURS = parseInt(arg('refresh-older-than', '-2'), 10);
 
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 console.log('  Larsi Perfume Finder — Fragrantica Daily Extractor');
@@ -428,10 +435,65 @@ function extractFromHtml(html, sourceUrl) {
     out.accords = parseAccords(au[1]);
   }
 
-  // 9. Perfume ID (from URL)
+  // 9. Perfume ID (from URL) — extracted FIRST so image URL can be derived from it
   const pidMatch = sourceUrl && sourceUrl.match(/-(\d+)\.html$/);
   if (pidMatch) {
     out.fragranticaId = parseInt(pidMatch[1], 10);
+  }
+
+  // 4. PRODUCT IMAGE — strict extraction with brand-logo / banner / gallery filtering
+  //
+  // Strategy (recommended by spec):
+  //   Pattern 1 (PRIMARY): construct URL directly from product ID
+  //     https://fimgs.net/mdimg/perfume-thumbs/375x500.{product_id}.jpg
+  //     This is the canonical Fragrantica image URL pattern. No HTML parsing needed,
+  //     no chance of accidentally grabbing a brand logo or gallery image.
+  //
+  //   Pattern 2 (FALLBACK): parse HTML for <img itemprop="image">
+  //     Schema.org microdata specifically marks the main product image.
+  //     As a last resort, also check og:image meta tag.
+  //
+  //   VALIDATION: only accept URLs that match the perfume-thumbs whitelist.
+  //     Rejects: brand logos (fimgs.net/mdimg/dizajneri/), user Fragram gallery
+  //     images (fimgs.net/photogram/), marketplace banner images, third-party ads.
+  out.imageUrl = null;
+  out.imageUrlSource = null;
+
+  // Pattern 1: derive from product ID
+  if (out.fragranticaId) {
+    const candidate = `https://fimgs.net/mdimg/perfume-thumbs/375x500.${out.fragranticaId}.jpg`;
+    out.imageUrl = candidate;
+    out.imageUrlSource = 'pattern1-id';
+  }
+
+  // Pattern 2: HTML itemprop="image" (only used if Pattern 1 didn't fire)
+  if (!out.imageUrl) {
+    const imgMatch = html.match(PATTERNS.image);
+    if (imgMatch) {
+      const candidate = decodeEntities(imgMatch[1]);
+      // Validate: must match the perfume-thumbs whitelist
+      if (candidate.includes('fimgs.net/mdimg/perfume-thumbs/')) {
+        out.imageUrl = candidate;
+        out.imageUrlSource = 'pattern2-itemprop';
+      }
+    }
+  }
+
+  // Pattern 2b: og:image fallback (only if perfume-thumbs URL is found in og:image)
+  if (!out.imageUrl) {
+    const og = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/i);
+    if (og) {
+      const candidate = decodeEntities(og[1]);
+      // og:image can be a social card OR a perfume image; only accept perfume-thumbs
+      if (candidate.includes('fimgs.net/mdimg/perfume-thumbs/')) {
+        out.imageUrl = candidate;
+        out.imageUrlSource = 'pattern2-ogimage';
+      } else if (candidate.includes('fimgs.net/mdimg/perfume/')) {
+        // Some pages use /mdimg/perfume/{id}.jpg without the -thumbs suffix
+        out.imageUrl = candidate;
+        out.imageUrlSource = 'pattern2-ogimage-alt';
+      }
+    }
   }
 
   // 10. Concentration (extracted from name)
@@ -806,16 +868,62 @@ async function saveProgress(progress) {
     } catch {}
   }
 
+  // Index existing records by URL so we can look up extractedAt timestamps
+  // for the --refresh-older-than option (continuous hourly mode).
+  const resultsByUrl = new Map();
+  for (const r of results) {
+    if (r.fragranticaUrl) resultsByUrl.set(r.fragranticaUrl, r);
+  }
+
+  // Compute the cutoff timestamp for stale-data refresh (if enabled)
+  // REFRESH_OLDER_THAN_HOURS values:
+  //   -2 = no refresh at all (default behaviour when not specified)
+  //   -1 = refresh ALL records (re-fetch everything)
+  //    0 = refresh ALL records (alias for -1, easier to remember)
+  //   >0 = refresh records whose extractedAt is older than N hours
+  let refreshCutoffMs = 0;
+  let refreshAll = false;
+  if (REFRESH_OLDER_THAN_HOURS === -1 || REFRESH_OLDER_THAN_HOURS === 0) {
+    refreshAll = true;
+    console.log(`[refresh] refreshing ALL records (forced refresh)\n`);
+  } else if (REFRESH_OLDER_THAN_HOURS > 0) {
+    refreshCutoffMs = Date.now() - REFRESH_OLDER_THAN_HOURS * 3600 * 1000;
+    const staleCount = results.filter(r =>
+      r.fragranticaUrl && r.extractedAt &&
+      new Date(r.extractedAt).getTime() < refreshCutoffMs
+    ).length;
+    console.log(`[refresh] will re-fetch records older than ${REFRESH_OLDER_THAN_HOURS}h (${staleCount} stale of ${results.length})\n`);
+  }
+
   // 4. Extract each URL
-  let success = 0, fail = 0, skip = 0;
+  let success = 0, fail = 0, skip = 0, refreshed = 0;
   for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
+
+    // Skip if already processed (unless we're refreshing stale/all data)
     if (processedSet.has(url)) {
-      skip++;
-      continue;
+      if (refreshAll) {
+        // Forced full refresh — re-fetch below
+        refreshed++;
+      } else if (refreshCutoffMs) {
+        const existing = resultsByUrl.get(url);
+        if (!existing || !existing.extractedAt ||
+            new Date(existing.extractedAt).getTime() < refreshCutoffMs) {
+          // Stale — re-fetch below
+          refreshed++;
+        } else {
+          skip++;
+          continue;
+        }
+      } else {
+        skip++;
+        continue;
+      }
     }
+
     const pct = Math.round((i / urls.length) * 100);
-    process.stdout.write(`[${i + 1}/${urls.length} ${pct}%] `);
+    const mode = processedSet.has(url) ? 'refresh' : 'new';
+    process.stdout.write(`[${i + 1}/${urls.length} ${pct}% ${mode}] `);
 
     try {
       const html = await fetchHtml(url);
@@ -864,7 +972,8 @@ async function saveProgress(progress) {
   console.log('  EXTRACTION COMPLETE');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log(`  Total URLs:    ${urls.length}`);
-  console.log(`  Success:       ${success}`);
+  console.log(`  New:           ${success - refreshed}`);
+  console.log(`  Refreshed:     ${refreshed}`);
   console.log(`  Skipped:       ${skip}`);
   console.log(`  Failed:        ${fail}`);
   console.log(`  Total records: ${results.length}`);

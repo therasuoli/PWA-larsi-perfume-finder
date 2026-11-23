@@ -1,37 +1,30 @@
 [
   {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/Antaeus-616.html",
-    "extractedAt": "2026-11-23T14:32:02.516Z",
-    "name": "Antaeus",
-    "brand": "Chanel",
-    "family": "Woody Chypre",
-    "gender": "men",
-    "year": 1981,
-    "perfumer": "Jacques Polge",
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Nash-148513.html",
+    "extractedAt": "2026-11-23T14:44:31.473Z",
+    "name": "Nash",
+    "brand": "Star de Night",
+    "family": "Floral Woody Musk",
+    "gender": "women. This is a new fragrance",
+    "year": 2026,
+    "perfumer": null,
     "topNotes": [
-      "Clary Sage",
-      "Coriander",
-      "Bergamot",
-      "Lime",
-      "Amalfi Lemon",
-      "Myrtle"
+      "AMBROX® SUPER",
+      "Ginger"
     ],
     "middleNotes": [
-      "Rose",
-      "Thyme",
-      "Basil",
-      "Jasmine"
+      "Tuberose",
+      "Jasmine Sambac",
+      "Rangoon Creeper",
+      "Romandolide®"
     ],
     "baseNotes": [
-      "Castoreum",
-      "Oakmoss",
+      "Cypriol",
       "Patchouli",
-      "French labdanum"
+      "Sandalwood"
     ],
-    "description": "Antaeus is the name of ancient Greek demigod. Strong, like a god, and gentle as a man, Antaeus belongs to those perfumes of expressed individuality and strong character which emphasize masculinity, what was a trend in 1980-ies. Myrtle and sage, lime and thyme have united to give the fragrance a special freshness and masculine character. The fragrance is warming up and becomes intensive at the end due to patchouli, sandal and labdanum in the base. Sharp animalistic nuance is brought in by the notes of castoreum and leather.</p> <p> The top notes include lemon, lime, coriander, myrtle, clary sage, and bergamot. The heart is composed of thyme, basil, rose and jasmine, while the base of patchouli, castoreum, labdanum, and oak moss. The perfume was created by Jacques Polge in 1981.",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.616.jpg",
-    "rating": 4.25,
-    "ratingVotes": 6200,
+    "description": "Nash by Star De Night is a Floral Woody Musk fragrance for women, launched in 2026. It opens with Ambrox Super and ginger, followed by tuberose, jasmine sambac, Rangoon creeper and Romandolide, over a base of cypriol, patchouli and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148513.jpg",
     "accords": [
       {
         "nameEn": "woody",
@@ -39,83 +32,517 @@
         "percent": 100
       },
       {
-        "nameEn": "aromatic",
-        "nameFa": "معطر",
-        "percent": 95
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 75
       },
       {
-        "nameEn": "leather",
-        "nameFa": "چرمی",
-        "percent": 80
-      },
-      {
-        "nameEn": "mossy",
-        "nameFa": "خزه‌ای",
-        "percent": 66
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
       },
       {
         "nameEn": "earthy",
         "nameFa": "خاکی",
-        "percent": 63
+        "percent": 46
       },
       {
-        "nameEn": "smoky",
-        "nameFa": "دودی",
-        "percent": 62
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 42
       },
       {
-        "nameEn": "musky",
-        "nameFa": "مشی",
-        "percent": 51
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 40
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 148513,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nash",
+    "brandFa": "Star de Night",
+    "nameFa": "Nash",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women. This is a new fragrance",
+    "topNotesFa": [
+      "AMBROX® SUPER",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "Jasmine Sambac",
+      "Rangoon Creeper",
+      "Romandolide®"
+    ],
+    "baseNotesFa": [
+      "سایپریول",
+      "پچولی",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Nash از برند Star De Night یک عطر گل‌فام، چوبی و مشکی برای خانم‌ها است که در سال 2026 عرضه شد. این عطر با آمبروکس سوپر و زنجبیل آغاز می‌شود، سپس رایحه‌های مریم، یاس سامباک، پیچ رانگون و روماندولید به مشام می‌رسند و در نهایت رایحه‌های سیپریول، نعناع هندی و چوب صندل به عنوان نت‌های پایه حس می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Mimosa-148512.html",
+    "extractedAt": "2026-11-23T14:44:34.499Z",
+    "_missingMainDesc": true,
+    "brand": "Star de Night",
+    "description": "Mimosa by Star De Night is an Oriental Woody fragrance for women and men, launched in 2026. It opens with pink pepper and black pepper, followed by a rose heart and a base of balsam fir, Atlas cedar and labdanum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148512.jpg",
+    "gender": "women and men",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 81
       },
       {
         "nameEn": "rose",
         "nameFa": "رزی",
-        "percent": 46
+        "percent": 52
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 38
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 26
       }
     ],
-    "fragranticaId": 616,
-    "concentration": null,
-    "baseName": "Antaeus",
-    "brandFa": "شنل",
-    "nameFa": "Antaeus",
-    "familyFa": "چوبی شیپر",
-    "genderFa": "مردانه",
-    "perfumerFa": "Jacques Polge",
-    "topNotesFa": [
-      "مریم‌گلی",
-      "گشنیز",
-      "برگاموت",
-      "لیمو سبز",
-      "لیمو آمالفی",
-      "مورد"
-    ],
-    "middleNotesFa": [
-      "گل رز",
-      "پونه‌سان",
-      "ریحان",
-      "یاسمن"
-    ],
-    "baseNotesFa": [
-      "کاستوریوم",
-      "خزه بلوط",
-      "پچولی",
-      "لابدانوم فرانسوی"
-    ],
-    "descriptionFa": "آنتئوس نام نیمه‌خدای یونان باستان است. آنتیوس که قدرتمند همچون یک خدا و مهربان همچون یک انسان است، متعلق به آن دسته از عطرهاست که بیانگر فردیت و شخصیت قوی هستند و بر مردانگی تأکید می‌کنند؛ چیزی که در دهه 1980 یک ترند بود. مرزنگوش و مریم‌گلی، آهک و آویشن با هم ترکیب شده‌اند تا به این عطر طراوت خاص و ویژگی مردانه ببخشند. این عطر گرم می‌شود و در پایان به دلیل وجود نعناع هندی، چوب صندل و لادن در رایحه پایه، شدیدتر می‌شود.",
+    "fragranticaId": 148512,
+    "imageUrlSource": "pattern1-id",
+    "brandFa": "Star de Night",
+    "genderFa": "مردانه و زنانه",
+    "descriptionFa": "Mimosa از برند Star De Night یک عطر شرقی چوبی برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با فلفل صورتی و فلفل سیاه آغاز می‌شود، سپس به نت میانی گل رز و نت پایه‌ای صنوبر بالسام، سرو اطلس و لادن می‌رسد.",
     "seasons": [
-      "autumn",
       "winter",
+      "autumn",
       "spring",
       "summer"
     ],
-    "primarySeason": "autumn",
-    "secondarySeason": "winter",
-    "primarySeasonFa": "پاییز",
-    "secondarySeasonFa": "زمستان",
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
     "seasonsFa": [
-      "پاییز",
       "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Mercury-148511.html",
+    "extractedAt": "2026-11-23T14:44:36.724Z",
+    "name": "Mercury",
+    "brand": "Star de Night",
+    "family": "Aromatic Green",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mint",
+      "Lemon",
+      "Basil",
+      "Thyme"
+    ],
+    "middleNotes": [
+      "Black Currant",
+      "Rosemary",
+      "Lavender",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vervain",
+      "Georgywood",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "description": "Mercury by Star De Night is an aromatic green fragrance for women and men, launched in 2026. It opens with mint, lemon, basil and thyme, followed by black currant, rosemary, lavender and jasmine, over a base of musk, vervain, Georgywood and cypriol.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148511.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 41
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 23
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 23
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 23
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 148511,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mercury",
+    "brandFa": "Star de Night",
+    "nameFa": "Mercury",
+    "familyFa": "Aromatic Green",
+    "genderFa": "women and men. This is a new fragrance",
+    "topNotesFa": [
+      "نعناع",
+      "لیمو",
+      "ریحان",
+      "پونه‌سان"
+    ],
+    "middleNotesFa": [
+      "توت سیاه",
+      "رزماری",
+      "اسطوخودوس",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Vervain",
+      "Georgywood",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "descriptionFa": "Mercury از برند Star De Night یک عطر سبز معطر برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با رایحه‌های نعناع، لیمو، ریحان و آویشن آغاز می‌شود، سپس رایحه‌های انگور فرنگی سیاه، رزماری، اسطوخودوس و یاس به مشام می‌رسند و در نهایت رایحه‌های پایه مشک، ورونیکا، جورجی‌وود و سیپریول حس می‌شوند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Izar-148510.html",
+    "extractedAt": "2026-11-23T14:44:39.552Z",
+    "name": "Izar",
+    "brand": "Star de Night",
+    "family": "Woody Spicy",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Frankincense",
+      "Pimento",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Vetiver",
+      "Papyrus",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Akigalawood",
+      "Suede",
+      "Vanilla",
+      "Saffron",
+      "Mystikal"
+    ],
+    "description": "Izar by Star de Night is a woody spicy fragrance for women and men, launched in 2026. It opens with frankincense, pimento, pink pepper and bergamot, followed by sandalwood, vetiver, papyrus and rose, over a base of Akigalawood, suede, vanilla, saffron and Mystikal.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148510.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 30
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 28
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148510,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Izar",
+    "brandFa": "Star de Night",
+    "nameFa": "Izar",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "women and men. This is a new fragrance",
+    "topNotesFa": [
+      "کندر",
+      "فلفل هلندی",
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "وتیور",
+      "پاپیروس",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Akigalawood",
+      "چرم جیر",
+      "وانیل",
+      "زعفران",
+      "Mystikal"
+    ],
+    "descriptionFa": "Izar از برند Star de Night یک عطر چوبی تند برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد. این عطر با رایحه‌های کندر، فلفل دلمه‌ای، فلفل صورتی و ترنج آغاز می‌شود، سپس رایحه‌های چوب صندل، خس‌خس، پاپیروس و گل رز به مشام می‌رسند و در نهایت رایحه‌های چوب آکیگالا، جیر، وانیل، زعفران و میستیکال به عنوان رایحه‌های پایه حس می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Atlas-148509.html",
+    "extractedAt": "2026-11-23T14:44:42.200Z",
+    "name": "Atlas",
+    "brand": "Star de Night",
+    "family": "Oriental Floral",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Rose Water",
+      "Pear",
+      "Hazelnut",
+      "Bitter Almond",
+      "Frankincense",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Osmanthus",
+      "Saffron",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Akigalawood",
+      "Vanilla",
+      "Ambrette",
+      "Ambergris",
+      "Labdanum",
+      "Georgywood",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "description": "Atlas by Star De Night is an Oriental Floral fragrance for women and men, launched in 2026. It opens with rose water, pear, hazelnut, bitter almond, frankincense and pink pepper, followed by a heart of rose, osmanthus, saffron and jasmine sambac, over a base of sandalwood, Akigalawood, vanilla, ambrette, ambergris, labdanum, Georgywood and cypriol.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148509.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 81
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 148509,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Atlas",
+    "brandFa": "Star de Night",
+    "nameFa": "Atlas",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. This is a new fragrance",
+    "topNotesFa": [
+      "Rose Water",
+      "گلابی",
+      "فندق",
+      "بادام تلخ",
+      "کندر",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "اسمانتوس",
+      "زعفران",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Akigalawood",
+      "وانیل",
+      "دانه ابرکفش",
+      "کهربا خاکستری",
+      "لابدانوم",
+      "Georgywood",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "descriptionFa": "Atlas از برند Star De Night یک عطر شرقی-گل‌فام برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با رایحه‌های گلاب، گلابی، فندق، بادام تلخ، کندر و فلفل صورتی آغاز می‌شود، سپس رایحه‌های میانی گل رز، اوسمانتوس، زعفران و یاس سامباک را ارائه می‌دهد و در نهایت بر پایه رایحه‌های چوب صندل، چوب آکیگالا، وانیل، آمبرت، عنبر سائل، لادن، چوب جورجی و سیپریول قرار می‌گیرد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
       "بهار",
       "تابستان"
     ],

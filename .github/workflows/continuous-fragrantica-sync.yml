@@ -1,0 +1,253 @@
+# Larsi Perfume Finder — continuous-fragrantica-sync.yml
+#
+# 24/7 CONTINUOUS EXTRACTION — runs every hour, refreshes data incrementally.
+#
+# Schedule (3 tiers to balance coverage vs. resource usage):
+#   - HOURLY (every hour, 24/7):
+#       Source: --whats-new (latest ~69 releases)
+#       Mode:   --resume --refresh-older-than 168h (re-fetch any record older than 7 days)
+#       Runtime: ~10-15 minutes
+#       Purpose: catch newly released perfumes + refresh stale ratings
+#
+#   - DAILY (03:00 UTC = 06:30 Asia/Tehran):
+#       Source: --brands (8 luxury brands, ~1000 perfumes)
+#       Mode:   --resume --refresh-older-than 72h (re-fetch records older than 3 days)
+#       Runtime: ~2 hours
+#       Purpose: catch new perfumes added to known brands
+#
+#   - WEEKLY (Sunday 02:00 UTC):
+#       Source: --designers-index (ALL ~120 brands, ~5000 perfumes)
+#       Mode:   --resume --refresh-older-than 168h (re-fetch records older than 7 days)
+#       Runtime: ~6 hours
+#       Purpose: discover new brands + full catalogue refresh
+#
+# IMAGE EXTRACTION (strict, per spec):
+#   Pattern 1 (PRIMARY): construct URL from product ID
+#     https://fimgs.net/mdimg/perfume-thumbs/375x500.{product_id}.jpg
+#   Pattern 2 (FALLBACK): parse HTML for <img itemprop="image">
+#   Validation: only URLs matching the perfume-thumbs whitelist are accepted.
+#   Rejected: brand logos, user Fragram gallery images, banner ads.
+#
+# CLOUDFLARE BYPASS:
+#   Uses curl (not Node fetch) with browser-realistic headers + UA rotation.
+#   5 retries with exponential backoff on 429/403/503.
+#   4-8s random delay between requests.
+#
+# RESUME / DEDUP:
+#   - data/fragrantica-progress.json tracks all processed URLs (committed to repo)
+#   - data/fragrantica-extracted.json holds all records (committed to repo)
+#   - Hourly runs skip already-processed URLs unless --refresh-older-than fires
+name: Continuous Fragrantica sync
+
+on:
+  schedule:
+    # Hourly: every hour at minute 0 (24/7)
+    - cron: '0 * * * *'
+    # Daily: 03:00 UTC (06:30 Asia/Tehran)
+    - cron: '0 3 * * *'
+    # Weekly: Sunday 02:00 UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Discovery source'
+        required: true
+        type: choice
+        default: 'whats-new'
+        options:
+          - whats-new
+          - brands
+          - search
+          - country
+          - designers-index
+      brands:
+        description: 'Comma-separated brand slugs (when source=brands)'
+        required: false
+        default: 'Amouage,Dior,Chanel,Guerlain,Creed,Parfums-de-Marly,Frederic-Malle,Byredo'
+      search_query:
+        description: 'Search queries (when source=search). Format: "oud|male,rose|female"'
+        required: false
+        default: 'oud|male,rose|female,vanilla|unisex'
+      countries:
+        description: 'Countries (when source=country)'
+        required: false
+        default: 'France,Italy,USA'
+      max_brands_from_index:
+        description: 'Max brands (when source=designers-index, 0=all)'
+        required: false
+        default: '0'
+      refresh_older_than:
+        description: 'Hours: re-fetch records older than this (0=off, 168=1 week)'
+        required: false
+        default: '168'
+      limit:
+        description: 'Max perfumes to extract (0 = unlimited)'
+        required: false
+        default: '0'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/continuous-fragrantica-sync.yml'
+      - 'scripts/fragrantica-extract.mjs'
+      - 'data/fragrantica-dictionary.mjs'
+
+permissions:
+  contents: write   # needed for git-auto-commit-action
+
+# Single concurrency group: only one run at a time. New runs queue behind.
+# This prevents overlapping hourly runs from conflicting on the data files.
+concurrency:
+  group: fragrantica-sync
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60   # each hourly run must complete in <1 hour to make room for the next
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Confirm curl is installed
+        run: |
+          curl --version | head -1
+          echo "curl is required for Cloudflare bypass (Node fetch gets 403)"
+
+      - name: Detect schedule tier (hourly / daily / weekly)
+        id: tier
+        run: |
+          # GitHub doesn't expose which cron fired; we infer from current UTC time.
+          HOUR=$(date -u +"%H")
+          MIN=$(date -u +"%M")
+          DOW=$(date -u +"%u")  # 1=Mon ... 7=Sun
+          echo "Now (UTC): hour=$HOUR min=$MIN dow=$DOW"
+
+          # Sunday 02:00 UTC → weekly (designers-index)
+          if [ "$DOW" = "7" ] && [ "$HOUR" = "2" ]; then
+            echo "tier=weekly" >> $GITHUB_OUTPUT
+            echo "Detected: WEEKLY run (Sunday 02:00 UTC)"
+          # Daily 03:00 UTC → brands
+          elif [ "$HOUR" = "3" ]; then
+            echo "tier=daily" >> $GITHUB_OUTPUT
+            echo "Detected: DAILY run (03:00 UTC)"
+          # All other hours → hourly whats-new
+          else
+            echo "tier=hourly" >> $GITHUB_OUTPUT
+            echo "Detected: HOURLY run ($HOUR:00 UTC)"
+          fi
+
+      - name: Build extractor command
+        id: cmd
+        run: |
+          TIER="${{ steps.tier.outputs.tier }}"
+          # Manual dispatch always wins over schedule
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TIER="manual"
+          fi
+          echo "Tier: $TIER"
+
+          # Common base command for all tiers
+          BASE_DELAY_MIN=5000
+          BASE_DELAY_MAX=9000
+          CMD="node scripts/fragrantica-extract.mjs --delay-min $BASE_DELAY_MIN --delay-max $BASE_DELAY_MAX --resume"
+
+          case "$TIER" in
+            hourly)
+              # Hourly: just whats-new, refresh stale (>7d) records
+              CMD="$CMD --whats-new --refresh-older-than 168"
+              ;;
+            daily)
+              # Daily: full brand refresh, refresh records older than 3 days
+              BRANDS="Amouage,Dior,Chanel,Guerlain,Creed,Parfums-de-Marly,Frederic-Malle,Byredo"
+              CMD="$CMD --brands $BRANDS --refresh-older-than 72"
+              ;;
+            weekly)
+              # Weekly: full designers index, refresh records older than 7 days
+              CMD="$CMD --designers-index --refresh-older-than 168"
+              ;;
+            manual)
+              # Manual dispatch — use workflow_dispatch inputs
+              SOURCE="${{ github.event.inputs.source || 'whats-new' }}"
+              BRANDS="${{ github.event.inputs.brands || 'Amouage,Dior,Chanel,Guerlain,Creed,Parfums-de-Marly,Frederic-Malle,Byredo' }}"
+              SEARCH="${{ github.event.inputs.search_query || '' }}"
+              COUNTRIES="${{ github.event.inputs.countries || '' }}"
+              MAX_BRANDS="${{ github.event.inputs.max_brands_from_index || '0' }}"
+              REFRESH="${{ github.event.inputs.refresh_older_than || '168' }}"
+              LIMIT="${{ github.event.inputs.limit || '0' }}"
+              CMD="$CMD --refresh-older-than $REFRESH --limit $LIMIT"
+              case "$SOURCE" in
+                brands)         CMD="$CMD --brands $BRANDS" ;;
+                whats-new)      CMD="$CMD --whats-new" ;;
+                search)         CMD="$CMD --search $SEARCH" ;;
+                country)        CMD="$CMD --country $COUNTRIES" ;;
+                designers-index) CMD="$CMD --designers-index --max-brands-from-index $MAX_BRANDS" ;;
+              esac
+              ;;
+          esac
+
+          echo "command=$CMD" >> $GITHUB_OUTPUT
+          echo "Will run: $CMD"
+
+      - name: Run extractor
+        run: ${{ steps.cmd.outputs.command }}
+
+      - name: Show extraction summary
+        run: |
+          TIER="${{ steps.tier.outputs.tier }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then TIER="manual"; fi
+          echo "### Fragrantica sync — $TIER run" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Triggered at: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/fragrantica-extracted.json ]; then
+            COUNT=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/fragrantica-extracted.json","utf8")).length)')
+            echo "Total records in DB: **$COUNT**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            # Count records by source pattern
+            node -e '
+              const d = JSON.parse(require("fs").readFileSync("data/fragrantica-extracted.json","utf8"));
+              const bySource = {};
+              for (const r of d) {
+                const s = r.imageUrlSource || "unknown";
+                bySource[s] = (bySource[s]||0) + 1;
+              }
+              console.log("Image URL source distribution:");
+              console.log("```json");
+              console.log(JSON.stringify(bySource, null, 2));
+              console.log("```");
+            ' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Latest 5 records added/refreshed:" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            node -e '
+              const d=JSON.parse(require("fs").readFileSync("data/fragrantica-extracted.json","utf8"));
+              const sorted = d.slice().sort((a,b) => (b.extractedAt||"").localeCompare(a.extractedAt||""));
+              console.log(JSON.stringify(sorted.slice(0,5).map(r=>({brand:r.brand,name:r.name,year:r.year,rating:r.rating,extractedAt:r.extractedAt})),null,2));
+            ' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/fragrantica-progress.json ]; then
+            echo "Progress:" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            node -e 'const p=JSON.parse(require("fs").readFileSync("data/fragrantica-progress.json","utf8")); console.log(JSON.stringify({processed:p.processed.length,failed:p.failed.length},null,2))' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): ${{ steps.tier.outputs.tier }} Fragrantica sync — ${{ github.run_id }}'
+          file_pattern: 'data/fragrantica-extracted.json data/fragrantica-progress.json'
+          commit_user_name: 'fragrantica-bot'
+          commit_user_email: 'fragrantica-bot@users.noreply.github.com'
+
+      - name: Clean up cache (don't commit HTML cache files)
+        run: |
+          rm -rf data/.frag-cache
+          echo "Cache cleaned — HTML files not committed to repo"
