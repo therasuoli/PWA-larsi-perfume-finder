@@ -60,13 +60,7 @@
     if (typeof c === 'string' && PAYLOAD_COUNTRY[c]) return PAYLOAD_COUNTRY[c];
     return COUNTRY[p.brand] || null;
   };
-  const VERSES = [
-    ['بوی خوش تو هر که ز باد صبا شنید\nاز یار آشنا سخن آشنا شنید', 'حافظ شیرازی', 'عطر هم همین است: بویی که پیش از تو سخن می‌گوید. برای دل خودت انتخاب کن تا حرفی که می‌زند راست باشد.'],
-    ['الا یا ایها الساقی ادر کأساً و ناولها\nکه عشق آسان نمود اول ولی افتاد مشکل‌ها', 'حافظ شیرازی', 'انتخاب عطر هم چنین است؛ آغازش شیرین و شتاب‌زده است و عاقبتش می‌ماند. با حوصله انتخاب کن.'],
-    ['گفتم غم تو دارم گفتا غمت سرآید\nگفتم که ماه من شو گفتا اگر برآید', 'حافظ شیرازی', 'عطر خوب مثل ماه، کم‌کم بالا می‌آید: نت‌های سر، بعد قلب، بعد رد بلند.'],
-    ['یوسف گمگشته بازآید به کنعان غم مخور\nکلبهٔ احزان زود روزی شود روزگار غم مخور', 'حافظ شیرازی', 'هر عطرِ گم‌شده دوباره پیدا می‌شود؛ در بانک ما جستجو کن، غم مخور.'],
-    ['دوش دیدم که ملائک در میخانه\nزدند جمع گناهکاران بدر', 'حافظ شیرازی', 'به بانک ما هم همه پذیرفته‌اند: از عودهای سنگین تا مرکبات‌های سبک، کنار هم‌اند.']
-  ];
+  // v7.9.15: Hafez "fal" verses removed per user request.
   const WX_CODES = [[0, '☀️', 'آسمان صاف'], [1, '🌤️', 'کمی ابری'], [2, '⛅', 'نیمه‌ابری'], [3, '☁️', 'ابری'], [45, '🌫️', 'مه‌آلود'], [48, '🌫️', 'مه یخ‌زده'], [51, '🌦️', 'ریزش سبک'], [53, '🌦️', 'ریزش'], [55, '🌦️', 'ریزش سنگین'], [61, '🌧️', 'باران سبک'], [63, '🌧️', 'باران'], [65, '🌧️', 'باران سنگین'], [71, '❄️', 'بارش برف'], [73, '❄️', 'برف'], [75, '❄️', 'برف سنگین'], [80, '🌦️', 'رگبار'], [81, '🌦️', 'رگبار'], [82, '🌦️', 'رگبار شدید'], [95, '⛈️', 'طوفان'], [96, '⛈️', 'طوفان با تندر'], [99, '⛈️', 'طوفان شدید']];
   const wxCond = c => { for (const [code, ic, tx] of WX_CODES) if (c === code) return [ic, tx]; return ['🌤️', '—']; };
   const ADV = ['هوا بهاری است؛ عطرهای گلی و مرکباتی نرم‌تر می‌نشینند.', 'هوا گرم است؛ عطرهای سبک و معطر بهتر پخش می‌شوند.', 'هوا خنک است؛ عنبری و چوبی امروز ماندگارترند.', 'هوا سرد است؛ وقت عطرهای غلیظ و گرم است.'];
@@ -789,25 +783,25 @@
     drawWeather();
   }
   function drawWeather() {
-    const el = $('#wx'); if (!el) return;
-    const [ic, tx] = LPF.location.wxCodeToText(LPF.wx.c);
+    // v7.9.15: the temperature/humidity/clock weather card (#wx) was removed per user request.
+    // We still compute the season (calendar + temperature-based) and render the season-aware
+    // "مناسب هوای امروز" rail + the AI perfume-of-the-day recommendation.
+    const el = $('#wx'); // removed from DOM — silently no-op the card render if absent
+    if (el) {
+      const [ic, tx] = LPF.location.wxCodeToText(LPF.wx.c);
+      const season0 = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
+      const loc0 = LPF.wx.location || LPF.location.DEFAULTS[0];
+      const tz0 = loc0.tz || 'Asia/Tehran';
+      const validTz0 = (Intl.supportedValuesOf && Intl.supportedValuesOf('timeZone') || ['Asia/Tehran']).includes(tz0) ? tz0 : 'Asia/Tehran';
+      let dt0;
+      try { dt0 = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: validTz0 }).format(new Date()); }
+      catch { dt0 = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Tehran' }).format(new Date()); }
+      const cityName0 = loc0.name || 'شیراز';
+      el.innerHTML = `<div class="row"><span class="live">${LPF.wx.ok ? 'زنده' : LPF.wx.ok === null ? 'در حال دریافت' : 'آفلاین'}</span><span id="wxClock"></span></div><div class="row"><big>${LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—'} <span aria-hidden="true">${ic}</span></big><div style="text-align:end"><b>${esc(cityName0)}</b><br>${tx}${LPF.wx.ok ? ' — رطوبت ' + fa(LPF.wx.h) + '٪' : ''}</div></div><p>${dt0}</p><p>${LPF.wx.ok ? ADV[SEASONS.indexOf(season0)] : 'اتصال برقرار نیست؛ بر اساس ماه جاری پیشنهاد می‌دهیم.'}</p>`;
+      tickClock();
+    }
     const season = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
-    const loc = LPF.wx.location || LPF.location.DEFAULTS[0];
-    const tz = loc.tz || 'Asia/Tehran';
-    // Validate tz against Intl's known list — a malformed string from a flaky IP-geo API
-    // used to throw RangeError inside Intl.DateTimeFormat, propagating as unhandled rejection
-    // and silently skipping renderWeatherRail / renderAIToday.
-    const validTz = (Intl.supportedValuesOf && Intl.supportedValuesOf('timeZone') || ['Asia/Tehran']).includes(tz) ? tz : 'Asia/Tehran';
-    let dt;
-    try { dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: validTz }).format(new Date()); }
-    catch { dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Tehran' }).format(new Date()); }
-    const cityName = loc.name || 'شیراز';
-    const staleBadge = LPF.wx.stale ? ' <small style="opacity:.6">(کش قدیمی)</small>' : '';
-    el.innerHTML = `<div class="row"><span class="live">${LPF.wx.ok ? 'زنده' : LPF.wx.ok === null ? 'در حال دریافت' : 'آفلاین'}</span><span id="wxClock"></span></div>
-      <div class="row"><big>${LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—'} <span aria-hidden="true">${ic}</span></big><div style="text-align:end"><b>${esc(cityName)}</b>${staleBadge}<br>${tx}${LPF.wx.ok ? ' — رطوبت ' + fa(LPF.wx.h) + '٪' : ''}</div></div>
-      <p>${dt}</p><p>${LPF.wx.ok ? ADV[SEASONS.indexOf(season)] : 'اتصال برقرار نیست؛ بر اساس ماه جاری پیشنهاد می‌دهیم.'}</p>`;
-    tickClock();
-    $('#ws').textContent = `${FA.season(season)} و هوای ${esc(cityName)}؛ به ترتیب تناسب.`;
+    const ws = $('#ws'); if (ws) ws.textContent = `پیشنهادهای مناسب ${FA.season(season)} — به ترتیب تناسب با هوای امروز.`;
     renderWeatherRail();
     renderAIToday(); // v7.9: AI-powered daily recommendation
   }
@@ -844,14 +838,7 @@
     markReadyImages(el);
   }
 
-  /* --- verse (Hafez, public domain) --- */
-  function renderVerse() {
-    const i = Math.floor(Date.now() / 86400000) % VERSES.length; // one couplet per day, rotating
-    const [couplet, cap, note] = VERSES[i];
-    $('#verseText').innerHTML = esc(couplet).replace(/\n/g, '<br>');
-    $('#verseCap').textContent = cap;
-    $('#verseNote').textContent = note;
-  }
+  /* --- verse removed in v7.9.15 (Hafez fal section deleted per user request) --- */
 
   /* --- autoplay rails --- */
   function autoplay(el) {
@@ -1484,8 +1471,9 @@
     // agent form
     $('#agentForm').addEventListener('submit', e => { e.preventDefault(); agentView($('#agentInput').value); $('#agentInput').value = ''; });
 
-    // v7.9: AI smart search in Find view — uses the same agent engine
-    const aiFindBtn = $('#aiFindBtn'), aiFindInput = $('#aiFindInput'), aiFindResults = $('#aiFindResults');
+    // v7.9.15: AI smart search now reads from the unified #q search bar
+    // (was a separate #aiFindInput — the two-bar duplication is removed).
+    const aiFindBtn = $('#aiFindBtn'), aiFindInput = $('#q'), aiFindResults = $('#aiFindResults');
     if (aiFindBtn && aiFindInput) {
       const runAISearch = () => {
         const query = aiFindInput.value.trim();
@@ -1784,7 +1772,7 @@
     }
     items = list; buildIndex(); buildFilterOptions();
     // Speed: render home + grid in parallel using rAF to avoid blocking
-    renderHome(); renderVerse(); loadWeather(false);
+    renderHome(); loadWeather(false);
     startTimers();
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
     LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);

@@ -63,30 +63,56 @@
       <p>تمامی حقوق مادی و معنوی این اپلیکیشن متعلق به فروشگاه لارسی است. هرگونه کپی‌برداری از ایده و استفاده از اطلاعات این سوپراپلیکیشن پیگرد قانونی دارد.</p>`;
   }
 
-  /* ================= update check ================= */
+  /* ================= update check (v7.9.15: real SW update + auto reload) ================= */
   async function checkUpdate() {
     const btn = $('#updateBtn');
     if (!('serviceWorker' in navigator)) { toastFn('مرورگر از به‌روزرسانی خودکار پشتیبانی نمی‌کند'); return; }
     btn.disabled = true; btn.textContent = 'در حال بررسی…';
     try {
+      // Force the browser to re-fetch sw.js (bypassing HTTP cache) and check for a new version.
+      const reg = await navigator.serviceWorker.getRegistration('./');
+      if (reg) { try { await reg.update(); } catch { /* offline or no update */ } }
       let remote = cfg.version;
       try {
-        const res = await fetch('sw.js', { cache: 'no-store' });
+        const res = await fetch('sw.js?v=' + Date.now(), { cache: 'no-store' });
         if (res.ok) { const m = (await res.text()).match(/VERSION\s*=\s*'([^']+)'/); if (m) remote = m[1]; }
       } catch { /* offline: fall back to the registration check */ }
-      const reg = await navigator.serviceWorker.getRegistration('./');
-      const hasNewer = remote !== cfg.version || (reg && reg.waiting);
+      const freshReg = await navigator.serviceWorker.getRegistration('./');
+      const hasNewer = (remote !== cfg.version) || (freshReg && freshReg.waiting);
       if (hasNewer) {
-        toastFn('نسخه جدید ' + remote + ' موجود است', { label: 'بارگذاری مجدد', run: async () => {
-          const r = await navigator.serviceWorker.getRegistration('./');
-          if (r) { if (r.waiting) r.waiting.postMessage({ type: 'SKIP_WAITING' }); else await r.update(); }
-          setTimeout(() => location.reload(), 700);
-        } });
+        toastFn('نسخه جدید ' + remote + ' پیدا شد؛ در حال بارگذاری…');
+        // Apply it for real: tell the waiting SW to skip waiting, then reload.
+        const r = await navigator.serviceWorker.getRegistration('./');
+        if (r && r.waiting) { r.waiting.postMessage({ type: 'SKIP_WAITING' }); }
+        // Give the new SW a moment to activate, then hard-reload.
+        navigator.serviceWorker.addEventListener('controllerchange', () => location.reload());
+        setTimeout(() => location.reload(), 1200);
       } else {
         toastFn('برنامه به‌روز است (' + cfg.versionFa + ')');
+        btn.disabled = false; btn.textContent = 'بررسی به‌روزرسانی';
       }
-    } catch { toastFn('بررسی به‌روزرسانی انجام نشد؛ اتصال اینترنت را بررسی کن'); }
-    finally { btn.disabled = false; btn.textContent = 'بررسی به‌روزرسانی'; }
+    } catch { toastFn('بررسی به‌روزرسانی انجام نشد؛ اتصال اینترنت را بررسی کن'); btn.disabled = false; btn.textContent = 'بررسی به‌روزرسانی'; }
+  }
+
+  /* ================= real cache clear (v7.9.15: wipes caches WITHOUT unregistering the SW) ================= */
+  async function clearCache() {
+    const btn = $('#clearCacheBtn');
+    if (btn) { btn.disabled = true; btn.textContent = 'در حال پاک‌سازی…'; }
+    let cleared = 0;
+    try {
+      if ('caches' in window) {
+        const names = await caches.keys();
+        await Promise.all(names.map(n => caches.delete(n).then(ok => { if (ok) cleared++; })));
+      }
+      try { await LPF.repo.catalog.clearCache(); } catch { /* catalog store may not expose clearCache */ }
+      toastFn('کش برنامه پاک شد (' + fa(cleared) + ' بافت). اطلاعات شخصی حفظ شد.');
+    } catch (e) {
+      toastFn('پاک‌سازی کش انجام نشد (' + (e && e.message ? e.message : 'خطا') + ')');
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = 'حذف کش'; }
+      // Soft refresh so the freshly-empty cache is repopulated from network.
+      setTimeout(() => location.reload(), 600);
+    }
   }
 
   /* ================= full cache reset + shutdown animation ================= */
@@ -241,6 +267,7 @@
     range.addEventListener('input', e => applyFont(+e.target.value, false));
     range.addEventListener('change', e => applyFont(+e.target.value, true));
     $('#updateBtn').addEventListener('click', checkUpdate);
+    const clearCacheBtn = $('#clearCacheBtn'); if (clearCacheBtn) clearCacheBtn.addEventListener('click', clearCache);
     $('#nukeBtn').addEventListener('click', fullReset);
     $('#replayIntroBtn').addEventListener('click', () => showOnboarding(true));
     $('#dislikeClear').addEventListener('click', () => { S.disliked.clear(); ST.saveDisliked(); renderDisliked(); toastFn('همه پیشنهادهای پنهان برگشتند'); });
