@@ -1,10 +1,6 @@
 {
   "name": "larsi-perfume-finder",
-<<<<<<< HEAD
   "version": "7.9.4",
-=======
-  "version": "7.9.15",
->>>>>>> f124cf688a8435f3541816d6aec83a934f32d6ba
   "private": true,
   "type": "module",
   "description": "Larsi Perfume Finder — PWA فارسی کشف و مقایسه عطر (بدون فریمورک، سازگار با GitHub Pages)",
