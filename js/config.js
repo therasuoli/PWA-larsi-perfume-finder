@@ -23,7 +23,7 @@
     /* DATA_VERSION: When this changes, the app automatically clears IndexedDB cache
      * and Service Worker cache on next load. Bump this whenever the database is
      * rebuilt or significantly changed. */
-    dataVersion: 'dior-chanel-60',
+    dataVersion: 'dior-chanel-enriched-v3',
     fonts: {
       default: 'vazir',
       keys: { vazir: 'وزیرمتن', naskh: 'نوتو نسخ', system: 'فونت سیستم' }

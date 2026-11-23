@@ -1,14 +1,14 @@
 {
-  "total": 60,
+  "total": 69,
   "chunk_size": 500,
   "chunks": [
     {
       "file": "perfumes-01.json",
-      "count": 60,
+      "count": 69,
       "start": 1,
-      "end": 60
+      "end": 69
     }
   ],
-  "watermark": "2026-11-23-clean",
-  "generatedAt": "2026-11-23T13:01:26.210Z"
+  "watermark": "2026-11-23-enriched-v3",
+  "generatedAt": "2026-11-23T13:10:45.606Z"
 }
