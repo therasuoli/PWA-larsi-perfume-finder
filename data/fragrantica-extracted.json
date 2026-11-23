@@ -3607,14 +3607,31 @@
   },
   {
     "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Palawan-148482.html",
-    "extractedAt": "2026-11-23T16:30:19.411Z",
-    "_missingMainDesc": true,
+    "extractedAt": "2026-11-23T17:06:18.631Z",
+    "name": "Palawan",
     "brand": "Rayhaan",
+    "family": "Floral Fruity",
+    "gender": "women and men. Top notes are Calamansi, Grapefruit, Yellow Mandarin and Pineapple; middle notes are African Orange Flower, Pomarose and Fig; base notes are Sandalwood, White Musk and Amber",
+    "topNotes": [
+      "Calamansi",
+      "Grapefruit",
+      "Yellow Mandarin",
+      "Pineapple"
+    ],
+    "middleNotes": [
+      "African Orange Flower",
+      "Pomarose",
+      "Fig"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "White Musk",
+      "Amber"
+    ],
     "description": "Palawan by Rayhaan is an eau de parfum with calamansi, grapefruit, yellow mandarin and pineapple over a heart of African orange flower, Pomarose and fig, followed by sandalwood, white musk and amber.",
     "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148482.jpg",
-    "rating": 4.6,
-    "ratingVotes": 5,
-    "gender": "women and men",
+    "rating": 4.67,
+    "ratingVotes": 6,
     "accords": [
       {
         "nameEn": "woody",
@@ -3659,9 +3676,29 @@
     ],
     "fragranticaId": 148482,
     "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Palawan",
     "brandFa": "Rayhaan",
-    "genderFa": "مردانه و زنانه",
-    "descriptionFa": "Palawan by Rayhaan یک ادو پرفیوم با رایحه کالامانسی، گریپ فروت، نارنگی زرد و آناناس بر روی نت میانی گل پرتقال آفریقایی، پوماروز و انجیر است که با رایحه چوب صندل، مشک سفید و عنبر تکمیل می‌شود.",
+    "nameFa": "Palawan",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. Top notes are Calamansi, Grapefruit, Yellow Mandarin and Pineapple; middle notes are African Orange Flower, Pomarose and Fig; base notes are Sandalwood, White Musk and Amber",
+    "topNotesFa": [
+      "Calamansi",
+      "گریپ‌فروت",
+      "Yellow Mandarin",
+      "آناناس"
+    ],
+    "middleNotesFa": [
+      "African Orange Flower",
+      "Pomarose",
+      "انجیر"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش سفید",
+      "کهربا"
+    ],
+    "descriptionFa": "Palawan by Rayhaan یک ادو پرفیوم با رایحه کالامانسی، گریپ‌فروت، نارنگی زرد و آناناس است که بر روی نت‌های میانی گل پرتقال آفریقایی، پوماروز و انجیر قرار دارد و پس از آن رایحه چوب صندل، مشک سفید و عنبر حس می‌شود.",
     "seasons": [
       "winter",
       "autumn",
@@ -8707,5 +8744,1151 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Sawaar-Vanille-Blanc-120093.html",
+    "extractedAt": "2026-11-23T17:05:32.181Z",
+    "name": "Sawaar Vanille Blanc",
+    "brand": "Khadlaj Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Vanilla",
+      "Powdered Sugar",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Cashmere Wood",
+      "Amber",
+      "White Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Benzoin"
+    ],
+    "description": "Sawaar Vanille Blanc by Khadlaj centers on a sweet, creamy vanilla accord framed by gourmand and ambery nuances. The opening combines vanilla, powdered sugar, and apple for a soft, dessert-like impression with a fruity edge. In the heart, amber and white florals add warmth and a gentle floral layer, supported by a smooth cashmere note that contributes to a plush, enveloping texture. The base rests on sandalwood, benzoin, and additional vanilla, creating a long-lasting, resinous and woody sweetness. Overall, it is a warm, comforting composition with a pronounced vanilla character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120093.jpg",
+    "rating": 4.37,
+    "ratingVotes": 791,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 72
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 55
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 44
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 26
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 120093,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sawaar Vanille Blanc",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Sawaar Vanille Blanc",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance",
+    "topNotesFa": [
+      "وانیل",
+      "Powdered Sugar",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "Cashmere Wood",
+      "کهربا",
+      "White Blossom"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "بنزوئین"
+    ],
+    "descriptionFa": "Sawaar Vanille Blanc از برند Khadlaj بر پایه یک ترکیب وانیلی شیرین و خامه ای است که با ظرافت‌های گورماند و کهربایی احاطه شده است. نت ابتدایی ترکیبی از وانیل، پودر قند و سیب است که حسی ملایم و شبیه به دسر با طعم میوه‌ای ایجاد می‌کند. در نت میانی، رایحه‌های کهربا و گل‌های سفید گرما و لایه‌ای ملایم از رایحه گل‌ها را اضافه می‌کنند که توسط نت لطیف کشمیر پشتیبانی می‌شود و به بافتی نرم و فراگیر کمک می‌کند. رایحه پایه بر پایه چوب صندل، بنزوئین و وانیل اضافی استوار است، ج",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Jungle-Vibe-123211.html",
+    "extractedAt": "2026-11-23T17:05:39.046Z",
+    "name": "Jungle Vibe",
+    "brand": "Rayhaan",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Jungle Vibe</b> was launched in 2025. Top notes are Fig, Grapefruit and Bergamot; middle notes are Green Notes and Aquatic notes; base note is Sandalwood",
+    "year": 2025,
+    "description": "Jungle Vibe is a fresh, nature-inspired fragrance that opens with a bright burst of citrus and greenery. The composition leads with bergamot and grapefruit in the top notes, followed by fig and additional green accords. The fragrance features a creamy sandalwood base combined with aquatic and tropical elements, creating a balanced profile suitable for everyday wear.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123211.jpg",
+    "rating": 4.24,
+    "ratingVotes": 1119,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 93
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 54
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 123211,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jungle Vibe",
+    "brandFa": "Rayhaan",
+    "nameFa": "Jungle Vibe",
+    "genderFa": "women and men. This is a new fragrance. <b>Jungle Vibe</b> was launched in 2025. Top notes are Fig, Grapefruit and Bergamot; middle notes are Green Notes and Aquatic notes; base note is Sandalwood",
+    "descriptionFa": "Jungle Vibe یک عطر تازه و الهام‌گرفته از طبیعت است که با انفجاری درخشان از مرکبات و رایحه‌های سبز آغاز می‌شود. این ترکیب با رایحه‌های اولیه ترنج و گریپ‌فروت آغاز می‌شود و سپس رایحه‌های انجیر و سایر ترکیبات سبز به مشام می‌رسند. این عطر دارای رایحه پایه‌ای از چوب صندل کرمی است که با عناصر دریایی و گرمسیری ترکیب شده و رایحه‌ای متعادل ایجاد می‌کند که برای استفاده روزمره مناسب است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Van-Cleef-Arpels/Feerie-Eau-de-Toilette-6010.html",
+    "extractedAt": "2026-11-23T17:05:43.905Z",
+    "name": "Feerie Eau de Toilette",
+    "brand": "Van Cleef & Arpels",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2009,
+    "perfumer": "Olivier Pescheux",
+    "topNotes": [
+      "Violet Leaf",
+      "Amalfi Lemon",
+      "Raspberry"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Benzoin"
+    ],
+    "description": "Feerie Eau de Toilette is a new version of last year's edition of the house of Cleef & Arpels. The new fairy from a mysterious world introduces luxurious magic of aromas and wraps your aura with glamorous accords. </p> <p> This fruity-floral combination of notes incorporated in fragrance Feerie EDT opens its olfactive gardens with violet leaves and Italian lemon zest. A heart encompasses airy notes of violet aromas along with rose absolute. Jasmine adds a characteristic and gracious accord which makes the aura sophisticated and elegant. Sweet and seductive, fresh and gentle, just like morning dew. A base features musk, sandalwood and benzoin. Nose behind the fragrance is Olivier Pescheux of Givaudan.</p> <p>The flacon has the same form as the first edition of Feerie from 2008, coloured in light blue and decorated with a fairy on a stopper from fairy-tale. The fragrance is available as 30 and 50 ml (1.0 and 1.7 oz) EDT.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6010.jpg",
+    "rating": 3.88,
+    "ratingVotes": 755,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 90
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 79
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 70
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 58
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 46
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 6010,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Toilette",
+    "baseName": "Feerie",
+    "brandFa": "ون کلیف و آرپلز",
+    "nameFa": "Feerie Eau de Toilette",
+    "concentrationFa": "ادو توالت",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Olivier Pescheux",
+    "topNotesFa": [
+      "برگ بنفشه",
+      "لیمو آمالفی",
+      "تمشک"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "بنزوئین"
+    ],
+    "descriptionFa": "Feerie Eau de Toilette نسخه جدیدی از عطر سال گذشته برند Cleef & Arpels است. این پری جدید از دنیایی اسرارآمیز، جادوی باشکوه رایحه‌ها را معرفی می‌کند و هاله شما را با ترکیبات جذاب فرا می‌گیرد. </p> <p> این ترکیب رایحه‌های میوه‌ای-گل‌دار که در عطر Feerie EDT گنجانده شده است، باغ‌های بویایی خود را با برگ‌های بنفشه و پوست لیموی ایتالیایی می‌گشاید. نت‌های میانی شامل رایحه‌های سبک بنفشه همراه با عصاره خالص گل رز است. یاسمن",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Versace-Man-Eau-Fraiche-Extreme-107802.html",
+    "extractedAt": "2026-11-23T17:05:48.873Z",
+    "name": "Versace Man Eau Fraîche Extreme",
+    "brand": "Versace",
+    "family": "Woody Aromatic",
+    "gender": "men. This is a new fragrance",
+    "year": 2025,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Orange Blossom",
+      "Lemon",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Clary Sage",
+      "Bourbon Geranium"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Musk",
+      "Virginian Cedar"
+    ],
+    "description": "Versace eau fraîche extrême, for the strong and self-confident man, a lover of luxury and very attentive to the dictates of fashion. For the man who makes his soul his strong point, who feels free and knows how to enjoy life moment by moment, versace eau fraîche extrême, a new olfactory harmony where the most classic ingredients of men's perfumery are renewed with new accents, giving life to a perfume with surprising freshness.</p> <p>The citrus notes of lemon and orange blossom open with a vibrant brightness, crossed by the spicy nuance of pink pepper from Madagascar. In the heart, the aromatic power of clary sage, lavender and geranium intertwines in a sophisticated and hypnotic accord. The base releases a magnetic attraction, where the warm intensity of cedar wood meets the enveloping depth of ambrox® and musk, creating a persistent and irresistible trail. An extreme fragrance, for those who are not afraid to dare.</p> <p><strong>Top Notes:</strong><br /> Lemon, Orange Blossom, Pink Pepper from Madagascar</p> <p><strong>Heart Notes:</strong><br /> Clary Sage from Provence, Diva Lavender, Geranium Bourbon</p> <p><strong>Base Notes:</strong><br /> Virginia Cedarwood, Ambrox®, Musk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107802.jpg",
+    "rating": 3.83,
+    "ratingVotes": 1018,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 80
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 73
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 64
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 57
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 107802,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Versace Man Eau Fraîche Extreme",
+    "brandFa": "ورساچه",
+    "nameFa": "Versace Man Eau Fraîche Extreme",
+    "familyFa": "چوبی معطر",
+    "genderFa": "men. This is a new fragrance",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "گل پرتقال",
+      "لیمو",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "Bourbon Geranium"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "موش",
+      "سرو ویرجینیا"
+    ],
+    "descriptionFa": "ورساچه او فرش اکستریم، برای مردی قوی و با اعتماد به نفس، عاشق تجملات و بسیار توجه‌کننده به دستورات مد. Versace Eau Fraîche Extrême برای مردی است که روح خود را نقطه قوت خود می‌داند، احساس آزادی می‌کند و می‌داند چگونه لحظه به لحظه از زندگی لذت ببرد. این عطر هماهنگی بویایی جدیدی است که در آن کلاسیک‌ترین ترکیبات عطر مردانه با جلوه‌های جدید احیا شده‌اند و عطری با طراوت شگفت‌انگیز خلق کرده‌اند.</p> <p>مرکبات",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/French-Avenue/Obsidian-120872.html",
+    "extractedAt": "2026-11-23T17:05:55.911Z",
+    "name": "Obsidian",
+    "brand": "French Avenue",
+    "family": "Oriental Woody",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Aldehydes",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Myrrh",
+      "Labdanum",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120872.jpg",
+    "rating": 4.32,
+    "ratingVotes": 1193,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 84
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 32
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 120872,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Obsidian",
+    "brandFa": "French Avenue",
+    "nameFa": "Obsidian",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. This is a new fragrance",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "آلدهیدها",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "مور",
+      "لابدانوم",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "لوبیا تونکا",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/37-rue-de-Bellechasse-47736.html",
+    "extractedAt": "2026-11-23T17:05:59.637Z",
+    "name": "37 rue de Bellechasse",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>37 rue de Bellechasse</b> was launched in 2017. 37 rue de Bellechasse was created by Cecile Matton and Julie Massé. The fragrance features Orris Root, Incense, Benzoin, Agarwood (Oud) and Musk",
+    "year": 2017,
+    "perfumer": "Cecile Matton and Julie Ma",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47736.jpg",
+    "rating": 4.21,
+    "ratingVotes": 440,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 80
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 66
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 49
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 47736,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "37 rue de Bellechasse",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "37 rue de Bellechasse",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>37 rue de Bellechasse</b> was launched in 2017. 37 rue de Bellechasse was created by Cecile Matton and Julie Massé. The fragrance features Orris Root, Incense, Benzoin, Agarwood (Oud) and Musk",
+    "perfumerFa": "Cecile Matton and Julie Ma",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Asad-Bourbon-101124.html",
+    "extractedAt": "2026-11-23T17:06:03.395Z",
+    "name": "Asad Bourbon",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Spicy",
+    "gender": "men. This is a new fragrance",
+    "year": 2025,
+    "perfumer": "Jean-Louis Sieuzac",
+    "topNotes": [
+      "Lavender",
+      "Mirabelle",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Nutmeg",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Amber",
+      "Vetiver"
+    ],
+    "description": "Following the success of <strong>Asad</strong> and <strong>Asad Zanzibar</strong>, Lattafa introduces the third chapter in the Asad collection. This latest creation opens with a captivating blend of <strong>Pink Pepper</strong>, <strong>Lavender</strong>, and juicy <strong>Mirabelle Plum</strong>, setting the stage for its rich and indulgent heart. At its core, warm notes of <strong>Cacao</strong>, <strong>Davana</strong>, and <strong>Nutmeg</strong> create an opulent depth. The fragrance concludes with an alluring base of <strong>Vetiver</strong>, <strong>Bourbon Vanilla</strong>, and golden <strong>Amber</strong>, leaving an unforgettable trail of sophistication and allure.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101124.jpg",
+    "rating": 4.39,
+    "ratingVotes": 7337,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 88
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 66
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 66
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 101124,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Asad Bourbon",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Asad Bourbon",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "men. This is a new fragrance",
+    "perfumerFa": "Jean-Louis Sieuzac",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "آلو زرد",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "جوز هندی",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "کهربا",
+      "وتیور"
+    ],
+    "descriptionFa": "پس از موفقیت <strong>Asad</strong> و <strong>Asad Zanzibar</strong>، Lattafa سومین فصل از مجموعه Asad را معرفی می‌کند. این آخرین محصول با ترکیبی جذاب از <strong>فلفل صورتی</strong> <strong>،</strong> اسطوخودوس و <strong>آلو میرابل</strong> آبدار آغاز می‌شود و زمینه را برای رایحه میانی غنی و دلپذیرش فراهم می‌کند. در رایحه اصلی آن، نت‌های گرم <strong>کاکائو</strong>، <strong>داوانا</strong> و <strong>جوز هندی حس می‌شوند.&lt;/str",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Prada-Paradoxe-Sweet-Chemistry-138068.html",
+    "extractedAt": "2026-11-23T17:06:08.930Z",
+    "name": "Prada Paradoxe Sweet Chemistry",
+    "brand": "Prada",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women. This is a new fragrance. <b>Prada Paradoxe Sweet Chemistry</b> was launched in 2026. Prada Paradoxe Sweet Chemistry was created by Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu. Top notes are Blackcurrant Syrup and Orange Blossom; middle notes are Orange Blossom, Neroli and Vanilla; base note is Neroli",
+    "year": 2026,
+    "perfumer": "Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu",
+    "description": "Orada Paradoxe Sweet Chemistry is a 2026 edition in the Paradoxe line. Created by Nadège Le Garlantezec, Shyamala Maisondieu, and Antoine Maisondieu, it has a floral fruity gourmand profile built around blackcurrant syrup, orange blossom absolute, milk, and neroli.</p> <p>The composition opens with a dark-fruity sweetness, develops into a radiant floral heart, and settles into a creamy base that combines gourmand softness with the neroli signature associated with the collection. The fragrance is presented in a refillable format.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138068.jpg",
+    "rating": 4.06,
+    "ratingVotes": 769,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 94
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 64
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 138068,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Prada Paradoxe Sweet Chemistry",
+    "brandFa": "پرادا",
+    "nameFa": "Prada Paradoxe Sweet Chemistry",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women. This is a new fragrance. <b>Prada Paradoxe Sweet Chemistry</b> was launched in 2026. Prada Paradoxe Sweet Chemistry was created by Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu. Top notes are Blackcurrant Syrup and Orange Blossom; middle notes are Orange Blossom, Neroli and Vanilla; base note is Neroli",
+    "perfumerFa": "Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu",
+    "descriptionFa": "Orada Paradoxe Sweet Chemistry یک نسخه از سال ۲۰۲۶ در خط تولید Paradoxe است. این عطر که توسط Nadège Le Garlantezec، Shyamala Maisondieu و Antoine Maisondieu ساخته شده است، دارای یک رایحه گلی میوه‌ای گورماند است که بر پایه شربت انگور فرنگی سیاه، عصاره خالص شکوفه پرتقال، شیر و نرولی ساخته شده است.</p> <p>این ترکیب با شیرینی میوه‌ای تیره آغاز می‌شود، به یک رایحه میانی گل‌دار درخشان تبدیل می‌شود و در یک رایحه پایه خامه ای که ترکیبی از لطافت گورماند با امضای نرولی است، تثبیت می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Odorata/Iman-79970.html",
+    "extractedAt": "2026-11-23T17:06:14.541Z",
+    "name": "Íman",
+    "brand": "Odorata",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Rum",
+      "Grapefruit",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Chocolate",
+      "Violet",
+      "Nutmeg",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Woodsy Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79970.jpg",
+    "rating": 4.67,
+    "ratingVotes": 3,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 53
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 49
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 41
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 79970,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Íman",
+    "brandFa": "Odorata",
+    "nameFa": "Íman",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "رام",
+      "گریپ‌فروت",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "شکلات",
+      "بنفشه",
+      "جوز هندی",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Woodsy Notes"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Babycat-Raw-Bourbon-104191.html",
+    "extractedAt": "2026-11-23T17:06:24.968Z",
+    "name": "Babycat Raw Bourbon",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Woody",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2025,
+    "perfumer": "Dominique Ropion",
+    "topNotes": [
+      "Black Pepper",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Olibanum",
+      "Saffron",
+      "Resins"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Suede",
+      "Cedarwood"
+    ],
+    "description": "Babycat Raw Bourbon by Yves Saint Laurent is a powerful fragrance, part of the Le Vestiaire des Parfums collection. This unisex scent draws inspiration from Saint Laurent’s signature couture pattern, known for its seduction. The fragrance is animalic, adaptable, and timelessly elegant.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104191.jpg",
+    "rating": 4.53,
+    "ratingVotes": 1888,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 86
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 74
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 71
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 51
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      }
+    ],
+    "fragranticaId": 104191,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Babycat Raw Bourbon",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Babycat Raw Bourbon",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. This is a new fragrance",
+    "perfumerFa": "Dominique Ropion",
+    "topNotesFa": [
+      "فلفل سیاه",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "زعفران",
+      "رزین‌ها"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چرم جیر",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Babycat Raw Bourbon از Yves Saint Laurent یک عطر قوی است که بخشی از مجموعه Le Vestiaire des Parfums است. این عطر یونیسکس از الگوی کوتور خاص Saint Laurent که به خاطر جذابیتش شناخته می‌شود، الهام گرفته است. این عطر حیوانی، سازگار و دارای ظرافتی جاودانه است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Swiss-Arabian/Casablanca-42181.html",
+    "extractedAt": "2026-11-23T17:06:31.995Z",
+    "name": "Casablanca",
+    "brand": "Swiss Arabian",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Grapes"
+    ],
+    "middleNotes": [
+      "White Woods",
+      "Iris",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Amber",
+      "Suede",
+      "Musk",
+      "Peru Balsam"
+    ],
+    "description": "\"Casablanca is a remarkable story that's morphed into an interpretation. It is more than a city, and more than a movie. A tribute to eternal and selfless love, Casablanca is a scent of intimate moments and the simple pleasures of life.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42181.jpg",
+    "rating": 4.14,
+    "ratingVotes": 2115,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 42181,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Casablanca",
+    "brandFa": "Swiss Arabian",
+    "nameFa": "Casablanca",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "سیب",
+      "Grapes"
+    ],
+    "middleNotesFa": [
+      "White Woods",
+      "زنبق",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "کهربا",
+      "چرم جیر",
+      "موش",
+      "بلسام پرو"
+    ],
+    "descriptionFa": "«کازابلانکا داستان قابل‌توجهی است که به یک تفسیر تبدیل شده است. این داستان فراتر از یک شهر و فراتر از یک فیلم است. کازابلانکا که ادای احترامی به عشق ابدی و فداکارانه است، رایحه‌ای از لحظات صمیمی و لذت‌های ساده زندگی است.» - یادداشتی از برند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
