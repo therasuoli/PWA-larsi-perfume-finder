@@ -7,10 +7,10 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
-    version: '7.9.4',
-    versionFa: '۷٫۹٫۴',
-    releaseFa: 'آذر ۱۴۰۵ · سه پیشنهاد روزانه، بخش ارتباط با ما، کارت‌های فشرده‌تر',
-    releaseISO: '2026-11-21',
+    version: '8.0.0',
+    versionFa: '۸٫۰٫۰',
+    releaseFa: 'آذر ۱۴۰۵ · دیتابیس تمیز Dior+Chanel با عکس، پاکسازی خودکار کش',
+    releaseISO: '2026-11-23',
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */
     store: { enabled: false, url: '' },
@@ -20,26 +20,32 @@
      * cached version, regardless of age, so this only controls the "is the cache fresh
      * enough to skip the sync?" decision. */
     data: { syncIntervalHours: 1 },
+    /* DATA_VERSION: When this changes, the app automatically clears IndexedDB cache
+     * and Service Worker cache on next load. Bump this whenever the database is
+     * rebuilt or significantly changed. */
+    dataVersion: 'dior-chanel-60',
     fonts: {
       default: 'vazir',
       keys: { vazir: 'وزیرمتن', naskh: 'نوتو نسخ', system: 'فونت سیستم' }
     },
     weather: {
       latitude: 29.5918, longitude: 52.5836, // شیراز
-      cacheMinutes: 15,        // longer cache → fewer requests → faster perceived load
+      cacheMinutes: 15,
       refreshMinutes: 30
     },
-    agent: { enabled: true, puter: true }, // دستیار هوشمند لارسی — اکنون با موتور Puter.js متصل است (فقط موضوع عطر).
+    agent: { enabled: true, puter: true },
     supabase: {
       url: 'https://eixzihvihoammvremxrl.supabase.co',
-      anonKey: 'sb_publishable_7OdhTeZxaRGSBDSutX4vxw_yZ4aiBjl', // public publishable key only — safe for the browser
+      anonKey: 'sb_publishable_7OdhTeZxaRGSBDSutX4vxw_yZ4aiBjl',
       table: 'perfumes',
       pageSize: 1000,
-      timeoutMs: 8000,         // 4s faster than before — fail fast, fall back to cache
-      functionsBase: 'https://eixzihvihoammvremxrl.supabase.co/functions/v1' // Edge Functions (owner tools only)
+      timeoutMs: 8000,
+      functionsBase: 'https://eixzihvihoammvremxrl.supabase.co/functions/v1'
     },
-    storagePrefix: 'lpf:v5:',
+    /* Bumped storagePrefix from v5 to v6 to force-clear all old personal data keys.
+     * The store.js migrate() function will copy over favourites/wardrobe/ratings. */
+    storagePrefix: 'lpf:v6:',
     docs: { changelog: 'CHANGELOG.md' },
-    changelog: [] // rendered from the single CHANGELOG.md file at runtime (see the About section)
+    changelog: []
   };
 })();
