@@ -17027,5 +17027,1894 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Modern-Honor-148575.html",
+    "extractedAt": "2026-11-23T23:41:04.069Z",
+    "name": "Modern Honor",
+    "brand": "Basmni Perfumes",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Fernando Pacchio",
+    "topNotes": [
+      "Fig",
+      "Cardamom",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Nutmeg",
+      "Cloves"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Leather",
+      "Amber"
+    ],
+    "description": "<strong>\"Modern Honor</strong> was born for the man who radiates strength, confidence, and modern elegance. A scent of honor. A scent of power. A scent of a man who doesn't need to announce who he is; his presence already does.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148575.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 36
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 36
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 30
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148575,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Modern Honor",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Modern Honor",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Fernando Pacchio",
+    "topNotesFa": [
+      "انجیر",
+      "هل",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "جوز هندی",
+      "Cloves"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "چرم",
+      "کهربا"
+    ],
+    "descriptionFa": "<strong>«Modern Honor</strong> برای مردی ساخته شده که قدرت، اعتماد به نفس و ظرافت مدرن از او می‌بارد. عطری از شرافت. عطری از قدرت. عطری از مردی که نیازی ندارد اعلام کند که کیست؛ حضورش خودش این کار را می‌کند.» -باسمنی.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Ivory-Kiss-148574.html",
+    "extractedAt": "2026-11-23T23:41:09.169Z",
+    "name": "Ivory Kiss",
+    "brand": "Basmni Perfumes",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Fernando Pacchio",
+    "topNotes": [
+      "Raspberry",
+      "Apple",
+      "Violet",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Jasmine",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Cypress",
+      "Pine",
+      "Amber"
+    ],
+    "description": "\"Ivory Kiss Extrait de Parfum is a perfume created to bring tenderness, elegance, and an unforgettable presence. It is a subtle whisper of luxury, a kiss of elegance, and a scent that remains in the memory.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148574.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 62
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 46
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 46
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148574,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ivory Kiss",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Ivory Kiss",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Fernando Pacchio",
+    "topNotesFa": [
+      "تمشک",
+      "سیب",
+      "بنفشه",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "یاسمن",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "سرو کوهی",
+      "کاج",
+      "کهربا"
+    ],
+    "descriptionFa": "«عطر Ivory Kiss Extrait de Parfum عطری است که برای القای لطافت، ظرافت و حضوری فراموش‌نشدنی ساخته شده است. این عطر زمزمه‌ای ظریف از تجمل، بوسه‌ای از ظرافت و رایحه‌ای است که در حافظه باقی می‌ماند.» - باسمنی.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Floral-Pears-148573.html",
+    "extractedAt": "2026-11-23T23:41:14.324Z",
+    "name": "Floral Pears",
+    "brand": "Basmni Perfumes",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Fernando Pacchio",
+    "topNotes": [
+      "Pear",
+      "Hazelnut",
+      "Bitter Almond",
+      "Frankincense",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Osmanthus",
+      "Saffron",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Akigalawood",
+      "Vanilla",
+      "Ambrette",
+      "Ambergris",
+      "Labdanum",
+      "Cypriol"
+    ],
+    "description": "\"Floral Pears is a sensual journey between fruity freshness, elegant blossoms and addictive woody depth. This is a unisex perfume created for those looking for luxury, presence, and character in a fragrance that begins gently and remains in the memory for a long time.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148573.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 81
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 148573,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Floral Pears",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Floral Pears",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Fernando Pacchio",
+    "topNotesFa": [
+      "گلابی",
+      "فندق",
+      "بادام تلخ",
+      "کندر",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "اسمانتوس",
+      "زعفران",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Akigalawood",
+      "وانیل",
+      "دانه ابرکفش",
+      "کهربا خاکستری",
+      "لابدانوم",
+      "سایپریول"
+    ],
+    "descriptionFa": "«Floral Pears سفری حسی بین طراوت میوه‌ای، شکوفه‌های ظریف و عمق چوبی اعتیادآور است. این یک عطر یونیسکس است که برای کسانی ساخته شده که به دنبال تجمل، حضور و شخصیت در عطری هستند که ملایم شروع می‌شود و برای مدت طولانی در حافظه باقی می‌ماند.» - باسمنی.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Side-Effect-42260.html",
+    "extractedAt": "2026-11-23T23:41:20.533Z",
+    "name": "Side Effect",
+    "brand": "Initio Parfums Prives",
+    "family": "Oriental",
+    "gender": "women and men. <b>Side Effect</b> was launched in 2016. The fragrance features Rum, Tobacco, Cinnamon, Saffron, Sandalwood and Hedione",
+    "year": 2016,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42260.jpg",
+    "rating": 4.32,
+    "ratingVotes": 10879,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 79
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 73
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 15
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 42260,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Side Effect",
+    "brandFa": "Initio Parfums Prives",
+    "nameFa": "Side Effect",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. <b>Side Effect</b> was launched in 2016. The fragrance features Rum, Tobacco, Cinnamon, Saffron, Sandalwood and Hedione",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-for-Him-46890.html",
+    "extractedAt": "2026-11-23T23:41:24.374Z",
+    "name": "Hawas for Him",
+    "brand": "Rasasi",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2015,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Bergamot",
+      "Lemon",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Watery Notes",
+      "Plum",
+      "Orange Blossom",
+      "Cardamon"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Musk",
+      "Patchouli",
+      "Driftwood"
+    ],
+    "description": "Hawas for Him blends cinnamon, bergamot, orange blossom, grey amber and sandalwood to create an aquatic scent designed to embody masculine strength and vigour. This fresh elegant woody perfume combines the premium Italian citrus and the fruity freshness of pear and pineapple. The heart of this modern fougere is based on aquatic elements combined with melon and violet. It is a mix of sandalwood, cedar wood, musk with generous ambergris. The fragrance is inflected with fresh marine aromatic notes that melt into amber woods. The fragrance captures the adventurous, exploratory and evocative spirit of the modern man. The contemporary notes of this chic fragrance come with an attitude to match. The clear grey bottle has a python wrapped around the stopper while a textured python on the pack captures the sensuality of the species with a flamboyance redolent of haute couture.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46890.jpg",
+    "rating": 4.28,
+    "ratingVotes": 11865,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 95
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 71
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 39
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 39
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 46890,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas for Him",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas for Him",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "سیب",
+      "برگاموت",
+      "لیمو",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "Watery Notes",
+      "آلو",
+      "گل پرتقال",
+      "Cardamon"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "موش",
+      "پچولی",
+      "چوب شناور"
+    ],
+    "descriptionFa": "Hawas for Him ترکیبی از دارچین، ترنج، شکوفه پرتقال، عنبر خاکستری و چوب صندل است که یک رایحه دریایی ایجاد می‌کند که برای تجسم قدرت و نشاط مردانه طراحی شده است. این عطر چوبی تازه و شیک، مرکبات درجه یک ایتالیایی و طراوت میوه‌ای گلابی و آناناس را با هم ترکیب می‌کند. قلب این عطر مدرن فوژر بر پایه عناصر دریایی همراه با طالبی و بنفشه است. این عطر ترکیبی از چوب صندل، چوب سدر، مشک همراه با مقدار زیادی عنبر است. این عطر",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Influxious/Gold-Standard-137489.html",
+    "extractedAt": "2026-11-23T23:41:31.476Z",
+    "name": "Gold Standard",
+    "brand": "Influxious",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Gino Percontino",
+    "topNotes": [
+      "Nigerian Ginger",
+      "Blood Orange",
+      "Calabrian bergamot",
+      "Mango"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Ambrette",
+      "Neroli"
+    ],
+    "baseNotes": [
+      "Rum",
+      "Vanilla",
+      "Caramel",
+      "Amber",
+      "Tonka",
+      "Musk"
+    ],
+    "description": "Gold Standard by Influxious is a 2026 fragrance built around a bright fruity-citrus opening and a warm amber-gourmand base. It opens with blood orange, Calabrian bergamot, Nigerian ginger, and mango, moves into saffron, Moroccan neroli, and ambrette, and settles into caramel, vanilla, tonka, musk, rum, and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137489.jpg",
+    "rating": 4,
+    "ratingVotes": 71,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 66
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 66
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 57
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 137489,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gold Standard",
+    "brandFa": "Influxious",
+    "nameFa": "Gold Standard",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gino Percontino",
+    "topNotesFa": [
+      "Nigerian Ginger",
+      "پرتقال خونی",
+      "Calabrian bergamot",
+      "مانگو"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "دانه ابرکفش",
+      "نرولی"
+    ],
+    "baseNotesFa": [
+      "رام",
+      "وانیل",
+      "کارامل",
+      "کهربا",
+      "Tonka",
+      "موش"
+    ],
+    "descriptionFa": "Gold Standard از برند Influxious یک عطر محصول سال 2026 است که بر پایه یک نت ابتدایی مرکباتی-میوه‌ای درخشان و یک نت پایه گرم کهربایی-گورماند ساخته شده است. این عطر با رایحه پرتقال خونی، ترنج کالابریایی، زنجبیل نیجریه‌ای و انبه آغاز می‌شود، سپس به رایحه زعفران، نرولی مراکشی و آمبرت می‌رسد و در نهایت با رایحه کارامل، وانیل، دانه تونکا، مشک، رام و عنبر تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/L-Artisan-Parfumeur/Passage-d-Enfer-4572.html",
+    "extractedAt": "2026-11-23T23:41:38.587Z",
+    "name": "Passage d'Enfer",
+    "brand": "L'Artisan Parfumeur",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Passage d'Enfer</b> was launched in 1999. The nose behind this fragrance is Olivia Giacobetti. The fragrance features Incense, Lily, Woodsy Notes and Musk",
+    "year": 1999,
+    "perfumer": "Olivia Giacobetti",
+    "description": "Passage d'Enfer by L Artisan Parfumeur is an Oriental Woody fragrance for women and men. Passage d'Enfer was launched in 1999. The nose behind this fragrance is Olivia Giacobetti. The fragrance features lily, incense, woodsy notes and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4572.jpg",
+    "rating": 4.03,
+    "ratingVotes": 2505,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 89
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 66
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 56
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 4572,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Passage d'Enfer",
+    "brandFa": "لارتیزان پرفیومر",
+    "nameFa": "Passage d'Enfer",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Passage d'Enfer</b> was launched in 1999. The nose behind this fragrance is Olivia Giacobetti. The fragrance features Incense, Lily, Woodsy Notes and Musk",
+    "perfumerFa": "Olivia Giacobetti",
+    "descriptionFa": "Passage d'Enfer از برند L Artisan Parfumeur یک عطر شرقی چوبی برای زنان و مردان است. Passage d'Enfer در سال 1999 عرضه شد. عطار این عطر اولیویا جیاکوبتی است. این عطر دارای رایحه‌های نیلوفر، بخور، نت‌های چوبی و مشک است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Abercrombie-Fitch/Authentic-Man-54004.html",
+    "extractedAt": "2026-11-23T23:41:44.009Z",
+    "name": "Authentic Man",
+    "brand": "Abercrombie & Fitch",
+    "family": "Citrus Aromatic",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Clement Gavarry",
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Ginger",
+      "Sage",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Clearwood",
+      "Moss",
+      "Suede"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54004.jpg",
+    "rating": 4.01,
+    "ratingVotes": 856,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 47
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 32
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 27
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 54004,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Authentic Man",
+    "brandFa": "Abercrombie & Fitch",
+    "nameFa": "Authentic Man",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Clement Gavarry",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "زنجبیل",
+      "مریم‌گلی",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "Clearwood",
+      "خزه",
+      "چرم جیر"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Old-Navy/Sea-Salt-Fig-41098.html",
+    "extractedAt": "2026-11-23T23:41:48.829Z",
+    "name": "Sea Salt & Fig",
+    "brand": "Old Navy",
+    "family": "Aromatic Fruity",
+    "gender": "women and men. <b>Sea Salt & Fig</b> was launched in 2016. The fragrance features Fig and Sea Salt",
+    "year": 2016,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41098.jpg",
+    "rating": 4.31,
+    "ratingVotes": 238,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 89
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 63
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "bitter",
+        "nameFa": "تلخ",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 41098,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sea Salt & Fig",
+    "brandFa": "Old Navy",
+    "nameFa": "Sea Salt & Fig",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "women and men. <b>Sea Salt & Fig</b> was launched in 2016. The fragrance features Fig and Sea Salt",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Azzaro/The-Most-Wanted-66826.html",
+    "extractedAt": "2026-11-23T23:41:53.814Z",
+    "name": "The Most Wanted",
+    "brand": "Azzaro",
+    "family": "Oriental Spicy",
+    "gender": "men. The Most Wanted was created by Michel Girard, Nadège Le Garlantezec and Shyamala Maisondieu. Top note is Cardamom; middle note is Toffee; base note is Amberwood",
+    "perfumer": "Michel Girard, Nadège Le Garlantezec and Shyamala Maison",
+    "topNotes": [
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Toffee"
+    ],
+    "baseNotes": [
+      "Amberwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66826.jpg",
+    "rating": 4.57,
+    "ratingVotes": 12634,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 84
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 42
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 66826,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Most Wanted",
+    "brandFa": "Azzaro",
+    "nameFa": "The Most Wanted",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "men. The Most Wanted was created by Michel Girard, Nadège Le Garlantezec and Shyamala Maisondieu. Top note is Cardamom; middle note is Toffee; base note is Amberwood",
+    "perfumerFa": "Michel Girard, Nadège Le Garlantezec and Shyamala Maison",
+    "topNotesFa": [
+      "هل"
+    ],
+    "middleNotesFa": [
+      "تافی"
+    ],
+    "baseNotesFa": [
+      "چوب کهربایی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/If-You-Musk-93117.html",
+    "extractedAt": "2026-11-23T23:41:57.292Z",
+    "name": "If You Musk",
+    "brand": "Bath & Body Works",
+    "family": "Floral",
+    "gender": "women. <b>If You Musk</b> was launched in 2024. The fragrance features Musk, Iris and Pink Pepper",
+    "year": 2024,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93117.jpg",
+    "rating": 4.27,
+    "ratingVotes": 819,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 83
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 69
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 35
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 28
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 22
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 93117,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "If You Musk",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "If You Musk",
+    "familyFa": "گلی",
+    "genderFa": "women. <b>If You Musk</b> was launched in 2024. The fragrance features Musk, Iris and Pink Pepper",
+    "seasons": [
+      "autumn",
+      "spring",
+      "winter"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "پاییز",
+      "بهار",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Phlur/Vanilla-Skin-95817.html",
+    "extractedAt": "2026-11-23T23:42:01.046Z",
+    "name": "Vanilla Skin",
+    "brand": "Phlur",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Clement Gavarry",
+    "topNotes": [
+      "Sugar",
+      "Pink Pepper",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Cashmere Wood",
+      "Jasmine",
+      "Lily"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Agarwood",
+      "Benzoin"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95817.jpg",
+    "rating": 4.14,
+    "ratingVotes": 1681,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 95817,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Skin",
+    "brandFa": "Phlur",
+    "nameFa": "Vanilla Skin",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Clement Gavarry",
+    "topNotesFa": [
+      "شکر",
+      "فلفل صورتی",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "Cashmere Wood",
+      "یاسمن",
+      "لاله"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "عود",
+      "بنزوئین"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amelio/ODETTE-112609.html",
+    "extractedAt": "2026-11-23T23:42:05.331Z",
+    "name": "ODETTE",
+    "brand": "Amelio",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>ODETTE</b> was launched in 2025. The fragrance features Sandalwood, White Musk, Vanilla, Almond, Sugar and Milk",
+    "year": 2025,
+    "description": "Odette by Amelio is a fragrance that evokes memories of family gatherings, childhood holidays, and comforting rituals. The scent blends soft notes of vanilla, almond, warm milk, and icing sugar, creating an olfactory experience reminiscent of pastries and nostalgic escapes. Rooted in the ambiance of the Latin Quarter, Odette combines elements of Sicilian and Spanish influences with a sense of warmth and familiarity.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112609.jpg",
+    "rating": 3.92,
+    "ratingVotes": 13,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 79
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 61
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 61
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 61
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 112609,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "ODETTE",
+    "brandFa": "Amelio",
+    "nameFa": "ODETTE",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>ODETTE</b> was launched in 2025. The fragrance features Sandalwood, White Musk, Vanilla, Almond, Sugar and Milk",
+    "descriptionFa": "Odette از برند Amelio عطری است که خاطرات دورهمی‌های خانوادگی، تعطیلات دوران کودکی و آیین‌های آرامش‌بخش را تداعی می‌کند. این عطر ترکیبی از رایحه‌های ملایم وانیل، بادام، شیر گرم و پودر قند است که تجربه‌ای بویایی شبیه به شیرینی‌ها و خاطرات نوستالژیک ایجاد می‌کند. Odette که ریشه در فضای محله لاتین دارد، عناصر تأثیرات سیسیلی و اسپانیایی را با حس گرما و صمیمیت ترکیب می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Decision-42-Man-140466.html",
+    "extractedAt": "2026-11-23T23:42:10.899Z",
+    "name": "Decision 42 Man",
+    "brand": "Amouage",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Cardamom",
+      "Pink Pepper",
+      "Bergamot",
+      "Cinnamon",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Pine tar",
+      "Frankincense",
+      "Myrrh",
+      "Sandalwood",
+      "juniper berry"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cedarwood",
+      "Labdanum",
+      "Patchouli"
+    ],
+    "description": "The new fragrance that was launched in 2026. <strong>Decision 42</strong> features Aromatic, and Woody notes with top notes of Pink Pepper, Bergamot, Neroli, and Cinnamon, followed by middle notes of Cardamom, Frankincense, Juniper, Myrrh, Pine TAR, and Sandalwood, and base notes of Cedarwood, Labdanum, Patchouli, and Vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.140466.jpg",
+    "rating": 4.23,
+    "ratingVotes": 317,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 85
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 31
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 140466,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Decision 42 Man",
+    "brandFa": "آموژ",
+    "nameFa": "Decision 42 Man",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "هل",
+      "فلفل صورتی",
+      "برگاموت",
+      "دارچین",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "Pine tar",
+      "کندر",
+      "مور",
+      "چوب صندل",
+      "juniper berry"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب سرو",
+      "لابدانوم",
+      "پچولی"
+    ],
+    "descriptionFa": "عطر جدیدی که در سال 2026 عرضه شد. <strong>Decision 42</strong> دارای رایحه‌های معطر و چوبی با نت‌های اولیه فلفل صورتی، ترنج، نرولی و دارچین است که به دنبال آن نت‌های میانی هل، کندر، درخت عرعر، مر، قیر کاج و چوب صندل و نت‌های پایه چوب سدر، لادن، نعناع هندی و وانیل قرار دارند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Argos/La-Dolce-Vita-di-Bacchus-146580.html",
+    "extractedAt": "2026-11-23T23:42:17.208Z",
+    "name": "La Dolce Vita di Bacchus",
+    "brand": "Argos",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Christian Petrovich",
+    "topNotes": [
+      "Coffee",
+      "Rum",
+      "Labdanum",
+      "Pink Pepper",
+      "Juniper"
+    ],
+    "middleNotes": [
+      "Davana",
+      "Fenugreek",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Sandalwood",
+      "Styrax",
+      "Nagarmotha",
+      "Musk"
+    ],
+    "description": "La Dolce Vita di Bacchus by Argos is an oriental spicy fragrance, launched in 2026. It opens with coffee, juniper, labdanum, pink pepper and rum, followed by a heart of davana, fenugreek and jasmine over a base of benzoin, musk, nagarmotha, sandalwood and styrax.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.146580.jpg",
+    "rating": 4,
+    "ratingVotes": 9,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 62
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 32
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 146580,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "La Dolce Vita di Bacchus",
+    "brandFa": "Argos",
+    "nameFa": "La Dolce Vita di Bacchus",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christian Petrovich",
+    "topNotesFa": [
+      "قهوه",
+      "رام",
+      "لابدانوم",
+      "فلفل صورتی",
+      "عرعر"
+    ],
+    "middleNotesFa": [
+      "Davana",
+      "Fenugreek",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "چوب صندل",
+      "استیراکس",
+      "ناگارموته",
+      "موش"
+    ],
+    "descriptionFa": "La Dolce Vita di Bacchus از برند Argos یک عطر شرقی تند است که در سال 2026 عرضه شد. این عطر با رایحه‌های قهوه، عرعر، لادن، فلفل صورتی و رام آغاز می‌شود، سپس رایحه‌های میانی داوانا، شنبلیله و یاس بر روی رایحه‌های پایه‌ای بنزوئین، مشک، ناگارموتا، چوب صندل و استیراکس قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sol-de-Janeiro/Cheirosa-71-63079.html",
+    "extractedAt": "2026-11-23T23:42:23.864Z",
+    "name": "Cheirosa '71",
+    "brand": "Sol de Janeiro",
+    "family": "Oriental Vanilla",
+    "gender": "women. <b>Cheirosa '71</b> was launched in 2020. The nose behind this fragrance is Jérôme Epinette. The fragrance features Caramel, Macadamia, Vanilla, White Chocolate, Sea Salt and Coconut Blossom",
+    "year": 2020,
+    "perfumer": "Jérôme Epinette",
+    "description": "\"This voluptuous fragrance serves up an irresistible gourmand experience that tempts in a whole new way. Warm and sophisticated, our Cheirosa ’71 is blended with inviting notes of caramelized vanilla, toasted macadamia nut, sea salt, white chocolate and coconut blossom. A delectable offering to satisfy every craving and bring you the ultimate cheirosa experience. In Brazil, this means you smell absolutely irresistible.\" (from the brand website)",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63079.jpg",
+    "rating": 4.09,
+    "ratingVotes": 7901,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 98
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 33
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 63079,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cheirosa '71",
+    "brandFa": "Sol de Janeiro",
+    "nameFa": "Cheirosa '71",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women. <b>Cheirosa '71</b> was launched in 2020. The nose behind this fragrance is Jérôme Epinette. The fragrance features Caramel, Macadamia, Vanilla, White Chocolate, Sea Salt and Coconut Blossom",
+    "perfumerFa": "Jérôme Epinette",
+    "descriptionFa": "«این عطر دل‌انگیز، تجربه‌ای خوش‌طعم و مقاومت‌ناپذیر را ارائه می‌دهد که به شیوه‌ای کاملاً جدید وسوسه‌انگیز است. Cheirosa ’71 ما که گرم و پیچیده است، با رایحه‌های دلپذیر وانیل کاراملی‌شده، آجیل ماکادمیا برشته، نمک دریا، شکلات سفید و شکوفه نارگیل ترکیب شده است. یک پیشنهاد خوش‌طعم برای ارضای هر هوسی و ارائه بهترین تجربه چیروزا به شما. در برزیل، این بدان معناست که بوی شما کاملاً اغواکننده است.» (از وب‌سایت برند)",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Liis/Lucienne-79700.html",
+    "extractedAt": "2026-11-23T23:42:29.189Z",
+    "name": "Lucienne",
+    "brand": "Liis",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Alissa Sullivan and Leslie Hendin",
+    "topNotes": [
+      "Pomelo",
+      "Lemon Zest"
+    ],
+    "middleNotes": [
+      "Magnolia",
+      "Water Lily",
+      "Pitahaya"
+    ],
+    "baseNotes": [
+      "Sea Notes",
+      "Ambergris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79700.jpg",
+    "rating": 3.81,
+    "ratingVotes": 355,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 91
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 49
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 24
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 21
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 79700,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lucienne",
+    "brandFa": "Liis",
+    "nameFa": "Lucienne",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alissa Sullivan and Leslie Hendin",
+    "topNotesFa": [
+      "پوملو",
+      "Lemon Zest"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "گل نیلوفر",
+      "Pitahaya"
+    ],
+    "baseNotesFa": [
+      "Sea Notes",
+      "کهربا خاکستری"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Outlands-97924.html",
+    "extractedAt": "2026-11-23T23:42:34.260Z",
+    "name": "Outlands",
+    "brand": "Amouage",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Cécile Zarokian",
+    "topNotes": [
+      "Frankincense",
+      "Cardamom",
+      "elemi",
+      "Lemon",
+      "Bergamot",
+      "Sichuan Pepper"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Anise",
+      "Coriander",
+      "Saffron",
+      "Cumin",
+      "Wormwood",
+      "Orange Blossom",
+      "Geranium",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Frankincense",
+      "Vanilla",
+      "Amber",
+      "Benzoin",
+      "Oud",
+      "Opoponax",
+      "Birch",
+      "Labdanum",
+      "Ambergris",
+      "Maltol",
+      "Musk"
+    ],
+    "description": "Outlands by The House of Amouage is a fragrance that invites wearers to explore the unknown. Crafted by Cécile Zarokian, this scent opens with invigorating notes of bright citruses and zesty lemon. As the fragrance develops, rich patchouli adds depth and complexity, while an amber accord with balsams and resins rounds out the composition, creating a deep and layered scent experience.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97924.jpg",
+    "rating": 4.34,
+    "ratingVotes": 3591,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 60
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 97924,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Outlands",
+    "brandFa": "آموژ",
+    "nameFa": "Outlands",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Cécile Zarokian",
+    "topNotesFa": [
+      "کندر",
+      "هل",
+      "elemi",
+      "لیمو",
+      "برگاموت",
+      "فلفل سیچوان"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "انیسون",
+      "گشنیز",
+      "زعفران",
+      "زیره",
+      "افسنتین",
+      "گل پرتقال",
+      "گل جعفری",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "کندر",
+      "وانیل",
+      "کهربا",
+      "بنزوئین",
+      "عود",
+      "اوپوپناکس",
+      "توس",
+      "لابدانوم",
+      "کهربا خاکستری",
+      "Maltol",
+      "موش"
+    ],
+    "descriptionFa": "Outlands از برند The House of Amouage عطری است که استفاده‌کنندگان را به کاوش در ناشناخته‌ها دعوت می‌کند. این عطر که توسط سس‌سیل زاروکین ساخته شده است، با نت‌های نشاط‌بخش مرکبات شاداب و لیمو ترش شروع می‌شود. با پخش شدن رایحه، نعناع هندی غنی عمق و پیچیدگی به آن می‌افزاید، در حالی که آکورد کهربا همراه با بالزام‌ها و رزین‌ها ترکیب را کامل می‌کند و تجربه‌ای عمیق و چندلایه از رایحه ایجاد می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
