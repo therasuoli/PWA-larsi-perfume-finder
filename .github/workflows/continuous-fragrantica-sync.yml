@@ -133,7 +133,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'   # Node.js 22 LTS (Node 20 was deprecated 2025-09-19)
 
       - name: Confirm curl is installed
         run: |

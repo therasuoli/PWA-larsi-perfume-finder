@@ -1,336 +1,36 @@
 [
   {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Nash-148513.html",
-    "extractedAt": "2026-11-23T14:44:31.473Z",
-    "name": "Nash",
-    "brand": "Star de Night",
-    "family": "Floral Woody Musk",
-    "gender": "women. This is a new fragrance",
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/melloculab/Synthetic-Ph-romone-148527.html",
+    "extractedAt": "2026-11-23T16:26:17.500Z",
+    "name": "Synthetic Ph*romone",
+    "brand": "melloculab",
+    "family": "Woody Floral Musk",
+    "gender": "women and men. This is a new fragrance",
     "year": 2026,
-    "perfumer": null,
+    "perfumer": "Michael Nugroho",
     "topNotes": [
-      "AMBROX® SUPER",
-      "Ginger"
+      "Bergamot",
+      "Black Pepper",
+      "Carrot Seeds",
+      "Metallic notes",
+      "Timur"
     ],
     "middleNotes": [
-      "Tuberose",
-      "Jasmine Sambac",
-      "Rangoon Creeper",
-      "Romandolide®"
+      "Magnolia",
+      "Jasmine",
+      "Lily of the Valley"
     ],
     "baseNotes": [
-      "Cypriol",
       "Patchouli",
-      "Sandalwood"
-    ],
-    "description": "Nash by Star De Night is a Floral Woody Musk fragrance for women, launched in 2026. It opens with Ambrox Super and ginger, followed by tuberose, jasmine sambac, Rangoon creeper and Romandolide, over a base of cypriol, patchouli and sandalwood.",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148513.jpg",
-    "accords": [
-      {
-        "nameEn": "woody",
-        "nameFa": "چوبی",
-        "percent": 100
-      },
-      {
-        "nameEn": "white floral",
-        "nameFa": "گل سفید",
-        "percent": 75
-      },
-      {
-        "nameEn": "floral",
-        "nameFa": "گلی",
-        "percent": 50
-      },
-      {
-        "nameEn": "earthy",
-        "nameFa": "خاکی",
-        "percent": 46
-      },
-      {
-        "nameEn": "tuberose",
-        "nameFa": "گل شیپوری",
-        "percent": 42
-      },
-      {
-        "nameEn": "patchouli",
-        "nameFa": "پچولی",
-        "percent": 42
-      },
-      {
-        "nameEn": "fruity",
-        "nameFa": "میوه‌ای",
-        "percent": 40
-      },
-      {
-        "nameEn": "warm spicy",
-        "nameFa": "ادویه‌ای گرم",
-        "percent": 37
-      }
-    ],
-    "fragranticaId": 148513,
-    "imageUrlSource": "pattern1-id",
-    "concentration": null,
-    "baseName": "Nash",
-    "brandFa": "Star de Night",
-    "nameFa": "Nash",
-    "familyFa": "Floral Woody Musk",
-    "genderFa": "women. This is a new fragrance",
-    "topNotesFa": [
-      "AMBROX® SUPER",
-      "زنجبیل"
-    ],
-    "middleNotesFa": [
-      "گل شیپور",
-      "Jasmine Sambac",
-      "Rangoon Creeper",
-      "Romandolide®"
-    ],
-    "baseNotesFa": [
-      "سایپریول",
-      "پچولی",
-      "چوب صندل"
-    ],
-    "descriptionFa": "Nash از برند Star De Night یک عطر گل‌فام، چوبی و مشکی برای خانم‌ها است که در سال 2026 عرضه شد. این عطر با آمبروکس سوپر و زنجبیل آغاز می‌شود، سپس رایحه‌های مریم، یاس سامباک، پیچ رانگون و روماندولید به مشام می‌رسند و در نهایت رایحه‌های سیپریول، نعناع هندی و چوب صندل به عنوان نت‌های پایه حس می‌شوند.",
-    "seasons": [
-      "winter",
-      "autumn",
-      "spring",
-      "summer"
-    ],
-    "primarySeason": "winter",
-    "secondarySeason": "autumn",
-    "primarySeasonFa": "زمستان",
-    "secondarySeasonFa": "پاییز",
-    "seasonsFa": [
-      "زمستان",
-      "پاییز",
-      "بهار",
-      "تابستان"
-    ],
-    "timeOfDay": "night",
-    "timeOfDayFa": "شب"
-  },
-  {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Mimosa-148512.html",
-    "extractedAt": "2026-11-23T14:44:34.499Z",
-    "_missingMainDesc": true,
-    "brand": "Star de Night",
-    "description": "Mimosa by Star De Night is an Oriental Woody fragrance for women and men, launched in 2026. It opens with pink pepper and black pepper, followed by a rose heart and a base of balsam fir, Atlas cedar and labdanum.",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148512.jpg",
-    "gender": "women and men",
-    "accords": [
-      {
-        "nameEn": "woody",
-        "nameFa": "چوبی",
-        "percent": 100
-      },
-      {
-        "nameEn": "fresh spicy",
-        "nameFa": "ادویه‌ای تازه",
-        "percent": 81
-      },
-      {
-        "nameEn": "rose",
-        "nameFa": "رزی",
-        "percent": 52
-      },
-      {
-        "nameEn": "amber",
-        "nameFa": "کهربایی",
-        "percent": 48
-      },
-      {
-        "nameEn": "aromatic",
-        "nameFa": "معطر",
-        "percent": 38
-      },
-      {
-        "nameEn": "soft spicy",
-        "nameFa": "ادویه‌ای نرم",
-        "percent": 33
-      },
-      {
-        "nameEn": "musky",
-        "nameFa": "مشی",
-        "percent": 33
-      },
-      {
-        "nameEn": "sweet",
-        "nameFa": "شیرین",
-        "percent": 26
-      }
-    ],
-    "fragranticaId": 148512,
-    "imageUrlSource": "pattern1-id",
-    "brandFa": "Star de Night",
-    "genderFa": "مردانه و زنانه",
-    "descriptionFa": "Mimosa از برند Star De Night یک عطر شرقی چوبی برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با فلفل صورتی و فلفل سیاه آغاز می‌شود، سپس به نت میانی گل رز و نت پایه‌ای صنوبر بالسام، سرو اطلس و لادن می‌رسد.",
-    "seasons": [
-      "winter",
-      "autumn",
-      "spring",
-      "summer"
-    ],
-    "primarySeason": "winter",
-    "secondarySeason": "autumn",
-    "primarySeasonFa": "زمستان",
-    "secondarySeasonFa": "پاییز",
-    "seasonsFa": [
-      "زمستان",
-      "پاییز",
-      "بهار",
-      "تابستان"
-    ],
-    "timeOfDay": "night",
-    "timeOfDayFa": "شب"
-  },
-  {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Mercury-148511.html",
-    "extractedAt": "2026-11-23T14:44:36.724Z",
-    "name": "Mercury",
-    "brand": "Star de Night",
-    "family": "Aromatic Green",
-    "gender": "women and men. This is a new fragrance",
-    "year": 2026,
-    "perfumer": null,
-    "topNotes": [
-      "Mint",
-      "Lemon",
-      "Basil",
-      "Thyme"
-    ],
-    "middleNotes": [
-      "Black Currant",
-      "Rosemary",
-      "Lavender",
-      "Jasmine"
-    ],
-    "baseNotes": [
-      "Musk",
-      "Vervain",
-      "Georgywood",
-      "Cypriol Oil or Nagarmotha"
-    ],
-    "description": "Mercury by Star De Night is an aromatic green fragrance for women and men, launched in 2026. It opens with mint, lemon, basil and thyme, followed by black currant, rosemary, lavender and jasmine, over a base of musk, vervain, Georgywood and cypriol.",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148511.jpg",
-    "accords": [
-      {
-        "nameEn": "aromatic",
-        "nameFa": "معطر",
-        "percent": 100
-      },
-      {
-        "nameEn": "fresh spicy",
-        "nameFa": "ادویه‌ای تازه",
-        "percent": 74
-      },
-      {
-        "nameEn": "green",
-        "nameFa": "سبز",
-        "percent": 41
-      },
-      {
-        "nameEn": "woody",
-        "nameFa": "چوبی",
-        "percent": 37
-      },
-      {
-        "nameEn": "white floral",
-        "nameFa": "گل سفید",
-        "percent": 23
-      },
-      {
-        "nameEn": "musky",
-        "nameFa": "مشی",
-        "percent": 23
-      },
-      {
-        "nameEn": "lavender",
-        "nameFa": "اسطوخودوسی",
-        "percent": 23
-      },
-      {
-        "nameEn": "fruity",
-        "nameFa": "میوه‌ای",
-        "percent": 23
-      }
-    ],
-    "fragranticaId": 148511,
-    "imageUrlSource": "pattern1-id",
-    "concentration": null,
-    "baseName": "Mercury",
-    "brandFa": "Star de Night",
-    "nameFa": "Mercury",
-    "familyFa": "Aromatic Green",
-    "genderFa": "women and men. This is a new fragrance",
-    "topNotesFa": [
-      "نعناع",
-      "لیمو",
-      "ریحان",
-      "پونه‌سان"
-    ],
-    "middleNotesFa": [
-      "توت سیاه",
-      "رزماری",
-      "اسطوخودوس",
-      "یاسمن"
-    ],
-    "baseNotesFa": [
-      "موش",
-      "Vervain",
-      "Georgywood",
-      "Cypriol Oil or Nagarmotha"
-    ],
-    "descriptionFa": "Mercury از برند Star De Night یک عطر سبز معطر برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با رایحه‌های نعناع، لیمو، ریحان و آویشن آغاز می‌شود، سپس رایحه‌های انگور فرنگی سیاه، رزماری، اسطوخودوس و یاس به مشام می‌رسند و در نهایت رایحه‌های پایه مشک، ورونیکا، جورجی‌وود و سیپریول حس می‌شوند.",
-    "seasons": [
-      "spring",
-      "summer",
-      "winter",
-      "autumn"
-    ],
-    "primarySeason": "spring",
-    "secondarySeason": "summer",
-    "primarySeasonFa": "بهار",
-    "secondarySeasonFa": "تابستان",
-    "seasonsFa": [
-      "بهار",
-      "تابستان",
-      "زمستان",
-      "پاییز"
-    ],
-    "timeOfDay": "day",
-    "timeOfDayFa": "روز"
-  },
-  {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Izar-148510.html",
-    "extractedAt": "2026-11-23T14:44:39.552Z",
-    "name": "Izar",
-    "brand": "Star de Night",
-    "family": "Woody Spicy",
-    "gender": "women and men. This is a new fragrance",
-    "year": 2026,
-    "perfumer": null,
-    "topNotes": [
-      "Frankincense",
-      "Pimento",
-      "Pink Pepper",
-      "Bergamot"
-    ],
-    "middleNotes": [
-      "Sandalwood",
       "Vetiver",
-      "Papyrus",
-      "Rose"
+      "Atlas Cedar",
+      "Iso E Super",
+      "Ambroxan",
+      "White Musk",
+      "Skin"
     ],
-    "baseNotes": [
-      "Akigalawood",
-      "Suede",
-      "Vanilla",
-      "Saffron",
-      "Mystikal"
-    ],
-    "description": "Izar by Star de Night is a woody spicy fragrance for women and men, launched in 2026. It opens with frankincense, pimento, pink pepper and bergamot, followed by sandalwood, vetiver, papyrus and rose, over a base of Akigalawood, suede, vanilla, saffron and Mystikal.",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148510.jpg",
+    "description": "Synthetic Ph*romone by melloculab is a woody floral musk fragrance for women and men, launched in 2026. It opens with Timut pepper, bergamot, black pepper, carrot seeds and metallic notes, followed by magnolia, jasmine and lily of the valley over a base of patchouli, vetiver, Atlas cedar, Iso E Super, Ambroxan, white musk and skin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148527.jpg",
     "accords": [
       {
         "nameEn": "woody",
@@ -338,69 +38,198 @@
         "percent": 100
       },
       {
-        "nameEn": "warm spicy",
-        "nameFa": "ادویه‌ای گرم",
-        "percent": 77
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 94
       },
       {
-        "nameEn": "leather",
-        "nameFa": "چرمی",
-        "percent": 41
-      },
-      {
-        "nameEn": "aromatic",
-        "nameFa": "معطر",
-        "percent": 34
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 68
       },
       {
         "nameEn": "powdery",
         "nameFa": "پودری",
-        "percent": 32
+        "percent": 62
       },
       {
-        "nameEn": "rose",
-        "nameFa": "رزی",
-        "percent": 30
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 59
       },
       {
         "nameEn": "citrus",
         "nameFa": "مرکباتی",
-        "percent": 28
+        "percent": 54
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 148527,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Synthetic Ph*romone",
+    "brandFa": "melloculab",
+    "nameFa": "Synthetic Ph*romone",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "women and men. This is a new fragrance",
+    "perfumerFa": "Michael Nugroho",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل سیاه",
+      "Carrot Seeds",
+      "Metallic notes",
+      "Timur"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "یاسمن",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وتیور",
+      "سرو اطلس",
+      "Iso E Super",
+      "آمبروکسان",
+      "موش سفید",
+      "Skin"
+    ],
+    "descriptionFa": "Synthetic Ph*romone by melloculab is a woody floral musk fragrance for women and men, launched in 2026. It opens with Timut pepper, bergamot, black pepper, carrot seeds and metallic notes, followed by magnolia, jasmine and lily of the valley over a base of patchouli, vetiver, Atlas cedar, Iso E Super, Ambroxan, white musk and skin.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/melloculab/Vanilla-Borealis-148526.html",
+    "extractedAt": "2026-11-23T16:26:20.008Z",
+    "name": "Vanilla Borealis",
+    "brand": "melloculab",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance",
+    "year": 2025,
+    "perfumer": "Michael Nugroho",
+    "topNotes": [
+      "Spearmint",
+      "Bergamot",
+      "Juniper Berries",
+      "Metallic notes"
+    ],
+    "middleNotes": [
+      "Cognac",
+      "Davana",
+      "Peach",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Labdanum",
+      "Sandalwood",
+      "Cedarwood",
+      "Caramel",
+      "Musk",
+      "Ambroxan"
+    ],
+    "description": "Vanilla Borealis by melloculab is a vanilla fragrance for women and men, launched in 2025 and created by Michael Nugroho. It opens with spearmint, bergamot, juniper berries and metallic notes, followed by cognac, davana, peach and jasmine, over a base of vanilla, tonka bean, labdanum, sandalwood, cedarwood, caramel, musk and ambroxan.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148526.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 72
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 56
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
       },
       {
         "nameEn": "vanilla",
         "nameFa": "وانیلی",
-        "percent": 27
+        "percent": 47
       }
     ],
-    "fragranticaId": 148510,
+    "fragranticaId": 148526,
     "imageUrlSource": "pattern1-id",
     "concentration": null,
-    "baseName": "Izar",
-    "brandFa": "Star de Night",
-    "nameFa": "Izar",
-    "familyFa": "چوبی ادویه‌ای",
+    "baseName": "Vanilla Borealis",
+    "brandFa": "melloculab",
+    "nameFa": "Vanilla Borealis",
+    "familyFa": "شرقی وانیلی",
     "genderFa": "women and men. This is a new fragrance",
+    "perfumerFa": "Michael Nugroho",
     "topNotesFa": [
-      "کندر",
-      "فلفل هلندی",
-      "فلفل صورتی",
-      "برگاموت"
+      "نعناع سبز",
+      "برگاموت",
+      "زغالک عرعر",
+      "Metallic notes"
     ],
     "middleNotesFa": [
-      "چوب صندل",
-      "وتیور",
-      "پاپیروس",
-      "گل رز"
+      "کوناک",
+      "Davana",
+      "هلو",
+      "یاسمن"
     ],
     "baseNotesFa": [
-      "Akigalawood",
-      "چرم جیر",
       "وانیل",
-      "زعفران",
-      "Mystikal"
+      "لوبیا تونکا",
+      "لابدانوم",
+      "چوب صندل",
+      "چوب سرو",
+      "کارامل",
+      "موش",
+      "آمبروکسان"
     ],
-    "descriptionFa": "Izar از برند Star de Night یک عطر چوبی تند برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد. این عطر با رایحه‌های کندر، فلفل دلمه‌ای، فلفل صورتی و ترنج آغاز می‌شود، سپس رایحه‌های چوب صندل، خس‌خس، پاپیروس و گل رز به مشام می‌رسند و در نهایت رایحه‌های چوب آکیگالا، جیر، وانیل، زعفران و میستیکال به عنوان رایحه‌های پایه حس می‌شوند.",
+    "descriptionFa": "Vanilla Borealis by melloculab is a vanilla fragrance for women and men, launched in 2025 and created by Michael Nugroho. It opens with spearmint, bergamot, juniper berries and metallic notes, followed by cognac, davana, peach and jasmine, over a base of vanilla, tonka bean, labdanum, sandalwood, cedarwood, caramel, musk and ambroxan.",
     "seasons": [
       "winter",
       "autumn",
@@ -421,115 +250,114 @@
     "timeOfDayFa": "شب"
   },
   {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Star-de-Night/Atlas-148509.html",
-    "extractedAt": "2026-11-23T14:44:42.200Z",
-    "name": "Atlas",
-    "brand": "Star de Night",
-    "family": "Oriental Floral",
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/melloculab/Black-Omen-148525.html",
+    "extractedAt": "2026-11-23T16:26:21.538Z",
+    "name": "Black Omen",
+    "brand": "melloculab",
+    "family": "Leather",
     "gender": "women and men. This is a new fragrance",
     "year": 2026,
-    "perfumer": null,
+    "perfumer": "Ray Salsa",
     "topNotes": [
-      "Rose Water",
-      "Pear",
-      "Hazelnut",
-      "Bitter Almond",
-      "Frankincense",
-      "Pink Pepper"
+      "Thyme",
+      "Lavender",
+      "Black Pepper",
+      "Lemon"
     ],
     "middleNotes": [
-      "Rose",
-      "Osmanthus",
-      "Saffron",
-      "Jasmine Sambac"
+      "Honey",
+      "Leather",
+      "Carnation",
+      "Iris",
+      "Caramel",
+      "Labdanum"
     ],
     "baseNotes": [
-      "Sandalwood",
-      "Akigalawood",
-      "Vanilla",
-      "Ambrette",
-      "Ambergris",
+      "Oud",
+      "Tobacco",
       "Labdanum",
-      "Georgywood",
-      "Cypriol Oil or Nagarmotha"
+      "Benzoin",
+      "Tolu Balsam",
+      "Vanilla",
+      "Tonka Bean"
     ],
-    "description": "Atlas by Star De Night is an Oriental Floral fragrance for women and men, launched in 2026. It opens with rose water, pear, hazelnut, bitter almond, frankincense and pink pepper, followed by a heart of rose, osmanthus, saffron and jasmine sambac, over a base of sandalwood, Akigalawood, vanilla, ambrette, ambergris, labdanum, Georgywood and cypriol.",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148509.jpg",
+    "description": "Black Omen by melloculab is a leather fragrance for women and men, launched in 2026 and created by Ray Salsa. It opens with thyme, lavender, black pepper and lemon, followed by honey, leather, carnation, iris, cistus and caramel, and settles on Tarakan oud, tobacco, labdanum, benzoin, Tolu balsam, vanilla and tonka bean.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148525.jpg",
     "accords": [
-      {
-        "nameEn": "woody",
-        "nameFa": "چوبی",
-        "percent": 100
-      },
       {
         "nameEn": "amber",
         "nameFa": "کهربایی",
-        "percent": 81
-      },
-      {
-        "nameEn": "floral",
-        "nameFa": "گلی",
-        "percent": 59
-      },
-      {
-        "nameEn": "fruity",
-        "nameFa": "میوه‌ای",
-        "percent": 55
-      },
-      {
-        "nameEn": "warm spicy",
-        "nameFa": "ادویه‌ای گرم",
-        "percent": 53
+        "percent": 100
       },
       {
         "nameEn": "sweet",
         "nameFa": "شیرین",
-        "percent": 43
+        "percent": 73
       },
       {
-        "nameEn": "nutty",
-        "nameFa": "آجیلی",
-        "percent": 43
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 69
       },
       {
-        "nameEn": "musky",
-        "nameFa": "مشی",
-        "percent": 41
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
       }
     ],
-    "fragranticaId": 148509,
+    "fragranticaId": 148525,
     "imageUrlSource": "pattern1-id",
     "concentration": null,
-    "baseName": "Atlas",
-    "brandFa": "Star de Night",
-    "nameFa": "Atlas",
-    "familyFa": "Oriental Floral",
+    "baseName": "Black Omen",
+    "brandFa": "melloculab",
+    "nameFa": "Black Omen",
+    "familyFa": "چرمی",
     "genderFa": "women and men. This is a new fragrance",
+    "perfumerFa": "Ray Salsa",
     "topNotesFa": [
-      "Rose Water",
-      "گلابی",
-      "فندق",
-      "بادام تلخ",
-      "کندر",
-      "فلفل صورتی"
+      "پونه‌سان",
+      "اسطوخودوس",
+      "فلفل سیاه",
+      "لیمو"
     ],
     "middleNotesFa": [
-      "گل رز",
-      "اسمانتوس",
-      "زعفران",
-      "Jasmine Sambac"
+      "عسل",
+      "چرم",
+      "میخک",
+      "زنبق",
+      "کارامل",
+      "لابدانوم"
     ],
     "baseNotesFa": [
-      "چوب صندل",
-      "Akigalawood",
-      "وانیل",
-      "دانه ابرکفش",
-      "کهربا خاکستری",
+      "عود",
+      "تنباکو",
       "لابدانوم",
-      "Georgywood",
-      "Cypriol Oil or Nagarmotha"
+      "بنزوئین",
+      "بلسام تولو",
+      "وانیل",
+      "لوبیا تونکا"
     ],
-    "descriptionFa": "Atlas از برند Star De Night یک عطر شرقی-گل‌فام برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با رایحه‌های گلاب، گلابی، فندق، بادام تلخ، کندر و فلفل صورتی آغاز می‌شود، سپس رایحه‌های میانی گل رز، اوسمانتوس، زعفران و یاس سامباک را ارائه می‌دهد و در نهایت بر پایه رایحه‌های چوب صندل، چوب آکیگالا، وانیل، آمبرت، عنبر سائل، لادن، چوب جورجی و سیپریول قرار می‌گیرد.",
+    "descriptionFa": "Black Omen by melloculab is a leather fragrance for women and men, launched in 2026 and created by Ray Salsa. It opens with thyme, lavender, black pepper and lemon, followed by honey, leather, carnation, iris, cistus and caramel, and settles on Tarakan oud, tobacco, labdanum, benzoin, Tolu balsam, vanilla and tonka bean.",
     "seasons": [
       "winter",
       "autumn",
