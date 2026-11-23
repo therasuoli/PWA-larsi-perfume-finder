@@ -358,7 +358,7 @@
 
     /* ---- NEWEST rail ---- */
     const newestSection = $('#newestSection');
-    const withYear = live.filter(p => p.year).sort((a, b) => b.year - a.year).slice(0, 10);
+    const withYear = live.filter(p => p.year).sort((a, b) => b.year - a.year).slice(0, 3);
     if (withYear.length) {
       $('#newest').innerHTML = withYear.map(p => `<div class="rail-item">${cardHTML(p, 99)}<p class="sub" style="text-align:center;margin:6px 0 0">عرضه ${fa(p.year)}</p></div>`).join('');
       if (newestSection) newestSection.hidden = false;
@@ -458,7 +458,7 @@
   function renderTrendingNow() {
     const el = $('#trendingRail');
     if (!el) return;
-    const results = LPF.recommend.trendingNow(items, { maxResults: 10 });
+    const results = LPF.recommend.trendingNow(items, { maxResults: 3 });
     if (!results.length) { el.parentElement.hidden = true; return; }
     el.parentElement.hidden = false;
     el.innerHTML = results.map(({ p, reasons }) => `
@@ -726,7 +726,7 @@
   function renderWeatherRail() {
     const el = $('#wrail'); if (!el || !live.length) return;
     const season = LPF.wx.season || monthSeason();
-    const scored = live.filter(p => (p.seasons || []).includes(season)).sort((a, b) => ((b.seasons || []).length - (a.seasons || []).length) || rank(a) - rank(b)).slice(0, 10);
+    const scored = live.filter(p => (p.seasons || []).includes(season)).sort((a, b) => ((b.seasons || []).length - (a.seasons || []).length) || rank(a) - rank(b)).slice(0, 3);
     el.innerHTML = scored.map(p => `<div class="rail-item">${cardHTML(p, 99)}</div>`).join('');
     markReadyImages(el);
   }
@@ -1150,6 +1150,25 @@
     if (menuBackdrop) menuBackdrop.addEventListener('click', () => setMenu(false));
     // Close on Escape when the menu is open
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuOpen) { e.preventDefault(); setMenu(false); } });
+
+    // Contact dialog
+    const contactBtn = $('#contactBtn');
+    const contactDlg = $('#contactDlg');
+    const contactClose = $('#contactClose');
+    if (contactBtn && contactDlg) {
+      contactBtn.addEventListener('click', () => {
+        setMenu(false); // close side menu first
+        setTimeout(() => {
+          contactDlg.showModal();
+          document.body.classList.add('lock');
+        }, 200);
+      });
+    }
+    if (contactClose) contactClose.addEventListener('click', () => { contactDlg.close(); document.body.classList.remove('lock'); });
+    if (contactDlg) {
+      contactDlg.addEventListener('click', e => { if (e.target === contactDlg) { contactDlg.close(); document.body.classList.remove('lock'); } });
+      contactDlg.addEventListener('close', () => { document.body.classList.remove('lock'); });
+    }
 
     // Body scroll lock + state reset on close for the three <dialog> modals
     // (detail sheet, compare sheet, lightbox). When a dialog closes — whether by

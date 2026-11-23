@@ -82,6 +82,7 @@
     <hr>
     <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg><span>تنظیمات</span></button>
     <button type="button" data-go="about"><svg class="ic"><use href="#i-about"/></svg><span>درباره ما</span></button>
+    <button type="button" id="contactBtn"><svg class="ic"><use href="#i-info"/></svg><span>ارتباط با ما</span></button>
   </nav>
   <div class="side-foot">
     <p>ایده، طراحی و توسعه</p>
@@ -154,14 +155,14 @@
     <p class="sub">بر اساس علاقه‌مندی‌های تو، این‌ها هم ممکن است پسندت بیاید.</p>
     <div class="rail" id="likedRail"></div>
   </section>
-  <section class="section-block" id="trendingSection" aria-label="پرطرفدارترین‌ها">
-    <h2>پرطرفدارترین‌ها</h2>
-    <p class="sub">بیشترین بازدید در بانک عطر.</p>
+  <section class="section-block" id="trendingSection" aria-label="پیشنهاد امروز">
+    <h2>پیشنهاد امروز</h2>
+    <p class="sub">سه عطر منتخب امروز از بانک لارسی.</p>
     <div class="rail" id="trendingRail"></div>
   </section>
   <section class="section-block" id="newestSection" aria-label="تازه‌ترین‌ها">
     <h2>تازه‌ترین‌ها</h2>
-    <p class="sub">به ترتیب سال عرضه.</p>
+    <p class="sub">سه عطر جدید به بانک اضافه شده.</p>
     <div class="rail" id="newest"></div>
   </section>
   <section class="section-block" id="brandsSection" aria-label="خانه‌های عطر">
@@ -433,6 +434,41 @@
 </div>
 
 <noscript><p style="padding:24px;text-align:center">برای استفاده از لارسی جاوااسکریپت باید فعال باشد.</p></noscript>
+
+<!-- Contact dialog -->
+<dialog id="contactDlg" aria-labelledby="contactTitle">
+  <div class="sheet" style="padding:22px">
+    <h3 id="contactTitle" style="margin:0 0 14px">ارتباط با ما</h3>
+    <p class="sub" style="margin:0 0 16px">برای مشاوره و خرید عطر با ما در تماس باشید.</p>
+
+    <h4 style="margin:0 0 8px;font-size:.9375rem">شماره تماس</h4>
+    <div class="contact-phones">
+      <a href="tel:09011119952" class="contact-phone">۰۹۰۱۱۱۱۹۹۵۲</a>
+      <a href="tel:09054321011" class="contact-phone">۰۹۰۵۴۳۲۱۰۱۱</a>
+      <a href="tel:09034442366" class="contact-phone">۰۹۰۳۴۴۴۲۳۶۶</a>
+    </div>
+
+    <h4 style="margin:18px 0 8px;font-size:.9375rem">شعبه‌ها</h4>
+    <div class="contact-branches">
+      <div class="branch-card">
+        <b>شعبه مرکزی شیراز</b>
+        <p>خیابان انوری، رو به روی عمارت شاهپوری، مجتمع اهلی، پلاک G15-25</p>
+      </div>
+      <div class="branch-card">
+        <b>شعبه تخصصی</b>
+        <p>شیراز، خیابان انوری، مجتمع تجاری اهلی، پلاک G13</p>
+      </div>
+      <div class="branch-card">
+        <b>شعبه VIP</b>
+        <p>شیراز، هتل بزرگ چمران لاوی</p>
+      </div>
+    </div>
+
+    <div class="acts" style="margin-top:18px">
+      <button class="btn pri" type="button" id="contactClose">بستن</button>
+    </div>
+  </div>
+</dialog>
 
 <script src="js/config.js" defer></script>
 <script src="js/lang-fa.js" defer></script>
