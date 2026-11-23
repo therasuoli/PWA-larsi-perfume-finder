@@ -148,6 +148,9 @@ jobs:
           MIN=$(date -u +"%M")
           DOW=$(date -u +"%u")  # 1=Mon ... 7=Sun
           echo "Now (UTC): hour=$HOUR min=$MIN dow=$DOW"
+          echo "Runner IP info:"
+          curl -s --max-time 5 https://api.ipify.org || echo "(IP lookup failed)"
+          echo ""
 
           # Sunday 02:00 UTC → weekly (designers-index)
           if [ "$DOW" = "7" ] && [ "$HOUR" = "2" ]; then
@@ -174,8 +177,9 @@ jobs:
           echo "Tier: $TIER"
 
           # Common base command for all tiers
-          BASE_DELAY_MIN=5000
-          BASE_DELAY_MAX=9000
+          # Delay 3-5s is enough with cookie-jar session; was 5-9s before
+          BASE_DELAY_MIN=3000
+          BASE_DELAY_MAX=5000
           CMD="node scripts/fragrantica-extract.mjs --delay-min $BASE_DELAY_MIN --delay-max $BASE_DELAY_MAX --resume"
 
           case "$TIER" in

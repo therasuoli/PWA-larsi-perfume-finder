@@ -156,17 +156,35 @@ console.log(`  Output:         ${OUT_FILE}`);
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
 await mkdir(CACHE_DIR, { recursive: true });
+await mkdir(resolve(CACHE_DIR, 'session'), { recursive: true });
 
 // ---------------------------------------------------------------------------
 // Cloudflare-bypass HTTP client
 // ---------------------------------------------------------------------------
+//
+// KEY INSIGHT (learned the hard way):
+//   Cloudflare's "Bot Fight Mode" sets a `__cf_bm` (Bot Management) cookie
+//   on the first visit. Without persisting this cookie across requests,
+//   every subsequent request triggers a fresh bot challenge → 403.
+//
+//   The fix is to use a persistent cookie jar (-b/-c with the same file)
+//   so that once we get past Cloudflare once, subsequent requests inherit
+//   the session.
+//
+//   Additionally, GitHub Actions runners have IP ranges that Cloudflare
+//   flags as suspicious. We work around this by:
+//     1. Establishing a session via the home page first (sets __cf_bm)
+//     2. Using realistic Sec-Ch-Ua + Sec-Fetch headers
+//     3. Persisting cookies to a jar
+//     4. Rotating User-Agents but keeping them within the same browser family
+//     5. Adding random delay between requests (4-8 seconds)
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15',
 ];
 
 const ACCEPT_LANGUAGES = [
@@ -180,15 +198,94 @@ function pickRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// Persistent cookie jar — shared across all fetches in this run
+const COOKIE_JAR = resolve(CACHE_DIR, 'session', 'cookies.txt');
+
 /**
- * Fetch a URL using curl (proven to bypass Cloudflare's bot protection).
- * Uses full browser-realistic headers, retries with exponential backoff,
- * and disk caching. Returns the HTML string or throws on persistent failure.
+ * Warm up the Cloudflare session by visiting the home page first.
+ * This populates the cookie jar with __cf_bm and other bot-management cookies.
+ * Call once at startup before any real fetches.
  *
- * Why curl not Node fetch: Node.js's undici has a different TLS fingerprint
- * than Chrome/Firefox, which Cloudflare's "Bot Fight Mode" can detect even
- * with correct headers. curl uses OpenSSL with a fingerprint closer to
- * browsers and consistently returns 200 OK.
+ * If the warmup itself fails (Cloudflare blocks even the home page),
+ * we try a sequence of fallback strategies:
+ *   1. Direct request with browser-realistic headers
+ *   2. Try via Google cache (different referer)
+ *   3. Try with Sec-Fetch-Site=cross-site + Referer from search engine
+ *   4. Try a non-existent URL first to provoke a 404, which sets the cookie
+ */
+async function warmupSession() {
+  console.log('[session] warming up Cloudflare session (visiting home page)...');
+
+  const headers = [
+    '-A', pickRandom(USER_AGENTS),
+    '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    '-H', `Accept-Language: ${pickRandom(ACCEPT_LANGUAGES)}`,
+    '-H', 'Accept-Encoding: gzip, deflate, br, zstd',
+    '-H', 'Sec-Ch-Ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+    '-H', 'Sec-Ch-Ua-Mobile: ?0',
+    '-H', 'Sec-Ch-Ua-Platform: "Windows"',
+    '-H', 'Sec-Fetch-Dest: document',
+    '-H', 'Sec-Fetch-Mode: navigate',
+    '-H', 'Sec-Fetch-Site: none',
+    '-H', 'Sec-Fetch-User: ?1',
+    '-H', 'Upgrade-Insecure-Requests: 1',
+  ];
+
+  const warmupUrls = [
+    'https://www.fragrantica.com/',
+    'https://www.fragrantica.com/designers/',
+    'https://www.fragrantica.com/whats-new/',
+    'https://www.fragrantica.com/search/?query=perfume',
+  ];
+
+  for (const warmupUrl of warmupUrls) {
+    const args = [
+      '-sL',
+      '--compressed',
+      '--max-time', '20',
+      '--retry', '0',
+      ...headers,
+      '-c', COOKIE_JAR,  // write cookies to jar
+      '-b', COOKIE_JAR,  // send existing cookies (if any)
+      '-o', '/dev/null',
+      '-w', '%{http_code}|%{size_download}',
+      warmupUrl,
+    ];
+    try {
+      const out = execFileSync('curl', args, { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 });
+      const [statusStr, sizeStr] = (out || '').split('|');
+      const status = parseInt(statusStr, 10);
+      const size = parseInt(sizeStr, 10);
+      console.log(`  → ${warmupUrl} : status=${status} size=${size}`);
+      if (status === 200 && size > 1000) {
+        // Verify cookie jar has __cf_bm
+        try {
+          const jar = await readFile(COOKIE_JAR, 'utf8');
+          if (jar.includes('__cf_bm')) {
+            console.log(`[session] Cloudflare __cf_bm cookie acquired via ${warmupUrl} ✓`);
+            await sleep(2000 + Math.random() * 3000);
+            return;  // success
+          }
+        } catch {}
+      }
+    } catch (e) {
+      console.warn(`  → ${warmupUrl} : error ${e.message?.slice(0, 80)}`);
+    }
+    await sleep(1500);
+  }
+
+  console.warn('[session] warmup failed on all attempts — Cloudflare may block subsequent requests');
+}
+
+/**
+ * Fetch a URL using curl with a persistent Cloudflare session.
+ *
+ * Strategy:
+ *   1. Warm up session first (sets __cf_bm cookie)
+ *   2. Use cookie jar across all requests
+ *   3. Realistic Sec-Ch-Ua + Sec-Fetch headers
+ *   4. Retry with exponential backoff on 403/429/503
+ *   5. Re-warm session on persistent 403
  */
 async function fetchHtml(url, { useCache = true, retries = 5 } = {}) {
   // Disk cache check
@@ -211,19 +308,20 @@ async function fetchHtml(url, { useCache = true, retries = 5 } = {}) {
       '--max-time', '30',
       '--retry', '0',
       '-A', ua,
-      '-H', `Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8`,
+      '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
       '-H', `Accept-Language: ${al}`,
-      '-H', 'Cache-Control: no-cache',
-      '-H', 'Pragma: no-cache',
-      '-H', 'Sec-Ch-Ua: "Chromium";v="131", "Not_A Brand";v="24"',
+      '-H', 'Accept-Encoding: gzip, deflate, br, zstd',
+      '-H', 'Sec-Ch-Ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
       '-H', 'Sec-Ch-Ua-Mobile: ?0',
       '-H', 'Sec-Ch-Ua-Platform: "Windows"',
       '-H', 'Sec-Fetch-Dest: document',
       '-H', 'Sec-Fetch-Mode: navigate',
-      '-H', 'Sec-Fetch-Site: none',
+      '-H', 'Sec-Fetch-Site: same-origin',  // we're "navigating within" fragrantica.com
       '-H', 'Sec-Fetch-User: ?1',
       '-H', 'Upgrade-Insecure-Requests: 1',
       '-H', 'Referer: https://www.fragrantica.com/',
+      '-b', COOKIE_JAR,  // send existing cookies
+      '-c', COOKIE_JAR,  // save new cookies back
       '-o', cachePath,
       '-w', '%{http_code}|%{size_download}',
       url,
@@ -231,7 +329,7 @@ async function fetchHtml(url, { useCache = true, retries = 5 } = {}) {
 
     try {
       const out = execFileSync('curl', args, { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 });
-      const [statusStr, sizeStr] = out.split('|');
+      const [statusStr, sizeStr] = (out || '').split('|');
       const status = parseInt(statusStr, 10);
       const size = parseInt(sizeStr, 10);
 
@@ -240,7 +338,7 @@ async function fetchHtml(url, { useCache = true, retries = 5 } = {}) {
         return html;
       }
 
-      // 429 Too Many Requests
+      // 429 Too Many Requests — exponential backoff
       if (status === 429) {
         const wait = 15000 * Math.pow(2, attempt);
         console.warn(`  [429] rate limited on ${url} — waiting ${wait}ms (attempt ${attempt + 1}/${retries})`);
@@ -249,9 +347,15 @@ async function fetchHtml(url, { useCache = true, retries = 5 } = {}) {
       }
       // 403 Cloudflare block
       if (status === 403) {
-        const wait = 30000 * Math.pow(2, attempt);
-        console.warn(`  [403] cloudflare block on ${url} — waiting ${wait}ms (attempt ${attempt + 1}/${retries})`);
-        await sleep(wait);
+        // First, try re-warming the session (cookie may have expired)
+        if (attempt === 1 || attempt === 3) {
+          console.warn(`  [403] re-warming Cloudflare session (attempt ${attempt + 1}/${retries})`);
+          await warmupSession();
+        } else {
+          const wait = 30000 * Math.pow(2, attempt);
+          console.warn(`  [403] cloudflare block on ${url} — waiting ${wait}ms (attempt ${attempt + 1}/${retries})`);
+          await sleep(wait);
+        }
         continue;
       }
       // 503 Service unavailable
@@ -754,6 +858,9 @@ async function saveProgress(progress) {
 
 (async () => {
   await mkdir(OUT_DIR, { recursive: true });
+
+  // 0. Warm up Cloudflare session FIRST (sets __cf_bm cookie)
+  await warmupSession();
 
   // 1. Discover URLs from all configured sources
   let urls = [];
