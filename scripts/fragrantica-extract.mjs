@@ -413,7 +413,11 @@ const PATTERNS = {
   //   women. <b>Epic Woman</b> was launched in 2009. Epic Woman was created by
   //   Cécile Zarokian, Daniel Maurel and Angéline Leporini. Top notes are
   //   Caraway, Cinnamon and Pink Nerium Oleander; middle notes are ...
-  mainDesc: /<p><b>(.+?)<\/b>\s+by\s+<b>(.+?)<\/b>\s+is\s+an?\s+(?:(.+?)\s+)?fragrance\s+for\s+(.+?)\.\s*<b>[^<]+<\/b>\s+was\s+launched\s+in\s+(\d{4})\.\s*(?:(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are)\s+(.+?)\.\s*|(?:[A-Z][\w''-]+(?:\s+[A-Z][\w''-]+)*)\s+was\s+created\s+by\s+(.+?)\.\s*)?Top\s+notes\s+are\s+(.+?);\s*middle\s+notes\s+are\s+(.+?);\s*base\s+notes\s+are\s+(.+?)\.\s*<\/p>/i,
+  mainDesc: /<p><b>(.+?)<\/b>\s+by\s+<b>(.+?)<\/b>\s+is\s+an?\s+(.+?)\s+fragrance\s+for\s+(women(?:\s+and\s+men)?|men(?:\s+and\s+women)?)\.(?:\s*This\s+is\s+a\s+new\s+fragrance\.)?\s*<b>[^<]+<\/b>\s+was\s+launched\s+in\s+(\d{4})\.\s*(?:(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are)\s+(.+?)\.\s*|(?:[A-Z][\w''-]+(?:\s+[A-Z][\w''-]+)*)\s+was\s+created\s+by\s+(.+?)\.\s*)?Top\s+notes?\s+(?:are|is)\s+(.+?);\s*middle\s+notes?\s+(?:are|is)\s+(.+?);\s*base\s+notes?\s+(?:are|is)\s+(.+?)\.\s*<\/p>/i,
+
+  // Variant for pages without family classification (e.g. "is a fragrance for women and men")
+  // Used when mainDesc fails to match
+  mainDescNoFamily: /<p><b>(.+?)<\/b>\s+by\s+<b>(.+?)<\/b>\s+is\s+an?\s+fragrance\s+for\s+(women(?:\s+and\s+men)?|men(?:\s+and\s+women)?)\.(?:\s*This\s+is\s+a\s+new\s+fragrance\.)?\s*<b>[^<]+<\/b>\s+was\s+launched\s+in\s+(\d{4})\.\s*(?:(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are)\s+(.+?)\.\s*|(?:[A-Z][\w''-]+(?:\s+[A-Z][\w''-]+)*)\s+was\s+created\s+by\s+(.+?)\.\s*)?Top\s+notes?\s+(?:are|is)\s+(.+?);\s*middle\s+notes?\s+(?:are|is)\s+(.+?);\s*base\s+notes?\s+(?:are|is)\s+(.+?)\.\s*<\/p>/i,
 
   // Pattern for fallback when main description doesn't match (older/discontinued pages)
   // Captures name, brand, family (optional), gender without requiring the launch year / perfumer
@@ -426,7 +430,7 @@ const PATTERNS = {
   perfumerAny: /(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are|was\s+created\s+by)\s+([^.<]+?)\./i,
 
   // Pattern for top/middle/base notes (used in fallback mode)
-  notesAny: /Top\s+notes?\s+are\s+(.+?);\s*middle\s+notes?\s+are\s+(.+?);\s*base\s+notes?\s+are\s+(.+?)\.\s/i,
+  notesAny: /Top\s+notes?\s+(?:are|is)\s+(.+?);\s*middle\s+notes?\s+(?:are|is)\s+(.+?);\s*base\s+notes?\s+(?:are|is)\s+(.+?)\.\s/i,
 
   // Extended description block
   extDesc: /<div v-pre class='fragrantica-blockquote'><p>([\s\S]+?)<\/p><\/div>/,
@@ -510,25 +514,49 @@ function extractFromHtml(html, sourceUrl) {
   //    missing year, etc.), fall back to a more permissive extraction that
   //    pulls each field independently with separate patterns.
   //
-  // NOTE: With the new optional family group (some pages like "Guidance Hair
-  // Perfume" omit the family classification), the capture groups are:
-  //   m[1] = name, m[2] = brand, m[3] = family (may be undefined), m[4] = gender
-  //   m[5] = year
-  //   m[6] = perfumer (variant: "The nose behind this fragrance is X")
-  //   m[7] = perfumer (variant: "X was created by A, B, C")
-  //   m[8] = top notes, m[9] = middle notes, m[10] = base notes
-  const m = html.match(PATTERNS.mainDesc);
+  // Patterns tried in order:
+  //   1. mainDesc          — full match (family + year + perfumer + notes)
+  //                          m[1]=name m[2]=brand m[3]=family m[4]=gender
+  //                          m[5]=year m[6]=perfumer_v1 m[7]=perfumer_v2
+  //                          m[8]=top m[9]=middle m[10]=base
+  //   2. mainDescNoFamily  — same but no family word (e.g. hair perfumes)
+  //                          m[1]=name m[2]=brand m[3]=gender m[4]=year
+  //                          m[5]=perfumer_v1 m[6]=perfumer_v2
+  //                          m[7]=top m[8]=middle m[9]=base
+  //   3. mainDescFallback  — just name/brand/gender, then year/perfumer/notes separately
+  let m = html.match(PATTERNS.mainDesc);
+  let familyPresent = true;
+  if (!m) {
+    // Try variant without family classification
+    m = html.match(PATTERNS.mainDescNoFamily);
+    familyPresent = false;
+  }
   if (m) {
-    out.name = decodeEntities(m[1].trim());
-    out.brand = decodeEntities(m[2].trim());
-    out.family = m[3] ? decodeEntities(m[3].trim()) : null;
-    out.gender = decodeEntities(m[4].trim());
-    out.year = parseInt(m[5], 10);
-    out.perfumer = m[6] ? decodeEntities(m[6].trim())
-               : (m[7] ? decodeEntities(m[7].trim()) : null);
-    out.topNotes = parseList(m[8]);
-    out.middleNotes = parseList(m[9]);
-    out.baseNotes = parseList(m[10]);
+    if (familyPresent) {
+      // mainDesc: full match with family
+      out.name = decodeEntities(m[1].trim());
+      out.brand = decodeEntities(m[2].trim());
+      out.family = m[3] ? decodeEntities(m[3].trim()) : null;
+      out.gender = decodeEntities(m[4].trim());
+      out.year = parseInt(m[5], 10);
+      out.perfumer = m[6] ? decodeEntities(m[6].trim())
+                 : (m[7] ? decodeEntities(m[7].trim()) : null);
+      out.topNotes = parseList(m[8]);
+      out.middleNotes = parseList(m[9]);
+      out.baseNotes = parseList(m[10]);
+    } else {
+      // mainDescNoFamily: no family classification (e.g. "is a fragrance for women and men")
+      out.name = decodeEntities(m[1].trim());
+      out.brand = decodeEntities(m[2].trim());
+      out.family = null;
+      out.gender = decodeEntities(m[3].trim());
+      out.year = parseInt(m[4], 10);
+      out.perfumer = m[5] ? decodeEntities(m[5].trim())
+                 : (m[6] ? decodeEntities(m[6].trim()) : null);
+      out.topNotes = parseList(m[7]);
+      out.middleNotes = parseList(m[8]);
+      out.baseNotes = parseList(m[9]);
+    }
   } else {
     // Fallback: extract each field independently with looser patterns.
     // This handles pages where the description uses variant phrasing that
