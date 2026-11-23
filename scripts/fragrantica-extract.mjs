@@ -2,9 +2,18 @@
 /**
  * Larsi Perfume Finder — fragrantica-extract.mjs
  * ===========================================================================
- * Daily automatic Fragrantica extractor with 100% field coverage.
+ * Daily automatic Fragrantica extractor with multi-source discovery.
  *
- * Extracts for every perfume:
+ * DISCOVERY SOURCES (all combinable):
+ *   --brands "Amouage,Dior,Chanel"                  Brand pages (most common)
+ *   --urls "url1,url2"                                 Explicit perfume URLs
+ *   --search "oud|male,rose|female"                  Search by keyword + gender
+ *   --whats-new                                         Latest releases (~69)
+ *   --country "France,Italy,USA"                     Country pages
+ *   --designers-index                                  ALL brands on Fragrantica
+ *   --max-brands-from-index N                          Limit for designers-index
+ *
+ * Extracts for every perfume (12+ fields, both EN + FA):
  *   brand              — English brand name
  *   brandFa            — Persian brand name
  *   name               — Full English name (e.g. "Shalimar Eau de Parfum")
@@ -40,21 +49,36 @@
  *   extractedAt        — ISO timestamp
  *
  * CLOUDFLARE BYPASS STRATEGY (all limits respected):
- *   1. Browser-realistic User-Agent + Accept headers + Accept-Language
- *   2. Sec-Fetch-* headers (Sites: none, Dest: document, Mode: navigate)
- *   3. Random delay between requests: 4-8 seconds (polite, human-like)
- *   4. Exponential backoff on 429/403/503: 15s, 30s, 60s, 120s, 300s
- *   5. User-Agent rotation across 5 real Chrome/Edge UAs
- *   6. Cookie jar persistence within session
- *   7. HTTP/2 keep-alive via single global agent
- *   8. Cache successful fetches to disk to avoid re-fetching on retry
- *   9. Resume capability via progress file
+ *   1. Uses curl (not Node fetch) — curl's TLS fingerprint passes Cloudflare Bot Fight Mode
+ *   2. Browser-realistic User-Agent + Accept headers + Accept-Language rotation
+ *   3. Sec-Fetch-* headers (Sites: none, Dest: document, Mode: navigate)
+ *   4. Random delay between requests: 4-8 seconds (polite, human-like)
+ *   5. Exponential backoff on 429/403/503: 15s, 30s, 60s, 120s, 300s
+ *   6. User-Agent rotation across 5 real Chrome/Edge UAs
+ *   7. Disk cache for fetched HTML (resume-friendly)
+ *   8. Resume capability via progress file
  *
- * USAGE:
- *   node scripts/fragrantica-extract.mjs --brands Amouage,Chanel,Dior
- *   node scripts/fragrantica-extract.mjs --urls url1,url2,url3
- *   node scripts/fragrantica-extract.mjs --brands Dior --limit 10
- *   node scripts/fragrantica-extract.mjs --brands Dior --resume
+ * USAGE EXAMPLES:
+ *   # Daily default: 8 luxury brands
+ *   node scripts/fragrantica-extract.mjs --brands Amouage,Dior,Chanel,Guerlain,Creed,Parfums-de-Marly,Frederic-Malle,Byredo --resume
+ *
+ *   # Extract specific perfumes by URL
+ *   node scripts/fragrantica-extract.mjs --urls "https://www.fragrantica.com/perfume/Chanel/Coco-Mademoiselle-611.html,https://www.fragrantica.com/perfume/Dior/Sauvage-31861.html"
+ *
+ *   # Discover by keyword + gender
+ *   node scripts/fragrantica-extract.mjs --search "oud|male,rose|female,vanilla|unisex"
+ *
+ *   # Latest releases only
+ *   node scripts/fragrantica-extract.mjs --whats-new
+ *
+ *   # Perfumes from specific countries
+ *   node scripts/fragrantica-extract.mjs --country "France,Italy,USA"
+ *
+ *   # Full catalogue (120+ brands, ~5000 perfumes, takes ~6 hours)
+ *   node scripts/fragrantica-extract.mjs --designers-index --resume
+ *
+ *   # Test mode: just first 5 perfumes of one brand
+ *   node scripts/fragrantica-extract.mjs --brands Amouage --limit 5
  *
  * OUTPUT: data/fragrantica-extracted.json (and data/fragrantica-progress.json)
  * ===========================================================================
@@ -86,9 +110,24 @@ const arg = (name, dflt) => {
   const i = process.argv.indexOf('--' + name);
   return i > -1 && process.argv[i + 1] ? process.argv[i + 1] : dflt;
 };
-const BRANDS = arg('brands', '').split(',').map(s => s.trim()).filter(Boolean);
-const URLS = arg('urls', '').split(',').map(s => s.trim()).filter(Boolean);
-const LIMIT = parseInt(arg('limit', '0'), 10);   // 0 = no limit
+const argList = (name) => arg(name, '').split(',').map(s => s.trim()).filter(Boolean);
+
+// Discovery sources — can be combined:
+//   --brands "Dior,Chanel"        → fetch each /designers/{Brand}.html
+//   --urls "url1,url2,..."        → fetch each perfume URL directly
+//   --search "oud|male,rose|female"  → query|gender pairs
+//   --whats-new                    → fetch /whats-new/ (latest releases)
+//   --designers-index              → fetch /designers/ index, then each brand
+//   --country "France,Italy"       → fetch /country/{Country}.html
+//   --max-brands-from-index N      → limit brand count when using --designers-index
+const BRANDS = argList('brands');
+const URLS = argList('urls');
+const SEARCH = argList('search');  // each item: "query|gender" or just "query"
+const COUNTRIES = argList('country');
+const WHATS_NEW = process.argv.includes('--whats-new');
+const DESIGNERS_INDEX = process.argv.includes('--designers-index');
+const MAX_BRANDS_FROM_INDEX = parseInt(arg('max-brands-from-index', '0'), 10);  // 0 = all
+const LIMIT = parseInt(arg('limit', '0'), 10);   // 0 = no limit (per source)
 const DELAY_MIN = parseInt(arg('delay-min', '4000'), 10);
 const DELAY_MAX = parseInt(arg('delay-max', '8000'), 10);
 const RESUME = process.argv.includes('--resume');
@@ -97,12 +136,16 @@ const VERBOSE = process.argv.includes('--verbose');
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 console.log('  Larsi Perfume Finder — Fragrantica Daily Extractor');
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-console.log(`  Brands: ${BRANDS.length ? BRANDS.join(', ') : '(none)'}`);
-console.log(`  URLs:   ${URLS.length ? URLS.length + ' explicit URLs' : '(none)'}`);
-console.log(`  Limit:  ${LIMIT || 'unlimited'}`);
-console.log(`  Delay:  ${DELAY_MIN}-${DELAY_MAX}ms between requests`);
-console.log(`  Resume: ${RESUME ? 'yes' : 'no'}`);
-console.log(`  Output: ${OUT_FILE}`);
+if (BRANDS.length)         console.log(`  Brands:          ${BRANDS.join(', ')}`);
+if (URLS.length)           console.log(`  Direct URLs:     ${URLS.length}`);
+if (SEARCH.length)         console.log(`  Search queries:  ${SEARCH.join(', ')}`);
+if (COUNTRIES.length)      console.log(`  Countries:       ${COUNTRIES.join(', ')}`);
+if (WHATS_NEW)             console.log(`  What's New:       yes`);
+if (DESIGNERS_INDEX)       console.log(`  Designers Index:  yes${MAX_BRANDS_FROM_INDEX ? ` (max ${MAX_BRANDS_FROM_INDEX} brands)` : ' (all brands)'}`);
+console.log(`  Limit per src:  ${LIMIT || 'unlimited'}`);
+console.log(`  Delay:          ${DELAY_MIN}-${DELAY_MAX}ms between requests`);
+console.log(`  Resume:         ${RESUME ? 'yes' : 'no'}`);
+console.log(`  Output:         ${OUT_FILE}`);
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
 await mkdir(CACHE_DIR, { recursive: true });
@@ -407,20 +450,106 @@ function extractFromHtml(html, sourceUrl) {
 }
 
 // ---------------------------------------------------------------------------
-// DISCOVERY: List all perfume URLs from a brand page
+// DISCOVERY FUNCTIONS
 // ---------------------------------------------------------------------------
 
-async function listBrandPerfumes(brandSlug) {
-  const url = `https://www.fragrantica.com/designers/${brandSlug}.html`;
-  console.log(`\n[discover] listing perfumes for brand "${brandSlug}"...`);
-  const html = await fetchHtml(url);
+/** Common helper: extract all /perfume/{Brand}/{Name}-{id}.html links from any HTML. */
+function extractPerfumeLinks(html) {
   const links = new Set();
-  const re = new RegExp(`/perfume/${brandSlug}/[^"']+\\.html`, 'gi');
-  for (const m of html.matchAll(re)) {
+  for (const m of html.matchAll(/\/perfume\/([A-Za-z0-9-]+)\/([A-Za-z0-9'().-]+)-(\d+)\.html/g)) {
     links.add('https://www.fragrantica.com' + m[0]);
   }
-  console.log(`[discover] found ${links.size} perfume URLs for ${brandSlug}`);
   return [...links];
+}
+
+/** Common helper: extract all /designers/{Brand}.html links from any HTML. */
+function extractBrandLinks(html) {
+  const brands = new Set();
+  for (const m of html.matchAll(/\/designers\/([A-Za-z0-9-]+)\.html/g)) {
+    brands.add(m[1]);
+  }
+  return [...brands];
+}
+
+/**
+ * Source 1: Brand page — list all perfumes from /designers/{Brand}.html
+ * Example: listBrandPerfumes('Chanel') → 156 perfume URLs
+ */
+async function listBrandPerfumes(brandSlug) {
+  const url = `https://www.fragrantica.com/designers/${brandSlug}.html`;
+  console.log(`\n[discover:brand] listing perfumes for "${brandSlug}"...`);
+  const html = await fetchHtml(url);
+  // Prefer links that include the brand slug; fall back to all perfume links.
+  const all = extractPerfumeLinks(html);
+  const matches = all.filter(u => u.toLowerCase().includes(`/perfume/${brandSlug.toLowerCase()}/`));
+  const final = matches.length ? matches : all;
+  console.log(`[discover:brand] found ${final.length} perfume URLs for ${brandSlug}`);
+  return final;
+}
+
+/**
+ * Source 2: Search page — /search/?query={q}&spol={gender}
+ *   item format: "query" or "query|gender" where gender is male|female|unisex
+ *   Examples:
+ *     "oud"           → https://www.fragrantica.com/search/?query=oud
+ *     "oud|male"      → https://www.fragrantica.com/search/?query=oud&spol=male
+ *     "rose|female"   → https://www.fragrantica.com/search/?query=rose&spol=female
+ *
+ * Returns ~189 perfume URLs per search (single-page results).
+ */
+async function listSearchPerfumes(item) {
+  const [query, gender] = item.split('|').map(s => s.trim());
+  if (!query) return [];
+  const params = new URLSearchParams({ query });
+  if (gender && ['male', 'female', 'unisex'].includes(gender.toLowerCase())) {
+    params.set('spol', gender.toLowerCase());
+  }
+  const url = `https://www.fragrantica.com/search/?${params.toString()}`;
+  console.log(`\n[discover:search] query="${query}" gender="${gender || 'any'}"`);
+  const html = await fetchHtml(url);
+  const links = extractPerfumeLinks(html);
+  console.log(`[discover:search] found ${links.length} perfume URLs for "${query}"`);
+  return links;
+}
+
+/**
+ * Source 3: What's New — /whats-new/
+ * Returns ~69 most recently added perfumes.
+ */
+async function listWhatsNewPerfumes() {
+  const url = 'https://www.fragrantica.com/whats-new/';
+  console.log(`\n[discover:whats-new] fetching latest releases...`);
+  const html = await fetchHtml(url);
+  const links = extractPerfumeLinks(html);
+  console.log(`[discover:whats-new] found ${links.length} perfume URLs`);
+  return links;
+}
+
+/**
+ * Source 4: Designers Index — /designers/
+ * Returns ALL brand slugs on Fragrantica (currently ~120).
+ * Use --max-brands-from-index N to limit when testing.
+ */
+async function listAllBrands() {
+  const url = 'https://www.fragrantica.com/designers/';
+  console.log(`\n[discover:designers-index] fetching brand list...`);
+  const html = await fetchHtml(url);
+  const brands = extractBrandLinks(html);
+  console.log(`[discover:designers-index] found ${brands.length} brands${MAX_BRANDS_FROM_INDEX ? ` (will use ${Math.min(MAX_BRANDS_FROM_INDEX, brands.length)})` : ''}`);
+  return MAX_BRANDS_FROM_INDEX ? brands.slice(0, MAX_BRANDS_FROM_INDEX) : brands;
+}
+
+/**
+ * Source 5: Country page — /country/{Country}.html
+ * Example: listCountryPerfumes('France') → 39 perfume URLs
+ */
+async function listCountryPerfumes(countrySlug) {
+  const url = `https://www.fragrantica.com/country/${countrySlug}.html`;
+  console.log(`\n[discover:country] listing perfumes from "${countrySlug}"...`);
+  const html = await fetchHtml(url);
+  const links = extractPerfumeLinks(html);
+  console.log(`[discover:country] found ${links.length} perfume URLs for ${countrySlug}`);
+  return links;
 }
 
 // ---------------------------------------------------------------------------
@@ -564,27 +693,105 @@ async function saveProgress(progress) {
 (async () => {
   await mkdir(OUT_DIR, { recursive: true });
 
-  // 1. Discover URLs
+  // 1. Discover URLs from all configured sources
   let urls = [];
+  const urlSet = new Set();   // dedup across sources
+
+  const addUrls = (newUrls, source) => {
+    let added = 0;
+    for (const u of newUrls) {
+      if (!urlSet.has(u)) {
+        urlSet.add(u);
+        urls.push(u);
+        added++;
+      }
+    }
+    if (added) console.log(`[main] +${added} URLs from ${source} (total: ${urls.length})`);
+  };
+
+  // Source: explicit URLs (--urls)
   if (URLS.length) {
-    urls = URLS;
-  } else if (BRANDS.length) {
+    addUrls(URLS, '--urls');
+  }
+
+  // Source: brand pages (--brands)
+  if (BRANDS.length) {
     for (const brand of BRANDS) {
       try {
         const brandUrls = await listBrandPerfumes(brand);
-        urls.push(...brandUrls);
+        addUrls(brandUrls, `brand:${brand}`);
         await sleep(DELAY_MIN + Math.random() * (DELAY_MAX - DELAY_MIN));
       } catch (e) {
         console.error(`[error] failed to list brand ${brand}: ${e.message}`);
       }
     }
-  } else {
-    console.error('No brands or URLs specified. Use --brands Amouage,Chanel or --urls url1,url2');
+  }
+
+  // Source: search queries (--search "oud|male,rose|female")
+  for (const item of SEARCH) {
+    try {
+      const searchUrls = await listSearchPerfumes(item);
+      addUrls(searchUrls, `search:${item}`);
+      await sleep(DELAY_MIN + Math.random() * (DELAY_MAX - DELAY_MIN));
+    } catch (e) {
+      console.error(`[error] failed to search "${item}": ${e.message}`);
+    }
+  }
+
+  // Source: What's New (--whats-new)
+  if (WHATS_NEW) {
+    try {
+      const whatsNewUrls = await listWhatsNewPerfumes();
+      addUrls(whatsNewUrls, 'whats-new');
+      await sleep(DELAY_MIN + Math.random() * (DELAY_MAX - DELAY_MIN));
+    } catch (e) {
+      console.error(`[error] failed to list what's new: ${e.message}`);
+    }
+  }
+
+  // Source: country pages (--country "France,Italy")
+  for (const country of COUNTRIES) {
+    try {
+      const countryUrls = await listCountryPerfumes(country);
+      addUrls(countryUrls, `country:${country}`);
+      await sleep(DELAY_MIN + Math.random() * (DELAY_MAX - DELAY_MIN));
+    } catch (e) {
+      console.error(`[error] failed to list country ${country}: ${e.message}`);
+    }
+  }
+
+  // Source: designers index (--designers-index)
+  // This is a two-level discovery: fetch the index, then each brand.
+  if (DESIGNERS_INDEX) {
+    try {
+      const allBrands = await listAllBrands();
+      for (const brand of allBrands) {
+        try {
+          const brandUrls = await listBrandPerfumes(brand);
+          addUrls(brandUrls, `designers-index:${brand}`);
+          await sleep(DELAY_MIN + Math.random() * (DELAY_MAX - DELAY_MIN));
+        } catch (e) {
+          console.error(`[error] designers-index: failed to list brand ${brand}: ${e.message}`);
+        }
+      }
+    } catch (e) {
+      console.error(`[error] failed to fetch designers index: ${e.message}`);
+    }
+  }
+
+  if (!urls.length) {
+    console.error('No URLs discovered. Specify at least one of:');
+    console.error('  --brands Amouage,Chanel        fetch brand pages');
+    console.error('  --urls url1,url2               explicit perfume URLs');
+    console.error('  --search "oud|male,rose|female" search queries');
+    console.error('  --whats-new                    fetch latest releases');
+    console.error('  --country France,Italy         fetch country pages');
+    console.error('  --designers-index              fetch ALL brands (slow!)');
     process.exit(1);
   }
 
   if (LIMIT > 0) urls = urls.slice(0, LIMIT);
-  console.log(`\n[main] will extract ${urls.length} perfume pages\n`);
+  console.log(`\n[main] will extract ${urls.length} perfume pages (deduped)\n`);
 
   // 2. Load progress
   const progress = await loadProgress();

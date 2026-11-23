@@ -1,368 +1,122 @@
 [
   {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Beach-Hut-Man-46336.html",
-    "extractedAt": "2026-11-23T14:12:04.758Z",
-    "name": "Beach Hut Man",
-    "brand": "Amouage",
-    "family": "Woody Aromatic",
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/Antaeus-616.html",
+    "extractedAt": "2026-11-23T14:32:02.516Z",
+    "name": "Antaeus",
+    "brand": "Chanel",
+    "family": "Woody Chypre",
     "gender": "men",
-    "year": 2017,
-    "perfumer": "Elise Benat",
+    "year": 1981,
+    "perfumer": "Jacques Polge",
     "topNotes": [
-      "Mint",
-      "Galbanum",
-      "Orange Blossom"
+      "Clary Sage",
+      "Coriander",
+      "Bergamot",
+      "Lime",
+      "Amalfi Lemon",
+      "Myrtle"
     ],
     "middleNotes": [
-      "Ivy",
-      "Moss",
-      "Vetiver"
+      "Rose",
+      "Thyme",
+      "Basil",
+      "Jasmine"
     ],
     "baseNotes": [
-      "Woody Notes",
-      "Myrrh",
-      "Patchouli"
+      "Castoreum",
+      "Oakmoss",
+      "Patchouli",
+      "French labdanum"
     ],
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46336.jpg",
-    "rating": 4.19,
-    "ratingVotes": 4013,
+    "description": "Antaeus is the name of ancient Greek demigod. Strong, like a god, and gentle as a man, Antaeus belongs to those perfumes of expressed individuality and strong character which emphasize masculinity, what was a trend in 1980-ies. Myrtle and sage, lime and thyme have united to give the fragrance a special freshness and masculine character. The fragrance is warming up and becomes intensive at the end due to patchouli, sandal and labdanum in the base. Sharp animalistic nuance is brought in by the notes of castoreum and leather.</p> <p> The top notes include lemon, lime, coriander, myrtle, clary sage, and bergamot. The heart is composed of thyme, basil, rose and jasmine, while the base of patchouli, castoreum, labdanum, and oak moss. The perfume was created by Jacques Polge in 1981.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.616.jpg",
+    "rating": 4.25,
+    "ratingVotes": 6200,
     "accords": [
-      {
-        "nameEn": "green",
-        "nameFa": "سبز",
-        "percent": 100
-      },
       {
         "nameEn": "woody",
         "nameFa": "چوبی",
-        "percent": 64
+        "percent": 100
       },
       {
         "nameEn": "aromatic",
         "nameFa": "معطر",
-        "percent": 63
+        "percent": 95
       },
       {
-        "nameEn": "earthy",
-        "nameFa": "خاکی",
-        "percent": 40
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 80
       },
       {
         "nameEn": "mossy",
         "nameFa": "خزه‌ای",
-        "percent": 26
+        "percent": 66
       },
       {
-        "nameEn": "fresh",
-        "nameFa": "تازه",
-        "percent": 21
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 63
       },
       {
-        "nameEn": "fresh spicy",
-        "nameFa": "ادویه‌ای تازه",
-        "percent": 21
-      },
-      {
-        "nameEn": "balsamic",
-        "nameFa": "بالسامی",
-        "percent": 19
-      }
-    ],
-    "fragranticaId": 46336,
-    "concentration": null,
-    "baseName": "Beach Hut Man",
-    "brandFa": "آموژ",
-    "nameFa": "Beach Hut Man",
-    "familyFa": "چوبی معطر",
-    "genderFa": "مردانه",
-    "perfumerFa": "Elise Benat",
-    "topNotesFa": [
-      "نعناع",
-      "گلبانوم",
-      "گل پرتقال"
-    ],
-    "middleNotesFa": [
-      "Ivy",
-      "خزه",
-      "وتیور"
-    ],
-    "baseNotesFa": [
-      "Woody Notes",
-      "مور",
-      "پچولی"
-    ],
-    "seasons": [
-      "spring",
-      "autumn",
-      "winter",
-      "summer"
-    ],
-    "primarySeason": "spring",
-    "secondarySeason": "autumn",
-    "primarySeasonFa": "بهار",
-    "secondarySeasonFa": "پاییز",
-    "seasonsFa": [
-      "بهار",
-      "پاییز",
-      "زمستان",
-      "تابستان"
-    ],
-    "timeOfDay": "day",
-    "timeOfDayFa": "روز"
-  },
-  {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Cristal-Gold-Man-88160.html",
-    "extractedAt": "2026-11-23T14:12:10.797Z",
-    "name": "Cristal & Gold Man",
-    "brand": "Amouage",
-    "family": "Woody Chypre",
-    "gender": "men",
-    "year": 2023,
-    "perfumer": "Alexandra Carlin",
-    "topNotes": [
-      "Aldehydes",
-      "Honey",
-      "Frankincense",
-      "Neroli",
-      "Bergamot",
-      "Petitgrain"
-    ],
-    "middleNotes": [
-      "Heliotrope",
-      "Jasmine",
-      "Damask Rose",
-      "Ylang-Ylang",
-      "Orris Root"
-    ],
-    "baseNotes": [
-      "Civet",
-      "Ambergris",
-      "Labdanum",
-      "Patchouli",
-      "Sandalwood",
-      "Vetiver",
-      "Guaiac Wood"
-    ],
-    "description": "This fragrance, also formulated by Carlin, falls under the Chypre Woody Floral olfactive family. Aged for 6 weeks, it features a high concentration of 25% pure perfume oils in an Eau de Parfum form.</p> <p><strong>Top Notes: </strong>Frankincense, Bergamot, Neroli, Petitgrain, Aldehydes, Honey<br /> <strong>Heart Notes: </strong>Rose Damascena, Jasmine, Ylang-Ylang, Orris, Heliotrope<br /> <strong>Base Notes:</strong> Orientalgris, Vetiver, Sandalwood, Patchouli, Guaiac wood, Labdanum, Civet",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88160.jpg",
-    "rating": 4.3,
-    "ratingVotes": 47,
-    "accords": [
-      {
-        "nameEn": "animalic",
-        "nameFa": "حیوانی",
-        "percent": 100
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 62
       },
       {
         "nameEn": "musky",
         "nameFa": "مشی",
-        "percent": 97
-      },
-      {
-        "nameEn": "amber",
-        "nameFa": "کهربایی",
-        "percent": 84
-      },
-      {
-        "nameEn": "powdery",
-        "nameFa": "پودری",
-        "percent": 63
-      },
-      {
-        "nameEn": "aldehydic",
-        "nameFa": "آلدهیدی",
-        "percent": 40
-      },
-      {
-        "nameEn": "fresh",
-        "nameFa": "تازه",
-        "percent": 28
-      },
-      {
-        "nameEn": "woody",
-        "nameFa": "چوبی",
-        "percent": 26
-      },
-      {
-        "nameEn": "honey",
-        "nameFa": "عسلی",
-        "percent": 24
-      }
-    ],
-    "fragranticaId": 88160,
-    "concentration": null,
-    "baseName": "Cristal & Gold Man",
-    "brandFa": "آموژ",
-    "nameFa": "Cristal & Gold Man",
-    "familyFa": "چوبی شیپر",
-    "genderFa": "مردانه",
-    "perfumerFa": "Alexandra Carlin",
-    "topNotesFa": [
-      "آلدهیدها",
-      "عسل",
-      "کندر",
-      "نرولی",
-      "برگاموت",
-      "پتیت‌گرین"
-    ],
-    "middleNotesFa": [
-      "گل هلیوتروپ",
-      "یاسمن",
-      "گل رز دمشقی",
-      "ایلنگ‌ایلنگ",
-      "ریشه زنبق"
-    ],
-    "baseNotesFa": [
-      "گربه سروتی",
-      "کهربا خاکستری",
-      "لابدانوم",
-      "پچولی",
-      "چوب صندل",
-      "وتیور",
-      "چوب گوئیک"
-    ],
-    "descriptionFa": "این عطر که آن هم توسط کارلین فرموله شده است، متعلق به خانواده بویایی چیپر چوبی گلی است. این عطر که به مدت 6 هفته کهنه‌سازی شده است، دارای غلظت بالای 25% روغن‌های عطر خالص در قالب ادو پرفیوم است.</p> <p><strong>نت‌های اولیه: </strong>کندر، ترنج، نرولی، پتی‌گرن، آلدئیدها، عسل<br /> <strong>نت‌های میانی: </strong>گل رز دمشقی، یاس، یلانگ-یلانگ، زنبق، هلیوتروپ<br /> <strong>نت‌های پایه:</strong> عنبر، خس‌خس، چوب صندل",
-    "seasons": [
-      "winter",
-      "autumn",
-      "spring",
-      "summer"
-    ],
-    "primarySeason": "winter",
-    "secondarySeason": "autumn",
-    "primarySeasonFa": "زمستان",
-    "secondarySeasonFa": "پاییز",
-    "seasonsFa": [
-      "زمستان",
-      "پاییز",
-      "بهار",
-      "تابستان"
-    ],
-    "timeOfDay": "night",
-    "timeOfDayFa": "شب"
-  },
-  {
-    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Cristal-Gold-Woman-88159.html",
-    "extractedAt": "2026-11-23T14:12:50.852Z",
-    "name": "Cristal & Gold Woman",
-    "brand": "Amouage",
-    "family": "Floral Aldehyde",
-    "gender": "women",
-    "year": 2023,
-    "perfumer": "Alexandra Carlin",
-    "topNotes": [
-      "Aldehydes",
-      "Neroli",
-      "Petitgrain",
-      "Frankincense",
-      "Bergamot"
-    ],
-    "middleNotes": [
-      "Rose",
-      "Jasmine",
-      "Heliotrope",
-      "Ylang-Ylang",
-      "Orris Root"
-    ],
-    "baseNotes": [
-      "Amber",
-      "Civet",
-      "Bourbon Vanilla",
-      "Vetiver",
-      "Labdanum",
-      "Sandalwood"
-    ],
-    "description": "<em>\"40 years ago, a Sultan's dream gave birth to a historic perfume. An object that was to encapsulate the subtle essence of an entire nation and tell the world of its richness. The richness of its millennial history; the richness of its humble spirit; the richness of its unlimited hospitality. 40 years ago, a Sultan's dream gave birth to 'the most valuable perfume in the world.'\"</em></p> <p>This perfume, developed by Alexandra Carlin, is a Floral Aldehydic Woody scent, aged for 7 weeks, with a potent concentration of 20% pure perfume oils in an Eau de Parfum form.</p> <p><strong>Top Notes: </strong>Frankincense, Bergamot, Neroli, Petitgrain, Aldehydes<br /> <strong>Heart Notes: </strong>Rose Damascena, Jasmine, Ylang-Ylang, Orris, Heliotrope<br /> <strong>Base Notes: </strong>Orientalgris, Vetiver, Sandalwood, Bourbon Vanilla, Labdanum, Civet",
-    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88159.jpg",
-    "rating": 4.56,
-    "ratingVotes": 39,
-    "accords": [
-      {
-        "nameEn": "aldehydic",
-        "nameFa": "آلدهیدی",
-        "percent": 100
-      },
-      {
-        "nameEn": "powdery",
-        "nameFa": "پودری",
-        "percent": 75
+        "percent": 51
       },
       {
         "nameEn": "rose",
         "nameFa": "رزی",
-        "percent": 71
-      },
-      {
-        "nameEn": "fresh",
-        "nameFa": "تازه",
-        "percent": 70
-      },
-      {
-        "nameEn": "amber",
-        "nameFa": "کهربایی",
-        "percent": 69
-      },
-      {
-        "nameEn": "white floral",
-        "nameFa": "گل سفید",
-        "percent": 64
-      },
-      {
-        "nameEn": "animalic",
-        "nameFa": "حیوانی",
-        "percent": 63
-      },
-      {
-        "nameEn": "vanilla",
-        "nameFa": "وانیلی",
-        "percent": 59
+        "percent": 46
       }
     ],
-    "fragranticaId": 88159,
+    "fragranticaId": 616,
     "concentration": null,
-    "baseName": "Cristal & Gold Woman",
-    "brandFa": "آموژ",
-    "nameFa": "Cristal & Gold Woman",
-    "familyFa": "Floral Aldehyde",
-    "genderFa": "زنانه",
-    "perfumerFa": "Alexandra Carlin",
+    "baseName": "Antaeus",
+    "brandFa": "شنل",
+    "nameFa": "Antaeus",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jacques Polge",
     "topNotesFa": [
-      "آلدهیدها",
-      "نرولی",
-      "پتیت‌گرین",
-      "کندر",
-      "برگاموت"
+      "مریم‌گلی",
+      "گشنیز",
+      "برگاموت",
+      "لیمو سبز",
+      "لیمو آمالفی",
+      "مورد"
     ],
     "middleNotesFa": [
       "گل رز",
-      "یاسمن",
-      "گل هلیوتروپ",
-      "ایلنگ‌ایلنگ",
-      "ریشه زنبق"
+      "پونه‌سان",
+      "ریحان",
+      "یاسمن"
     ],
     "baseNotesFa": [
-      "کهربا",
-      "گربه سروتی",
-      "وانیل بوربن",
-      "وتیور",
-      "لابدانوم",
-      "چوب صندل"
+      "کاستوریوم",
+      "خزه بلوط",
+      "پچولی",
+      "لابدانوم فرانسوی"
     ],
-    "descriptionFa": "<em>«40 سال پیش، رویای یک سلطان منجر به تولد عطری تاریخی شد. چیزی که قرار بود عصاره ظریف یک ملت کامل را در خود جای دهد و ثروت آن را به جهانیان نشان دهد. ثروت تاریخ هزار ساله آن؛ ثروت روح فروتن آن؛ ثروت مهمان‌نوازی بی‌حد و حصر آن. 40 سال پیش، رویای یک سلطان «گران‌قیمت‌ترین عطر جهان» را به دنیا آورد.»</em></p> <p>این عطر که توسط الکساندرا کارلین ساخته شده است، یک Flo است",
+    "descriptionFa": "آنتئوس نام نیمه‌خدای یونان باستان است. آنتیوس که قدرتمند همچون یک خدا و مهربان همچون یک انسان است، متعلق به آن دسته از عطرهاست که بیانگر فردیت و شخصیت قوی هستند و بر مردانگی تأکید می‌کنند؛ چیزی که در دهه 1980 یک ترند بود. مرزنگوش و مریم‌گلی، آهک و آویشن با هم ترکیب شده‌اند تا به این عطر طراوت خاص و ویژگی مردانه ببخشند. این عطر گرم می‌شود و در پایان به دلیل وجود نعناع هندی، چوب صندل و لادن در رایحه پایه، شدیدتر می‌شود.",
     "seasons": [
-      "spring",
       "autumn",
       "winter",
+      "spring",
       "summer"
     ],
-    "primarySeason": "spring",
-    "secondarySeason": "autumn",
-    "primarySeasonFa": "بهار",
-    "secondarySeasonFa": "پاییز",
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
     "seasonsFa": [
-      "بهار",
       "پاییز",
       "زمستان",
+      "بهار",
       "تابستان"
     ],
     "timeOfDay": "night",
