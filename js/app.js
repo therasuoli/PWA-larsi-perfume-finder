@@ -67,7 +67,7 @@
   const SEASONS = ['spring', 'summer', 'autumn', 'winter'];
 
   /* ================= state ================= */
-  let items = [], view = [], shown = 0, pageSize = 24;
+  let items = [], view = [], shown = 0, pageSize = 12;
   let live = [];
   const byId = new Map(), bySlug = new Map(), df = new Map();
   const idfMemo = new Map();
@@ -358,7 +358,7 @@
 
     /* ---- NEWEST rail ---- */
     const newestSection = $('#newestSection');
-    const withYear = live.filter(p => p.year).sort((a, b) => b.year - a.year).slice(0, 3);
+    const withYear = live.filter(p => p.year).sort((a, b) => b.year - a.year).slice(0, 6);
     if (withYear.length) {
       $('#newest').innerHTML = withYear.map(p => `<div class="rail-item">${cardHTML(p, 99)}<p class="sub" style="text-align:center;margin:6px 0 0">عرضه ${fa(p.year)}</p></div>`).join('');
       if (newestSection) newestSection.hidden = false;
@@ -436,8 +436,7 @@
     ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => { const el = $('#' + id); if (el && !el.parentElement.hidden) autoplay(el); });
     markReadyImages($('#v-home'));
 
-    /* ---- v7.9.4: Perfume Of The Day — 6-card modern slider ---- */
-    renderPerfumeOfTheDay();
+    /* ---- v7.9.5: Daily slider removed per user request ---- */
   }
 
   /* ================= v7.9.4: Perfume Of The Day slider =================
@@ -559,7 +558,7 @@
   function renderTrendingNow() {
     const el = $('#trendingRail');
     if (!el) return;
-    const results = LPF.recommend.trendingNow(items, { maxResults: 3 });
+    const results = LPF.recommend.trendingNow(items, { maxResults: 6 });
     if (!results.length) { el.parentElement.hidden = true; return; }
     el.parentElement.hidden = false;
     el.innerHTML = results.map(({ p, reasons }) => `
@@ -803,7 +802,7 @@
     const season = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
     const ws = $('#ws'); if (ws) ws.textContent = `پیشنهادهای مناسب ${FA.season(season)} — به ترتیب تناسب با هوای امروز.`;
     renderWeatherRail();
-    renderAIToday(); // v7.9: AI-powered daily recommendation
+    // v7.9.5: AI today card removed per user request
   }
 
   /* ================= v7.9: AI Today's Recommendation ================= */
@@ -833,7 +832,7 @@
   function renderWeatherRail() {
     const el = $('#wrail'); if (!el || !live.length) return;
     const season = LPF.wx.season || monthSeason();
-    const scored = live.filter(p => (p.seasons || []).includes(season)).sort((a, b) => ((b.seasons || []).length - (a.seasons || []).length) || rank(a) - rank(b)).slice(0, 3);
+    const scored = live.filter(p => (p.seasons || []).includes(season)).sort((a, b) => ((b.seasons || []).length - (a.seasons || []).length) || rank(a) - rank(b)).slice(0, 6);
     el.innerHTML = scored.map(p => `<div class="rail-item">${cardHTML(p, 99)}</div>`).join('');
     markReadyImages(el);
   }
@@ -1468,7 +1467,7 @@
     dom.favOnly.addEventListener('click', () => { F.fav = !F.fav; dom.favOnly.setAttribute('aria-pressed', String(F.fav)); render(); });
     dom.charChips.addEventListener('click', e => { const b = e.target.closest('[data-char]'); if (!b) return; const c = b.dataset.char; if (F.chars.has(c)) F.chars.delete(c); else F.chars.add(c); b.setAttribute('aria-pressed', String(F.chars.has(c))); render(); });
     dom.loadMore.addEventListener('click', appendMore);
-    sentinelIO = new IntersectionObserver(es => { if (es.some(x2 => x2.isIntersecting) && shown < view.length && shown > 0) appendMore(); }, { rootMargin: '900px 0px' });
+    sentinelIO = new IntersectionObserver(es => { if (es.some(x2 => x2.isIntersecting) && shown < view.length && shown > 0) appendMore(); }, { rootMargin: '600px 0px' });
     sentinelIO.observe($('#sentinel'));
 
     // compare tray
@@ -1742,7 +1741,7 @@
     dom.fConc = $('#fConc'); dom.fSeason = $('#fSeason'); dom.fBrand = $('#fBrand'); dom.fNote = $('#fNote'); dom.sort = $('#sortSel');
     dom.wardFilter = 'all';
     // Speed: render skeletons BEFORE binding (so the user sees immediate feedback)
-    dom.grid.innerHTML = skeletons(8);
+    dom.grid.innerHTML = skeletons(6);
     // Speed: bind in a microtask so the paint above happens first
     bindSheetSwipe(dom.dlg); bindSheetSwipe(dom.dlgCmp);
     LPF.settings.init(toast);
