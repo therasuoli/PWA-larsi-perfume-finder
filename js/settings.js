@@ -14,17 +14,19 @@
   const catalog = { items: [], byId: new Map(), images: 0 };
 
   /* ================= theme / font / size ================= */
-  const THEME_NAMES = { auto: 'پیروی از سیستم', dark: 'دارک', light: 'روشن' };
+  const THEME_NAMES = { auto: 'پیروی از سیستم', dark: 'دارک', light: 'روشن', noir: 'شامپاینی (۲۰۲۶)', atelier: 'آتلیه' };
   const mqLight = window.matchMedia ? matchMedia('(prefers-color-scheme: light)') : null;
   function applyTheme(pref, announce) {
     if (pref === 'sand') pref = 'dark';
     S.theme = pref; ST.saveTheme();
+    // v7.9.6: mark that the user has explicitly chosen a theme, so boot.js won't migrate them again.
+    try { localStorage.setItem('lpf:v5:themeChosen', JSON.stringify(true)); } catch (e) {}
     const eff = pref === 'auto' ? (mqLight && mqLight.matches ? 'light' : 'dark') : pref;
     const root = document.documentElement;
     root.dataset.theme = eff; root.dataset.themePref = pref;
-    const meta = $('meta[name=theme-color]'); if (meta) meta.content = eff === 'light' ? '#E8EDE4' : '#0E1F1B';
+    const meta = $('meta[name=theme-color]'); if (meta) meta.content = eff === 'light' ? '#E8EDE4' : eff === 'noir' ? '#0B0B0D' : eff === 'atelier' ? '#f7f3ec' : '#0E1F1B';
     $$('#themeSeg [data-theme-choice]').forEach(b => b.setAttribute('aria-checked', String(b.dataset.themeChoice === pref)));
-    if (announce) toastFn('تم: ' + THEME_NAMES[pref]);
+    if (announce) toastFn('تم: ' + (THEME_NAMES[pref] || pref));
   }
   function applyFont(v, save) {
     S.font = Math.min(150, Math.max(90, Math.round(v)));
@@ -42,24 +44,6 @@
   }
 
   /* ================= about ================= */
-  let changelogCache = null;
-  async function fetchChangelog() {
-    if (changelogCache) return changelogCache;
-    const fallback = [{ v: cfg.version, date: cfg.releaseFa, items: ['برای جزئیات کامل، فایل CHANGELOG.md مخزن برنامه را ببین.'] }];
-    try {
-      const res = await fetch(cfg.docs.changelog, { cache: 'no-cache' });
-      if (!res.ok) throw new Error('http');
-      const md = await res.text();
-      const versions = [];
-      for (const line of md.split(/\r?\n/)) {
-        const h = line.match(/^##\s+(.+)$/);
-        if (h) versions.push({ v: h[1].split('·')[0].trim(), date: (h[1].split('·')[1] || '').trim(), items: [] });
-        else if (/^\s*[-*]\s+/.test(line) && versions.length) versions[versions.length - 1].items.push(line.replace(/^\s*[-*]\s+/, '').trim());
-      }
-      changelogCache = versions.length ? versions : fallback;
-    } catch { changelogCache = fallback; }
-    return changelogCache;
-  }
   function renderAbout() {
     const total = catalog.items.filter(p => !p.deleted).length;
     const brands = new Set(catalog.items.filter(p => !p.deleted && p.brand && p.brand !== 'نامشخص').map(p => p.brand)).size;
@@ -67,50 +51,68 @@
     el.innerHTML = `
       <div class="about-hero"><img src="icons/icon-192.png" alt="" width="84" height="84"><div>
         <h3>${cfg.nameFa} <span style="color:var(--mut);font-weight:400">(${esc(cfg.name)})</span></h3>
-        <span class="ver">نسخه ${cfg.versionFa} · ${cfg.releaseFa} · ${esc(cfg.releaseISO)}</span>
       </div></div>
-      <p><b>توضیح برنامه.</b> لارسی پرفیوم فایندر یک راهنمای فارسی برای دنیای عطر است: با جست‌وجوی هوشمند در بانک ${fa(total)} عطر، رایحه‌ها را بر اساس نت‌ها و خانواده بویایی می‌شناسی، مشابه‌ها را با درصد شباهت می‌بینی، مقایسه می‌کنی و کمد شخصی می‌سازی — بدون ثبت‌نام.</p>
-      <p><b>توسعه‌دهنده.</b> هادی رسولی</p>
-      <p><b>هدف این اپلیکیشن.</b> ساده‌کردن انتخاب عطر برای فارسی‌زبانان؛ با جست‌وجوی هوشمند، داده شخصی محلی و بدون نیاز به ثبت‌نام.</p>
-      <p><b>چشم‌انداز‌ها.</b></p>
+      <p>لارسی، نخستین سوپراپلیکیشن هوشمند و دستیار خرید ادکلن در ایران است که با هدف ارتقای تجربه انتخاب و خرید عطر طراحی شده است.</p>
+      <p>بانک اطلاعاتی این اپلیکیشن در آینده‌ای نزدیک به بیش از ۵۰۰ هزار نوع ادکلن و هزاران برند معتبر تکمیل خواهد شد. در نسخهٔ کنونی، ${fa(total)} عطر از ${fa(brands)} برند با ${fa(catalog.images)} تصویر در دسترس است.</p>
+      <p><b>قابلیت‌های کلیدی:</b></p>
       <ul class="vision">
-        <li>نسخه ۸ — حساب اختیاری و همگام‌سازی ابری کمد عطر</li>
-        <li>نسخه ۸ — لیست اشتراکی کمد با دوستان</li>
-        <li>نسخه ۸ — تکمیل داده فارسی و تصاویر بانک (${fa(total)} عطر · ${fa(brands)} برند · ${fa(catalog.images)} تصویر)</li>
+        <li>شناسایی ادکلن — آپلود عکس بطری و یافتن تطبیق در بانک</li>
+        <li>پیشنهاد هوشمند و معرفی رایحه‌های مشابه یا نزدیک بر اساس فیلترها و نت‌های عطری</li>
+        <li>چت زنده و ارائه پیشنهادات دقیق و شخصی‌سازی‌شده با دستیار هوشمند لارسی</li>
       </ul>
-      <p><b>حریم خصوصی.</b> علاقه‌مندی، کمد، امتیاز و تنظیمات فقط روی همین مرورگر ذخیره می‌شوند؛ برنامه کوکی نمی‌گذارد و داده شخصی را جایی ارسال نمی‌کند.</p>
-      <div id="aboutChangelog"><h3 style="margin:12px 0 2px">تاریخچه تغییرات</h3><p class="hint">در حال دریافت…</p></div>
-      <p class="hint" style="margin-top:12px">ایده، طراحی و توسعه برنامه‌نویسی هادی رسولی — ۲۰۲۶</p>`;
-    fetchChangelog().then(versions => {
-      const c = $('#aboutChangelog'); if (!c) return;
-      c.innerHTML = '<h3 style="margin:12px 0 2px">تاریخچه تغییرات</h3>' + versions.map((v, i) => `<details${i === 0 ? ' open' : ''}><summary>نسخه ${esc(v.v)} · ${esc(v.date)}</summary><ul>${v.items.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>`).join('');
-    });
+      <p>تمامی حقوق مادی و معنوی این اپلیکیشن متعلق به فروشگاه لارسی است. هرگونه کپی‌برداری از ایده و استفاده از اطلاعات این سوپراپلیکیشن پیگرد قانونی دارد.</p>`;
   }
 
-  /* ================= update check ================= */
+  /* ================= update check (v7.9.15: real SW update + auto reload) ================= */
   async function checkUpdate() {
     const btn = $('#updateBtn');
     if (!('serviceWorker' in navigator)) { toastFn('مرورگر از به‌روزرسانی خودکار پشتیبانی نمی‌کند'); return; }
     btn.disabled = true; btn.textContent = 'در حال بررسی…';
     try {
+      // Force the browser to re-fetch sw.js (bypassing HTTP cache) and check for a new version.
+      const reg = await navigator.serviceWorker.getRegistration('./');
+      if (reg) { try { await reg.update(); } catch { /* offline or no update */ } }
       let remote = cfg.version;
       try {
-        const res = await fetch('sw.js', { cache: 'no-store' });
+        const res = await fetch('sw.js?v=' + Date.now(), { cache: 'no-store' });
         if (res.ok) { const m = (await res.text()).match(/VERSION\s*=\s*'([^']+)'/); if (m) remote = m[1]; }
       } catch { /* offline: fall back to the registration check */ }
-      const reg = await navigator.serviceWorker.getRegistration('./');
-      const hasNewer = remote !== cfg.version || (reg && reg.waiting);
+      const freshReg = await navigator.serviceWorker.getRegistration('./');
+      const hasNewer = (remote !== cfg.version) || (freshReg && freshReg.waiting);
       if (hasNewer) {
-        toastFn('نسخه جدید ' + remote + ' موجود است', { label: 'بارگذاری مجدد', run: async () => {
-          const r = await navigator.serviceWorker.getRegistration('./');
-          if (r) { if (r.waiting) r.waiting.postMessage({ type: 'SKIP_WAITING' }); else await r.update(); }
-          setTimeout(() => location.reload(), 700);
-        } });
+        toastFn('نسخه جدید ' + remote + ' پیدا شد؛ در حال بارگذاری…');
+        // Apply it for real: tell the waiting SW to skip waiting, then reload.
+        const r = await navigator.serviceWorker.getRegistration('./');
+        if (r && r.waiting) { r.waiting.postMessage({ type: 'SKIP_WAITING' }); }
+        // Give the new SW a moment to activate, then hard-reload.
+        navigator.serviceWorker.addEventListener('controllerchange', () => location.reload());
+        setTimeout(() => location.reload(), 1200);
       } else {
         toastFn('برنامه به‌روز است (' + cfg.versionFa + ')');
+        btn.disabled = false; btn.textContent = 'بررسی به‌روزرسانی';
       }
-    } catch { toastFn('بررسی به‌روزرسانی انجام نشد؛ اتصال اینترنت را بررسی کن'); }
-    finally { btn.disabled = false; btn.textContent = 'بررسی به‌روزرسانی'; }
+    } catch { toastFn('بررسی به‌روزرسانی انجام نشد؛ اتصال اینترنت را بررسی کن'); btn.disabled = false; btn.textContent = 'بررسی به‌روزرسانی'; }
+  }
+
+  /* ================= real cache clear (v7.9.15: wipes caches WITHOUT unregistering the SW) ================= */
+  async function clearCache() {
+    const btn = $('#clearCacheBtn');
+    if (btn) { btn.disabled = true; btn.textContent = 'در حال پاک‌سازی…'; }
+    let cleared = 0;
+    try {
+      if ('caches' in window) {
+        const names = await caches.keys();
+        await Promise.all(names.map(n => caches.delete(n).then(ok => { if (ok) cleared++; })));
+      }
+      try { await LPF.repo.catalog.clearCache(); } catch { /* catalog store may not expose clearCache */ }
+      toastFn('کش برنامه پاک شد (' + fa(cleared) + ' بافت). اطلاعات شخصی حفظ شد.');
+    } catch (e) {
+      toastFn('پاک‌سازی کش انجام نشد (' + (e && e.message ? e.message : 'خطا') + ')');
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = 'حذف کش'; }
+      // Soft refresh so the freshly-empty cache is repopulated from network.
+      setTimeout(() => location.reload(), 600);
+    }
   }
 
   /* ================= full cache reset + shutdown animation ================= */
@@ -206,9 +208,9 @@
 
   /* ================= onboarding ================= */
   const SLIDES = [
-    { k: 'WELCOME TO LARSI', h: 'امروز دلت چه بویی می‌خواهد؟', t: 'لارسی یک راهنمای فارسی برای دنیای عطر است؛ بانک بزرگ، جست‌وجوی هوشمند و کمد شخصی — بدون ثبت‌نام.' },
-    { k: 'SEARCH · EXPLORE', h: 'عطر را با هر نشانه‌ای پیدا کن', t: 'نام عطر، برند، نت یا حال و دل. دستیار هوشمند هم اینجاست: بگو چه می‌خواهی، با دلیل پیشنهاد می‌دهد.' },
-    { k: 'COMPARE · KEEP', h: 'مقایسه کن، کمدت را بساز', t: '۲ تا ۴ عطر را کنار هم بگذار، امتیاز بده و مجموعه‌ات را روی همین دستگاه نگه دار.' }
+    { k: 'WELCOME TO LARSI', h: 'امروز دلت چه بویی می‌خواهد؟', t: 'لارسی یک راهنمای فارسی برای دنیای عطر است؛ بانک بزرگ، جست‌وجوی هوشمند و دستیار شخصی — بدون ثبت‌نام.' },
+    { k: 'SEARCH · EXPLORE', h: 'عطر را با هر نشانه‌ای پیدا کن', t: 'نام عطر، برند، نت یا حال و دل. جست‌وجوی هوشمند در بانکی بزرگ، عطر مناسب سلیقه‌ات را پیدا می‌کند.' },
+    { k: 'AI · ASSISTANT', h: 'دستیار هوشمند لارسی، همراه تو', t: 'بگو چه می‌خواهی، با دلیل پیشنهاد می‌دهد. رایحه‌های مشابه، پیشنهاد روز و کشف تازه — همه با زبان طبیعی.' }
   ];
   function showOnboarding(force) {
     const root = $('#onboard'); if (!root) return;
@@ -259,12 +261,13 @@
   function bind() {
     $$('#themeSeg [data-theme-choice]').forEach(b => b.addEventListener('click', () => applyTheme(b.dataset.themeChoice, true)));
     if (mqLight && mqLight.addEventListener) mqLight.addEventListener('change', () => { if (S.theme === 'auto') applyTheme('auto'); });
-    $('#themeBtn').addEventListener('click', () => { const order = ['auto', 'dark', 'light']; applyTheme(order[(order.indexOf(S.theme) + 1) % order.length], true); });
+    $('#themeBtn').addEventListener('click', () => { const order = ['auto', 'dark', 'light', 'noir', 'atelier']; applyTheme(order[(order.indexOf(S.theme) + 1) % order.length], true); });
     $$('#fontSeg [data-font-family]').forEach(b => b.addEventListener('click', () => applyFontFamily(b.dataset.fontFamily, true)));
     const range = $('#fontRange');
     range.addEventListener('input', e => applyFont(+e.target.value, false));
     range.addEventListener('change', e => applyFont(+e.target.value, true));
     $('#updateBtn').addEventListener('click', checkUpdate);
+    const clearCacheBtn = $('#clearCacheBtn'); if (clearCacheBtn) clearCacheBtn.addEventListener('click', clearCache);
     $('#nukeBtn').addEventListener('click', fullReset);
     $('#replayIntroBtn').addEventListener('click', () => showOnboarding(true));
     $('#dislikeClear').addEventListener('click', () => { S.disliked.clear(); ST.saveDisliked(); renderDisliked(); toastFn('همه پیشنهادهای پنهان برگشتند'); });

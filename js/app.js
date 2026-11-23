@@ -60,13 +60,7 @@
     if (typeof c === 'string' && PAYLOAD_COUNTRY[c]) return PAYLOAD_COUNTRY[c];
     return COUNTRY[p.brand] || null;
   };
-  const VERSES = [
-    ['بوی خوش تو هر که ز باد صبا شنید\nاز یار آشنا سخن آشنا شنید', 'حافظ شیرازی', 'عطر هم همین است: بویی که پیش از تو سخن می‌گوید. برای دل خودت انتخاب کن تا حرفی که می‌زند راست باشد.'],
-    ['الا یا ایها الساقی ادر کأساً و ناولها\nکه عشق آسان نمود اول ولی افتاد مشکل‌ها', 'حافظ شیرازی', 'انتخاب عطر هم چنین است؛ آغازش شیرین و شتاب‌زده است و عاقبتش می‌ماند. با حوصله انتخاب کن.'],
-    ['گفتم غم تو دارم گفتا غمت سرآید\nگفتم که ماه من شو گفتا اگر برآید', 'حافظ شیرازی', 'عطر خوب مثل ماه، کم‌کم بالا می‌آید: نت‌های سر، بعد قلب، بعد رد بلند.'],
-    ['یوسف گمگشته بازآید به کنعان غم مخور\nکلبهٔ احزان زود روزی شود روزگار غم مخور', 'حافظ شیرازی', 'هر عطرِ گم‌شده دوباره پیدا می‌شود؛ در بانک ما جستجو کن، غم مخور.'],
-    ['دوش دیدم که ملائک در میخانه\nزدند جمع گناهکاران بدر', 'حافظ شیرازی', 'به بانک ما هم همه پذیرفته‌اند: از عودهای سنگین تا مرکبات‌های سبک، کنار هم‌اند.']
-  ];
+  // v7.9.15: Hafez "fal" verses removed per user request.
   const WX_CODES = [[0, '☀️', 'آسمان صاف'], [1, '🌤️', 'کمی ابری'], [2, '⛅', 'نیمه‌ابری'], [3, '☁️', 'ابری'], [45, '🌫️', 'مه‌آلود'], [48, '🌫️', 'مه یخ‌زده'], [51, '🌦️', 'ریزش سبک'], [53, '🌦️', 'ریزش'], [55, '🌦️', 'ریزش سنگین'], [61, '🌧️', 'باران سبک'], [63, '🌧️', 'باران'], [65, '🌧️', 'باران سنگین'], [71, '❄️', 'بارش برف'], [73, '❄️', 'برف'], [75, '❄️', 'برف سنگین'], [80, '🌦️', 'رگبار'], [81, '🌦️', 'رگبار'], [82, '🌦️', 'رگبار شدید'], [95, '⛈️', 'طوفان'], [96, '⛈️', 'طوفان با تندر'], [99, '⛈️', 'طوفان شدید']];
   const wxCond = c => { for (const [code, ic, tx] of WX_CODES) if (c === code) return [ic, tx]; return ['🌤️', '—']; };
   const ADV = ['هوا بهاری است؛ عطرهای گلی و مرکباتی نرم‌تر می‌نشینند.', 'هوا گرم است؛ عطرهای سبک و معطر بهتر پخش می‌شوند.', 'هوا خنک است؛ عنبری و چوبی امروز ماندگارترند.', 'هوا سرد است؛ وقت عطرهای غلیظ و گرم است.'];
@@ -120,6 +114,7 @@
   }
   function matches(p) {
     if (p.deleted) return false;
+    if (S.disliked.has(p.id)) return false; // respect explicit "don't show" across browse/search too (was grid-only gap)
     if (F.fav && !S.favs.has(p.id)) return false;
     if (F.family) {
       if (F.family === '__uncategorized__') { if (p.family || p.family2) return false; }
@@ -226,8 +221,10 @@
   function cardHTML(p, idx) {
     const id = esc(p.id), fav = S.favs.has(p.id), cmp = compare.has(p.id);
     const meta = [FA.family(p.family), FA.concentration(p.conc), p.year || ''].filter(Boolean).join(' · ') || (p.nameFa || '');
+    const rate = (p.longevity || p.sillage) ? Math.round(((p.longevity || 0) + (p.sillage || 0)) / ((p.longevity ? 1 : 0) + (p.sillage ? 1 : 0))) : 0;
+    const stars = rate ? '★'.repeat(rate) + '☆'.repeat(5 - rate) : '';
     return `<article class="card" data-id="${id}" style="--liq:${famLiq(p.family)}">
-      <button class="open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span></button>
+      <button class="open" type="button" data-open="${id}" aria-label="${esc(p.brand + ' ' + p.name)}">${mediaHTML(p, idx)}<span class="brand-n">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span><span class="meta">${esc(meta)}</span>${stars ? `<span class="rate">★<b>${rate.toFixed(1)}</b><span class="rate-stars">${stars}</span></span>` : ''}</button>
       <button class="fav" type="button" data-fav="${id}" aria-pressed="${fav}" aria-label="علاقه‌مندی">${icon('heart')}</button>
       <button class="act cmp2" type="button" data-cmp="${id}" aria-pressed="${cmp}" aria-label="افزودن به مقایسه">${icon('compare')}</button>
     </article>`;
@@ -332,25 +329,28 @@
   }
 
   function renderHome() {
-    // v7.6: Hero featured perfume of the day — rotates based on date
+    // v7.9.14: Hero headline & paragraph are STATIC (per mobile spec).
+    // The featured "perfume of the day" only powers the orb tap target;
+    // it is NEVER injected into #heroTitle / #heroSub.
     const heroEl = $('#heroBottle'); if (heroEl) {
-      // Pick a "perfume of the day" deterministically based on date
       const dayIndex = Math.floor(Date.now() / 86400000);
       const candidates = live.filter(p => repo.images.get(p)).sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
       const featured = candidates.length ? candidates[dayIndex % Math.min(candidates.length, 50)] : null;
+      // The CSS gold bottle lives inside #heroBottle (.larsi-bottle). Don't overwrite it.
       if (featured) {
-        const liq = famLiq(featured.family);
-        heroEl.innerHTML = `<svg class="bottle" style="--liq:${liq};--lv:${concLevel(featured.conc)}px" aria-hidden="true"><use href="#b"/></svg>`;
-        const heroBg = $('#heroBg');
-        if (heroBg) heroBg.style.background = `radial-gradient(circle at 80% 20%, color-mix(in srgb, ${liq} 32%, var(--card)) 0%, transparent 60%), linear-gradient(135deg, var(--card) 0%, var(--bg) 100%)`;
-        const heroTitle = $('#heroTitle'); if (heroTitle) heroTitle.textContent = featured.name;
-        const heroSub = $('#heroSub'); if (heroSub) heroSub.textContent = `${featured.brand} · ${FA.family(featured.family) || 'عطر'}`;
+        heroEl.dataset.featured = featured.id;
         heroEl.setAttribute('role', 'button');
-        heroEl.setAttribute('aria-label', `عطر روز: ${featured.name} از ${featured.brand}`);
+        heroEl.setAttribute('aria-label', `عطر روز: ${featured.name} از ${featured.brand} — برای دیدن جزئیات بزن`);
         heroEl.onclick = () => openDetail(featured.id);
       } else {
-        heroEl.innerHTML = `<svg class="bottle" style="--liq:${famLiq('Amber & Resin')};--lv:12px" aria-hidden="true"><use href="#b"/></svg>`;
+        delete heroEl.dataset.featured;
+        heroEl.removeAttribute('role');
+        heroEl.removeAttribute('aria-label');
+        heroEl.onclick = null;
       }
+      // Make sure the hero search box starts empty on every home render.
+      const hq = $('#hq'); if (hq) hq.value = '';
+      const hqClear = $('#hqClear'); if (hqClear) hqClear.hidden = true;
     }
 
     $('#moods').innerHTML = MOODS.map(([label, fams], i) => `<button class="mood" type="button" data-mood="${i}" style="--liq:${famLiq(fams[0])}">${esc(label)}</button>`).join('') + `<button class="mood ghost2" type="button" id="giftBtn" style="background:transparent;color:var(--ink);border:1px solid var(--line)">${icon('spark')}هدیه می‌خواهم</button>`;
@@ -435,6 +435,107 @@
 
     ['newest', 'brands', 'countries', 'wrail', 'fams'].forEach(id => { const el = $('#' + id); if (el && !el.parentElement.hidden) autoplay(el); });
     markReadyImages($('#v-home'));
+
+    /* ---- v7.9.4: Perfume Of The Day — 6-card modern slider ---- */
+    renderPerfumeOfTheDay();
+  }
+
+  /* ================= v7.9.4: Perfume Of The Day slider =================
+   * Picks 6 perfumes deterministically per day (rotates daily), renders them
+   * into a horizontal snap slider with prev/next arrows and dot indicators.
+   * Larger cards than the rail for a gallery feel on desktop. */
+  let potdIdx = 0, potdItems = [], potdVp = null;
+  function pickPerfumeOfTheDay() {
+    if (!live.length) return [];
+    const dayIndex = Math.floor(Date.now() / 86400000);
+    // Prefer perfumes that have images and a known family, ranked by popularity.
+    const candidates = live
+      .filter(p => !p.deleted && !S.disliked.has(p.id))
+      .filter(p => repo.images.get(p) || p.family)
+      .sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
+    const top = candidates.slice(0, Math.min(candidates.length, 60));
+    // Rotate by day so the same set doesn't always show.
+    const start = (dayIndex * 6) % Math.max(1, top.length);
+    // Dedup-safe selection: cap at top.length and never push a duplicate.
+    // Previously, when top.length < 6, the modulo wrap produced repeated cards.
+    const picked = [];
+    const want = Math.min(6, top.length);
+    for (let i = 0; i < want; i++) picked.push(top[(start + i) % top.length]);
+    return picked;
+  }
+  function potdCardHTML(p, i) {
+    const id = esc(p.id);
+    const liq = famLiq(p.family);
+    const famLabel = FA.family(p.family) || p.familyFa || 'عطر';
+    const mainImg = repo.images.get(p);
+    const badge = i === 0 ? `<span class="badge-day">امروز</span>` : '';
+    const imgTag = mainImg
+      ? `<img class="lpf-img" src="${esc(mainImg)}" sizes="(max-width:640px) 64vw, (max-width:900px) 30vw, 30vw" alt="${esc(p.name)}" width="320" height="400" decoding="async" loading="${i < 3 ? 'eager' : 'lazy'}" ${i < 3 ? 'fetchpriority="high"' : ''}>`
+      : '';
+    return `<article class="pdot-card" data-id="${id}" tabindex="0" style="--liq:${liq}" role="button" aria-label="${esc(p.brand + ' ' + p.name)}">
+      ${badge}
+      <div class="stage">
+        <div class="hero-d">${bottleHTML(p)}${imgTag}</div>
+      </div>
+      <div class="body">
+        <h3>${esc(p.name)}</h3>
+        <span class="meta">${esc(p.brand)} · ${esc(famLabel)}${p.year ? ' · ' + fa(p.year) : ''}</span>
+      </div>
+    </article>`;
+  }
+  function potdUpdateDots() {
+    if (!potdVp) return;
+    const cards = $$('article.pdot-card', potdVp);
+    if (!cards.length) return;
+    const vpLeft = potdVp.scrollLeft, vpRight = vpLeft + potdVp.clientWidth;
+    let active = 0, bestDist = Infinity;
+    cards.forEach((c, i) => {
+      const cLeft = c.offsetLeft - potdVp.offsetLeft, cRight = cLeft + c.offsetWidth;
+      const center = (Math.max(cLeft, vpLeft) + Math.min(cRight, vpRight)) / 2;
+      const dist = Math.abs(center - (vpLeft + vpRight) / 2);
+      if (dist < bestDist) { bestDist = dist; active = i; }
+    });
+    potdIdx = active;
+    const dots = $('#potdDots');
+    if (dots) dots.querySelectorAll('button').forEach((b, i) => b.setAttribute('aria-selected', i === active ? 'true' : 'false'));
+    const prev = $('#potdPrev'), next = $('#potdNext');
+    if (prev) prev.disabled = active === 0;
+    if (next) next.disabled = active >= cards.length - 1;
+  }
+  function potdScrollTo(i) {
+    if (!potdVp) return;
+    const cards = $$('article.pdot-card', potdVp);
+    const c = cards[i];
+    if (!c) return;
+    potdVp.scrollTo({ left: c.offsetLeft - potdVp.offsetLeft, behavior: reduced() ? 'auto' : 'smooth' });
+  }
+  function renderPerfumeOfTheDay() {
+    const track = $('#potdTrack'), vp = $('#potdViewport'), section = $('#potdSection');
+    if (!track || !vp || !section) return;
+    potdItems = pickPerfumeOfTheDay();
+    if (!potdItems.length) { section.hidden = true; return; }
+    section.hidden = false;
+    track.innerHTML = potdItems.map((p, i) => potdCardHTML(p, i)).join('');
+    const dots = $('#potdDots');
+    if (dots) dots.innerHTML = potdItems.map((_, i) => `<button type="button" role="tab" aria-selected="${i === 0 ? 'true' : 'false'}" aria-label="عطر ${fa(i + 1)}"></button>`).join('');
+    potdVp = vp;
+    potdIdx = 0;
+    potdUpdateDots();
+    markReadyImages(track);
+    // Click → open detail; dots → scroll; arrows → scroll by one card.
+    track.onclick = e => { const c = e.target.closest('article.pdot-card'); if (c && c.dataset.id) openDetail(c.dataset.id); };
+    track.onkeydown = e => {
+      const c = e.target.closest('article.pdot-card');
+      if (!c) return;
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(c.dataset.id); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); potdScrollTo(Math.max(0, potdIdx - 1)); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); potdScrollTo(Math.min(potdItems.length - 1, potdIdx + 1)); }
+    };
+    const prev = $('#potdPrev'), next = $('#potdNext');
+    if (prev) prev.onclick = () => potdScrollTo(Math.max(0, potdIdx - 1));
+    if (next) next.onclick = () => potdScrollTo(Math.min(potdItems.length - 1, potdIdx + 1));
+    if (dots) dots.onclick = e => { const b = e.target.closest('button'); if (b) potdScrollTo([...dots.children].indexOf(b)); };
+    vp.onscroll = () => { clearTimeout(vp._t); vp._t = setTimeout(potdUpdateDots, 80); };
   }
 
   /* ================= v7.7: Smart recommendation rails ================= */
@@ -522,7 +623,7 @@
             <b style="font-size:1.1rem;color:var(--acc)">${esc(res.aiResult.brand || '')} ${esc(res.aiResult.name || '')}</b>
           </div>
           ${res.aiResult.description ? `<p class="muted" style="font-size:.8125rem">${esc(res.aiResult.description)}</p>` : ''}
-          ${res.aiResult.notes && res.aiResult.notes.length ? `<div class="chips" style="margin:8px 0">${res.aiResult.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div>` : ''}
+          ${Array.isArray(res.aiResult.notes) && res.aiResult.notes.length ? `<div class="chips" style="margin:8px 0">${res.aiResult.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div>` : ''}
           <p class="hint">این عطر در بانک لارسی نیست. می‌توانی با جستجوی دستی عطرهای مشابه را پیدا کنی.</p>`;
         best.hidden = true; others.hidden = true; similar.hidden = true;
       } else if (!res.ok) {
@@ -546,7 +647,7 @@
         ${ai.brand ? `<div class="swatch"><b style="color:var(--ink);font-size:.9375rem">برند: ${esc(ai.brand)}</b></div>` : ''}
         ${ai.name ? `<div class="swatch"><b style="color:var(--ink);font-size:.9375rem">نام: ${esc(ai.name)}</b></div>` : ''}
         ${ai.confidence ? `<div class="stat-row"><div class="stat"><b>${fa(ai.confidence)}٪</b><span>اطمینان</span></div></div>` : ''}
-        ${ai.notes && ai.notes.length ? `<div style="margin:8px 0"><small style="color:var(--mut)">نت‌های شناسایی‌شده:</small><div class="chips" style="margin:4px 0">${ai.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div></div>` : ''}
+        ${Array.isArray(ai.notes) && ai.notes.length ? `<div style="margin:8px 0"><small style="color:var(--mut)">نت‌های شناسایی‌شده:</small><div class="chips" style="margin:4px 0">${ai.notes.map(n => `<span class="chip" style="pointer-events:none">${esc(n)}</span>`).join('')}</div></div>` : ''}
         ${ai.description ? `<p class="muted" style="font-size:.8125rem">${esc(ai.description)}</p>` : ''}`;
     } else {
       // Colour analysis fallback
@@ -682,19 +783,25 @@
     drawWeather();
   }
   function drawWeather() {
-    const el = $('#wx'); if (!el) return;
-    const [ic, tx] = LPF.location.wxCodeToText(LPF.wx.c);
+    // v7.9.15: the temperature/humidity/clock weather card (#wx) was removed per user request.
+    // We still compute the season (calendar + temperature-based) and render the season-aware
+    // "مناسب هوای امروز" rail + the AI perfume-of-the-day recommendation.
+    const el = $('#wx'); // removed from DOM — silently no-op the card render if absent
+    if (el) {
+      const [ic, tx] = LPF.location.wxCodeToText(LPF.wx.c);
+      const season0 = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
+      const loc0 = LPF.wx.location || LPF.location.DEFAULTS[0];
+      const tz0 = loc0.tz || 'Asia/Tehran';
+      const validTz0 = (Intl.supportedValuesOf && Intl.supportedValuesOf('timeZone') || ['Asia/Tehran']).includes(tz0) ? tz0 : 'Asia/Tehran';
+      let dt0;
+      try { dt0 = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: validTz0 }).format(new Date()); }
+      catch { dt0 = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Tehran' }).format(new Date()); }
+      const cityName0 = loc0.name || 'شیراز';
+      el.innerHTML = `<div class="row"><span class="live">${LPF.wx.ok ? 'زنده' : LPF.wx.ok === null ? 'در حال دریافت' : 'آفلاین'}</span><span id="wxClock"></span></div><div class="row"><big>${LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—'} <span aria-hidden="true">${ic}</span></big><div style="text-align:end"><b>${esc(cityName0)}</b><br>${tx}${LPF.wx.ok ? ' — رطوبت ' + fa(LPF.wx.h) + '٪' : ''}</div></div><p>${dt0}</p><p>${LPF.wx.ok ? ADV[SEASONS.indexOf(season0)] : 'اتصال برقرار نیست؛ بر اساس ماه جاری پیشنهاد می‌دهیم.'}</p>`;
+      tickClock();
+    }
     const season = LPF.wx.season || monthSeason(LPF.wx.location?.lat);
-    const loc = LPF.wx.location || LPF.location.DEFAULTS[0];
-    const tz = loc.tz || 'Asia/Tehran';
-    const dt = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: tz }).format(new Date());
-    const cityName = loc.name || 'شیراز';
-    const staleBadge = LPF.wx.stale ? ' <small style="opacity:.6">(کش قدیمی)</small>' : '';
-    el.innerHTML = `<div class="row"><span class="live">${LPF.wx.ok ? 'زنده' : LPF.wx.ok === null ? 'در حال دریافت' : 'آفلاین'}</span><span id="wxClock"></span></div>
-      <div class="row"><big>${LPF.wx.ok ? fa(LPF.wx.t) + '°' : '—'} <span aria-hidden="true">${ic}</span></big><div style="text-align:end"><b>${esc(cityName)}</b>${staleBadge}<br>${tx}${LPF.wx.ok ? ' — رطوبت ' + fa(LPF.wx.h) + '٪' : ''}</div></div>
-      <p>${dt}</p><p>${LPF.wx.ok ? ADV[SEASONS.indexOf(season)] : 'اتصال برقرار نیست؛ بر اساس ماه جاری پیشنهاد می‌دهیم.'}</p>`;
-    tickClock();
-    $('#ws').textContent = `${FA.season(season)} و هوای ${esc(cityName)}؛ به ترتیب تناسب.`;
+    const ws = $('#ws'); if (ws) ws.textContent = `پیشنهادهای مناسب ${FA.season(season)} — به ترتیب تناسب با هوای امروز.`;
     renderWeatherRail();
     renderAIToday(); // v7.9: AI-powered daily recommendation
   }
@@ -731,14 +838,7 @@
     markReadyImages(el);
   }
 
-  /* --- verse (Hafez, public domain) --- */
-  function renderVerse() {
-    const i = Math.floor(Date.now() / 86400000) % VERSES.length; // one couplet per day, rotating
-    const [couplet, cap, note] = VERSES[i];
-    $('#verseText').innerHTML = esc(couplet).replace(/\n/g, '<br>');
-    $('#verseCap').textContent = cap;
-    $('#verseNote').textContent = note;
-  }
+  /* --- verse removed in v7.9.15 (Hafez fal section deleted per user request) --- */
 
   /* --- autoplay rails --- */
   function autoplay(el) {
@@ -757,27 +857,70 @@
 
   /* ================= agent chat view ================= */
   let agentGreeted = false;
+  let puterStatusKnown = false;
   function say(html, user) {
     const d = document.createElement('div'); d.className = 'msg' + (user ? ' u' : ''); d.innerHTML = html;
     $('#chat').append(d);
     d.scrollIntoView({ block: 'end', behavior: reduced() ? 'auto' : 'smooth' });
     return d;
   }
+  function agentGreetingHTML() {
+    const puterOn = LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady();
+    // Three states: online (green), connecting (yellow), offline (red/grey)
+    const state = puterOn ? 'online' : (puterStatusKnown === false ? 'offline' : 'connecting');
+    const stateText = {
+      online: 'لارسی آنلاین',
+      connecting: 'در حال اتصال…',
+      offline: 'آفلاین — حالت محلی'
+    }[state];
+    const statusDot = `<span class="ai-status" data-state="${state}" role="status" aria-live="polite"><span class="ai-status-dot"></span><span class="ai-status-text">${stateText}</span></span>`;
+    const weatherLine = LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه‌ست و ${FA.season(LPF.wx.season || monthSeason())} سراغمون رسیده. ` : '';
+    return `${statusDot}<p style="margin:8px 0 0">سلام! من لارسی‌ام، دستیار خودمونیِ تو برای عطر. ${weatherLine}هر چی دوست داری بپرس — از عطر و رایحه تا چیزای دیگه؛ اگه بتونم جواب می‌دم. اگه پیشنهاد عطر بخوای، قشنگ با دلیلش بهت می‌گم. بگو دنبال چه حسی هستی؟ 🌿</p>`;
+  }
+  function refreshPuterBadge() {
+    const puterOn = !!(LPF.agent && LPF.agent.isPuterReady && LPF.agent.isPuterReady());
+    // Update visible status indicator in the first bot message (and any others that exist)
+    const newState = puterOn ? 'online' : (puterStatusKnown === false ? 'offline' : 'connecting');
+    document.querySelectorAll('#chat .ai-status').forEach(el => {
+      if (el.dataset.state !== newState) {
+        el.dataset.state = newState;
+        const txt = el.querySelector('.ai-status-text');
+        if (txt) txt.textContent = { online: 'لارسی آنلاین', connecting: 'در حال اتصال…', offline: 'آفلاین — حالت محلی' }[newState];
+      }
+    });
+    if (puterOn) puterStatusKnown = true;
+  }
   function agentView(text) {
     if (!agentGreeted) {
       agentGreeted = true;
-      say(`سلام! من دستیار هوشمند لارسی‌ام. ${LPF.wx.ok ? `الان شیراز ${fa(LPF.wx.t)} درجه است و ${FA.season(LPF.wx.season || monthSeason())} را داریم.` : ''} بگو دنبال چه حسی هستی؛ هر پیشنهاد را با دلیلش می‌گویم.`);
+      say(agentGreetingHTML());
       $('#agentChips').innerHTML = LPF.agent.QUICK.map(t => `<button class="chip" type="button" data-q="${esc(t)}">${esc(t)}</button>`).join('');
+      // Poll briefly for Puter.js to come up, then flip the badge.
+      let tries = 0;
+      const iv = setInterval(() => { refreshPuterBadge(); if (++tries > 6 || puterStatusKnown) clearInterval(iv); }, 1500);
     }
     if (!text) return;
     say(esc(text), true);
     LPF.analytics.track('agent');
     const w = say('<span class="dots"><i></i><i></i><i></i></span>');
-    setTimeout(() => {
-      const res = LPF.agent.answer(text);
-      w.innerHTML = LPF.agent.messageHTML(res, LPF.agent.bottleOf);
-      w.scrollIntoView({ block: 'end', behavior: reduced() ? 'auto' : 'smooth' });
-    }, reduced() ? 60 : 700);
+    const startedAt = Date.now();
+    const minDelay = reduced() ? 60 : 400;
+    // v7.9.4: route through the async Puter.js path with a perfume-only guard
+    // and a graceful fallback to the local rule-based engine.
+    Promise.resolve()
+      .then(() => LPF.agent.remote(text))
+      .then(reply => {
+        const elapsed = Date.now() - startedAt;
+        const wait = Math.max(0, minDelay - elapsed);
+        setTimeout(() => {
+          w.innerHTML = esc(String(reply));
+          w.scrollIntoView({ block: 'end', behavior: reduced() ? 'auto' : 'smooth' });
+        }, wait);
+      })
+      .catch(err => {
+        console.error('[LPF.agent] remote failed:', err);
+        w.innerHTML = '<p class="muted">یک لحظه مشکلی پیش آمد؛ دوباره امتحان کن.</p>';
+      });
   }
   LPF.agentView = agentView;
 
@@ -788,13 +931,15 @@
     return LPF.algo.similarLocal(p, items, simCtx, { disliked: S.disliked });
   }
   function levelHTML(title, arr, liq) {
-    return arr && arr.length ? `<div style="--liq:${liq}"><small>${title}</small>${arr.map(n => { const f = FA.note(n); return `<span class="note-chip">${esc(f || n)}${f ? ` <small class="muted">${esc(n)}</small>` : ''}</span>`; }).join('')}</div>` : '';
+    // Guard with Array.isArray — a string passes `arr.length` but has no `.map`, throwing TypeError.
+    if (!Array.isArray(arr) || !arr.length) return '';
+    return `<div style="--liq:${liq}"><small>${title}</small>${arr.map(n => { const f = FA.note(n); return `<span class="note-chip">${esc(f || n)}${f ? ` <small class="muted">${esc(n)}</small>` : ''}</span>`; }).join('')}</div>`;
   }
   function pyramidHTML(p) {
     const liq = famLiq(p.family);
     const html = levelHTML('نت‌های سر — چند دقیقهٔ نخست', p.top, liq) + levelHTML('نت‌های قلب — ساعت‌های اصلی', p.heart, liq) + levelHTML('نت‌های پایه — ردِ ماندگار', p.base, liq);
     if (html) return html;
-    const flat = (p.notes && p.notes.length ? p.notes : p.allNotes) || [];
+    const flat = (Array.isArray(p.notes) ? p.notes : Array.isArray(p.allNotes) ? p.allNotes : []) || [];
     return flat.length ? levelHTML('نت‌های اصلی', flat, liq) : '<p class="muted">برای این عطر نت بویایی ثبت نشده است.</p>';
   }
   function seasonBars(p) {
@@ -809,34 +954,60 @@
     const short = p.short_description_fa || p.short_desc_fa || p.short_description || p.shortDesc || '';
     const mainImg = repo.images.get(p);
     dom.dbody.style.setProperty('--liq', famLiq(p.family));
+    // v7.9.13: atelier two-column modal (photo | info), then body with stats grid,
+    // notes in 3 columns, accord bars from longevity/sillage, and similar grid.
+    const longevity = Number(p.longevity) || 0, sillage = Number(p.sillage) || 0;
+    const accordBars = [
+      ['ماندگاری', longevity ? Math.round(longevity / 5 * 100) : 0],
+      ['پخش بو', sillage ? Math.round(sillage / 5 * 100) : 0],
+      ['امتیاز من', my ? Math.round(my / 5 * 100) : 0],
+    ].filter(r => r[1] > 0);
+    const stats = [
+      ['جنسیت', FA.gender ? FA.gender(p.gender) : p.gender],
+      ['فصل پیشنهادی', (Array.isArray(p.seasons) ? p.seasons.map(s => FA.season ? FA.season(s) : s).join('، ') : (p.seasons || ''))],
+      ['غلظت', FA.concentration(p.conc)],
+      ['ماندگاری', longevity ? `${longevity} از ۵` : ''],
+      ['پخش بو', sillage ? `${sillage} از ۵` : ''],
+      ['سال عرضه', p.year || ''],
+      ['امتیاز من', my ? `${my} از ۵` : 'ثبت نشده'],
+    ].filter(s => s[1]);
     dom.dbody.innerHTML = `
       <div class="grab" data-grab aria-hidden="true"></div>
-      <div class="hero-d" style="--liq:${famLiq(p.family)}">${bottleHTML(p)}${mainImg ? `<img class="lpf-img" src="${esc(mainImg)}" sizes="${IMG_SIZES}" alt="${esc(p.name)}" width="320" height="400" decoding="async">` : ''}</div>
-      <div class="gallery" id="dGallery" role="list" aria-label="گالری تصویر"></div>
-      <p class="brand-n">${esc(p.brand)} · ${esc(FA.family(p.family) || 'عطر')}</p>
-      <h2 id="dt" style="margin:2px 0 4px">${esc(p.name)}</h2>
-      ${p.nameFa ? `<p class="sub" style="margin:0 0 6px">${esc(p.nameFa)}</p>` : ''}
-      ${sub ? `<p class="sub" style="margin:0">${esc(sub)}</p>` : ''}
-      <div class="chips">${[p.family && FA.family(p.family), p.family2 && FA.family(p.family2), ...(p.character || []).map(FA.char)].filter(Boolean).map(t => `<span class="chip" aria-disabled="true" style="pointer-events:none">${esc(t)}</span>`).join('')}</div>
-      ${desc ? `<p class="desc-text" dir="auto">${esc(String(desc).slice(0, 360))}${String(desc).length > 360 ? '…' : ''}</p>` : (short ? `<p class="muted desc-text" dir="auto">${esc(short)}</p>` : '')}
-      <div class="pyr">${pyramidHTML(p)}</div>
-      <p class="sub" style="margin:14px 0 4px">مناسب فصل‌ها</p>
-      ${seasonBars(p)}
-      <div class="acts detail-actions">
-        <button class="btn${fav ? ' pri' : ''}" type="button" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'علاقه‌مندی'}</span></button>
-        <button class="btn ghost" type="button" id="dShare" aria-label="اشتراک‌گذاری این عطر">${icon('share')}<span>اشتراک‌گذاری</span></button>
-        <button class="btn ghost" type="button" data-cmp="${esc(p.id)}" aria-pressed="${compare.has(p.id)}" aria-label="${compare.has(p.id) ? 'حذف از مقایسه' : 'افزودن به مقایسه'}">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
+      <div class="modal-top">
+        <div class="modal-photo" id="dPhoto">${bottleHTML(p)}${mainImg ? `<img class="lpf-img" src="${esc(mainImg)}" sizes="${IMG_SIZES}" alt="${esc(p.name)}" width="320" height="400" decoding="async">` : ''}</div>
+        <div class="modal-info">
+          <p class="modal-brand">${esc(p.brand)} · ${esc(FA.family(p.family) || 'عطر')}</p>
+          <h2 id="dt" class="modal-title">${esc(p.name)}</h2>
+          ${p.nameFa ? `<p class="modal-fa">${esc(p.nameFa)}</p>` : ''}
+          ${desc ? `<p class="modal-desc" dir="auto">${esc(String(desc).slice(0, 360))}${String(desc).length > 360 ? '…' : ''}</p>` : (short ? `<p class="modal-desc muted" dir="auto">${esc(short)}</p>` : '')}
+          <div class="modal-tags">${[p.family && FA.family(p.family), p.family2 && FA.family(p.family2), ...(p.character || []).map(FA.char), FA.concentration(p.conc), p.year].filter(Boolean).map(t => `<span class="chip" aria-disabled="true" style="pointer-events:none">${esc(t)}</span>`).join('')}</div>
+          ${longevity ? `<div class="modal-rating"><strong>${longevity.toFixed(1)}</strong><span class="stars">${'★'.repeat(longevity)}${'☆'.repeat(5-longevity)}</span><span class="rating-count">ماندگاری از ۵</span></div>` : ''}
+        </div>
       </div>
-      <div class="set-group" style="margin:6px 0"><h3>امتیاز من</h3>
-        <div class="rating" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
-        <p class="hint">امتیاز فقط روی همین دستگاه ذخیره می‌شود.</p></div>
-      <div class="set-group" style="margin:6px 0"><h3>کمد من</h3>
-        <div class="chips">${ST.STATUSES.map(s => `<button class="chip" type="button" data-status="${s}" aria-pressed="${!!(w && w.status === s)}">${FA.status[s]}</button>`).join('')}</div>
-        <textarea class="d-note" id="dNote" rows="2" placeholder="یادداشت شخصی، تجربه استفاده یا تاریخ خرید…" maxlength="600">${esc(w ? w.note : '')}</textarea>
-        <div class="acts" style="margin:8px 0 0"><button class="btn pri" type="button" id="dSave">ذخیره در کمد</button>${w ? '<button class="btn ghost" type="button" id="dUnsave">حذف از کمد</button>' : ''}</div></div>
-      <h3 style="margin:20px 0 10px">عطرهای نزدیک به این</h3>
-      <div class="grid" style="grid-template-columns:repeat(3,1fr)" id="simStrip"></div>
-      <div class="acts"><button class="btn ghost" type="button" id="dReport">${icon('flag')}<span>گزارش نقص داده</span></button></div>`;
+      <div class="modal-body">
+        <div class="modal-stats" id="dStats">${stats.map(s => `<div class="stat"><small>${esc(s[0])}</small><b>${esc(s[1])}</b></div>`).join('')}</div>
+        <div class="gallery" id="dGallery" role="list" aria-label="گالری تصویر"></div>
+        ${sub ? `<p class="sub modal-submeta">${esc(sub)}</p>` : ''}
+        <h3 class="modal-section-title">نت‌های بویایی</h3>
+        <div class="note-layout">${pyramidHTML(p) || '<p class="muted">برای این عطر نت بویایی ثبت نشده است.</p>'}</div>
+        ${accordBars.length ? `<h3 class="modal-section-title">حال‌وهوای رایحه</h3><div class="accord-bars">${accordBars.map(r => `<div class="accord-row"><span>${esc(r[0])}</span><div class="bar"><i style="width:${r[1]}%"></i></div></div>`).join('')}</div>` : ''}
+        <h3 class="modal-section-title">مناسب فصل‌ها</h3>
+        ${seasonBars(p)}
+        <div class="acts detail-actions">
+          <button class="btn${fav ? ' pri' : ''}" type="button" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}">${icon('heart')}<span>${fav ? 'در علاقه‌مندی‌ها' : 'افزودن به کمد من'}</span></button>
+          <button class="btn ghost" type="button" id="dShare" aria-label="اشتراک‌گذاری این عطر">${icon('share')}<span>اشتراک‌گذاری</span></button>
+          <button class="btn ghost" type="button" data-cmp="${esc(p.id)}" aria-pressed="${compare.has(p.id)}" aria-label="${compare.has(p.id) ? 'حذف از مقایسه' : 'افزودن به مقایسه'}">${icon('compare')}<span>${compare.has(p.id) ? 'حذف از مقایسه' : 'مقایسه'}</span></button>
+        </div>
+        <div class="set-group" style="margin:6px 0"><h3>امتیاز من</h3>
+          <div class="rating" role="group" aria-label="امتیاز">${[1, 2, 3, 4, 5].map(n => `<button type="button" data-rate="${n}" class="${my >= n ? 'on' : ''}" aria-pressed="${my >= n}" aria-label="${fa(n)} ستاره">${icon('star')}</button>`).join('')}</div>
+          <p class="hint">امتیاز فقط روی همین دستگاه ذخیره می‌شود.</p></div>
+        <div class="set-group" style="margin:6px 0"><h3>کمد من</h3>
+          <div class="chips">${ST.STATUSES.map(s => `<button class="chip" type="button" data-status="${s}" aria-pressed="${!!(w && w.status === s)}">${FA.status[s]}</button>`).join('')}</div>
+          <textarea class="d-note" id="dNote" rows="2" placeholder="یادداشت شخصی، تجربه استفاده یا تاریخ خرید…" maxlength="600">${esc(w ? w.note : '')}</textarea>
+          <div class="acts" style="margin:8px 0 0"><button class="btn pri" type="button" id="dSave">ذخیره در کمد</button>${w ? '<button class="btn ghost" type="button" id="dUnsave">حذف از کمد</button>' : ''}</div></div>
+        <h3 class="modal-section-title">عطرهای مشابه؛ بر اساس نت‌های مشترک</h3>
+        <div class="grid" style="grid-template-columns:repeat(3,1fr)" id="simStrip"></div>
+        <div class="acts"><button class="btn ghost" type="button" id="dReport">${icon('flag')}<span>گزارش نقص داده</span></button></div>`;
     renderGallery(p);
     $('#simStrip').innerHTML = '<p class="muted">در حال تحلیل نت‌های مشترک از بانک…</p>';
     (window.requestIdleCallback || (f => setTimeout(f, 30)))(() => { if (current && current.id === p.id) renderSimilarLocal(p); }, { timeout: 400 });
@@ -1001,7 +1172,8 @@
     const ps = [...compare].map(getP).filter(Boolean);
     const body = $('#cmpBody');
     if (ps.length < 2) { body.innerHTML = '<p class="muted">حداقل دو عطر را برای مقایسه انتخاب کن.</p>'; return; }
-    const list = a => (a && a.length ? a.map(n => FA.note(n) || n).join('، ') : '—');
+    // Coerce non-array note fields to array — Supabase text columns sometimes arrive as strings.
+    const list = a => (Array.isArray(a) ? a.map(n => FA.note(n) || n).join('، ') : a ? esc(String(a)) : '—');
     const rows = [
       ['برند', p => p.brand], ['غلظت', p => FA.concentration(p.conc) || '—'], ['سال عرضه', p => p.year || '—'],
       ['خانواده', p => [FA.family(p.family), FA.family(p.family2)].filter(Boolean).join(' + ') || '—'],
@@ -1147,6 +1319,12 @@
     const menuBackdrop = $('#menuBackdrop');
     if (menuBtn) menuBtn.addEventListener('click', () => setMenu(!menuOpen));
     if (menuClose) menuClose.addEventListener('click', () => setMenu(false));
+    // v7.9.14: header sparkle button opens the AI assistant view.
+    const sparkleBtn = $('#sparkleBtn');
+    if (sparkleBtn) sparkleBtn.addEventListener('click', () => go('agent'));
+    // v7.9.14: bottom-nav "بیشتر" opens the side menu (same as hamburger).
+    const bnavMenu = $('#bnavMenu');
+    if (bnavMenu) bnavMenu.addEventListener('click', () => setMenu(!menuOpen));
     if (menuBackdrop) menuBackdrop.addEventListener('click', () => setMenu(false));
     // Close on Escape when the menu is open
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuOpen) { e.preventDefault(); setMenu(false); } });
@@ -1238,6 +1416,8 @@
       const t = e.target;
       let x;
       if (t.closest('[data-retry]')) { location.reload(); return; }
+      // v7.9.14: generic [data-go] delegation — covers hero buttons, bnav, side-nav, anywhere.
+      if (x = t.closest('[data-go]')) { const v = x.dataset.go; if (v) { go(v); window.scrollTo({ top: 0, behavior: 'smooth' }); } return; }
       if (x = t.closest('[data-fav]')) { toggleFav(x.dataset.fav); return; }
       if (x = t.closest('[data-cmp]')) { toggleCompare(x.dataset.cmp); return; }
       if (x = t.closest('[data-dislike]')) { S.disliked.add(x.dataset.dislike); ST.saveDisliked(); const a = x.closest('.card'); if (a) a.remove(); toast('این پیشنهاد دیگر نمایش داده نمی‌شود'); return; }
@@ -1259,7 +1439,10 @@
         const st = $('[data-status][aria-pressed="true"]', dom.dbody);
         const note = $('#dNote').value.trim();
         if (!st && !note) { toast('ابتدا یک وضعیت انتخاب کن یا یادداشت بنویس'); return; }
-        S.wardrobe[current.id] = { status: st ? st.dataset.status : 'owned', note, updatedAt: new Date().toISOString() };
+        // Preserve existing status when user deselects all chips — previously defaulted to 'owned', silently flipping wishlist→owned.
+        const prev = S.wardrobe[current.id];
+        const status = st ? st.dataset.status : (prev && prev.status) || 'wishlist';
+        S.wardrobe[current.id] = { status, note, updatedAt: new Date().toISOString() };
         ST.saveWardrobe(); updateWardrobeBadge(); renderWardrobe(); toast('در کمد عطر ذخیره شد'); renderDetail(current); return;
       }
       if (t.closest('#dUnsave') && current) { delete S.wardrobe[current.id]; ST.saveWardrobe(); updateWardrobeBadge(); renderWardrobe(); toast('از کمد حذف شد'); renderDetail(current); return; }
@@ -1307,8 +1490,9 @@
     // agent form
     $('#agentForm').addEventListener('submit', e => { e.preventDefault(); agentView($('#agentInput').value); $('#agentInput').value = ''; });
 
-    // v7.9: AI smart search in Find view — uses the same agent engine
-    const aiFindBtn = $('#aiFindBtn'), aiFindInput = $('#aiFindInput'), aiFindResults = $('#aiFindResults');
+    // v7.9.15: AI smart search now reads from the unified #q search bar
+    // (was a separate #aiFindInput — the two-bar duplication is removed).
+    const aiFindBtn = $('#aiFindBtn'), aiFindInput = $('#q'), aiFindResults = $('#aiFindResults');
     if (aiFindBtn && aiFindInput) {
       const runAISearch = () => {
         const query = aiFindInput.value.trim();
@@ -1414,6 +1598,11 @@
   }
 
   /* ================= shared wardrobe (no account) ================= */
+  // Single source of truth for status letter mapping — fixes two bugs:
+  //  (a) export used to default unknown statuses to 's' (sold); now defaults to 'w' (wishlist).
+  //  (b) import/export round-trip is now symmetric and explicit.
+  const STATUS_TO_LETTER = { owned: 'o', wishlist: 'w', tested: 't', sold: 's' };
+  const LETTER_TO_STATUS = { o: 'owned', w: 'wishlist', t: 'tested', s: 'sold' };
   const b64url = { enc: s => btoa(unescape(encodeURIComponent(s))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''), dec: s => decodeURIComponent(escape(atob(s.replace(/-/g, '+').replace(/_/g, '/')))) };
   function shareWardrobe() {
     const ids = [...S.favs, ...Object.keys(S.wardrobe)];
@@ -1421,7 +1610,8 @@
     LPF.analytics.track('share');
     const payload = {
       f: [...S.favs],
-      w: Object.entries(S.wardrobe).map(([id, v]) => [id, v.status === 'owned' ? 'o' : v.status === 'wishlist' ? 'w' : v.status === 'tested' ? 't' : 's', S.ratings[id] || 0]),
+      // Look up status letter via the shared map; unknown/missing → 'w' (wishlist), never 's' (sold).
+      w: Object.entries(S.wardrobe).map(([id, v]) => [id, STATUS_TO_LETTER[v && v.status] || 'w', S.ratings[id] || 0]),
       at: new Date().toISOString().slice(0, 10)
     };
     const url = location.origin + location.pathname + '?w=' + b64url.enc(JSON.stringify(payload));
@@ -1432,7 +1622,20 @@
   function showSharedWardrobe(encoded) {
     let payload;
     try { payload = JSON.parse(b64url.dec(encoded)); } catch { toast('لینک کمد معتبر نیست'); return; }
-    const rows = [...(payload.f || []).map(id => ({ id, fav: true })), ...(payload.w || []).map(([id, st, r]) => ({ id, st, r }))];
+    // Defensive shape validation: payload.f and payload.w must be arrays.
+    // A crafted link like {"f":[],"w":[null]} used to throw an uncaught TypeError inside .map,
+    // which propagated up through routeDeepLink → init and silently skipped registerSW().
+    const fArr = Array.isArray(payload && payload.f) ? payload.f : [];
+    const wArr = Array.isArray(payload && payload.w) ? payload.w : [];
+    const rows = [
+      ...fArr.map(id => ({ id, fav: true })),
+      ...wArr.map(e => {
+        if (!Array.isArray(e)) return null;            // non-array element → skip
+        const [id, st, r] = e;
+        if (id == null) return null;                    // missing id → skip
+        return { id, st, r };
+      }).filter(Boolean)
+    ];
     const seen = new Map();
     for (const r of rows) {
       const prev = seen.get(r.id) || { id: r.id };
@@ -1458,12 +1661,27 @@
     dlg.addEventListener('click', e => { if (e.target === dlg) close(); });
     $('#swClose', dlg).onclick = close;
     $('#swSave', dlg).onclick = () => {
-      const statusMap = { o: 'owned', w: 'wishlist', t: 'tested', s: 'sold' };
       let n = 0;
+      const now = new Date().toISOString();
       for (const r of seen.values()) {
         if (r.fav) S.favs.add(r.id);
-        if (r.st) S.wardrobe[r.id] = { status: statusMap[r.st] || 'wishlist', note: '', updatedAt: new Date().toISOString() };
-        if (r.r) S.ratings[r.id] = Math.min(5, Math.max(1, r.r));
+        if (r.st) {
+          // Merge, never overwrite: preserve the user's existing status AND note uniformly.
+          // Previously the condition `prev.status !== 'wishlist'` treated wishlist as overridable,
+          // which contradicted the "preserve existing status" promise. Now any existing status wins.
+          const prev = S.wardrobe[r.id] || {};
+          const incomingStatus = LETTER_TO_STATUS[r.st] || 'wishlist';
+          S.wardrobe[r.id] = {
+            status: prev && prev.status ? prev.status : incomingStatus,
+            note: prev && prev.note ? prev.note : '',
+            updatedAt: now
+          };
+        }
+        // Rating: only set if the user has none — never overwrite an existing rating with a friend's.
+        if (r.r && !S.ratings[r.id]) {
+          const clamped = Math.min(5, Math.max(1, Number(r.r) || 0));
+          if (Number.isFinite(clamped)) S.ratings[r.id] = clamped;
+        }
         if (r.fav || r.st) n++;
       }
       ST.saveFavs(); ST.saveWardrobe(); ST.saveRatings();
@@ -1573,7 +1791,7 @@
     }
     items = list; buildIndex(); buildFilterOptions();
     // Speed: render home + grid in parallel using rAF to avoid blocking
-    renderHome(); renderVerse(); loadWeather(false);
+    renderHome(); loadWeather(false);
     startTimers();
     syncFilterUI(); render(); updateTray(); updateWardrobeBadge();
     LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
@@ -1582,10 +1800,22 @@
     // Speed: delta sync deferred to idle so it never blocks the first interaction
     if (cacheAge >= (cfg.data.syncIntervalHours || 6) * 3600000) {
       const runSync = () => repo.catalog.sync().then(res => {
-        if (!res || !res.items) return;
+        // Strict validation: a truthy-but-non-array `res.items` (e.g. an HTML error page parsed
+        // into an object, or a string) used to reassign `items` to a non-array and then crash
+        // inside buildIndex() — `live = items.filter(...)` — leaving `byId` already cleared and
+        // every subsequent openDetail silently failing for the rest of the session.
+        if (!res || !Array.isArray(res.items) || !res.items.length) return;
         items = res.items; buildIndex(); buildFilterOptions(); renderHome(); syncFilterUI(); render(); updateTray();
         LPF.settings.setCatalog(items, byId, live.filter(p => repo.images.get(p)).length);
         LPF.agent.init(live, FA, S.disliked, openDetail, ST);
+        // Reconcile the open detail sheet against the fresh catalogue: if the perfume was
+        // deleted in sync, close the sheet; if it was updated, re-render with the new object
+        // so the user never sees stale notes/name from the pre-sync product.
+        if (current) {
+          const fresh = byId.get(current.id);
+          if (!fresh || fresh.deleted) { if (dom.dlg && dom.dlg.open) dom.dlg.close(); current = null; }
+          else if (fresh !== current) { current = fresh; renderDetail(fresh); }
+        }
       }).catch(() => { });
       // Use requestIdleCallback so the sync doesn't compete with the user's first scroll
       if (window.requestIdleCallback) requestIdleCallback(runSync, { timeout: 4000 });

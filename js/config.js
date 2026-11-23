@@ -7,10 +7,17 @@
   LPF.config = {
     name: 'Larsi Perfume Finder',
     nameFa: 'لارسی پرفیوم فایندر',
+<<<<<<< HEAD
     version: '7.9.4',
     versionFa: '۷٫۹٫۴',
     releaseFa: 'آذر ۱۴۰۵ · سه پیشنهاد روزانه، بخش ارتباط با ما، کارت‌های فشرده‌تر',
     releaseISO: '2026-11-21',
+=======
+    version: '7.9.15',
+    versionFa: '۷٫۹٫۱۵',
+    releaseFa: "آذر ۱۴۰۵ · حذف فال حافظ و کارت هوا، بازطراحی تنظیمات با بخش اخطار جدا، دکمه‌های واقعی بروزرسانی و حذف کش، ادغام نوار جستجوی دوگانهٔ کشف عطر",
+    releaseISO: '2026-11-22',
+>>>>>>> f124cf688a8435f3541816d6aec83a934f32d6ba
     author: 'هادی رسولی',
     /* Store link intentionally disabled. No code path may build a store link while enabled === false. */
     store: { enabled: false, url: '' },
@@ -29,7 +36,7 @@
       cacheMinutes: 15,        // longer cache → fewer requests → faster perceived load
       refreshMinutes: 30
     },
-    agent: { enabled: false }, // دستیار محلی (قاعده‌محور). LLM فقط با فعال‌سازی Edge Function.
+    agent: { enabled: true, puter: true }, // دستیار هوشمند لارسی — اکنون با موتور Puter.js متصل است (فقط موضوع عطر).
     supabase: {
       url: 'https://eixzihvihoammvremxrl.supabase.co',
       anonKey: 'sb_publishable_7OdhTeZxaRGSBDSutX4vxw_yZ4aiBjl', // public publishable key only — safe for the browser

@@ -1,4 +1,4 @@
-/* Larsi Perfume Finder — Service Worker v7.8.3 */
+/* Larsi Perfume Finder — Service Worker v7.9.4 */
 const VERSION = '7.9.4';
 const SHELL = `lpf-${VERSION}-shell`;
 const IMG = 'lpf-images-v2';
