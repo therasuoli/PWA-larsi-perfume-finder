@@ -116,11 +116,11 @@ on:
 permissions:
   contents: write   # needed for git-auto-commit-action
 
-# Single concurrency group: only one run at a time. New runs queue behind.
-# This prevents overlapping hourly runs from conflicting on the data files.
+# Single concurrency group: only one run at a time. New runs cancel the old one.
+# This prevents stuck pending runs from blocking future scheduled runs.
 concurrency:
   group: fragrantica-sync
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   extract:
