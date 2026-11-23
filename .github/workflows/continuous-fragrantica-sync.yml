@@ -21,6 +21,11 @@
 #       Runtime: ~6 hours
 #       Purpose: discover new brands + full catalogue refresh
 #
+# PIPELINE:
+#   1. Extract data from Fragrantica → data/fragrantica-extracted.json
+#   2. Commit JSON to repo (always)
+#   3. Upload to Supabase (only if SUPABASE_SERVICE_ROLE_KEY is configured)
+#
 # IMAGE EXTRACTION (strict, per spec):
 #   Pattern 1 (PRIMARY): construct URL from product ID
 #     https://fimgs.net/mdimg/perfume-thumbs/375x500.{product_id}.jpg
@@ -35,8 +40,16 @@
 #
 # RESUME / DEDUP:
 #   - data/fragrantica-progress.json tracks all processed URLs (committed to repo)
-#   - data/fragrantica-extracted.json holds all records (committed to repo)
+#   - data/fragrantica-extracted.json holds all records (committed to repo + uploaded to Supabase)
 #   - Hourly runs skip already-processed URLs unless --refresh-older-than fires
+#
+# REQUIRED GITHUB SECRETS (configure in repo Settings → Secrets → Actions):
+#   - SUPABASE_URL                — e.g. https://eixzihvihoammvremxrl.supabase.co
+#   - SUPABASE_SERVICE_ROLE_KEY   — server-side service role key (NOT the anon key)
+#
+#   The anon/publishable key is already in js/config.js (safe to ship in browser).
+#   The service_role key can WRITE to the database and must be kept secret.
+#   Without these secrets, the Supabase upload step is skipped (data still goes to repo JSON).
 name: Continuous Fragrantica sync
 
 on:
@@ -80,6 +93,14 @@ on:
         description: 'Hours: re-fetch records older than this (0=off, 168=1 week)'
         required: false
         default: '168'
+      skip_supabase:
+        description: 'Skip the Supabase upload step?'
+        required: false
+        type: choice
+        default: 'no'
+        options:
+          - 'no'
+          - 'yes'
       limit:
         description: 'Max perfumes to extract (0 = unlimited)'
         required: false
@@ -89,6 +110,7 @@ on:
     paths:
       - '.github/workflows/continuous-fragrantica-sync.yml'
       - 'scripts/fragrantica-extract.mjs'
+      - 'scripts/upload-fragrantica-to-supabase.mjs'
       - 'data/fragrantica-dictionary.mjs'
 
 permissions:
@@ -239,13 +261,30 @@ jobs:
             echo '```' >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Commit changes
+      - name: Commit JSON to repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(data): ${{ steps.tier.outputs.tier }} Fragrantica sync — ${{ github.run_id }}'
           file_pattern: 'data/fragrantica-extracted.json data/fragrantica-progress.json'
           commit_user_name: 'fragrantica-bot'
           commit_user_email: 'fragrantica-bot@users.noreply.github.com'
+
+      - name: Upload to Supabase (optional)
+        if: ${{ github.event.inputs.skip_supabase != 'yes' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          echo "=== Uploading fragrantica-extracted.json to Supabase ==="
+          node scripts/upload-fragrantica-to-supabase.mjs
+          EXIT=$?
+          if [ $EXIT -eq 2 ]; then
+            echo "::warning::Supabase upload skipped — secrets not configured. See script output for setup instructions."
+          elif [ $EXIT -ne 0 ]; then
+            echo "::warning::Supabase upload failed with exit code $EXIT. The repo commit still succeeded."
+          else
+            echo "Supabase upload succeeded!"
+          fi
 
       - name: Clean up cache (don't commit HTML cache files)
         run: |
