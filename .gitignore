@@ -13,3 +13,10 @@ node_modules/
 data/similar.json
 supabase/.temp/
 supabase/functions/test-zai/
+
+# Fragrantica extractor: HTML cache (regenerated each run; can be large)
+data/.frag-cache/
+
+# Fragrantica extractor: progress file is committed (small, useful for resume)
+# but if you want to ignore it, uncomment the line below:
+# data/fragrantica-progress.json

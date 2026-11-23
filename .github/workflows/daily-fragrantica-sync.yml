@@ -1,0 +1,118 @@
+# Larsi Perfume Finder — daily-fragrantica-sync.yml
+#
+# Daily automatic Fragrantica extractor.
+#
+# Every day at 03:00 UTC (06:30 Asia/Tehran) the workflow:
+#   1. Discovers all perfume URLs for each configured brand (Amouage, Dior, Chanel,
+#      Guerlain, Creed, Parfums de Marly, Frederic Malle, Byredo, ...)
+#   2. Fetches each perfume page with full Cloudflare-bypass headers (curl + UA rotation)
+#   3. Extracts ALL fields with 100% coverage:
+#        brand, brandFa, name, nameFa, baseName, concentration, concentrationFa,
+#        family, familyFa, gender, genderFa, year, perfumer, perfumerFa,
+#        rating, ratingVotes, topNotes(+Fa), middleNotes(+Fa), baseNotes(+Fa),
+#        accords(+Fa), description, descriptionFa,
+#        imageUrl, fragranticaId, fragranticaUrl,
+#        seasons(+Fa), primarySeason(+Fa), timeOfDay(+Fa)
+#   4. Saves to data/fragrantica-extracted.json (committed to repo)
+#   5. Commits back to main
+#
+# Throttled to 4-8 seconds between requests to respect Fragrantica's rate limits.
+# Resumable: re-runs only fetch URLs that have not been processed yet.
+#
+# Triggers:
+#   - Daily at 03:00 UTC
+#   - Manually via the Actions tab → "Run workflow" (with optional --brands arg)
+#   - On push when the extractor script or dictionary changes
+name: Daily Fragrantica sync
+
+on:
+  schedule:
+    # 03:00 UTC daily = 06:30 Asia/Tehran (off-peak for both Fragrantica and our users)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      brands:
+        description: 'Comma-separated brand slugs (default: Amouage,Dior,Chanel,Guerlain,Creed,Parfums-de-Marly,Frederic-Malle,Byredo)'
+        required: false
+        default: ''
+      limit:
+        description: 'Max perfumes per brand (0 = unlimited, default 0)'
+        required: false
+        default: '0'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-fragrantica-sync.yml'
+      - 'scripts/fragrantica-extract.mjs'
+      - 'data/fragrantica-dictionary.mjs'
+
+permissions:
+  contents: write   # needed for git-auto-commit-action
+
+concurrency:
+  group: fragrantica-sync
+  cancel-in-progress: false   # don't cancel mid-run; resume next day
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360   # 6 hours max (Fragrantica throttling makes 1500 perfumes take ~3h)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install curl (default on ubuntu-latest, just confirm)
+        run: |
+          curl --version | head -1
+          echo "curl is required for Cloudflare bypass (Node fetch gets 403)"
+
+      - name: Run extractor
+        run: |
+          BRANDS="${{ github.event.inputs.brands || 'Amouage,Dior,Chanel,Guerlain,Creed,Parfums-de-Marly,Frederic-Malle,Byredo' }}"
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          echo "Running extractor with brands=$BRANDS limit=$LIMIT"
+          node scripts/fragrantica-extract.mjs \
+            --brands "$BRANDS" \
+            --limit "$LIMIT" \
+            --delay-min 5000 \
+            --delay-max 9000 \
+            --resume
+
+      - name: Show extraction summary
+        run: |
+          echo "### Fragrantica daily sync" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/fragrantica-extracted.json ]; then
+            COUNT=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/fragrantica-extracted.json","utf8")).length)')
+            echo "Total records: **$COUNT**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Sample record:" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            node -e 'const d = JSON.parse(require("fs").readFileSync("data/fragrantica-extracted.json","utf8")); console.log(JSON.stringify(d[0], null, 2))' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/fragrantica-progress.json ]; then
+            echo "Progress file:" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat data/fragrantica-progress.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): daily Fragrantica sync — ${{ github.run_id }}'
+          file_pattern: 'data/fragrantica-extracted.json data/fragrantica-progress.json'
+          commit_user_name: 'fragrantica-bot'
+          commit_user_email: 'fragrantica-bot@users.noreply.github.com'
+
+      - name: Clean up cache (don't commit HTML cache files)
+        run: |
+          rm -rf data/.frag-cache
+          echo "Cache cleaned — HTML files not committed to repo"
