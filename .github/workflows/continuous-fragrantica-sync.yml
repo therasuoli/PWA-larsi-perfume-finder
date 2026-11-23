@@ -125,7 +125,13 @@ concurrency:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 60   # each hourly run must complete in <1 hour to make room for the next
+    # Timeout depends on tier:
+    #   - Hourly (whats-new, ~68 perfumes): ~10 min → 60 min timeout is plenty
+    #   - Daily (8 brands, ~1600 perfumes): ~90 min → needs 180 min timeout
+    #   - Weekly (all brands, ~5000 perfumes): ~6 hours → 480 min timeout
+    # The timeout-minutes is set high enough for the worst case (weekly = 8 hours).
+    # The hourly run will exit naturally in ~10 min so this doesn't waste resources.
+    timeout-minutes: 480   # 8 hours max (only weekly runs need this; hourly finishes in ~10 min)
     steps:
       - name: Checkout
         uses: actions/checkout@v4

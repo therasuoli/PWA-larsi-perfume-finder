@@ -390,13 +390,43 @@ async function fetchHtml(url, { useCache = true, retries = 5 } = {}) {
 
 const PATTERNS = {
   // Main description paragraph — single source of truth for 9 fields.
-  // Example:
+  //
+  // Fragrantica uses several variants for the perfumer attribution sentence:
+  //
+  //   1. "The nose behind this fragrance is X."               (single perfumer)
+  //   2. "The noses behind this fragrance are X, Y and Z."  (multiple)
+  //   3. "X was created by A, B and C."                      (alt phrasing)
+  //   4. (no perfumer sentence at all — older pages)
+  //
+  // The regex below handles all four variants. The perfumer capture group (6)
+  // is optional so missing perfumer doesn't break extraction of name/notes/year.
+  //
+  // Example HTML:
   //   <p><b>Reflection Woman</b> by <b>Amouage</b> is a Floral fragrance for
   //   women. <b>Reflection Woman</b> was launched in 2006. The nose behind this
   //   fragrance is Maurice Roucel. Top notes are Green Leaves, Freesia and Water
   //   Violet; middle notes are Magnolia and Jasmine; base notes are Cedar,
   //   Sandalwood and Amber. </p>
-  mainDesc: /<p><b>(.+?)<\/b>\s+by\s+<b>(.+?)<\/b>\s+is\s+an?\s+(.+?)\s+fragrance\s+for\s+(.+?)\.\s*<b>[^<]+<\/b>\s+was\s+launched\s+in\s+(\d{4})\.\s*(?:(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are)\s+(.+?)\.\s*)?Top\s+notes\s+are\s+(.+?);\s*middle\s+notes\s+are\s+(.+?);\s*base\s+notes\s+are\s+(.+?)\.\s*<\/p>/i,
+  //
+  // Alt example (Epic Woman — multiple perfumers, alt phrasing):
+  //   <p><b>Epic Woman</b> by <b>Amouage</b> is a Oriental Floral fragrance for
+  //   women. <b>Epic Woman</b> was launched in 2009. Epic Woman was created by
+  //   Cécile Zarokian, Daniel Maurel and Angéline Leporini. Top notes are
+  //   Caraway, Cinnamon and Pink Nerium Oleander; middle notes are ...
+  mainDesc: /<p><b>(.+?)<\/b>\s+by\s+<b>(.+?)<\/b>\s+is\s+an?\s+(?:(.+?)\s+)?fragrance\s+for\s+(.+?)\.\s*<b>[^<]+<\/b>\s+was\s+launched\s+in\s+(\d{4})\.\s*(?:(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are)\s+(.+?)\.\s*|(?:[A-Z][\w''-]+(?:\s+[A-Z][\w''-]+)*)\s+was\s+created\s+by\s+(.+?)\.\s*)?Top\s+notes\s+are\s+(.+?);\s*middle\s+notes\s+are\s+(.+?);\s*base\s+notes\s+are\s+(.+?)\.\s*<\/p>/i,
+
+  // Pattern for fallback when main description doesn't match (older/discontinued pages)
+  // Captures name, brand, family (optional), gender without requiring the launch year / perfumer
+  mainDescFallback: /<p><b>(.+?)<\/b>\s+by\s+<b>(.+?)<\/b>\s+is\s+an?\s+(?:(.+?)\s+)?fragrance\s+for\s+(.+?)\.\s*<\/p>/i,
+
+  // Pattern for year (used in fallback mode)
+  yearAny: /was\s+(?:launched|released|introduced|created)\s+(?:in\s+)?(\d{4})/i,
+
+  // Pattern for perfumer (used in fallback mode) - matches all variants
+  perfumerAny: /(?:The\s+nose\s+behind\s+this\s+fragrance\s+is|The\s+noses?\s+behind\s+this\s+fragrance\s+are|was\s+created\s+by)\s+([^.<]+?)\./i,
+
+  // Pattern for top/middle/base notes (used in fallback mode)
+  notesAny: /Top\s+notes?\s+are\s+(.+?);\s*middle\s+notes?\s+are\s+(.+?);\s*base\s+notes?\s+are\s+(.+?)\.\s/i,
 
   // Extended description block
   extDesc: /<div v-pre class='fragrantica-blockquote'><p>([\s\S]+?)<\/p><\/div>/,
@@ -476,20 +506,60 @@ function extractFromHtml(html, sourceUrl) {
   };
 
   // 1. Main description paragraph (gold mine: 9 fields)
+  //    Try the strict regex first; if it fails (variant phrasing for perfumer,
+  //    missing year, etc.), fall back to a more permissive extraction that
+  //    pulls each field independently with separate patterns.
+  //
+  // NOTE: With the new optional family group (some pages like "Guidance Hair
+  // Perfume" omit the family classification), the capture groups are:
+  //   m[1] = name, m[2] = brand, m[3] = family (may be undefined), m[4] = gender
+  //   m[5] = year
+  //   m[6] = perfumer (variant: "The nose behind this fragrance is X")
+  //   m[7] = perfumer (variant: "X was created by A, B, C")
+  //   m[8] = top notes, m[9] = middle notes, m[10] = base notes
   const m = html.match(PATTERNS.mainDesc);
   if (m) {
     out.name = decodeEntities(m[1].trim());
     out.brand = decodeEntities(m[2].trim());
-    out.family = decodeEntities(m[3].trim());
+    out.family = m[3] ? decodeEntities(m[3].trim()) : null;
     out.gender = decodeEntities(m[4].trim());
     out.year = parseInt(m[5], 10);
-    out.perfumer = m[6] ? decodeEntities(m[6].trim()) : null;
-    out.topNotes = parseList(m[7]);
-    out.middleNotes = parseList(m[8]);
-    out.baseNotes = parseList(m[9]);
+    out.perfumer = m[6] ? decodeEntities(m[6].trim())
+               : (m[7] ? decodeEntities(m[7].trim()) : null);
+    out.topNotes = parseList(m[8]);
+    out.middleNotes = parseList(m[9]);
+    out.baseNotes = parseList(m[10]);
   } else {
-    // Fallback for pages where the description paragraph is malformed
-    out._missingMainDesc = true;
+    // Fallback: extract each field independently with looser patterns.
+    // This handles pages where the description uses variant phrasing that
+    // the strict mainDesc regex can't match.
+    const fm = html.match(PATTERNS.mainDescFallback);
+    if (fm) {
+      out.name = decodeEntities(fm[1].trim());
+      out.brand = decodeEntities(fm[2].trim());
+      out.family = fm[3] ? decodeEntities(fm[3].trim()) : null;
+      out.gender = decodeEntities(fm[4].trim());
+    }
+    // Year (any "was launched/released/introduced/created in YYYY")
+    if (!out.year) {
+      const ym = html.match(PATTERNS.yearAny);
+      if (ym) out.year = parseInt(ym[1], 10);
+    }
+    // Perfumer (any variant)
+    if (!out.perfumer) {
+      const pm = html.match(PATTERNS.perfumerAny);
+      if (pm) out.perfumer = decodeEntities(pm[1].trim());
+    }
+    // Notes (top/heart/base)
+    if (!out.topNotes?.length) {
+      const nm = html.match(PATTERNS.notesAny);
+      if (nm) {
+        out.topNotes = parseList(nm[1]);
+        out.middleNotes = parseList(nm[2]);
+        out.baseNotes = parseList(nm[3]);
+      }
+    }
+    if (!out.name) out._missingMainDesc = true;
   }
 
   // 2. Brand (from schema.org, as confirmation/fallback)
