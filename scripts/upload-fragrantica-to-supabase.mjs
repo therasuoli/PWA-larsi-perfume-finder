@@ -189,3 +189,4 @@ if (failed > 0) {
   console.warn(`WARNING: ${failed} records failed to upload. Check the logs above.`);
   process.exit(1);
 }
+
