@@ -14,6 +14,7 @@
  *
  * AUTH: requires SUPABASE_SERVICE_ROLE_KEY (server-side only, never ship in
  * the browser). The public anon key has read-only access.
+ *   See: https://supabase.com/dashboard/project/_/settings/api
  *
  * UPSERT behaviour: POST with `Prefer: resolution=merge-duplicates` so existing
  * records (same fragranticaId) are updated instead of duplicated.
