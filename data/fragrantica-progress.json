@@ -1,5 +1,6 @@
 {
   "processed": [
+<<<<<<< HEAD
     "https://www.fragrantica.com/perfume/melloculab/Synthetic-Ph-romone-148527.html",
     "https://www.fragrantica.com/perfume/melloculab/Vanilla-Borealis-148526.html",
     "https://www.fragrantica.com/perfume/melloculab/Black-Omen-148525.html",
@@ -81,6 +82,9 @@
     "https://www.fragrantica.com/perfume/Rayhaan/Palawan-148482.html",
     "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Babycat-Raw-Bourbon-104191.html",
     "https://www.fragrantica.com/perfume/Swiss-Arabian/Casablanca-42181.html"
+=======
+    "https://www.fragrantica.com/perfume/Amouage/Reflection-Woman-919.html"
+>>>>>>> afc9aa1 (fix(workflow): don't fail workflow on Supabase upload errors)
   ],
   "failed": []
 }

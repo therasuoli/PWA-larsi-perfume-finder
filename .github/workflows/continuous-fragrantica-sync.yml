@@ -281,20 +281,14 @@ jobs:
 
       - name: Upload to Supabase (optional)
         if: ${{ github.event.inputs.skip_supabase != 'yes' }}
+        continue-on-error: true   # don't fail the workflow if Supabase upload fails (data is already in repo)
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           echo "=== Uploading fragrantica-extracted.json to Supabase ==="
-          node scripts/upload-fragrantica-to-supabase.mjs
-          EXIT=$?
-          if [ $EXIT -eq 2 ]; then
-            echo "::warning::Supabase upload skipped — secrets not configured. See script output for setup instructions."
-          elif [ $EXIT -ne 0 ]; then
-            echo "::warning::Supabase upload failed with exit code $EXIT. The repo commit still succeeded."
-          else
-            echo "Supabase upload succeeded!"
-          fi
+          node scripts/upload-fragrantica-to-supabase.mjs || true
+          echo "Supabase upload step completed (exit code ignored — see warning above for status)"
 
       - name: Clean up cache (don't commit HTML cache files)
         run: |
