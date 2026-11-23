@@ -335,25 +335,28 @@
   }
 
   function renderHome() {
-    // v7.6: Hero featured perfume of the day — rotates based on date
+    // v7.9.14: Hero headline & paragraph are STATIC (per mobile spec).
+    // The featured "perfume of the day" only powers the orb tap target;
+    // it is NEVER injected into #heroTitle / #heroSub.
     const heroEl = $('#heroBottle'); if (heroEl) {
-      // Pick a "perfume of the day" deterministically based on date
       const dayIndex = Math.floor(Date.now() / 86400000);
       const candidates = live.filter(p => repo.images.get(p)).sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9));
       const featured = candidates.length ? candidates[dayIndex % Math.min(candidates.length, 50)] : null;
+      // The CSS gold bottle lives inside #heroBottle (.larsi-bottle). Don't overwrite it.
       if (featured) {
-        const liq = famLiq(featured.family);
-        heroEl.innerHTML = `<svg class="bottle" style="--liq:${liq};--lv:${concLevel(featured.conc)}px" aria-hidden="true"><use href="#b"/></svg>`;
-        // v7.9.13: don't clobber the atelier hero gradient (cinematic dark canvas).
-        // The hero art (orb+bottle) is enough; the featured perfume tint is applied to the bottle only.
-        const heroTitle = $('#heroTitle'); if (heroTitle) heroTitle.innerHTML = `${esc(featured.name)} <span class="hero-accent">پیدا کن.</span>`;
-        const heroSub = $('#heroSub'); if (heroSub) heroSub.textContent = `${featured.brand} · ${FA.family(featured.family) || 'عطر'} — برای انتخاب عطر، شناخت رایحه‌ها و پیدا کردن گزینه‌های تازه؛ همه‌چیز را یک‌جا در لارسی تجربه کن.`;
+        heroEl.dataset.featured = featured.id;
         heroEl.setAttribute('role', 'button');
-        heroEl.setAttribute('aria-label', `عطر روز: ${featured.name} از ${featured.brand}`);
+        heroEl.setAttribute('aria-label', `عطر روز: ${featured.name} از ${featured.brand} — برای دیدن جزئیات بزن`);
         heroEl.onclick = () => openDetail(featured.id);
       } else {
-        heroEl.innerHTML = `<svg class="bottle" style="--liq:${famLiq('Amber & Resin')};--lv:12px" aria-hidden="true"><use href="#b"/></svg>`;
+        delete heroEl.dataset.featured;
+        heroEl.removeAttribute('role');
+        heroEl.removeAttribute('aria-label');
+        heroEl.onclick = null;
       }
+      // Make sure the hero search box starts empty on every home render.
+      const hq = $('#hq'); if (hq) hq.value = '';
+      const hqClear = $('#hqClear'); if (hqClear) hqClear.hidden = true;
     }
 
     $('#moods').innerHTML = MOODS.map(([label, fams], i) => `<button class="mood" type="button" data-mood="${i}" style="--liq:${famLiq(fams[0])}">${esc(label)}</button>`).join('') + `<button class="mood ghost2" type="button" id="giftBtn" style="background:transparent;color:var(--ink);border:1px solid var(--line)">${icon('spark')}هدیه می‌خواهم</button>`;
@@ -1329,6 +1332,12 @@
     const menuBackdrop = $('#menuBackdrop');
     if (menuBtn) menuBtn.addEventListener('click', () => setMenu(!menuOpen));
     if (menuClose) menuClose.addEventListener('click', () => setMenu(false));
+    // v7.9.14: header sparkle button opens the AI assistant view.
+    const sparkleBtn = $('#sparkleBtn');
+    if (sparkleBtn) sparkleBtn.addEventListener('click', () => go('agent'));
+    // v7.9.14: bottom-nav "بیشتر" opens the side menu (same as hamburger).
+    const bnavMenu = $('#bnavMenu');
+    if (bnavMenu) bnavMenu.addEventListener('click', () => setMenu(!menuOpen));
     if (menuBackdrop) menuBackdrop.addEventListener('click', () => setMenu(false));
     // Close on Escape when the menu is open
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuOpen) { e.preventDefault(); setMenu(false); } });
@@ -1401,6 +1410,8 @@
       const t = e.target;
       let x;
       if (t.closest('[data-retry]')) { location.reload(); return; }
+      // v7.9.14: generic [data-go] delegation — covers hero buttons, bnav, side-nav, anywhere.
+      if (x = t.closest('[data-go]')) { const v = x.dataset.go; if (v) { go(v); window.scrollTo({ top: 0, behavior: 'smooth' }); } return; }
       if (x = t.closest('[data-fav]')) { toggleFav(x.dataset.fav); return; }
       if (x = t.closest('[data-cmp]')) { toggleCompare(x.dataset.cmp); return; }
       if (x = t.closest('[data-dislike]')) { S.disliked.add(x.dataset.dislike); ST.saveDisliked(); const a = x.closest('.card'); if (a) a.remove(); toast('این پیشنهاد دیگر نمایش داده نمی‌شود'); return; }

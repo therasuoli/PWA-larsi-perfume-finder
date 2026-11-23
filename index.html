@@ -56,18 +56,19 @@
 <a class="skip" href="#v-home">پرش به محتوای اصلی</a>
 
 <!-- ============ NEW HEADER WITH HAMBURGER (click-to-open only) ============ -->
-<header class="top new-top">
+<header class="top new-top" role="banner">
   <button class="round menu-btn" id="menuBtn" type="button" aria-label="باز کردن منو" aria-controls="sideMenu" aria-expanded="false">
     <svg class="ic"><use href="#i-menu"/></svg>
   </button>
-  <a class="brand" href="./" aria-label="لارسی پرفیوم فایندر — صفحه اول">
+  <a class="brand" href="./" aria-label="لارسی — صفحه اول">
     <span class="brandmark" aria-hidden="true">✧</span>
     <span class="brand-text">
-      <b>Larsi <i>Perfume</i> Finder</b>
+      <b>لارسی</b>
       <small>FRAGRANCE SUPER APP</small>
     </span>
   </a>
   <div class="top-actions">
+    <button class="round" id="sparkleBtn" type="button" aria-label="دستیار هوشمند لارسی"><span class="spark-glyph" aria-hidden="true">✦</span></button>
     <button class="round" id="themeBtn" type="button" aria-label="تغییر تم روشن و تیره"><svg class="ic"><use href="#i-moon"/></svg></button>
   </div>
 </header>
@@ -112,7 +113,7 @@
       <h1 id="heroTitle">عطرِ خودت را <span class="hero-accent">پیدا کن.</span></h1>
       <p class="hero-sub" id="heroSub">برای انتخاب عطر، شناخت رایحه‌ها و پیدا کردن گزینه‌های تازه؛ همه‌چیز را یک‌جا در لارسی تجربه کن.</p>
       <form class="hero-search search-wrap" id="heroSearchForm" onsubmit="return false">
-        <input id="hq" type="search" inputmode="search" enterkeyhint="search" placeholder="اسم عطر، برند یا رایحه‌ای که دوست داری..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
+        <input id="hq" type="search" inputmode="search" enterkeyhint="search" value="" placeholder="اسم عطر، برند یا رایحه‌ای که دوست داری..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="hqSug" aria-autocomplete="list" aria-label="جستجوی عطر">
         <button type="submit" class="hero-search-btn" aria-label="جستجو">جستجو ✦</button>
         <button class="clear" id="hqClear" type="button" aria-label="پاک کردن جستجو" hidden><svg class="ic"><use href="#i-close"/></svg></button>
         <div class="suggest" id="hqSug" hidden role="listbox" aria-label="پیشنهادهای جستجو"></div>
@@ -131,6 +132,7 @@
       <div class="orb" id="heroBottle">
         <div class="orbit"></div>
         <div class="orbit two"></div>
+        <div class="larsi-bottle" aria-hidden="true"><span class="bottle-label">LARSI</span></div>
         <div class="float-chip one">✦ <b>رایحه پیشنهادی</b></div>
         <div class="float-chip two">AI · <b>همراه کشف تو</b></div>
       </div>
@@ -433,7 +435,7 @@
   <button type="button" data-go="find"><svg class="ic"><use href="#i-find"/></svg><span>کشف عطر</span></button>
   <button type="button" class="nav-ai" data-go="agent" aria-label="دستیار هوشمند لارسی"><span class="ai-orbit" aria-hidden="true">✦</span><span>دستیار</span></button>
   <button type="button" data-go="identify"><svg class="ic"><use href="#i-scan"/></svg><span>شناسایی</span></button>
-  <button type="button" data-go="set"><svg class="ic"><use href="#i-gear"/></svg><span>بیشتر</span></button>
+  <button type="button" id="bnavMenu" aria-label="باز کردن منو"><svg class="ic"><use href="#i-menu"/></svg><span>بیشتر</span></button>
 </nav>
 
 <!-- compare tray -->
