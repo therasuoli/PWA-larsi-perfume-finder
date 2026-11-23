@@ -13383,5 +13383,1764 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Shaka-Hawai-i/Lei-Stand-No-14-148570.html",
+    "extractedAt": "2026-11-23T20:43:05.244Z",
+    "name": "Lei Stand No.14",
+    "brand": "Shaka Hawai’i",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jean Claude Delville",
+    "topNotes": [
+      "White Ginger Lily"
+    ],
+    "middleNotes": [
+      "Frangipani",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "LEI STAND No.14 by Shaka Hawai'i is a white-floral eau de parfum launched in 2026. White ginger lily opens the composition, followed by pikake, frangipani and tuberose over a base of sandalwood and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148570.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 42
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 148570,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lei Stand No.14",
+    "brandFa": "Shaka Hawai’i",
+    "nameFa": "Lei Stand No.14",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jean Claude Delville",
+    "topNotesFa": [
+      "White Ginger Lily"
+    ],
+    "middleNotesFa": [
+      "Frangipani",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش"
+    ],
+    "descriptionFa": "LEI STAND No.14 از برند Shaka Hawai'i یک ادو پرفیوم با رایحه گل‌های سفید است که در سال 2026 عرضه شد. زنبق زنجبیل سفید مقدمه این ترکیب است و پس از آن پیکا‌که، فرانجیپانی و مریم هندی بر پایه چوب صندل و مشک قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Shaka-Hawai-i/Kaimana-148569.html",
+    "extractedAt": "2026-11-23T20:43:11.450Z",
+    "name": "Kaimana",
+    "brand": "Shaka Hawai’i",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jean Claude Delville",
+    "topNotes": [
+      "Calamansi",
+      "Pomelo",
+      "Mandarin Leaf"
+    ],
+    "middleNotes": [
+      "Frangipani",
+      "Litchi"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Kaimana by Shaka Hawai’i is a bright, unisex eau de parfum launched in 2026 and presented as an evocation of sunshine by the ocean. Calamansi, pomelo and mandarin leaf open the fragrance, followed by frangipani and litchi over a base of musk and woody notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148569.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 148569,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kaimana",
+    "brandFa": "Shaka Hawai’i",
+    "nameFa": "Kaimana",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jean Claude Delville",
+    "topNotesFa": [
+      "Calamansi",
+      "پوملو",
+      "Mandarin Leaf"
+    ],
+    "middleNotesFa": [
+      "Frangipani",
+      "Litchi"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Kaimana از برند Shaka Hawai’i یک ادو پرفیوم شاد و یونیسکس است که در سال 2026 عرضه شده و به عنوان یادآور نور خورشید در کنار اقیانوس معرفی می‌شود. رایحه با کالامانسی، پوملو و برگ نارنگی آغاز می‌شود، سپس رایحه پلومریا و لیچی بر پایه نت‌های مشک و چوبی قرار می‌گیرد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bharara/Rome-Lucky-143743.html",
+    "extractedAt": "2026-11-23T20:43:16.658Z",
+    "name": "Rome Lucky",
+    "brand": "Bharara",
+    "family": "Woody",
+    "gender": "men. Top notes are Grapefruit, Bergamot and Plum; middle notes are Hazelnut, Ozonic notes, Honey, Jasmine and Orange Blossom; base notes are Patchouli, Amber, Musk, Cedarwood and Moss",
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Plum"
+    ],
+    "middleNotes": [
+      "Hazelnut",
+      "Ozonic notes",
+      "Honey",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Amber",
+      "Musk",
+      "Cedarwood",
+      "Moss"
+    ],
+    "description": "Rome Lucky by Bharara is a woody gourmand eau de parfum for men from the Mast Perfume collection. Bergamot, grapefruit and plum open the fragrance, followed by hazelnut, honey, ozonic notes, orange blossom and jasmine, with a base of cedarwood, moss, patchouli, amber and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143743.jpg",
+    "rating": 4.65,
+    "ratingVotes": 17,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 77
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 71
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 143743,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rome Lucky",
+    "brandFa": "Bharara",
+    "nameFa": "Rome Lucky",
+    "familyFa": "چوبی",
+    "genderFa": "men. Top notes are Grapefruit, Bergamot and Plum; middle notes are Hazelnut, Ozonic notes, Honey, Jasmine and Orange Blossom; base notes are Patchouli, Amber, Musk, Cedarwood and Moss",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "آلو"
+    ],
+    "middleNotesFa": [
+      "فندق",
+      "Ozonic notes",
+      "عسل",
+      "یاسمن",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "کهربا",
+      "موش",
+      "چوب سرو",
+      "خزه"
+    ],
+    "descriptionFa": "Rome Lucky از برند Bharara یک ادو پرفیوم گورماند چوبی برای آقایان از مجموعه Mast Perfume است. ترنج، گریپ‌فروت و آلو رایحه را آغاز می‌کنند، سپس فندق، عسل، نت‌های اوزونی، شکوفه پرتقال و یاس، با رایحه پایه‌ای چوب سدر، خزه، نعناع هندی، عنبر و مشک ادامه می‌یابند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Kobra-112706.html",
+    "extractedAt": "2026-11-23T20:43:21.897Z",
+    "name": "Hawas Kobra",
+    "brand": "Rasasi",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Ginger",
+      "Bergamot",
+      "Tangerine"
+    ],
+    "middleNotes": [
+      "Green Tea",
+      "Neroli",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Woodsy Notes",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112706.jpg",
+    "rating": 4.3,
+    "ratingVotes": 2991,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 55
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 112706,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Kobra",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Kobra",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "زنجبیل",
+      "برگاموت",
+      "تانجرین"
+    ],
+    "middleNotesFa": [
+      "چای سبز",
+      "نرولی",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Woodsy Notes",
+      "کهربا"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Beau-Narcisse-122215.html",
+    "extractedAt": "2026-11-23T20:43:25.710Z",
+    "name": "Le Beau Narcisse",
+    "brand": "Jean Paul Gaultier",
+    "family": "Floral Woody Musk",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Bergamot",
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Musk",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Vetiver"
+    ],
+    "description": "In a radiant Eden of gold and precious stones, Jean Paul Gaultier unveils <strong>Le Beau Narcisse Eau de Parfum</strong>. Irresistible and magnetic, he commands every gaze with an amber-musk scent—like a forbidden caress that announces his presence before he appears. Upon the skin, sparkling bergamot breathes a wave of freshness, musk slowly unveils a deep sensuality, and tonka bean ignites an intense, addictive allure.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122215.jpg",
+    "rating": 3.78,
+    "ratingVotes": 2211,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 89
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 65
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 61
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 122215,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Le Beau Narcisse",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "Le Beau Narcisse",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "برگاموت",
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "موش",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "وتیور"
+    ],
+    "descriptionFa": "در بهشتی درخشان از طلا و سنگ‌های قیمتی، ژان پل گوتیه <strong>ادو پرفیوم Le Beau Narcisse</strong> را معرفی می‌کند. او با رایحه‌ای از عنبر و مشک، که مانند نوازشی ممنوعه است و قبل از ظهورش حضورش را اعلام می‌کند، مقاومت‌ناپذیر و جذاب است و همه نگاه‌ها را به خود جلب می‌کند. بر روی پوست، رایحه درخشان ترنج موجی از طراوت را ایجاد می‌کند، مشک به آرامی شهوانیت عمیقی را آشکار می‌کند و دانه‌های تونکا جذابیت شدید و اعتیادآوری را برمی‌انگیزد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Power-Of-You-121870.html",
+    "extractedAt": "2026-11-23T20:43:31.651Z",
+    "name": "Power Of You",
+    "brand": "Giorgio Armani",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Nisrine Bouazzaoui Grillié and Nadège Le Garlantezec",
+    "topNotes": [
+      "Passionfruit",
+      "Bitter Orange",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Frangipani",
+      "Solar Notes"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Benzoin",
+      "Labdanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121870.jpg",
+    "rating": 4.15,
+    "ratingVotes": 5781,
+    "accords": [
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 82
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 68
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 63
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 121870,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Power Of You",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Power Of You",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nisrine Bouazzaoui Grillié and Nadège Le Garlantezec",
+    "topNotesFa": [
+      "Passionfruit",
+      "پرتقال تلخ",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Frangipani",
+      "Solar Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "بنزوئین",
+      "لابدانوم"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arabiyat-Prestige/Marwa-107084.html",
+    "extractedAt": "2026-11-23T20:43:35.686Z",
+    "name": "Marwa",
+    "brand": "Arabiyat Prestige",
+    "family": "Citrus Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Calabrian bergamot",
+      "Lemon",
+      "Sicilian Orange"
+    ],
+    "middleNotes": [
+      "Nigerian Ginger",
+      "Ceylon Cinnamon",
+      "Tunisian Neroli"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Guaiac Wood",
+      "Olibanum",
+      "Chinese Black Tea"
+    ],
+    "description": "Arabiyat Prestige Marwa is a sophisticated fragrance inspired by Louis Vuitton's Imagination, blending citrus, spicy, and woody elements. It opens with vibrant citrus notes, transitions to an exotic heart with ginger and cinnamon, and settles into a warm base of guaiac wood and ambroxan. Designed for evening wear or special occasions, it offers a bold, long-lasting scent with a modern twist on classic aromas.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107084.jpg",
+    "rating": 4.32,
+    "ratingVotes": 3584,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 98
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 46
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 107084,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Marwa",
+    "brandFa": "Arabiyat Prestige",
+    "nameFa": "Marwa",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Calabrian bergamot",
+      "لیمو",
+      "Sicilian Orange"
+    ],
+    "middleNotesFa": [
+      "Nigerian Ginger",
+      "Ceylon Cinnamon",
+      "Tunisian Neroli"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "چوب گوئیک",
+      "کندر",
+      "Chinese Black Tea"
+    ],
+    "descriptionFa": "Arabiyat Prestige Marwa یک عطر پیچیده است که از Imagination لوئی ویتون الهام گرفته شده و ترکیبی از عناصر مرکباتی، تند و چوبی است. این عطر با رایحه‌های مرکباتی پرنشاط آغاز می‌شود، به رایحه‌های میانی عجیب و غریب با زنجبیل و دارچین تغییر می‌کند و در نهایت به رایحه‌های پایانی گرم چوب گوایاک و آمبروکسان می‌رسد. این عطر که برای استفاده در شب یا مناسبت‌های خاص طراحی شده است، رایحه‌ای جسورانه و ماندگار با رویکردی مدرن به رایحه‌های کلاسیک ارائه می‌دهد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lalique/Lalique-Pour-Homme-1844.html",
+    "extractedAt": "2026-11-23T20:43:42.784Z",
+    "name": "Lalique Pour Homme",
+    "brand": "Lalique",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 1997,
+    "perfumer": "Maurice Roucel",
+    "topNotes": [
+      "Lavender",
+      "Rosemary",
+      "Bergamot",
+      "Grapefruit",
+      "Pomelo",
+      "Mandarin Orange",
+      "Tangerine"
+    ],
+    "middleNotes": [
+      "Cedar",
+      "Iris",
+      "Lily-of-the-Valley",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Sandalwood",
+      "Vanilla",
+      "Patchouli",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1844.jpg",
+    "rating": 4.08,
+    "ratingVotes": 3506,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 42
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 41
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 1844,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lalique Pour Homme",
+    "brandFa": "لالیک",
+    "nameFa": "Lalique Pour Homme",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Maurice Roucel",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "رزماری",
+      "برگاموت",
+      "گریپ‌فروت",
+      "پوملو",
+      "نارنگی",
+      "تانجرین"
+    ],
+    "middleNotesFa": [
+      "سرو",
+      "زنبق",
+      "Lily-of-the-Valley",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "چوب صندل",
+      "وانیل",
+      "پچولی",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Amyris-Homme-Extrait-de-Parfum-59744.html",
+    "extractedAt": "2026-11-23T20:43:46.961Z",
+    "name": "Amyris Homme Extrait de Parfum",
+    "brand": "Maison Francis Kurkdjian",
+    "family": null,
+    "gender": "men. <b>Amyris Homme Extrait de Parfum</b> was launched in 2019. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Amyris, Tonka Bean, Vanilla, Sicilian Mandarin, Tuscan Iris, Ceylon Cinnamon and Saffron",
+    "year": 2019,
+    "perfumer": "Francis Kurkdjian",
+    "description": "\"Amyris is a luminous fragrance steeped in natural, urban elegance, reflecting a vibrant parisian lifestyle. In this new Extrait de parfum composition, Francis Kurkdjian infused new energy to the duo featuring amyris from Jamaica and iris from Florence: an ambery-woody note for him, enhanced by the warmth of a spicy vanilla, a playful whirlwind of the senses.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59744.jpg",
+    "rating": 4.43,
+    "ratingVotes": 1332,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 64
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 55
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 54
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 59744,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait de Parfum",
+    "baseName": "Amyris Homme",
+    "brandFa": "مزون فرانسیس کورکدیان",
+    "nameFa": "Amyris Homme Extrait de Parfum",
+    "concentrationFa": "اکستره پرفیوم",
+    "genderFa": "men. <b>Amyris Homme Extrait de Parfum</b> was launched in 2019. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Amyris, Tonka Bean, Vanilla, Sicilian Mandarin, Tuscan Iris, Ceylon Cinnamon and Saffron",
+    "perfumerFa": "Francis Kurkdjian",
+    "descriptionFa": "«Amyris عطری درخشان است که آغشته به ظرافت طبیعی و شهری بوده و منعکس‌کننده سبک زندگی پرنشاط پاریسی است. در این ترکیب جدید عصاره عطر، فرانسیس کورکجیان انرژی جدیدی به این جفت عطر که شامل آمیریس از جامائیکا و زنبق از فلورانس است، تزریق کرد: یک نت کهربایی-چوبی برای او، که با گرمای وانیل تند تقویت شده است، یک گردباد بازیگوش از حواس.» - یادداشتی از برند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nishane/Afrika-Olifant-30589.html",
+    "extractedAt": "2026-11-23T20:43:53.665Z",
+    "name": "Afrika Olifant",
+    "brand": "Nishane",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Jorge Lee",
+    "topNotes": [
+      "Myrhh",
+      "Ambergris",
+      "Olibanum",
+      "Labdanum"
+    ],
+    "middleNotes": [
+      "Castoreum",
+      "Civet",
+      "Leather",
+      "Agarwood (Oud)"
+    ],
+    "baseNotes": [
+      "Synthetic Civet",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30589.jpg",
+    "rating": 3.87,
+    "ratingVotes": 801,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 93
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 87
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 84
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 30589,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Afrika Olifant",
+    "brandFa": "نیشانه",
+    "nameFa": "Afrika Olifant",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jorge Lee",
+    "topNotesFa": [
+      "Myrhh",
+      "کهربا خاکستری",
+      "کندر",
+      "لابدانوم"
+    ],
+    "middleNotesFa": [
+      "کاستوریوم",
+      "گربه سروتی",
+      "چرم",
+      "Agarwood (Oud)"
+    ],
+    "baseNotesFa": [
+      "Synthetic Civet",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dossier/Powdery-Tobacco-109186.html",
+    "extractedAt": "2026-11-23T20:43:58.001Z",
+    "name": "Powdery Tobacco",
+    "brand": "Dossier",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Tobacco",
+      "Ginger",
+      "Apricot"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Honey",
+      "Cocoa"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Fruits"
+    ],
+    "description": "This fragrance combines tobacco leaves with sweet honey and vanilla accords, accentuated by ginger and gourmand elements of dry fruits and cacao. Its composition aims to evoke the atmosphere of a London club lounge through warm, resinous base notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109186.jpg",
+    "rating": 3.75,
+    "ratingVotes": 192,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 70
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 45
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 109186,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Powdery Tobacco",
+    "brandFa": "Dossier",
+    "nameFa": "Powdery Tobacco",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "تنباکو",
+      "زنجبیل",
+      "زردآلو"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "عسل",
+      "کاکائو"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "Fruits"
+    ],
+    "descriptionFa": "این عطر برگ‌های تنباکو را با رایحه‌های شیرین عسل و وانیل ترکیب می‌کند که با زنجبیل و عناصر خوش‌طعم میوه‌های خشک و کاکائو برجسته شده است. ترکیب آن با نت‌های پایه گرم و رزینی، قصد دارد فضای یک سالن کلاب در لندن را تداعی کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Perseus-90199.html",
+    "extractedAt": "2026-11-23T20:44:03.091Z",
+    "name": "Perseus",
+    "brand": "Parfums de Marly",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "Nathalie Templer",
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Vetiver",
+      "Green Mandarin",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Dry Wood",
+      "Cashmere Wood",
+      "Ambergris",
+      "Cedar",
+      "Balsam Fir",
+      "Tonka Bean"
+    ],
+    "description": "A revitalizing, citrus-infused formulation with enlivening properties for both the physique and the psyche. A modern interpretation of grapefruit intertwined with fruity accents and vetiver to enhance vitality. The citrus essence harmonizes with the sophistication and vigor of a woody undertone, yielding a nuanced and juxtaposed sense of freshness.</p> <p>The effervescence of grapefruit, juxtaposed with sophisticated woody nuances. <strong>Perseus</strong> enthralls the senses with its unparalleled luminosity. The invigorating initial impressions of grapefruit and bergamot reveal an elegant core of vetiver, while base notes of ambergris and dry woods provide a lasting resonance.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90199.jpg",
+    "rating": 3.91,
+    "ratingVotes": 3208,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 93
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 66
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 23
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 17
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 90199,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Perseus",
+    "brandFa": "پرفیومز دو مارلی",
+    "nameFa": "Perseus",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Nathalie Templer",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "وتیور",
+      "Green Mandarin",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "چوب خشک",
+      "Cashmere Wood",
+      "کهربا خاکستری",
+      "سرو",
+      "نراد بلسام",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "فرمولاسیونی احیاکننده و آغشته به مرکبات با خواص نشاط‌بخش برای جسم و روح. تفسیر مدرنی از رایحه گریپ‌فروت که با نت‌های میوه‌ای و وتیور آمیخته شده تا نشاط را افزایش دهد. عصاره مرکبات با ظرافت و طراوت رایحه زیرین چوبی هماهنگ می‌شود و حسی ظریف و متضاد از طراوت ایجاد می‌کند.</p> <p>نشاط گریپ‌فروت، در کنار ظرافت‌های چوبی پیچیده. <strong>Perseu",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Loewe/Agua-de-Loewe-El-6275.html",
+    "extractedAt": "2026-11-23T20:44:07.695Z",
+    "name": "Agua de Loewe El",
+    "brand": "Loewe",
+    "family": null,
+    "gender": "men",
+    "year": 2009,
+    "perfumer": null,
+    "topNotes": [
+      "Water Notes",
+      "Yuzu",
+      "Pomelo",
+      "Bergamot",
+      "Tangerine"
+    ],
+    "middleNotes": [
+      "Granny Smith apple",
+      "Pineapple",
+      "Black Currant"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Virginia Cedar",
+      "Sandalwood",
+      "Oakmoss"
+    ],
+    "description": "The house of Loewe presents a new fragrant pair, Agua de Loewe El and Agua de Loewe Ella. They were created in honour of love, while respecting mutual feelings and accompanying each other. They go through life together, attracted by looks and touches, loving each other gently but strong.</p> <p>The edition for men, Agua de Loewe El, includes light, fresh and aquatic aromas of yuzu, grapefruit, clementine, spring water, pineapple, green apple, black currant, cedar, sandalwood and musk. The fragrance is fresh, spicy and masculine.</p> <p>Fragrant love pair Agua de Loewe has been available since 2009, in flacons of 50 and 100 ml (1.7 and 3.4 oz), coloured in violet and light blue, decorated with silver stoppers. Outer carton is modern and follows design of the flacons.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6275.jpg",
+    "rating": 4.16,
+    "ratingVotes": 865,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 78
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 49
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 36
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 6275,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Agua de Loewe El",
+    "brandFa": "Loewe",
+    "nameFa": "Agua de Loewe El",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Water Notes",
+      "یوزو",
+      "پوملو",
+      "برگاموت",
+      "تانجرین"
+    ],
+    "middleNotesFa": [
+      "Granny Smith apple",
+      "آناناس",
+      "توت سیاه"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Virginia Cedar",
+      "چوب صندل",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "خانه لووه یک جفت عطر جدید را معرفی می‌کند: Agua de Loewe El و Agua de Loewe Ella. این عطرها به افتخار عشق، با احترام به احساسات متقابل و همراهی یکدیگر خلق شده‌اند. آنها با هم زندگی می‌کنند، نگاه‌ها و لمس‌هایشان آنها را به هم جذب می‌کند و یکدیگر را با ملایمت اما عمیقاً دوست دارند.</p> <p>نسخه مردانه، Agua de Loewe El، شامل رایحه‌های سبک، تازه و دریایی یوزو، گریپ‌فروت، نارنگی، آب چشمه، آناناس، سیب سبز، bla است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Korres/Philosia-92685.html",
+    "extractedAt": "2026-11-23T20:44:13.958Z",
+    "name": "Philosia",
+    "brand": "Korres",
+    "family": "Aromatic Green",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Pine",
+      "Fir",
+      "Eucalyptus",
+      "Star Anise"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedarwood",
+      "Patchouli",
+      "Guaiac Wood"
+    ],
+    "description": "Philosia by Korres is inspired by the enchanting play of light and shadow under the trees, inviting one to slow down, breathe deeply, and appreciate the surrounding beauty. This fragrance is suitable for vegans.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92685.jpg",
+    "rating": 4.09,
+    "ratingVotes": 171,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 49
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 32
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 18
+      },
+      {
+        "nameEn": "camphor",
+        "nameFa": "camphor",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 92685,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Philosia",
+    "brandFa": "Korres",
+    "nameFa": "Philosia",
+    "familyFa": "Aromatic Green",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "کاج",
+      "نراد",
+      "اوکالیپتوس",
+      "انیسون ستاره‌ای"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب سرو",
+      "پچولی",
+      "چوب گوئیک"
+    ],
+    "descriptionFa": "Philosia از Korres از بازی مسحورکننده نور و سایه زیر درختان الهام گرفته شده است و فرد را دعوت می‌کند تا سرعت خود را کاهش دهد، عمیق نفس بکشد و از زیبایی اطراف لذت ببرد. این عطر برای افراد وگان مناسب است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Asad-Bourbon-101124.html",
+    "extractedAt": "2026-11-23T20:44:20.618Z",
+    "name": "Asad Bourbon",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Jean-Louis Sieuzac",
+    "topNotes": [
+      "Lavender",
+      "Mirabelle",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Nutmeg",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Amber",
+      "Vetiver"
+    ],
+    "description": "Following the success of <strong>Asad</strong> and <strong>Asad Zanzibar</strong>, Lattafa introduces the third chapter in the Asad collection. This latest creation opens with a captivating blend of <strong>Pink Pepper</strong>, <strong>Lavender</strong>, and juicy <strong>Mirabelle Plum</strong>, setting the stage for its rich and indulgent heart. At its core, warm notes of <strong>Cacao</strong>, <strong>Davana</strong>, and <strong>Nutmeg</strong> create an opulent depth. The fragrance concludes with an alluring base of <strong>Vetiver</strong>, <strong>Bourbon Vanilla</strong>, and golden <strong>Amber</strong>, leaving an unforgettable trail of sophistication and allure.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101124.jpg",
+    "rating": 4.39,
+    "ratingVotes": 7341,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 88
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 66
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 66
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 101124,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Asad Bourbon",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Asad Bourbon",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jean-Louis Sieuzac",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "آلو زرد",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "جوز هندی",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "کهربا",
+      "وتیور"
+    ],
+    "descriptionFa": "پس از موفقیت <strong>Asad</strong> و <strong>Asad Zanzibar</strong>، Lattafa سومین فصل از مجموعه Asad را معرفی می‌کند. این آخرین محصول با ترکیبی جذاب از <strong>فلفل صورتی</strong> <strong>،</strong> اسطوخودوس و <strong>آلو میرابل</strong> آبدار آغاز می‌شود و مقدمه‌ای برای رایحه میانی غنی و لذت‌بخش آن است. در رایحه اصلی آن، نت‌های گرم <strong>کاکائو</strong>، <strong>داوانا</strong> و <strong>جوز هندی حس می‌شوند.&lt;/str",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ZARKOPERFUME/PINK-MOLeCULE-090-09-25474.html",
+    "extractedAt": "2026-11-23T20:44:26.033Z",
+    "name": "PINK MOLéCULE 090.09",
+    "brand": "ZARKOPERFUME",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men. <b>PINK MOLéCULE 090.09</b> was launched in 2014. Top notes are Champagne, Apricot, Black Elder and Black Orchid; base notes are Whipped Cream, Blackwood and Mahogany",
+    "year": 2014,
+    "description": "“The interpretation of the nordic elements fused with pink champagne is the foundation of this perfume.</p> <p>The warm breeze that comes in the spring mixed with water and the dark trees in Denmark.</p> <p>A fragrance that has a grand opening of innocence and purity, but with strong sensual undertones - like pink champagne.</p> <p>The fragrance is almost mineralic, in that it goes from the topnotes directly to the basenotes” — press release of the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25474.jpg",
+    "rating": 3.9,
+    "ratingVotes": 4940,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "Champagne",
+        "nameFa": "Champagne",
+        "percent": 80
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 57
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 53
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 25474,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "PINK MOLéCULE 090.09",
+    "brandFa": "ZARKOPERFUME",
+    "nameFa": "PINK MOLéCULE 090.09",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women and men. <b>PINK MOLéCULE 090.09</b> was launched in 2014. Top notes are Champagne, Apricot, Black Elder and Black Orchid; base notes are Whipped Cream, Blackwood and Mahogany",
+    "descriptionFa": "«تفسیر عناصر شمال اروپا که با شامپاین صورتی ترکیب شده‌اند، اساس این عطر را تشکیل می‌دهد.</p> <p>نسیم گرمی که در بهار می‌وزد، آمیخته با آب و درختان تیره در دانمارک.</p> <p>عطری که با رایحه‌ای از معصومیت و خلوص آغاز می‌شود، اما زیرلایه‌های حسی قوی دارد - مانند شامپاین صورتی.</p> <p>این عطر تقریباً معدنی است، به این معنا که از نت‌های اولیه مستقیماً به نت‌های پایه می‌رود» — بیانیه مطبوعاتی t",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
