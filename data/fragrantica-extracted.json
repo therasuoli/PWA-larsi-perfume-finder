@@ -8753,5 +8753,1878 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eternal-Love/Indecent-for-Men-148557.html",
+    "extractedAt": "2026-11-23T18:47:48.690Z",
+    "name": "Indecent for Men",
+    "brand": "Eternal Love",
+    "family": null,
+    "gender": "men",
+    "year": 2000,
+    "perfumer": null,
+    "topNotes": [
+      "Citrus",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Lavender",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Moss",
+      "Pine"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148557.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 54
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 46
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 43
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 43
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 43
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148557,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Indecent for Men",
+    "brandFa": "Eternal Love",
+    "nameFa": "Indecent for Men",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "مرکبات",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "اسطوخودوس",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "خزه",
+      "کاج"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eternal-Love/Nighttime-for-Women-148556.html",
+    "extractedAt": "2026-11-23T18:47:53.458Z",
+    "name": "Nighttime for Women",
+    "brand": "Eternal Love",
+    "family": null,
+    "gender": "women. Top notes are Spices, Sweet Notes and Bergamot; middle notes are Lily of the Valley and Rose; base notes are Cedar, Tonka and Musk",
+    "topNotes": [
+      "Spices",
+      "Sweet Notes",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Tonka",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148556.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 72
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 70
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 67
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 148556,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nighttime for Women",
+    "brandFa": "Eternal Love",
+    "nameFa": "Nighttime for Women",
+    "genderFa": "women. Top notes are Spices, Sweet Notes and Bergamot; middle notes are Lily of the Valley and Rose; base notes are Cedar, Tonka and Musk",
+    "topNotesFa": [
+      "Spices",
+      "Sweet Notes",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "Tonka",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/Vampire-Blood-84028.html",
+    "extractedAt": "2026-11-23T18:47:57.864Z",
+    "name": "Vampire Blood",
+    "brand": "Bath & Body Works",
+    "family": null,
+    "gender": "women and men. <b>Vampire Blood</b> was launched in 2023. The fragrance features Red Berries, Plum and Jasmine",
+    "year": 2023,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84028.jpg",
+    "rating": 4.2,
+    "ratingVotes": 1145,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 25
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 25
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 17
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 3
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 1
+      }
+    ],
+    "fragranticaId": 84028,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vampire Blood",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "Vampire Blood",
+    "genderFa": "women and men. <b>Vampire Blood</b> was launched in 2023. The fragrance features Red Berries, Plum and Jasmine",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fleurit-Parfums/10021-145907.html",
+    "extractedAt": "2026-11-23T18:48:02.853Z",
+    "name": "10021",
+    "brand": "Fleurit Parfums",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Maud Chabanis",
+    "topNotes": [
+      "Nutmeg",
+      "Cinnamon",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Saffron"
+    ],
+    "baseNotes": [
+      "Labdanum",
+      "White Musk",
+      "Patchouli",
+      "Ambroxan"
+    ],
+    "description": "10021 by Fleurit is a unisex eau de parfum launched in 2026 and conceived as an olfactory portrait of New York's Upper East Side, evoking fine fabric and a tailored suit. Lemon, nutmeg and cinnamon introduce the composition; rose, jasmine and saffron form its floral-spicy heart, while white musk, ambroxan, patchouli and labdanum create a warm base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.145907.jpg",
+    "rating": 4.33,
+    "ratingVotes": 3,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 67
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 40
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 145907,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "10021",
+    "brandFa": "Fleurit Parfums",
+    "nameFa": "10021",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Maud Chabanis",
+    "topNotesFa": [
+      "جوز هندی",
+      "دارچین",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "زعفران"
+    ],
+    "baseNotesFa": [
+      "لابدانوم",
+      "موش سفید",
+      "پچولی",
+      "آمبروکسان"
+    ],
+    "descriptionFa": "10021 از برند Fleurit یک ادو پرفیوم یونیسکس است که در سال 2026 عرضه شد و به عنوان تصویری بویایی از منطقه آپر ایست ساید نیویورک طراحی شده است که یادآور پارچه‌های نفیس و کت و شلوار دوخت سفارشی است. ترکیبات اولیه این عطر شامل لیمو، جوز هندی و دارچین است؛ گل رز، یاس و زعفران قلب گل‌دار و تند آن را تشکیل می‌دهند، در حالی که مشک سفید، آمبروکسان، نعناع هندی و لادن یک رایحه پایه گرم ایجاد می‌کنند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BDK-Parfums/Gris-Charnel-57038.html",
+    "extractedAt": "2026-11-23T18:48:09.184Z",
+    "name": "Gris Charnel",
+    "brand": "BDK Parfums",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Mathilde Bijaoui",
+    "topNotes": [
+      "Cardamom",
+      "Fig",
+      "Black Tea"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Bourbon Vetiver"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.57038.jpg",
+    "rating": 4.2,
+    "ratingVotes": 10146,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 57038,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gris Charnel",
+    "brandFa": "BDK Parfums",
+    "nameFa": "Gris Charnel",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Mathilde Bijaoui",
+    "topNotesFa": [
+      "هل",
+      "انجیر",
+      "چای سیاه"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "Bourbon Vetiver"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Lazy-Sunday-Morning-20542.html",
+    "extractedAt": "2026-11-23T18:48:14.377Z",
+    "name": "Lazy Sunday Morning",
+    "brand": "Maison Martin Margiela",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": "Louise Turner",
+    "topNotes": [
+      "Aldehydes",
+      "Lily-of-the-Valley",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Iris",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Ambrette (Musk Mallow)",
+      "Indonesian Patchouli Leaf"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.20542.jpg",
+    "rating": 3.83,
+    "ratingVotes": 10597,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 84
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 73
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 72
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 61
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 20542,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lazy Sunday Morning",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Lazy Sunday Morning",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Louise Turner",
+    "topNotesFa": [
+      "آلدهیدها",
+      "Lily-of-the-Valley",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "زنبق",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "Ambrette (Musk Mallow)",
+      "Indonesian Patchouli Leaf"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/House-Of-Sillage/Minnie-Mouse-The-Fragrance-76393.html",
+    "extractedAt": "2026-11-23T18:48:18.652Z",
+    "name": "Minnie Mouse The Fragrance",
+    "brand": "House Of Sillage",
+    "family": null,
+    "gender": "women",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Marshmallow",
+      "Whipped Cream"
+    ],
+    "middleNotes": [
+      "Raspberry",
+      "Caramel",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "An everlasting sweetheart of the iconic Mickey Mouse, Minnie is sweet in nature, fun-loving, and cheerful. The endearing bond between Mickey and Minnie is heartwarming and widely recognized as two of the most beloved characters of all time.<br /> <br /> Just like its pairing, this delightful and sweet fragrance of Minnie Mouse will instantly transport you to the excitement of entering the Magical World of Disney and all its delectable treats. This charming scent will bring joyful smiles and happiness to those around you with delicious notes such as marshmallows, raspberries, caramel, coconut, and vanilla.<br /> <br /> Dynamically presented in a playful Minnie Bow silhouette design cap and embellished with diamond-cut Swarovski crystals, a hallmark of innovation and elegance. The bottle is crafted from the finest French glass and hand-painted in a mesmerizing ombre effect.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76393.jpg",
+    "rating": 4.37,
+    "ratingVotes": 284,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 25
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 22
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 18
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 76393,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Minnie Mouse The Fragrance",
+    "brandFa": "House Of Sillage",
+    "nameFa": "Minnie Mouse The Fragrance",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "مارشمالو",
+      "خامه زده"
+    ],
+    "middleNotesFa": [
+      "تمشک",
+      "کارامل",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "سرو"
+    ],
+    "descriptionFa": "مینی، معشوقه همیشگی شخصیت نمادین میکی‌ماوس، ذاتی شیرین، شوخ‌طبع و شاد دارد. پیوند دوست‌داشتنی بین میکی و مینی دلگرم‌کننده است و آنها به طور گسترده به‌عنوان دو شخصیت محبوب تمام دوران شناخته می‌شوند.<br /> <br /> درست مانند جفتش، این عطر دلپذیر و شیرین مینی‌ماوس فوراً شما را به هیجان ورود به دنیای جادویی دیزنی و تمام لذت‌های خوشمزه آن منتقل می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Al-Wataniah/Kayaan-Classic-82472.html",
+    "extractedAt": "2026-11-23T18:48:25.644Z",
+    "name": "Kayaan Classic",
+    "brand": "Al Wataniah",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Tuscan Iris",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Ambrette",
+      "Cedar",
+      "Agarwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82472.jpg",
+    "rating": 4.44,
+    "ratingVotes": 1890,
+    "accords": [
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 50
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 17
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 16
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 82472,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kayaan Classic",
+    "brandFa": "Al Wataniah",
+    "nameFa": "Kayaan Classic",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Tuscan Iris",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "دانه ابرکفش",
+      "سرو",
+      "عود"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Avon/Black-Suede-2024-99243.html",
+    "extractedAt": "2026-11-23T18:48:30.769Z",
+    "name": "Black Suede 2024",
+    "brand": "Avon",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Bergamot",
+      "Green Notes"
+    ],
+    "middleNotes": [
+      "Clove",
+      "Leather",
+      "Ylang-Ylang",
+      "Nutmeg",
+      "Cardamom",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Suede",
+      "Oakmoss",
+      "Amber",
+      "Woodsy Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99243.jpg",
+    "rating": 3.91,
+    "ratingVotes": 22,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 86
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 83
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 62
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 99243,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Suede 2024",
+    "brandFa": "Avon",
+    "nameFa": "Black Suede 2024",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "برگاموت",
+      "نت‌های سبز"
+    ],
+    "middleNotesFa": [
+      "میخک",
+      "چرم",
+      "ایلنگ‌ایلنگ",
+      "جوز هندی",
+      "هل",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چرم جیر",
+      "خزه بلوط",
+      "کهربا",
+      "Woodsy Notes"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Narcotic-Delight-89368.html",
+    "extractedAt": "2026-11-23T18:48:35.879Z",
+    "name": "Narcotic Delight",
+    "brand": "Initio Parfums Prives",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cherry",
+      "Pink Pepper",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Cognac",
+      "Hedione",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Vanilla",
+      "Tonka",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "\"A Sensual Shot of Provocation. It set its sights on the erogenous VANILLA BEAN, electrified by PINK PEPPER, drenched in a draught of COGNAC, before finally succumbing to the intoxicating swirls of a cigar. A cheeky twist of plump and juicy CHERRY celebrates the indulgence of a polished proposition.\"</p> <p>Available as 90ml EDP.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89368.jpg",
+    "rating": 4.19,
+    "ratingVotes": 4101,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 65
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 89368,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Narcotic Delight",
+    "brandFa": "Initio Parfums Prives",
+    "nameFa": "Narcotic Delight",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گیلاس",
+      "فلفل صورتی",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "کوناک",
+      "Hedione",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "وانیل",
+      "Tonka",
+      "سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "«یک شات شهوانی از تحریک. این عطر، هدف خود را بر روی دانه تحریک‌کننده وانیل قرار داده است که با فلفل صورتی برانگیخته شده و در جرعه‌ای از کنیاک غوطه‌ور شده است، و در نهایت تسلیم پیچ‌و‌تاب‌های مست‌کننده یک سیگار برگ می‌شود. یک پیچش جسورانه از رایحه گیلاس درشت و آبدار، لذت یک پیشنهاد ظریف را جشن می‌گیرد.»</p> <p>به صورت EDP 90 میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Meo-Fusciuni/Narcotico-30225.html",
+    "extractedAt": "2026-11-23T18:48:40.834Z",
+    "name": "Narcotico",
+    "brand": "Meo Fusciuni",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Meo Fusciuni",
+    "topNotes": [
+      "Incense"
+    ],
+    "middleNotes": [
+      "Benzoin",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Agarwood (Oud)",
+      "Musk",
+      "Vanilla"
+    ],
+    "description": "\"This scent tells a time of my life, the life of a visionary. This a journey, while listening to the sound of smell and the smell of words\".",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30225.jpg",
+    "rating": 3.93,
+    "ratingVotes": 500,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 75
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 66
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 53
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 51
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 30225,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Narcotico",
+    "brandFa": "Meo Fusciuni",
+    "nameFa": "Narcotico",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Meo Fusciuni",
+    "topNotesFa": [
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "بنزوئین",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "Agarwood (Oud)",
+      "موش",
+      "وانیل"
+    ],
+    "descriptionFa": "«این عطر از دوره‌ای از زندگی من، زندگی یک فرد رویایی، حکایت می‌کند. این یک سفر است، در حالی که به صدای عطر و بوی کلمات گوش می‌دهیم».",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Asad-72821.html",
+    "extractedAt": "2026-11-23T18:48:45.976Z",
+    "name": "Asad",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Black Pepper",
+      "Tobacco",
+      "Pineapple"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Coffee",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Dry Wood",
+      "Benzoin",
+      "Labdanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72821.jpg",
+    "rating": 4.01,
+    "ratingVotes": 14976,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 88
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 72821,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Asad",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Asad",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل سیاه",
+      "تنباکو",
+      "آناناس"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "قهوه",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب خشک",
+      "بنزوئین",
+      "لابدانوم"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-Passion-62570.html",
+    "extractedAt": "2026-11-23T18:48:50.440Z",
+    "name": "Bombshell Passion",
+    "brand": "Victoria's Secret",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Cassis"
+    ],
+    "middleNotes": [
+      "Peony"
+    ],
+    "baseNotes": [
+      "Rose"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62570.jpg",
+    "rating": 4.19,
+    "ratingVotes": 592,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 79
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 69
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 62570,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bombshell Passion",
+    "brandFa": "Victoria's Secret",
+    "nameFa": "Bombshell Passion",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "توت سیاه فرانسوی"
+    ],
+    "middleNotesFa": [
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "گل رز"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/You-Or-Someone-Like-You-43531.html",
+    "extractedAt": "2026-11-23T18:48:54.944Z",
+    "name": "You Or Someone Like You",
+    "brand": "Etat Libre d'Orange",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Caroline Sabas",
+    "topNotes": [
+      "Mint",
+      "Grapefruit",
+      "Bergamot",
+      "Anise"
+    ],
+    "middleNotes": [
+      "Green Notes",
+      "Cassis",
+      "Rose",
+      "Hedione"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43531.jpg",
+    "rating": 4.07,
+    "ratingVotes": 7982,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 16
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 16
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 15
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 43531,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "You Or Someone Like You",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "You Or Someone Like You",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Caroline Sabas",
+    "topNotesFa": [
+      "نعناع",
+      "گریپ‌فروت",
+      "برگاموت",
+      "انیسون"
+    ],
+    "middleNotesFa": [
+      "نت‌های سبز",
+      "توت سیاه فرانسوی",
+      "گل رز",
+      "Hedione"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Lion-105031.html",
+    "extractedAt": "2026-11-23T18:48:58.216Z",
+    "name": "Lion",
+    "brand": "Rayhaan",
+    "family": "Aromatic Spicy",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Pear",
+      "Mint",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Clary Sage",
+      "Cumin"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "Lion by Rayhaan is a bold masculine fragrance combining fresh fruity accents with warm spices. The opening features a crisp pear note balanced by aromatic lavender and mint, transitioning to a heart dominated by cinnamon and cumin's earthy warmth. The base resolves into a creamy vanilla-amber accord supported by woody cedar and patchouli. While drawing inspiration from Jean Paul Gaultier's Ultra Male, it presents a distinctive spicy character with notable longevity and sillage.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105031.jpg",
+    "rating": 4.49,
+    "ratingVotes": 2144,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 98
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 81
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 61
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 105031,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lion",
+    "brandFa": "Rayhaan",
+    "nameFa": "Lion",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "گلابی",
+      "نعناع",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "مریم‌گلی",
+      "زیره"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "Lion از برند Rayhaan یک عطر مردانه جسورانه است که ترکیبی از رایحه‌های میوه‌ای تازه با ادویه‌های گرم است. در نت‌های ابتدایی، رایحه گلابی تازه با اسطوخودوس معطر و نعناع متعادل می‌شود و سپس به نت‌های میانی می‌رسد که تحت‌الشعاع گرمای خاکی دارچین و زیره قرار دارد. رایحه پایه به یک آکورد خامه ای وانیل-کهربایی تبدیل می‌شود که توسط رایحه‌های چوبی سدر و نعناع هندی پشتیبانی می‌شود. این عطر در حالی که از Ultra Male اثر ژان پل گوتیه الهام گرفته است، شخصیتی تند و متمایز را ارائه می‌دهد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Liberation-of-Flowers/Divine-Intervention-140271.html",
+    "extractedAt": "2026-11-23T18:49:03.444Z",
+    "name": "Divine Intervention",
+    "brand": "Liberation of Flowers",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Christophe Laudamiel",
+    "topNotes": [
+      "Damask Rose",
+      "Vanilla Orchid",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Apricot",
+      "Casablanca Lily",
+      "Tobacco"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Dates",
+      "Ambrette",
+      "Musk",
+      "Milk",
+      "Styrax"
+    ],
+    "description": "Divine Intervention by Liberation of Flowers is an Eau de Parfum with a floral-fruity opening of rose damascena and apricot. The heart introduces tobacco, cinnamon, cardamom, Casablanca lily, and a nutty accord, while the base settles into milk, caramel, vanilla orchid, and ambrette musk for a creamy, softly spiced finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.140271.jpg",
+    "rating": 4.2,
+    "ratingVotes": 15,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 51
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 51
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 51
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 140271,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Divine Intervention",
+    "brandFa": "Liberation of Flowers",
+    "nameFa": "Divine Intervention",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christophe Laudamiel",
+    "topNotesFa": [
+      "گل رز دمشقی",
+      "Vanilla Orchid",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "زردآلو",
+      "Casablanca Lily",
+      "تنباکو"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "Dates",
+      "دانه ابرکفش",
+      "موش",
+      "شیر",
+      "استیراکس"
+    ],
+    "descriptionFa": "Divine Intervention از برند Liberation of Flowers یک ادو پرفیوم با رایحه اولیه گل‌میوه از گل رز دمشقی و زردآلو است. در نت میانی، رایحه‌های تنباکو، دارچین، هل، سوسن کازابلانکا و ترکیبی از رایحه‌های آجیل حس می‌شود، در حالی که نت پایه شامل رایحه‌های شیر، کارامل، ارکیده وانیلی و مشک آمبرت است که ترکیبی کرمی و ملایم با رایحه‌های ادویه‌ای را ایجاد می‌کند.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Overdose-Killer-Oud-110111.html",
+    "extractedAt": "2026-11-23T18:49:08.621Z",
+    "name": "Overdose Killer Oud",
+    "brand": "PARIS CORNER",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Cognac",
+      "Cumin",
+      "Cardamom",
+      "Saffron",
+      "Nutmeg",
+      "Ginger",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Myrrh",
+      "Benzoin",
+      "Patchouli",
+      "Labdanum",
+      "Geranium",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Smoke",
+      "Incense",
+      "Sandalwood",
+      "Sage"
+    ],
+    "description": "Overdose is an intense oriental-spicy fragrance designed for men, characterized by its bold combination of alcoholic, resinous, and woody elements. The fragrance opens with an intoxicating cognac accord blended with spices including cumin, cardamom, nutmeg, saffron, and ginger, complemented by grapefruit. The heart features resinous notes of myrrh, labdanum, and benzoin alongside cinnamon, mastic, patchouli, and geranium. The base evolves into animalic and smoky notes with sandalwood, incense, leather, and sage.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110111.jpg",
+    "rating": 4.26,
+    "ratingVotes": 34,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 82
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 48
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 33
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 110111,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Overdose Killer Oud",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Overdose Killer Oud",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "کوناک",
+      "زیره",
+      "هل",
+      "زعفران",
+      "جوز هندی",
+      "زنجبیل",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "مور",
+      "بنزوئین",
+      "پچولی",
+      "لابدانوم",
+      "گل جعفری",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "دود",
+      "عود بخور",
+      "چوب صندل",
+      "مریم‌گلی"
+    ],
+    "descriptionFa": "Overdose یک عطر تند شرقی قوی است که برای آقایان طراحی شده و مشخصه آن ترکیب جسورانه‌اش از عناصر الکلی، رزینی و چوبی است. این عطر با یک نت مست‌کننده کنیاک آغاز می‌شود که با ادویه‌هایی از جمله زیره، هل، جوز هندی، زعفران و زنجبیل ترکیب شده و گریپ‌فروت آن را تکمیل می‌کند. نت‌های میانی شامل رایحه‌های رزینی مَرمَکی، لادن و بنزوئین در کنار دارچین، سقز، نعناع هندی و شمعدانی است. رایحه پایه به یک",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
