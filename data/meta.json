@@ -1,10 +1,1 @@
-{
-  "generatedAt": "2026-11-23T14:23:37.186Z",
-  "count": 3120,
-  "brands": 198,
-  "families": 0,
-  "source": "local-owner-import",
-  "extra": 0,
-  "appVersion": "8.0.0",
-  "duplicateIds": 0
-}
+{"generatedAt":"2026-11-23T16:39:59.436Z","count":3166,"brands":205,"families":19,"deletedCount":3052,"withNotes":69,"withImages":3049,"source":"supabase-fetched-to-repo","appVersion":"8.0.0","watermark":"2026-11-23T16:32:58.927+00:00"}
