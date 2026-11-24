@@ -59665,5 +59665,1487 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Riiffs-Perfumes/Aswaar-139473.html",
+    "extractedAt": "2026-11-24T23:40:25.275Z",
+    "name": "Aswaar",
+    "brand": "Riiffs Perfumes",
+    "family": "Aromatic Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Ginger",
+      "Lemon Peel",
+      "Grapefruit",
+      "Cardamom",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Apple",
+      "Cassis",
+      "Clary Sage",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cashmeran",
+      "Ambroxan",
+      "Iso E Super"
+    ],
+    "description": "Aswaar by RiiFFS is a fragrance built around a fresh citrus-spicy opening of ginger, bergamot, lemon peel, grapefruit, and cardamom. The heart introduces cassis, clary sage, lavender, and apple, while the base of vanilla bourbon, ambroxan, cashmeran, and Iso E Super adds a smooth woody-amber character with soft sweetness.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139473.jpg",
+    "rating": 4.49,
+    "ratingVotes": 168,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 61
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 139473,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aswaar",
+    "brandFa": "Riiffs Perfumes",
+    "nameFa": "Aswaar",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زنجبیل",
+      "Lemon Peel",
+      "گریپ‌فروت",
+      "هل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "سیب",
+      "توت سیاه فرانسوی",
+      "مریم‌گلی",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کشماران",
+      "آمبروکسان",
+      "Iso E Super"
+    ],
+    "descriptionFa": "Aswaar از برند RiiFFS عطری است که بر پایه نت‌های آغازین مرکباتی-تند و تازه زنجبیل، ترنج، پوست لیمو، گریپ‌فروت و هل ساخته شده است. در نت میانی، رایحه‌های انگور فرنگی سیاه، مریم‌گلی، اسطوخودوس و سیب حس می‌شوند، در حالی که نت پایه شامل وانیل بوربون، آمبروکسان، کشمیران و Iso E Super است که شخصیتی ملایم چوبی-کهربایی با شیرینی لطیف به عطر می‌بخشد.",
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Beviro/Bohemian-Spirit-123699.html",
+    "extractedAt": "2026-11-24T23:40:32.697Z",
+    "name": "Bohemian Spirit",
+    "brand": "Beviro",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Citrus",
+      "Gingerbread",
+      "Rosemary"
+    ],
+    "middleNotes": [
+      "Almond",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Patchouli",
+      "Cedar"
+    ],
+    "description": "Bohemian Spirit by Beviro is a sweet and spicy eau de toilette for men, associated by the brand with a relaxed, bohemian lifestyle, summer evenings and travel. The composition is intended for versatile use in cooler seasons, suitable for both daytime and evening wear. The formula contains around 10% perfume oils, giving it a relatively pronounced character for an eau de toilette. The fragrance opens with a combination of citrus tones and aromatic rosemary, rounded by a gourmand gingerbread accord. The heart features almond and tonka bean, adding a creamy, slightly nutty sweetness. In the base, leather is supported by patchouli and cedarwood, creating a warm, woody and subtly rugged drydown over the sweeter accents in the top and heart.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123699.jpg",
+    "rating": 3.29,
+    "ratingVotes": 7,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 123699,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bohemian Spirit",
+    "brandFa": "Beviro",
+    "nameFa": "Bohemian Spirit",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "مرکبات",
+      "Gingerbread",
+      "رزماری"
+    ],
+    "middleNotesFa": [
+      "بادام",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "پچولی",
+      "سرو"
+    ],
+    "descriptionFa": "Bohemian Spirit از برند Beviro یک ادوتویلت شیرین و تند برای آقایان است که این برند آن را با سبک زندگی راحت و بوهمی، شب‌های تابستان و سفر مرتبط می‌داند. این ترکیب برای استفاده‌های مختلف در فصول سردتر در نظر گرفته شده و هم برای استفاده در طول روز و هم برای استفاده در شب مناسب است. این فرمول حاوی حدود 10% روغن عطر است که به آن شخصیتی نسبتاً برجسته برای یک ادوتویلت می‌دهد. این رایحه با ترکیبی از نت‌های مرکباتی و معطر آغاز می‌شود.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/City-Rhythm/Red-Line-2654-95933.html",
+    "extractedAt": "2026-11-24T23:40:38.953Z",
+    "name": "Red Line 2654",
+    "brand": "City Rhythm",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Blood Orange",
+      "Coconut",
+      "Sea Salt",
+      "Lime",
+      "Juniper Berries",
+      "Heliotrope"
+    ],
+    "middleNotes": [
+      "Sugar Cane",
+      "Almond",
+      "Moroccan Jasmine",
+      "Nutmeg",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Rum",
+      "Ambergris",
+      "Tonka Bean"
+    ],
+    "description": "\"To create City Rhythm’s Red Line 2654, we are delighted to honor the inundation of requests from our customers by combining two of their City Rhythm favorites into one. Closing the distance of the 2,654 miles between San Diego’s Pacific coastline and Miami’s Atlantic beaches, Red Line carries the best of both worlds in its cargo. This flawless fusion allows the notes of two City Rhythm classic fragrances, Miami and San Diego, to enhance and play off of one other for an utterly unique experience. The juniper berries and blood orange of San Diego shine brightly next to Miami’s coconut and lime notes in the opening, before Miami’s floral and rum notes merge seamlessly with San Diego’s sea breeze and ambergris, to create a fantasy beach you can take with you wherever you go.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95933.jpg",
+    "rating": 4.47,
+    "ratingVotes": 592,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 98
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 91
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 35
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 95933,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Red Line 2654",
+    "brandFa": "City Rhythm",
+    "nameFa": "Red Line 2654",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پرتقال خونی",
+      "نارگیل",
+      "نمک دریا",
+      "لیمو سبز",
+      "زغالک عرعر",
+      "گل هلیوتروپ"
+    ],
+    "middleNotesFa": [
+      "Sugar Cane",
+      "بادام",
+      "Moroccan Jasmine",
+      "جوز هندی",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "رام",
+      "کهربا خاکستری",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "«برای خلق Red Line 2654 از مجموعه City Rhythm، خوشحالیم که با ترکیب دو مورد از عطر‌های محبوب مشتریانمان از مجموعه City Rhythm در یک عطر، به سیل درخواست‌های آنها پاسخ می‌دهیم. Red Line با از بین بردن فاصله 2,654 مایلی بین ساحل اقیانوس آرام سن‌دیگو و سواحل اقیانوس اطلس میامی، بهترین‌های هر دو دنیا را در محموله خود حمل می‌کند. این ترکیب بی‌نقص باعث می‌شود که رایحه‌های دو عطر کلاسیک City Rhythm، یعنی Miami و San Diego، تقویت شوند و با هم هماهنگ شوند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ariana-Grande/God-Is-A-Woman-Body-Mist-92534.html",
+    "extractedAt": "2026-11-24T23:40:44.724Z",
+    "name": "God Is A Woman Body Mist",
+    "brand": "Ariana Grande",
+    "family": "Oriental Floral",
+    "gender": "women. The nose behind this fragrance is Jérôme Epinette. Top notes are Pear and Musk Mallow; middle notes are Orris and Turkish Rose; base notes are Madagascar Vanilla and Sandalwood",
+    "perfumer": "Jérôme Epinette",
+    "topNotes": [
+      "Pear",
+      "Musk Mallow"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Turkish Rose"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92534.jpg",
+    "rating": 4.1,
+    "ratingVotes": 58,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 84
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 83
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 82
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 60
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 92534,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "God Is A Woman Body Mist",
+    "brandFa": "Ariana Grande",
+    "nameFa": "God Is A Woman Body Mist",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women. The nose behind this fragrance is Jérôme Epinette. Top notes are Pear and Musk Mallow; middle notes are Orris and Turkish Rose; base notes are Madagascar Vanilla and Sandalwood",
+    "perfumerFa": "Jérôme Epinette",
+    "topNotesFa": [
+      "گلابی",
+      "Musk Mallow"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "گل رز ترکی"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Labo/Gaiac-10-Tokyo-6335.html",
+    "extractedAt": "2026-11-24T23:40:49.004Z",
+    "name": "Gaiac 10 Tokyo",
+    "brand": "Le Labo",
+    "family": "Woody",
+    "gender": "women and men. <b>Gaiac 10 Tokyo</b> was launched in 2008. The nose behind this fragrance is Annick Menardo. The fragrance features Guaiac Wood, Musk, Cedar and Olibanum",
+    "year": 2008,
+    "perfumer": "Annick Menardo",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6335.jpg",
+    "rating": 4.35,
+    "ratingVotes": 1950,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 17
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 15
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 10
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 6335,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gaiac 10 Tokyo",
+    "brandFa": "ل لابو",
+    "nameFa": "Gaiac 10 Tokyo",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. <b>Gaiac 10 Tokyo</b> was launched in 2008. The nose behind this fragrance is Annick Menardo. The fragrance features Guaiac Wood, Musk, Cedar and Olibanum",
+    "perfumerFa": "Annick Menardo",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/D-R-Harris/Twenty-Nine-41268.html",
+    "extractedAt": "2026-11-24T23:40:53.898Z",
+    "name": "Twenty Nine",
+    "brand": "D.R.Harris",
+    "family": "Aromatic Spicy",
+    "gender": "men. <b>Twenty Nine</b> was launched in 2015. The fragrance features Rose Geranium, Cinnamon and Clove",
+    "year": 2015,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41268.jpg",
+    "rating": 3.23,
+    "ratingVotes": 13,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 83
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 66
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 47
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 41
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 41268,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Twenty Nine",
+    "brandFa": "D.R.Harris",
+    "nameFa": "Twenty Nine",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "men. <b>Twenty Nine</b> was launched in 2015. The fragrance features Rose Geranium, Cinnamon and Clove",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bujairami/Gas-123007.html",
+    "extractedAt": "2026-11-24T23:40:58.567Z",
+    "name": "Gas",
+    "brand": "Bujairami",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Adam Bujairami",
+    "topNotes": [
+      "Pink Pepper",
+      "Mandarin Orange",
+      "Bergamot",
+      "Ginger",
+      "Spearmint"
+    ],
+    "middleNotes": [
+      "Ozonic notes",
+      "Sandalwood",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Tonka Bean",
+      "Styrax",
+      "Birch"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123007.jpg",
+    "rating": 4.08,
+    "ratingVotes": 49,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 38
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 35
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 123007,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gas",
+    "brandFa": "Bujairami",
+    "nameFa": "Gas",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Adam Bujairami",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "نارنگی",
+      "برگاموت",
+      "زنجبیل",
+      "نعناع سبز"
+    ],
+    "middleNotesFa": [
+      "Ozonic notes",
+      "چوب صندل",
+      "پچولی",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "لوبیا تونکا",
+      "استیراکس",
+      "توس"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Nebras-78560.html",
+    "extractedAt": "2026-11-24T23:41:02.640Z",
+    "name": "Nebras",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Red Berries",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Cacao",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Sugar",
+      "Tonka Bean",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78560.jpg",
+    "rating": 4.13,
+    "ratingVotes": 6417,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 93
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 49
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 35
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 78560,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nebras",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Nebras",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Red Berries",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "کاکائو",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "شکر",
+      "لوبیا تونکا",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Pisa-99140.html",
+    "extractedAt": "2026-11-24T23:41:07.702Z",
+    "name": "Pisa",
+    "brand": "Lattafa Perfumes",
+    "family": "Aromatic Fruity",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin",
+      "Lemon",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Pisa by Lattafa Pride is a masculine fragrance from the woody fruity family.</p> <p>Discover the timeless elegance of Pisa, a fragrance that embodies freshness and sophistication. The top notes of bergamot, mandarin and lemon offer a sparkling and citrusy opening, perfect for the man who appreciates freshness and vitality. At the heart of the fragrance, cedarwood adds depth and a touch of robust masculinity, evoking a feeling of strength and stability. The base notes of sandalwood and amber create an enveloping warmth, leaving an elegant and refined trail. Pisa by Lattafa Pride is the ideal choice for the modern man looking for a distinctive and versatile fragrance, perfect for any occasion.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99140.jpg",
+    "rating": 4.27,
+    "ratingVotes": 811,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 23
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 13
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 10
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 8
+      }
+    ],
+    "fragranticaId": 99140,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pisa",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Pisa",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Mandarin",
+      "لیمو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "کهربا"
+    ],
+    "descriptionFa": "Pisa از برند Lattafa Pride یک عطر مردانه از خانواده میوه‌ای چوبی است.</p> <p>با ظرافت جاودانه Pisa، عطری که تجسم طراوت و ظرافت است، آشنا شوید. نت‌های اولیه برگاموت، نارنگی و لیمو یک آغاز درخشان و مرکباتی را ارائه می‌دهند که برای مردانی که طراوت و سرزندگی را دوست دارند، عالی است. در رایحه میانی، چوب سدر عمق و لطافتی از مردانگی قوی را به عطر می‌افزاید و احساس قدرت و ثبات را برمی‌انگیزد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Farina/Russisch-Leder-17186.html",
+    "extractedAt": "2026-11-24T23:41:13.188Z",
+    "name": "Russisch Leder",
+    "brand": "Farina",
+    "family": "Leather",
+    "gender": "women and men. <b>Russisch Leder</b> was launched in 1967. The fragrance features Russian Leather, Moss, Fern, Musk, Bergamot and Vanilla",
+    "year": 1967,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17186.jpg",
+    "rating": 4.14,
+    "ratingVotes": 78,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 78
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 76
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 41
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 17186,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Russisch Leder",
+    "brandFa": "Farina",
+    "nameFa": "Russisch Leder",
+    "familyFa": "چرمی",
+    "genderFa": "women and men. <b>Russisch Leder</b> was launched in 1967. The fragrance features Russian Leather, Moss, Fern, Musk, Bergamot and Vanilla",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Bubble-Bath-60105.html",
+    "extractedAt": "2026-11-24T23:41:17.880Z",
+    "name": "Bubble Bath",
+    "brand": "Maison Martin Margiela",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Soap",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Coconut",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60105.jpg",
+    "rating": 3.72,
+    "ratingVotes": 6424,
+    "accords": [
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 68
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 34
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 29
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 60105,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bubble Bath",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Bubble Bath",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Soap",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "نارگیل",
+      "پچولی"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bujairami/Executor-123005.html",
+    "extractedAt": "2026-11-24T23:41:21.920Z",
+    "name": "Executor",
+    "brand": "Bujairami",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Adam Bujairami",
+    "topNotes": [
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Amberwood",
+      "Musk",
+      "Vanilla",
+      "Ambrofix™"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123005.jpg",
+    "rating": 4.31,
+    "ratingVotes": 177,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 81
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 77
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 69
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 123005,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Executor",
+    "brandFa": "Bujairami",
+    "nameFa": "Executor",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Adam Bujairami",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "چوب کهربایی",
+      "موش",
+      "وانیل",
+      "Ambrofix™"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Sailing-Day-47891.html",
+    "extractedAt": "2026-11-24T23:41:25.268Z",
+    "name": "Sailing Day",
+    "brand": "Maison Martin Margiela",
+    "family": null,
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Violaine Collas",
+    "topNotes": [
+      "Sea Notes",
+      "Aldehydes",
+      "Coriander",
+      "Red Pepper"
+    ],
+    "middleNotes": [
+      "Juniper",
+      "Iris",
+      "Amyl Salicylate",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Seaweed",
+      "Ambergris",
+      "Cedar",
+      "Amberwood"
+    ],
+    "description": "\"<em>Sailing Day. Place and time: Paros Island, 2001. Two bodies jump and dive towards infinity. They are thrilled with a shiver of adrenaline. Take your turn on an exhilarating aqua journey. Sailing Day is a refreshing and invigorating fragrance. The aquatic and aldehydes chords are a call of the sea. The force of the notes of coriander and absolute iris push the two bodies to jump towards the blue infinity.</em></p> <p>Sailing Day is a refreshing and invigorating fragrance. The aquatic and aldehydes chords are a call of the sea. The force of the notes of coriander and absolute iris push the two bodies to jump towards the blue infinity.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47891.jpg",
+    "rating": 3.75,
+    "ratingVotes": 5401,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 81
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 44
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 42
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 47891,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sailing Day",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Sailing Day",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Violaine Collas",
+    "topNotesFa": [
+      "Sea Notes",
+      "آلدهیدها",
+      "گشنیز",
+      "Red Pepper"
+    ],
+    "middleNotesFa": [
+      "عرعر",
+      "زنبق",
+      "Amyl Salicylate",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "جلبک دریایی",
+      "کهربا خاکستری",
+      "سرو",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "«<em>روز قایقرانی. مکان و زمان: جزیره پاروس، 2001. دو بدن می‌پرند و به سمت بی‌نهایت شیرجه می‌زنند. آنها با لرزشی از آدرنالین هیجان‌زده می‌شوند. نوبت شماست که در یک سفر هیجان‌انگیز آبی شرکت کنید. Sailing Day یک عطر طراوت‌بخش و نشاط‌آور است. ترکیبات دریایی و آلدئیدی، ندای دریا هستند. قدرت رایحه‌های گشنیز و عصاره خالص زنبق، دو بدن را به سمت بی‌نهایت آبی سوق می‌دهد.</em></p> <p>Sailing Day عطری طراوت‌بخش است",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Riiffs-Perfumes/Prive-Platinum-Silver-98132.html",
+    "extractedAt": "2026-11-24T23:41:30.361Z",
+    "name": "Privè Platinum Silver",
+    "brand": "Riiffs Perfumes",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon Zest",
+      "Orange"
+    ],
+    "middleNotes": [
+      "White Tea",
+      "Fig Leaf"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Amberwood"
+    ],
+    "description": "RiiFFS PRIVE PLATINUM is a sophisticated fragrance that exudes modern elegance. It is designed for both men and women, offering a balanced scent profile with top notes of bergamot and mandarin orange, heart notes of green tea and black currant, and base notes of amber, cedar, patchouli, and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98132.jpg",
+    "rating": 4.09,
+    "ratingVotes": 194,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 98132,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Privè Platinum Silver",
+    "brandFa": "Riiffs Perfumes",
+    "nameFa": "Privè Platinum Silver",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Lemon Zest",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "White Tea",
+      "Fig Leaf"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "RiiFFS PRIVE PLATINUM یک عطر پیچیده است که جلوه‌ای از ظرافت مدرن را به نمایش می‌گذارد. این عطر برای مردان و زنان طراحی شده و دارای رایحه‌ای متعادل با نت‌های اولیه ترنج و نارنگی ماندارین، نت‌های میانی چای سبز و انگور فرنگی سیاه و نت‌های پایه عنبر، سرو، نعناع هندی و چوب صندل است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
