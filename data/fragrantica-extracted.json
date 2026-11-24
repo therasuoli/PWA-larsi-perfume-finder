@@ -52438,5 +52438,1550 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Contrapposto/Cacao-Vert-148695.html",
+    "extractedAt": "2026-11-24T19:55:06.657Z",
+    "name": "Cacao Vert",
+    "brand": "Contrapposto",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Natalie Gracia-Cetto",
+    "topNotes": [
+      "Cocoa",
+      "Pink Pepper",
+      "Neroli",
+      "Sage"
+    ],
+    "middleNotes": [
+      "cannabis",
+      "Cacao",
+      "Akigalawood"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vanilla Absolute",
+      "Cypriol"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148695.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 74
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 59
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 56
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 148695,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cacao Vert",
+    "brandFa": "Contrapposto",
+    "nameFa": "Cacao Vert",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Natalie Gracia-Cetto",
+    "topNotesFa": [
+      "کاکائو",
+      "فلفل صورتی",
+      "نرولی",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "cannabis",
+      "کاکائو",
+      "Akigalawood"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "Vanilla Absolute",
+      "سایپریول"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bharara/Rome-Pink-PP-Vanille-148694.html",
+    "extractedAt": "2026-11-24T19:55:10.534Z",
+    "name": "Rome Pink PP Vanille",
+    "brand": "Bharara",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Black Currant",
+      "Bergamot",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Violet",
+      "Rose",
+      "Sea Notes"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Musk",
+      "Cashmere Wood",
+      "Guaiac Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148694.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 79
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 77
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 47
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 148694,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rome Pink PP Vanille",
+    "brandFa": "Bharara",
+    "nameFa": "Rome Pink PP Vanille",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "توت سیاه",
+      "برگاموت",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "بنفشه",
+      "گل رز",
+      "Sea Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "موش",
+      "Cashmere Wood",
+      "چوب گوئیک"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/DSQUARED2/Red-Wood-58067.html",
+    "extractedAt": "2026-11-24T19:55:15.215Z",
+    "name": "Red Wood",
+    "brand": "DSQUARED²",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2019,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Cranberry",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Litchi",
+      "Rose",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Musk",
+      "Amberwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58067.jpg",
+    "rating": 3.61,
+    "ratingVotes": 1015,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 57
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 27
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 58067,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Red Wood",
+    "brandFa": "DSQUARED²",
+    "nameFa": "Red Wood",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "زغال‌آله",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Litchi",
+      "گل رز",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "موش",
+      "چوب کهربایی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Orchid-Intense-136128.html",
+    "extractedAt": "2026-11-24T19:55:18.967Z",
+    "name": "Flora Gorgeous Orchid Intense",
+    "brand": "Gucci",
+    "family": "Oriental Floral",
+    "gender": "women. This is a new fragrance. <b>Flora Gorgeous Orchid Intense</b> was launched in 2026. The fragrance features Vanilla Orchid, Ozonic notes, Cocoa and Salt",
+    "year": 2026,
+    "description": "Flora Gorgeous Orchid Intense by Gucci is a 2026 fragrance from the Flora collection and a flanker to Flora Gorgeous Orchid from 2024. Its composition highlights vanilla orchid, salty ozonic notes, and dark cocoa, combining a floral core with airy marine facets and a darker gourmand nuance.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136128.jpg",
+    "rating": 4.07,
+    "ratingVotes": 550,
+    "accords": [
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 95
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 136128,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Flora Gorgeous Orchid",
+    "brandFa": "گوشی",
+    "nameFa": "Flora Gorgeous Orchid Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women. This is a new fragrance. <b>Flora Gorgeous Orchid Intense</b> was launched in 2026. The fragrance features Vanilla Orchid, Ozonic notes, Cocoa and Salt",
+    "descriptionFa": "Flora Gorgeous Orchid Intense از برند Gucci یک عطر متعلق به سال 2026 از مجموعه Flora و یک نسخه جانبی از Flora Gorgeous Orchid متعلق به سال 2024 است. ترکیبات آن شامل ارکیده وانیلی، نت‌های اوزونی شور و کاکائوی تیره است که هسته‌ای گل‌دار را با جنبه‌های دریایی سبک و یک حس گُرماند تیره ترکیب می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kenzo/Le-Rouge-Flower-by-Kenzo-121232.html",
+    "extractedAt": "2026-11-24T19:55:24.873Z",
+    "name": "Le Rouge Flower by Kenzo",
+    "brand": "Kenzo",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Musk",
+      "Rice"
+    ],
+    "middleNotes": [
+      "May Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amberever",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121232.jpg",
+    "rating": 3.43,
+    "ratingVotes": 206,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 82
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 66
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 35
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 121232,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Le Rouge Flower by Kenzo",
+    "brandFa": "Kenzo",
+    "nameFa": "Le Rouge Flower by Kenzo",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "موش",
+      "Rice"
+    ],
+    "middleNotesFa": [
+      "گل رز میانی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Amberever",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Riiffs-Perfumes/Veloce-143530.html",
+    "extractedAt": "2026-11-24T19:55:28.381Z",
+    "name": "Veloce",
+    "brand": "Riiffs Perfumes",
+    "family": "Oriental",
+    "gender": "women and men. Top notes are Grapefruit, Aldehydes and Bergamot; middle notes are Myrrh, Labdanum and Jasmine; base notes are Vanilla, Amber and Tonka Bean",
+    "topNotes": [
+      "Grapefruit",
+      "Aldehydes",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Myrrh",
+      "Labdanum",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "description": "An Extrait de Parfum that contrasts sparkling citrus freshness with a warm, cognac-like sweetness.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143530.jpg",
+    "rating": 4.45,
+    "ratingVotes": 127,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 90
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 29
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 143530,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Veloce",
+    "brandFa": "Riiffs Perfumes",
+    "nameFa": "Veloce",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. Top notes are Grapefruit, Aldehydes and Bergamot; middle notes are Myrrh, Labdanum and Jasmine; base notes are Vanilla, Amber and Tonka Bean",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "آلدهیدها",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "مور",
+      "لابدانوم",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "یک عصاره عطر که طراوت درخشان مرکبات را با شیرینی گرم شبیه به کنیاک در تضاد قرار می‌دهد.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mith/Nude-101684.html",
+    "extractedAt": "2026-11-24T19:55:35.275Z",
+    "name": "Nude",
+    "brand": "Mith",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Pear",
+      "Peach",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Lily-of-the-Valley",
+      "Violet Leaves"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Tonka Bean",
+      "Moss",
+      "Vetiver"
+    ],
+    "description": "Nude by MITH is a fragrance crafted by perfumer Quentin Bisch, set to release in 2025. This scent features a blend of fresh and floral notes, creating a balanced and inviting aroma.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101684.jpg",
+    "rating": 4.37,
+    "ratingVotes": 251,
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 85
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 101684,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nude",
+    "brandFa": "Mith",
+    "nameFa": "Nude",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "گلابی",
+      "هلو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "Lily-of-the-Valley",
+      "Violet Leaves"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "لوبیا تونکا",
+      "خزه",
+      "وتیور"
+    ],
+    "descriptionFa": "Nude از برند MITH عطری است که توسط عطر‌ساز کوئنتین بیش ساخته شده و قرار است در سال 2025 عرضه شود. این عطر ترکیبی از رایحه‌های تازه و گل‌دار است که عطری متعادل و دلپذیر ایجاد می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Franck-Olivier/Oud-Vanille-47169.html",
+    "extractedAt": "2026-11-24T19:55:40.875Z",
+    "name": "Oud Vanille",
+    "brand": "Franck Olivier",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": null,
+    "topNotes": [
+      "Caramel",
+      "Raspberry",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Rose",
+      "Patchouli",
+      "Violet",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Woody Notes",
+      "Spices",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47169.jpg",
+    "rating": 4.1,
+    "ratingVotes": 925,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 67
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 65
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 61
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 58
+      }
+    ],
+    "fragranticaId": 47169,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Vanille",
+    "brandFa": "Franck Olivier",
+    "nameFa": "Oud Vanille",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کارامل",
+      "تمشک",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "گل رز",
+      "پچولی",
+      "بنفشه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Woody Notes",
+      "Spices",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Vanilla-Diorama-68198.html",
+    "extractedAt": "2026-11-24T19:55:45.607Z",
+    "name": "Vanilla Diorama",
+    "brand": "Dior",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "François Demachy",
+    "topNotes": [
+      "Orange",
+      "Pink Pepper",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Rum",
+      "Cacao",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68198.jpg",
+    "rating": 4.15,
+    "ratingVotes": 3374,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 45
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 68198,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Diorama",
+    "brandFa": "دیور",
+    "nameFa": "Vanilla Diorama",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "François Demachy",
+    "topNotesFa": [
+      "پرتقال",
+      "فلفل صورتی",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "رام",
+      "کاکائو",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "چوب صندل",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Perris-Monte-Carlo/Tiare-de-Tahiti-134858.html",
+    "extractedAt": "2026-11-24T19:55:50.667Z",
+    "name": "Tiaré de Tahiti",
+    "brand": "Perris Monte Carlo",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Davana",
+      "Coconut",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tiare Flower",
+      "Ylang Ylang",
+      "Marine notes"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedarwood",
+      "Amber"
+    ],
+    "description": "Tiaré de Tahiti by Perris Monte Carlo is released in 2026. It is centered on the Tahitian tiaré flower, a bloom associated in Polynesian culture with hospitality, love, and personal adornment. The composition opens with bergamot, coconut, and davana, moving into a floral heart of tiaré flower, ylang-ylang, and marine notes, and drying down to cedarwood, amber, and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.134858.jpg",
+    "rating": 3.54,
+    "ratingVotes": 39,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 71
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 69
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 65
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 62
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 134858,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tiaré de Tahiti",
+    "brandFa": "Perris Monte Carlo",
+    "nameFa": "Tiaré de Tahiti",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Davana",
+      "نارگیل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Tiare Flower",
+      "Ylang Ylang",
+      "Marine notes"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب سرو",
+      "کهربا"
+    ],
+    "descriptionFa": "Tiaré de Tahiti از برند Perris Monte Carlo در سال 2026 عرضه می‌شود. این عطر بر پایه گل تیاره تاهیتی ساخته شده است، گلی که در فرهنگ پلی‌نزی با مهمان‌نوازی، عشق و زینت شخصی مرتبط است. این ترکیب با رایحه ترنج، نارگیل و داوانا آغاز می‌شود، سپس به رایحه گل‌مانند قلب عطر شامل گل تیاره، یلانگ-یلانگ و نت‌های دریایی می‌رسد و در نهایت با رایحه چوب سرو، عنبر و مشک خشک می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Pepe-Jeans-London/Vintage-Vibes-105726.html",
+    "extractedAt": "2026-11-24T19:55:56.323Z",
+    "name": "Vintage Vibes",
+    "brand": "Pepe Jeans London",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Gaël Montero",
+    "topNotes": [
+      "Coffee",
+      "Candied Fruits",
+      "Milk"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Whipped Cream"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "<em><strong>Portobello On Rewind.</strong><br /> <br /> Among secondhand books and record stalls, she moves slowly, stopping to snap a photo with her Polaroid. The sound of Portobello Road plays softly in the background — the hum of stories, the warmth of vinyl sleeves, the scent of coffee and something sweet in the air.</em></p> <p>A scent that transports you to the heart of Portobello Road’s vintage markets, where nostalgia meets the warm aromas of hidden cafés and antique treasures. The inviting notes of coffee with milk and candied fruit open up to a creamy heart of caramel and whipped cream, while a comforting base of vanilla and musk lingers on the skin. This fragrance is perfect for those who find beauty in vintage charm and authenticity in every detail.</p> <p><strong>TOP NOTES</strong><br /> Coffee with Milk and Candied Fruits<br /> <br /> <strong>MIDDLE NOTES</strong><br /> Caramel and Cream<br /> <br /> <strong>BASE NOTES</strong><br /> Vanilla and Musk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105726.jpg",
+    "rating": 4.05,
+    "ratingVotes": 22,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 89
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 69
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 27
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 19
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 18
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 105726,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vintage Vibes",
+    "brandFa": "Pepe Jeans London",
+    "nameFa": "Vintage Vibes",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Gaël Montero",
+    "topNotesFa": [
+      "قهوه",
+      "Candied Fruits",
+      "شیر"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "خامه زده"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "<em><strong>پورتوبلو در حال بازپخش.</strong><br /> <br /> او در میان غرفه‌های کتاب‌های دست‌دوم و صفحه‌های موسیقی، آهسته حرکت می‌کند و گاهی می‌ایستد تا با دوربین پولارویدش عکسی بگیرد. صدای پورتوبلو رود به آرامی در پس‌زمینه پخش می‌شود — زمزمه داستان‌ها، گرمای جلد صفحات وینیل، عطر قهوه و بوی شیرینی که در هوا پیچیده است.</em></p> <p>عطری که شما را به قلب بازارهای وینتیج پورتوبلو رود می‌برد، جایی که نوستالژی با رایحه‌ای گرم آمیخته می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Haltane-70776.html",
+    "extractedAt": "2026-11-24T19:56:01.531Z",
+    "name": "Haltane",
+    "brand": "Parfums de Marly",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Clary Sage",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Praline"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Cedar"
+    ],
+    "description": "Parfums de Marly Haltane is made exclusively for Harrods. Specially made for those who expected only the finest ingredients, Haltane is revealed on the skin with layers of traditional aromatic woods and freshness of herbal top notes, while the soft and rich accords of saffron and praline represent an ultra-modern spin on the theme of oud wood.</p> <p>Top notes: bergamot, lavender, clary sage<br /> Heart: saffron, pralines<br /> Base: cedar, elder wood, oud</p> <p>It is available as 125 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70776.jpg",
+    "rating": 4.33,
+    "ratingVotes": 5125,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 49
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 70776,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Haltane",
+    "brandFa": "پرفیومز دو مارلی",
+    "nameFa": "Haltane",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "پرالین"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "سرو"
+    ],
+    "descriptionFa": "Parfums de Marly Haltane منحصراً برای Harrods ساخته شده است. Haltane که مخصوص کسانی ساخته شده است که فقط انتظار بهترین مواد اولیه را دارند، بر روی پوست با لایه‌هایی از چوب‌های معطر سنتی و طراوت نت‌های بالای گیاهی آشکار می‌شود، در حالی که ترکیبات ملایم و غنی زعفران و پرالین نشان‌دهنده یک تفسیر فوق‌العاده مدرن از تم چوب عود است.</p> <p>نت‌های اولیه: ترنج، اسطوخودوس، مریم‌گلی معطر<br /> نت میانی: زعفران، پرالین<br /> نت پایه: سرو، درخت پیراکانتا",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Penhaligon-s/Endymion-5674.html",
+    "extractedAt": "2026-11-24T19:56:07.995Z",
+    "name": "Endymion",
+    "brand": "Penhaligon's",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2003,
+    "perfumer": "Fragrance Resources",
+    "topNotes": [
+      "Lavender",
+      "Bergamot",
+      "Sage",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Coffee",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Cardamon",
+      "Sandalwood",
+      "Vetiver",
+      "Nutmeg",
+      "Myrhh",
+      "Black Pepper",
+      "Musk",
+      "Incense",
+      "Olibanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5674.jpg",
+    "rating": 4.16,
+    "ratingVotes": 2005,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 89
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 81
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 64
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 41
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 5674,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Endymion",
+    "brandFa": "پنهالیگونز",
+    "nameFa": "Endymion",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Fragrance Resources",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "برگاموت",
+      "مریم‌گلی",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "قهوه",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "Cardamon",
+      "چوب صندل",
+      "وتیور",
+      "جوز هندی",
+      "Myrhh",
+      "فلفل سیاه",
+      "موش",
+      "عود بخور",
+      "کندر"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Desert-Star-92890.html",
+    "extractedAt": "2026-11-24T19:56:13.203Z",
+    "name": "Desert Star",
+    "brand": "Armaf",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vetiver",
+      "Pink Pepper",
+      "Cashmere Wood"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "White Musk",
+      "Amber"
+    ],
+    "description": "With Desert Star, you have the perfect marriage of wood and spice, fusing to create an elegant fragrance that exceeds all expectations. Opening with zesty notes of bergamot, the warm cashmere wood and earthy scent of vetiver come together in a blend of amber and cedarwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92890.jpg",
+    "rating": 4.34,
+    "ratingVotes": 150,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 43
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 29
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 92890,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Desert Star",
+    "brandFa": "Armaf",
+    "nameFa": "Desert Star",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "وتیور",
+      "فلفل صورتی",
+      "Cashmere Wood"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "موش سفید",
+      "کهربا"
+    ],
+    "descriptionFa": "با Desert Star، شاهد ترکیب بی‌نقصی از چوب و ادویه هستید که با هم آمیخته می‌شوند تا رایحه‌ای شیک و فراتر از همه انتظارات ایجاد کنند. این عطر با نت‌های تند ترنج آغاز می‌شود، سپس چوب گرم کشمیر و رایحه خاکی خس‌خس در ترکیبی از عنبر و چوب سدر با هم تلفیق می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
