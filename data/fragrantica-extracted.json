@@ -44854,5 +44854,1599 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Dior-Homme-Parfum-2025-101016.html",
+    "extractedAt": "2026-11-24T15:56:02.526Z",
+    "name": "Dior Homme Parfum 2025",
+    "brand": "Dior",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Iris"
+    ],
+    "middleNotes": [
+      "Amber"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Dior Homme Parfum 2025 is a new men's fragrance set to launch in 2025, crafted by Master Perfumer Francis Kurkdjian. This fragrance celebrates the iris flower, balancing power and delicacy with a blend centered around iris and highlighted by ambery woods. It is part of the Dior Homme fragrance collection, known for its seductive allure.</p> <p>Francis Kurkdjian, Dior Perfume Director, reimagines Dior Homme through an architectural lens, blending structure and sensuality. With an overdose of noble iris, his new fragrance unites strength and tenderness, elegance and power.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101016.jpg",
+    "rating": 3.26,
+    "ratingVotes": 4752,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 82
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 81
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 61
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 101016,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Dior Homme 2025",
+    "brandFa": "دیور",
+    "nameFa": "Dior Homme Parfum 2025",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "زنبق"
+    ],
+    "middleNotesFa": [
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وتیور"
+    ],
+    "descriptionFa": "Dior Homme Parfum 2025 یک عطر جدید مردانه است که قرار است در سال 2025 عرضه شود و توسط استاد عطرساز فرانسیس کورکجیان ساخته شده است. این عطر گل زنبق را گرامی می‌دارد و با ترکیبی که بر پایه زنبق است و با رایحه چوب‌های کهربایی برجسته می‌شود، تعادلی بین قدرت و ظرافت ایجاد می‌کند. این عطر بخشی از مجموعه عطرهای Dior Homme است که به جذابیت اغواکننده خود معروف است.</p> <p>فرانسیس کورکجیان، مدیر عطر دیور، Dior Homme را از منظر معماری بازتعریف می‌کند و",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/La-Belle-55786.html",
+    "extractedAt": "2026-11-24T15:56:08.933Z",
+    "name": "La Belle",
+    "brand": "Jean Paul Gaultier",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2019,
+    "perfumer": "Quentin Bisch and Sonia Constant",
+    "topNotes": [
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Floral Notes",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Vetiver",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55786.jpg",
+    "rating": 4.17,
+    "ratingVotes": 9745,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 55786,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "La Belle",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "La Belle",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Quentin Bisch and Sonia Constant",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Floral Notes",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "وتیور",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/L-Erbolario/Meharees-4462.html",
+    "extractedAt": "2026-11-24T15:56:12.834Z",
+    "name": "Meharées",
+    "brand": "L'Erbolario",
+    "family": "Oriental Spicy",
+    "gender": "men. Top notes are Cinnamon, Orange, Bergamot and Rose; middle notes are Sandalwood, Guaiac Wood, Cedar and Patchouli; base notes are Amber, Vanilla and Musk",
+    "topNotes": [
+      "Cinnamon",
+      "Orange",
+      "Bergamot",
+      "Rose"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Guaiac Wood",
+      "Cedar",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4462.jpg",
+    "rating": 4.26,
+    "ratingVotes": 1961,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 80
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 72
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 70
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 59
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 4462,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Meharées",
+    "brandFa": "L'Erbolario",
+    "nameFa": "Meharées",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "men. Top notes are Cinnamon, Orange, Bergamot and Rose; middle notes are Sandalwood, Guaiac Wood, Cedar and Patchouli; base notes are Amber, Vanilla and Musk",
+    "topNotesFa": [
+      "دارچین",
+      "پرتقال",
+      "برگاموت",
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "چوب گوئیک",
+      "سرو",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Pape-Moe-ba-mu/Apricot-Tuberose-xing-yu-wan-xiang-yu-135938.html",
+    "extractedAt": "2026-11-24T15:56:17.404Z",
+    "name": "Apricot Tuberose 杏与晚香玉",
+    "brand": "Pape Moe 坝木",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Honey",
+      "Apricot"
+    ],
+    "middleNotes": [
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Moss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135938.jpg",
+    "rating": 4.25,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 66
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 29
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 24
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 24
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 135938,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Apricot Tuberose 杏与晚香玉",
+    "brandFa": "Pape Moe 坝木",
+    "nameFa": "Apricot Tuberose 杏与晚香玉",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عسل",
+      "زردآلو"
+    ],
+    "middleNotesFa": [
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "خزه"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ex-Nihilo/Midnight-Special-45957.html",
+    "extractedAt": "2026-11-24T15:56:22.547Z",
+    "name": "Midnight Special",
+    "brand": "Ex Nihilo",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Olivier Pescheux",
+    "topNotes": [
+      "Saffron",
+      "Cinnamon",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Turkish Rose",
+      "Rose",
+      "Grapefruit"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45957.jpg",
+    "rating": 4.07,
+    "ratingVotes": 416,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 69
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 65
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 44
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 45957,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Midnight Special",
+    "brandFa": "اِکس نیهیلو",
+    "nameFa": "Midnight Special",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olivier Pescheux",
+    "topNotesFa": [
+      "زعفران",
+      "دارچین",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "گل رز ترکی",
+      "گل رز",
+      "گریپ‌فروت"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "وانیل",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BORNTOSTANDOUT/Choco-Loco-117525.html",
+    "extractedAt": "2026-11-24T15:56:26.462Z",
+    "name": "Choco Loco",
+    "brand": "BORNTOSTANDOUT®",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Gaël Montero",
+    "topNotes": [
+      "Cocoa",
+      "Liquor",
+      "Butter"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Liquor",
+      "Burnt Sugar",
+      "Caramel",
+      "Condensed Milk",
+      "Whipped Cream",
+      "Ginger"
+    ],
+    "baseNotes": [
+      "Cookie Dough",
+      "Brown sugar",
+      "Vanilla Absolute",
+      "Marshmallow",
+      "Musk",
+      "Ambrette"
+    ],
+    "description": "Hot, sticky, shameless chocolate.by Gaël Montero<br /> <br /> Head: Cocoa powder, Cocoa butter, Cocoa liquor<br /> Heart: Cacao absolute, Condensed milk, Caramel fudge, Burnt sugar, Ginger liqueur, Whipped cream<br /> Base: Cookie Dough, Vanilla absolute, Brown sugar, Marshmallow, Musk, Ambrette<br /> <br /> It’s a hot chocolate gone rogue. Triple-dosed, over-whipped, under-disciplined.<br /> Call it comfort. Call it madness. Call it sweet, dirty joy in a bottle.</p> <p>A cocoa bomb detonates. Bitter dust of raw cacao, thick melt of cocoa butter, the boozy rush of cocoa liquor. Decadence hits fast. Then it swirls darker. Fudge dripping with caramel, sugar scorched to smoke, ginger liquor igniting the cream. Sticky, heavy, almost obscene. The sweetness is not polite. It melts, oozes, and stains. Cookie dough and marshmallow collapse into vanilla heat, leaving a trail of brown sugar sweat and ambrette musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117525.jpg",
+    "rating": 4.09,
+    "ratingVotes": 209,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 71
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "alcohol",
+        "nameFa": "alcohol",
+        "percent": 22
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 117525,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Choco Loco",
+    "brandFa": "BORNTOSTANDOUT®",
+    "nameFa": "Choco Loco",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gaël Montero",
+    "topNotesFa": [
+      "کاکائو",
+      "مشروب",
+      "کره"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "مشروب",
+      "Burnt Sugar",
+      "کارامل",
+      "شیر عسلی",
+      "خامه زده",
+      "زنجبیل"
+    ],
+    "baseNotesFa": [
+      "Cookie Dough",
+      "Brown sugar",
+      "Vanilla Absolute",
+      "مارشمالو",
+      "موش",
+      "دانه ابرکفش"
+    ],
+    "descriptionFa": "شکلات داغ، چسبناک و بی‌شرم. اثر گائل مونترو<br /> <br /> نت ابتدایی: پودر کاکائو، کره کاکائو، لیکور کاکائو<br /> نت میانی: عصاره کاکائو، شیر تغلیظ‌شده، فاج کاراملی، شکر سوخته، لیکور زنجبیل، خامه فرم‌گرفته<br /> رایحه پایه: خمیر کوکی، عصاره وانیل، شکر قهوه‌ای، مارشمالو، مشک، آمبرت<br /> <br /> این یک شکلات داغ است که از کنترل خارج شده است. سه برابر غلیظ، بیش از حد هم‌زده، بدون هیچ محدودیتی.<br /> آن را آرامش بنامید. آن را دیوانگی بنامید. آن را شیرین و گستاخ بنامید",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salvatore-Ferragamo/Uomo-Salvatore-Ferragamo-39466.html",
+    "extractedAt": "2026-11-24T15:56:31.518Z",
+    "name": "Uomo Salvatore Ferragamo",
+    "brand": "Salvatore Ferragamo",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2016,
+    "perfumer": "Alberto Morillas and Aurélien Guichard",
+    "topNotes": [
+      "Cardamom",
+      "Black Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Sweet Notes",
+      "Ambroxan",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Sandalwood",
+      "Cashmere Wood"
+    ],
+    "description": "The Italian fashion house of Salvatore Ferragamo is launching a new masculine pillar fragrance called Uomo Salvatore Ferragamo in September 2016. It promises to bring an original take on gourmand fresh accords with the sensuality of rich woods. Uomo Salvatore Ferragamo is the new scent for men expressing Italian lifestyle, heritage and innovation.</p> <p> “A sense of elegance and beauty. All the optimism and joy of a real smile. The ability to be modern, yet also timeless; to seize the day. All of this is part of the story of Uomo Salvatore Ferragamo, the new fragrance for men. A potion of pure Italian style.” - Salvatore Ferragamo Press Release.</p> <p> Top notes: black pepper, cardamom and bergamot.</p> <p>Middle notes: tiramisu, orange blossom and ambroxan.</p> <p>Base notes: cashmere wood, sandalwood and tonka bean.</p> <p>Available in 30ml Eau de Toilette Spray, 50ml Eau de Toilette Spray and 100ml Eau de Toilette Spray.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39466.jpg",
+    "rating": 4.16,
+    "ratingVotes": 3444,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 65
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 31
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 39466,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Uomo Salvatore Ferragamo",
+    "brandFa": "سالواتوره فراگامو",
+    "nameFa": "Uomo Salvatore Ferragamo",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Alberto Morillas and Aurélien Guichard",
+    "topNotesFa": [
+      "هل",
+      "فلفل سیاه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Sweet Notes",
+      "آمبروکسان",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چوب صندل",
+      "Cashmere Wood"
+    ],
+    "descriptionFa": "خانه مد ایتالیایی Salvatore Ferragamo در سپتامبر 2016 یک عطر مردانه جدید با نام Uomo Salvatore Ferragamo را عرضه می‌کند. این عطر وعده می‌دهد که ترکیبی بدیع از رایحه‌های تازه و خوشبو را با حس شهوانی چوب‌های غنی ارائه دهد. Uomo Salvatore Ferragamo عطر جدیدی برای مردان است که سبک زندگی، میراث و نوآوری ایتالیایی را بیان می‌کند.</p> <p> «حسی از ظرافت و زیبایی. تمام خوش‌بینی و شادی یک لبخند واقعی. توانایی بودن",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Absolutely-64501.html",
+    "extractedAt": "2026-11-24T15:56:37.798Z",
+    "name": "Emporio Armani Stronger With You Absolutely",
+    "brand": "Giorgio Armani",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": "Cecile Matton",
+    "topNotes": [
+      "Rum",
+      "elemi",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Chestnut",
+      "Cedar",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64501.jpg",
+    "rating": 4.51,
+    "ratingVotes": 10792,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 89
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 75
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 71
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 64
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 64501,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "Emporio Armani Stronger With You tely",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Emporio Armani Stronger With You Absolutely",
+    "concentrationFa": "ابسولو",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Cecile Matton",
+    "topNotesFa": [
+      "رام",
+      "elemi",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "Chestnut",
+      "سرو",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Cacharel/Noa-242.html",
+    "extractedAt": "2026-11-24T15:56:42.418Z",
+    "name": "Noa",
+    "brand": "Cacharel",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 1998,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "White Musk",
+      "Peony",
+      "Freesia",
+      "Green Notes",
+      "Peach",
+      "Plum"
+    ],
+    "middleNotes": [
+      "Lily",
+      "Lily-of-the-Valley",
+      "Green Grass",
+      "Jasmine",
+      "Ylang-Ylang",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Coffee",
+      "Vanilla",
+      "Sandalwood",
+      "Coriander",
+      "Incense",
+      "Tonka Bean",
+      "Cedar"
+    ],
+    "description": "Noa is a small planet in your hand with a pearl inside. Noa is a transparent composition of flowers, delicate spices, velvety fruit nuances, and the energizing power of coffee beans. This fragrance is like a tender whisper, feminine and subtle, weightless, but with a noticeable presence.<br /> Tender powdery top notes of freesia, peach skin, peony, and musk lead to a floral heart of white flowers, ylang-ylang, and rose. The base is woodsy and transparent with coffee and incense touches.<br />",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.242.jpg",
+    "rating": 3.88,
+    "ratingVotes": 14221,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 98
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 86
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 79
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 70
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 69
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 242,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Noa",
+    "brandFa": "Cacharel",
+    "nameFa": "Noa",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "موش سفید",
+      "گل داوودی",
+      "فریزیا",
+      "نت‌های سبز",
+      "هلو",
+      "آلو"
+    ],
+    "middleNotesFa": [
+      "لاله",
+      "Lily-of-the-Valley",
+      "Green Grass",
+      "یاسمن",
+      "ایلنگ‌ایلنگ",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "قهوه",
+      "وانیل",
+      "چوب صندل",
+      "گشنیز",
+      "عود بخور",
+      "لوبیا تونکا",
+      "سرو"
+    ],
+    "descriptionFa": "Noa یک سیاره کوچک در دستان شماست که در درونش یک مروارید قرار دارد. Noa ترکیبی شفاف از گل‌ها، ادویه‌های ظریف، رایحه‌های میوه‌ای مخملی و قدرت انرژی‌بخش دانه‌های قهوه است. این عطر مانند زمزمه‌ای ملایم، زنانه و ظریف، سبک، اما با حضوری محسوس است.<br /> نت‌های اولیه ملایم و پودری فریزا، پوست هلو، گل صدتومانی و مشک، به نت‌های میانی گل‌دار شامل گل‌های سفید، یلانگ‌یلانگ و گل رز منتهی می‌شوند. رایحه پایه آن چوبی و",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Diva-113190.html",
+    "extractedAt": "2026-11-24T15:56:48.196Z",
+    "name": "Hawas Diva",
+    "brand": "Rasasi",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Red Fruits",
+      "Rhubarb",
+      "Lychee"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Frankincense",
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Ambergris"
+    ],
+    "description": "Hawas Diva by Rasasi is a fragrance released in 2025 that features floral notes, amber, and vanilla. It is presented as a scent for women, embodying presence and individuality.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113190.jpg",
+    "rating": 4.36,
+    "ratingVotes": 388,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 40
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 113190,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Diva",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Diva",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Red Fruits",
+      "Rhubarb",
+      "لیچی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "کندر",
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "کهربا خاکستری"
+    ],
+    "descriptionFa": "Hawas Diva از برند Rasasi عطری است که در سال 2025 عرضه شده و دارای رایحه‌های گل، عنبر و وانیل است. این عطر به عنوان عطری برای زنان معرفی شده است که مظهر حضور و فردیت است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Different-Company/Pure-eVe-12344.html",
+    "extractedAt": "2026-11-24T15:56:52.788Z",
+    "name": "Pure eVe",
+    "brand": "The Different Company",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2011,
+    "perfumer": "Céline Ellena",
+    "topNotes": [
+      "Aldehydes"
+    ],
+    "middleNotes": [
+      "Flax",
+      "Mimosa",
+      "White Rose"
+    ],
+    "baseNotes": [
+      "Candied Almond",
+      "Musk",
+      "Sweet Notes",
+      "Dried Fruits",
+      "Cedar. The fragrance features Musk",
+      "Flax",
+      "Virginia Cedar",
+      "Rose"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.12344.jpg",
+    "rating": 4.02,
+    "ratingVotes": 1277,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 76
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 12344,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pure eVe",
+    "brandFa": "The Different Company",
+    "nameFa": "Pure eVe",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Céline Ellena",
+    "topNotesFa": [
+      "آلدهیدها"
+    ],
+    "middleNotesFa": [
+      "Flax",
+      "میموزا",
+      "White Rose"
+    ],
+    "baseNotesFa": [
+      "Candied Almond",
+      "موش",
+      "Sweet Notes",
+      "Dried Fruits",
+      "Cedar. The fragrance features Musk",
+      "Flax",
+      "Virginia Cedar",
+      "گل رز"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Alhambra/Love-Spark-100484.html",
+    "extractedAt": "2026-11-24T15:56:56.191Z",
+    "name": "Love Spark",
+    "brand": "Maison Alhambra",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cherry",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Pink Pepper",
+      "Ambrettolide"
+    ],
+    "description": "Love Spark by Maison Alhambra is a unisex fragrance from the oriental floral family. It combines sweetness and character with a touch of sensuality. The sparkling top notes of cherry and ginger create a lively and irresistible opening. The heart of the perfume is an intoxicating floral accord of sambac jasmine, adding refinement and an exotic touch. The base notes of pink pepper, ambrettolide, and musk leave a persistent and seductive trail, making it a versatile fragrance suitable for any occasion.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.100484.jpg",
+    "rating": 3.94,
+    "ratingVotes": 85,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 28
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 100484,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Love Spark",
+    "brandFa": "Maison Alhambra",
+    "nameFa": "Love Spark",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گیلاس",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "فلفل صورتی",
+      "Ambrettolide"
+    ],
+    "descriptionFa": "Love Spark از برند Maison Alhambra یک عطر یونیسکس از خانواده رایحه‌های شرقی-گل‌فام است. این عطر شیرینی و شخصیت را با کمی حس شهوانی ترکیب می‌کند. نت‌های ابتدایی درخشان گیلاس و زنجبیل، شروعی پرنشاط و غیرقابل مقاومت ایجاد می‌کنند. قلب این عطر ترکیبی مست‌کننده از رایحه گل یاس سامباک است که ظرافت و لطافت و حسی خاص و دل‌انگیز به آن می‌بخشد. نت‌های پایه فلفل صورتی، آمبرتولید و مشک اثری ماندگار و اغواکننده از خود به‌جای می‌گذارند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/FLUY/The-Wave-139945.html",
+    "extractedAt": "2026-11-24T15:57:00.990Z",
+    "name": "The Wave",
+    "brand": "FLUY",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Sea Salt",
+      "Ginger",
+      "Sicilian Lemon",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Spearmint",
+      "Seaweed"
+    ],
+    "baseNotes": [
+      "Moss",
+      "Vetiver",
+      "Amber",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139945.jpg",
+    "rating": 4.14,
+    "ratingVotes": 7,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 78
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 78
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 72
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 72
+      }
+    ],
+    "fragranticaId": 139945,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Wave",
+    "brandFa": "FLUY",
+    "nameFa": "The Wave",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "نمک دریا",
+      "زنجبیل",
+      "Sicilian Lemon",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "نعناع سبز",
+      "جلبک دریایی"
+    ],
+    "baseNotesFa": [
+      "خزه",
+      "وتیور",
+      "کهربا",
+      "سرو"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Khamrah-Dukhan-104529.html",
+    "extractedAt": "2026-11-24T15:57:05.898Z",
+    "name": "Khamrah Dukhan",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Spices",
+      "Pimento",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Labdanum",
+      "Orange Blossom",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Praline",
+      "Tobacco",
+      "Amber",
+      "Tonka Bean",
+      "Benzoin"
+    ],
+    "description": "<strong>Derived from the Arabic word \"Dukhan,\" meaning \"smoke,\" this fragrance embodies the ancient Middle Eastern ritual of burning perfume.</strong> Ethereal yet hypnotically captivating, Khamrah Dukhan beautifully translates the mesmerizing dance of rising smoke into an olfactory experience. Its sophisticated depth and intricate sillage offer a contemporary interpretation of timeless traditions, delivering a powerful statement of strength, elegance, and allure.</p> <p><em>The burning composition of pimento, tobacco, and amber creates a fragrance that exudes raw energy, boldness, and addictive allure. While Khamrah Dukhan remains a unisex fragrance, this edition takes on a masculine angle, embracing the strength and intensity that resonates with masculinity.</em></p> <p>A bold fusion of smoked spices, fiery pimento, and vibrant mandarin ignites the senses, drawing you into its smoldering depths. At its heart, resinous cistus and velvety orange flower mingle with mystical incense and earthy patchouli, evoking an aura of captivating intensity. Rich layers of tobacco, warm amber, luscious praline, benzoin, and creamy tonka bean deepen the intrigue, creating an undeniably powerful fragrance. Dark, enticing, and irresistibly smoky—step into the smoke.<br /> <br /> Top - Mandarin, Pimento, Smoked Spices<br /> Middle - Cistus, Orange Flower, Incense, Patchouli<br /> Base- Tobacco, Amber, Tonka Bean, Benzoin, Praline",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104529.jpg",
+    "rating": 4.18,
+    "ratingVotes": 3085,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 89
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 31
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 26
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 23
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 104529,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Khamrah Dukhan",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Khamrah Dukhan",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Spices",
+      "فلفل هلندی",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "لابدانوم",
+      "گل پرتقال",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "پرالین",
+      "تنباکو",
+      "کهربا",
+      "لوبیا تونکا",
+      "بنزوئین"
+    ],
+    "descriptionFa": "<strong>این عطر که از واژه عربی «دُخان» به معنای «دود» گرفته شده است، تجسمی از آیین باستانی خاورمیانه برای سوزاندن عطر است.</strong> Khamrah Dukhan که لطیف و در عین حال به طرز مسحورکننده‌ای جذاب است، رقص خیره‌کننده دود در حال بالا رفتن را به زیبایی به یک تجربه بویایی تبدیل می‌کند. عمق پیچیده و رایحه ماندگار آن، تفسیر معاصری از سنت‌های جاودانه ارائه می‌دهد و بیانی قدرتمند از قدرت و شکوه را به ارمغان می‌آورد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
