@@ -20750,5 +20750,2174 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Stardust-Stems/Strawberry-Milk-148583.html",
+    "extractedAt": "2026-11-24T02:06:59.873Z",
+    "name": "Strawberry Milk",
+    "brand": "Stardust & Stems",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Strawberry Milk</b> was launched in 2026. The fragrance features Strawberry and Milk",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148583.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 90
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148583,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Strawberry Milk",
+    "brandFa": "Stardust & Stems",
+    "nameFa": "Strawberry Milk",
+    "genderFa": "women and men. This is a new fragrance. <b>Strawberry Milk</b> was launched in 2026. The fragrance features Strawberry and Milk",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aromatico/After-the-Dark-148582.html",
+    "extractedAt": "2026-11-24T02:07:03.511Z",
+    "name": "After the Dark",
+    "brand": "Aromaticó",
+    "family": "Woody",
+    "gender": "women and men. This is a new fragrance. <b>After the Dark</b> was launched in 2026. The nose behind this fragrance is Raffy Fernandez. The fragrance features Whiskey, Cognac and Oak",
+    "year": 2026,
+    "perfumer": "Raffy Fernandez",
+    "description": "An alluring expression of mystery and sophistication, After The Dark captures the essence of the night. It unfolds with an intriguing presence, revealing layers of warmth, depth, and sensuality. As the fragrance develops, its rich and captivating character creates an intimate aura, leaving behind a smooth, lingering trail that speaks of confidence and understated elegance.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148582.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 43
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 30
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 9
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 9
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 9
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 148582,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "After the Dark",
+    "brandFa": "Aromaticó",
+    "nameFa": "After the Dark",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>After the Dark</b> was launched in 2026. The nose behind this fragrance is Raffy Fernandez. The fragrance features Whiskey, Cognac and Oak",
+    "perfumerFa": "Raffy Fernandez",
+    "descriptionFa": "After The Dark، بیان فریبنده‌ای از رمز و راز و ظرافت است که ماهیت شب را به تصویر می‌کشد. این عطر با حالتی جذاب آشکار می‌شود و لایه‌هایی از گرما، عمق و شهوانی بودن را نمایان می‌کند. با پخش شدن رایحه، شخصیت غنی و فریبنده‌اش هاله‌ای صمیمی ایجاد می‌کند و اثری ملایم و ماندگار از خود به‌جای می‌گذارد که حاکی از اعتماد به نفس و ظرافت بی‌تکلف است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aromatico/Under-the-Sun-148581.html",
+    "extractedAt": "2026-11-24T02:07:10.062Z",
+    "name": "Under the Sun",
+    "brand": "Aromaticó",
+    "family": "Woody Aromatic",
+    "gender": "women and men. This is a new fragrance. <b>Under the Sun</b> was launched in 2026. The nose behind this fragrance is Raffy Fernandez. The fragrance features Mango, Lime, Peach and Cedar",
+    "year": 2026,
+    "perfumer": "Raffy Fernandez",
+    "description": "An invitation to embrace the warmth of endless summer.<br /> Under the Sun opens with a refreshing blend of juicy mango and creamy peach, creating a soft, luminous sweetness. As the fragrance unfolds, delicate cedarwood adds a smooth woody character, balancing its fruity warmth with effortless sophistication. Radiant, comforting, and irresistibly inviting , a scent that captures the feeling of sunshine on your skin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148581.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 67
+      },
+      {
+        "nameEn": "terpenic",
+        "nameFa": "terpenic",
+        "percent": 27
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 27
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148581,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Under the Sun",
+    "brandFa": "Aromaticó",
+    "nameFa": "Under the Sun",
+    "familyFa": "چوبی معطر",
+    "genderFa": "women and men. This is a new fragrance. <b>Under the Sun</b> was launched in 2026. The nose behind this fragrance is Raffy Fernandez. The fragrance features Mango, Lime, Peach and Cedar",
+    "perfumerFa": "Raffy Fernandez",
+    "descriptionFa": "دعوتی برای در آغوش گرفتن گرمای تابستان بی‌پایان.<br /> Under the Sun با ترکیبی طراوت‌بخش از انبه آبدار و هلو خامه‌ای آغاز می‌شود و شیرینی ملایم و درخشانی ایجاد می‌کند. همانطور که رایحه باز می‌شود، چوب سدر ظریف، طبعی ملایم و چوبی به آن می‌افزايد و گرماي ميوه‎‌اي آن را با ظرافتي بي‌تکلف متعادل مي‌کند. عطری درخشان، آرامش‌بخش و به‌طور غیرقابل مقاومتی دل‌فریب، که حس تابش آفتاب روی پوست شما را تداعی می‌کند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Archive/Tea-Ritual-148580.html",
+    "extractedAt": "2026-11-24T02:07:16.474Z",
+    "name": "Tea Ritual",
+    "brand": "Archive",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Justin Yu",
+    "topNotes": [
+      "Green Tea",
+      "Mandarin Orange",
+      "Mate",
+      "Yuzu"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Oolong tea",
+      "Violet",
+      "Osmanthus",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Rice",
+      "Sandalwood",
+      "Black Tea",
+      "Amber",
+      "Hinoki Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148580.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 82
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 82
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 80
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 53
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 148580,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tea Ritual",
+    "brandFa": "Archive",
+    "nameFa": "Tea Ritual",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Justin Yu",
+    "topNotesFa": [
+      "چای سبز",
+      "نارنگی",
+      "گل ماته",
+      "یوزو"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Oolong tea",
+      "بنفشه",
+      "اسمانتوس",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "Rice",
+      "چوب صندل",
+      "چای سیاه",
+      "کهربا",
+      "Hinoki Wood"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Coco-Vanilla-148579.html",
+    "extractedAt": "2026-11-24T02:07:21.319Z",
+    "name": "Coco Vanilla",
+    "brand": "Basmni Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Marcel Duval",
+    "topNotes": [
+      "Coconut"
+    ],
+    "middleNotes": [
+      "White Musk",
+      "Vanilla Absolute"
+    ],
+    "baseNotes": [
+      "Heliotrope",
+      "Coconut"
+    ],
+    "description": "\"Coco Vanilla Eau de Parfum is addictive softness. Elegant sweetness. A scent that envelops the body and leaves an unforgettable trail behind it. COCO VANILLA is a rich, creamy, and caressing combination of coconut and vanilla, with a clean and sensual touch of white musk.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148579.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 80
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 25
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 22
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 148579,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coco Vanilla",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Coco Vanilla",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Marcel Duval",
+    "topNotesFa": [
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "موش سفید",
+      "Vanilla Absolute"
+    ],
+    "baseNotesFa": [
+      "گل هلیوتروپ",
+      "نارگیل"
+    ],
+    "descriptionFa": "«ادو پرفیوم کوکو وانیل نرمی اعتیادآوری دارد. شیرینی ظریف. عطری که بدن را در بر می‌گیرد و اثری فراموش‌نشدنی از خود به‌جای می‌گذارد. COCO VANILLA ترکیبی غنی، کرمی و نوازشگر از نارگیل و وانیل است که با رایحه‌ای پاک و شهوانی از مشک سفید همراه شده است.» -باسمنی.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Chamone-148578.html",
+    "extractedAt": "2026-11-24T02:07:27.166Z",
+    "name": "Chamonè",
+    "brand": "Basmni Perfumes",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Marcel Duval",
+    "topNotes": [
+      "Bergamot",
+      "Passion Flower"
+    ],
+    "middleNotes": [
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Patchouli"
+    ],
+    "description": "\"Chamonè Eau de Parfum was born to be unforgettable - a unisex fragrance created for women and men who do not compromise on presence, quality, and uniqueness. A perfect balance between fruity freshness, elegant blossom, and warm, addictive depth. Modern luxury. Unforgettable passion.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148578.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 80
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 80
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 80
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 80
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      }
+    ],
+    "fragranticaId": 148578,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chamonè",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Chamonè",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Marcel Duval",
+    "topNotesFa": [
+      "برگاموت",
+      "Passion Flower"
+    ],
+    "middleNotesFa": [
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "پچولی"
+    ],
+    "descriptionFa": "«ادو پرفیوم Chamonè برای اینکه فراموش‌نشدنی باشد خلق شده است - عطری یونیسکس که برای زنان و مردانی ساخته شده که در مورد حضور، کیفیت و منحصر‌به‌فرد بودن هیچ‌گونه سازشی نمی‌کنند. تعادلی بی‌نقص بین طراوت میوه‌ای، رایحه گل‌های ظریف و عمق گرم و اعتیادآور. تجمل مدرن. شور و اشتیاقی فراموش‌نشدنی.» -باسمنی.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Rovian-148577.html",
+    "extractedAt": "2026-11-24T02:07:33.606Z",
+    "name": "Rovián",
+    "brand": "Basmni Perfumes",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Marcel Duval",
+    "topNotes": [
+      "Leather",
+      "Turkish Rose"
+    ],
+    "middleNotes": [
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Sage",
+      "Black Pepper"
+    ],
+    "description": "\"Rugged power wrapped in elegance. Rovián is a fragrance with a deep and captivating presence. An extraordinary combination of rich leather, noble Turkish rose, and spices that gives it an unforgettable character.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148577.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 77
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 77
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 69
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 54
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148577,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rovián",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Rovián",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Marcel Duval",
+    "topNotesFa": [
+      "چرم",
+      "گل رز ترکی"
+    ],
+    "middleNotesFa": [
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "مریم‌گلی",
+      "فلفل سیاه"
+    ],
+    "descriptionFa": "«قدرتی نیرومند در پوششی از ظرافت. روویان عطری با حضور عمیق و فریبنده است. ترکیبی استثنایی از رایحه غنی چرم، گل رز اصیل ترکی و ادویه‌ها که به آن شخصیتی فراموش‌نشدنی می‌بخشد.» -باسمنی.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Heretic-Parfum/Nosferatu-99008.html",
+    "extractedAt": "2026-11-24T02:07:40.468Z",
+    "name": "Nosferatu",
+    "brand": "Heretic Parfum",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Douglas Little",
+    "topNotes": [
+      "Lilac",
+      "Ambrette"
+    ],
+    "middleNotes": [
+      "Petrichor",
+      "Violet",
+      "Iris",
+      "Nagarmotha"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Oud",
+      "Labdanum"
+    ],
+    "description": "Nosferatu by Heretic Parfum, released in 2024, is a unisex fragrance that belongs to the woody and floral families. This composition, crafted by perfumer Douglas Little, features ambrette and lilac as the top notes, with heart notes of nagarmotha, violet, iris, and petrichor, and a base of labdanum, grey amber, and oud.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99008.jpg",
+    "rating": 4.01,
+    "ratingVotes": 2210,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 58
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 99008,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nosferatu",
+    "brandFa": "Heretic Parfum",
+    "nameFa": "Nosferatu",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Douglas Little",
+    "topNotesFa": [
+      "گل یاس",
+      "دانه ابرکفش"
+    ],
+    "middleNotesFa": [
+      "Petrichor",
+      "بنفشه",
+      "زنبق",
+      "ناگارموته"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "عود",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Nosferatu از برند Heretic Parfum که در سال 2024 عرضه شد، یک عطر یونیسکس است که به خانواده‌های رایحه‌های چوبی و گلی تعلق دارد. این ترکیب که توسط عطر‌ساز داگلاس لیتل ساخته شده است، دارای نت‌های اولیه آمبرت و یاس بنفش، نت‌های میانی ناگارموتا، بنفشه، زنبق و پتریکور و نت‌های پایه لادن، عنبر خاکستری و عود است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hugo-Boss/Bottled-Absolu-96246.html",
+    "extractedAt": "2026-11-24T02:07:46.722Z",
+    "name": "Bottled Absolu",
+    "brand": "Hugo Boss",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "Annick Menardo and Suzy Le Helley",
+    "topNotes": [
+      "Incense",
+      "Leather"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Myrrh"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Davana"
+    ],
+    "description": "BOSS Bottled Absolu is a bold Eau de Parfum featuring an irresistible roasted signature. This woody-leathery scent is crafted by Annick Menardo in collaboration with Suzy Le Helley. It opens with a textured Leather accord harmonized with invigorating Incense essence. At the heart, Patchouli essence and Myrrh absolute elevate the scent, while warm Cedarwood and fruity Davana essences at the base leave a lasting trail.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96246.jpg",
+    "rating": 4.45,
+    "ratingVotes": 7511,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 60
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 56
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 49
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 96246,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "Bottled",
+    "brandFa": "هوگو باس",
+    "nameFa": "Bottled Absolu",
+    "concentrationFa": "ابسولو",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Annick Menardo and Suzy Le Helley",
+    "topNotesFa": [
+      "عود بخور",
+      "چرم"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "مور"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "Davana"
+    ],
+    "descriptionFa": "BOSS Bottled Absolu یک ادو پرفیوم جسورانه با رایحه خاص و وسوسه‌انگیز برشته است. این عطر چوبی-چرمی توسط آنیک مناردو با همکاری سوزی لِ هلی ساخته شده است. این عطر با ترکیبی از رایحه چرم بافت‌دار که با عصاره بخور نشاط‌آور هماهنگ شده است، آغاز می‌شود. در نت میانی، عصاره نعناع هندی و عصاره خالص مر (کندر) رایحه را ارتقا می‌دهند، در حالی که عصاره‌های گرم چوب سدر و عصاره میوه‌ای داوانا در نت پایه، اثری ماندگار از خود به‌جای می‌گذارند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Pacific-Aura-109709.html",
+    "extractedAt": "2026-11-24T02:07:51.750Z",
+    "name": "Pacific Aura",
+    "brand": "Rayhaan",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin",
+      "Mint",
+      "Citron",
+      "Bergamot",
+      "Black Currant",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "Basil",
+      "Carrot",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Fig",
+      "Ambroxan",
+      "Amber"
+    ],
+    "description": "Rayhaan Pacific Aura is a citrus aquatic fragrance designed for men, positioned within the brand's Pacific line. It opens with a citrus blend of citron, mandarin, mint, and bergamot, accented by black currant and coriander. The heart introduces aromatic and floral elements through basil, rose, and carrot seed, while the base settles into warmth with amber, fig, and ambroxan. The composition aims to evoke ocean breezes and sunlit coastal environments through its fresh, aquatic character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109709.jpg",
+    "rating": 4.27,
+    "ratingVotes": 2218,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 22
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 16
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 109709,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pacific Aura",
+    "brandFa": "Rayhaan",
+    "nameFa": "Pacific Aura",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Mandarin",
+      "نعناع",
+      "Citron",
+      "برگاموت",
+      "توت سیاه",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "ریحان",
+      "هویج",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "انجیر",
+      "آمبروکسان",
+      "کهربا"
+    ],
+    "descriptionFa": "Rayhaan Pacific Aura یک عطر مرکباتی دریایی است که برای آقایان طراحی شده و در خط تولید Pacific این برند قرار دارد. این عطر با ترکیبی مرکباتی از ترنج، نارنگی، نعناع و ترنج آغاز می‌شود که با رایحه انگور فرنگی سیاه و گشنیز برجسته می‌شود. نت میانی با رایحه‌های معطر و گل‌دار ریحان، گل رز و دانه هویج آغاز می‌شود، در حالی که نت پایه با عطر گرم کهربا، انجیر و آمبروکسان تثبیت می‌شود. هدف این ترکیب، تداعی نسیم اقیانوس و محیط ساحلی آفتاب‌گیر است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Viktor-Rolf/Spicebomb-13857.html",
+    "extractedAt": "2026-11-24T02:07:57.441Z",
+    "name": "Spicebomb",
+    "brand": "Viktor&Rolf",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2012,
+    "perfumer": "Olivier Polge",
+    "topNotes": [
+      "Pink Pepper",
+      "elemi",
+      "Bergamot",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Paprika",
+      "Saffron"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Leather",
+      "Vetiver"
+    ],
+    "description": "Viktor & Rolf present the male equivalent of the famous Flowerbomb fragrance (2005) and the second men's fragrance after Antidote (2006) under the name of Spicebomb. The designer duo wanted to give men the fragrance that is Flowerbomb to women, bearing in mind that spices are for masculine scents what flower notes are for feminine.</p> <p>Spicebomb comes out in January 2012 as an explosive and extrovert oriental - woody and spicy composition. Perfumer Olivier Polge blended spices with sensual undertones; creating two diametrically opposed fragrant accords: 1. the addictive and fiery one and 2. the explosive and icy one. The fiery accord contains notes of chili, saffron, leather, tobacco and vetiver. The explosive one includes bergamot, grapefruit, elemi and pink pepper.</p> <p>Fabien Baron designed the bottle so it looks like a hand grenade, which “triggers” with the designer’s logo. The face of the campaign is a model Sean O'Pry, photographed by Inez van Lamsweerde and Vinoodh Matadin.</p> <p>The fragrance is available as 50 and 90 ml Eau de Toilette with 200 ml shower gel and 100 ml after shave balm.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13857.jpg",
+    "rating": 4.31,
+    "ratingVotes": 14361,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 71
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 39
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 39
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 37
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 13857,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spicebomb",
+    "brandFa": "Viktor&Rolf",
+    "nameFa": "Spicebomb",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Polge",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "elemi",
+      "برگاموت",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "Paprika",
+      "زعفران"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "چرم",
+      "وتیور"
+    ],
+    "descriptionFa": "ویکتور و رولف معادل مردانه عطر معروف Flowerbomb (2005) و دومین عطر مردانه پس از Antidote (2006) را با نام Spicebomb عرضه می‌کنند. این دو طراح می‌خواستند عطری را به مردان عرضه کنند که معادل Flowerbomb برای زنان باشد، با این در نظر که ادویه‌ها برای عطرهای مردانه همان نقشی را دارند که رایحه‌های گل برای عطرهای زنانه دارند.</p> <p>Spicebomb در ژانویه 2012 به عنوان یک ترکیب شرقی - چوبی و تند انفجاری و برون‌گرا عرضه شد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Coach/Coach-Cherry-122669.html",
+    "extractedAt": "2026-11-24T02:08:02.484Z",
+    "name": "Coach Cherry",
+    "brand": "Coach",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Natalie Gracia-Cetto and Nadège Le Garlantezec",
+    "topNotes": [
+      "Cherry",
+      "Pink Pepper",
+      "Italian Mandarin"
+    ],
+    "middleNotes": [
+      "Jasmine Sambac",
+      "Magnolia",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Tonka",
+      "Ambrofix™",
+      "Patchouli",
+      "Verbena"
+    ],
+    "description": "Coach Cherry by Coach is described as a fruity floral fragrance for women, inspired by the lively atmosphere of New York City and the idea of inner confidence. The composition focuses on a vivid cherry accord, supported by the floral nuance of jasmine sambac and the deeper, earthy tones of patchouli. </p> <p>Available in Parfum concentration.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122669.jpg",
+    "rating": 3.95,
+    "ratingVotes": 248,
+    "accords": [
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 84
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 65
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 31
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 122669,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coach Cherry",
+    "brandFa": "Coach",
+    "nameFa": "Coach Cherry",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Natalie Gracia-Cetto and Nadège Le Garlantezec",
+    "topNotesFa": [
+      "گیلاس",
+      "فلفل صورتی",
+      "Italian Mandarin"
+    ],
+    "middleNotesFa": [
+      "Jasmine Sambac",
+      "ماگنولیا",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Tonka",
+      "Ambrofix™",
+      "پچولی",
+      "Verbena"
+    ],
+    "descriptionFa": "Coach Cherry از برند Coach به عنوان یک عطر میوه‌ای-گل‌دار زنانه توصیف می‌شود که از فضای پرنشاط شهر نیویورک و مفهوم اعتماد به نفس درونی الهام گرفته است. این ترکیب بر یک آکورد گیلاس پررنگ متمرکز است که توسط ظرافت گل‌مانند یاس سامباک و رایحه‌های عمیق‌تر و خاکی نعناع هندی تقویت می‌شود. </p> <p>در غلظت عطر موجود است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tokyo-Milk-Parfumerie-Curiosite/Kabuki-4703.html",
+    "extractedAt": "2026-11-24T02:08:08.497Z",
+    "name": "Kabuki",
+    "brand": "Tokyo Milk Parfumerie Curiosite",
+    "family": "Floral Fruity",
+    "gender": "women and men. The nose behind this fragrance is Margot Elena. The fragrance features Sugar, Litchi, Grapefruit and Jasmine",
+    "perfumer": "Margot Elena",
+    "description": "Composition of Kabuki includes notes of sugared grapefruit, litchi and sweet jasmine.</p> <p>Kabuki is traditional Japanese theater which was born in Kyoto in the beginning of the 17th ct. All roles were played by women in the beginning, but they were not allowed to take part in spectacles later, since behaviour of men towards women became immoral. Art of dance and song, sometimes translated as Kabuki, became exclusively men\\'s craft.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4703.jpg",
+    "rating": 3.98,
+    "ratingVotes": 324,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 54
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 4703,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kabuki",
+    "brandFa": "Tokyo Milk Parfumerie Curiosite",
+    "nameFa": "Kabuki",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. The nose behind this fragrance is Margot Elena. The fragrance features Sugar, Litchi, Grapefruit and Jasmine",
+    "perfumerFa": "Margot Elena",
+    "descriptionFa": "ترکیبات Kabuki شامل رایحه‌های گریپ‌فروت شیرین، لیچی و یاس شیرین است.</p> <p>کابوکی تئاتر سنتی ژاپنی است که در اوایل قرن هفدهم در کیوتو متولد شد. در ابتدا تمام نقش‌ها را زنان بازی می‌کردند، اما بعداً به آنها اجازه داده نشد که در نمایش‌ها شرکت کنند، زیرا رفتار مردان با زنان غیر اخلاقی شده بود. هنر رقص و آواز، که گاهی اوقات کابوکی ترجمه می‌شود، منحصراً به هنر مردان تبدیل شد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Heretic-Parfum/Rhubarb-Thief-128014.html",
+    "extractedAt": "2026-11-24T02:08:14.217Z",
+    "name": "Rhubarb Thief",
+    "brand": "Heretic Parfum",
+    "family": "Aromatic Green",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit Peel",
+      "Verbena",
+      "Cedar",
+      "Thyme",
+      "Angelica",
+      "Carrot"
+    ],
+    "middleNotes": [
+      "Rhubarb",
+      "Pink Jasmine",
+      "Cypress"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "elemi"
+    ],
+    "description": "Rhubarb Thief by Heretic is a green, tart composition built around the contrast of sharp fruits, aromatic herbs, and woody-mossy undertones. Bright grapefruit peel, cedar, angelica, thyme, verbena, and carrot seed open the fragrance with a vivid, slightly bitter and herbal freshness. The heart centers on rhubarb, supported by pink jasmine and cypress for a nuanced floral-green character. In the base, elemi resin and oakmoss add a lightly resinous, earthy depth that grounds the livelier top and heart notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.128014.jpg",
+    "rating": 4.01,
+    "ratingVotes": 172,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 54
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 35
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 128014,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rhubarb Thief",
+    "brandFa": "Heretic Parfum",
+    "nameFa": "Rhubarb Thief",
+    "familyFa": "Aromatic Green",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Grapefruit Peel",
+      "Verbena",
+      "سرو",
+      "پونه‌سان",
+      "Angelica",
+      "هویج"
+    ],
+    "middleNotesFa": [
+      "Rhubarb",
+      "Pink Jasmine",
+      "سرو کوهی"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "elemi"
+    ],
+    "descriptionFa": "Rhubarb Thief از برند Heretic ترکیبی سبز و ترش است که بر اساس تضاد میوه‌های تند، گیاهان معطر و زیرلایه‌های چوبی-خزه‌ای ساخته شده است. پوست گریپ‌فروت روشن، سرو، آنجلیکا، آویشن، وربنا و دانه هویج، رایحه را با طراوتی پررنگ، کمی تلخ و گیاهی آغاز می‌کنند. نت میانی بر محور ریواس قرار دارد که یاس صورتی و سرو از آن پشتیبانی می‌کنند تا شخصیتی گل‌فام-سبز ظریف ایجاد کنند. در رایحه پایه، صمغ المی و خزه بلوط رایحه‌ای کمی صمغی اضافه می‌کنند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Navitus-Parfums/Reverie-Rouge-105730.html",
+    "extractedAt": "2026-11-24T02:08:20.580Z",
+    "name": "Reverie Rouge",
+    "brand": "Navitus Parfums",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Christian Provenzano",
+    "topNotes": [
+      "Wild Strawberry",
+      "Cherry",
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Almond",
+      "Turkish Rose",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "White Woods",
+      "Musk",
+      "Vanilla",
+      "Sandalwood",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105730.jpg",
+    "rating": 3.71,
+    "ratingVotes": 68,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 83
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 56
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 105730,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Reverie Rouge",
+    "brandFa": "Navitus Parfums",
+    "nameFa": "Reverie Rouge",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Christian Provenzano",
+    "topNotesFa": [
+      "Wild Strawberry",
+      "گیلاس",
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "بادام",
+      "گل رز ترکی",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "White Woods",
+      "موش",
+      "وانیل",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sora-Dora/Raphael-133395.html",
+    "extractedAt": "2026-11-24T02:08:24.500Z",
+    "name": "Raphael",
+    "brand": "Sora Dora",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Margaux Le Paih Guérin",
+    "topNotes": [
+      "Rhubarb",
+      "Pink Pepper",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Violet",
+      "Honeysuckle",
+      "Magnolia",
+      "Nutmeg"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambroxan",
+      "Cashmeran",
+      "Vanilla",
+      "Atlas Cedar",
+      "Virginia Cedar",
+      "Haitian Vetiver",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133395.jpg",
+    "rating": 4.24,
+    "ratingVotes": 281,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 96
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 57
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 57
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 50
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 36
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 133395,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Raphael",
+    "brandFa": "Sora Dora",
+    "nameFa": "Raphael",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Margaux Le Paih Guérin",
+    "topNotesFa": [
+      "Rhubarb",
+      "فلفل صورتی",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "بنفشه",
+      "گل پامچال",
+      "ماگنولیا",
+      "جوز هندی"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "آمبروکسان",
+      "کشماران",
+      "وانیل",
+      "سرو اطلس",
+      "Virginia Cedar",
+      "Haitian Vetiver",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Vantage-143352.html",
+    "extractedAt": "2026-11-24T02:08:27.845Z",
+    "name": "Vantage",
+    "brand": "Rayhaan",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Cardamom",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Myrrh",
+      "Juniper Berries"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Patchouli"
+    ],
+    "description": "Vantage by Rayhaan is a woody spicy fragrance opening with cardamom, bergamot and pink pepper, followed by frankincense, myrrh and juniper berries over a base of cedarwood and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143352.jpg",
+    "rating": 4.17,
+    "ratingVotes": 633,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 80
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 69
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 31
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 28
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 143352,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vantage",
+    "brandFa": "Rayhaan",
+    "nameFa": "Vantage",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "هل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "مور",
+      "زغالک عرعر"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "Vantage از برند Rayhaan یک عطر چوبی تند است که با رایحه هل، ترنج و فلفل صورتی آغاز می‌شود و سپس رایحه کندر، مر (صمغ درخت مر) و دانه‌های عرعر بر پایه رایحه چوب سدر و نعناع هندی ادامه می‌یابد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Commodity/Milk-69191.html",
+    "extractedAt": "2026-11-24T02:08:33.562Z",
+    "name": "Milk",
+    "brand": "Commodity",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Christelle Laprade",
+    "topNotes": [
+      "Milk"
+    ],
+    "middleNotes": [
+      "Marshmallow",
+      "Natural Musk"
+    ],
+    "baseNotes": [
+      "Mahogany",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69191.jpg",
+    "rating": 3.89,
+    "ratingVotes": 4634,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 59
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 57
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 69191,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Milk",
+    "brandFa": "Commodity",
+    "nameFa": "Milk",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christelle Laprade",
+    "topNotesFa": [
+      "شیر"
+    ],
+    "middleNotesFa": [
+      "مارشمالو",
+      "Natural Musk"
+    ],
+    "baseNotesFa": [
+      "Mahogany",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kylie-Cosmetics/Cosmic-Kylie-Jenner-Intense-122462.html",
+    "extractedAt": "2026-11-24T02:08:38.102Z",
+    "name": "Cosmic Kylie Jenner Intense",
+    "brand": "Kylie Cosmetics",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Star Jasmine",
+      "Blood Orange"
+    ],
+    "middleNotes": [
+      "Amber",
+      "Benzoin"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Cosmic Kylie Jenner Intense by Kylie Cosmetics is a women's fragrance released in January 2026. According to the brand, it builds on the original Cosmic perfume, featuring a warmer, creamier profile.</p> <p>The scent highlights a blend of citrus, floral, and ambery tones supported by soft musk and vanilla. The composition opens with bright blood orange and heady star jasmine, leading into a heart of amber and benzoin, adding a resinous, balsamic warmth. In the base, vanilla and musk create a smooth, comforting finish that emphasizes the fragrance’s sweet-ambery character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122462.jpg",
+    "rating": 3.99,
+    "ratingVotes": 647,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 80
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 28
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 24
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 122462,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Cosmic Kylie Jenner",
+    "brandFa": "Kylie Cosmetics",
+    "nameFa": "Cosmic Kylie Jenner Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Star Jasmine",
+      "پرتقال خونی"
+    ],
+    "middleNotesFa": [
+      "کهربا",
+      "بنزوئین"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "Cosmic Kylie Jenner Intense از برند Kylie Cosmetics یک عطر زنانه است که در ژانویه ۲۰۲۶ عرضه شد. به گفته این برند، این عطر بر اساس عطر اصلی Cosmic ساخته شده و دارای رایحه‌ای گرم‌تر و ملایم‌تر است.</p> <p>این رایحه ترکیبی از نت‌های مرکباتی، گل‌فام و کهربایی را برجسته می‌کند که با مشک ملایم و وانیل تقویت شده است. این ترکیب با رایحه پرتقال خونی درخشان و یاس ستاره‌ای مست‌کننده آغاز می‌شود و به قلب عطر با رایحه کهربا و بنزوئین می‌رسد که رایحه‌ای رزینی و بالزامیک به آن می‌افزاید.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Abel/Double-Scoop-136239.html",
+    "extractedAt": "2026-11-24T02:08:44.449Z",
+    "name": "Double Scoop",
+    "brand": "Abel",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Isaac Sinclair",
+    "topNotes": [
+      "Black Sesame",
+      "Rosemary"
+    ],
+    "middleNotes": [
+      "Butterscotch"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Double Scoop by Abel is a fragrance centered on a contrast between aromatic rosemary and toasted black sesame, followed by a butterscotch heart and a base of vanilla and musk. The composition suggests a gourmand-leaning profile with herbal, nutty, and soft musky facets.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136239.jpg",
+    "rating": 3.71,
+    "ratingVotes": 99,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 96
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 55
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 37
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 24
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 136239,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Double Scoop",
+    "brandFa": "Abel",
+    "nameFa": "Double Scoop",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Isaac Sinclair",
+    "topNotesFa": [
+      "Black Sesame",
+      "رزماری"
+    ],
+    "middleNotesFa": [
+      "باتراسکاچ"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "Double Scoop از برند Abel عطری است که بر تضاد بین رزماری معطر و کنجد سیاه برشته متمرکز است، سپس رایحه میانی باترسکاچ و رایحه پایه وانیل و مشک را ارائه می‌دهد. این ترکیب حاکی از یک پروفایل با گرایش به رایحه‌های خوراکی با جنبه‌های گیاهی، مغزدار و مشک ملایم است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Une-Nuit-Nomade/Estrella-de-la-Manana-98059.html",
+    "extractedAt": "2026-11-24T02:08:49.978Z",
+    "name": "Estrella de la Manana",
+    "brand": "Une Nuit Nomade",
+    "family": "Oriental Woody",
+    "gender": "women and men. This is a new fragrance. <b>Estrella de la Manana</b> was launched in 2024. The nose behind this fragrance is Jérôme Di Marino. The fragrance features Cocoa, Birch, Benzoin and Vanilla",
+    "year": 2024,
+    "perfumer": "Jérôme Di Marino",
+    "description": "Estrella de la Manana by Une Nuit Nomade is a new fragrance for both women and men, released in 2024. It is part of the 'Collection Legends' and offers a unique blend of benzoin, birch, cocoa, and vanilla notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98059.jpg",
+    "rating": 3.77,
+    "ratingVotes": 586,
+    "accords": [
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 91
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 90
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 72
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 98059,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Estrella de la Manana",
+    "brandFa": "Une Nuit Nomade",
+    "nameFa": "Estrella de la Manana",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>Estrella de la Manana</b> was launched in 2024. The nose behind this fragrance is Jérôme Di Marino. The fragrance features Cocoa, Birch, Benzoin and Vanilla",
+    "perfumerFa": "Jérôme Di Marino",
+    "descriptionFa": "Estrella de la Manana از برند Une Nuit Nomade یک عطر جدید برای زنان و مردان است که در سال 2024 عرضه شده است. این عطر بخشی از «مجموعه افسانه‌ها» است و ترکیبی منحصربه‌فرد از رایحه‌های بنزوئین، درخت توس، کاکائو و وانیل را ارائه می‌دهد.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
