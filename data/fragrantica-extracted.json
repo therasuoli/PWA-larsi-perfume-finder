@@ -36885,5 +36885,1640 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Born-in-Dubai-148647.html",
+    "extractedAt": "2026-11-24T11:48:16.313Z",
+    "name": "Hawas Born in Dubai",
+    "brand": "Rasasi",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Cardamom",
+      "Mate"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Osmanthus",
+      "Plum"
+    ],
+    "baseNotes": [
+      "Honey",
+      "Sandalwood",
+      "Tobacco",
+      "Vanilla"
+    ],
+    "description": "Hawas Born in Dubai by Rasasi is a fragrance launched in 2026. It opens with bergamot, cardamom and mate, followed by jasmine, osmanthus and plum, over a base of honey, sandalwood, tobacco and vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148647.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 89
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 82
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 79
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 53
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 148647,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Born in Dubai",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Born in Dubai",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "برگاموت",
+      "هل",
+      "گل ماته"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "اسمانتوس",
+      "آلو"
+    ],
+    "baseNotesFa": [
+      "عسل",
+      "چوب صندل",
+      "تنباکو",
+      "وانیل"
+    ],
+    "descriptionFa": "Hawas Born in Dubai از برند Rasasi عطری است که در سال 2026 عرضه شد. این عطر با رایحه‌های ترنج، هل و ماته آغاز می‌شود، سپس رایحه‌های یاس، اوسمانتوس و آلو به مشام می‌رسند و در نهایت رایحه‌های پایه عسل، چوب صندل، تنباکو و وانیل حس می‌شوند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Saraya-148646.html",
+    "extractedAt": "2026-11-24T11:48:22.547Z",
+    "name": "Saraya",
+    "brand": "Khadlaj Perfumes",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Basil",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Georgywood",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Mineral notes",
+      "Amber",
+      "Haitian Vetiver",
+      "Patchouli"
+    ],
+    "description": "Saraya by Khadlaj Perfumes is a woody aromatic fragrance launched in 2026. It opens with Thai basil and pink pepper, followed by Georgywood and clary sage, over a base of mineral notes, amber, Haitian vetiver and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148646.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 57
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 43
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 43
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 148646,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Saraya",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Saraya",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "ریحان",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Georgywood",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "Mineral notes",
+      "کهربا",
+      "Haitian Vetiver",
+      "پچولی"
+    ],
+    "descriptionFa": "Saraya از برند Khadlaj Perfumes یک عطر آروماتیک چوبی است که در سال 2026 عرضه شد. این عطر با رایحه ریحان تایلندی و فلفل صورتی آغاز می‌شود، سپس رایحه جورجی‌وود و مریم‌گلی دنبال می‌شود و در نهایت بر پایه رایحه‌های معدنی، عنبر، خس‌خس هائیتی و نعناع هندی قرار می‌گیرد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Aruba-148645.html",
+    "extractedAt": "2026-11-24T11:48:29.679Z",
+    "name": "Aruba",
+    "brand": "Khadlaj Perfumes",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin Orange",
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Aruba by Khadlaj Perfumes is an Oriental Floral fragrance launched in 2026. It opens with mandarin, pear and bergamot, followed by jasmine, rose and orange blossom over a base of amber, vanilla and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148645.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 78
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 39
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 148645,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aruba",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Aruba",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "نارنگی",
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Aruba از برند Khadlaj Perfumes یک عطر شرقی-گل‌فام است که در سال 2026 عرضه شد. این عطر با رایحه نارنگی، گلابی و ترنج آغاز می‌شود، سپس رایحه یاس، گل رز و شکوفه پرتقال بر روی پایه‌ای از عنبر، وانیل و چوب صندل قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Purple-Oud-48376.html",
+    "extractedAt": "2026-11-24T11:48:36.345Z",
+    "name": "Purple Oud",
+    "brand": "Dior",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Purple Oud</b> was launched in 2018. The nose behind this fragrance is François Demachy. The fragrance features Orange, Agarwood (Oud), Pink Pepper and Saffron",
+    "year": 2018,
+    "perfumer": "François Demachy",
+    "description": "\"Purple Oud expresses an Oriental dream as depicted in a vivid, warm painting. It's a sparkling oud that sees powerful wood combine with lively notes. Orange blends with fresh spices such as Pink Peppercorn and Saffron. This shimmering oud will seduce those who like the animal strength of this heady wood, albeit a polished, brightened version that plays out in the background.\" - FRANÇOIS DEMACHY, Dior Perfumer-Creator.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48376.jpg",
+    "rating": 4.09,
+    "ratingVotes": 843,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 94
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 71
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 48376,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Purple Oud",
+    "brandFa": "دیور",
+    "nameFa": "Purple Oud",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Purple Oud</b> was launched in 2018. The nose behind this fragrance is François Demachy. The fragrance features Orange, Agarwood (Oud), Pink Pepper and Saffron",
+    "perfumerFa": "François Demachy",
+    "descriptionFa": "«Purple Oud بیانگر رویایی شرقی است که در تابلویی پر جنب‌و‌جوش و گرم به تصویر کشیده شده است. این یک عود درخشان است که در آن چوب قدرتمند با رایحه‌های پرنشاط ترکیب می‌شود. رایحه پرتقال با ادویه‌های تازه مانند فلفل صورتی و زعفران ترکیب می‌شود. این عود درخشان کسانی را که عاشق قدرت حیوانی این چوب مست‌کننده هستند، مجذوب خود خواهد کرد، هرچند نسخه‌ای صیقلی و روشن‌تر از آن است که در پس‌زمینه خودنمایی می‌کند.» - فرانسوا دماشی، طراح-عطرساز دیور.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Epices-Exquises-96473.html",
+    "extractedAt": "2026-11-24T11:48:43.465Z",
+    "name": "Épices Exquises",
+    "brand": "Guerlain",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Thierry Wasser",
+    "topNotes": [
+      "Cardamom",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Black Pepper"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Oud",
+      "Patchouli"
+    ],
+    "description": "Épices Exquises is the evocation of an enchanting sensory journey. Inspired by the spicy aromas of cardamom-flavoured coffee, Thierry Wasser, Guerlain Master Perfumer, beautifully enhances the contrasts of precious spices in a fragrant chiaroscuro that awakens the senses. Cardamom reveals the exhilarating elegance of its fresh facets on contact with a warm, full-bodied and sensual base, tinged with black pepper and woody notes of oud, patchouli, and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96473.jpg",
+    "rating": 3.79,
+    "ratingVotes": 252,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 96473,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Épices Exquises",
+    "brandFa": "گرلن",
+    "nameFa": "Épices Exquises",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Thierry Wasser",
+    "topNotesFa": [
+      "هل",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "فلفل سیاه"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "عود",
+      "پچولی"
+    ],
+    "descriptionFa": "Épices Exquises تداعی‌کننده یک سفر حسی شگفت‌انگیز است. تیری واسر، استاد عطرساز Guerlain، که از رایحه‌های تند قهوه طعم‌دار شده با هل الهام گرفته است، تضادهای ادویه‌های گرانبها را در یک سایه‌روشن معطر که حواس را بیدار می‌کند، به زیبایی تقویت می‌کند. هل، با تماس با رایحه‌ای گرم، پرمایه و شهوانی که آغشته به فلفل سیاه و نت‌های چوبی عود، نعناع هندی،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sarah-Baker-Perfumes/Peach-s-Revenge-90749.html",
+    "extractedAt": "2026-11-24T11:48:50.532Z",
+    "name": "Peach's Revenge",
+    "brand": "Sarah Baker Perfumes",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men. <b>Peach's Revenge</b> was launched in 2024. The nose behind this fragrance is Chris Maurice. The fragrance features Peach, Nectarine, Guava, Vanilla, Caramel, Amaretto, Cinnamon, Ginger, Amber, Musk, Cardamom and Orris",
+    "year": 2024,
+    "perfumer": "Chris Maurice",
+    "description": "\"Beneath the shade of a peach orchard, a handsome villain struts out trumpeting an exuberance of juicy fruit—peach, guava, nectarine and prune. The creaminess of vanilla and caramel build mouthwatering anticipation like some salacious Peach Melba demanding to be eaten al fresco. Orris creates soft focus; a velvety fuzz under Renaissance skies.</p> <p>But the plot soon thickens. Childish naivete gives way to adult sensuality underscored by sensual musks heated by the scorching afternoon sun. Spices emerge—cardamom, ginger, cinnamon. Bark threatens to turn into wood; these amber daggers are hard.</p> <p>With one sip of amaretto, you’re reminded that even a sweet peach’s stone can be poisonous. When danger threatens, you’ve got to be Machiavellian. Peach’s Revenge is a dish best spritzed cold, but not without the warmth of body heat.\"</p> <p>Notes : peach, guava, nectarine, amaretto, orris, cardamom, ginger, cinnamon, bark, amber, vanilla, caramel, musks.</p> <p>Available in 50ml Extrait de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90749.jpg",
+    "rating": 3.69,
+    "ratingVotes": 723,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 29
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 90749,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Peach's Revenge",
+    "brandFa": "Sarah Baker Perfumes",
+    "nameFa": "Peach's Revenge",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women and men. <b>Peach's Revenge</b> was launched in 2024. The nose behind this fragrance is Chris Maurice. The fragrance features Peach, Nectarine, Guava, Vanilla, Caramel, Amaretto, Cinnamon, Ginger, Amber, Musk, Cardamom and Orris",
+    "perfumerFa": "Chris Maurice",
+    "descriptionFa": "«در سایه یک باغ هلو، یک شرور خوش‌تیپ با غرور از راه می‌رسد و فراوانی میوه‌های آبدار - هلو، گواوا، شلیل و آلو - را به رخ می‌کشد. طعم خامه مانند وانیل و کارامل، مانند یک دسر هلو ملبا تحریک‌آمیز که باید در فضای باز خورده شود، اشتیاقی دلچسب ایجاد می‌کند. زنبق سفید تمرکز ملایمی ایجاد می‌کند؛ پرزی مخملی زیر آسمان‌های رنسانس.</p> <p>اما داستان خیلی زود پیچیده می‌شود. سادگی کودکانه جای خود را به شهوت‌گرایی بزرگسالانه می‌دهد که با شهوت‌گرایی تأکید می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/Exit-The-King-62701.html",
+    "extractedAt": "2026-11-24T11:48:56.782Z",
+    "name": "Exit The King",
+    "brand": "Etat Libre d'Orange",
+    "family": "Chypre Floral",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": "Cecile Matton and Ralf Schwieger",
+    "topNotes": [
+      "Soap",
+      "Aldehydes",
+      "Musk",
+      "Pink Pepper",
+      "Timur"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Jasmine",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Moss",
+      "Patchouli",
+      "Ambroxan",
+      "Sandalwood"
+    ],
+    "description": "\"A fragrance inspired by the fall of power. Because nothing can rule us. Exit the King tells a story of leaving a world full of old norms for a new world. A world full of freedom and discovery. A well-balanced mix of flowers, foam and moss with resolute chypre for those who long for change.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62701.jpg",
+    "rating": 3.75,
+    "ratingVotes": 2666,
+    "accords": [
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 67
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 65
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 62
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 60
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 62701,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Exit The King",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "Exit The King",
+    "familyFa": "شیپر گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Cecile Matton and Ralf Schwieger",
+    "topNotesFa": [
+      "Soap",
+      "آلدهیدها",
+      "موش",
+      "فلفل صورتی",
+      "Timur"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "یاسمن",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "خزه",
+      "پچولی",
+      "آمبروکسان",
+      "چوب صندل"
+    ],
+    "descriptionFa": "«عطری که از سقوط قدرت الهام گرفته شده است. چون هیچ‌چیز نمی‌تواند بر ما حکومت کند. «خروج پادشاه» داستان ترک دنیایی پر از هنجارهای قدیمی برای ورود به دنیایی جدید را روایت می‌کند. جهانی سرشار از آزادی و اکتشاف. ترکیبی متعادل از گل‌ها، فوم و خزه با رایحه قاطع چیپر برای کسانی که مشتاق تغییر هستند.» - یادداشتی از برند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Sequence-121884.html",
+    "extractedAt": "2026-11-24T11:49:01.899Z",
+    "name": "Sequence",
+    "brand": "Amouage",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Julien Rasquinet",
+    "topNotes": [
+      "Raspberry",
+      "Lychee",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Osmanthus",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Oud",
+      "Amberwood"
+    ],
+    "description": "Sequence by Amouage is a woody fruity floral extrait from The Essences collection, created by perfumer Julien Rasquinet and released in 2026. With a high concentration of 30% pure perfume, it presents a structured composition that moves from bright fruit to florals and darker woods. The fragrance opens with a juicy and slightly tart blend of lychee and raspberry, nuanced by the warm, spicy impression of saffron. In the heart, rose and osmanthus introduce a floral core with both velvety and apricot-like facets, supported by the creamy depth of tonka bean. The base features oud, leather and ambery woods, giving the perfume a dense, resinous and slightly smoky foundation that contrasts with the luminosity of the opening.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121884.jpg",
+    "rating": 3.97,
+    "ratingVotes": 551,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 79
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 47
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 43
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 38
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 121884,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sequence",
+    "brandFa": "آموژ",
+    "nameFa": "Sequence",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Julien Rasquinet",
+    "topNotesFa": [
+      "تمشک",
+      "لیچی",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "اسمانتوس",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "عود",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "Sequence از برند Amouage یک عصاره گل‌دار میوه‌ای چوبی از مجموعه The Essences است که توسط عطر‌ساز ژولین راسکینت ساخته شده و در سال 2026 عرضه می‌شود. این عطر با غلظت بالای 30% عطر خالص، ترکیبی ساختاریافته را ارائه می‌دهد که از رایحه‌های میوه‌ای روشن به رایحه‌های گل‌دار و چوب‌های تیره‌تر تغییر می‌کند. این عطر با ترکیبی آبدار و کمی ترش از لیچی و تمشک آغاز می‌شود که با حس گرم و تند زعفران تعدیل می‌شود. در نت میانی، گل رز و اوسمانتوس",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Francesca-Bianchi/Under-My-Skin-46650.html",
+    "extractedAt": "2026-11-24T11:49:08.449Z",
+    "name": "Under My Skin",
+    "brand": "Francesca Bianchi",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Francesca Bianchi",
+    "topNotes": [
+      "Spicy Notes",
+      "Black Pepper",
+      "Lavender",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Orris Root",
+      "Carnation",
+      "Bulgarian Rose"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Castoreum",
+      "Peru Balsam",
+      "Tolu Balsam",
+      "Ambergris",
+      "Musk",
+      "Sandalwood",
+      "Vanilla",
+      "Costus",
+      "Tonka Bean",
+      "Oakmoss"
+    ],
+    "description": "\"Under My Skin is my interpretation of the animalic theme. I started working on it around 2 years ago. I was charmed by strong animalic scents, and I tried to do my own; but I had to realize that what I like in other’s creations is not necessarily what I like to create myself. So after adding materials going into the heavy or sweet or stable-like animalic theme, I had to eliminate them little by little, and arrive to this solution which suits me the best: a leathery, slightly animalic, powdery one, a velvety and elegant take. It goes along with my personality and my style and when I finally realized that this was my way, I was finally happy and relieved. The name comes from a conversation with an artist and fragrance lover, who told me it was as if the scent emanates from skin, rather than being sprayed from outside. This concept of ‘Under My Skin’ reinforced my path of going into something more subtly ’human’ than overtly ‘animal’. The core of the scent is a combination of animalic and leathery notes tamed<br /> by iris butter (at 15% irone!). After working on this core, I worked on the base, made up by Tolu Balsam, Peru Balsam, Tonka Bean and several woods. Last step of the job was the opening, where I used grapefruit and lavender. I used to be a ‘Lavender hater’: but here it plays a subtle and elegant part. I was amazed how nicely it matched this scent, adding brightness and elegance.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46650.jpg",
+    "rating": 4.05,
+    "ratingVotes": 1867,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 90
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 89
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 82
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 65
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 60
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 46650,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Under My Skin",
+    "brandFa": "Francesca Bianchi",
+    "nameFa": "Under My Skin",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Francesca Bianchi",
+    "topNotesFa": [
+      "Spicy Notes",
+      "فلفل سیاه",
+      "اسطوخودوس",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "میخک",
+      "گل رز بلغاری"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "کاستوریوم",
+      "بلسام پرو",
+      "بلسام تولو",
+      "کهربا خاکستری",
+      "موش",
+      "چوب صندل",
+      "وانیل",
+      "Costus",
+      "لوبیا تونکا",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "«Under My Skin تفسیر من از موضوع حیوانی است. حدود 2 سال پیش کار روی آن را شروع کردم. من شیفته رایحه‌های قوی حیوانی بودم و سعی کردم رایحه خودم را بسازم؛ اما متوجه شدم که آنچه در آثار دیگران دوست دارم، لزوماً همان چیزی نیست که دوست دارم خودم خلق کنم. بنابراین، پس از افزودن مواد تشکیل‌دهنده که به سمت تم حیوانی سنگین یا شیرین یا شبیه به اصطبل می‌رفتند، مجبور شدم کم‌کم آنها را حذف کنم و به این نتیجه برسم که این راهکار برای من مناسب است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Body-Shop/White-Musk-Perfume-Oil-68477.html",
+    "extractedAt": "2026-11-24T11:49:14.039Z",
+    "name": "White Musk Perfume Oil",
+    "brand": "The Body Shop",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 1981,
+    "perfumer": null,
+    "topNotes": [
+      "Musk",
+      "Lily",
+      "Ylang-Ylang",
+      "Galbanum"
+    ],
+    "middleNotes": [
+      "Musk",
+      "Rose",
+      "Lily",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Rose",
+      "Peach",
+      "Iris",
+      "Jasmine",
+      "Vetiver",
+      "Patchouli",
+      "Vanilla",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68477.jpg",
+    "rating": 4.37,
+    "ratingVotes": 147,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 74
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 53
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 29
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 28
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 68477,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White Musk Perfume Oil",
+    "brandFa": "The Body Shop",
+    "nameFa": "White Musk Perfume Oil",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "موش",
+      "لاله",
+      "ایلنگ‌ایلنگ",
+      "گلبانوم"
+    ],
+    "middleNotesFa": [
+      "موش",
+      "گل رز",
+      "لاله",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "گل رز",
+      "هلو",
+      "زنبق",
+      "یاسمن",
+      "وتیور",
+      "پچولی",
+      "وانیل",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sorce/Clairsentient-132597.html",
+    "extractedAt": "2026-11-24T11:49:17.719Z",
+    "name": "Clairsentient",
+    "brand": "Sorce",
+    "family": null,
+    "gender": "women and men. The nose behind this fragrance is Caitlin Hayes. The fragrance features Blackberry, Raspberry, Spun Sugar, Juniper Berries, Iso E Super, Bergamot and Vanilla",
+    "perfumer": "Caitlin Hayes",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132597.jpg",
+    "rating": 4.09,
+    "ratingVotes": 47,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 79
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 25
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 24
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 132597,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Clairsentient",
+    "brandFa": "Sorce",
+    "nameFa": "Clairsentient",
+    "genderFa": "women and men. The nose behind this fragrance is Caitlin Hayes. The fragrance features Blackberry, Raspberry, Spun Sugar, Juniper Berries, Iso E Super, Bergamot and Vanilla",
+    "perfumerFa": "Caitlin Hayes",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bujairami/Fairy-Dust-124711.html",
+    "extractedAt": "2026-11-24T11:49:21.029Z",
+    "name": "Fairy Dust",
+    "brand": "Bujairami",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Adam Bujairami",
+    "topNotes": [
+      "Bourbon Vanilla",
+      "Mate",
+      "Mango",
+      "Coconut Water"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Vanilla",
+      "Brown sugar",
+      "Matcha Tea",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Peru Balsam",
+      "Vanilla",
+      "White Musk",
+      "Sandalwood",
+      "Tonka"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124711.jpg",
+    "rating": 3.75,
+    "ratingVotes": 114,
+    "accords": [
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 76
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 54
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 124711,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fairy Dust",
+    "brandFa": "Bujairami",
+    "nameFa": "Fairy Dust",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Adam Bujairami",
+    "topNotesFa": [
+      "وانیل بوربن",
+      "گل ماته",
+      "مانگو",
+      "Coconut Water"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "وانیل",
+      "Brown sugar",
+      "Matcha Tea",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "بلسام پرو",
+      "وانیل",
+      "موش سفید",
+      "چوب صندل",
+      "Tonka"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bujairami/Afterglow-140313.html",
+    "extractedAt": "2026-11-24T11:49:25.511Z",
+    "name": "Afterglow",
+    "brand": "Bujairami",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Adam Bujairami",
+    "topNotes": [
+      "Mystikal",
+      "Ambrette",
+      "Milk"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Mahonial",
+      "Jasmine",
+      "Incense"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Cocoa",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.140313.jpg",
+    "rating": 3.33,
+    "ratingVotes": 3,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 94
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 78
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 67
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 56
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 140313,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Afterglow",
+    "brandFa": "Bujairami",
+    "nameFa": "Afterglow",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Adam Bujairami",
+    "topNotesFa": [
+      "Mystikal",
+      "دانه ابرکفش",
+      "شیر"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "Mahonial",
+      "یاسمن",
+      "عود بخور"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "وانیل",
+      "کاکائو",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Profumo-di-Firenze/Matelda-74615.html",
+    "extractedAt": "2026-11-24T11:49:30.133Z",
+    "name": "Matelda",
+    "brand": "Profumo di Firenze",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Peach Blossom",
+      "White Grapefruit"
+    ],
+    "middleNotes": [
+      "Chamomile",
+      "Violet",
+      "Peru Balsam",
+      "Benzoin"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74615.jpg",
+    "rating": 4.04,
+    "ratingVotes": 492,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 36
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 35
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 74615,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Matelda",
+    "brandFa": "Profumo di Firenze",
+    "nameFa": "Matelda",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Peach Blossom",
+      "White Grapefruit"
+    ],
+    "middleNotesFa": [
+      "بابونه",
+      "بنفشه",
+      "بلسام پرو",
+      "بنزوئین"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "موش",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Can-t-Get-Enough-114319.html",
+    "extractedAt": "2026-11-24T11:49:35.093Z",
+    "name": "Can't Get Enough",
+    "brand": "Initio Parfums Prives",
+    "family": "Woody Spicy",
+    "gender": "women and men. This is a new fragrance. <b>Can't Get Enough</b> was launched in 2025. The fragrance features Turkish Rose, Caramel, Vanilla, Hedione, Tonka Bean and Pink Pepper",
+    "year": 2025,
+    "description": "Can't Get Enough by Initio Parfums Privés is a part of The Hedonist Collection. The composition opens with a bright mix of citrus fruits and aldehydes, moves to a boozy heart centered on cognac with an icy accord, and settles into a warm base of cinnamon, amber, tonka bean, and oak. The overall development transitions from fresh and effervescent to ambery-woody warmth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114319.jpg",
+    "rating": 4.16,
+    "ratingVotes": 1173,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 95
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 69
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 66
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 114319,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Can't Get Enough",
+    "brandFa": "Initio Parfums Prives",
+    "nameFa": "Can't Get Enough",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "women and men. This is a new fragrance. <b>Can't Get Enough</b> was launched in 2025. The fragrance features Turkish Rose, Caramel, Vanilla, Hedione, Tonka Bean and Pink Pepper",
+    "descriptionFa": "Can't Get Enough از Initio Parfums Privés بخشی از مجموعه The Hedonist است. این ترکیب با ترکیبی درخشان از مرکبات و آلدئیدها آغاز می‌شود، به نت میانی الکلی متمرکز بر کنیاک با ترکیبی یخی می‌رسد و در نهایت در نت پایه‌ای گرم از دارچین، عنبر، دانه‌ی تونکا و بلوط تثبیت می‌شود. روند کلی عطر از رایحه‌ای تازه و درخشان به گرمای کهربایی-چوبی تغییر می‌کند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Alexandria-Fragrances/Cypress-Spring-47686.html",
+    "extractedAt": "2026-11-24T11:49:42.063Z",
+    "name": "Cypress Spring",
+    "brand": "Alexandria Fragrances",
+    "family": "Aromatic Fougere",
+    "gender": "women and men. <b>Cypress Spring</b> was launched in 2017. The nose behind this fragrance is Hany Hafez",
+    "year": 2017,
+    "perfumer": "Hany Hafez",
+    "description": "\"Cypress Spring is an inexplicable scent with a very green and earthy opening of cypress and lemon notes that transitions into a peppery geranium and cinnamon smell that lures the earthy smell, and of course a cozy patchouli base for a nostalgic feeling.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47686.jpg",
+    "rating": 4.09,
+    "ratingVotes": 23,
+    "fragranticaId": 47686,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cypress Spring",
+    "brandFa": "Alexandria Fragrances",
+    "nameFa": "Cypress Spring",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "women and men. <b>Cypress Spring</b> was launched in 2017. The nose behind this fragrance is Hany Hafez",
+    "perfumerFa": "Hany Hafez",
+    "descriptionFa": "«Cypress Spring یک رایحه غیرقابل توصیف است که با نت‌های سرو و لیمو با رایحه‌ای بسیار سبز و خاکی آغاز می‌شود و به رایحه فلفلی شمعدانی و دارچین تبدیل می‌شود که رایحه خاکی را جذب می‌کند و البته یک رایحه پایه دلپذیر نعناع هندی برای ایجاد احساس نوستالژیک.» - یادداشتی از برند."
   }
 ]
