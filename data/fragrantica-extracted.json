@@ -25972,5 +25972,429 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Banana-Republic/78-Vintage-Green-45027.html",
+    "extractedAt": "2026-11-24T03:55:48.701Z",
+    "name": "78 Vintage Green",
+    "brand": "Banana Republic",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Gino Percontino",
+    "topNotes": [
+      "Green Leaves",
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Green Tea",
+      "Fig",
+      "Jasmine",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "BR78 VINTAGE GREEN is a woodsy scent with leafy undertones capturing the fantasy of travel, and celebrates originality and the freedom of expression, voice and vision unique to the cultural landscape of 1978 – the year Banana Republic was founded.</p> <p>Notes: Bergamot, Leafy Greens, Mandarin, Magnolia, Jasmine Green Tea, Fig, Cedarwood, Musk, Vetiver.</p> <p>Banana Republic Icon Collection is available in individual 75 ml bottles and 15 ml sprays.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45027.jpg",
+    "rating": 4.31,
+    "ratingVotes": 1682,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 29
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 45027,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "78 Vintage Green",
+    "brandFa": "Banana Republic",
+    "nameFa": "78 Vintage Green",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gino Percontino",
+    "topNotesFa": [
+      "برگ‌های سبز",
+      "برگاموت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "چای سبز",
+      "انجیر",
+      "یاسمن",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "موش",
+      "سرو"
+    ],
+    "descriptionFa": "BR78 VINTAGE GREEN یک عطر چوبی با رایحه‌های زیرین برگ‌مانند است که خیال سفر را تداعی می‌کند و اصالت و آزادی بیان، صدا و دیدگاهی را که منحصر به چشم‌انداز فرهنگی سال 1978 – سال تأسیس Banana Republic – است، گرامی می‌دارد.</p> <p>رایحه‌ها: ترنج، سبزی‌های برگ‌دار، نارنگی، مگنولیا، چای سبز یاسمن، انجیر، چوب سدر، مشک، خس‌خس.</p> <p>مجموعه Icon Banana Republic در بطری‌های 75 میلی‌لیتری تکی و اسپری‌های 15 میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Infinity-For-Men-98715.html",
+    "extractedAt": "2026-11-24T03:55:56.199Z",
+    "name": "Infinity For Men",
+    "brand": "Armaf",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Ginger",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Cardamom",
+      "Apple",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Vetiver",
+      "Cashmere Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98715.jpg",
+    "rating": 4.56,
+    "ratingVotes": 731,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 78
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 64
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 28
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 22
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 98715,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Infinity For Men",
+    "brandFa": "Armaf",
+    "nameFa": "Infinity For Men",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "برگاموت",
+      "زنجبیل",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "هل",
+      "سیب",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "وتیور",
+      "Cashmere Wood"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Fahrenheit-Le-Parfum-23099.html",
+    "extractedAt": "2026-11-24T03:56:00.466Z",
+    "name": "Fahrenheit Le Parfum",
+    "brand": "Dior",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2014,
+    "perfumer": "François Demachy",
+    "topNotes": [
+      "Suede",
+      "Licorice",
+      "Sicilian Mandarin"
+    ],
+    "middleNotes": [
+      "Violet Leaf",
+      "Rum",
+      "Coriander",
+      "Cumin"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla"
+    ],
+    "description": "After summer versions and editions Aqua Fahrenheit and Fahrenheit Absolute, creators of the house offer a new, even more intense version this year – by introducing the latest addition, FAHRENHEIT LE PARFUM. </p> <p>The latest version FAHRENHEIT LE PARFUM has arrived on the market at the beginning of January 2014 and provides a characteristic harmony of contrasts. The fragrance was created by perfumer of the house of Dior, Francois Demachy who accentuates oriental-leathery side of the composition and states: \"I did not want to create a caricature of Fahrenheit fragrance which already has an assertive composition. Instead, I followed the original structure by adding elements that enrich the story and highlight its atypical personality.\" For composition Fahrenheit Le Parfum very rare, natural ingredients were selected which would accentuate and follow in sensual way hot leather and oriental rhythm woven with shades. . </p> <p>The composition opens with the most intense note so far, suede, accompanied by Sicilian mandarin and sweet liquorice root. Heart of the composition provides a new blend of aromas by mixing violet leaf absolute and rum absolute spiced with coriander and caraway. Base of the perfume introduces Bourbon vanilla absolute that highlights beauty of the ingredients, ensures stability, warms and cuddles the skin. </p> <p>Fahrenheit Le Parfum arrives in characteristic flacon form whose glass is iridescent in shades from ink black, over crimson to bright, sunny yellow shade. One can find it as 75ml in perfume concentration.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23099.jpg",
+    "rating": 4.26,
+    "ratingVotes": 5804,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 89
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 69
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 65
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 56
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 23099,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Fahrenheit Le",
+    "brandFa": "دیور",
+    "nameFa": "Fahrenheit Le Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "François Demachy",
+    "topNotesFa": [
+      "چرم جیر",
+      "شیرین‌بیان",
+      "نارنگی سیسیلی"
+    ],
+    "middleNotesFa": [
+      "برگ بنفشه",
+      "رام",
+      "گشنیز",
+      "زیره"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن"
+    ],
+    "descriptionFa": "پس از عرضه نسخه‌های تابستانی و ادیشن‌های Aqua Fahrenheit و Fahrenheit Absolute، طراحان این برند امسال نسخه‌ای جدید و حتی شدیدتر را با معرفی آخرین محصول خود، FAHRENHEIT LE PARFUM، ارائه می‌دهند. </p> <p>آخرین نسخه FAHRENHEIT LE PARFUM در اوایل ژانویه 2014 وارد بازار شد و هماهنگی خاصی از تضادها را ارائه می‌دهد. این عطر توسط عطرساز برند دیور، فرانسوا دماشی، که ...، ساخته شده است.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Verde-117625.html",
+    "extractedAt": "2026-11-24T03:56:06.872Z",
+    "name": "Hawas Verde",
+    "brand": "Rasasi",
+    "family": "Citrus Aromatic",
+    "gender": "men. This is a new fragrance. <b>Hawas Verde</b> was launched in 2025. The fragrance features Lime, Rosemary, Green Apple, Patchouli and Amber",
+    "year": 2025,
+    "description": "Hawas Verde combines bright citrus and green herbaceous elements into a fresh aromatic composition. Lime and green apple form the primary aromatic core, supported by revitalizing rosemary. The fragrance transitions to a base of earthy patchouli and amber notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117625.jpg",
+    "rating": 4.29,
+    "ratingVotes": 945,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 79
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 41
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 36
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 117625,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Verde",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Verde",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "men. This is a new fragrance. <b>Hawas Verde</b> was launched in 2025. The fragrance features Lime, Rosemary, Green Apple, Patchouli and Amber",
+    "descriptionFa": "Hawas Verde مرکبات درخشان و عناصر گیاهی سبز را در یک ترکیب معطر و تازه ادغام می‌کند. لیمو ترش و سیب سبز هسته اصلی رایحه را تشکیل می‌دهند که رزماری نیروبخش از آنها پشتیبانی می‌کند. این رایحه به نت‌های پایه نعناع هندی خاکی و کهربا تغییر می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
