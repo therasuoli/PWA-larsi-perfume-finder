@@ -57023,5 +57023,1478 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ONNO/Secret-Garden-93320.html",
+    "extractedAt": "2026-11-24T21:46:27.999Z",
+    "name": "Secret Garden",
+    "brand": "ONNO",
+    "family": "Woody Aromatic",
+    "gender": "women and men. <b>Secret Garden</b> was launched in 2022. The fragrance features Tea, Cedarwood, Musk and Tonka",
+    "year": 2022,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93320.jpg",
+    "rating": 4.29,
+    "ratingVotes": 21,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 67
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 38
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 33
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 93320,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Secret Garden",
+    "brandFa": "ONNO",
+    "nameFa": "Secret Garden",
+    "familyFa": "چوبی معطر",
+    "genderFa": "women and men. <b>Secret Garden</b> was launched in 2022. The fragrance features Tea, Cedarwood, Musk and Tonka",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorenzo-Pazzaglia/Que-Chimba-110747.html",
+    "extractedAt": "2026-11-24T21:46:32.728Z",
+    "name": "Que Chimba!",
+    "brand": "Lorenzo Pazzaglia",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Lorenzo Pazzaglia",
+    "topNotes": [
+      "Guava",
+      "Star Anise",
+      "Cloves",
+      "Passionfruit",
+      "Peach",
+      "Ginger",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Tonka Bean",
+      "Tobacco",
+      "Heliotrope",
+      "Orchid",
+      "Damask Rose"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Sandalwood",
+      "Patchouli",
+      "Vanilla Bean",
+      "Benzoin",
+      "Ambergris",
+      "Amber"
+    ],
+    "description": "<strong>Que Chimba</strong> — bold and sensual — captures the very soul of life and passion.<br /> It evokes a warm Colombian afternoon, where sunlight filters through swaying palm leaves and laughter fills the air. A glass of Colombian Aguardiente is raised — a spirited toast to triumphs, to unbreakable bonds, to the beauty of moments shared.</p> <p>The fragrance opens with a fresh bouquet of star anise, inviting you to let go, to surrender to the vibrant rhythm of Colombia. Each note unfolds like a journey: the juicy brightness of guava and passion fruit mingles with the exotic allure of the Cattleya orchid, creating a lively and magnetic composition.</p> <p><strong>Que Chimba</strong> is the olfactory embodiment of a land steeped in tradition and ablaze with emotion — a celebration of life in all its fullness. It’s not just a scent; it’s a memory in the making, etched in the heart.</p> <p><strong>TOP NOTES:</strong><br /> Star Anise, Guava, Cinnamon, Cloves, Ginger, Passionfruit, Peach</p> <p><strong>HEART NOTES:</strong><br /> Sweet Tobacco, Tonka Bean, Damask Rose, Heliotrope, Cataleya Orchid</p> <p><strong>BOTTOM NOTES:</strong><br /> Cedarwood, Sandalwood, Patchouli, Benzoin, Vanilla Bean, Amber, Ambergris",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110747.jpg",
+    "rating": 3.67,
+    "ratingVotes": 425,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 99
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 90
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 73
+      },
+      {
+        "nameEn": "anis",
+        "nameFa": "anis",
+        "percent": 60
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 110747,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Que Chimba!",
+    "brandFa": "Lorenzo Pazzaglia",
+    "nameFa": "Que Chimba!",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lorenzo Pazzaglia",
+    "topNotesFa": [
+      "گواوا",
+      "انیسون ستاره‌ای",
+      "Cloves",
+      "Passionfruit",
+      "هلو",
+      "زنجبیل",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "لوبیا تونکا",
+      "تنباکو",
+      "گل هلیوتروپ",
+      "Orchid",
+      "گل رز دمشقی"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "چوب صندل",
+      "پچولی",
+      "Vanilla Bean",
+      "بنزوئین",
+      "کهربا خاکستری",
+      "کهربا"
+    ],
+    "descriptionFa": "<strong>Que Chimba</strong> — جسور و شهوانی — روح زندگی و شور و اشتیاق را به تصویر می‌کشد.<br /> این عطر یادآور یک بعدازظهر گرم در کلمبیا است، جایی که نور خورشید از میان برگ‌های نخل در حال تکان خوردن می‌گذرد و صدای خنده فضا را پر می‌کند. لیوانی از آگواردینته کلمبیایی بالا می‌رود — نوشیدنی‌ای پرشور به افتخار پیروزی‌ها، پیوندهای ناگسستنی و زیبایی لحظات مشترک.</p> <p>این عطر با ترکیبی تازه از بادیان ستاره‌ای آغاز می‌شود و شما را دعوت می‌کند تا رها شوید و تسلیم آن شوید.",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-House-of-Oud/Doux-Ennui-114965.html",
+    "extractedAt": "2026-11-24T21:46:40.413Z",
+    "name": "Doux Ennui",
+    "brand": "The House of Oud",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Cristian Calabro",
+    "topNotes": [
+      "Apricot Jam",
+      "Ylang Ylang",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Butter",
+      "Peach",
+      "Ylang Ylang",
+      "Salt"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Osmanthus",
+      "Amber",
+      "Benzoin",
+      "Musk"
+    ],
+    "description": "Doux Ennui opens with a bright and gourmand start, evoking the splendor of the french court — a true luxury to wear. The freshness of mandarin blends with the velvety sweetness of apricot jam in a refined, ironic tribute to the iconic brioches that made Marie Antoinette famous. The exotic touch of ylang ylang adds a first whisper of sensuality, like an unexpected caress among the velvets of versailles. At the heart, the fragrance becomes more intense and seductive: a ripe, juicy peach melts into the creaminess of salted butter, evoking the carefree indulgence of an era that loved to exaggerate. Ylang ylang returns, deeper, enriching the composition with aristocratic nuances. In the base, a precious accord of osmanthus, vanilla, benzoin, amber, and musk creates a long-lasting and irresistible olfactive signature that dances between innocence and transgression — just like the queen who inspired it.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114965.jpg",
+    "rating": 3.6,
+    "ratingVotes": 372,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 76
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 76
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 114965,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Doux Ennui",
+    "brandFa": "The House of Oud",
+    "nameFa": "Doux Ennui",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Cristian Calabro",
+    "topNotesFa": [
+      "Apricot Jam",
+      "Ylang Ylang",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "کره",
+      "هلو",
+      "Ylang Ylang",
+      "نمک"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "اسمانتوس",
+      "کهربا",
+      "بنزوئین",
+      "موش"
+    ],
+    "descriptionFa": "Doux Ennui با شروعی درخشان و خوش‌طعم آغاز می‌شود و شکوه دربار فرانسه را تداعی می‌کند — عطر لوکسی که استفاده از آن لذت‌بخش است. تازگی نارنگی با شیرینی مخملی مربای زردآلو در ادای احترامی ظریف و طنزآمیز به بریوش‌های نمادینی که ماری آنتوانت را مشهور کردند، ترکیب می‌شود. رایحه عجیب و غریب یلانگ‌یلانگ اولین زمزمه شهوانی را به عطر اضافه می‌کند، مانند نوازشی غیرمنتظره در میان مخمل‌های ورسای. در نت میانی، رایحه عمیق‌تر می‌شود",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lush/Avocado-Co-Wash-59340.html",
+    "extractedAt": "2026-11-24T21:46:46.467Z",
+    "name": "Avocado Co-Wash",
+    "brand": "Lush",
+    "family": "Oriental",
+    "gender": "women and men. <b>Avocado Co-Wash</b> was launched in 2016. The nose behind this fragrance is Emma Dick. The fragrance features Bergamot, Olibanum and Incense",
+    "year": 2016,
+    "perfumer": "Emma Dick",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59340.jpg",
+    "rating": 4.12,
+    "ratingVotes": 632,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 68
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 19
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 18
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 18
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 59340,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Avocado Co-Wash",
+    "brandFa": "لاش",
+    "nameFa": "Avocado Co-Wash",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. <b>Avocado Co-Wash</b> was launched in 2016. The nose behind this fragrance is Emma Dick. The fragrance features Bergamot, Olibanum and Incense",
+    "perfumerFa": "Emma Dick",
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Marc-Antoine-Barrois/Ganymede-54720.html",
+    "extractedAt": "2026-11-24T21:46:51.403Z",
+    "name": "Ganymede",
+    "brand": "Marc-Antoine Barrois",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Saffron",
+      "Italian Mandarin"
+    ],
+    "middleNotes": [
+      "Chinese Osmanthus",
+      "Immortelle",
+      "Violet Leaf"
+    ],
+    "baseNotes": [
+      "Mineral notes",
+      "Suede",
+      "Akigalawood",
+      "Musk",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "Ganymede from Marc-Antoine Barrois offers a dreamlike ride on the shores of Lake Maggiore. The couturier and perfumer Quentin Bisch collaborated to bring a contemporary view to the story of Ganymede: this epic moon of Jupiter discovered by Galileo in 1610 and covered with a vast saltwater ocean.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54720.jpg",
+    "rating": 4.03,
+    "ratingVotes": 13486,
+    "accords": [
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 48
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 45
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 54720,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ganymede",
+    "brandFa": "Marc-Antoine Barrois",
+    "nameFa": "Ganymede",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "زعفران",
+      "Italian Mandarin"
+    ],
+    "middleNotesFa": [
+      "Chinese Osmanthus",
+      "Immortelle",
+      "برگ بنفشه"
+    ],
+    "baseNotesFa": [
+      "Mineral notes",
+      "چرم جیر",
+      "Akigalawood",
+      "موش",
+      "سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "گانیمد از Marc-Antoine Barrois سفری رویایی در سواحل دریاچه ماجوره را به شما هدیه می‌دهد. طراح لباس و عطر‌ساز، کوئنتین بیش، با هم همکاری کردند تا نگاهی مدرن به داستان گانیمد بیافزایند: این قمر باشکوه مشتری که توسط گالیله در سال 1610 کشف شد و اقیانوسی وسیع از آب شور سطح آن را پوشانده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memo-Paris/Cap-Camarat-126697.html",
+    "extractedAt": "2026-11-24T21:46:58.536Z",
+    "name": "Cap Camarat",
+    "brand": "Memo Paris",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Nadège Le Garlantezec",
+    "topNotes": [
+      "Watery Notes",
+      "Fruity Notes",
+      "Apple",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Ylang-Ylang",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Amyris",
+      "Sandalwood",
+      "Musk",
+      "Labdanum",
+      "Patchouli"
+    ],
+    "description": "Cap Camarat by Memo Paris is a fragrance inspired by the sunlit shores of the French Riviera. It opens with bright pink pepper and fruity nuances suggestive of apple, evoking a fresh, breezy impression. The heart develops into a creamy floral blend of jasmine sambac and ylang-ylang, enriched with vanilla. As it dries down, resinous benzoin and ambery labdanum are joined by smooth sandalwood, amyris, patchouli and soft musks, creating a warm, slightly gourmand, woody-amber trail. The scent has also been presented in a limited-edition bottle featuring artwork by Italian artist Olimpia Zagnoli, reflecting its solar and coastal theme, as well as in the standard bottle.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.126697.jpg",
+    "rating": 4.15,
+    "ratingVotes": 577,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 90
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 74
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 53
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 126697,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cap Camarat",
+    "brandFa": "Memo Paris",
+    "nameFa": "Cap Camarat",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nadège Le Garlantezec",
+    "topNotesFa": [
+      "Watery Notes",
+      "Fruity Notes",
+      "سیب",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "ایلنگ‌ایلنگ",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "امیریس",
+      "چوب صندل",
+      "موش",
+      "لابدانوم",
+      "پچولی"
+    ],
+    "descriptionFa": "Cap Camarat از برند Memo Paris عطری است که از سواحل آفتاب‌گیر ریویرای فرانسه الهام گرفته شده است. این عطر با فلفل صورتی درخشان و رایحه‌های میوه‌ای شبیه به سیب آغاز می‌شود که حسی تازه و مطبوع را تداعی می‌کند. نت میانی به ترکیبی خامه‎‌مانند و گل‌دار از یاس سامباک و یلانگ-یلانگ تبدیل می‌شود که با وانیل غنی شده است. با خشک شدن عطر، بنزوئین رزینی و لادن عنبری با چوب صندل ملایم، آمیریس، نعناع هندی و مشک‌های ملایم ترکیب می‌شوند و رایحه‌ای گرم و کمی",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ella-K-Parfums/Lettre-de-Pushkar-48470.html",
+    "extractedAt": "2026-11-24T21:47:05.339Z",
+    "name": "Lettre de Pushkar",
+    "brand": "Ella K Parfums",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Sonia Constant",
+    "topNotes": [
+      "Saffron",
+      "Nutmeg",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Orange Blossom",
+      "Cypriol"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "Pushkar, Rajasthan, India. From dawn to dusk, this sacred place is a feast for the senses. Visual opulence and intoxicating scents underline the power of the faith of those who come to cleanse their souls on the shores of the lake. Nature plays right into the hands of this legendary place: the roses grow on the shores of the lake simply to offer their velvety petals to the god Brahma, and the sun that sets the sky ablaze at dusk accompanies the spellbinding chanting of worshippers.</p> <p>NOTES</p> <p>Saffron, nutmeg, cinnamon<br /> Rose, orange blossom, cypriol<br /> Patchouli, vetiver, vanilla, musk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48470.jpg",
+    "rating": 4.21,
+    "ratingVotes": 711,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 98
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 70
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 42
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 36
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 48470,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lettre de Pushkar",
+    "brandFa": "Ella K Parfums",
+    "nameFa": "Lettre de Pushkar",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sonia Constant",
+    "topNotesFa": [
+      "زعفران",
+      "جوز هندی",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "گل پرتقال",
+      "سایپریول"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "وتیور",
+      "پچولی"
+    ],
+    "descriptionFa": "پوشکار، راجستان، هند. از سپیده‌دم تا غروب آفتاب، این مکان مقدس یک جشن برای حواس است. شکوه بصری و رایحه‌های مست‌کننده، قدرت ایمان کسانی را برجسته می‌کند که برای پاک‌سازی روح خود به سواحل دریاچه می‌آیند. طبیعت کاملاً در خدمت این مکان افسانه‌ای است: گل‌های رز در سواحل دریاچه می‌رویند تا صرفاً گلبرگ‌های مخملی خود را به خدای برهما تقدیم کنند، و خورشیدی که در غروب آسمان را شعله‌ور می‌کند، همراه این مکان است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Caron/Pour-Un-Homme-de-Caron-3166.html",
+    "extractedAt": "2026-11-24T21:47:12.176Z",
+    "name": "Pour Un Homme de Caron",
+    "brand": "Caron",
+    "family": "Aromatic",
+    "gender": "men",
+    "year": 1934,
+    "perfumer": "Ernest Daltroff",
+    "topNotes": [
+      "Lavender",
+      "Rosemary",
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Clary Sage",
+      "Heliotrope",
+      "Cedar",
+      "Brazilian Rosewood",
+      "Coriander",
+      "Geranium",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Tonka Bean",
+      "Amber",
+      "Moss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3166.jpg",
+    "rating": 4.04,
+    "ratingVotes": 3127,
+    "accords": [
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 86
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 59
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 28
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 3166,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pour Un Homme de Caron",
+    "brandFa": "Caron",
+    "nameFa": "Pour Un Homme de Caron",
+    "familyFa": "معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Ernest Daltroff",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "رزماری",
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "مریم‌گلی",
+      "گل هلیوتروپ",
+      "سرو",
+      "Brazilian Rosewood",
+      "گشنیز",
+      "گل جعفری",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "لوبیا تونکا",
+      "کهربا",
+      "خزه"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guy-Laroche/Drakkar-Noir-2069.html",
+    "extractedAt": "2026-11-24T21:47:16.027Z",
+    "name": "Drakkar Noir",
+    "brand": "Guy Laroche",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 1982,
+    "perfumer": "Pierre Wargnye",
+    "topNotes": [
+      "Lavender",
+      "Lemon",
+      "Bergamot",
+      "Rosemary",
+      "Mint",
+      "Lemon Verbena",
+      "Basil",
+      "Artemisia"
+    ],
+    "middleNotes": [
+      "Juniper",
+      "Carnation",
+      "Coriander",
+      "Wormwood",
+      "Cinnamon",
+      "Angelica",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Pine Tree Needles",
+      "Fir",
+      "Leather",
+      "Vetiver",
+      "Patchouli",
+      "Sandalwood",
+      "Cedar",
+      "Amber",
+      "Resins"
+    ],
+    "description": "Drakkar Noir by Guy Laroche is an aromatic fougere fragrance for men. Drakkar Noir was launched in 1982. The nose behind this fragrance is Pierre Wargnye. Top notes are rosemary, artemisia, lavender, basil, lemon verbena, bergamot and lemon; middle notes are coriander, carnation, cinnamon, juniper and jasmine; base notes are leather, sandalwood, fir, amber, patchouli, oakmoss, vetiver and cedar.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2069.jpg",
+    "rating": 3.98,
+    "ratingVotes": 8518,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 31
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 27
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 25
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 2069,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Drakkar Noir",
+    "brandFa": "Guy Laroche",
+    "nameFa": "Drakkar Noir",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Pierre Wargnye",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "لیمو",
+      "برگاموت",
+      "رزماری",
+      "نعناع",
+      "Lemon Verbena",
+      "ریحان",
+      "افسنتین"
+    ],
+    "middleNotesFa": [
+      "عرعر",
+      "میخک",
+      "گشنیز",
+      "افسنتین",
+      "دارچین",
+      "Angelica",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "Pine Tree Needles",
+      "نراد",
+      "چرم",
+      "وتیور",
+      "پچولی",
+      "چوب صندل",
+      "سرو",
+      "کهربا",
+      "رزین‌ها"
+    ],
+    "descriptionFa": "Drakkar Noir از برند Guy Laroche یک عطر آروماتیک فوژر برای آقایان است. Drakkar Noir در سال 1982 عرضه شد. طراح این عطر پیر وارنیه است. نت‌های اولیه رزماری، درمنه، اسطوخودوس، ریحان، وربنای لیمویی، ترنج و لیمو هستند؛ نت‌های میانی گشنیز، میخک، دارچین، عرعر و یاس هستند؛ نت‌های پایه چرم، چوب صندل، صنوبر، عنبر، نعناع هندی، خزه بلوط، خس‌خس و سرو هستند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Absolute-Aphrodisiac-30989.html",
+    "extractedAt": "2026-11-24T21:47:22.883Z",
+    "name": "Absolute Aphrodisiac",
+    "brand": "Initio Parfums Prives",
+    "family": "Oriental Spicy",
+    "gender": "women and men. <b>Absolute Aphrodisiac</b> was launched in 2015. The nose behind this fragrance is Alexandra Kosinski. The fragrance features Vanilla, Amber, Castoreum, Leather, Musk and White Flowers",
+    "year": 2015,
+    "perfumer": "Alexandra Kosinski",
+    "description": "Successive flashes from white to red.</p> <p>Human side, vanilla excites gluttony.</p> <p>Stupid side, the leather makes wild euphoria of carnal dance awakens the feline instincts, takes you into the storm ...",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30989.jpg",
+    "rating": 4.27,
+    "ratingVotes": 5241,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 82
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 57
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 54
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 30989,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "te Aphrodisiac",
+    "brandFa": "Initio Parfums Prives",
+    "nameFa": "Absolute Aphrodisiac",
+    "concentrationFa": "ابسولو",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. <b>Absolute Aphrodisiac</b> was launched in 2015. The nose behind this fragrance is Alexandra Kosinski. The fragrance features Vanilla, Amber, Castoreum, Leather, Musk and White Flowers",
+    "perfumerFa": "Alexandra Kosinski",
+    "descriptionFa": "درخشش‌های متوالی از سفید به قرمز.</p> <p>در جنبه انسانی، وانیل باعث تحریک پرخوری می‌شود.</p> <p>جنبه احمقانه، چرم باعث ایجاد سرخوشی وحشیانه رقص شهوانی می‌شود، غرایز گربه‌سان را بیدار می‌کند، شما را به درون طوفان می‌برد...",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoirs-Of-A-Perfume-Collector/Tales-from-Zanzibar-72008.html",
+    "extractedAt": "2026-11-24T21:47:29.666Z",
+    "name": "Tales from Zanzibar",
+    "brand": "Memoirs Of A Perfume Collector",
+    "family": null,
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Harry Sherwood",
+    "topNotes": [
+      "Lime",
+      "Mint",
+      "Blood Mandarin",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Guava",
+      "Cassis",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Candied Fruits",
+      "Musk",
+      "Ambergris",
+      "Moss",
+      "Agarwood (Oud)"
+    ],
+    "description": "The first creation from our collection and the signature fragrance that is only unique to our brand only. Tales From Zanzibar is where the brand journey begins and the start of a grand voyage around the world.</p> <p>Description: Shimmering turquoise sea nested right next to a powdery white sand beach with the beaming bright sun above.<br /> <br /> Top notes: Lime, Red Mandarin, Pink Pepper, Mint<br /> Middle notes: Coconut, Guava, Cassis<br /> Base notes: Musk Cocktail, Orientalgris, Candied Fruits, Moss",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72008.jpg",
+    "rating": 4.42,
+    "ratingVotes": 737,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 80
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 59
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 72008,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tales from Zanzibar",
+    "brandFa": "Memoirs Of A Perfume Collector",
+    "nameFa": "Tales from Zanzibar",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Harry Sherwood",
+    "topNotesFa": [
+      "لیمو سبز",
+      "نعناع",
+      "Blood Mandarin",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گواوا",
+      "توت سیاه فرانسوی",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "Candied Fruits",
+      "موش",
+      "کهربا خاکستری",
+      "خزه",
+      "Agarwood (Oud)"
+    ],
+    "descriptionFa": "اولین محصول از مجموعه ما و عطر خاصی که فقط مختص برند ماست. «داستان‌هایی از Zanzibar» نقطۀ آغاز سفر برند و شروع یک سفر بزرگ به دور دنیاست.</p> <p>توضیحات: دریای فیروزه‌ای درخشان درست در کنار ساحلی با شن‌های سفید و پودری قرار دارد و خورشید درخشان از بالای آن می‌تابد.<br /> <br /> نت‌های اولیه: لیموترش، نارنگی قرمز، فلفل صورتی، نعناع<br /> نت‌های میانی: نارگیل، گواوا، کاسیس<br /> B",
+    "seasons": [
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Alhambra/Lava-132818.html",
+    "extractedAt": "2026-11-24T21:47:35.953Z",
+    "name": "Lava",
+    "brand": "Maison Alhambra",
+    "family": "Aromatic Aquatic",
+    "gender": "women and men. <b>Lava</b> was launched during the 2020's. Top notes are Lavender and Spearmint; middle notes are Geranium and Cedarwood; base notes are Styrax and Oakmoss",
+    "topNotes": [
+      "Lavender",
+      "Spearmint"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Styrax",
+      "Oakmoss"
+    ],
+    "description": "Lava is an aromatic fragrance composed of spearmint and lavender in the top notes, followed by geranium and cedarwood in the heart. The base consists of styrax and oakmoss, creating a resinous finish. The fragrance combines fresh aromatic elements with woody and aquatic undertones.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132818.jpg",
+    "rating": 4.4,
+    "ratingVotes": 168,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 78
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 62
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 53
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 32
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 132818,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lava",
+    "brandFa": "Maison Alhambra",
+    "nameFa": "Lava",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "women and men. <b>Lava</b> was launched during the 2020's. Top notes are Lavender and Spearmint; middle notes are Geranium and Cedarwood; base notes are Styrax and Oakmoss",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "نعناع سبز"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "استیراکس",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "Lava یک عطر معطر است که از نعناع سبز و اسطوخودوس در نت‌های اولیه تشکیل شده است و پس از آن شمعدانی و چوب سدر در نت‌های میانی قرار دارند. رایحه پایه شامل استیراکس و خزه بلوط است که رایحه‌ای رزینی ایجاد می‌کند. این عطر ترکیبی از عناصر معطر تازه با رایحه‌های زیرین چوبی و دریایی است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/HAEZE/SPF-1987-147278.html",
+    "extractedAt": "2026-11-24T21:47:41.091Z",
+    "name": "SPF 1987",
+    "brand": "HAEZE",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Banana Leaf",
+      "Sea Salt"
+    ],
+    "middleNotes": [
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "SPF 1987 by HAEZE is a warm coconut gourmand eau de parfum inspired by nostalgic summer memories, retro tropical settings and salty air. It combines banana leaf and sea salt with coconut, amber and vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147278.jpg",
+    "rating": 4.4,
+    "ratingVotes": 5,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 78
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 32
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 147278,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "SPF 1987",
+    "brandFa": "HAEZE",
+    "nameFa": "SPF 1987",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Banana Leaf",
+      "نمک دریا"
+    ],
+    "middleNotesFa": [
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل"
+    ],
+    "descriptionFa": "SPF 1987 از برند HAEZE یک ادو پرفیوم گرم با رایحه نارگیل است که از خاطرات نوستالژیک تابستان، محیط‌های استوایی قدیمی و هوای شور الهام گرفته شده است. این عطر ترکیبی از برگ موز و نمک دریا با نارگیل، عنبر و وانیل است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Angel-Cake-Cream-125353.html",
+    "extractedAt": "2026-11-24T21:47:47.302Z",
+    "name": "Angel Cake & Cream",
+    "brand": "Victoria's Secret",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Angel Cake & Cream</b> was launched in 2025. The fragrance features Cake",
+    "year": 2025,
+    "description": "Angel Cake & Cream is a fragrance mist featuring notes of cake swirl and creamy blooms. The fragrance presents as a light, creamy composition with prominent vanilla and subtle floral characteristics. As the scent develops, marshmallow notes emerge, creating a soft and fluffy profile with gentle sweetness.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.125353.jpg",
+    "rating": 4.31,
+    "ratingVotes": 210,
+    "fragranticaId": 125353,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Angel Cake & Cream",
+    "brandFa": "Victoria's Secret",
+    "nameFa": "Angel Cake & Cream",
+    "genderFa": "women and men. This is a new fragrance. <b>Angel Cake & Cream</b> was launched in 2025. The fragrance features Cake",
+    "descriptionFa": "Angel Cake & Cream یک اسپری خوشبو است که دارای رایحه‌های کیک گردابی و شکوفه‌های خامه‎‌ای است. این عطر به شکل ترکیبی سبک و خامه‎‌ای با رایحه غالب وانیل و ویژگی‌های ملایم گل‌ها عرضه می‌شود. با پخش شدن رایحه، نت‌های مارشمالو نمایان می‌شوند و ترکیبی نرم و لطیف با شیرینی ملایم ایجاد می‌کنند."
   }
 ]
