@@ -50273,5 +50273,2170 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bharara/Rome-Ivory-148693.html",
+    "extractedAt": "2026-11-24T18:46:48.361Z",
+    "name": "Rome Ivory",
+    "brand": "Bharara",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Orange",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Rose",
+      "Ylang-Ylang",
+      "Geranium",
+      "Marshmallow"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148693.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 56
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 42
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148693,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rome Ivory",
+    "brandFa": "Bharara",
+    "nameFa": "Rome Ivory",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "پرتقال",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "یاسمن",
+      "گل رز",
+      "ایلنگ‌ایلنگ",
+      "گل جعفری",
+      "مارشمالو"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب صندل",
+      "پچولی",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mawwal-Arabia/Confidential-Hamsa-148692.html",
+    "extractedAt": "2026-11-24T18:46:53.497Z",
+    "name": "Confidential Hamsa",
+    "brand": "Mawwal Arabia",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
+    ],
+    "middleNotes": [
+      "Orchid",
+      "Jasmine",
+      "Rose",
+      "Freesia",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148692.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 62
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 48
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 31
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 31
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148692,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Confidential Hamsa",
+    "brandFa": "Mawwal Arabia",
+    "nameFa": "Confidential Hamsa",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "چای",
+      "برگاموت",
+      "اسمانتوس"
+    ],
+    "middleNotesFa": [
+      "Orchid",
+      "یاسمن",
+      "گل رز",
+      "فریزیا",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "موش",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mawwal-Arabia/Kingdom-Faris-148691.html",
+    "extractedAt": "2026-11-24T18:46:58.229Z",
+    "name": "Kingdom Faris",
+    "brand": "Mawwal Arabia",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Violet",
+      "Mandarin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Wisteria",
+      "Rose",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148691.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 77
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 38
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 38
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148691,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kingdom Faris",
+    "brandFa": "Mawwal Arabia",
+    "nameFa": "Kingdom Faris",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "بنفشه",
+      "Mandarin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رین",
+      "گل رز",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mawwal-Arabia/Eden-Salam-148690.html",
+    "extractedAt": "2026-11-24T18:47:02.542Z",
+    "name": "Eden Salam",
+    "brand": "Mawwal Arabia",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Rose",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Moss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148690.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 74
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 74
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 74
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 74
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 74
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 74
+      }
+    ],
+    "fragranticaId": 148690,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eden Salam",
+    "brandFa": "Mawwal Arabia",
+    "nameFa": "Eden Salam",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "گل رز",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "خزه"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/I-love-love-148689.html",
+    "extractedAt": "2026-11-24T18:47:07.536Z",
+    "name": "I love love",
+    "brand": "Lorinna Paris",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Orange",
+      "Lemon",
+      "Grapes"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Tea Rose",
+      "Cinnamon",
+      "Sugar Cane",
+      "Reed"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Woody Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148689.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 34
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 32
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 32
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 32
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 148689,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "I love love",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "I love love",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "پرتقال",
+      "لیمو",
+      "Grapes"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "گل رز چای",
+      "دارچین",
+      "Sugar Cane",
+      "Reed"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "Woody Notes"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/Rosendo-Five-148688.html",
+    "extractedAt": "2026-11-24T18:47:11.882Z",
+    "name": "Rosendo Five",
+    "brand": "Lorinna Paris",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Flowers",
+      "Spices"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Carnation"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148688.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 51
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 51
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148688,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rosendo Five",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "Rosendo Five",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Flowers",
+      "Spices"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "میخک"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/Sexy-Vanilla-148687.html",
+    "extractedAt": "2026-11-24T18:47:16.936Z",
+    "name": "Sexy Vanilla",
+    "brand": "Lorinna Paris",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bitter Almond"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148687.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 71
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 59
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 35
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148687,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sexy Vanilla",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "Sexy Vanilla",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "بادام تلخ"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Tonka",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/Paradox-148686.html",
+    "extractedAt": "2026-11-24T18:47:20.293Z",
+    "name": "Paradox",
+    "brand": "Lorinna Paris",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Mandarin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Neroli",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "White Musk",
+      "Benzoin",
+      "Resin"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148686.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 97
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 83
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148686,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Paradox",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "Paradox",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "Mandarin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "نرولی",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "موش سفید",
+      "بنزوئین",
+      "Resin"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Clean/Warm-Cotton-Reserve-Blend-35233.html",
+    "extractedAt": "2026-11-24T18:47:24.535Z",
+    "name": "Warm Cotton [Reserve Blend]",
+    "brand": "Clean",
+    "family": "Floral Aldehyde",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Ozonic notes",
+      "Watery Notes",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Green Notes",
+      "Floral Notes",
+      "Mint",
+      "Pepper"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vetiver",
+      "Incense"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.35233.jpg",
+    "rating": 3.62,
+    "ratingVotes": 1382,
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 91
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 82
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 72
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 35233,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Warm Cotton [Reserve Blend]",
+    "brandFa": "Clean",
+    "nameFa": "Warm Cotton [Reserve Blend]",
+    "familyFa": "Floral Aldehyde",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "Ozonic notes",
+      "Watery Notes",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "نت‌های سبز",
+      "Floral Notes",
+      "نعناع",
+      "فلفل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وتیور",
+      "عود بخور"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fugazzi/Angel-Dust-73921.html",
+    "extractedAt": "2026-11-24T18:47:29.386Z",
+    "name": "Angel Dust",
+    "brand": "Fugazzi",
+    "family": "Woody",
+    "gender": "women and men. <b>Angel Dust</b> was launched in 2021. The fragrance features Cashmeran, Cashmere Musk, Pepper, White Amber and Calabrian bergamot",
+    "year": 2021,
+    "description": "\"A celebration of humanity. Angel Dust is the first chapter in a series of fragrances to celebrate the gentle, introvert side in us all. Fugazzi has focused this first scent around the calming, peaceful notes of Cashmeran. Nicknamed the “ Polite molecule” for its intimacy and privacy. Angel Dust is for the quietly confident individual in the room. Wrapping us in solace and ease.</p> <p>Angel Dust is made of Cashmeran, slight hints of Calabrian Bergamot, pepper cashmere and white amber crystals.\" -Brand website.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73921.jpg",
+    "rating": 3.92,
+    "ratingVotes": 2934,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 73
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 26
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 16
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 73921,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Angel Dust",
+    "brandFa": "Fugazzi",
+    "nameFa": "Angel Dust",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. <b>Angel Dust</b> was launched in 2021. The fragrance features Cashmeran, Cashmere Musk, Pepper, White Amber and Calabrian bergamot",
+    "descriptionFa": "«تجلیلی از انسانیت. Angel Dust اولین فصل از مجموعه‌ای از عطرهاست که جنبه ملایم و درون‌گرای وجود همه ما را گرامی می‌دارد. فوگازی این اولین عطر را بر اساس رایحه‌های آرام‌بخش و دلنشین کشمیران ساخته است. به دلیل صمیمیت و حریم خصوصی‌اش، به آن لقب «مولکول مودب» داده‌اند. Angel Dust برای فردی است که در جمع، آرام و با اعتماد به نفس است. ما را در آرامش و آسودگی فرو می‌برد.</p> <p>Angel Dust از کاشمیران و رایحه‌های خفیفی از برگاموت کالابریا ساخته شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Enteash-136954.html",
+    "extractedAt": "2026-11-24T18:47:34.824Z",
+    "name": "Enteash",
+    "brand": "Rasasi",
+    "family": "Oriental Spicy",
+    "gender": "women and men. Top notes are Cardamom and Caramel; middle note is Musk; base notes are Ginger and Amber",
+    "topNotes": [
+      "Cardamom",
+      "Caramel"
+    ],
+    "middleNotes": [
+      "Musk"
+    ],
+    "baseNotes": [
+      "Ginger",
+      "Amber"
+    ],
+    "description": "Enteash by Rasasi is a unisex fragrance centered on musk, sweet spice, and warm oriental nuances. It opens with caramel and cardamom, creating a soft gourmand-spicy introduction, before moving into a musky heart that gives the composition a smooth and clean character. Amber and ginger in the base add warmth and a lightly spicy finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136954.jpg",
+    "rating": 4.21,
+    "ratingVotes": 14,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 80
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 75
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 136954,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Enteash",
+    "brandFa": "Rasasi",
+    "nameFa": "Enteash",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. Top notes are Cardamom and Caramel; middle note is Musk; base notes are Ginger and Amber",
+    "topNotesFa": [
+      "هل",
+      "کارامل"
+    ],
+    "middleNotesFa": [
+      "موش"
+    ],
+    "baseNotesFa": [
+      "زنجبیل",
+      "کهربا"
+    ],
+    "descriptionFa": "Enteash از برند Rasasi یک عطر یونیسکس است که بر پایه مشک، ادویه‌های شیرین و رایحه‌های گرم شرقی ساخته شده است. این عطر با رایحه‌های کارامل و هل آغاز می‌شود و مقدمه‌ای ملایم و شیرین-تند ایجاد می‌کند، سپس به رایحه اصلی مشک می‌رسد که به این ترکیب شخصیتی ملایم و پاک می‌دهد. عنبر و زنجبیل در رایحه پایه، گرما و رایحه‌ای کمی تند به عطر می‌بخشند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guepard/Fashion-Man-11262.html",
+    "extractedAt": "2026-11-24T18:47:41.460Z",
+    "name": "Fashion Man",
+    "brand": "Guepard",
+    "family": "Aromatic Spicy",
+    "gender": "men",
+    "year": 2004,
+    "perfumer": "Annick Gault",
+    "topNotes": [
+      "Amalfi Lemon",
+      "Spices",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Rosemary",
+      "Coriander",
+      "Oregano"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Patchouli",
+      "Virginia Cedar"
+    ],
+    "description": "Fashion Man, signed by Annick Gault, is a fresh, spicy and masculine scent launched in 2004. It opens with invigorating top notes of bergamot, lemon and spices. Coriander, oregano and rosemary are in the heart, placed on the intense base of patchouli, leather and cedar.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11262.jpg",
+    "rating": 4,
+    "ratingVotes": 8,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 31
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 28
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 11262,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fashion Man",
+    "brandFa": "Guepard",
+    "nameFa": "Fashion Man",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه",
+    "perfumerFa": "Annick Gault",
+    "topNotesFa": [
+      "لیمو آمالفی",
+      "Spices",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "رزماری",
+      "گشنیز",
+      "Oregano"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "پچولی",
+      "Virginia Cedar"
+    ],
+    "descriptionFa": "Fashion Man، که توسط آنیک گالت طراحی شده است، عطری تازه، تند و مردانه است که در سال 2004 عرضه شد. این عطر با نت‌های بالای نشاط‌آور برگاموت، لیمو و ادویه‌جات آغاز می‌شود. گشنیز، پونه کوهی و رزماری در نت میانی قرار دارند که بر پایه شدید نعناع هندی، چرم و سرو قرار گرفته‌اند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Happyland/Happyland-Signature-57435.html",
+    "extractedAt": "2026-11-24T18:47:46.221Z",
+    "name": "Happyland Signature",
+    "brand": "Happyland",
+    "family": null,
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "E.J. Wells",
+    "topNotes": [
+      "Honey",
+      "Cinnamon",
+      "Blueberry"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Agarwood (Oud)",
+      "Anise",
+      "Cashmeran"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Tonka Bean",
+      "Musk"
+    ],
+    "description": "Happyland Signature is a warm and inviting fragrance that evokes feelings and memories of hearth and home, of comfort and easy familiarity. Rich tobacco drizzled with honey is layered together with blueberries and a hint of apple pie, a nearly gourmand aroma that will capture the attention of anyone around you who is lucky enough to catch a whiff. Great for date nights or just relaxing at home, Happyland Signature is a fragrance you'll reach for again and again.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.57435.jpg",
+    "rating": 4.63,
+    "ratingVotes": 120,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 66
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 53
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 57435,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Happyland Signature",
+    "brandFa": "Happyland",
+    "nameFa": "Happyland Signature",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "E.J. Wells",
+    "topNotesFa": [
+      "عسل",
+      "دارچین",
+      "بلوبری"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "Agarwood (Oud)",
+      "انیسون",
+      "کشماران"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "لوبیا تونکا",
+      "موش"
+    ],
+    "descriptionFa": "Happyland Signature یک عطر گرم و دلپذیر است که احساسات و خاطراتی از کانون خانواده و خانه، راحتی و صمیمیت آسان را تداعی می‌کند. تنباکوی غنی آغشته به عسل همراه با بلوبری و رایحه‌ای خفیف از پای سیب، یک عطر تقریباً خوراکی است که توجه هر کسی را که در اطراف شما باشد و خوش‌شانس باشد که بویی از آن استشمام کند، جلب خواهد کرد. Happyland Signature برای شب‌های قرار ملاقات یا فقط استراحت در خانه عالی است و عطری است که به سراغ آن خواهید رفت.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Keiko-Mecheri/Precious-Forest-30515.html",
+    "extractedAt": "2026-11-24T18:47:52.661Z",
+    "name": "Precious Forest",
+    "brand": "Keiko Mecheri",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Precious Forest</b> was launched in 2015. The fragrance features Vanilla, Amber, Tonka Bean, Rose, Almond, Sandalwood, Leather and Agarwood (Oud)",
+    "year": 2015,
+    "description": "Olfactory Notes: citrus notes, galbanum, spice, rose, violet, plum, patchouli, teak wood, sandalwood, incense, ambery notes.</p> <p>It is entering the space of organic smell of woods, the living trees, rare timber and what lies beneath. A time punctuated as much by its difference as by any tiny moments that happen there. The soil seems to slip away under one's steps and transports one through a surreal motion, to pass from one place - sandalwood, oudh, to another - incense and balms, and pass back into that olfactory space.</p> <p>The scent is potent. It seems to almost ‘speak’ to us in a low voice because what we ‘hear’ is about our own memories, contemplation, and reconcilliation.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30515.jpg",
+    "rating": 4.04,
+    "ratingVotes": 106,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 83
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 45
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 30515,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Precious Forest",
+    "brandFa": "Keiko Mecheri",
+    "nameFa": "Precious Forest",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Precious Forest</b> was launched in 2015. The fragrance features Vanilla, Amber, Tonka Bean, Rose, Almond, Sandalwood, Leather and Agarwood (Oud)",
+    "descriptionFa": "نت‌های رایحه: نت‌های مرکبات، گلبانوم، ادویه، گل رز، بنفشه، آلو، نعناع هندی، چوب ساج، چوب صندل، بخور، نت‌های کهربایی.</p> <p>ورود به فضایی با رایحه طبیعی جنگل‌ها، درختان زنده، چوب‌های کمیاب و آنچه در زیر آنها نهفته است. زمانی که به همان اندازه که با تفاوت‌هایش متمایز می‌شود، با لحظات کوچکی که در آنجا رخ می‌دهد نیز متمایز می‌شود. به نظر می‌رسد خاک زیر پای انسان می‌لغزد و او را با حرکتی سورئال جابجا می‌کند تا از مکانی به مکان دیگر برود - چوب صندل،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-The-Scent-For-Her-38998.html",
+    "extractedAt": "2026-11-24T18:47:58.841Z",
+    "name": "Boss The Scent For Her",
+    "brand": "Hugo Boss",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2016,
+    "perfumer": null,
+    "topNotes": [
+      "Peach",
+      "Freesia"
+    ],
+    "middleNotes": [
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Cacao"
+    ],
+    "description": "This floral-fruity fragrance is combined with thick gourmand shades making it an equivalent of the modern perfume scene. Gourmand trendy composition touched many designer collections suggesting that the focus lies on sophisticated sweetness.</p> <p>The latest perfume of the Hugo Boss collection opens with juicy and velvety shades of peach combined with freesia blossom in top notes. The heart is based on osmanthus, famous for apricot scent, while drydown features roasted cocoa, which deepend the composition and provides a darker note and a characteristic gourmand twist.</p> <p>Advertising face of the campaign is model Anna Ewers, for whom Jason Wu says that she is very feminine and at the same time very powerful in the new photos. The campaign photos were taken by Darren Aronofsky on the last floor of Freedom Tower in New York – according to wwd. Flacon of the fragrance Boss The Scent for Her is available as a 30ml EDP, 50ml EDP and 100ml EDP.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38998.jpg",
+    "rating": 3.85,
+    "ratingVotes": 4469,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 90
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 30
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 18
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 38998,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Boss The Scent For Her",
+    "brandFa": "هوگو باس",
+    "nameFa": "Boss The Scent For Her",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "هلو",
+      "فریزیا"
+    ],
+    "middleNotesFa": [
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "کاکائو"
+    ],
+    "descriptionFa": "این عطر گل‌میوه با رایحه‌های قوی گورماند ترکیب شده است و آن را به معادل صحنه عطر مدرن تبدیل می‌کند. ترکیب ترند گورماند در بسیاری از مجموعه‌های طراحان دیده می‌شود که نشان می‌دهد تمرکز بر شیرینی پیچیده است.</p> <p>جدیدترین عطر مجموعه Hugo Boss با رایحه‌های اولیه هلو که آبدار و مخملی هستند و با گل فریزا ترکیب شده‌اند، آغاز می‌شود. نت میانی بر پایه عطر اوسمانتوس است که به رایحه زردآلو معروف است، در حالی که",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Riiffs-Perfumes/Freeze-118093.html",
+    "extractedAt": "2026-11-24T18:48:05.476Z",
+    "name": "Freeze",
+    "brand": "Riiffs Perfumes",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Shinichiro Oba",
+    "topNotes": [
+      "Spearmint",
+      "Lemon Zest",
+      "Calabrian bergamot",
+      "Grapefruit",
+      "Snow"
+    ],
+    "middleNotes": [
+      "Ice",
+      "Tea",
+      "Ginger",
+      "Sage"
+    ],
+    "baseNotes": [
+      "Ambermax™",
+      "Peony",
+      "Cedar"
+    ],
+    "description": "A floral fragrance featuring a heart of jasmine and violet, complemented by blackcurrant. The composition opens with citrus notes of bergamot and orange, alongside saffron and candy, before settling into a warm base of amber, moss, cashmeran, and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118093.jpg",
+    "rating": 3.98,
+    "ratingVotes": 1890,
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 99
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 66
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 22
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 13
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 13
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 118093,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Freeze",
+    "brandFa": "Riiffs Perfumes",
+    "nameFa": "Freeze",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Shinichiro Oba",
+    "topNotesFa": [
+      "نعناع سبز",
+      "Lemon Zest",
+      "Calabrian bergamot",
+      "گریپ‌فروت",
+      "Snow"
+    ],
+    "middleNotesFa": [
+      "Ice",
+      "چای",
+      "زنجبیل",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "Ambermax™",
+      "گل داوودی",
+      "سرو"
+    ],
+    "descriptionFa": "یک رایحه گل‌دار با نت‌های میانی یاس و بنفشه، که با انگورفرنگی سیاه تکمیل می‌شود. این ترکیب با نت‌های مرکباتی ترنج و پرتقال، همراه با زعفران و آب‌نبات آغاز می‌شود و سپس در رایحه‌ای گرم از کهربا، خزه، کشمیران و مشک تثبیت می‌شود.",
+    "seasons": [
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/La-Fede/Aura-Vanilla-Milk-137095.html",
+    "extractedAt": "2026-11-24T18:48:11.447Z",
+    "name": "Aura Vanilla Milk",
+    "brand": "La Fede",
+    "family": "Woody Floral Musk",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Mandarin",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Freesia",
+      "Lily",
+      "Jasmine",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Amber",
+      "Vetiver"
+    ],
+    "description": "Aura Vanilla Milk by La Fede is a floral woody musk fragrance built around a bright opening of mandarin, bergamot, and pink pepper. The heart combines freesia, lily, lavender, and jasmine, while the base develops with sandalwood, amber, vetiver, and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137095.jpg",
+    "rating": 4.35,
+    "ratingVotes": 124,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 94
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 82
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 79
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 77
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 48
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 137095,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aura Vanilla Milk",
+    "brandFa": "La Fede",
+    "nameFa": "Aura Vanilla Milk",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "Mandarin",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "فریزیا",
+      "لاله",
+      "یاسمن",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "کهربا",
+      "وتیور"
+    ],
+    "descriptionFa": "Aura Vanilla Milk از برند La Fede یک عطر مشک‌دار گل‌دار و چوبی است که بر پایه نت‌های ابتدایی درخشان ماندارین، ترنج و فلفل صورتی ساخته شده است. در نت میانی، ترکیبی از فریزا، نیلوفر، اسطوخودوس و یاس حس می‌شود، در حالی که نت پایه با چوب صندل، عنبر، وتیور و مشک شکل می‌گیرد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ariana-Grande/Cloud-50384.html",
+    "extractedAt": "2026-11-24T18:48:17.080Z",
+    "name": "Cloud",
+    "brand": "Ariana Grande",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2018,
+    "perfumer": "Clement Gavarry",
+    "topNotes": [
+      "Lavender",
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Whipped Cream",
+      "Coconut",
+      "Praline",
+      "Vanilla Orchid"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50384.jpg",
+    "rating": 3.95,
+    "ratingVotes": 18031,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 49
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 24
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 19
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 17
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 50384,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cloud",
+    "brandFa": "Ariana Grande",
+    "nameFa": "Cloud",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Clement Gavarry",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "خامه زده",
+      "نارگیل",
+      "پرالین",
+      "Vanilla Orchid"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Woody Notes"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Louis-Vuitton/LV-Lovers-93785.html",
+    "extractedAt": "2026-11-24T18:48:22.016Z",
+    "name": "LV Lovers",
+    "brand": "Louis Vuitton",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "Jacques Cavallier Belletrud and Camille Cavallier",
+    "topNotes": [
+      "Galbanum",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Ginger",
+      "Solar Notes"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Cedarwood"
+    ],
+    "description": "LV Lovers by Louis Vuitton is a fragrance that embodies the metaphorical yet nostalgic scent of the sun. Created in collaboration with Pharrell Williams and Master Perfumer Jacques Cavallier-Belletrud, this scent symbolizes possibility and uplifting energy. It features notes of galbanum and ginger, capturing the essence of sunlight and the warmth it brings.</p> <p>Available in 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93785.jpg",
+    "rating": 3.97,
+    "ratingVotes": 1450,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 25
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 20
+      },
+      {
+        "nameEn": "bitter",
+        "nameFa": "تلخ",
+        "percent": 10
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 93785,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "LV Lovers",
+    "brandFa": "Louis Vuitton",
+    "nameFa": "LV Lovers",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jacques Cavallier Belletrud and Camille Cavallier",
+    "topNotesFa": [
+      "گلبانوم",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زنجبیل",
+      "Solar Notes"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "چوب سرو"
+    ],
+    "descriptionFa": "LV Lovers از Louis Vuitton عطری است که عطر استعاری اما نوستالژیک خورشید را متبلور می‌کند. این عطر که با همکاری فارل ویلیامز و استاد عطرساز ژاک کاوالیه-بلترود ساخته شده است، نمادی از امید و انرژی نشاط‌آور است. این عطر دارای رایحه‌های گلبانوم و زنجبیل است که ماهیت نور خورشید و گرمایی را که به همراه دارد، به تصویر می‌کشد.</p> <p>در حجم 100 میلی‌لیتر ادو پرفیوم عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/L-Heure-Bleue-2026-140083.html",
+    "extractedAt": "2026-11-24T18:48:28.955Z",
+    "name": "L'Heure Bleue 2026",
+    "brand": "Guerlain",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Delphine Jelk",
+    "topNotes": [
+      "Ozonic notes",
+      "Orange Blossom",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Orris",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Ambroxan",
+      "Musk"
+    ],
+    "description": "As day gives way to night, the sky deepens into blue: the blue hour has arrived. A captivating moment when everything shifts and anything feels possible.</p> <p>Inspired by this natural phenomenon, L’Heure Bleue Eau de Parfum captures the scent of the air at that fleeting instant when time appears to stand still. An amber-floral fragrance with an irresistibly lingering trail, it brings together the crystalline freshness of the evening air with the velvety softness of iris and vanilla. An invitation to experience every moment as a “blue hour,” suspended in possibility.</p> <p><em>“I wanted to capture the blue hour with the same tenderness as Jacques Guerlain’s L’Heure Bleue from 1912. It is a fragrance that envelops us in a scent that is powerful, yet soft and intimate.”</em></p> <p>— Delphine Jelk, Guerlain Perfumer and Director of Fragrance Creation</p> <p>The inverted-heart bottle is not only a true Guerlain icon but also the original flacon created for L’Heure Bleue in 1912. For this occasion, it returns in a newly reimagined design.</p> <p>Finished in a blue gradient that evokes a fragment of sky suspended between day and night, the bottle is distinguished by the fragrance name inscribed in gold lettering. Meticulously crafted like a precious jewel, it is adorned with a blue-accented collar. Designed to be refilled and treasured over time, it is an object of enduring beauty.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.140083.jpg",
+    "rating": 3.23,
+    "ratingVotes": 2557,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 99
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 92
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 80
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 70
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 140083,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Heure Bleue 2026",
+    "brandFa": "گرلن",
+    "nameFa": "L'Heure Bleue 2026",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Delphine Jelk",
+    "topNotesFa": [
+      "Ozonic notes",
+      "گل پرتقال",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "ریشه زنبق",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "آمبروکسان",
+      "موش"
+    ],
+    "descriptionFa": "همانطور که روز جای خود را به شب می‌دهد، آسمان به رنگ آبی تیره درمی‌آید: ساعت آبی فرا رسیده است. لحظه‌ای مسحورکننده که همه چیز تغییر می‌کند و هر چیزی ممکن به نظر می‌رسد.</p> <p>ادو پرفیوم L’Heure Bleue که از این پدیده طبیعی الهام گرفته است، رایحه هوا را در آن لحظه زودگذر که زمان به‌نظر می‌رسد متوقف شده است، به تصویر می‌کشد. این عطر که ترکیبی از رایحه کهربا و گل‌هاست و اثری ماندگار و غیرقابل مقاومت دارد، طراوت کریستالی هوای شب را با ... ترکیب می‌کند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
