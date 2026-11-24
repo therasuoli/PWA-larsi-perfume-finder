@@ -26396,5 +26396,4761 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/ZARF-148627.html",
+    "extractedAt": "2026-11-24T05:51:40.411Z",
+    "name": "ZARF",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Grapefruit",
+      "Mandarin Orange Blossom",
+      "Rose"
+    ],
+    "middleNotes": [
+      "Tangerine Zest",
+      "Black Currant",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Cistus Incanus",
+      "Coumarin",
+      "Labdanum",
+      "Musk",
+      "Patchouli",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148627.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 93
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 77
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 148627,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "ZARF",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "ZARF",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "گریپ‌فروت",
+      "Mandarin Orange Blossom",
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "Tangerine Zest",
+      "توت سیاه",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Cistus Incanus",
+      "Coumarin",
+      "لابدانوم",
+      "موش",
+      "پچولی",
+      "چوب صندل",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/COS/Memoire-148626.html",
+    "extractedAt": "2026-11-24T05:51:45.021Z",
+    "name": "Memoire",
+    "brand": "COS",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Coralie Spicher",
+    "topNotes": [
+      "Sesame",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Dreamwood",
+      "Copaiba balm"
+    ],
+    "description": "\"Each key ingredient was chosen for its creamy, tactile quality. In combination, they build a layered sensuality that is felt as much as it is smelled.\" – Coralie Spicher, Master Perfumer.</p> <p>\"Memoire strikes a chord of nostalgia – familiar but new. Made in Grasse, France. COS fragrances are formulated with 20% oil for a lasting finish.' -Cos.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148626.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 56
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 28
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 148626,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Memoire",
+    "brandFa": "COS",
+    "nameFa": "Memoire",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Coralie Spicher",
+    "topNotesFa": [
+      "Sesame",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Dreamwood",
+      "Copaiba balm"
+    ],
+    "descriptionFa": "«هر یک از مواد اولیه اصلی به دلیل کیفیت کرمی و لطیف بودنشان انتخاب شدند. این مواد در کنار هم، حسی چندلایه ایجاد می‌کنند که هم قابل لمس است و هم قابل استشمام.» – کورالی اسپیکر، استاد عطرساز.</p> <p>«Memoire حس نوستالژی را برمی‌انگیزد – آشنا اما جدید. ساخت گراس، فرانسه. عطرهای COS با 20% روغن فرموله شده‌اند تا ماندگاری طولانی‌تری داشته باشند.» -Cos.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/Virsa-148625.html",
+    "extractedAt": "2026-11-24T05:51:51.146Z",
+    "name": "Virsa",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "elemi",
+      "Honey",
+      "Mandarin Orange",
+      "Pink Pepper",
+      "Pear",
+      "Raspberry",
+      "Tangerine"
+    ],
+    "middleNotes": [
+      "Ambrette (Musk Mallow)",
+      "Cinnamon",
+      "Jasmine",
+      "Nutmeg",
+      "Orange Blossom",
+      "Rose",
+      "Saffron",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Amber",
+      "Cashmere Wood",
+      "Leather",
+      "Musk",
+      "Oakmoss",
+      "Patchouli",
+      "Sandalwood",
+      "Vetiver",
+      "Violet"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148625.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 75
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 71
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 62
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      }
+    ],
+    "fragranticaId": 148625,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Virsa",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "Virsa",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "elemi",
+      "عسل",
+      "نارنگی",
+      "فلفل صورتی",
+      "گلابی",
+      "تمشک",
+      "تانجرین"
+    ],
+    "middleNotesFa": [
+      "Ambrette (Musk Mallow)",
+      "دارچین",
+      "یاسمن",
+      "جوز هندی",
+      "گل پرتقال",
+      "گل رز",
+      "زعفران",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "کهربا",
+      "Cashmere Wood",
+      "چرم",
+      "موش",
+      "خزه بلوط",
+      "پچولی",
+      "چوب صندل",
+      "وتیور",
+      "بنفشه"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/Nazm-O-Zabt-148624.html",
+    "extractedAt": "2026-11-24T05:51:56.067Z",
+    "name": "Nazm O Zabt",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Red Mandarin",
+      "Apple",
+      "Pepper"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Lavender",
+      "Geranium",
+      "Violet",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Guaiac Wood",
+      "Musk",
+      "Patchouli",
+      "Sandalwood",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148624.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 97
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 93
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 85
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 80
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148624,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nazm O Zabt",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "Nazm O Zabt",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "Red Mandarin",
+      "سیب",
+      "فلفل"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "اسطوخودوس",
+      "گل جعفری",
+      "بنفشه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب گوئیک",
+      "موش",
+      "پچولی",
+      "چوب صندل",
+      "لوبیا تونکا",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/EMAAN-148623.html",
+    "extractedAt": "2026-11-24T05:51:59.575Z",
+    "name": "EMAAN",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Mandarin Orange",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Osmanthus",
+      "Immortelle",
+      "Nutmeg",
+      "Violet Leaf"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Davana",
+      "Cypriol Oil or Nagarmotha",
+      "Musk",
+      "Oakmoss",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148623.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 93
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 68
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 68
+      }
+    ],
+    "fragranticaId": 148623,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "EMAAN",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "EMAAN",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "نارنگی",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "اسمانتوس",
+      "Immortelle",
+      "جوز هندی",
+      "برگ بنفشه"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Davana",
+      "Cypriol Oil or Nagarmotha",
+      "موش",
+      "خزه بلوط",
+      "چوب صندل",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/ETIHAD-148622.html",
+    "extractedAt": "2026-11-24T05:52:04.571Z",
+    "name": "ETIHAD",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Raspberry",
+      "Rose",
+      "Indian Oud"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Benzoin",
+      "Birch",
+      "Incense",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148622.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 69
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 59
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 55
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 34
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148622,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "ETIHAD",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "ETIHAD",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "تمشک",
+      "گل رز",
+      "Indian Oud"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "بنزوئین",
+      "توس",
+      "عود بخور",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/EHAD-148621.html",
+    "extractedAt": "2026-11-24T05:52:08.015Z",
+    "name": "EHAD",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Cambodian Oud",
+      "Floral Notes"
+    ],
+    "middleNotes": [
+      "Dried Fruits",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Labdanum",
+      "Olibanum",
+      "Musk",
+      "Woody Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148621.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 41
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 20
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 148621,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "EHAD",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "EHAD",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "Cambodian Oud",
+      "Floral Notes"
+    ],
+    "middleNotesFa": [
+      "Dried Fruits",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "لابدانوم",
+      "کندر",
+      "موش",
+      "Woody Notes"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/AZM-148620.html",
+    "extractedAt": "2026-11-24T05:52:11.928Z",
+    "name": "AZM",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Pink Pepper",
+      "Pimento"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Saffron",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Akigalawood",
+      "Frankincense",
+      "Isobutyl Quinoline",
+      "Papyrus",
+      "Musk",
+      "Myrrh",
+      "Suede",
+      "Vetiver",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148620.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 148620,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "AZM",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "AZM",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل صورتی",
+      "فلفل هلندی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "زعفران",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "Akigalawood",
+      "کندر",
+      "Isobutyl Quinoline",
+      "پاپیروس",
+      "موش",
+      "مور",
+      "چرم جیر",
+      "وتیور",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/Majlis-E-Ishq-148619.html",
+    "extractedAt": "2026-11-24T05:52:16.453Z",
+    "name": "Majlis E Ishq",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "cannabis",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Licorice",
+      "Vanilla",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Agarwood (Oud)",
+      "Hashish",
+      "Patchouli",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148619.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 88
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 74
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 71
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 65
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 65
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 148619,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Majlis E Ishq",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "Majlis E Ishq",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "cannabis",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "شیرین‌بیان",
+      "وانیل",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Agarwood (Oud)",
+      "Hashish",
+      "پچولی",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/The-Last-Majlis-148618.html",
+    "extractedAt": "2026-11-24T05:52:21.176Z",
+    "name": "The Last Majlis",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Lavender",
+      "Olibanum"
+    ],
+    "middleNotes": [
+      "Nutmeg",
+      "Saffron"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Agarwood (Oud)",
+      "Patchouli",
+      "Incense",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148618.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 86
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 71
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 34
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 34
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148618,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Last Majlis",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "The Last Majlis",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "اسطوخودوس",
+      "کندر"
+    ],
+    "middleNotesFa": [
+      "جوز هندی",
+      "زعفران"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Agarwood (Oud)",
+      "پچولی",
+      "عود بخور",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/Sheikh-Sahab-148617.html",
+    "extractedAt": "2026-11-24T05:52:25.661Z",
+    "name": "Sheikh Sahab",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Citruses",
+      "Burnt Sugar",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Jasmine",
+      "Lavender",
+      "Orchid",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Bakhoor",
+      "Ambrofix™",
+      "Musk",
+      "Olibanum",
+      "Patchouli",
+      "Resins",
+      "Oakmoss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148617.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 87
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 79
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 76
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 63
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 63
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 148617,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sheikh Sahab",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "Sheikh Sahab",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "مرکبات",
+      "Burnt Sugar",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "یاسمن",
+      "اسطوخودوس",
+      "Orchid",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "Bakhoor",
+      "Ambrofix™",
+      "موش",
+      "کندر",
+      "پچولی",
+      "رزین‌ها",
+      "خزه بلوط"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/Nawab-148616.html",
+    "extractedAt": "2026-11-24T05:52:30.860Z",
+    "name": "Nawab",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Blood Orange",
+      "Pink Pepper",
+      "Aldehydes"
+    ],
+    "middleNotes": [
+      "Floral Notes",
+      "Green Notes",
+      "Spicy Notes"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Ambergris",
+      "Resins",
+      "Vetiver",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148616.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 95
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 65
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148616,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nawab",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "Nawab",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "پرتقال خونی",
+      "فلفل صورتی",
+      "آلدهیدها"
+    ],
+    "middleNotesFa": [
+      "Floral Notes",
+      "نت‌های سبز",
+      "Spicy Notes"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "کهربا خاکستری",
+      "رزین‌ها",
+      "وتیور",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Asad-Siddiki/Belle-148615.html",
+    "extractedAt": "2026-11-24T05:52:34.542Z",
+    "name": "Belle",
+    "brand": "Asad Siddiki",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Asad Ali Siddiki",
+    "topNotes": [
+      "Bergamot",
+      "Bergamot Blossom",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Gourmand Accord",
+      "Ginger"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla Absolute"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148615.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 89
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 64
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 56
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 56
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148615,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Belle",
+    "brandFa": "Asad Siddiki",
+    "nameFa": "Belle",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Asad Ali Siddiki",
+    "topNotesFa": [
+      "برگاموت",
+      "Bergamot Blossom",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "Gourmand Accord",
+      "زنجبیل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Vanilla Absolute"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Crema-di-Pistacchio-148614.html",
+    "extractedAt": "2026-11-24T05:52:39.661Z",
+    "name": "Crema di Pistacchio",
+    "brand": "Maison Chanceux",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Pistachio"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Orris"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Crema di Pistacchio by Maison Chanceux is a nutty, sweet fragrance created by Lucky Armstrong and launched in August 2025. It opens with pistachio, develops through jasmine and orris, and settles on vanilla, musk and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148614.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 89
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 53
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 53
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 21
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 148614,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Crema di Pistacchio",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Crema di Pistacchio",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "پسته"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Crema di Pistacchio از برند Maison Chanceux یک عطر شیرین با رایحه آجیل است که توسط لاکی آرمسترانگ ساخته شده و در آگوست ۲۰۲۵ عرضه شده است. این عطر با رایحه پسته آغاز می‌شود، سپس به رایحه‌های یاس و زنبق می‌رسد و در نهایت با رایحه‌های وانیل، مشک و چوب صندل تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Late-Night-Affair-148613.html",
+    "extractedAt": "2026-11-24T05:52:45.480Z",
+    "name": "Late Night Affair",
+    "brand": "Maison Chanceux",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Cinnamon",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Chocolate",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Late Night Affair by Maison Chanceux is an oriental vanilla fragrance created by Lucky Armstrong and launched in 2026. It opens with cinnamon and citrus zest, followed by chocolate and rose, over a base of vanilla, tonka bean, musk and woody notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148613.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 88
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 59
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 59
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 148613,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Late Night Affair",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Late Night Affair",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "دارچین",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "شکلات",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "موش",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Late Night Affair از برند Maison Chanceux یک عطر وانیلی شرقی است که توسط لاکی آرمسترانگ ساخته شده و در سال 2026 عرضه شده است. این عطر با رایحه دارچین و پوست مرکبات آغاز می‌شود، سپس رایحه شکلات و گل رز به مشام می‌رسد و در نهایت رایحه پایه وانیل، دانه‌ی تونکا، مشک و نت‌های چوبی حس می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Marshmallow-Island-148612.html",
+    "extractedAt": "2026-11-24T05:52:51.465Z",
+    "name": "Marshmallow Island",
+    "brand": "Maison Chanceux",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Raspberry",
+      "Pear"
+    ],
+    "baseNotes": [
+      "Marshmallow",
+      "Violet"
+    ],
+    "description": "Marshmallow Island by Maison Chanceux is a floral fruity gourmand fragrance launched in 2024. Grapefruit opens the composition, followed by raspberry and pear over a base of marshmallow and violet.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148612.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 88
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 50
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 25
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 148612,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Marshmallow Island",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Marshmallow Island",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "تمشک",
+      "گلابی"
+    ],
+    "baseNotesFa": [
+      "مارشمالو",
+      "بنفشه"
+    ],
+    "descriptionFa": "Marshmallow Island از برند Maison Chanceux یک عطر گلی میوه‌ای گورماند است که در سال 2024 عرضه شد. گریپ‌فروت رایحه آغازین این ترکیب است که به دنبال آن تمشک و گلابی بر پایه مارشمالو و بنفشه قرار می‌گیرند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/7-Slices-148611.html",
+    "extractedAt": "2026-11-24T05:52:56.729Z",
+    "name": "7 Slices",
+    "brand": "Maison Chanceux",
+    "family": "Citrus Gourmand",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Lemon",
+      "Lime"
+    ],
+    "middleNotes": [
+      "Cake"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "7 Slices by Maison Chanceux is a citrus gourmand fragrance created by Lucky Armstrong and launched in 2025. Lemon and lime open the composition, followed by a cake accord over a base of vanilla and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148611.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 25
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 15
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 148611,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "7 Slices",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "7 Slices",
+    "familyFa": "Citrus Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "لیمو",
+      "لیمو سبز"
+    ],
+    "middleNotesFa": [
+      "Cake"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "7 Slices از برند Maison Chanceux یک عطر مرکباتی گورماند است که توسط لاکی آرمسترانگ ساخته شده و در سال 2025 عرضه شده است. ترکیب رایحه با لیمو شیرین و لیمو ترش آغاز می‌شود و پس از آن، نت کیک بر پایه وانیل و مشک قرار می‌گیرد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Muffin-Man-148610.html",
+    "extractedAt": "2026-11-24T05:53:02.053Z",
+    "name": "Muffin Man",
+    "brand": "Maison Chanceux",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Blueberry",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Tuberose"
+    ],
+    "description": "Muffin Man by Maison Chanceux is a floral fruity gourmand fragrance created by Lucky Armstrong and launched in November 2024. It opens with blueberry and lemon, followed by muffin, cinnamon and vanilla, over a base of tonka bean and tuberose.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148610.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 59
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 59
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 59
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 59
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 148610,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Muffin Man",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Muffin Man",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "بلوبری",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "گل شیپور"
+    ],
+    "descriptionFa": "Muffin Man از برند Maison Chanceux یک عطر گلی میوه‌ای گورماند است که توسط لاکی آرمسترانگ ساخته شده و در نوامبر ۲۰۲۴ عرضه شده است. این عطر با رایحه بلوبری و لیمو آغاز می‌شود، سپس رایحه‌های مافین، دارچین و وانیل به مشام می‌رسند و در نهایت رایحه‌های دانه‌ی تونکا و گل مریم به عنوان نت‌های پایه حس می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Winter-Tea-148609.html",
+    "extractedAt": "2026-11-24T05:53:07.563Z",
+    "name": "Winter Tea",
+    "brand": "Maison Chanceux",
+    "family": "Aromatic Green",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Green Tea",
+      "Black Tea"
+    ],
+    "middleNotes": [
+      "Snow",
+      "Chamomile",
+      "Fir"
+    ],
+    "baseNotes": [
+      "Musk"
+    ],
+    "description": "Winter Tea by Maison Chanceux is a green aromatic fragrance created by Lucky Armstrong and launched in December 2025. It opens with green tea and black tea, followed by snow, chamomile and fir balsam, over a base of musk and cashmere.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148609.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 53
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 47
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 47
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148609,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Winter Tea",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Winter Tea",
+    "familyFa": "Aromatic Green",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "چای سبز",
+      "چای سیاه"
+    ],
+    "middleNotesFa": [
+      "Snow",
+      "بابونه",
+      "نراد"
+    ],
+    "baseNotesFa": [
+      "موش"
+    ],
+    "descriptionFa": "Winter Tea از برند Maison Chanceux یک عطر معطر سبز است که توسط لاکی آرمسترانگ ساخته شده و در دسامبر ۲۰۲۵ عرضه شده است. این عطر با رایحه‌های چای سبز و چای سیاه آغاز می‌شود و سپس رایحه‌های برف، بابونه و صمغ درخت صنوبر، بر روی پایه‌ای از مشک و کشمیر قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Nocturnal-Vanille-148608.html",
+    "extractedAt": "2026-11-24T05:53:13.055Z",
+    "name": "Nocturnal Vanille",
+    "brand": "Maison Chanceux",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Cream",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Ambroxan",
+      "Vanilla Absolute"
+    ],
+    "description": "Nocturnal Vanille by Maison Chanceux is an Oriental Vanilla fragrance created by Lucky Armstrong and launched in 2026. It opens with pink pepper and bergamot, followed by vanilla cream and tonka bean over a base of benzoin, Ambroxan and vanilla absolute.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148608.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 94
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 26
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 148608,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nocturnal Vanille",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Nocturnal Vanille",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "خامه",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "آمبروکسان",
+      "Vanilla Absolute"
+    ],
+    "descriptionFa": "Nocturnal Vanille از برند Maison Chanceux یک عطر شرقی وانیلی است که توسط لاکی آرمسترانگ ساخته شده و در سال 2026 عرضه شده است. این عطر با فلفل صورتی و ترنج آغاز می‌شود، سپس رایحه‌های کرم وانیلی و دانه‌ی تونکا بر روی پایه‌ای از بنزوئین، آمبروکسان و عصاره خالص وانیل قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Cabana-Summer-148607.html",
+    "extractedAt": "2026-11-24T05:53:19.306Z",
+    "name": "Cabana Summer",
+    "brand": "Maison Chanceux",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Apple",
+      "Kiwi",
+      "Rhubarb",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Aquatic notes",
+      "Floral Notes",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Cabana Summer by Maison Chanceux is a floral fruity fragrance launched in May 2026 and created by Lucky Armstrong. It opens with apple, kiwi, rhubarb and citruses, followed by aquatic floral notes, jasmine and rose over a base of white musk, sandalwood and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148607.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 65
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 61
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 54
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 48
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 46
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 148607,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cabana Summer",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Cabana Summer",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "سیب",
+      "Kiwi",
+      "Rhubarb",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "Aquatic notes",
+      "Floral Notes",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "descriptionFa": "Cabana Summer از برند Maison Chanceux یک عطر میوه‌ای-گلی است که در ماه مه ۲۰۲۶ عرضه شد و توسط لاکی آرمسترانگ ساخته شده است. این عطر با رایحه‌های سیب، کیوی، ریواس و مرکبات آغاز می‌شود و سپس رایحه‌های گل‌های دریایی، یاسمن و رز بر روی پایه‌ای از مشک سفید، چوب صندل و عنبر قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Fruit-of-Gold-148606.html",
+    "extractedAt": "2026-11-24T05:53:24.716Z",
+    "name": "Fruit of Gold",
+    "brand": "Maison Chanceux",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Mandarin Orange",
+      "Pear",
+      "Passionfruit"
+    ],
+    "middleNotes": [
+      "Peach",
+      "Rose",
+      "Creamy notes",
+      "White Flowers"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Fruit of Gold by Maison Chanceux is a floral fruity gourmand fragrance created by Lucky Armstrong and scheduled for launch in 2026. It opens with mandarin orange, pear and passionfruit, moves to peach, rose, creamy notes and white flowers, and settles on vanilla, amber and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148606.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 44
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 148606,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fruit of Gold",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Fruit of Gold",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "نارنگی",
+      "گلابی",
+      "Passionfruit"
+    ],
+    "middleNotesFa": [
+      "هلو",
+      "گل رز",
+      "Creamy notes",
+      "گل‌های سفید"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Fruit of Gold از Maison Chanceux یک عطر گلی میوه‌ای گورماند است که توسط لاکی آرمسترانگ ساخته شده و قرار است در سال 2026 عرضه شود. این عطر با نارنگی، گلابی و میوه گل‌شور شروع می‌شود، سپس به هلو، گل رز، رایحه‌های خامه‎‌مانند و گلهای سفید می‌رسد و در نهایت بر پایه وانیل، عنبر و چوب صندل قرار می‌گیرد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roelen/Aqua-Ultra-148605.html",
+    "extractedAt": "2026-11-24T05:53:30.805Z",
+    "name": "Aqua Ultra",
+    "brand": "Roelen",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Edip Göktuğ Kumral",
+    "topNotes": [
+      "Sea Salt",
+      "Violet Leaf",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Vetiver",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Ambrette",
+      "Frankincense"
+    ],
+    "description": "<em>Eau de Cologne / Unisex: </em>Aqua Ultra is the classic cologne, reimagined. The 1990s gave us scents you wore every day without thinking too much. Fresh, easy, splashed on and reached for again. Aqua Ultra keeps that effortless ease but anchors it with a sophisticated composition underneath.</p> <p>It opens fresh and mineralic: sea salt layered over violet leaf and aromatic cardamom. Vetiver and iris bring a warm, sensual depth, while the soft musk of ambrette seed and frankincense resin keep it close to the skin. Clean from a distance, quietly complex up close.</p> <p>While traditional fresh colognes have historically leaned masculine, Aqua Ultra is 100% unisex and was created for everyone.\" -Roelen.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148605.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 65
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 65
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 61
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 148605,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aqua Ultra",
+    "brandFa": "Roelen",
+    "nameFa": "Aqua Ultra",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Edip Göktuğ Kumral",
+    "topNotesFa": [
+      "نمک دریا",
+      "برگ بنفشه",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "وتیور",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "دانه ابرکفش",
+      "کندر"
+    ],
+    "descriptionFa": "<em>ادکلن / یونیسکس: </em>Aqua Ultra ادکلن کلاسیک است که بازطراحی شده است. دهه 1990 عطرهایی را به ما هدیه داد که هر روز بدون فکر زیاد از آنها استفاده می‌کردیم. خوشبو، ساده، با یک اسپری روی پوست می‌نشست و دوباره به سراغش می‌رفتیم. Aqua Ultra این راحتی بی‌زحمت را حفظ می‌کند، اما آن را با ترکیبی پیچیده در زیر تثبیت می‌کند.</p> <p>با رایحه‌ای تازه و معدنی آغاز می‌شود: نمک دریا بر روی برگ بنفشه و هل معطر قرار گرفته است. وتیور و زنبق عمقی گرم و حسی ایجاد می‌کنند، در حالی که",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/First-Class-148604.html",
+    "extractedAt": "2026-11-24T05:53:37.268Z",
+    "name": "First Class",
+    "brand": "Maison Chanceux",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Pineapple",
+      "Bergamot",
+      "Grapefruit",
+      "Ginger",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Black Tea",
+      "Violet",
+      "Woody Notes",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Cedarwood",
+      "Sandalwood",
+      "Moss",
+      "Amber",
+      "Musk"
+    ],
+    "description": "First Class by Maison Chanceux is a woody spicy fragrance created by Lucky Armstrong and launched in October 2026. It opens with pineapple, bergamot, grapefruit, ginger and pink pepper, followed by black tea, violet and woody notes over a base of vetiver, cedarwood, sandalwood, moss, amber and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148604.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148604,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "First Class",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "First Class",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "آناناس",
+      "برگاموت",
+      "گریپ‌فروت",
+      "زنجبیل",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "چای سیاه",
+      "بنفشه",
+      "Woody Notes",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "چوب سرو",
+      "چوب صندل",
+      "خزه",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "First Class از Maison Chanceux یک عطر چوبی تند است که توسط لاکی آرمسترانگ ساخته شده و در اکتبر ۲۰۲۶ عرضه شده است. این عطر با رایحه‌های آناناس، ترنج، گریپ‌فروت، زنجبیل و فلفل صورتی آغاز می‌شود و سپس رایحه‌های چای سیاه، بنفشه و نت‌های چوبی بر روی پایه‌ای از خس‌خس، چوب سدر، چوب صندل، خزه، عنبر و مشک ظاهر می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Cold-Current-148603.html",
+    "extractedAt": "2026-11-24T05:53:43.833Z",
+    "name": "Cold Current",
+    "brand": "Maison Chanceux",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Bergamot",
+      "Sicilian Lemon",
+      "Mandarin Orange",
+      "Grapefruit",
+      "Rhubarb"
+    ],
+    "middleNotes": [
+      "Black Tea",
+      "Black Currant",
+      "Ginger",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambroxan",
+      "Cedarwood",
+      "Amber"
+    ],
+    "description": "Cold Current by Maison Chanceux is a citrus aromatic fragrance created by Lucky Armstrong and launched in May 2026. It combines bergamot, Sicilian lemon, mandarin orange, grapefruit and rhubarb with black tea, black currant, ginger and cardamom over a woody base of musk, ambroxan, cedarwood and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148603.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 46
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 148603,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cold Current",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Cold Current",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "برگاموت",
+      "Sicilian Lemon",
+      "نارنگی",
+      "گریپ‌فروت",
+      "Rhubarb"
+    ],
+    "middleNotesFa": [
+      "چای سیاه",
+      "توت سیاه",
+      "زنجبیل",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "آمبروکسان",
+      "چوب سرو",
+      "کهربا"
+    ],
+    "descriptionFa": "Cold Current از برند Maison Chanceux یک عطر مرکباتی معطر است که توسط لاکی آرمسترانگ ساخته شده و در ماه مه ۲۰۲۶ عرضه شده است. این عطر ترکیبی از رایحه‌های ترنج، لیموی سیسیل، نارنگی، گریپ‌فروت و ریواس همراه با چای سیاه، انگور فرنگی سیاه، زنجبیل و هل است که بر پایه رایحه‌های چوبی مشک، آمبروکسان، چوب سدر و عنبر قرار دارد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Chanceux/Come-Find-Me-148602.html",
+    "extractedAt": "2026-11-24T05:53:49.861Z",
+    "name": "Come Find Me",
+    "brand": "Maison Chanceux",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Lucky Armstrong",
+    "topNotes": [
+      "Citruses",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "White Flowers"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Musk"
+    ],
+    "description": "Come Find Me by Maison Chanceux is a floral fruity fragrance launched in 2026. It opens with citruses and pear, followed by a heart of vanilla and white flowers, and settles into amber, cashmere and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148602.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 95
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 80
+      }
+    ],
+    "fragranticaId": 148602,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Come Find Me",
+    "brandFa": "Maison Chanceux",
+    "nameFa": "Come Find Me",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lucky Armstrong",
+    "topNotesFa": [
+      "مرکبات",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "گل‌های سفید"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "Come Find Me از برند Maison Chanceux یک عطر میوه‌ای-گل‌دار است که در سال 2026 عرضه شد. این عطر با رایحه‌های مرکبات و گلابی آغاز می‌شود، سپس به رایحه‌های میانی وانیل و گلهای سفید می‌رسد و در نهایت به رایحه‌های پایه عنبر، کشمیر و مشک می‌نشیند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roelen/Touch-148601.html",
+    "extractedAt": "2026-11-24T05:53:55.129Z",
+    "name": "Touch",
+    "brand": "Roelen",
+    "family": "Aromatic Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Edip Göktuğ Kumral",
+    "topNotes": [
+      "Grapefruit",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Ylang Ylang",
+      "Sage"
+    ],
+    "baseNotes": [
+      "Frankincense",
+      "Musk"
+    ],
+    "description": "\"Grapefruit and ginger open bright and sparkling, juicy but never sweet, with a light spicy edge. In the heart, a soft milky accord meets creamy ylang ylang and fresh sage. Frankincense and musk form the base, smoky, sensual and warm on the skin.</p> <p>\"TOUCH was created with London based LN-CC, where high fashion and club culture have always lived under one roof. Alongside its edit of directional designer fashion, LN-CC runs its own club space, L8te. TOUCH launched there in October 2026.\" -Roelen.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148601.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 75
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 75
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 72
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 62
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 56
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148601,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Touch",
+    "brandFa": "Roelen",
+    "nameFa": "Touch",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Edip Göktuğ Kumral",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "Ylang Ylang",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "کندر",
+      "موش"
+    ],
+    "descriptionFa": "«گریپ‌فروت و زنجبیل با رایحه‌ای درخشان و درخشان، آبدار اما هرگز شیرین، با حاشیه‌ای کمی تند آغاز می‌شوند. در نت میانی، ترکیبی ملایم و شیری با رایحه خامه ای یلانگ یلانگ و مریم گلی تازه ترکیب می‌شود. کندر و مشک پایه را تشکیل می‌دهند که دودی، شهوانی و گرم روی پوست هستند.</p> <p>«TOUCH با همکاری LN-CC مستقر در لندن خلق شد، جایی که مد سطح بالا و فرهنگ کلاب همیشه زیر یک سقف بوده‌اند. LN-CC در کنار مجموعه مد طراحان پیشرو خود، فضای کلوپ مخصوص خود را نیز اداره می‌کند،",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roelen/Souk-148600.html",
+    "extractedAt": "2026-11-24T05:54:00.389Z",
+    "name": "Souk",
+    "brand": "Roelen",
+    "family": "Chypre",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jorge Lee",
+    "topNotes": [
+      "Peppermint",
+      "Petrichor"
+    ],
+    "middleNotes": [
+      "Linden Blossom",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Labdanum",
+      "Vetiver",
+      "Oakmoss"
+    ],
+    "description": "\"The scent of a place where people not only trade goods but stories from far away – an exchange of cultures. SOUK is a reminder of old trade routes and their impact on our culture today. A clash of fresh peppermint and petrichor with warm, earthy patchouli. In a blend with linden blossom and herbs, the rich, woody notes of oakmoss ground it all, evoking the sights, scents, and stories that bring the vibrant markets to life.\" - Roelen.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148600.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 89
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 76
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 74
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 53
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 53
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 148600,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Souk",
+    "brandFa": "Roelen",
+    "nameFa": "Souk",
+    "familyFa": "شیپر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jorge Lee",
+    "topNotesFa": [
+      "نعناع فلفلی",
+      "Petrichor"
+    ],
+    "middleNotesFa": [
+      "Linden Blossom",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "لابدانوم",
+      "وتیور",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "«رایحه مکانی که در آن مردم نه تنها کالاها، بلکه داستان‌هایی از سرزمین‌های دور را مبادله می‌کنند – مبادله‌ای بین فرهنگ‌ها. SOUK یادآور مسیرهای تجاری قدیمی و تأثیر آنها بر فرهنگ امروزی ماست. ترکیبی از رایحه نعناع فلفلی تازه و پتریکور با رایحه گرم و خاکی نعناع هندی. در ترکیبی با گل درخت آهک و گیاهان معطر، رایحه‌های غنی و چوبی خزه بلوط همه چیز را متعادل می‌کند و مناظر، عطرها و داستان‌هایی را تداعی می‌کند که بازارهای پر جنب‌وجوش را زنده می‌کند.» - رولن.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/House-of-Cosmo/Lux-Prima-Limited-Edition-148599.html",
+    "extractedAt": "2026-11-24T05:54:05.540Z",
+    "name": "Lux Prima Limited Edition",
+    "brand": "House of Cosmo",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Ugo Charron",
+    "topNotes": [
+      "Bergamot",
+      "Grapefruit",
+      "Green Mandarin",
+      "Yuzu"
+    ],
+    "middleNotes": [
+      "Mineral notes",
+      "Saffron",
+      "Nutmeg",
+      "Ginger"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sublimolide™",
+      "Orcanox™",
+      "Suede",
+      "Oakmoss"
+    ],
+    "description": "Lux Prima Limited Edition by House of Cosmo is a unisex fragrance launched in 2026. It opens with bergamot, grapefruit, green mandarin and yuzu, followed by mineral notes, saffron, nutmeg and ginger over a base of musk, Sublimolide, Orcanox, suede and oakmoss.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148599.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 69
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 26
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 24
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 24
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148599,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lux Prima Limited Edition",
+    "brandFa": "House of Cosmo",
+    "nameFa": "Lux Prima Limited Edition",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Ugo Charron",
+    "topNotesFa": [
+      "برگاموت",
+      "گریپ‌فروت",
+      "Green Mandarin",
+      "یوزو"
+    ],
+    "middleNotesFa": [
+      "Mineral notes",
+      "زعفران",
+      "جوز هندی",
+      "زنجبیل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Sublimolide™",
+      "Orcanox™",
+      "چرم جیر",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "Lux Prima Limited Edition از برند House of Cosmo یک عطر یونیسکس است که در سال 2026 عرضه شد. این عطر با رایحه‌های ترنج، گریپ‌فروت، نارنگی سبز و یوزو آغاز می‌شود و سپس رایحه‌های معدنی، زعفران، جوز هندی و زنجبیل بر روی پایه‌ای از مشک، سابلیمولید، اورکاناکس، جیر و خزه بلوط ظاهر می‌شوند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html",
+    "extractedAt": "2026-11-24T05:54:10.009Z",
+    "name": "Shaghaf Oud Elixir",
+    "brand": "Swiss Arabian",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Oud",
+      "Saffron",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Oud",
+      "Praline",
+      "Rose",
+      "Sage"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Introducing Shaghaf Oud Elixir, an exquisite fragrance that elevates your senses to new heights. Building upon the foundation of our globally best-selling Shaghaf Oud, this flanker amplifies the allure with an intensified fusion of scents.</p> <p>The journey begins with the captivating top notes of saffron, oud, and pink pepper, creating an immediate and irresistible aura. As the scent evolves, the heart reveals a symphony of rose, praline, oud, and sage, intertwining to captivate the senses with their harmonious blend. The base notes of oud, vanilla, amber, and musk add depth and complexity, leaving a trail that evokes warmth and sensuality. Oud brings an alluring intensity, while vanilla and praline provide a touch of sweetness. Oriental and musk envelop you in a comforting embrace.</p> <p>Shaghaf Oud Elixir is a fragrance that transcends expectations, enveloping you in an intoxicating elixir of scents that reflect your unique charm and sophistication. Experience Shaghaf Oud Elixir and elevate your senses to a new realm of allure.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89408.jpg",
+    "rating": 4.28,
+    "ratingVotes": 363,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 99
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 55
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 89408,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Shaghaf Oud",
+    "brandFa": "Swiss Arabian",
+    "nameFa": "Shaghaf Oud Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عود",
+      "زعفران",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "عود",
+      "پرالین",
+      "گل رز",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "وانیل",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "معرفی Shaghaf Oud Elixir، عطری نفیس که حواس شما را به سطوح جدیدی ارتقا می‌دهد. این عطر که بر اساس عطر پرفروش جهانی ما، شَغَف عود، ساخته شده است، با ترکیبی قوی‌تر از رایحه‌ها، جذابیت را افزایش می‌دهد.</p> <p>این سفر با نت‌های ابتدایی جذاب زعفران، عود و فلفل صورتی آغاز می‌شود و هاله‌ای فوری و مقاومت‌ناپذیر ایجاد می‌کند. با تکامل رایحه، نت‌های میانی سمفونی‌ای از گل رز، پرالین، عود،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nest/Indigo-26845.html",
+    "extractedAt": "2026-11-24T05:54:15.831Z",
+    "name": "Indigo",
+    "brand": "Nest",
+    "family": "Aromatic Spicy",
+    "gender": "women and men",
+    "year": 2014,
+    "perfumer": null,
+    "topNotes": [
+      "Fig",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tea",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "Cashmere Wood"
+    ],
+    "description": "To complement its Paradise edition, presented in 2014, the house of Nest presents another fragrant creation designed exclusively for Sephora. The scent is named Indigo and, just like the rest of the Nest collection, it is inspired by works of Mary Delany, who was a British artist of the 18th century, famous for her exquisitely detailed paper-cut mosaics of plants and flowers. Mary first began to create cut-out paper artworks in the decoupage technique, to create detailed depictions of plants. She later perfected her technique using tissue paper and hand coloration. Each of the fragrances of the Nest collection is decorated with artworks selected by Laura Slatkin, the creator of the Nest Fine Fragrance collection, reinterpreted by Russian artist Alexander Solodukho.</p> <p>Indigo offers an opulent composition that starts with fresh notes of bergamot, blending citrus freshness with aromatic nuances of wild figs. The new edition is characterized by its distinctive chords of Moroccan tea, warm cashmere wood, and spicy cardamom. The fragrance is available as 50 ml Eau de Parfum, and as a 10 ml rollerball edition.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26845.jpg",
+    "rating": 4.2,
+    "ratingVotes": 4115,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 99
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 90
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 53
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 26845,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Indigo",
+    "brandFa": "Nest",
+    "nameFa": "Indigo",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "انجیر",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "چای",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "Cashmere Wood"
+    ],
+    "descriptionFa": "خانه عطر Nest برای تکمیل مجموعه Paradise خود که در سال 2014 عرضه شد، یک عطر دیگر را که منحصراً برای Sephora طراحی شده است، معرفی می‌کند. نام این عطر Indigo است و درست مانند سایر محصولات مجموعه Nest، از آثار مری دلانی، هنرمند بریتانیایی قرن هجدهم، که به خاطر موزاییک‌های کاغذی بسیار دقیق خود از گیاهان و گل‌ها شهرت داشت، الهام گرفته شده است. مری برای اولین بار شروع به خلق آثار هنری کاغذی برش‌خورده با تکنیک دکوپاژ کرد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Mirages-Desert-Serenade-51518.html",
+    "extractedAt": "2026-11-24T05:54:22.112Z",
+    "name": "Mirages Desert Serenade",
+    "brand": "Prada",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Cumin",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Honey",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Cypress",
+      "Musk"
+    ],
+    "description": "In 2018, three new fragrances are launched as a part of the Prada Mirages collection - Moonlight Shadow, Babylon and Desert Serenade. The creations are signed by perfumer Daniela Andrier.</p> <p>Desert Serenade is announced as a darkly elegant scent of honeyed leather, which represents a moment when day turns into night and the omen of an elegant love story on the horizon. Cumin and saffron precede the heart of leather and honey, leaning against the base of cypress and musk.</p> <p>The fragrances are available as 100 ml Eau de Parfum.<br />",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51518.jpg",
+    "rating": 4.29,
+    "ratingVotes": 96,
+    "accords": [
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 85
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 51518,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mirages Desert Serenade",
+    "brandFa": "پرادا",
+    "nameFa": "Mirages Desert Serenade",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "زیره",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "سرو کوهی",
+      "موش"
+    ],
+    "descriptionFa": "در سال 2018، سه عطر جدید به عنوان بخشی از مجموعه Prada Mirages عرضه شدند - Moonlight Shadow، Babylon و Desert Serenade. این عطرها توسط عطرساز دانیلا آندریر ساخته شده‌اند.</p> <p>Desert Serenade به عنوان عطر شیک و تیره چرم عسلی معرفی می‌شود که لحظه‌ای را نشان می‌دهد که روز به شب تبدیل می‌شود و نوید یک داستان عاشقانه شیک در افق را می‌دهد. رایحه زیره و زعفران پیش از رایحه اصلی چرم و عسل احساس می‌شود و در کنار",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Dua-Brand/Dessert-Affair-140483.html",
+    "extractedAt": "2026-11-24T05:54:28.324Z",
+    "name": "Dessert Affair",
+    "brand": "The Dua Brand",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Powdered Sugar",
+      "Whipped Cream"
+    ],
+    "middleNotes": [
+      "Ice cream",
+      "Waffle",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Dessert Affair by The Dua Brand is a sweet gourmand fragrance built around creamy and confectionery notes. It opens with whipped cream and powdered sugar, develops into a heart of iris, ice cream, and waffle, and settles into a warm base of vanilla and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.140483.jpg",
+    "rating": 4.25,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 76
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 24
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 19
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 140483,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dessert Affair",
+    "brandFa": "The Dua Brand",
+    "nameFa": "Dessert Affair",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Powdered Sugar",
+      "خامه زده"
+    ],
+    "middleNotesFa": [
+      "Ice cream",
+      "Waffle",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا"
+    ],
+    "descriptionFa": "Dessert Affair از برند The Dua یک عطر شیرین گورماند است که بر پایه رایحه‌های خامه و شیرینی ساخته شده است. این عطر با رایحه خامه فرم گرفته و پودر شکر آغاز می‌شود، سپس به رایحه میانی زنبق، بستنی و وافل می‌رسد و در نهایت در رایحه پایه گرم وانیل و عنبر تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Pigmentarium/Brutal-104326.html",
+    "extractedAt": "2026-11-24T05:54:33.557Z",
+    "name": "Brutal",
+    "brand": "Pigmentarium",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Théo Belmas",
+    "topNotes": [
+      "Orange Blossom",
+      "Negroni",
+      "Coffee"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Ylang-Ylang",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Step into an era of amber-hued lights, printed magazines, the aroma of freshly ground coffee, tobacco, and white florals. The fragrance opens with a dark, sensual accord of Negroni, unfolding into black coffee and orange blossom. At its heart, tuberose—the signature ingredient of Brutal—is enriched by ylang-ylang and May rose, blending seamlessly into a base of tobacco, amber, and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104326.jpg",
+    "rating": 4.11,
+    "ratingVotes": 120,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 69
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 40
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 36
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 104326,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Brutal",
+    "brandFa": "Pigmentarium",
+    "nameFa": "Brutal",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Théo Belmas",
+    "topNotesFa": [
+      "گل پرتقال",
+      "Negroni",
+      "قهوه"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "ایلنگ‌ایلنگ",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "وارد دورانی شوید که در آن چراغ‌ها رنگ کهربایی دارند، مجلات چاپی دیده می‌شوند و عطر قهوه تازه آسیاب‌شده، تنباکو و گلهای سفید فضا را پر کرده است. این عطر با ترکیبی تیره و حسی از نِگرونی آغاز می‌شود و سپس به رایحه قهوه سیاه و شکوفه پرتقال تبدیل می‌شود. در نت میانی، گل مریم - ماده تشکیل‌دهنده اصلی Brutal - با رایحه یلانگ-یلانگ و گل رز ماه می غنی شده است و به طور یکپارچه با نت پایه تنباکو، عنبر و چوب صندل ترکیب می‌شود.",
+    "seasons": [
+      "autumn",
+      "spring",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "پاییز",
+      "بهار",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/CoSTUME-NATIONAL/Universal-Vanilla-142434.html",
+    "extractedAt": "2026-11-24T05:54:39.310Z",
+    "name": "Universal Vanilla",
+    "brand": "CoSTUME NATIONAL",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Sophie Labbé",
+    "topNotes": [
+      "Lavender",
+      "Rum",
+      "Mate"
+    ],
+    "middleNotes": [
+      "Cocoa",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Peru Balsam",
+      "Vanilla Absolute",
+      "AMBROX® SUPER",
+      "Dry Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142434.jpg",
+    "rating": 3.76,
+    "ratingVotes": 17,
+    "accords": [
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 71
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 38
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 142434,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Universal Vanilla",
+    "brandFa": "CoSTUME NATIONAL",
+    "nameFa": "Universal Vanilla",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sophie Labbé",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "رام",
+      "گل ماته"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "بلسام پرو",
+      "Vanilla Absolute",
+      "AMBROX® SUPER",
+      "چوب خشک"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Club-de-Nuit-Untold-78476.html",
+    "extractedAt": "2026-11-24T05:54:44.412Z",
+    "name": "Club de Nuit Untold",
+    "brand": "Armaf",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Amberwood",
+      "Ambergris"
+    ],
+    "baseNotes": [
+      "Fir Resin",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78476.jpg",
+    "rating": 4.05,
+    "ratingVotes": 3850,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 96
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 29
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 26
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 26
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 23
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 78476,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Club de Nuit Untold",
+    "brandFa": "Armaf",
+    "nameFa": "Club de Nuit Untold",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "چوب کهربایی",
+      "کهربا خاکستری"
+    ],
+    "baseNotesFa": [
+      "Fir Resin",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lancome/La-Vie-Est-Belle-Vanille-Nude-109311.html",
+    "extractedAt": "2026-11-24T05:54:48.870Z",
+    "name": "La Vie Est Belle Vanille Nude",
+    "brand": "Lancôme",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Anne Flipo and Dominique Ropion",
+    "topNotes": [
+      "Solar Notes",
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Bourbon Vanilla"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Sandalwood"
+    ],
+    "description": "La Vie Est Belle Vanille Nude by Lancome is a musky vanilla fragrance featuring notes of solar jasmine, glazed vanilla, and creamy white musk. The jasmine is sourced from Lancome’s own Domain de la Rose, contributing to the fragrance's distinctive character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109311.jpg",
+    "rating": 4.12,
+    "ratingVotes": 2655,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 83
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 26
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 24
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 109311,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "La Vie Est Belle Vanille Nude",
+    "brandFa": "لانکوم",
+    "nameFa": "La Vie Est Belle Vanille Nude",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Anne Flipo and Dominique Ropion",
+    "topNotesFa": [
+      "Solar Notes",
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "وانیل بوربن"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "چوب صندل"
+    ],
+    "descriptionFa": "La Vie Est Belle Vanille Nude از برند لانکوم یک عطر وانیلی مشکی است که دارای رایحه‌های یاس خورشیدی، وانیل لعاب‌دار و مشک سفید کرمی است. یاس از مزرعه اختصاصی لانکوم به نام Domain de la Rose تهیه می‌شود و به ویژگی متمایز این عطر کمک می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragrance-World/Creme-of-Clouds-102885.html",
+    "extractedAt": "2026-11-24T05:54:55.025Z",
+    "name": "Creme of Clouds",
+    "brand": "Fragrance World",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Creme of Clouds</b> was launched in 2025. The fragrance features Burnt Sugar, Whipped Cream, Vanilla and Coconut Milk",
+    "year": 2025,
+    "description": "\"Creme of Clouds by Fragrance World is a luxuriously smooth and deliciously sweet fragrance that envelops you in a cocoon of creamy coconut, velvety vanilla, and caramelized sugar. Designed for those who love warm, gourmand scents, this fragrance is an irresistible blend of comfort, elegance, and indulgence, perfect for any occasion where you want to feel effortlessly enchanting.\" -Fragrance World.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102885.jpg",
+    "rating": 4.21,
+    "ratingVotes": 1040,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 15
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 15
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 10
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 8
+      }
+    ],
+    "fragranticaId": 102885,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Creme of Clouds",
+    "brandFa": "Fragrance World",
+    "nameFa": "Creme of Clouds",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Creme of Clouds</b> was launched in 2025. The fragrance features Burnt Sugar, Whipped Cream, Vanilla and Coconut Milk",
+    "descriptionFa": "«Creme of Clouds از برند Fragrance World یک عطر فوق‌العاده ملایم و خوش‌بو است که شما را در هاله‌ای از رایحه نارگیل خامه‎‌مانند، وانیل مخملی و شکر کاراملی‌شده فرو می‌برد. این عطر که برای کسانی طراحی شده است که عاشق رایحه‌های گرم و شیرین هستند، ترکیبی مقاومت‌ناپذیر از آرامش، ظرافت و لذت است و برای هر مناسبتی که می‌خواهید بدون هیچ زحمتی احساس جذابیت کنید، عالی است.» -فرگرنس ورد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Ambre-Eccentrico-31209.html",
+    "extractedAt": "2026-11-24T05:55:02.154Z",
+    "name": "Ambre Eccentrico",
+    "brand": "Giorgio Armani",
+    "family": "Oriental",
+    "gender": "women and men. <b>Ambre Eccentrico</b> was launched in 2015. The nose behind this fragrance is Calice Becker. The fragrance features Amber, Dried Fruits, Cinnamon, Tonka Bean, Patchouli and Prunol",
+    "year": 2015,
+    "perfumer": "Calice Becker",
+    "description": "Armani Prive collection has received three new editions just before summer 2015. Two of them are arriving as limited editions inspired by the sand of the Mediterranean Sea. The third fragrance, which will become a steady member of the Armani Prive collection is inspired by amber interpreted in modern way. Armani Prive Ambre Eccentrico is based on warm, resiny, precious accords of amber blended with warm balmy aromas of tonka, patchouli, cinnamon and prunol molecule (based on plum, spicy warm flavors of dried fruit and intense cardamom aroma). Perfumer of the new Armani Prive edition is Calice Becker.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31209.jpg",
+    "rating": 4.31,
+    "ratingVotes": 1282,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 69
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 51
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 31209,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ambre Eccentrico",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Ambre Eccentrico",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. <b>Ambre Eccentrico</b> was launched in 2015. The nose behind this fragrance is Calice Becker. The fragrance features Amber, Dried Fruits, Cinnamon, Tonka Bean, Patchouli and Prunol",
+    "perfumerFa": "Calice Becker",
+    "descriptionFa": "مجموعه Armani Prive درست قبل از تابستان 2015 سه نسخه جدید دریافت کرده است. دو مورد از آنها به صورت نسخه‌های محدود و با الهام از شن‌های دریای مدیترانه عرضه می‌شوند. عطر سوم، که به عضوی ثابت از مجموعه Armani Prive تبدیل خواهد شد، از کهربا الهام گرفته شده و به شیوه‌ای مدرن تفسیر شده است. Armani Prive Ambre Eccentrico بر پایه نت‌های گرم، صمغی و ارزشمند عنبر است که با رایحه‌های گرم و مطبوع دانه تونکا، نعناع هندی و دارچین ترکیب شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Raghba-Wood-Intense-28713.html",
+    "extractedAt": "2026-11-24T05:55:06.987Z",
+    "name": "Raghba Wood Intense",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2014,
+    "perfumer": null,
+    "topNotes": [
+      "Caramel",
+      "Licorice",
+      "Guaiac Wood",
+      "Cedar"
+    ],
+    "middleNotes": [
+      "Agarwood (Oud)",
+      "Sugar",
+      "Sandalwood",
+      "Cashmere Wood"
+    ],
+    "baseNotes": [
+      "Incense",
+      "Vanilla",
+      "Amber",
+      "Oakmoss",
+      "Musk"
+    ],
+    "description": "The perfume house from Dubai Lattafa Perfumes presents successor to the famous fragrance Raghba, which will be introduced as more intense, smoky and woodier version of the original fragrance. Name of the perfume is Raghba Wood Intense and its highlights precious accords of various types of trees blended with sweet caramel and liquorice on an oriental base. Character of the edition is highlighted with various raw materials which seem harmonious and bold when blended together.</p> <p>Considering that Lattafa Perfumes is specialized in oriental perfumery, Raghba collection provides fragrances in that spirit. The first fragrance for men is Raghba, which, unlike the new, more intense successor combined powdery iris aromas with elegant violet leaves, while character is provided by masculine aromas of leather, amber and milky wood. Sophisticated freshness comes from citruses. Raghba collection includes two other editions: Raghba Women and Raghba Classic.</p> <p>The new version is aimed at those who like extremely woody fragrances, strong compositions and hot accords. Perfume Raghba Wood Intense opens with notes of cedar, guaiac wood, liquorice and caramel, followed by precious oud, sugar and cashmere wood. The base supports the composition with its warm and sensual aromas of musk, amber, vanilla, oak moss and incense.</p> <p>Raghba Intense Wood will be launched in November 2014 and can be purchased as 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.28713.jpg",
+    "rating": 4.09,
+    "ratingVotes": 2202,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 78
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 53
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 49
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 45
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 28713,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Raghba Wood",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Raghba Wood Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "کارامل",
+      "شیرین‌بیان",
+      "چوب گوئیک",
+      "سرو"
+    ],
+    "middleNotesFa": [
+      "Agarwood (Oud)",
+      "شکر",
+      "چوب صندل",
+      "Cashmere Wood"
+    ],
+    "baseNotesFa": [
+      "عود بخور",
+      "وانیل",
+      "کهربا",
+      "خزه بلوط",
+      "موش"
+    ],
+    "descriptionFa": "خانه عطر دبی Lattafa Perfumes جانشین عطر معروف Raghba را معرفی می‌کند که به‌عنوان نسخه‌ای قوی‌تر، دودی‌تر و چوبی‌تر از عطر اصلی عرضه خواهد شد. نام این عطر Raghba Wood Intense است و ترکیبات ارزشمند انواع مختلف درختان را که با کارامل شیرین و شیرین‌بیان روی یک پایه شرقی ترکیب شده‌اند، برجسته می‌کند. ویژگی این نسخه با مواد اولیۀ مختلفی برجسته می‌شود که هماهنگ به نظر می‌رسند و",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Givenchy/Inseparables-123969.html",
+    "extractedAt": "2026-11-24T05:55:12.274Z",
+    "name": "Inséparables",
+    "brand": "Givenchy",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Petitgrain",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123969.jpg",
+    "rating": 4.1,
+    "ratingVotes": 51,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 55
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 43
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 42
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 39
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 123969,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Inséparables",
+    "brandFa": "ژیوانشی",
+    "nameFa": "Inséparables",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پتیت‌گرین",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وتیور"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mr-Mrs-B/Mrs-B-148199.html",
+    "extractedAt": "2026-11-24T05:55:16.464Z",
+    "name": "Mrs B.",
+    "brand": "Mr & Mrs B.",
+    "family": "Floral Woody Musk",
+    "gender": "women. The nose behind this fragrance is Pascal Gaurin. Top notes are Bergamot and Mandarin; middle notes are Orange Blossom, Magnolia and Fig; base notes are Amber, Sandalwood, Immortelle and Musk",
+    "perfumer": "Pascal Gaurin",
+    "topNotes": [
+      "Bergamot",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Magnolia",
+      "Fig"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood",
+      "Immortelle",
+      "Musk"
+    ],
+    "description": "Mrs B. by Mr & Mrs B. is a floral extrait de parfum created by Pascal Gaurin as a bridal fragrance for Demi Rawling’s wedding in Corsica. Its heart combines fig and white flowers over amber and musk, while sandalwood and immortelle reference Australian and French origins.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148199.jpg",
+    "rating": 3.79,
+    "ratingVotes": 24,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 90
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 87
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 87
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 148199,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mrs B.",
+    "brandFa": "Mr & Mrs B.",
+    "nameFa": "Mrs B.",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women. The nose behind this fragrance is Pascal Gaurin. Top notes are Bergamot and Mandarin; middle notes are Orange Blossom, Magnolia and Fig; base notes are Amber, Sandalwood, Immortelle and Musk",
+    "perfumerFa": "Pascal Gaurin",
+    "topNotesFa": [
+      "برگاموت",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "ماگنولیا",
+      "انجیر"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب صندل",
+      "Immortelle",
+      "موش"
+    ],
+    "descriptionFa": "Mrs B. از Mr & Mrs B. یک عطر عصاره‌ای گل‌دار است که توسط پاسکال گورین به عنوان عطر عروس برای عروسی دمی رولینگ در کرسیکا ساخته شده است. نت میانی آن ترکیبی از انجیر و گلهای سفید بر روی پایه کهربا و مشک است، در حالی که چوب صندل و گل جاودانگی به ریشه‌های استرالیایی و فرانسوی اشاره دارند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bergamoss/Let-s-make-love-on-Christmas-119036.html",
+    "extractedAt": "2026-11-24T05:55:22.847Z",
+    "name": "Let's make love on Christmas",
+    "brand": "Bergamoss",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Let's make love on Christmas</b> was launched in 2025. The nose behind this fragrance is Václav Lebeda. The fragrance features Gingerbread, Cinnamon, Czech Christmas Cookies (Linecké), Tonka Bean, Marmalade, Almond and Red Mandarin",
+    "year": 2025,
+    "perfumer": "Václav Lebeda",
+    "description": "\"Every perfume is somehow connected to my life and a fragrant memory. And the Christmas limited edition <strong>\"Let's make love on Christmas\"</strong> is no exception. If there is one very strong memory from my childhood, it is definitely the pre-Christmas period full of anticipation, excitement, and that almost sacred atmosphere everywhere. And also the time for baking Christmas cookies and gingerbread. I tried to capture all of that in the perfume. Christmas in a bottle. My little (secret) wish is for people to wear this fragrance on Christmas Eve. But even if they wear it at any other time, I will be the happiest perfumer in the world that they associate my perfume with that beautiful time. The time of Christmas.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.119036.jpg",
+    "rating": 4.46,
+    "ratingVotes": 56,
+    "accords": [
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 89
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 31
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 26
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 26
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 19
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 119036,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Let's make love on Christmas",
+    "brandFa": "Bergamoss",
+    "nameFa": "Let's make love on Christmas",
+    "genderFa": "women and men. This is a new fragrance. <b>Let's make love on Christmas</b> was launched in 2025. The nose behind this fragrance is Václav Lebeda. The fragrance features Gingerbread, Cinnamon, Czech Christmas Cookies (Linecké), Tonka Bean, Marmalade, Almond and Red Mandarin",
+    "perfumerFa": "Václav Lebeda",
+    "descriptionFa": "«هر عطر به نوعی با زندگی من و یک خاطره معطر مرتبط است. و نسخه محدود کریسمس <strong>«بیایید در کریسمس عشق‌بازی کنیم»</strong> نیز از این قاعده مستثنی نیست. اگر بخواهم از یک خاطره بسیار قوی از دوران کودکی‌ام نام ببرم، قطعاً دوره قبل از کریسمس است که پر از انتظار، هیجان و آن فضای تقریباً مقدس در همه جا بود. و همچنین زمان پخت شیرینی‌های کریسمس و نان زنجفیلی. سعی کردم همه اینها را در عطر ثبت کنم.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
