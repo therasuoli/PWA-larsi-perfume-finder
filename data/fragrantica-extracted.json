@@ -34839,5 +34839,2051 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Extremely-148644.html",
+    "extractedAt": "2026-11-24T10:51:45.427Z",
+    "name": "Emporio Armani Stronger With You Extremely",
+    "brand": "Giorgio Armani",
+    "family": "Oriental Spicy",
+    "gender": "men. This is a new fragrance. <b>Emporio Armani Stronger With You Extremely</b> was launched in 2027",
+    "year": 2027,
+    "description": "Stronger With You Extremely by Giorgio Armani is a fragrance for men, launched in 2027 as part of the Stronger With You collection. It is presented in a bottle with a deep amber gradient, a rounded metallic cap and refined detailing.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148644.jpg",
+    "fragranticaId": 148644,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Emporio Armani Stronger With You Extremely",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Emporio Armani Stronger With You Extremely",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "men. This is a new fragrance. <b>Emporio Armani Stronger With You Extremely</b> was launched in 2027",
+    "descriptionFa": "Stronger With You Extremely از برند جورجیو آرمانی عطری برای آقایان است که در سال 2027 به عنوان بخشی از مجموعه Stronger With You عرضه شد. این عطر در بطری‌ای با گرادیان کهربایی تیره، درپوش فلزی گرد و جزئیات ظریف عرضه می‌شود."
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Miguel-Matos/Opposites-Attract-148643.html",
+    "extractedAt": "2026-11-24T10:51:50.455Z",
+    "name": "Opposites Attract",
+    "brand": "Miguel Matos",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Miguel Matos",
+    "topNotes": [
+      "Aldehydes",
+      "Cumin",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Cypriol",
+      "Himalayan Cedar"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Incense",
+      "Sandalwood",
+      "Patchouli",
+      "Leather",
+      "White Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148643.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 33
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 31
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 31
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 29
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148643,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Opposites Attract",
+    "brandFa": "Miguel Matos",
+    "nameFa": "Opposites Attract",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Miguel Matos",
+    "topNotesFa": [
+      "آلدهیدها",
+      "زیره",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "سایپریول",
+      "Himalayan Cedar"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "عود بخور",
+      "چوب صندل",
+      "پچولی",
+      "چرم",
+      "موش سفید",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Miguel-Matos/Pixie-Dust-148642.html",
+    "extractedAt": "2026-11-24T10:51:54.965Z",
+    "name": "Pixie Dust",
+    "brand": "Miguel Matos",
+    "family": "Woody Floral Musk",
+    "gender": "women and men. This is a new fragrance. <b>Pixie Dust</b> was launched in 2026. The nose behind this fragrance is Miguel Matos. The fragrance features Iris, Dried Fruits, Marine notes, Pine needles, Ambroxan, Vetiver and Burnt Sugar",
+    "year": 2026,
+    "perfumer": "Miguel Matos",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148642.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 91
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 45
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 45
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148642,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pixie Dust",
+    "brandFa": "Miguel Matos",
+    "nameFa": "Pixie Dust",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "women and men. This is a new fragrance. <b>Pixie Dust</b> was launched in 2026. The nose behind this fragrance is Miguel Matos. The fragrance features Iris, Dried Fruits, Marine notes, Pine needles, Ambroxan, Vetiver and Burnt Sugar",
+    "perfumerFa": "Miguel Matos",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Black-Opium-Cream-Rush-148641.html",
+    "extractedAt": "2026-11-24T10:51:59.243Z",
+    "name": "Black Opium Cream Rush",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Ginger",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Milk"
+    ],
+    "baseNotes": [
+      "Coffee",
+      "Bourbon Vanilla",
+      "Benzoin",
+      "Amberwood",
+      "Caramel"
+    ],
+    "description": "Black Opium Cream Rush by Yves Saint Laurent is a women's eau de parfum launched in 2026. The floral gourmand composition evokes warm pear tarte Tatin with vanilla ice cream, blending pear, ginger and mandarin orange with jasmine, orange blossom, milk, coffee, Bourbon vanilla, benzoin, amberwood and caramel. Its bottle combines a pearlescent pink-chrome finish with a black lacquered center and the Cassandre logo.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148641.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 85
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 70
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148641,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Opium Cream Rush",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Black Opium Cream Rush",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "زنجبیل",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل پرتقال",
+      "شیر"
+    ],
+    "baseNotesFa": [
+      "قهوه",
+      "وانیل بوربن",
+      "بنزوئین",
+      "چوب کهربایی",
+      "کارامل"
+    ],
+    "descriptionFa": "Black Opium Cream Rush از برند Yves Saint Laurent یک ادو پرفیوم زنانه است که در سال 2026 عرضه شد. ترکیب گل‌دار و خوش‌بو یادآور تارت تاتن گلابی گرم با بستنی وانیلی است که گلابی، زنجبیل و نارنگی را با یاس، شکوفه پرتقال، شیر، قهوه، وانیل بوربون، بنزوئین، چوب کهربا و کارامل ترکیب می‌کند. بطری آن ترکیبی از روکش کروم صورتی مرواریدگون با مرکز لاک‌شده مشکی و لوگوی Cassandre است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/RMK-Perfumes/Eau-De-Oud-148640.html",
+    "extractedAt": "2026-11-24T10:52:06.108Z",
+    "name": "Eau De Oud",
+    "brand": "RMK Perfumes",
+    "family": "Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Oud"
+    ],
+    "middleNotes": [
+      "Oud"
+    ],
+    "baseNotes": [
+      "Oud. The fragrance features Oud"
+    ],
+    "description": "Eau De Oud by RMK Perfumes is a woody fragrance centered on oud, released in 2026 as a limited edition of 100 pieces.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148640.jpg",
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148640,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eau De Oud",
+    "brandFa": "RMK Perfumes",
+    "nameFa": "Eau De Oud",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عود"
+    ],
+    "middleNotesFa": [
+      "عود"
+    ],
+    "baseNotesFa": [
+      "Oud. The fragrance features Oud"
+    ],
+    "descriptionFa": "Eau De Oud از برند RMK Perfumes یک عطر چوبی است که بر پایه عود ساخته شده و در سال 2026 به عنوان یک نسخه محدود با 100 عدد عرضه شده است.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parikart/Egerie-148639.html",
+    "extractedAt": "2026-11-24T10:52:12.178Z",
+    "name": "Égérie",
+    "brand": "Parikart",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Ruby Brown",
+    "topNotes": [
+      "Freesia",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "White Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Égérie by Parikart is an Oriental Floral fragrance for women, launched in November 2023 and created by Ruby Brown. It opens with freesia and mandarin orange, followed by white rose over a base of vanilla, musk and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148639.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 77
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 77
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 77
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148639,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Égérie",
+    "brandFa": "Parikart",
+    "nameFa": "Égérie",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Ruby Brown",
+    "topNotesFa": [
+      "فریزیا",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "White Rose"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Égérie از برند Parikart یک عطر شرقی-گل‌فام زنانه است که در نوامبر 2023 عرضه شد و توسط روبی براون ساخته شده است. این عطر با رایحه فریزا و نارنگی ماندارین آغاز می‌شود، سپس رایحه گل رز سفید بر روی پایه‌ای از وانیل، مشک و چوب صندل قرار می‌گیرد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parikart/On-Verra-148638.html",
+    "extractedAt": "2026-11-24T10:52:18.300Z",
+    "name": "On Verra",
+    "brand": "Parikart",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Ruby Brown",
+    "topNotes": [
+      "Bergamot",
+      "Saffron",
+      "Pepper"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Neroli"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Leather",
+      "Juniper",
+      "Tobacco Leaf"
+    ],
+    "description": "On Verra by Parikart is a woody leather fragrance for men, launched in 2026. It opens with bergamot, saffron and pepper, followed by a heart of patchouli and neroli, and a base of tonka bean, leather, juniper and tobacco leaf.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148638.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 78
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 74
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 60
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 52
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 148638,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "On Verra",
+    "brandFa": "Parikart",
+    "nameFa": "On Verra",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Ruby Brown",
+    "topNotesFa": [
+      "برگاموت",
+      "زعفران",
+      "فلفل"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "نرولی"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چرم",
+      "عرعر",
+      "برگ تنباکو"
+    ],
+    "descriptionFa": "On Verra از برند Parikart یک عطر چرمی چوبی برای آقایان است که در سال 2026 عرضه شد. این عطر با رایحه‌های ترنج، زعفران و فلفل آغاز می‌شود، سپس رایحه‌های میانی نعناع هندی و نرولی و در نهایت رایحه‌های پایانی دانه‌ی تونکا، چرم، عرعر و برگ تنباکو را احساس خواهید کرد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Acqua-di-Parma/Colonia-Essenza-142381.html",
+    "extractedAt": "2026-11-24T10:52:23.992Z",
+    "name": "Colonia Essenza",
+    "brand": "Acqua di Parma",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. Top notes are Petitgrain, Grapefruit, Bergamot, Lemon, Mandarin Orange and Orange; middle notes are Jasmine, Rose and Cloves; base notes are Patchouli, Musk, Vetiver and Amber",
+    "topNotes": [
+      "Petitgrain",
+      "Grapefruit",
+      "Bergamot",
+      "Lemon",
+      "Mandarin Orange",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Cloves"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Musk",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Colonia Essenza by Acqua di Parma is a citrus woody fragrance that reinterprets the house's Colonia. It opens with lemon, orange, bergamot, grapefruit, mandarin orange and petitgrain, followed by an aromatic-floral heart of rose, jasmine and cloves, over a base of vetiver, musk, amber and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142381.jpg",
+    "rating": 4.09,
+    "ratingVotes": 33,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 47
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 36
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 26
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 23
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 142381,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Colonia Essenza",
+    "brandFa": "آکوا دی پارما",
+    "nameFa": "Colonia Essenza",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. Top notes are Petitgrain, Grapefruit, Bergamot, Lemon, Mandarin Orange and Orange; middle notes are Jasmine, Rose and Cloves; base notes are Patchouli, Musk, Vetiver and Amber",
+    "topNotesFa": [
+      "پتیت‌گرین",
+      "گریپ‌فروت",
+      "برگاموت",
+      "لیمو",
+      "نارنگی",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "Cloves"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "موش",
+      "وتیور",
+      "کهربا"
+    ],
+    "descriptionFa": "Colonia Essenza از برند Acqua di Parma یک عطر مرکباتی چوبی است که رایحه Colonia این برند را بازتفسیر می‌کند. این عطر با رایحه لیمو، پرتقال، ترنج، گریپ‌فروت، نارنگی و پتی‌گرن آغاز می‌شود، سپس رایحه میانی معطر-گل‌دار رز، یاسمن و میخک، بر روی رایحه پایه وتیور، مشک، عنبر و نعناع هندی قرار می‌گیرد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Luna-Rossa-Black-48682.html",
+    "extractedAt": "2026-11-24T10:52:30.424Z",
+    "name": "Luna Rossa Black",
+    "brand": "Prada",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2018,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Angelica",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Coumarin",
+      "Amber",
+      "Musk"
+    ],
+    "description": "In early 2018, the 7th version of Prada's popular Luna Rossa fragrance arrives on shelves. Luna Rossa Black follows the original Luna Rossa from 2012 and more recently, 2017's Luna Rossa Carbon.</p> <p>Inspired by the Prada Luna Rossa sailing challenge, an Italian sailboat racing syndicate first created to compete for the 2000 America's Cup and co-sponsored by Prada, the Luna Rossa fragrances have been created by perfumer Daniela Andrier with bottle designs by Yves Behar.</p> <p>This new version of Luna Rossa will feature top notes of bergamot and angelica; heart notes of patchouli and coumarin; and base notes of woody amber. Of note is the absence of lavender that was a key feature in so many of the other Luna Rossa editions.</p> <p>Prada Luna Rossa Black is available as a 50 and 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48682.jpg",
+    "rating": 4.35,
+    "ratingVotes": 8047,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 95
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 48682,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Luna Rossa Black",
+    "brandFa": "پرادا",
+    "nameFa": "Luna Rossa Black",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Angelica",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "Coumarin",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "در اوایل سال 2018، هفتمین نسخه از عطر محبوب Luna Rossa برند Prada وارد بازار شد. Luna Rossa Black پس از Luna Rossa اصلی در سال 2012 و اخیراً Luna Rossa Carbon در سال 2017 عرضه شد.</p> <p>عطرهای Luna Rossa که الهام‌گرفته از مسابقات قایقرانی Prada Luna Rossa، یک تیم قایقرانی ایتالیایی هستند که برای اولین بار برای شرکت در رقابت‌های جام آمریکا ۲۰۰۰ تشکیل شد و توسط Prada حمایت مالی می‌شد، توسط عطرساز Daniela Andrier با همکاری",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Maldives-in-a-Bottle-Ylang-Coco-20-Eau-de-Parfum-94206.html",
+    "extractedAt": "2026-11-24T10:52:36.950Z",
+    "name": "Maldives in a Bottle Ylang Coco | 20 Eau de Parfum",
+    "brand": "Kayali Fragrances",
+    "family": "Aromatic Fruity",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Rosemary",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Banana"
+    ],
+    "baseNotes": [
+      "Coconut Milk"
+    ],
+    "description": "Your passport to paradise…Travel through the power of fragrance with our all new, limited edition Vacay in a Bottle Miniature Set!</p> <p>Playful yet luxurious, let your senses roam free and your wanderlust go wild as you discover four fragrant destinations as imagined by KAYALI:</p> <p>Marrakesh in a Bottle Orange Blossom | 24</p> <p>Capri in a Bottle Lemon Sugar | 14</p> <p>Maui in a Bottle Sweet Banana | 37</p> <p>Maldives in a Bottle Ylang Coco | 20</p> <p>Use your imagination to create your own scent mood with this super-giftable and travel-friendly set featuring our coveted, and colorful, 10ml deluxe miniature bottles! Wear them alone or layer together to discover your own signature scent combination.</p> <p>This set contains:</p> <p>The Vibe: Sensual, Mysterious, Warm</p> <p>Fragrance Family: Fresh</p> <p>Key Notes: Bergamot, Orange Blossom, Pink Pepper, Turkish Rose, Neroli, Cedarwood</p> <p>The Vibe: Bright, Addictive, Sugary</p> <p>Fragrance Family: Fresh</p> <p>Key Notes: Lemon, Sugar, Freesia, Raspberry, Vanilla, Musk</p> <p>The Vibe: Sweet, Solar, Blissful</p> <p>Fragrance Family: Fresh</p> <p>Key Notes: Sweet Banana, Pear, Coconut Cream, Jasmine, Sandalwood, Vanilla</p> <p>The Vibe: Aquatic, Serene, Refreshing</p> <p>Fragrance Family: Fresh</p> <p>Key Notes: Rosemary, Wild Lemon, Starfruit, Banana Blossom, Ylang-Ylang, Coconut Milk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94206.jpg",
+    "rating": 4.01,
+    "ratingVotes": 1184,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 82
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 76
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 94206,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Maldives in a Bottle Ylang Coco | 20",
+    "brandFa": "Kayali Fragrances",
+    "nameFa": "Maldives in a Bottle Ylang Coco | 20 Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "رزماری",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "موز"
+    ],
+    "baseNotesFa": [
+      "شیر نارگیل"
+    ],
+    "descriptionFa": "گذرنامه شما به بهشت… با مجموعه کاملاً جدید و نسخه محدود Vacay in a Bottle Miniature ما، با قدرت عطر سفر کنید!</p> <p>با این مجموعه بازیگوش و در عین حال مجلل، اجازه دهید حواس شما آزادانه پرسه بزنند و اشتیاق شما به سفر در حین کشف چهار مقصد معطر که توسط KAYALI تصور شده‌اند، اوج بگیرد:</p> <p>مراکش در یک بطری شکوفه پرتقال | 24</p> <p>کاپری در یک بطری لیمو و شکر | 14</p> <p>ماوی در یک بطری موز شیرین | 37</p> <p>مالدیو در یک بطری ایلانگ کو",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Body-Shop/Blue-Musk-78537.html",
+    "extractedAt": "2026-11-24T10:52:43.460Z",
+    "name": "Blue Musk",
+    "brand": "The Body Shop",
+    "family": "Woody Aromatic",
+    "gender": "women and men. <b>Blue Musk</b> was launched in 2022. The fragrance features Musk, Sandalwood, Lavender, Vetiver and Geranium",
+    "year": 2022,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78537.jpg",
+    "rating": 4.05,
+    "ratingVotes": 194,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 90
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 79
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 45
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 32
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 78537,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Musk",
+    "brandFa": "The Body Shop",
+    "nameFa": "Blue Musk",
+    "familyFa": "چوبی معطر",
+    "genderFa": "women and men. <b>Blue Musk</b> was launched in 2022. The fragrance features Musk, Sandalwood, Lavender, Vetiver and Geranium",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Luna-Rossa-Carbon-Eau-de-Parfum-127045.html",
+    "extractedAt": "2026-11-24T10:52:47.497Z",
+    "name": "Luna Rossa Carbon Eau de Parfum",
+    "brand": "Prada",
+    "family": "Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Lavender",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Licorice",
+      "Cappuccino",
+      "Incense"
+    ],
+    "baseNotes": [
+      "Cypress",
+      "Tonka",
+      "Ambrofix™",
+      "Musk",
+      "Fir"
+    ],
+    "description": "Prada Luna Rossa Carbon Eau de Parfum represents a bold frontier in masculine fragrance, where the raw strength of nature is refined by technical innovation. Inspired by the molecular power of carbon, this scent is designed for the modern adventurer—a man who balances a mastery of technology with a deep respect for the natural world. Embodied by Jake Gyllenhaal, the fragrance captures the spirit of someone who relentlessly pushes their physical and intellectual limits in the pursuit of progress.</p> <p>Master perfumer Daniela Andrier has engineered a dark, gourmand signature that redefines traditional aromatic boundaries. The composition centers on a fusion of <strong>fresh, iconic lavender</strong> and a warm, <strong>addictive licorice accord</strong>, anchored by the woody elegance of <strong>sophisticated cypress</strong>. By utilizing cutting-edge technology to extract the purest facets of these ingredients, the fragrance achieves an augmented intensity that is both primal and polished.</p> <p>The bottle serves as a visual extension of the fragrance’s high-performance ethos. Its design features intense lacquering and a soft-matte finish, drawing direct inspiration from the sleek, resilient nature of carbon fiber. This aesthetic is a deliberate statement for those who strive for peak performance, blending industrial aesthetics with luxury craftsmanship.</p> <p>Reflecting a commitment to the future, Luna Rossa Carbon Eau de Parfum is designed with refillability at its core. This approach allows the modern man to maintain his signature scent while significantly reducing his environmental impact. Opting for a 150ml refill over three individual 50ml bottles results in a substantial reduction in waste, saving <strong>75% glass</strong>, <strong>100% metals</strong>, <strong>65% plastic</strong>, and <strong>70% cardboard</strong>.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.127045.jpg",
+    "rating": 4.08,
+    "ratingVotes": 634,
+    "accords": [
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 98
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 127045,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Luna Rossa Carbon",
+    "brandFa": "پرادا",
+    "nameFa": "Luna Rossa Carbon Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "شیرین‌بیان",
+      "Cappuccino",
+      "عود بخور"
+    ],
+    "baseNotesFa": [
+      "سرو کوهی",
+      "Tonka",
+      "Ambrofix™",
+      "موش",
+      "نراد"
+    ],
+    "descriptionFa": "ادو پرفیوم Prada Luna Rossa Carbon مرز جدیدی در عطر مردانه است که در آن قدرت خام طبیعت با نوآوری فنی پالایش می‌شود. این عطر که از قدرت مولکولی کربن الهام گرفته شده است، برای ماجراجوی مدرن طراحی شده است - مردی که تسلط بر فناوری را با احترام عمیق به دنیای طبیعت متعادل می‌کند. این عطر که جیک جیلنهال چهره تبلیغاتی آن است، روحیه فردی را به تصویر می‌کشد که بی‌وقفه توانایی‌های جسمانی خود را به چالش می‌کشد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Antique-Brown-87146.html",
+    "extractedAt": "2026-11-24T10:52:53.739Z",
+    "name": "Antique Brown",
+    "brand": "Zara",
+    "family": "Oriental",
+    "gender": "men. <b>Antique Brown</b> was launched in 2023. The nose behind this fragrance is Honorine Blanc. The fragrance features Praline, Vanilla, Rum, Tobacco, Honey, Coconut Water, Apple, Amber and Bergamot",
+    "year": 2023,
+    "perfumer": "Honorine Blanc",
+    "description": "\"A history of freedom represented by fresh and sophisticated wood.\" Created by Honine Blanc.</p> <p>A resinous and woody fragrance featuring sophisticated fresh notes of apple, coconut water and bergamot, combined with tobacco and honey notes. The sweet notes of praline and vanilla merge on a liquor background.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87146.jpg",
+    "rating": 4.44,
+    "ratingVotes": 609,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 37
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 33
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 30
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 87146,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Antique Brown",
+    "brandFa": "Zara",
+    "nameFa": "Antique Brown",
+    "familyFa": "شرقی",
+    "genderFa": "men. <b>Antique Brown</b> was launched in 2023. The nose behind this fragrance is Honorine Blanc. The fragrance features Praline, Vanilla, Rum, Tobacco, Honey, Coconut Water, Apple, Amber and Bergamot",
+    "perfumerFa": "Honorine Blanc",
+    "descriptionFa": "«تاریخچه آزادی که با رایحه چوب تازه و پیچیده نشان داده می‌شود.» ساخته شده توسط هونین بلانک.</p> <p>یک عطر رزینی و چوبی با رایحه‌های تازه و پیچیده سیب، آب نارگیل و ترنج، همراه با رایحه‌های تنباکو و عسل. نت‌های شیرین پرالین و وانیل بر روی پس‌زمینه‌ای از مشروبات الکلی با هم ترکیب می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diptyque/Eau-Nabati-80355.html",
+    "extractedAt": "2026-11-24T10:52:58.508Z",
+    "name": "Eau Nabati",
+    "brand": "Diptyque",
+    "family": null,
+    "gender": "women and men. <b>Eau Nabati</b> was launched in 2023. The fragrance features Immortelle, Peru Balsam, Bergamot, Amber, Palm Tree, Petitgrain and Cedar",
+    "year": 2023,
+    "description": "Eau Nabati Eau de Parfum by Diptyque captures the essence of nature and the shores of the Mediterranean Sea, lush in botanical scents.</p> <p>Inspired by the scent of a lush southern garden filled with fragrant plants, trees and flowers (everlasting or immortelle amongst them), Eau Nabati opens with an explosion of citrusy fresh bergamot and the cooling green scent of petitgrain, balanced by the rich aroma of amber and the sweet scent of Peruvian balsam.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80355.jpg",
+    "rating": 3.97,
+    "ratingVotes": 462,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 82
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 76
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 72
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 80355,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eau Nabati",
+    "brandFa": "دیپتیک",
+    "nameFa": "Eau Nabati",
+    "genderFa": "women and men. <b>Eau Nabati</b> was launched in 2023. The fragrance features Immortelle, Peru Balsam, Bergamot, Amber, Palm Tree, Petitgrain and Cedar",
+    "descriptionFa": "ادو پرفیوم Eau Nabati از برند Diptyque عصاره طبیعت و سواحل دریای مدیترانه را با رایحه‌های گیاهی سرشار از طراوت به تصویر می‌کشد.</p> <p>Eau Nabati که از رایحه یک باغ سرسبز جنوبی پر از گیاهان، درختان و گل‌های معطر (از جمله گل همیشه بهار یا ایمورتل) الهام گرفته است، با انفجاری از رایحه مرکباتی و تازه برگاموت و رایحه سبز و خنک پتی‌گرن آغاز می‌شود که با عطر غنی عنبر و رایحه شیرین",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Christina-Aguilera/Definition-at-Dusk-147294.html",
+    "extractedAt": "2026-11-24T10:53:04.090Z",
+    "name": "Definition at Dusk",
+    "brand": "Christina Aguilera",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Wild Berries",
+      "Sorbet",
+      "Coconut Water",
+      "Peach"
+    ],
+    "middleNotes": [
+      "Lotus",
+      "Magnolia",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Bourbon Vanilla"
+    ],
+    "description": "Definition at Dusk by Christina Aguilera is an eau de parfum launched in 2026 and inspired by the golden hour at dusk. It opens with wild berries, sorbet, coconut water and peach, followed by lotus, magnolia and sandalwood, over a base of amber, Bourbon vanilla and Nirvanolide musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147294.jpg",
+    "rating": 3.86,
+    "ratingVotes": 7,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 86
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 86
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 147294,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Definition at Dusk",
+    "brandFa": "Christina Aguilera",
+    "nameFa": "Definition at Dusk",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Wild Berries",
+      "سربت",
+      "Coconut Water",
+      "هلو"
+    ],
+    "middleNotesFa": [
+      "نیلوفر آبی",
+      "ماگنولیا",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل بوربن"
+    ],
+    "descriptionFa": "Definition at Dusk از Christina Aguilera یک ادو پرفیوم است که در سال 2026 عرضه شده و از ساعت طلایی غروب آفتاب الهام گرفته است. این عطر با رایحه توت‌های وحشی، سوربت، آب نارگیل و هلو آغاز می‌شود، سپس رایحه نیلوفر آبی، ماگنولیا و چوب صندل به مشام می‌رسد و در نهایت رایحه پایه آن شامل کهربا، وانیل بوربون و مشک نیروانولید است.",
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jawhara/Sweet-Dates-124968.html",
+    "extractedAt": "2026-11-24T10:53:09.075Z",
+    "name": "Sweet Dates",
+    "brand": "Jawhara",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Grégoire Balleydier",
+    "topNotes": [
+      "Amyris",
+      "Vanilla",
+      "Raspberry"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Amber",
+      "Cedarwood"
+    ],
+    "description": "Sweet Dates by Jawhara is an Eau de Parfum designed for unisex wear. The name suggests a sweet, possibly gourmand character, but no detailed information about its composition or specific notes is provided in the available source.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124968.jpg",
+    "rating": 3.89,
+    "ratingVotes": 127,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 88
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 82
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 75
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 73
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 66
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 54
+      }
+    ],
+    "fragranticaId": 124968,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sweet Dates",
+    "brandFa": "Jawhara",
+    "nameFa": "Sweet Dates",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Grégoire Balleydier",
+    "topNotesFa": [
+      "امیریس",
+      "وانیل",
+      "تمشک"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "کهربا",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Sweet Dates از برند Jawhara یک ادو پرفیوم است که برای استفاده‌ی مشترک زنانه و مردانه طراحی شده است. نام این عطر حاکی از رایحه‌ای شیرین و احتمالاً گورماند است، اما در منبع موجود هیچ اطلاعات دقیقی درباره ترکیبات یا نت‌های خاص آن ارائه نشده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/L-Artisan-Parfumeur/Abyssae-33-75118.html",
+    "extractedAt": "2026-11-24T10:53:14.722Z",
+    "name": "Abyssae 33",
+    "brand": "L'Artisan Parfumeur",
+    "family": "Floral",
+    "gender": "women and men. <b>Abyssae 33</b> was launched in 2022. The nose behind this fragrance is Daphné Bugey. The fragrance features Eucalyptus, Damask Rose, Cashmeran and Fig",
+    "year": 2022,
+    "perfumer": "Daphné Bugey",
+    "description": "\"A fragrance with a soothing charm, where eucalyptus is met with the sensuality of rose and cashmeran.\" -Brand website.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75118.jpg",
+    "rating": 4.17,
+    "ratingVotes": 865,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 56
+      },
+      {
+        "nameEn": "camphor",
+        "nameFa": "camphor",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 28
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 27
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 22
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 75118,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Abyssae 33",
+    "brandFa": "لارتیزان پرفیومر",
+    "nameFa": "Abyssae 33",
+    "familyFa": "گلی",
+    "genderFa": "women and men. <b>Abyssae 33</b> was launched in 2022. The nose behind this fragrance is Daphné Bugey. The fragrance features Eucalyptus, Damask Rose, Cashmeran and Fig",
+    "perfumerFa": "Daphné Bugey",
+    "descriptionFa": "«عطری با جذابیت آرام‌بخش، که در آن اکالیپتوس با حس شهوانی گل رز و کشمیران ترکیب می‌شود.» - وب‌سایت برند.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Valentino/Vendetta-Donna-2026-137495.html",
+    "extractedAt": "2026-11-24T10:53:21.066Z",
+    "name": "Vendetta Donna (2026)",
+    "brand": "Valentino",
+    "family": "Oriental Floral",
+    "gender": "women. This is a new fragrance. <b>Vendetta Donna (2026)</b> was launched in 2026. Vendetta Donna (2026) was created by Andrew Everett and Dominique Ropion. Top note is Blood Orange; middle note is Tuberose; base note is Sandalwood",
+    "year": 2026,
+    "perfumer": "Andrew Everett and Dominique Ropion",
+    "topNotes": [
+      "Blood Orange"
+    ],
+    "middleNotes": [
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Sandalwood"
+    ],
+    "description": "Vendetta Donna by Valentino is a 2026 fragrance for women, launched alongside Vendetta Uomo as a new interpretation of the Vendetta name first introduced in 1991.</p> <p>Created by Dominique Ropion and Andrew Everett, it centers on tuberose, paired with a blood orange nectar accord and sandalwood, for a floral-woody composition with sweet, fruity nuances.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137495.jpg",
+    "rating": 3.82,
+    "ratingVotes": 956,
+    "accords": [
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 80
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 43
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 20
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 137495,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vendetta Donna (2026)",
+    "brandFa": "Valentino",
+    "nameFa": "Vendetta Donna (2026)",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women. This is a new fragrance. <b>Vendetta Donna (2026)</b> was launched in 2026. Vendetta Donna (2026) was created by Andrew Everett and Dominique Ropion. Top note is Blood Orange; middle note is Tuberose; base note is Sandalwood",
+    "perfumerFa": "Andrew Everett and Dominique Ropion",
+    "topNotesFa": [
+      "پرتقال خونی"
+    ],
+    "middleNotesFa": [
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "چوب صندل"
+    ],
+    "descriptionFa": "Vendetta Donna از Valentino یک عطر زنانه محصول سال 2026 است که همزمان با Vendetta Uomo به عنوان تفسیر جدیدی از نام Vendetta که اولین بار در سال 1991 معرفی شد، عرضه شده است.</p> <p>این عطر که توسط دومینیک روپیون و اندرو اورت ساخته شده است، بر پایه رایحه گل مریم است که با ترکیبی از شهد پرتقال خونی و چوب صندل ترکیب شده است تا ترکیبی گل‌فام و چوبی با ظرافت‌های شیرین و میوه‌ای ایجاد کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/House-of-Theom/Royal-Affair-123623.html",
+    "extractedAt": "2026-11-24T10:53:26.993Z",
+    "name": "Royal Affair",
+    "brand": "House of Thêom",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "Bergamot",
+      "Citrus"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Caramel",
+      "Cedarwood"
+    ],
+    "description": "Royal Affair by House of Thêom is a unisex fragrance that combines citrus, spice, amber, woods and gourmand nuances. Bright notes of bergamot, cardamom and citrus open the composition with a fresh yet aromatic character, leading into a warm heart of amber, cinnamon and woods. In the base, caramel, cedarwood and vanilla create a soft, sweet and woody drydown that adds depth and lasting warmth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123623.jpg",
+    "rating": 3.38,
+    "ratingVotes": 13,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 46
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 36
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 123623,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Royal Affair",
+    "brandFa": "House of Thêom",
+    "nameFa": "Royal Affair",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "هل",
+      "برگاموت",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کارامل",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Royal Affair از برند House of Thêom یک عطر یونیسکس است که ترکیبی از رایحه‌های مرکبات، ادویه، عنبر، چوب و نت‌های گُرمند است. نت‌های درخشان ترنج، هل و مرکبات این ترکیب را با شخصیتی تازه و در عین حال معطر آغاز می‌کنند و به سمت رایحه میانی گرم کهربا، دارچین و چوب‌ها هدایت می‌کنند. در رایحه پایه، کارامل، چوب سدر و وانیل یک رایحه پایانی ملایم، شیرین و چوبی ایجاد می‌کنند که عمق و گرمای ماندگار به عطر می‌بخشد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roberto-Cavalli/Just-Cavalli-16760.html",
+    "extractedAt": "2026-11-24T10:53:36.277Z",
+    "name": "Just Cavalli",
+    "brand": "Roberto Cavalli",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2013,
+    "perfumer": "Nathalie Lorson and Fabrice Pellegrin",
+    "topNotes": [
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Tahitian Tiare Flower"
+    ],
+    "baseNotes": [
+      "Palisander Rosewood"
+    ],
+    "description": "Roberto Cavalli is launching a new fragrance in February 2013, the second fragrance arising from collaboration with the house of Coty. The name of the fragrance is Just Cavalli and it was created by perfumers of the house of Firmenich - Nathalie Lorson and Fabrice Pellegrin. The perfume is described as creamy-floral and extremely sexy! </p> <p>Top notes of Just Cavalli offer luminous and sparkling drops of neroli, announcing the sexy heart created of Tahitian tiare flowers, along with warm, cuddly and creamy rosewood accords in the base. The fragrance is available in a pink glass bottle covered with gold-color metal, while the fragrant liquid can be seen through the Just Cavalli logo and through the bottom half made of transparent glass. The cylindrical top is embellished with a pink snake motif wrapped in the middle, while the outer carton also contains the snake motif accentuated with golden details. </p> <p>Fragrance Just Cavalli is available as 30, 50 and 7 5ml EDT accompanied with 150 ml body lotion. The face of advertising face is Georgia May Jagger, daughter of Mick Jagger and Jerry Hall. The advertisement was filmed Jonas Akerlund, and photos were taken by Mario Sorrenti.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16760.jpg",
+    "rating": 3.85,
+    "ratingVotes": 3171,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 42
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 27
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 22
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 16
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 16760,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Just Cavalli",
+    "brandFa": "ربرتو کاوالی",
+    "nameFa": "Just Cavalli",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nathalie Lorson and Fabrice Pellegrin",
+    "topNotesFa": [
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "Tahitian Tiare Flower"
+    ],
+    "baseNotesFa": [
+      "Palisander Rosewood"
+    ],
+    "descriptionFa": "روبرتو کاوالی در فوریه 2013 یک عطر جدید را عرضه می‌کند که دومین عطر حاصل از همکاری با برند Coty است. نام این عطر Just Cavalli است و توسط عطرسازان خانه Firmenich - ناتالی لورسون و فابریس پلگرین - ساخته شده است. این عطر به عنوان عطری خامه-گل‌دار و بسیار سکسی توصیف شده است! </p> <p>نت‌های اولیه Just Cavalli شامل قطرات درخشان و درخشنده نرولی است که مژده‌دهنده نت‌های میانی سکسی است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Azure-Velvet-119178.html",
+    "extractedAt": "2026-11-24T10:53:41.803Z",
+    "name": "Azure Velvet",
+    "brand": "Khadlaj Perfumes",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Lavender",
+      "Mint"
+    ],
+    "middleNotes": [
+      "Fresh note",
+      "Fruits",
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Powdery Notes",
+      "Woody Notes",
+      "Incense"
+    ],
+    "description": "Discover the enchanting allure of Khadlaj Azure Velvet, a unisex fragrance crafted for those who seek elegance and sophistication.</p> <p>Top Notes: A refreshing burst of Bergamot, Lavender, and Mint creates an invigorating opening.<br /> Mid Notes: A harmonious blend of Floral, Fruity, and Fresh notes adds a captivating charm.<br /> Base Notes: A rich and warm foundation of Woody, Powdery, and Incense notes leaves an unforgettable impression.<br /> Perfectly balanced, Azure Velvet is a fragrance that complements both men and women, making it ideal for any occasion. Embrace the timeless essence of luxury with every spritz.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.119178.jpg",
+    "rating": 4.44,
+    "ratingVotes": 272,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 93
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 79
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 76
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 73
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 71
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 71
+      }
+    ],
+    "fragranticaId": 119178,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Azure Velvet",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Azure Velvet",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "اسطوخودوس",
+      "نعناع"
+    ],
+    "middleNotesFa": [
+      "Fresh note",
+      "Fruits",
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "نت‌های پودری",
+      "Woody Notes",
+      "عود بخور"
+    ],
+    "descriptionFa": "جادوی فریبنده Khadlaj Azure Velvet را کشف کنید، عطری یونیسکس که برای کسانی ساخته شده است که به دنبال ظرافت و وقار هستند.</p> <p>نت‌های اولیه: انفجاری طراوت‌بخش از رایحه‌های ترنج، اسطوخودوس و نعناع، شروعی نشاط‌آور را ایجاد می‌کند.<br /> نت‌های میانی: ترکیبی هماهنگ از نت‌های گلی، میوه‌ای و تازه که جذابیت فریبنده‌ای ایجاد می‌کند.<br /> نت‌های پایه: پایه‌ای غنی و گرم از نت‌های چوبی، پودری و بخور که اثری فراموش‌نشدنی بر جای می‌گذارد.&lt;br",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
