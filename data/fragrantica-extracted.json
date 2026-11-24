@@ -48122,5 +48122,2156 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/Caramello-148685.html",
+    "extractedAt": "2026-11-24T17:47:59.803Z",
+    "name": "Caramello",
+    "brand": "Lorinna Paris",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Caramel"
+    ],
+    "middleNotes": [
+      "Coumarin",
+      "Honey"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148685.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 99
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 58
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 44
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148685,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Caramello",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "Caramello",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کارامل"
+    ],
+    "middleNotesFa": [
+      "Coumarin",
+      "عسل"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/White-Angel-148684.html",
+    "extractedAt": "2026-11-24T17:48:04.529Z",
+    "name": "White Angel",
+    "brand": "Lorinna Paris",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Melon",
+      "Magnolia",
+      "Peach",
+      "Mandarin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Lily of the Valley",
+      "Tuberose",
+      "Freesia",
+      "Rose",
+      "Orchid",
+      "Plum",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Blackberry",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148684.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 95
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 70
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148684,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White Angel",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "White Angel",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "خربزه",
+      "ماگنولیا",
+      "هلو",
+      "Mandarin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "لاله سفید",
+      "گل شیپور",
+      "فریزیا",
+      "گل رز",
+      "Orchid",
+      "آلو",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "توت سیاه",
+      "سرو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorinna-Paris/Guidance-Night-148683.html",
+    "extractedAt": "2026-11-24T17:48:08.180Z",
+    "name": "Guidance Night",
+    "brand": "Lorinna Paris",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. Top notes are Rose Water, Pear, Hazelnut, Bitter Almond, Frankincense and Pink Pepper; middle notes are Cognac, Cinnamon and Caramel; base notes are Sandalwood, Akigalawood, Vanilla, Ambrette, Georgywood, Ambergris, Labdanum and Cypriol",
+    "topNotes": [
+      "Rose Water",
+      "Pear",
+      "Hazelnut",
+      "Bitter Almond",
+      "Frankincense",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Cognac",
+      "Cinnamon",
+      "Caramel"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Akigalawood",
+      "Vanilla",
+      "Ambrette",
+      "Georgywood",
+      "Ambergris",
+      "Labdanum",
+      "Cypriol"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148683.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 28
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 148683,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Guidance Night",
+    "brandFa": "Lorinna Paris",
+    "nameFa": "Guidance Night",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. Top notes are Rose Water, Pear, Hazelnut, Bitter Almond, Frankincense and Pink Pepper; middle notes are Cognac, Cinnamon and Caramel; base notes are Sandalwood, Akigalawood, Vanilla, Ambrette, Georgywood, Ambergris, Labdanum and Cypriol",
+    "topNotesFa": [
+      "Rose Water",
+      "گلابی",
+      "فندق",
+      "بادام تلخ",
+      "کندر",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "کوناک",
+      "دارچین",
+      "کارامل"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Akigalawood",
+      "وانیل",
+      "دانه ابرکفش",
+      "Georgywood",
+      "کهربا خاکستری",
+      "لابدانوم",
+      "سایپریول"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aimee/Dulce-Pecado-148682.html",
+    "extractedAt": "2026-11-24T17:48:11.956Z",
+    "name": "Dulce Pecado",
+    "brand": "Aimée",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin",
+      "Pear",
+      "Blackcurrant"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Caramel",
+      "Flowers"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla",
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148682.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 64
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 148682,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dulce Pecado",
+    "brandFa": "Aimée",
+    "nameFa": "Dulce Pecado",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Mandarin",
+      "گلابی",
+      "Blackcurrant"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "کارامل",
+      "Flowers"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل",
+      "موش سفید"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aimee/Cherry-Narcotic-148681.html",
+    "extractedAt": "2026-11-24T17:48:16.550Z",
+    "name": "Cherry Narcotic",
+    "brand": "Aimée",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Pink Pepper",
+      "Licorice"
+    ],
+    "middleNotes": [
+      "Peach",
+      "Lychee",
+      "Rose",
+      "Cherry",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148681.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 97
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 91
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 91
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 74
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 60
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 57
+      }
+    ],
+    "fragranticaId": 148681,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cherry Narcotic",
+    "brandFa": "Aimée",
+    "nameFa": "Cherry Narcotic",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "لیمو",
+      "فلفل صورتی",
+      "شیرین‌بیان"
+    ],
+    "middleNotesFa": [
+      "هلو",
+      "لیچی",
+      "گل رز",
+      "گیلاس",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/By-Kilian/Princess-90174.html",
+    "extractedAt": "2026-11-24T17:48:21.202Z",
+    "name": "Princess",
+    "brand": "By Kilian",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. <b>Princess</b> was launched in 2022. The nose behind this fragrance is Honorine Blanc. The fragrance features Marshmallow, Matcha Tea and Ginger",
+    "year": 2022,
+    "perfumer": "Honorine Blanc",
+    "description": "<strong>\"Inspired by Kilian Hennessy:</strong> MY KIND OF LOVE is a collection of delicious refillable perfumes with multiple notes and accords built around an unusual, surprising and instantly recognizable key ingredient.\"<br /> <br /> <strong>The perfume:</strong> I DON'T NEED A PRINCE BY MY SIDE TO BE A PRINCESS.</p> <p>\"It is a perfume that empowers the wearer. Gourmet with a kick, PRINCESS is like sipping a green tea mocha with a hint of ginger.\"<br /> <br /> <strong>Olfactory notes:</strong> Ginger, Green tea, Marshmallow.<br /> <br /> <strong>Olfactory family:</strong> My Kind of love.<br /> <br /> <strong>Perfumer:</strong> Honorine Blanc.</p> <p>Available in bottles of 10, 50 and 100ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90174.jpg",
+    "rating": 4.34,
+    "ratingVotes": 3334,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 94
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 34
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 9
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 6
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 90174,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Princess",
+    "brandFa": "بای کیلیان",
+    "nameFa": "Princess",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. <b>Princess</b> was launched in 2022. The nose behind this fragrance is Honorine Blanc. The fragrance features Marshmallow, Matcha Tea and Ginger",
+    "perfumerFa": "Honorine Blanc",
+    "descriptionFa": "<strong>«با الهام از کیلیان هِنِسی:</strong> MY KIND OF LOVE مجموعه‌ای از عطرهای خوشبو و قابل شارژ با رایحه‌ها و ترکیبات متعدد است که بر اساس یک ماده اصلی غیرمعمول، شگفت‌انگیز و فوراً قابل تشخیص ساخته شده‌اند.»<br /> <br /> <strong>عطر:</strong> برای اینکه یک شاهزاده‌خانم باشم، نیازی نیست شاهزاده‌ای کنارم باشد.</p> <p>«این عطر به فردی که از آن استفاده می‌کند قدرت می‌بخشد. PRINCESS که عطری لذیذ با طعمی تند است، مانند نوشیدن موکای چای سبز با کمی طعم جین است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Volcanic-Amber-144993.html",
+    "extractedAt": "2026-11-24T17:48:27.628Z",
+    "name": "Volcanic Amber",
+    "brand": "Zara",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Volcanic Amber</b> was launched in 2026. The fragrance features Tolu Balsam, Labdanum, Vanilla, Bourbon Vanilla and Oud",
+    "year": 2026,
+    "description": "Volcanic Amber by Zara is an eau de parfum centered on a smoky, warm vanilla accord. Bourbon vanilla blends with Tolu balsam, labdanum and oud to create a dark, resinous composition.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.144993.jpg",
+    "rating": 3.3,
+    "ratingVotes": 20,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 28
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 20
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 17
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 144993,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Volcanic Amber",
+    "brandFa": "Zara",
+    "nameFa": "Volcanic Amber",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Volcanic Amber</b> was launched in 2026. The fragrance features Tolu Balsam, Labdanum, Vanilla, Bourbon Vanilla and Oud",
+    "descriptionFa": "Volcanic Amber از برند Zara یک ادو پرفیوم است که بر پایه ترکیبی دودی و گرم از وانیل ساخته شده است. وانیل بوربون با صمغ تولو، لادن و عود ترکیب می‌شود تا ترکیبی تیره و صمغی ایجاد کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Cale-Fragranze-d-Autore/Thesaurus-135254.html",
+    "extractedAt": "2026-11-24T17:48:33.434Z",
+    "name": "Thesaurus",
+    "brand": "Cale Fragranze d’Autore",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Ambrette",
+      "Iris",
+      "Saffron",
+      "Davana",
+      "Carrot Seeds",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Cream",
+      "Coconut Milk",
+      "Karo Karounde",
+      "Rose Oxide",
+      "Magnolia",
+      "Cinnamon",
+      "Nutmeg",
+      "Peach"
+    ],
+    "baseNotes": [
+      "Australian Sandalwood",
+      "White Musk",
+      "Ambergris",
+      "Haitian Vetiver"
+    ],
+    "description": "Thesaurus by Cale Fragranze d’Autore is a unisex fragrance centered on three key materials: sandalwood, saffron, and iris. It opens with luminous accents of iris, saffron, bergamot, carrot seed, ambrette seed, and davana oil, develops into a creamy and spicy heart with rose oxide, Karo Karounde absolute, magnolia, nutmeg, cinnamon, and milky peach-coconut nuances, and settles into a warm base of Australian sandalwood, Haitian vetiver, white musk, and ambergris. The composition contrasts the cool, buttery character of iris with the bittersweet metallic facets of saffron and the soft, velvety depth of sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135254.jpg",
+    "rating": 3.87,
+    "ratingVotes": 15,
+    "accords": [
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 35
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 135254,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Thesaurus",
+    "brandFa": "Cale Fragranze d’Autore",
+    "nameFa": "Thesaurus",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "دانه ابرکفش",
+      "زنبق",
+      "زعفران",
+      "Davana",
+      "Carrot Seeds",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "خامه",
+      "شیر نارگیل",
+      "Karo Karounde",
+      "Rose Oxide",
+      "ماگنولیا",
+      "دارچین",
+      "جوز هندی",
+      "هلو"
+    ],
+    "baseNotesFa": [
+      "Australian Sandalwood",
+      "موش سفید",
+      "کهربا خاکستری",
+      "Haitian Vetiver"
+    ],
+    "descriptionFa": "Thesaurus از برند Cale Fragranze d’Autore یک عطر یونیسکس است که بر سه ماده کلیدی متمرکز است: چوب صندل، زعفران و زنبق. این عطر با رایحه‌های درخشان زنبق، زعفران، ترنج، دانه هویج، دانه آدرگون و روغن داوانا آغاز می‌شود، سپس به رایحه‌ای کرمی و تند با اکسید رز، عصاره خالص کارو کارونده، مگنولیا، جوز هندی، دارچین و رایحه‌های هلو-نارگیل شیری، و در نهایت به رایحه‌ای گرم از چوب صندل استرالیایی، وتیور هائیتی، مشک سفید،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Oud-Wood-1826.html",
+    "extractedAt": "2026-11-24T17:48:39.586Z",
+    "name": "Oud Wood",
+    "brand": "Tom Ford",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Oud Wood</b> was launched in 2007. The nose behind this fragrance is Richard Herpin. The fragrance features Agarwood (Oud), Brazilian Rosewood, Cardamom, Sandalwood, Sichuan Pepper, Vanilla, Vetiver, Tonka Bean and Amber",
+    "year": 2007,
+    "perfumer": "Richard Herpin",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1826.jpg",
+    "rating": 4.28,
+    "ratingVotes": 18210,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 69
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 69
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 1826,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Wood",
+    "brandFa": "تام فورد",
+    "nameFa": "Oud Wood",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Oud Wood</b> was launched in 2007. The nose behind this fragrance is Richard Herpin. The fragrance features Agarwood (Oud), Brazilian Rosewood, Cardamom, Sandalwood, Sichuan Pepper, Vanilla, Vetiver, Tonka Bean and Amber",
+    "perfumerFa": "Richard Herpin",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Carthusia/Tuberosa-54831.html",
+    "extractedAt": "2026-11-24T17:48:43.002Z",
+    "name": "Tuberosa",
+    "brand": "Carthusia",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Luca Maffei",
+    "topNotes": [
+      "Plum",
+      "Cinnamon",
+      "elemi"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Ylang-Ylang",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Vetiver",
+      "Musk",
+      "Ambroxan"
+    ],
+    "description": "\"Some places have intrinsic magic. Their unique beauty, that air of freedom, joy of life, lightheartedness that is spontaneously associated with them, permeate the look and intervene, positively, on the mood of those who are there, live it, or have been there and lived it and keep a pleasant memory of it. Capri, all over the world, triggers this contagious euphoria and who has had the good fortune to spend therelong or shorter periods, keep it the door engraved in their heart, as well as in their eyes. The senses are continuously enchanted, the sense of smell included. It is impossible not to associate Capri with a rich fragrant imprint, which mixes in the memory the scents of flowers and typical vegetation, warmed by the sun which brings out its enveloping harmony.</p> <p>For the first time, Carthusia interprets one of the iconic flowers of perfumery, TUBEROSE. The brand does it in its most congenial way, thus remaining faithful to its own playful spirit, in which the olfactory imprint of its roots emerges with a well defined personality.</p> <p>The leading role in Tuberosa is the namesake flower itself, noble and charismatic, in a creamy and enveloping interpretation. The solar carnality of Ylang-Ylang surrounds it, to then make it vibrate with Elemi and Cinnamon, and a pinch of color with Plum. In the wake of deep and material notes of Vetiver, Vanilla, Ambroxan and Musk. A soliflor - the first in the Carthusia fragrance collection - full of facets, in which the main note is supported by an architecture that enhances it while enriching the jus with iridescent facets.</p> <p>The composition, by Luca Maffei, translates into an intense and sensual floriental, open and bright, in perfect Carthusia style. The tuberose lives in a new light. It is no longer the lunar one that, precisely because after sunset its effluvium is even more intense, has contributed to its fame and diffusion especially in the Victorian era, but it is that of the Spring sun in a blossoming Capri, preparing to live a new season, new experiences, new loves.\"</p> <p>Head: Plum, Elemi, Cinnamon<br /> Heart: Tuberose Absolute, Ylang-Ylang, Rose<br /> Base: Vetiver, Ambroxan, Vanilla, Musk</p> <p>The fragrance Tuberosa is available from mid-May 2019 as a 50ml and 100ml Eau de Parfum and 50ml Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54831.jpg",
+    "rating": 3.87,
+    "ratingVotes": 197,
+    "accords": [
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 94
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 80
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 79
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 52
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 46
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 54831,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tuberosa",
+    "brandFa": "Carthusia",
+    "nameFa": "Tuberosa",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Luca Maffei",
+    "topNotesFa": [
+      "آلو",
+      "دارچین",
+      "elemi"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "ایلنگ‌ایلنگ",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "وتیور",
+      "موش",
+      "آمبروکسان"
+    ],
+    "descriptionFa": "«برخی مکان‌ها جادوی ذاتی دارند. زیبایی منحصر به فرد آنها، آن حس آزادی، شادی زندگی، بی‌خیالی که به طور خودجوش با آنها مرتبط است، در ظاهر آنها نفوذ می‌کند و تأثیر مثبتی بر روحیه کسانی می‌گذارد که در آنجا هستند، در آنجا زندگی می‌کنند یا در آنجا بوده‌اند و در آنجا زندگی کرده‌اند و خاطره خوشی از آن دارند. کاپری، در سراسر جهان، این سرخوشی مسری را برمی‌انگیزد و کسانی که این شانس را داشته‌اند که دوره‌های طولانی یا کوتاه‌تری را در آنجا سپری کنند، آن را حفظ می‌کنند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mancera/Tonka-Cola-76893.html",
+    "extractedAt": "2026-11-24T17:48:50.024Z",
+    "name": "Tonka Cola",
+    "brand": "Mancera",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Pierre Montale",
+    "topNotes": [
+      "Cinnamon",
+      "Cherry",
+      "Sicilian Lemon",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Coca-Cola",
+      "Indonesian Patchouli Leaf",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Benzoin",
+      "Labdanum"
+    ],
+    "description": "On the trail of this famous spearhead of pop culture, invented in the United States, we followed in the footsteps of caravans, travelers and kola nut merchants. This journey took us from the hectic modernity of the world's great metropolises to the warm plains of the sunset empires, where the tonka bean awaited us. Sweet and engaging, pop and elegant, Tonka Cola will catch you in the moment.</p> <p>Head notes: Sicilian Lemon, Nutmeg & Cinnamon Stick, Black Cherry.<br /> Heart notes: Fizzy Cola, Indonesian Patchouli, Orange Flowers.<br /> Base notes: Brazilian Tonka Beans, Balmy Benzoin & Labdanum, Powdery Vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76893.jpg",
+    "rating": 4.03,
+    "ratingVotes": 6204,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "coca-cola",
+        "nameFa": "coca-cola",
+        "percent": 72
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 49
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 45
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 76893,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tonka Cola",
+    "brandFa": "مانسرا",
+    "nameFa": "Tonka Cola",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Pierre Montale",
+    "topNotesFa": [
+      "دارچین",
+      "گیلاس",
+      "Sicilian Lemon",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "Coca-Cola",
+      "Indonesian Patchouli Leaf",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "وانیل",
+      "بنزوئین",
+      "لابدانوم"
+    ],
+    "descriptionFa": "در مسیر این پیشتاز معروف فرهنگ پاپ که در ایالات متحده ابداع شد، ما رد کاروان‌ها، مسافران و بازرگانان دانۀ کولا را دنبال کردیم. این سفر ما را از مدرنیته پر جنب‌وجوش کلان‌شهرهای بزرگ جهان به دشت‌های گرم امپراتوری‌های غروب آفتاب برد، جایی که دانه‌های تونکا منتظر ما بودند. تونکا کولا با رایحه‌ای شیرین و جذاب، پاپ و شیک، شما را در لحظه مجذوب خود خواهد کرد.</p> <p>نت‌های اولیه: لیموی سیسیل، جوز هندی و دارچین",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Vibrant-Leather-Bogoss-Coco-Suede-126294.html",
+    "extractedAt": "2026-11-24T17:48:56.672Z",
+    "name": "Vibrant Leather Bogoss Coco Suede",
+    "brand": "Zara",
+    "family": "Woody Aquatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pineapple",
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Sea Salt",
+      "Mineral notes"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Suede"
+    ],
+    "description": "Bogoss Vibrant Leather Coco Suede by Zara is an eau de parfum for men introduced in 2026 as a more tactile interpretation of the Bogoss Vibrant Leather theme. The fragrance combines the bright freshness of pineapple with the mineral touch of sea salt, leading into a creamy yet dry sandalwood base with a texture reminiscent of warm suede on the skin. The fruit facet is described as vivid rather than sweet, while the woods are smooth rather than heavy, creating a contrast between juiciness and dryness that results in a structured, close-to-skin trail with a gentle lingering warmth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.126294.jpg",
+    "rating": 4.54,
+    "ratingVotes": 156,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 77
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 70
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 66
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 52
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 40
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 126294,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vibrant Leather Bogoss Coco Suede",
+    "brandFa": "Zara",
+    "nameFa": "Vibrant Leather Bogoss Coco Suede",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "آناناس",
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "نمک دریا",
+      "Mineral notes"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "چرم جیر"
+    ],
+    "descriptionFa": "Bogoss Vibrant Leather Coco Suede از برند Zara یک ادو پرفیوم مردانه است که در سال 2026 به‌عنوان تفسیر حسی‌تر از تم Bogoss Vibrant Leather معرفی شد. این عطر طراوت درخشان آناناس را با حس معدنی نمک دریا ترکیب می‌کند و به پایه چوب صندل خامه مانند اما خشک می‌رسد که بافتی شبیه به جیر گرم روی پوست دارد. وجه میوه‌ای آن بیشتر به عنوان پرطراوت توصیف می‌شود تا شیرین، در حالی که رایحه چوب‌ها بیشتر ملایم است تا تند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Gucci-Eau-de-Parfum-684.html",
+    "extractedAt": "2026-11-24T17:49:02.453Z",
+    "name": "Gucci Eau de Parfum",
+    "brand": "Gucci",
+    "family": "Oriental Spicy",
+    "gender": "women",
+    "year": 2002,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Heliotrope",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Caraway",
+      "Iris",
+      "Thyme"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Incense",
+      "Vanilla",
+      "Sandalwood",
+      "Musk",
+      "Cedar Essence"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.684.jpg",
+    "rating": 4.28,
+    "ratingVotes": 2813,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 51
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 684,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Gucci",
+    "brandFa": "گوشی",
+    "nameFa": "Gucci Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "گل هلیوتروپ",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "زیره کوهی",
+      "زنبق",
+      "پونه‌سان"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "عود بخور",
+      "وانیل",
+      "چوب صندل",
+      "موش",
+      "Cedar Essence"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Invite-Only-Amber-23-68958.html",
+    "extractedAt": "2026-11-24T17:49:05.880Z",
+    "name": "Invite Only Amber | 23",
+    "brand": "Kayali Fragrances",
+    "family": "Oriental Spicy",
+    "gender": "women and men. <b>Invite Only Amber | 23</b> was launched in 2021. Invite Only Amber | 23 was created by Ilias Ermenidis and dsm-firmenich. Top notes are Tobacco Leaf, Sour Cherry, Honey, Chocolate and Hazelnut; middle notes are Ceylon Cinnamon, May Rose, Damask Rose and Citrus Leaf; base notes are Amber, Agarwood (Oud), Vanilla, Benzoin, Sandalwood, Patchouli, Musk and Cypriol Oil or Nagarmotha",
+    "year": 2021,
+    "perfumer": "Ilias Ermenidis and dsm-",
+    "topNotes": [
+      "Tobacco Leaf",
+      "Sour Cherry",
+      "Honey",
+      "Chocolate",
+      "Hazelnut"
+    ],
+    "middleNotes": [
+      "Ceylon Cinnamon",
+      "May Rose",
+      "Damask Rose",
+      "Citrus Leaf"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Agarwood (Oud)",
+      "Vanilla",
+      "Benzoin",
+      "Sandalwood",
+      "Patchouli",
+      "Musk",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68958.jpg",
+    "rating": 3.76,
+    "ratingVotes": 2381,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 82
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 61
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 54
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 46
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 68958,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Invite Only Amber | 23",
+    "brandFa": "Kayali Fragrances",
+    "nameFa": "Invite Only Amber | 23",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. <b>Invite Only Amber | 23</b> was launched in 2021. Invite Only Amber | 23 was created by Ilias Ermenidis and dsm-firmenich. Top notes are Tobacco Leaf, Sour Cherry, Honey, Chocolate and Hazelnut; middle notes are Ceylon Cinnamon, May Rose, Damask Rose and Citrus Leaf; base notes are Amber, Agarwood (Oud), Vanilla, Benzoin, Sandalwood, Patchouli, Musk and Cypriol Oil or Nagarmotha",
+    "perfumerFa": "Ilias Ermenidis and dsm-",
+    "topNotesFa": [
+      "برگ تنباکو",
+      "گیلاس ترش",
+      "عسل",
+      "شکلات",
+      "فندق"
+    ],
+    "middleNotesFa": [
+      "Ceylon Cinnamon",
+      "گل رز میانی",
+      "گل رز دمشقی",
+      "Citrus Leaf"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Agarwood (Oud)",
+      "وانیل",
+      "بنزوئین",
+      "چوب صندل",
+      "پچولی",
+      "موش",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Burberry/Burberry-Her-Elixir-de-Parfum-75968.html",
+    "extractedAt": "2026-11-24T17:49:10.160Z",
+    "name": "Burberry Her Elixir de Parfum",
+    "brand": "Burberry",
+    "family": null,
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Jérôme di Marino and Maïa Lernout",
+    "topNotes": [
+      "Strawberry",
+      "Blackberry"
+    ],
+    "middleNotes": [
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75968.jpg",
+    "rating": 4.09,
+    "ratingVotes": 6820,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 26
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 24
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 75968,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Burberry Her de Parfum",
+    "brandFa": "بربری",
+    "nameFa": "Burberry Her Elixir de Parfum",
+    "concentrationFa": "اکسیر",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jérôme di Marino and Maïa Lernout",
+    "topNotesFa": [
+      "توت‌فرنگی",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fischersund/Quarter-to-Five-4-45-96271.html",
+    "extractedAt": "2026-11-24T17:49:14.932Z",
+    "name": "Quarter to Five/4:45",
+    "brand": "Fischersund",
+    "family": "Woody",
+    "gender": "women and men. <b>Quarter to Five/4:45</b> was launched in 2023. The nose behind this fragrance is Jón “Jónsi” Þór Birgisson. The fragrance features Woody Notes",
+    "year": 2023,
+    "perfumer": "Jón “Jónsi” Þór Birgisson",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96271.jpg",
+    "rating": 4.38,
+    "ratingVotes": 8,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      }
+    ],
+    "fragranticaId": 96271,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Quarter to Five/4:45",
+    "brandFa": "Fischersund",
+    "nameFa": "Quarter to Five/4:45",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. <b>Quarter to Five/4:45</b> was launched in 2023. The nose behind this fragrance is Jón “Jónsi” Þór Birgisson. The fragrance features Woody Notes",
+    "perfumerFa": "Jón “Jónsi” Þór Birgisson",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Megan-Thee-Stallion/Hot-Girl-Summer-136691.html",
+    "extractedAt": "2026-11-24T17:49:19.066Z",
+    "name": "Hot Girl Summer",
+    "brand": "Megan Thee Stallion",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Coconut Milk"
+    ],
+    "middleNotes": [
+      "Orchid"
+    ],
+    "baseNotes": [
+      "Vetiver"
+    ],
+    "description": "Hot Girl Summer by Megan Thee Stallion is a limited-edition floral fragrance with woody facets, released in 2026. Developed in partnership with Coty, it opens with coconut milk accord, moves into an orchid accord heart, and finishes with vetiver, creating a creamy floral composition with a warm, earthy drydown.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136691.jpg",
+    "rating": 3.99,
+    "ratingVotes": 198,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 97
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 96
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 136691,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hot Girl Summer",
+    "brandFa": "Megan Thee Stallion",
+    "nameFa": "Hot Girl Summer",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "شیر نارگیل"
+    ],
+    "middleNotesFa": [
+      "Orchid"
+    ],
+    "baseNotesFa": [
+      "وتیور"
+    ],
+    "descriptionFa": "Hot Girl Summer از Megan Thee Stallion یک عطر گل‌دار با رایحه‌های چوبی است که در سال ۲۰۲۶ در تیراژ محدود عرضه می‌شود. این عطر که با همکاری Coty ساخته شده است، با نت اولیه شیر نارگیل آغاز می‌شود، به نت میانی ارکیده می‌رسد و با نت پایانی وتیور به پایان می‌رسد و ترکیبی گلی و خامه مانند با رایحه‌ای گرم و خاکی ایجاد می‌کند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Burberry/Burberry-Her-51694.html",
+    "extractedAt": "2026-11-24T17:49:24.387Z",
+    "name": "Burberry Her",
+    "brand": "Burberry",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2018,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Strawberry",
+      "Raspberry",
+      "Blackberry",
+      "Sour Cherry",
+      "Black Currant",
+      "Mandarin Orange",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Cashmeran",
+      "Woody Notes",
+      "Amber",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "description": "Burberry Her, a new pillar fragrance for the house, comes out in October 2018 and is the first one whose packaging is marked with the new logo.</p> <p>Burberry Her is designed to capture the youthful spirit of the city of London, the creative and eclectic metropolis; a spirit that is lively, adventurous and brave. It is made for those women who feel Londoners at heart. The composition is signed by Francis Kurkdjian as his interpretation of a floral-fruity theme with gourmand undertones. Crushed berry fruit from the top is combined with middle notes of violet and jasmine, based on woods and amber.</p> <p>\"Her Eau de Parfum by Burberry is unique because it is a memorable signature. To achieve that, you need a strong accord, an olfactory story that translates your vision. The combination of these sunburst berries and British spirit blended with the ambery musky accord brings this very unique signature. You can immediately recognize when someone is wearing it. It is a signature scent.\" - Francis Kurkdjian</p> <p>The face of perfume is model Cara Delavigne, representing her home city. Burberry Her is available as a 30, 50 and 100 ml Eau de Parfum.</p> <p><br />",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51694.jpg",
+    "rating": 3.88,
+    "ratingVotes": 16642,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 69
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 16
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 14
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 51694,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Burberry Her",
+    "brandFa": "بربری",
+    "nameFa": "Burberry Her",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "توت‌فرنگی",
+      "تمشک",
+      "توت سیاه",
+      "گیلاس ترش",
+      "توت سیاه",
+      "نارنگی",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "کشماران",
+      "Woody Notes",
+      "کهربا",
+      "خزه بلوط",
+      "پچولی"
+    ],
+    "descriptionFa": "Burberry Her، عطر اصلی جدید این برند، در اکتبر 2018 عرضه می‌شود و اولین عطری است که بسته‌بندی آن با لوگوی جدید مزین شده است.</p> <p>Burberry Her برای به تصویر کشیدن روحیه جوانی شهر لندن، کلان‌شهری خلاق و متنوع، طراحی شده است؛ روحیه‎‌ای سرزنده، ماجراجو و شجاع. این عطر برای زنانی ساخته شده است که در قلب خود احساس می‌کنند اهل لندن هستند. این ترکیب توسط فرانسیس کورکجیان به عنوان تفسیر او از یک رایحه گل طراحی شده است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Carolina-Herrera/212-296.html",
+    "extractedAt": "2026-11-24T17:49:30.464Z",
+    "name": "212",
+    "brand": "Carolina Herrera",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 1997,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Orange Blossom",
+      "Cactus Flower",
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Lily",
+      "Freesia",
+      "Gardenia",
+      "Jasmine",
+      "White Camelia",
+      "Lily-of-the-Valley",
+      "Rose",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "A perfume for a young woman, the scent of New York, the scent of life. The flacon evokes the same artistic concept as the perfume itself—it’s modern, urban, charismatic, unique, just like the city of New York. The fragrance is optimistic, a symbol of the curiosity and energy of a young urban woman living in a large city. Top notes include orange blossom, bergamot and mandarin. The heart notes, also floral, are composed of camellia, gardenia and lily. The base is made of sandalwood and bright musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.296.jpg",
+    "rating": 4,
+    "ratingVotes": 6229,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 27
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 20
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 296,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "212",
+    "brandFa": "کارولینا هررا",
+    "nameFa": "212",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "گل پرتقال",
+      "Cactus Flower",
+      "برگاموت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "لاله",
+      "فریزیا",
+      "گاردنیا",
+      "یاسمن",
+      "White Camelia",
+      "Lily-of-the-Valley",
+      "گل رز",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل"
+    ],
+    "descriptionFa": "عطری برای یک زن جوان، عطر نیویورک، عطر زندگی. بطری عطر همان مفهوم هنری خود عطر را تداعی می‌کند - مدرن، شهری، کاریزماتیک و منحصربه‌فرد است، درست مانند شهر نیویورک. این عطر خوش‌بینانه است و نمادی از کنجکاوی و انرژی یک زن جوان شهری است که در یک کلان‌شهر زندگی می‌کند. نت‌های اولیه شامل شکوفه پرتقال، ترنج و نارنگی هستند. نت‌های میانی، که آنها نیز گل‌فام هستند، از کامِلیا، گاردنیا و ل",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Prada-Paradoxe-Intense-83988.html",
+    "extractedAt": "2026-11-24T17:49:37.579Z",
+    "name": "Prada Paradoxe Intense",
+    "brand": "Prada",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu",
+    "topNotes": [
+      "Neroli",
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Neroli Essence",
+      "Moss"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Vanilla",
+      "Amber",
+      "Ambrofix™",
+      "Serenolide"
+    ],
+    "description": "Prada launches Paradoxe Intense, a new flanker of the 2022 pillar, Paradoxe. The new edition is described as an extraordinary floral bouquet with the freshness of the neroli bud and jasmine superinfusion with ambrofix and serenolide. Prada Paradoxe Intense embodies an exuberant celebration of the unexpected, harmoniously balancing of strength with graceful delicacy.</p> <p>Just like its predecessor, Paradoxe Intense was created by perfumers Nadège Le Garlantezec, Shyamala Maisondieu, and Antoine Maisondieu.</p> <p>Top notes: bergamot essence, neroli bud, pear<br /> Heart: neroli esesence, jasmin superinfusion, moss <br /> Base: Serenolide, Moxalone, Ambrofix, vanilla Bourbon, natural vanillin </p> <p>Prada Paradoxe Intense is available as 30, 50 and 90 ml Eau de Parfum and as a 100 ml refill.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83988.jpg",
+    "rating": 4.12,
+    "ratingVotes": 4746,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 73
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 70
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 83988,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Prada Paradoxe",
+    "brandFa": "پرادا",
+    "nameFa": "Prada Paradoxe Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu",
+    "topNotesFa": [
+      "نرولی",
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Neroli Essence",
+      "خزه"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "وانیل",
+      "کهربا",
+      "Ambrofix™",
+      "Serenolide"
+    ],
+    "descriptionFa": "Prada عطر Paradoxe Intense را عرضه می‌کند که نسخه جدیدی از عطر اصلی سال 2022، Paradoxe است. این نسخه جدید به عنوان یک دسته گل فوق‌العاده با طراوت جوانه نرولی و عصاره غلیظ یاس همراه با آمبروفیکس و سرنولید توصیف می‌شود. Prada Paradoxe Intense تجسم جشن پرشوری از اتفاقات غیرمنتظره است که به طور هماهنگ، قدرت را با ظرافت دل‌فریب متعادل می‌کند.</p> <p>Paradoxe Intense نیز مانند نسخه قبلی‌اش توسط عطرسازان Nadèg ساخته شده است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
