@@ -22919,5 +22919,3058 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Vestige/Odyssee-des-Bois-148598.html",
+    "extractedAt": "2026-11-24T03:49:45.872Z",
+    "name": "Odyssée des Bois",
+    "brand": "Maison Vestige",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Cedar",
+      "Amber"
+    ],
+    "description": "Odyssée des Bois by Maison Vestige is a woody aromatic fragrance for women and men, launched in 2026. Lemon and juniper berries open the composition, followed by lavender and geranium over a base of patchouli, cedar and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148598.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 81
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 38
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 38
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 38
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 38
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148598,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Odyssée des Bois",
+    "brandFa": "Maison Vestige",
+    "nameFa": "Odyssée des Bois",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "لیمو",
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "سرو",
+      "کهربا"
+    ],
+    "descriptionFa": "Odyssée des Bois از برند Maison Vestige یک عطر چوبی معطر برای زنان و مردان است که در سال 2026 عرضه شد. ترکیب رایحه با لیمو و دانه‌های عرعر آغاز می‌شود، سپس اسطوخودوس و شمعدانی بر روی پایه‌ای از نعناع هندی، سرو و عنبر قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/YASMIN-Parfums/No-33-148597.html",
+    "extractedAt": "2026-11-24T03:49:51.997Z",
+    "name": "No.33",
+    "brand": "YASMIN Parfums",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "White Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Saffron",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Vanilla",
+      "Suede",
+      "Balsamic Notes"
+    ],
+    "description": "No.33 by YASMIN Parfums is a warm floral eau de parfum for women and men, launched in 2026. Conceived as a soft, musky skin scent, it opens with white pepper and bergamot, develops through jasmine, saffron and amber, and dries down to oud, vanilla, suede and balsamic notes.</p> <p>No.33 is a warm floral skin scent with a soft, musky feel. It dries down to amber, vanilla suede and a trace of oud.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148597.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 65
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 59
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 148597,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No.33",
+    "brandFa": "YASMIN Parfums",
+    "nameFa": "No.33",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل سفید",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "زعفران",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "وانیل",
+      "چرم جیر",
+      "نت‌های بلسامی"
+    ],
+    "descriptionFa": "No.33 از YASMIN Parfums یک ادو پرفیوم گرم و گلی برای خانم‌ها و آقایان است که در سال 2026 عرضه شد. این عطر که به عنوان یک رایحه ملایم و مشکی برای پوست طراحی شده است، با فلفل سفید و ترنج آغاز می‌شود، از طریق یاس، زعفران و عنبر توسعه می‌یابد و در نهایت به رایحه‌های عود، وانیل، جیر و بالزامیک می‌رسد.</p> <p>No.33 یک عطر پوستی گرم و گل‌دار با حسی ملایم و مشکی است. در نهایت به رایحه‌های کهربا، جیر وانیلی و کمی عود تبدیل می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/TDF-Parfums/Tropical-Paradise-148596.html",
+    "extractedAt": "2026-11-24T03:49:57.843Z",
+    "name": "Tropical Paradise",
+    "brand": "TDF Parfums",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Passionfruit",
+      "Mango",
+      "Mandarin Orange",
+      "Green Leaves",
+      "Hedione"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Jasmine Sambac",
+      "Coconut Milk",
+      "Heliotrope",
+      "Iso E Super"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood",
+      "Rum",
+      "Vanilla",
+      "Musk",
+      "Ambroxan",
+      "Patchouli"
+    ],
+    "description": "Tropical Paradise by TDF Parfums is a unisex floral fruity gourmand fragrance launched in 2025. It opens with passionfruit, mango, mandarin orange, green leaves and Hedione, followed by ylang-ylang, jasmine sambac, coconut milk, rosewood, heliotrope and Iso E Super, over a base of amber, sandalwood, rum, vanilla, musk, Ambroxan and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148596.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 79
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 74
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 69
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 148596,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tropical Paradise",
+    "brandFa": "TDF Parfums",
+    "nameFa": "Tropical Paradise",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Passionfruit",
+      "مانگو",
+      "نارنگی",
+      "برگ‌های سبز",
+      "Hedione"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "Jasmine Sambac",
+      "شیر نارگیل",
+      "گل هلیوتروپ",
+      "Iso E Super"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب صندل",
+      "رام",
+      "وانیل",
+      "موش",
+      "آمبروکسان",
+      "پچولی"
+    ],
+    "descriptionFa": "Tropical Paradise از برند TDF Parfums یک عطر یونیسکس گلی میوه‌ای گورماند است که در سال 2025 عرضه شد. این عطر با نت‌های اولیه میوه گل‌ساعتی، انبه، نارنگی، برگ‌های سبز و هدیون آغاز می‌شود، سپس نت‌های میانی یلانگ-یلانگ، یاس سامباک، شیر نارگیل، چوب رز، هلیوتروپ و Iso E Super را شامل می‌شود و در نهایت بر پایه نت‌های پایانی کهربا، چوب صندل، رام، وانیل، مشک، آمبروکسان و نعناع هندی قرار می‌گیرد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eighty-Five-Reserve/No-1985-Cold-Authority-148595.html",
+    "extractedAt": "2026-11-24T03:50:03.105Z",
+    "name": "No. 1985 — Cold Authority",
+    "brand": "Eighty-Five Reserve",
+    "family": "Woody Aromatic",
+    "gender": "women and men. This is a new fragrance. <b>No. 1985 — Cold Authority</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Bergamot, Grapefruit, Aldehydes, Violet Leaf, Vetiver, Clary Sage, Ambroxan, Amber, Cedarwood and Musk",
+    "year": 2026,
+    "perfumer": "Jay Soze",
+    "description": "No. 1985 — Cold Authority by Eighty-Five Reserve is a unisex woody aromatic fragrance created by Jay Soze and released in 2026. It combines bergamot and grapefruit with aldehydes, violet leaf, vetiver, clary sage, ambroxan, amber, cedarwood and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148595.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 91
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 73
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 48
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 148595,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No. 1985 — Cold Authority",
+    "brandFa": "Eighty-Five Reserve",
+    "nameFa": "No. 1985 — Cold Authority",
+    "familyFa": "چوبی معطر",
+    "genderFa": "women and men. This is a new fragrance. <b>No. 1985 — Cold Authority</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Bergamot, Grapefruit, Aldehydes, Violet Leaf, Vetiver, Clary Sage, Ambroxan, Amber, Cedarwood and Musk",
+    "perfumerFa": "Jay Soze",
+    "descriptionFa": "No. 1985 — Cold Authority از برند Eighty-Five Reserve یک عطر یونیسکس با رایحه چوبی معطر است که توسط جی سوز ایجاد شده و در سال 2026 عرضه شده است. این عطر ترکیبی از رایحه ترنج و گریپ‌فروت همراه با آلدئیدها، برگ بنفشه، خس‌خس، مریم‌گلی، آمبروکسان، عنبر، چوب سدر و مشک است.",
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bore/Salar-De-Uyuni-148594.html",
+    "extractedAt": "2026-11-24T03:50:09.188Z",
+    "name": "Salar De Uyuni",
+    "brand": "Boré",
+    "family": "Aromatic Aquatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Andro Simunovic",
+    "topNotes": [
+      "Salt",
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Aloe Vera",
+      "Ginger",
+      "Ylang Ylang"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Marine notes"
+    ],
+    "description": "Eau de Parfum 25%</p> <p>\"Inspired by the breathtaking Salar de Uyuni, the world's largest salt flat, located in southwestern Bolivia. This fragrance captures the infinite white horizon, the crystalline reflections of the sky, and the refreshing sensation of open air over a vast mineral landscape. Salar de Uyuni is a tribute to purity, freedom, and the extraordinary beauty of one of Bolivia's most iconic natural wonders.\" -Boré.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148594.jpg",
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 93
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 86
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 86
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 79
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 71
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 71
+      }
+    ],
+    "fragranticaId": 148594,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Salar De Uyuni",
+    "brandFa": "Boré",
+    "nameFa": "Salar De Uyuni",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Andro Simunovic",
+    "topNotesFa": [
+      "نمک",
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Aloe Vera",
+      "زنجبیل",
+      "Ylang Ylang"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "Marine notes"
+    ],
+    "descriptionFa": "ادو پرفیوم ۲۵٪</p> <p>«الهام‌گرفته از سالار دِ اویونی خیره‌کننده، بزرگترین دشت نمک جهان که در جنوب غربی بولیوی واقع شده است. این عطر افق سفید بی‌نهایت، انعکاس‌های کریستالی آسمان و حس طراوت هوای آزاد بر فراز یک چشم‌انداز وسیع معدنی را به تصویر می‌کشد. سالار د اویونی ادای احترامی است به پاکی، آزادی و زیبایی خارق‌العاده یکی از نمادین‌ترین شگفتی‌های طبیعی بولیوی.» -بور.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eighty-Five-Reserve/No-2190-Golden-Hour-148593.html",
+    "extractedAt": "2026-11-24T03:50:14.571Z",
+    "name": "No. 2190 — Golden Hour",
+    "brand": "Eighty-Five Reserve",
+    "family": "Oriental Floral",
+    "gender": "women and men. This is a new fragrance. <b>No. 2190 — Golden Hour</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Sicilian Mandarin, Saffron, Orange Blossom, Jasmine Sambac, Sandalwood, Amber, Vanilla and White Musk",
+    "year": 2026,
+    "perfumer": "Jay Soze",
+    "description": "No. 2190 — Golden Hour by Eighty-Five Reserve is a unisex fragrance launched in 2026, featuring Sicilian mandarin, saffron, orange blossom, jasmine sambac, sandalwood, amber, vanilla and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148593.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148593,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No. 2190 — Golden Hour",
+    "brandFa": "Eighty-Five Reserve",
+    "nameFa": "No. 2190 — Golden Hour",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. This is a new fragrance. <b>No. 2190 — Golden Hour</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Sicilian Mandarin, Saffron, Orange Blossom, Jasmine Sambac, Sandalwood, Amber, Vanilla and White Musk",
+    "perfumerFa": "Jay Soze",
+    "descriptionFa": "No. 2190 — Golden Hour از برند Eighty-Five Reserve یک عطر یونیسکس است که در سال 2026 عرضه شد و دارای رایحه‌های نارنگی سیسیل، زعفران، شکوفه پرتقال، یاس سامباک، چوب صندل، عنبر، وانیل و مشک سفید است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bore/Noche-En-Samaipata-148592.html",
+    "extractedAt": "2026-11-24T03:50:20.304Z",
+    "name": "Noche En Samaipata",
+    "brand": "Boré",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Andro Simunovic",
+    "topNotes": [
+      "Grapes",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Caramel",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Argan"
+    ],
+    "description": "Eau de Parfum 25%.</p> <p>\"Inspired by the mystical atmosphere of Samaipata, a picturesque mountain town nestled in the valleys of Santa Cruz, Bolivia. Noche en Samaipata captures the warmth of a starlit evening, the gentle mountain breeze, and the romantic character of high-altitude vineyards. An intimate and sophisticated fragrance that evokes the serenity, mystery, and warmth of Bolivian mountain nights.\" -Boré.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148592.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 56
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 56
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 148592,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Noche En Samaipata",
+    "brandFa": "Boré",
+    "nameFa": "Noche En Samaipata",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Andro Simunovic",
+    "topNotesFa": [
+      "Grapes",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "کارامل",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "Argan"
+    ],
+    "descriptionFa": "ادو پرفیوم ۲۵٪.</p> <p>«الهام‌گرفته از فضای اسرارآمیز سامایپاتا، شهری کوهستانی و زیبا که در دره‌های سانتا کروز بولیوی واقع شده است. Noche en Samaipata گرما و لطافت یک شب پرستاره، نسیم ملایم کوهستان و حال و هوای رمانتیک تاکستان‌های واقع در ارتفاعات را به تصویر می‌کشد. عطری صمیمی و پیچیده که آرامش، رمز و راز و گرمای شب‌های کوهستانی بولیوی را تداعی می‌کند.» -بور.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eighty-Five-Reserve/No-930-White-Room-148591.html",
+    "extractedAt": "2026-11-24T03:50:26.538Z",
+    "name": "No. 930 — White Room",
+    "brand": "Eighty-Five Reserve",
+    "family": "Floral Woody Musk",
+    "gender": "women and men. This is a new fragrance. <b>No. 930 — White Room</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Cucumber, Bergamot, White Tea, Lily of the Valley, Jasmine, Cashmere Wood, White Amber and Musk",
+    "year": 2026,
+    "perfumer": "Jay Soze",
+    "description": "No. 930 — White Room by Eighty-Five Reserve is a unisex fragrance created by Jay Soze and released in 2026, combining cucumber, bergamot, white tea, lily of the valley and jasmine with cashmere wood, white amber and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148591.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 75
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 75
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 55
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 148591,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No. 930 — White Room",
+    "brandFa": "Eighty-Five Reserve",
+    "nameFa": "No. 930 — White Room",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women and men. This is a new fragrance. <b>No. 930 — White Room</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Cucumber, Bergamot, White Tea, Lily of the Valley, Jasmine, Cashmere Wood, White Amber and Musk",
+    "perfumerFa": "Jay Soze",
+    "descriptionFa": "No. 930 — White Room از برند Eighty-Five Reserve یک عطر یونیسکس است که توسط جی سوز (Jay Soze) ساخته شده و در سال 2026 عرضه شده است. این عطر ترکیبی از رایحه‌های خیار، ترنج، چای سفید، گل میخک و یاس با چوب کشمیر، کهربای سفید و مشک است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eighty-Five-Reserve/No-811-DayBreak-148590.html",
+    "extractedAt": "2026-11-24T03:50:31.894Z",
+    "name": "No. 811 — DayBreak",
+    "brand": "Eighty-Five Reserve",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. This is a new fragrance. <b>No. 811 — DayBreak</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Melon, Calabrian bergamot, Green Mandarin, White Tea, Woody Notes and Musk",
+    "year": 2026,
+    "perfumer": "Jay Soze",
+    "description": "DayBreak by Eighty-Five Reserve is a citrus aromatic fragrance for women and men, released in 2026. It combines melon, Calabrian bergamot, green mandarin and white tea with woody notes and clean musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148590.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 45
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148590,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No. 811 — DayBreak",
+    "brandFa": "Eighty-Five Reserve",
+    "nameFa": "No. 811 — DayBreak",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. This is a new fragrance. <b>No. 811 — DayBreak</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Melon, Calabrian bergamot, Green Mandarin, White Tea, Woody Notes and Musk",
+    "perfumerFa": "Jay Soze",
+    "descriptionFa": "DayBreak از برند Eighty-Five Reserve یک عطر مرکباتی معطر برای زنان و مردان است که در سال 2026 عرضه شد. این عطر ترکیبی از رایحه‌های طالبی، ترنج کالابریا، نارنگی سبز و چای سفید همراه با نت‌های چوبی و مشک خالص است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Eighty-Five-Reserve/No-625-After-Hours-148589.html",
+    "extractedAt": "2026-11-24T03:50:36.633Z",
+    "name": "No. 625 — After Hours",
+    "brand": "Eighty-Five Reserve",
+    "family": "Oriental Woody",
+    "gender": "women and men. This is a new fragrance. <b>No. 625 — After Hours</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Bergamot, Pink Pepper, Ambrette, Butter, Orris, Hedione, Cashmeran, Sandalwood, Habanolide®, Cetalox, Benzoin and Vanilla",
+    "year": 2026,
+    "perfumer": "Jay Soze",
+    "description": "No. 625 — After Hours by Eighty-Five Reserve is a unisex fragrance launched in 2026. Created by Jay Soze, it is a close-wearing composition centered on musk, creamy woods and amber, with bergamot and pink pepper leading into orris, Hedione, Cashmeran, sandalwood, benzoin and vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148589.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 86
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 86
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148589,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No. 625 — After Hours",
+    "brandFa": "Eighty-Five Reserve",
+    "nameFa": "No. 625 — After Hours",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>No. 625 — After Hours</b> was launched in 2026. The nose behind this fragrance is Jay Soze. The fragrance features Bergamot, Pink Pepper, Ambrette, Butter, Orris, Hedione, Cashmeran, Sandalwood, Habanolide®, Cetalox, Benzoin and Vanilla",
+    "perfumerFa": "Jay Soze",
+    "descriptionFa": "No. 625 — After Hours از برند Eighty-Five Reserve یک عطر یونیسکس است که در سال 2026 عرضه شد. این عطر که توسط جی سوز ایجاد شده است، ترکیبی است که به پوست نزدیک می‌شود و بر پایه مشک، چوب‌های کرمی و عنبر ساخته شده است، با رایحه‌های اولیه ترنج و فلفل صورتی که به زنبق، هدیون، کشمیران، چوب صندل، بنزوئین و وانیل منتهی می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nuancielo/Monde-Parallele-148588.html",
+    "extractedAt": "2026-11-24T03:50:43.398Z",
+    "name": "Mondé Parallèle",
+    "brand": "Nuancielo",
+    "family": "Aromatic Spicy",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Tangerine",
+      "Guava",
+      "Lavender",
+      "Lemon",
+      "Rosemary",
+      "Thyme"
+    ],
+    "middleNotes": [
+      "Pink Pepper",
+      "Cinnamon",
+      "Tangerine",
+      "Nutmeg",
+      "Mint",
+      "Anise"
+    ],
+    "baseNotes": [
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148588.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 91
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 32
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 29
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148588,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mondé Parallèle",
+    "brandFa": "Nuancielo",
+    "nameFa": "Mondé Parallèle",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "تانجرین",
+      "گواوا",
+      "اسطوخودوس",
+      "لیمو",
+      "رزماری",
+      "پونه‌سان"
+    ],
+    "middleNotesFa": [
+      "فلفل صورتی",
+      "دارچین",
+      "تانجرین",
+      "جوز هندی",
+      "نعناع",
+      "انیسون"
+    ],
+    "baseNotesFa": [
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nuancielo/Alpha-Blanche-148587.html",
+    "extractedAt": "2026-11-24T03:50:48.087Z",
+    "name": "Alpha Blanche",
+    "brand": "Nuancielo",
+    "family": "Woody",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Sicilian Lemon",
+      "Calabrian bergamot"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Woody Notes"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148587.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 71
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 21
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 18
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 148587,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alpha Blanche",
+    "brandFa": "Nuancielo",
+    "nameFa": "Alpha Blanche",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Sicilian Lemon",
+      "Calabrian bergamot"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "Woody Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Al-Wataniah/Sabah-Al-Ward-Pearl-148586.html",
+    "extractedAt": "2026-11-24T03:50:52.396Z",
+    "name": "Sabah Al Ward Pearl",
+    "brand": "Al Wataniah",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Sicilian Lemon",
+      "Calabrian bergamot",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Frangipani",
+      "Carnation",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Amberwood",
+      "Benzoin"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148586.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 87
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148586,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sabah Al Ward Pearl",
+    "brandFa": "Al Wataniah",
+    "nameFa": "Sabah Al Ward Pearl",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Sicilian Lemon",
+      "Calabrian bergamot",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Frangipani",
+      "میخک",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "چوب کهربایی",
+      "بنزوئین"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hind-Al-Oud/Crimson-148585.html",
+    "extractedAt": "2026-11-24T03:50:56.682Z",
+    "name": "Crimson",
+    "brand": "Hind Al Oud",
+    "family": "Aromatic",
+    "gender": "women and men. This is a new fragrance. <b>Crimson</b> was launched in 2025. The fragrance features Green Tea, Black Currant and Woodsy Notes",
+    "year": 2025,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148585.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 77
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 58
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 23
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 15
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 148585,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Crimson",
+    "brandFa": "Hind Al Oud",
+    "nameFa": "Crimson",
+    "familyFa": "معطر",
+    "genderFa": "women and men. This is a new fragrance. <b>Crimson</b> was launched in 2025. The fragrance features Green Tea, Black Currant and Woodsy Notes",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BUQ-Care/Amelia-148584.html",
+    "extractedAt": "2026-11-24T03:51:01.606Z",
+    "name": "Amélia",
+    "brand": "BUQ Care",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Tangerine",
+      "Freesia"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Orange Blossom",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Cacao",
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148584.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148584,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Amélia",
+    "brandFa": "BUQ Care",
+    "nameFa": "Amélia",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "تانجرین",
+      "فریزیا"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "گل پرتقال",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "کاکائو",
+      "وانیل",
+      "چوب صندل",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chabrawichi/Femme-Chic-85077.html",
+    "extractedAt": "2026-11-24T03:51:06.476Z",
+    "name": "Femme Chic",
+    "brand": "Chabrawichi",
+    "family": "Chypre Floral",
+    "gender": "women",
+    "year": 1978,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Neroli",
+      "Peach",
+      "Bergamot",
+      "Galbanum",
+      "Cardamom",
+      "Cloves",
+      "Caraway",
+      "Mint"
+    ],
+    "middleNotes": [
+      "Reseda",
+      "Green Lily",
+      "Narcissus",
+      "Jasmine",
+      "Orange Blossom",
+      "Iris",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Olibanum",
+      "Oakmoss",
+      "Benzoin",
+      "Leather",
+      "Patchouli",
+      "Amber",
+      "Sandalwood",
+      "Vanilla",
+      "Labdanum",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85077.jpg",
+    "rating": 4.8,
+    "ratingVotes": 5,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 95
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 93
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 87
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 78
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 85077,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Femme Chic",
+    "brandFa": "Chabrawichi",
+    "nameFa": "Femme Chic",
+    "familyFa": "شیپر گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "نرولی",
+      "هلو",
+      "برگاموت",
+      "گلبانوم",
+      "هل",
+      "Cloves",
+      "زیره کوهی",
+      "نعناع"
+    ],
+    "middleNotesFa": [
+      "Reseda",
+      "Green Lily",
+      "نرگس",
+      "یاسمن",
+      "گل پرتقال",
+      "زنبق",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کندر",
+      "خزه بلوط",
+      "بنزوئین",
+      "چرم",
+      "پچولی",
+      "کهربا",
+      "چوب صندل",
+      "وانیل",
+      "لابدانوم",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Les-Liquides-Imaginaires/Navis-73555.html",
+    "extractedAt": "2026-11-24T03:51:09.775Z",
+    "name": "Navis",
+    "brand": "Les Liquides Imaginaires",
+    "family": "Woody Aquatic",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Nadège Le Garlantezec",
+    "topNotes": [
+      "Grapefruit",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Algae"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Amyris",
+      "Cedar"
+    ],
+    "description": "Navis is a marine, floral and musky fragrance from the Eaux des Bermudes collection of Les Liquides Imaginaires. It is created by perfumer Nadège Le Garlantezec. </p> <p>\"Made by men who dream of far-off places and distant voyages,<br /> I am a refuge floating in the middle of the ocean.<br /> A wooden ship, my hull is infused with salty water,<br /> caressed by waves. Navigating at the border between air and water,<br /> I am the frontier between two elements.<br /> While my hold protects treasures of scents, rich with citruses<br /> and rare spices, my sails fill with iodized wind and blazing sun.<br /> I embrace mist and I brave storms.<br /> I defy the furious waves with my love for joyful, dangerous seas.<br /> I am a drunken boat of odysseys.<br /> NAVIS is your journey.\"</p> <p>Pink peppercorn, Grapefruit, Bergamot<br /> Laminaria algue<br /> Oak moss, Amyris, Cedarwood</p> <p>100 ml EDP.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73555.jpg",
+    "rating": 3.58,
+    "ratingVotes": 298,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 72
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 44
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 44
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 73555,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Navis",
+    "brandFa": "Les Liquides Imaginaires",
+    "nameFa": "Navis",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nadège Le Garlantezec",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "جلبک"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "امیریس",
+      "سرو"
+    ],
+    "descriptionFa": "Navis یک عطر دریایی، گل‌دار و مشکی از مجموعه Eaux des Bermudes برند Les Liquides Imaginaires است. این عطر توسط عطرساز نادژ لو گارلانتزک ساخته شده است. </p> <p>«ساخته‌شده توسط مردانی که رویای مکان‌های دوردست و سفرهای طولانی را در سر می‌پرورانند،<br /> من پناهگاهی هستم که در وسط اقیانوس شناور است.<br /> یک کشتی چوبی، بدنه من آغشته به آب شور است،<br /> که امواج آن را نوازش می‌کنند. در مرز بین هوا و آب در حال حرکت هستم،<br /> من مرز بین",
+    "seasons": [
+      "summer",
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "تابستان",
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/By-Kilian/Sunkissed-Goddess-90336.html",
+    "extractedAt": "2026-11-24T03:51:14.743Z",
+    "name": "Sunkissed Goddess",
+    "brand": "By Kilian",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Calice Becker",
+    "topNotes": [
+      "Neroli",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Tiare Flower",
+      "Tuberose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Coconut",
+      "Vanilla",
+      "Guaiac Wood",
+      "Labdanum",
+      "Musk",
+      "Heliotrope"
+    ],
+    "description": "\"KILIAN PARIS presents its new limited edition summer perfume, inspired by monoi oil and tiare flower infused in coconut oil: Sunkissed Goddess. Our founder revisited this Polynesian elixir to give it an unparalleled radiance with floral notes as fresh as they are captivating that revive the sensory memories associated with the summer season. A fragrance that evokes the smells of summer, of tanning oil and the warmth of the sun radiating on the skin.<br /> <br /> The fragrance opens with this happy marriage between a white tiaré with delicious creaminess and a terribly sensual essence of ylang-ylang, before giving way to the warm roundness of coconut and vanilla, and ending with notes of guaiac and labdanum cistus, two emblematic scents that KILIAN PARIS loves for their resinous character, their energy and their persistent charm.\"<br /> <br /> <strong>Fragrance Notes:</strong> Ylang Ylang Essence, Tiare Flower, Coconut.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90336.jpg",
+    "rating": 3.87,
+    "ratingVotes": 1122,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 82
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 67
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 90336,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sunkissed Goddess",
+    "brandFa": "بای کیلیان",
+    "nameFa": "Sunkissed Goddess",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Calice Becker",
+    "topNotesFa": [
+      "نرولی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "Tiare Flower",
+      "گل شیپور",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "نارگیل",
+      "وانیل",
+      "چوب گوئیک",
+      "لابدانوم",
+      "موش",
+      "گل هلیوتروپ"
+    ],
+    "descriptionFa": "«KILIAN PARIS عطر تابستانی جدید خود را با تیراژ محدود عرضه می‌کند که الهام‌گرفته از روغن مونوئی و گل تیاره غوطه‌ور در روغن نارگیل است: Sunkissed Goddess. بنیانگذار ما این اکسیر پلی‌نزیایی را بازنگری کرد تا با رایحه‌های گلی که به همان اندازه که تازه هستند، مسحورکننده نیز هستند، درخششی بی‌نظیر به آن ببخشد و خاطرات حسی مرتبط با فصل تابستان را زنده کند. عطری که رایحه‌های تابستان، روغن برنزه کننده و گرمای خورشید را که بر پوست می‌تابد، تداعی می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Carolina-Herrera/Cedar-Chic-109989.html",
+    "extractedAt": "2026-11-24T03:51:21.635Z",
+    "name": "Cedar Chic",
+    "brand": "Carolina Herrera",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Antoine Maisondieu",
+    "topNotes": [
+      "Aldehydes",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Cedarwood"
+    ],
+    "description": "Cedar Chic by Carolina Herrera is an Eau de Parfum that pays tribute to the brand’s iconic white shirt, symbolizing timeless style and sophistication. The fragrance opens with crisp notes of bergamot and aldehydes, followed by a heart of orange blossom. Cedarwood and soft white musk form the base, creating a creamy and refined scent profile.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109989.jpg",
+    "rating": 4.18,
+    "ratingVotes": 988,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 97
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 109989,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cedar Chic",
+    "brandFa": "کارولینا هررا",
+    "nameFa": "Cedar Chic",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Antoine Maisondieu",
+    "topNotesFa": [
+      "آلدهیدها",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Cedar Chic از Carolina Herrera یک ادو پرفیوم است که به پیراهن سفید نمادین این برند ادای احترام می‌کند و نمادی از سبک و ظرافت جاودانه است. این عطر با نت‌های طراوت‌بخش ترنج و آلدئیدها آغاز می‌شود و سپس رایحه اصلی آن که شکوفه پرتقال است، نمایان می‌شود. چوب سدر و مشک سفید ملایم رایحه پایه را تشکیل می‌دهند و ترکیبی کرمی و ظریف ایجاد می‌کنند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Khair-Pistachio-92766.html",
+    "extractedAt": "2026-11-24T03:51:26.997Z",
+    "name": "Khair Pistachio",
+    "brand": "PARIS CORNER",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Pistachio",
+      "Ice cream",
+      "Bergamot",
+      "Hazelnut",
+      "Cardamom",
+      "Rum"
+    ],
+    "middleNotes": [
+      "Pear",
+      "Jasmine",
+      "Peony",
+      "Geranium",
+      "Raspberry",
+      "White Peach"
+    ],
+    "baseNotes": [
+      "Whipped Cream",
+      "Marshmallow",
+      "Cotton Candy",
+      "Tonka Bean",
+      "Cedarwood"
+    ],
+    "description": "\"Khair Pistachio by Paris Corner is a luxurious and captivating fragrance that combines carefully curated ingredients to create a scent that not only lingers but also leaves a distinctive mark. This fragrance opens with top notes of Italian bergamot, pistachio ice cream, hazelnut, sweet rum, and cardamom, offering a delightful freshness and warmth. The heart features a lush and floral layer with notes of geranium, white peony, muguet, jasmine, raspberry, white peach, and pear, adding a vibrant and refined dimension. The base notes of whipped cream, marshmallow, cotton candy, Turkish delight accord, cocoa, cedarwood, sandalwood, and tonka bean bring a deeper and sensual complexity, making the scent irresistibly attractive.' -Brand info.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92766.jpg",
+    "rating": 3.94,
+    "ratingVotes": 2538,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 23
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 21
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 21
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 92766,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Khair Pistachio",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Khair Pistachio",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پسته",
+      "Ice cream",
+      "برگاموت",
+      "فندق",
+      "هل",
+      "رام"
+    ],
+    "middleNotesFa": [
+      "گلابی",
+      "یاسمن",
+      "گل داوودی",
+      "گل جعفری",
+      "تمشک",
+      "White Peach"
+    ],
+    "baseNotesFa": [
+      "خامه زده",
+      "مارشمالو",
+      "پشمک",
+      "لوبیا تونکا",
+      "چوب سرو"
+    ],
+    "descriptionFa": "«Khair Pistachio از برند Paris Corner یک عطر لوکس و فریبنده است که ترکیبی از مواد اولیه به‌دقت انتخاب‌شده را در خود دارد تا رایحه‌ای ایجاد کند که نه تنها ماندگار است، بلکه اثری متمایز نیز از خود به‌جای می‌گذارد. این عطر با نت‌های اولیه برگاموت ایتالیایی، بستنی پسته، فندق، رام شیرین و هل آغاز می‌شود و طراوت و گرمای دلپذیری را ارائه می‌دهد. نت‌های میانی شامل یک لایه سرسبز و گل‌دار با رایحه‌های شمعدانی، صدتومانی سفید، گل میخک، یاسمن و... است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Les-Liquides-Imaginaires/Blanche-Bete-70189.html",
+    "extractedAt": "2026-11-24T03:51:33.393Z",
+    "name": "Blanche Bête",
+    "brand": "Les Liquides Imaginaires",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Louise Turner",
+    "topNotes": [
+      "Milk",
+      "Ambrette (Musk Mallow)",
+      "Mystikal"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Jasmine",
+      "Incense",
+      "Mahonial"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Tonka Bean",
+      "Cacao"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70189.jpg",
+    "rating": 4.06,
+    "ratingVotes": 8678,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 90
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 87
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 51
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 70189,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blanche Bête",
+    "brandFa": "Les Liquides Imaginaires",
+    "nameFa": "Blanche Bête",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Louise Turner",
+    "topNotesFa": [
+      "شیر",
+      "Ambrette (Musk Mallow)",
+      "Mystikal"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "یاسمن",
+      "عود بخور",
+      "Mahonial"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "لوبیا تونکا",
+      "کاکائو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fulton-Roark/Blue-Ridge-87077.html",
+    "extractedAt": "2026-11-24T03:51:37.400Z",
+    "name": "Blue Ridge",
+    "brand": "Fulton & Roark",
+    "family": "Oriental Fougere",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Citron",
+      "White Musk"
+    ],
+    "middleNotes": [
+      "Sage",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Of all the fragrances in the world, few if any are as universally loved as Sandalwood. Our fragrance Blue Ridge is meant to highlight everything we love about Sandalwood. The warm and woody fragrance is accented with top notes of fresh Sage and smooth Oriental, to create a fragrance that is both familiar and intriguing. <br /> <br /> Blue Ridge gets its name from one of the oldest mountain ranges in the world. Running from Georgia to Pennsylvania, the Blue Ridge mountains may not be tall or rocky, but they are stunning thanks to the beautiful forest that covers the countless peaks. The dense trees are responsible for giving the mountains their unique blue fog that stretches far beyond what the eye can see. <br /> <br /> Like the mountains, Blue Ridge is most striking not because of a single element, but rather the confluence of each of the fragrances combined. The result is an unforgettable fragrance that you will likely want to make your signature scent.</p> <p>Citron & White Musk<br /> Sage & Jasmine<br /> Sandalwood & Oriental",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87077.jpg",
+    "rating": 3.31,
+    "ratingVotes": 42,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 86
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 57
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 50
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 87077,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Ridge",
+    "brandFa": "Fulton & Roark",
+    "nameFa": "Blue Ridge",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Citron",
+      "موش سفید"
+    ],
+    "middleNotesFa": [
+      "مریم‌گلی",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "کهربا"
+    ],
+    "descriptionFa": "از میان همه عطرها در جهان، تعداد کمی از آنها، اگر اصلاً وجود داشته باشند، به اندازه چوب صندل مورد علاقه همگان هستند. عطر Blue Ridge ما به گونه‌ای طراحی شده است که تمام ویژگی‌هایی را که در مورد چوب صندل دوست داریم، برجسته کند. این رایحه گرم و چوبی با نت‌های بالای مریم‌گلی تازه و رایحه ملایم شرقی برجسته شده است تا عطری ایجاد کند که هم آشنا و هم جذاب باشد. <br /> <br /> بلو ریج نام خود را از یکی از قدیمی‌ترین رشته‌کوه‌های جهان گرفته است. این رشته‌کوه از جورجیا تا پنسیلوانیا امتداد دارد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Imaginary-Authors/Longing-for-Light-148297.html",
+    "extractedAt": "2026-11-24T03:51:42.784Z",
+    "name": "Longing for Light",
+    "brand": "Imaginary Authors",
+    "family": "Citrus Gourmand",
+    "gender": "women and men. This is a new fragrance. <b>Longing for Light</b> was launched in 2026. The nose behind this fragrance is Josh Meyer. The fragrance features Limoncello",
+    "year": 2026,
+    "perfumer": "Josh Meyer",
+    "description": "Longing for Light by Imaginary Authors is a citrus fragrance centered on limoncello. It is the inaugural scent in the brand's Holiday Cocktail Collection.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148297.jpg",
+    "rating": 5,
+    "ratingVotes": 1,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 62
+      }
+    ],
+    "fragranticaId": 148297,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Longing for Light",
+    "brandFa": "Imaginary Authors",
+    "nameFa": "Longing for Light",
+    "familyFa": "Citrus Gourmand",
+    "genderFa": "women and men. This is a new fragrance. <b>Longing for Light</b> was launched in 2026. The nose behind this fragrance is Josh Meyer. The fragrance features Limoncello",
+    "perfumerFa": "Josh Meyer",
+    "descriptionFa": "Longing for Light از برند Imaginary Authors یک عطر مرکباتی است که بر پایه لیمونچلو ساخته شده است. این عطر، اولین عطر مجموعه Holiday Cocktail این برند است.",
+    "seasons": [
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Xerjoff/Don-26709.html",
+    "extractedAt": "2026-11-24T03:51:48.304Z",
+    "name": "Don",
+    "brand": "Xerjoff",
+    "family": "Oriental Fougere",
+    "gender": "women and men. <b>Don</b> was launched in 2013. The nose behind this fragrance is Chris Maurice. The fragrance features Tobacco, gunpowder, Whiskey and Spun Sugar",
+    "year": 2013,
+    "perfumer": "Chris Maurice",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26709.jpg",
+    "rating": 4,
+    "ratingVotes": 1136,
+    "accords": [
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 100
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 99
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 93
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 80
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 29
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 24
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 26709,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Don",
+    "brandFa": "زروجف",
+    "nameFa": "Don",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "women and men. <b>Don</b> was launched in 2013. The nose behind this fragrance is Chris Maurice. The fragrance features Tobacco, gunpowder, Whiskey and Spun Sugar",
+    "perfumerFa": "Chris Maurice",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Room-1015/Love-O-Matic-108668.html",
+    "extractedAt": "2026-11-24T03:51:52.155Z",
+    "name": "Love-O-Matic",
+    "brand": "Room 1015",
+    "family": "Chypre Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Jérôme di Marino",
+    "topNotes": [
+      "Strawberry",
+      "Lemon",
+      "Blackcurrant"
+    ],
+    "middleNotes": [
+      "Ozonic notes",
+      "Bubble Gum"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambrette",
+      "Cedar"
+    ],
+    "description": "Love-O-Matic by Room 1015 is a fragrance for both women and men, introduced in 2025. The scent features a blend of fruity and fresh notes, with blackcurrant, lemon, and strawberry in the opening, a heart of chewing gum and fresh notes, and a base composed of ambrette, cedar, and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.108668.jpg",
+    "rating": 4.18,
+    "ratingVotes": 1387,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 87
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 49
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 24
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 24
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 108668,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Love-O-Matic",
+    "brandFa": "اتاق ۱۰۱۵",
+    "nameFa": "Love-O-Matic",
+    "familyFa": "شیپر میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jérôme di Marino",
+    "topNotesFa": [
+      "توت‌فرنگی",
+      "لیمو",
+      "Blackcurrant"
+    ],
+    "middleNotesFa": [
+      "Ozonic notes",
+      "Bubble Gum"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "دانه ابرکفش",
+      "سرو"
+    ],
+    "descriptionFa": "Love-O-Matic از برند Room 1015 یک عطر برای زنان و مردان است که در سال 2025 عرضه شد. این عطر ترکیبی از رایحه‌های میوه‌ای و تازه است که در نت ابتدایی شامل انگور فرنگی سیاه، لیمو و توت‌فرنگی، در نت میانی شامل آدامس و رایحه‌های تازه و در نت پایه شامل آمبرت، سرو و مشک است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Light-Blue-pour-Homme-Italian-Love-72622.html",
+    "extractedAt": "2026-11-24T03:51:58.606Z",
+    "name": "Light Blue pour Homme Italian Love",
+    "brand": "Dolce&Gabbana",
+    "family": "Aromatic Green",
+    "gender": "men",
+    "year": 2022,
+    "perfumer": "Shyamala Maisondieu",
+    "topNotes": [
+      "Grapefruit",
+      "Sicilian Bergamot"
+    ],
+    "middleNotes": [
+      "Ozonic notes",
+      "Green Notes",
+      "Violet Leaf",
+      "Cashmeran"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Musk",
+      "Patchouli",
+      "Guaiac Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72622.jpg",
+    "rating": 4.37,
+    "ratingVotes": 1617,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 72622,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Light Blue pour Homme Italian Love",
+    "brandFa": "Dolce&Gabbana",
+    "nameFa": "Light Blue pour Homme Italian Love",
+    "familyFa": "Aromatic Green",
+    "genderFa": "مردانه",
+    "perfumerFa": "Shyamala Maisondieu",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "Sicilian Bergamot"
+    ],
+    "middleNotesFa": [
+      "Ozonic notes",
+      "نت‌های سبز",
+      "برگ بنفشه",
+      "کشماران"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "موش",
+      "پچولی",
+      "چوب گوئیک"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Devotion-Pour-Homme-101353.html",
+    "extractedAt": "2026-11-24T03:52:02.779Z",
+    "name": "Devotion Pour Homme",
+    "brand": "Dolce&Gabbana",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Coffee"
+    ],
+    "baseNotes": [
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101353.jpg",
+    "rating": 3.38,
+    "ratingVotes": 1890,
+    "accords": [
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 53
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 28
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 19
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 16
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 101353,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Devotion Pour Homme",
+    "brandFa": "Dolce&Gabbana",
+    "nameFa": "Devotion Pour Homme",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "قهوه"
+    ],
+    "baseNotesFa": [
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Francesca-Bianchi/Lost-In-Heaven-57018.html",
+    "extractedAt": "2026-11-24T03:52:06.616Z",
+    "name": "Lost In Heaven",
+    "brand": "Francesca Bianchi",
+    "family": null,
+    "gender": "women and men. <b>Lost In Heaven</b> was launched in 2019. The nose behind this fragrance is Francesca Bianchi. The fragrance features Beeswax, Cumin, Castoreum, Opoponax, Ylang-Ylang, Orange Blossom, Orris Root, Ambergris, Mimosa, Heliotrope, Musk, Tangerine, Sandalwood, Cinnamon, Jasmine, Labdanum, Tonka Bean, Patchouli, Coriander, Vetiver, Grapefruit and Magnolia",
+    "year": 2019,
+    "perfumer": "Francesca B",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.57018.jpg",
+    "rating": 3.89,
+    "ratingVotes": 1064,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 93
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 80
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 58
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 54
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 57018,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lost In Heaven",
+    "brandFa": "Francesca Bianchi",
+    "nameFa": "Lost In Heaven",
+    "genderFa": "women and men. <b>Lost In Heaven</b> was launched in 2019. The nose behind this fragrance is Francesca Bianchi. The fragrance features Beeswax, Cumin, Castoreum, Opoponax, Ylang-Ylang, Orange Blossom, Orris Root, Ambergris, Mimosa, Heliotrope, Musk, Tangerine, Sandalwood, Cinnamon, Jasmine, Labdanum, Tonka Bean, Patchouli, Coriander, Vetiver, Grapefruit and Magnolia",
+    "perfumerFa": "Francesca B",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mallo/PAS-147413.html",
+    "extractedAt": "2026-11-24T03:52:11.754Z",
+    "name": "PAS",
+    "brand": "Mallo",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>PAS</b> was launched in 2026. PAS was created by Antonio Lasheras and Rajesh Balkrishnan. The fragrance features Artemisia, Oakmoss, Lavender, Palo Santo, Lemongrass, Frankincense, Sandalwood, Silver Fir and Chinese Oud",
+    "year": 2026,
+    "perfumer": "Antonio Lasheras and Rajesh Balkrishnan",
+    "description": "Palo Santo, a revered and mystical ‘wood of the saints’ is the center of this exquisite natural fougere by Mallo. The central Palo Santo is surrounded by aromatic notes of fir, artemisia, lemongrass and lavender giving it an enhanced spiritual vibe. As the perfume settles, it is fortified by mossy notes, incense, sandalwood and oud, adding to the reverent and somber olfactory evocation. A scent for meditation, relaxation and revitalization, PAS is an invitation to elevation and cleansing of the mind, body and spirit, and takes wearers on a sublime contemplative inward journey.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147413.jpg",
+    "rating": 4.75,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 86
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 56
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 49
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 147413,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "PAS",
+    "brandFa": "Mallo",
+    "nameFa": "PAS",
+    "genderFa": "women and men. This is a new fragrance. <b>PAS</b> was launched in 2026. PAS was created by Antonio Lasheras and Rajesh Balkrishnan. The fragrance features Artemisia, Oakmoss, Lavender, Palo Santo, Lemongrass, Frankincense, Sandalwood, Silver Fir and Chinese Oud",
+    "perfumerFa": "Antonio Lasheras and Rajesh Balkrishnan",
+    "descriptionFa": "پالو سانتو، «چوب مقدس»ی محترم و اسرارآمیز، محور این فوژر طبیعی نفیس از Mallo است. پالو سانتوی اصلی با رایحه‌های معطر درخت صنوبر، درمنه، علف لیمو و اسطوخودوس احاطه شده است که به آن حال و هوای معنوی بیشتری می‌بخشد. با تثبیت عطر، رایحه‌های خزه، بخور، چوب صندل و عود به آن اضافه می‌شوند و بر حس بویایی معنوی و جدی آن می‌افزایند. عطری برای مدیتیشن، آرامش و احیای قوای جسمی، PAS i",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fulton-Roark/Devil-s-Garden-87072.html",
+    "extractedAt": "2026-11-24T03:52:17.225Z",
+    "name": "Devil's Garden",
+    "brand": "Fulton & Roark",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Incense",
+      "Cardamom",
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Styrax",
+      "Labdanum"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "A captivating offering of Incense, Vetiver, and Cardamom.</p> <p>Amidst the more than one and a half million acres of protected wildlands in Southern Utah lies Devil’s Garden. Getting there is as easy as following the road through Arches National Park. When the road runs out, it’s time to start climbing. The start of the trail proves easy enough, with beautiful views of the high desert...</p> <p>Incense, Juniper Berry & Cardamom<br /> Styrax & Labdanum<br /> Vetiver Root & Patchouli",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87072.jpg",
+    "rating": 3.87,
+    "ratingVotes": 108,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 97
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 83
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 57
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 57
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 39
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 87072,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Devil's Garden",
+    "brandFa": "Fulton & Roark",
+    "nameFa": "Devil's Garden",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عود بخور",
+      "هل",
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "استیراکس",
+      "لابدانوم"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "پچولی"
+    ],
+    "descriptionFa": "ترکیبی جذاب از بخور، وتیور و هل.</p> <p>در میان بیش از یک و نیم میلیون هکتار مناطق حفاظت‌شده وحشی در جنوب یوتا، باغ شیطان (Devil’s Garden) قرار دارد. رسیدن به آنجا به همان اندازه آسان است که از جاده عبوری از پارک ملی آرچز پیروی کنید. وقتی جاده تمام می‌شود، وقت آن است که صعود را آغاز کنید. آغاز مسیر به اندازه کافی آسان است و مناظر زیبایی از صحرای مرتفع را به نمایش می‌گذارد...</p> <p>عود، توت عرعر و هل استیراکس و لابدانوم<br />",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
