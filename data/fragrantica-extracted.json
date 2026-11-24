@@ -18916,5 +18916,1839 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Basmni-Perfumes/Privee-148576.html",
+    "extractedAt": "2026-11-24T00:47:35.868Z",
+    "name": "Privee",
+    "brand": "Basmni Perfumes",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Marcel Duval",
+    "topNotes": [
+      "Blackcurrant",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Ambroxan"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "\"Power. Mystery. Unmissable luxury. A deep, elegant, and presence-filled fragrance, one that enters a room and leaves a mark.\" -Basmni.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148576.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 67
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 25
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 148576,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Privee",
+    "brandFa": "Basmni Perfumes",
+    "nameFa": "Privee",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Marcel Duval",
+    "topNotesFa": [
+      "Blackcurrant",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "آمبروکسان"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "کهربا"
+    ],
+    "descriptionFa": "«قدرت. رمز و راز. تجملی که نباید از دست داد. عطری عمیق، شیک و پرابهت، عطری که وارد اتاق می‌شود و اثری از خود به‌جای می‌گذارد.» -باسمنی.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/19-69/Female-Christ-62288.html",
+    "extractedAt": "2026-11-24T00:47:41.864Z",
+    "name": "Female Christ",
+    "brand": "19-69",
+    "family": "Woody",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Patchouli",
+      "Eucalyptus",
+      "Pimento"
+    ],
+    "middleNotes": [
+      "Rhubarb",
+      "Wintergreen",
+      "Geranium",
+      "Red Thyme"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Cashmere Wood",
+      "Benzoin",
+      "Vanilla",
+      "Cinnamon"
+    ],
+    "description": "\"Female Christ. In 1969, a naked woman carrying a cross, walked through the Copenhagen Stock Exchange. The performance act went under the name \"Female Christ\"<em>.</em>Female Christ by 19-69 is earthy and woody with integrity. Fragrance notes include Patchouli, Rhubarb and Cashmere Wood.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62288.jpg",
+    "rating": 3.64,
+    "ratingVotes": 780,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 89
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 79
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 77
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 71
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 33
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 62288,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Female Christ",
+    "brandFa": "19-69",
+    "nameFa": "Female Christ",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پچولی",
+      "اوکالیپتوس",
+      "فلفل هلندی"
+    ],
+    "middleNotesFa": [
+      "Rhubarb",
+      "Wintergreen",
+      "گل جعفری",
+      "Red Thyme"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Cashmere Wood",
+      "بنزوئین",
+      "وانیل",
+      "دارچین"
+    ],
+    "descriptionFa": "«مسیح زن. در سال ۱۹۶۹، زنی برهنه که صلیبی حمل می‌کرد، از بورس اوراق بهادار کپنهاگ عبور کرد. این اجرا با عنوان «مسیح زن» شناخته شد<em>.</em>Female Christ از برند 19-69 رایحه‌ای خاکی و چوبی با اصالت دارد. نت‌های رایحه شامل نعناع هندی، ریواس و چوب کشمیر است.» - یادداشتی از برند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/Coromandel-Eau-de-Parfum-41783.html",
+    "extractedAt": "2026-11-24T00:47:47.205Z",
+    "name": "Coromandel Eau de Parfum",
+    "brand": "Chanel",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": "Jacques Polge",
+    "topNotes": [
+      "Bitter Orange",
+      "Citruses",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Orris Root",
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "White Chocolate",
+      "Benzoin",
+      "Amber",
+      "Olibanum",
+      "Incense",
+      "Woody Notes",
+      "Musk"
+    ],
+    "description": "Coromandel Eau de Parfum, \"a perfume of art,\" is described as a powerful and rich woody oriental. It is made of notes of frankincense, benzoin, patchouli, and amber, and is inspired by the exquisite Chinese lacquer screens that lined Mademoiselle Chanel’s apartments.</p> <p>The fragrances are available as a 75 ml and a 200 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41783.jpg",
+    "rating": 4.37,
+    "ratingVotes": 4154,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 53
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 28
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 41783,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Coromandel",
+    "brandFa": "شنل",
+    "nameFa": "Coromandel Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jacques Polge",
+    "topNotesFa": [
+      "پرتقال تلخ",
+      "مرکبات",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "ریشه زنبق",
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "White Chocolate",
+      "بنزوئین",
+      "کهربا",
+      "کندر",
+      "عود بخور",
+      "Woody Notes",
+      "موش"
+    ],
+    "descriptionFa": "ادو پرفیوم Coromandel، «عطری هنری»، به عنوان یک عطر شرقی قوی و غنی با رایحه چوبی توصیف می‌شود. این عطر از رایحه‌های کندر، بنزوئین، نعناع هندی و عنبر ساخته شده و الهام‌گرفته از پاراوان‌های لاک چینی نفیسی است که در آپارتمان‌های مادemoiselle Chanel قرار داشتند.</p> <p>این عطرها به صورت ادو پرفیوم در بسته‌بندی‌های 75 میلی‌لیتری و 200 میلی‌لیتری عرضه می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roja-Dove/Danger-17935.html",
+    "extractedAt": "2026-11-24T00:47:53.522Z",
+    "name": "Danger",
+    "brand": "Roja Dove",
+    "family": "Oriental",
+    "gender": "women",
+    "year": 2011,
+    "perfumer": "Roja Dove",
+    "topNotes": [
+      "Lemon Verbena",
+      "Bergamot",
+      "Mandarin Orange",
+      "Grapefruit",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Gardenia",
+      "Violet",
+      "Peach",
+      "Jasmine",
+      "May Rose"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla",
+      "Orris Root",
+      "Tonka Bean",
+      "Cloves",
+      "Musk",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17935.jpg",
+    "rating": 4.13,
+    "ratingVotes": 543,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 94
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 64
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 61
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 60
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 17935,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Danger",
+    "brandFa": "Roja Dove",
+    "nameFa": "Danger",
+    "familyFa": "شرقی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Roja Dove",
+    "topNotesFa": [
+      "Lemon Verbena",
+      "برگاموت",
+      "نارنگی",
+      "گریپ‌فروت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "گاردنیا",
+      "بنفشه",
+      "هلو",
+      "یاسمن",
+      "گل رز میانی"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل",
+      "ریشه زنبق",
+      "لوبیا تونکا",
+      "Cloves",
+      "موش",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/1957-Eau-de-Parfum-52483.html",
+    "extractedAt": "2026-11-24T00:47:57.776Z",
+    "name": "1957 Eau de Parfum",
+    "brand": "Chanel",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Olivier Polge",
+    "topNotes": [
+      "White Musk",
+      "Aldehydes",
+      "Bergamot",
+      "Pink Pepper",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "White Musk",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Orris",
+      "Cashmeran",
+      "Cedar",
+      "Honey",
+      "Vanilla. The fragrance features Powdery Notes",
+      "Iris",
+      "Bergamot"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52483.jpg",
+    "rating": 4.28,
+    "ratingVotes": 2398,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 68
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 51
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 41
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 39
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 52483,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "1957",
+    "brandFa": "شنل",
+    "nameFa": "1957 Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olivier Polge",
+    "topNotesFa": [
+      "موش سفید",
+      "آلدهیدها",
+      "برگاموت",
+      "فلفل صورتی",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "موش سفید",
+      "گل پرتقال",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "ریشه زنبق",
+      "کشماران",
+      "سرو",
+      "عسل",
+      "Vanilla. The fragrance features Powdery Notes",
+      "زنبق",
+      "برگاموت"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Juliette-Has-A-Gun/Juliette-90396.html",
+    "extractedAt": "2026-11-24T00:48:02.500Z",
+    "name": "Juliette",
+    "brand": "Juliette Has A Gun",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Sour Cherry",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Cashmeran",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90396.jpg",
+    "rating": 3.57,
+    "ratingVotes": 2593,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 86
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 75
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 68
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 51
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 90396,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Juliette",
+    "brandFa": "Juliette Has A Gun",
+    "nameFa": "Juliette",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گیلاس ترش",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کشماران",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fresh/Lily-Jasmine-132812.html",
+    "extractedAt": "2026-11-24T00:48:06.619Z",
+    "name": "Lily Jasmine",
+    "brand": "Fresh",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Lavender",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Jasmine Sambac",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Moss",
+      "Amber"
+    ],
+    "description": "Lily Jasmine by Fresh is a fragrance introduced in 2023. It opens with bergamot, lavender, and pink pepper, followed by a floral heart of clary sage, lily of the valley, and jasmine sambac. The base combines cedarwood, moss, and amber, giving the composition a softly woody finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132812.jpg",
+    "rating": 3.82,
+    "ratingVotes": 11,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 68
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 51
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 132812,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lily Jasmine",
+    "brandFa": "Fresh",
+    "nameFa": "Lily Jasmine",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "اسطوخودوس",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "Jasmine Sambac",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "خزه",
+      "کهربا"
+    ],
+    "descriptionFa": "Lily Jasmine از برند Fresh عطری است که در سال 2023 عرضه شد. این عطر با رایحه‌های ترنج، اسطوخودوس و فلفل صورتی آغاز می‌شود و سپس به رایحه‌های میانی گل مریم گلی، گل برف و یاس سامباک می‌رسد. نت پایه ترکیبی از چوب سدر، خزه و عنبر است که به این ترکیب رایحه‌ای ملایم و چوبی می‌دهد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/La-Rive/Sweet-Hope-53643.html",
+    "extractedAt": "2026-11-24T00:48:12.889Z",
+    "name": "Sweet Hope",
+    "brand": "La Rive",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2018,
+    "perfumer": null,
+    "topNotes": [
+      "Coconut",
+      "Plum",
+      "Apricot"
+    ],
+    "middleNotes": [
+      "Brazilian Rosewood",
+      "Tuberose",
+      "Jasmine",
+      "Caraway",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Almond",
+      "Sandalwood",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53643.jpg",
+    "rating": 3.83,
+    "ratingVotes": 680,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 94
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 80
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 53643,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sweet Hope",
+    "brandFa": "La Rive",
+    "nameFa": "Sweet Hope",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "نارگیل",
+      "آلو",
+      "زردآلو"
+    ],
+    "middleNotesFa": [
+      "Brazilian Rosewood",
+      "گل شیپور",
+      "یاسمن",
+      "زیره کوهی",
+      "گل رز",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بادام",
+      "چوب صندل",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Dynasty-112859.html",
+    "extractedAt": "2026-11-24T00:48:17.270Z",
+    "name": "Dynasty",
+    "brand": "Lattafa Perfumes",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Alex Lee",
+    "topNotes": [
+      "Bergamot",
+      "Ginger",
+      "Clary Sage",
+      "Raspberry",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Rooibos Tea",
+      "Suede"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Cashmeran",
+      "Amberwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112859.jpg",
+    "rating": 4.24,
+    "ratingVotes": 3122,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 74
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 112859,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dynasty",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Dynasty",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alex Lee",
+    "topNotesFa": [
+      "برگاموت",
+      "زنجبیل",
+      "مریم‌گلی",
+      "تمشک",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "Rooibos Tea",
+      "چرم جیر"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "کشماران",
+      "چوب کهربایی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fugazzi/Angel-Dust-108493.html",
+    "extractedAt": "2026-11-24T00:48:22.392Z",
+    "name": "Angel Dust",
+    "brand": "Fugazzi",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Calabrian bergamot"
+    ],
+    "middleNotes": [
+      "Cashmere Wood"
+    ],
+    "baseNotes": [
+      "Cashmeran",
+      "White Amber"
+    ],
+    "description": "Angel Dust Extrait de Parfum by Fugazzi is a unisex fragrance designed to evoke quiet confidence through intimate, skin-close aromatics. Centered around Cashmeran - a modern synthetic molecule known for its soft woody-musky character - the scent creates a cocoon of warmth with enhanced depth from white amber crystals and peppery accents. The Extrait version intensifies the original EDP's formula with higher oil concentration, resulting in longer-lasting sillage that maintains subtlety rather than projection.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.108493.jpg",
+    "rating": 3.97,
+    "ratingVotes": 908,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 94
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 90
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 24
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 17
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 108493,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Angel Dust",
+    "brandFa": "Fugazzi",
+    "nameFa": "Angel Dust",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "Calabrian bergamot"
+    ],
+    "middleNotesFa": [
+      "Cashmere Wood"
+    ],
+    "baseNotesFa": [
+      "کشماران",
+      "کهربا سفید"
+    ],
+    "descriptionFa": "Angel Dust Extrait de Parfum از برند Fugazzi یک عطر یونیسکس است که برای القای حس اعتماد به نفس آرام از طریق رایحه‌های صمیمی و نزدیک به پوست طراحی شده است. این عطر که بر پایه کاشمیران - یک مولکول مصنوعی مدرن که به خاطر ویژگی چوبی-مشکی ملایمش شناخته می‌شود - ساخته شده است، با عمق بیشتر ناشی از کریستال‌های کهربای سفید و رایحه‌های فلفلی، هاله‌ای از گرما ایجاد می‌کند. نسخه Extrait فرمول EDP اصلی را با غلظت روغن بالاتر تقویت می‌کند و در نتیجه ماندگاری بیشتری دارد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Siren-Alchemy/Lavender-Moon-Tea-138930.html",
+    "extractedAt": "2026-11-24T00:48:27.456Z",
+    "name": "Lavender Moon Tea",
+    "brand": "Siren Alchemy",
+    "family": "Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Abby Strothkamp",
+    "topNotes": [
+      "Lavender",
+      "Ginger",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Sweet Milk"
+    ],
+    "baseNotes": [
+      "Black Tea",
+      "Sugar",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138930.jpg",
+    "rating": 4.44,
+    "ratingVotes": 9,
+    "accords": [
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 95
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 138930,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lavender Moon Tea",
+    "brandFa": "Siren Alchemy",
+    "nameFa": "Lavender Moon Tea",
+    "familyFa": "معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Abby Strothkamp",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "زنجبیل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Sweet Milk"
+    ],
+    "baseNotesFa": [
+      "چای سیاه",
+      "شکر",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Eladaria-103066.html",
+    "extractedAt": "2026-11-24T00:48:31.759Z",
+    "name": "Eladaria",
+    "brand": "Creed",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Mandarin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Powdery Notes",
+      "Peony",
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambroxan",
+      "Cashmere Wood",
+      "Vanilla"
+    ],
+    "description": "Eladaria by Creed is a floral fragrance for women, set to be released in the spring of 2025. This enchanting scent reimagines the classic rose in a modern, radiant composition, blending light and shadow, sensuality and freshness. Inspired by a paradisiacal garden at dawn, Eladaria reflects the beauty of awakening nature with a vibrant play of floral calligraphy, powdery textures, and shimmering citrus accents.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103066.jpg",
+    "rating": 3.91,
+    "ratingVotes": 983,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 78
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 76
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 103066,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eladaria",
+    "brandFa": "کريد",
+    "nameFa": "Eladaria",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "Mandarin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "نت‌های پودری",
+      "گل داوودی",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "آمبروکسان",
+      "Cashmere Wood",
+      "وانیل"
+    ],
+    "descriptionFa": "Eladaria از برند Creed یک عطر گل‌دار زنانه است که قرار است در بهار ۲۰۲۵ عرضه شود. این رایحه مسحورکننده، گل رز کلاسیک را در ترکیبی مدرن و درخشان بازتعریف می‌کند و نور و سایه، حس شهوانی و طراوت را با هم ترکیب می‌کند. Eladaria که از یک باغ بهشتی در سپیده‌دم الهام گرفته شده است، زیبایی طبیعت در حال بیداری را با ترکیبی پرنشاط از رایحه‌های گل‌فام، بافت‌های پودری و جلوه‌های درخشان مرکبات منعکس می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Coeur-Fetish-Amber-132871.html",
+    "extractedAt": "2026-11-24T00:48:38.139Z",
+    "name": "Coeur Fetish Amber",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Aldehydes",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Floral Notes",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Amber",
+      "Almond",
+      "Labdanum",
+      "Musk",
+      "Patchouli",
+      "Cedarwood"
+    ],
+    "description": "Coeur - Fetish Amber is a Le Vestiaire des Parfums fragrance by Yves Saint Laurent, created by Daniela Andrier and released in 2026.</p> <p>Inspired by the heart-shaped talisman associated with Yves Saint Laurent and worn by the house's muses, the composition centers on a contrast between bright aldehydes and a warm amber accord. Cardamom, lavender, orris and floral notes are supported by amber, almond, cedarwood, patchouli, myrrh, cistus and musk, giving the scent a spicy floral-amber character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132871.jpg",
+    "rating": 4.06,
+    "ratingVotes": 204,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 74
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 45
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 40
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 132871,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coeur Fetish Amber",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Coeur Fetish Amber",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "آلدهیدها",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "Floral Notes",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "کهربا",
+      "بادام",
+      "لابدانوم",
+      "موش",
+      "پچولی",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Coeur - Fetish Amber یک عطر از مجموعه Le Vestiaire des Parfums برند Yves Saint Laurent است که توسط دانیلا آندریر ساخته شده و در سال 2026 عرضه شده است.</p> <p>این ترکیب که از طلسم قلب‌شکل مرتبط با ایو سن لوران و مورد استفاده الهه‌های این برند الهام گرفته شده است، بر تضاد بین آلدئیدهای درخشان و ترکیبی از کهربای گرم متمرکز است. هل، اسطوخودوس، زنبق و رایحه‌های گل توسط کهربا، بادام، چوب سدر، نعناع هندی، مر، گل‌سرخ و مشک تقویت می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Valentino/Valentino-Donna-Born-in-Roma-Extradose-101384.html",
+    "extractedAt": "2026-11-24T00:48:44.819Z",
+    "name": "Valentino Donna Born in Roma Extradose",
+    "brand": "Valentino",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Blackcurrant"
+    ],
+    "middleNotes": [
+      "Rum"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "description": "Valentino Born in Roma Donna Extradose is a new fragrance for women launched in 2025.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101384.jpg",
+    "rating": 4.23,
+    "ratingVotes": 3059,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 75
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 48
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 26
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 101384,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Valentino Donna Born in Roma Extradose",
+    "brandFa": "Valentino",
+    "nameFa": "Valentino Donna Born in Roma Extradose",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Blackcurrant"
+    ],
+    "middleNotesFa": [
+      "رام"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "descriptionFa": "Valentino Born in Roma Donna Extradose یک عطر جدید زنانه است که در سال 2025 عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Harajuku-Lovers/Harajuku-Lovers-Wicked-Style-Love-10288.html",
+    "extractedAt": "2026-11-24T00:48:50.127Z",
+    "name": "Harajuku Lovers Wicked Style Love",
+    "brand": "Harajuku Lovers",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2010,
+    "perfumer": "Maurice Roucel",
+    "topNotes": [
+      "Nectarine",
+      "Pear",
+      "Mangosteen"
+    ],
+    "middleNotes": [
+      "Violet",
+      "African Orange Flower",
+      "Lotus",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Praline",
+      "Musk",
+      "Sandalwood",
+      "Woodsy Notes",
+      "Patchouli"
+    ],
+    "description": "Gwen Stefani launches new Harajuku dolls in autumn 2010 named Wicked Style this time, dedicated to the wild fashion of Tokyo streets, especially Takeshita-Dori. Every girl has a \"wicked style\" on her own, expressed by cheerful colored hair, clothes and super cute shoes. </p> <p> Harajuku Lovers Wicked Style Love is a floral - fruit fragrance made of nectarine notes, mango, pear, orange blossom, lotus , violet, osmanthus, blond wood, musk, sandalwood, praline and patchouli. Her style is inspired by the Rococo, with white sock, blouses, and petty coats. </p> <p> Available as 10 and 30 ml EDT.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10288.jpg",
+    "rating": 4.07,
+    "ratingVotes": 346,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 67
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 10288,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Harajuku Lovers Wicked Style Love",
+    "brandFa": "Harajuku Lovers",
+    "nameFa": "Harajuku Lovers Wicked Style Love",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Maurice Roucel",
+    "topNotesFa": [
+      "Nectarine",
+      "گلابی",
+      "Mangosteen"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "African Orange Flower",
+      "نیلوفر آبی",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "پرالین",
+      "موش",
+      "چوب صندل",
+      "Woodsy Notes",
+      "پچولی"
+    ],
+    "descriptionFa": "گوین استفانی در پاییز 2010 عروسک‌های جدید هاراژوکو را با نام Wicked Style عرضه کرد که این بار به مد خیابانی توکیو، به‌ویژه خیابان تاکشیتا-دوری اختصاص داشت. هر دختری «استایل خاص» خودش را دارد که با موهای رنگی شاد، لباس‌ها و کفش‌های فوق‌العاده بامزه نشان داده می‌شود. </p> <p> Harajuku Lovers Wicked Style Love یک عطر گل‌دار - میوه‌ای است که از رایحه‌های شلیل، انبه، گلابی، شکوفه پرتقال، نیلوفر آبی، بنفشه، اوسمانتوس، چوب روشن، مشک و چوب صندل تشکیل شده است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Il-Profvmo/Chocolat-3707.html",
+    "extractedAt": "2026-11-24T00:48:56.955Z",
+    "name": "Chocolat",
+    "brand": "Il Profvmo",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. Top notes are Nutmeg, Tangerine, Sandalwood and Galbanum; middle notes are Cacao, Plum, Rose and Jasmine; base note is Vanilla",
+    "topNotes": [
+      "Nutmeg",
+      "Tangerine",
+      "Sandalwood",
+      "Galbanum"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Plum",
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3707.jpg",
+    "rating": 3.73,
+    "ratingVotes": 433,
+    "accords": [
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 68
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 58
+      }
+    ],
+    "fragranticaId": 3707,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chocolat",
+    "brandFa": "Il Profvmo",
+    "nameFa": "Chocolat",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. Top notes are Nutmeg, Tangerine, Sandalwood and Galbanum; middle notes are Cacao, Plum, Rose and Jasmine; base note is Vanilla",
+    "topNotesFa": [
+      "جوز هندی",
+      "تانجرین",
+      "چوب صندل",
+      "گلبانوم"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "آلو",
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
