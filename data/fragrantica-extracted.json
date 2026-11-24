@@ -33465,5 +33465,1379 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Iris-Bleu-103559.html",
+    "extractedAt": "2026-11-24T08:25:07.445Z",
+    "name": "Iris Bleu",
+    "brand": "Giorgio Armani",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Dora Baghriche",
+    "topNotes": [
+      "Bergamot",
+      "Galbanum",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Iris Butter",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Virginia Cedar",
+      "Guaiac Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103559.jpg",
+    "rating": 4.11,
+    "ratingVotes": 356,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 96
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 90
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 63
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 103559,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Iris Bleu",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Iris Bleu",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Dora Baghriche",
+    "topNotesFa": [
+      "برگاموت",
+      "گلبانوم",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Iris Butter",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "Virginia Cedar",
+      "چوب گوئیک"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lush/Fresh-As-58195.html",
+    "extractedAt": "2026-11-24T08:25:12.600Z",
+    "name": "Fresh As",
+    "brand": "Lush",
+    "family": "Aromatic Green",
+    "gender": "women and men. <b>Fresh As</b> was launched in 2019. The nose behind this fragrance is Emma Dick. The fragrance features Siberian Pine, Pine needles, Benzoin, Marigold and Orris",
+    "year": 2019,
+    "perfumer": "Emma Dick",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58195.jpg",
+    "rating": 3.92,
+    "ratingVotes": 393,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 96
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 53
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 47
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 29
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 28
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 58195,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fresh As",
+    "brandFa": "لاش",
+    "nameFa": "Fresh As",
+    "familyFa": "Aromatic Green",
+    "genderFa": "women and men. <b>Fresh As</b> was launched in 2019. The nose behind this fragrance is Emma Dick. The fragrance features Siberian Pine, Pine needles, Benzoin, Marigold and Orris",
+    "perfumerFa": "Emma Dick",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Gentle-Fluidity-Gold-53401.html",
+    "extractedAt": "2026-11-24T08:25:17.167Z",
+    "name": "Gentle Fluidity Gold",
+    "brand": "Maison Francis Kurkdjian",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Juniper Berries",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Coriander"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Caramel",
+      "Amberwood"
+    ],
+    "description": "Same notes, two identities</p> <p>Working the ingredient to express its full potential and meeting the challenge of composing two different eau de parfum with the same notes: juniper berries, nutmeg, coriander, musks, ambery woods and vanilla. The Gentle Fluidity duo was born of the perfumer’s imagination to offer two distinct olfactory silhouettes, for her or for him.</p> <p>In Gentle Fluidity’s (Gold) generous, enveloping trail, we can find coriander seed essence and an overdose of musks and vanilla. The floral, spicy note of coriander seeds brings, just like musks, ethereal volume and a lingering trail. In the base notes, the gourmand, reassuring notes of the vanilla accord enhanced by the ambery woods reveal a radiant, bright silhouette. (From the brand's website.)",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53401.jpg",
+    "rating": 4.14,
+    "ratingVotes": 7536,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 27
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 53401,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gentle Fluidity Gold",
+    "brandFa": "مزون فرانسیس کورکدیان",
+    "nameFa": "Gentle Fluidity Gold",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "زغالک عرعر",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "گشنیز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "کارامل",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "نت‌های یکسان، دو هویت</p> <p>استفاده از مواد اولیه به گونه‌ای که تمام پتانسیل خود را نشان دهند و پذیرش چالش ساخت دو ادو پرفیوم متفاوت با رایحه‌های یکسان: دانه‌های عرعر، جوز هندی، گشنیز، مشک، چوب‌های کهربایی و وانیل. دوتایی Gentle Fluidity از تخیل عطرساز متولد شد تا دو رایحه متمایز، برای او یا برای او، ارائه دهد.</p> <p>در رایحه غنی و فراگیر Gentle Fluidity (Gold)، می‌توانیم ... را بیابیم.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sol-de-Janeiro/Cheirosa-59-88722.html",
+    "extractedAt": "2026-11-24T08:25:22.870Z",
+    "name": "Cheirosa '59",
+    "brand": "Sol de Janeiro",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Vanilla Orchid"
+    ],
+    "middleNotes": [
+      "Sugar",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88722.jpg",
+    "rating": 4.21,
+    "ratingVotes": 5069,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 88
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 70
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 88722,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cheirosa '59",
+    "brandFa": "Sol de Janeiro",
+    "nameFa": "Cheirosa '59",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Vanilla Orchid"
+    ],
+    "middleNotesFa": [
+      "شکر",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memo-Paris/Corfu-68292.html",
+    "extractedAt": "2026-11-24T08:25:27.278Z",
+    "name": "Corfu",
+    "brand": "Memo Paris",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Philippe Paparella-Paris",
+    "topNotes": [
+      "Rhubarb",
+      "Bergamot",
+      "Blackcurrant"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Rose",
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Moss",
+      "Patchouli"
+    ],
+    "description": "A solar perfume, as vibrant as the Greek sky, leaving on the skin a warm trail, like a memory of a dive in the Ionian Sea. A modern chypre overdosed with musk. Opening with a tart rhubarb, bright bergamot and elegant blackcurrant, the fragrance evolves towards a soft and delicate bouquet of geranium, rose and lily of the valley, leaving on the skin a sophisticated musk facetted with notes of patchouli and moss.</p> <p>The sea has shaped a legend that electrifies the enamored hearts, announcing a smile of bergamot, rose oil and patchouli. Whoever swims through this rocky passage made up of golden reliefs, and turquoise water as soft as moss, will know a lasting love. The “Canal d’Amour”, such is its name, patient. He knows that the Greek island has many other secrets to share, fruits of so many influences. Beautifully wild, mountainous and wooded landscapes, lead to visions of Italian, French and British architecture, Byzantine churches and Roman remains. The Epochs, cultures, musk and lily-of-the-valley, the languages, traditions, rhubarb and geraniums, can all be found in Corfu. The Island of all encounters.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68292.jpg",
+    "rating": 3.69,
+    "ratingVotes": 655,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 87
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 79
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 65
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 63
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 68292,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Corfu",
+    "brandFa": "Memo Paris",
+    "nameFa": "Corfu",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Philippe Paparella-Paris",
+    "topNotesFa": [
+      "Rhubarb",
+      "برگاموت",
+      "Blackcurrant"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "گل رز",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "خزه",
+      "پچولی"
+    ],
+    "descriptionFa": "عطری آفتابی، به پرنشاطی آسمان یونان، که اثری گرم بر روی پوست به جا می‌گذارد، مانند خاطره‌ای از شیرجه در دریای یونان. یک عطر شیپر مدرن با غلظت بالای مشک. این عطر با رایحه ترش ریواس، ترنج درخشان و انگورفرنگی سیاه ظریف آغاز می‌شود و سپس به سمت ترکیبی ملایم و ظریف از شمعدانی، گل رز و گل برف می‌رود و رایحه‌ای از مشک پیچیده با نت‌های نعناع هندی و خزه را روی پوست باقی می‌گذارد.</p> <p>دریا افسانه‌ای را شکل داده است",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sol-de-Janeiro/Cheirosa-62-56062.html",
+    "extractedAt": "2026-11-24T08:25:33.233Z",
+    "name": "Cheirosa '62",
+    "brand": "Sol de Janeiro",
+    "family": null,
+    "gender": "women. Top notes are Pistachio and Almond; middle notes are Heliotrope and Jasmine; base notes are Caramel, Vanilla, Salt and Sandalwood",
+    "topNotes": [
+      "Pistachio",
+      "Almond"
+    ],
+    "middleNotes": [
+      "Heliotrope",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Vanilla",
+      "Salt",
+      "Sandalwood"
+    ],
+    "description": "\"Sunny yet seductive, the warm scent is bursting with enticing layers of Pistachio and Salted Caramel to keep you cheirosa from sunrise 'til sunset.\" (from the brand's website)",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56062.jpg",
+    "rating": 4.16,
+    "ratingVotes": 12691,
+    "accords": [
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 99
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 79
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 70
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 56062,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cheirosa '62",
+    "brandFa": "Sol de Janeiro",
+    "nameFa": "Cheirosa '62",
+    "genderFa": "women. Top notes are Pistachio and Almond; middle notes are Heliotrope and Jasmine; base notes are Caramel, Vanilla, Salt and Sandalwood",
+    "topNotesFa": [
+      "پسته",
+      "بادام"
+    ],
+    "middleNotesFa": [
+      "گل هلیوتروپ",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "وانیل",
+      "نمک",
+      "چوب صندل"
+    ],
+    "descriptionFa": "«این رایحه گرم، آفتابی و در عین حال اغواکننده، سرشار از لایه‌های جذاب پسته و کارامل نمکی است تا شما را از طلوع آفتاب تا غروب آفتاب خوشبو نگه دارد.» (از وب‌سایت برند)",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Mataha/Escapade-Gourmande-Grand-Cru-145111.html",
+    "extractedAt": "2026-11-24T08:25:39.121Z",
+    "name": "Escapade Gourmande Grand Cru",
+    "brand": "Maison Mataha",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Vincent Ricord",
+    "topNotes": [
+      "Vanilla",
+      "Peru Balsam"
+    ],
+    "middleNotes": [
+      "Tonka Bean",
+      "Sugar"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Musk"
+    ],
+    "description": "Escapade Gourmande Grand Cru by Maison Mataha is a 2026 fragrance created by Vincent Ricord and presented at a 35% concentration. It revisits the house’s crème brûlée theme with vanilla and Peru balsam, followed by caramelized black sugar and tonka bean, over a base of Bourbon vanilla and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.145111.jpg",
+    "rating": 3.67,
+    "ratingVotes": 93,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 23
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 17
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 16
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 145111,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Escapade Gourmande Grand Cru",
+    "brandFa": "Maison Mataha",
+    "nameFa": "Escapade Gourmande Grand Cru",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Vincent Ricord",
+    "topNotesFa": [
+      "وانیل",
+      "بلسام پرو"
+    ],
+    "middleNotesFa": [
+      "لوبیا تونکا",
+      "شکر"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "موش"
+    ],
+    "descriptionFa": "Escapade Gourmande Grand Cru از برند Maison Mataha یک عطر محصول سال 2026 است که توسط Vincent Ricord ساخته شده و با غلظت 35% عرضه می‌شود. این عطر، تم کرم‌بروله‌ی برند را با وانیل و بلسان پرو بازخوانی می‌کند، سپس نوبت به شکر سیاه کاراملی و دانه‌ی تونکا می‌رسد که بر پایه‌ای از وانیل بوربون و مشک قرار گرفته‌اند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diesel/Only-Desire-134082.html",
+    "extractedAt": "2026-11-24T08:25:44.826Z",
+    "name": "Only Desire",
+    "brand": "Diesel",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Nelly Hachem-Ruiz and Paul Guerlain",
+    "topNotes": [
+      "Aldehydes",
+      "Banana",
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vanilla Orchid",
+      "Jasmine",
+      "Rum",
+      "Cumin"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Praline",
+      "Amber Xtreme"
+    ],
+    "description": "Only Desire by Diesel is a women's Eau de Parfum built around a warm, sweet and ambery composition. It opens with bergamot oil, aldehydes, pear accord and a banana note, followed by a heart of cumin oil, vanilla orchid, jasmine grandiflorum from India and rum absolute. The base brings together Madagascar vanilla bourbon infusion, praline accord and ambery woods. Diesel presents the fragrance as an expression of feminine desire and self-assertion.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.134082.jpg",
+    "rating": 3.48,
+    "ratingVotes": 374,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 58
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 134082,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Only Desire",
+    "brandFa": "Diesel",
+    "nameFa": "Only Desire",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nelly Hachem-Ruiz and Paul Guerlain",
+    "topNotesFa": [
+      "آلدهیدها",
+      "موز",
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Vanilla Orchid",
+      "یاسمن",
+      "رام",
+      "زیره"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "پرالین",
+      "Amber Xtreme"
+    ],
+    "descriptionFa": "Only Desire از برند Diesel یک ادو پرفیوم زنانه است که بر اساس ترکیبی گرم، شیرین و عنبری ساخته شده است. این عطر با رایحه روغن ترنج، آلدئیدها، آکورد گلابی و نت موز آغاز می‌شود و سپس رایحه میانی آن شامل روغن زیره، ارکیده وانیلی، یاس بزرگ‌گل از هند و عصاره خالص رام است. رایحه پایه ترکیبی از عصاره وانیل بوربون ماداگاسکار، آکورد پرالین و چوب‌های کهربایی است. دیزل این عطر را به‌عنوان بیانگر میل زنانه و ابراز وجود معرفی می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aquolina/Pink-Sugar-Lollipink-76592.html",
+    "extractedAt": "2026-11-24T08:25:50.930Z",
+    "name": "Pink Sugar Lollipink",
+    "brand": "Aquolina",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Peach",
+      "Green Apple",
+      "Lemon",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Apricot",
+      "Rose",
+      "Jasmine",
+      "White Woods",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Musk",
+      "Amber"
+    ],
+    "description": "\"Lollipink contains VIVA SCENT, a patent that has a good effect on maintaining self good balance, thanks to a neuro fragrances approach.\"</p> <p>Top notes: bergamot, lemon, green apple, peach, pear</p> <p>Heart: rose, magnolia, jasmine, apricot, white woods</p> <p>Base: amber, musk, Madagascar vanilla</p> <p>The fragrance is available as a 50 and 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76592.jpg",
+    "rating": 4.1,
+    "ratingVotes": 231,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 98
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 26
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 25
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 76592,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pink Sugar Lollipink",
+    "brandFa": "Aquolina",
+    "nameFa": "Pink Sugar Lollipink",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "هلو",
+      "سیب سبز",
+      "لیمو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زردآلو",
+      "گل رز",
+      "یاسمن",
+      "White Woods",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "«Lollipink حاوی VIVA SCENT است، اختراعی که به لطف رویکرد عطر عصبی، تأثیر مثبتی بر حفظ تعادل روحی دارد.»</p> <p>نت‌های اولیه: ترنج، لیمو، سیب سبز، هلو، گلابی</p> <p>نت میانی: گل رز، مگنولیا، یاس، زردآلو، چوب‌های سفید</p> <p>رایحه پایه: عنبر، مشک، وانیل ماداگاسکار</p> <p>این عطر به صورت ادوتویلت در حجم‌های 50 و 100 میلی‌لیتر عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jovan/Black-Musk-7528.html",
+    "extractedAt": "2026-11-24T08:25:56.848Z",
+    "name": "Black Musk",
+    "brand": "Jovan",
+    "family": "Floral Woody Musk",
+    "gender": "women. Top notes are Floral Notes and Musk; </p><div v-pre class='fragrantica-blockquote'><p>Mysterious, sexy and sensual fragrance, Jovan Black Musk Women works with your body chemistry to create a dangerously seductive scent. Floral, indulgent and warm",
+    "description": "Mysterious, sexy and sensual fragrance, Jovan Black Musk Women works with your body chemistry to create a dangerously seductive scent. Floral, indulgent and warm.</p> <p> It is available as 60 and 100 ml cologne concentrate spray.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7528.jpg",
+    "rating": 3.67,
+    "ratingVotes": 337,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 15
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 7528,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Musk",
+    "brandFa": "Jovan",
+    "nameFa": "Black Musk",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women. Top notes are Floral Notes and Musk; </p><div v-pre class='fragrantica-blockquote'><p>Mysterious, sexy and sensual fragrance, Jovan Black Musk Women works with your body chemistry to create a dangerously seductive scent. Floral, indulgent and warm",
+    "descriptionFa": "Jovan Black Musk Women یک عطر مرموز، سکسی و شهوانی است که با ترکیبات شیمیایی بدن شما ترکیب شده و رایحه‌ای بسیار اغواکننده ایجاد می‌کند. گل‌فام، دلپذیر و گرم.</p> <p> این محصول به صورت اسپری کنسانتره ادکلن در حجم‌های 60 و 100 میلی‌لیتر عرضه می‌شود.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Sauvage-Extrait-138704.html",
+    "extractedAt": "2026-11-24T08:26:03.114Z",
+    "name": "Sauvage Extrait",
+    "brand": "Dior",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Lavender",
+      "Ambroxan",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vietnamese Oud"
+    ],
+    "baseNotes": [
+      "Virginia Cedar",
+      "Atlas Cedar",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Sauvage by Dior is an Extrait released in 2026 as part of the Sauvage collection. Created by Francis Kurkdjian, it opens with bergamot, French lavender, and ambroxan, followed by a heart centered on Vietnamese oud. Indonesian patchouli, Madagascan vetiver, Virginia cedar, and Atlas cedar form the base, giving the fragrance an aromatic woody character with fresh, smoky, and dry nuances.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138704.jpg",
+    "rating": 3.67,
+    "ratingVotes": 1910,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 61
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 41
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 39
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 138704,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait",
+    "baseName": "Sauvage",
+    "brandFa": "دیور",
+    "nameFa": "Sauvage Extrait",
+    "concentrationFa": "اکستره",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "آمبروکسان",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Vietnamese Oud"
+    ],
+    "baseNotesFa": [
+      "Virginia Cedar",
+      "سرو اطلس",
+      "پچولی",
+      "وتیور"
+    ],
+    "descriptionFa": "Sauvage از برند Dior یک عطر Extrait است که در سال 2026 به‌عنوان بخشی از مجموعه Sauvage عرضه شد. این عطر که توسط فرانسیس کورکجیان ساخته شده است، با رایحه‌های ترنج، اسطوخودوس فرانسوی و آمبروکسان آغاز می‌شود و سپس به رایحه اصلی که بر پایه عود ویتنامی است، می‌رسد. پاچولی اندونزیایی، وتیور ماداگاسکار، سرو ویرجینیا و سرو اطلس رایحه پایه را تشکیل می‌دهند و به عطر شخصیتی چوبی معطر با ظرافت‌های تازه، دودی و خشک می‌بخشند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Vanilla-28-52616.html",
+    "extractedAt": "2026-11-24T08:26:08.648Z",
+    "name": "Vanilla | 28",
+    "brand": "Kayali Fragrances",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Gabriela Chelariu",
+    "topNotes": [
+      "Vanilla Orchid",
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Brown sugar",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Amberwood",
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "\"Captivate the senses with VANILLA | 28, a masterpiece of refined and cultivated nuance. A time-honored union of creamy Jasmine and rich Madagascan Vanilla Orchid draws out the sweet softness of Brazilian Tonka. Beautifully balanced oriental notes of Musk, Oriental, Patchouli and Brown Sugar form the distinguished wood base of this utterly sublime scent.\" - a note from the brand.</p> <p>Wear VANILLA 28 alone or layered with others. The fragrance is available as a 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52616.jpg",
+    "rating": 4.14,
+    "ratingVotes": 12477,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 94
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 26
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 52616,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla | 28",
+    "brandFa": "Kayali Fragrances",
+    "nameFa": "Vanilla | 28",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gabriela Chelariu",
+    "topNotesFa": [
+      "Vanilla Orchid",
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "Brown sugar",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب کهربایی",
+      "موش",
+      "پچولی"
+    ],
+    "descriptionFa": "«با VANILLA | 28، شاهکاری از ظرافت و پیچیدگی، حواس را مسحور کنید. ترکیبی دیرینه از رایحه خامه مانند یاس و ارکیده وانیلی غنی ماداگاسکار، لطافت شیرین دانه‌های تونکای برزیلی را برجسته می‌کند. نت‌های شرقی بسیار متعادل مشک، رایحه شرقی، نعناع هندی و شکر قهوه‌ای، پایه چوبی متمایز این عطر کاملاً باشکوه را تشکیل می‌دهند.» - یادداشتی از برند.</p> <p>VANILLA 28 را به تنهایی یا همراه با عطر‌های دیگر استفاده کنید. این عطر",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Acqua-di-Parma/Acqua-di-Parma-Blu-Mediterraneo-Fico-di-Amalfi-1687.html",
+    "extractedAt": "2026-11-24T08:26:15.131Z",
+    "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi",
+    "brand": "Acqua di Parma",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2006,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Citron",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Fig Nectar",
+      "Jasmine",
+      "Pink Pepper"
+    ],
+    "baseNotes": [
+      "Fig Tree",
+      "Cedar",
+      "Benzoin"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1687.jpg",
+    "rating": 4.32,
+    "ratingVotes": 9288,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 21
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 12
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 1687,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi",
+    "brandFa": "آکوا دی پارما",
+    "nameFa": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "Citron",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Fig Nectar",
+      "یاسمن",
+      "فلفل صورتی"
+    ],
+    "baseNotesFa": [
+      "Fig Tree",
+      "سرو",
+      "بنزوئین"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
