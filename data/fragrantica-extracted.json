@@ -46448,5 +46448,1679 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Blue-Spirit-Winter-148680.html",
+    "extractedAt": "2026-11-24T16:57:17.979Z",
+    "name": "Blue Spirit Winter",
+    "brand": "Zara",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Amber"
+    ],
+    "middleNotes": [
+      "Grapefruit",
+      "Ginger"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148680.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 92
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 17
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 148680,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Spirit Winter",
+    "brandFa": "Zara",
+    "nameFa": "Blue Spirit Winter",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کهربا"
+    ],
+    "middleNotesFa": [
+      "گریپ‌فروت",
+      "زنجبیل"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Engelsrufer/Adore-You-148679.html",
+    "extractedAt": "2026-11-24T16:57:22.415Z",
+    "name": "Adore You",
+    "brand": "Engelsrufer",
+    "family": null,
+    "gender": "women and men. Top notes are Grapefruit, Raspberry, Black Currant and Rosemary; middle notes are Jasmine, Rhubarb and Orange Blossom; base notes are Vanilla, Sandalwood and Amber",
+    "topNotes": [
+      "Grapefruit",
+      "Raspberry",
+      "Black Currant",
+      "Rosemary"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rhubarb",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148679.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 77
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 77
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 69
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 46
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148679,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Adore You",
+    "brandFa": "Engelsrufer",
+    "nameFa": "Adore You",
+    "genderFa": "women and men. Top notes are Grapefruit, Raspberry, Black Currant and Rosemary; middle notes are Jasmine, Rhubarb and Orange Blossom; base notes are Vanilla, Sandalwood and Amber",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "تمشک",
+      "توت سیاه",
+      "رزماری"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Rhubarb",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Laura-Geller-Beauty/Tuscan-Sun-148678.html",
+    "extractedAt": "2026-11-24T16:57:25.917Z",
+    "name": "Tuscan Sun",
+    "brand": "Laura Geller Beauty",
+    "family": null,
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Jacques Huclier",
+    "topNotes": [
+      "Italian Lemon",
+      "Mandarin Orange",
+      "Green Almond"
+    ],
+    "middleNotes": [
+      "Rose Milk",
+      "Raspberry Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Syrup",
+      "Amber",
+      "White Woods"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148678.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 83
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148678,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tuscan Sun",
+    "brandFa": "Laura Geller Beauty",
+    "nameFa": "Tuscan Sun",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jacques Huclier",
+    "topNotesFa": [
+      "Italian Lemon",
+      "نارنگی",
+      "Green Almond"
+    ],
+    "middleNotesFa": [
+      "Rose Milk",
+      "Raspberry Blossom",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Syrup",
+      "کهربا",
+      "White Woods"
+    ],
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Swiss-Arabian/Musk-07-72630.html",
+    "extractedAt": "2026-11-24T16:57:30.808Z",
+    "name": "Musk 07",
+    "brand": "Swiss Arabian",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Pomegranate",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72630.jpg",
+    "rating": 4.23,
+    "ratingVotes": 262,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 97
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 97
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 44
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 72630,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Musk 07",
+    "brandFa": "Swiss Arabian",
+    "nameFa": "Musk 07",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "Pomegranate",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tubbees/Chocolate-Fudge-104110.html",
+    "extractedAt": "2026-11-24T16:57:35.876Z",
+    "name": "Chocolate Fudge",
+    "brand": "Tubbees",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Dark Chocolate",
+      "Hazelnut",
+      "Dulce de leche"
+    ],
+    "middleNotes": [
+      "Chocolate Fudge",
+      "Baileys Irish Cream",
+      "Caramel",
+      "Bitter Almond"
+    ],
+    "baseNotes": [
+      "Praline",
+      "Vanilla Absolute",
+      "Sandalwood",
+      "Amberwood"
+    ],
+    "description": "A rich combination of dark chocolate, hazelnut, and dulce de leche opens this indulgent fragrance, leading to a heart of creamy chocolate fudge, Baileys Irish Cream, caramel, and a touch of bitter almond. The scent deepens with a warm base of praline, vanilla absolute, amberwood, and sandalwood, creating a luxurious, sweet finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104110.jpg",
+    "rating": 3.9,
+    "ratingVotes": 441,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 44
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 33
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 33
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 32
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 24
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 18
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 104110,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chocolate Fudge",
+    "brandFa": "Tubbees",
+    "nameFa": "Chocolate Fudge",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Dark Chocolate",
+      "فندق",
+      "Dulce de leche"
+    ],
+    "middleNotesFa": [
+      "Chocolate Fudge",
+      "Baileys Irish Cream",
+      "کارامل",
+      "بادام تلخ"
+    ],
+    "baseNotesFa": [
+      "پرالین",
+      "Vanilla Absolute",
+      "چوب صندل",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "ترکیبی غنی از شکلات تلخ، فندق و دulse de leche این عطر لذت‌بخش را آغاز می‌کند و به رایحه‌ای از فاج شکلاتی خامه‌ای، کرم ایرلندی بیلیز، کارامل و کمی بادام تلخ منتهی می‌شود. این رایحه با نت پایه‌ای گرم از پرالین، عصاره وانیل، چوب عنبر و چوب صندل عمیق‌تر می‌شود و پایانی لوکس و شیرین ایجاد می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bare-Vanilla-Brulee-111842.html",
+    "extractedAt": "2026-11-24T16:57:43.739Z",
+    "name": "Bare Vanilla Brulee",
+    "brand": "Victoria's Secret",
+    "family": null,
+    "gender": "women. This is a new fragrance. <b>Bare Vanilla Brulee</b> was launched in 2025. Top note is Vanilla; middle note is Marshmallow; </p><div v-pre class='fragrantica-blockquote'><p>Bare Vanilla Brulee is a gourmand fragrance mist offering a decadent twist on the original Bare Vanilla scent. It features warm, indulgent notes of creamy vanilla, toasted marshmallow, and whipped creme, creating a rich and comforting aroma. This lightweight formulation is designed for casual wear with moderate longevity",
+    "year": 2025,
+    "description": "Bare Vanilla Brulee is a gourmand fragrance mist offering a decadent twist on the original Bare Vanilla scent. It features warm, indulgent notes of creamy vanilla, toasted marshmallow, and whipped creme, creating a rich and comforting aroma. This lightweight formulation is designed for casual wear with moderate longevity.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.111842.jpg",
+    "rating": 4.2,
+    "ratingVotes": 164,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 92
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 111842,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bare Vanilla Brulee",
+    "brandFa": "Victoria's Secret",
+    "nameFa": "Bare Vanilla Brulee",
+    "genderFa": "women. This is a new fragrance. <b>Bare Vanilla Brulee</b> was launched in 2025. Top note is Vanilla; middle note is Marshmallow; </p><div v-pre class='fragrantica-blockquote'><p>Bare Vanilla Brulee is a gourmand fragrance mist offering a decadent twist on the original Bare Vanilla scent. It features warm, indulgent notes of creamy vanilla, toasted marshmallow, and whipped creme, creating a rich and comforting aroma. This lightweight formulation is designed for casual wear with moderate longevity",
+    "descriptionFa": "Bare Vanilla Brulee یک اسپری خوشبوکننده گورماند است که رایحه‌ای لذیذ و جذاب را به عطر اصلی Bare Vanilla می‌افزاید. این عطر دارای رایحه‌های گرم و دلپذیر وانیل خامه‎‌ای، مارشمالو برشته و خامه فرم گرفته است که عطری غنی و آرامش‌بخش ایجاد می‌کند. این فرمول سبک برای استفاده روزمره با ماندگاری متوسط طراحی شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Mitsouko-Eau-de-Parfum-25316.html",
+    "extractedAt": "2026-11-24T16:57:50.197Z",
+    "name": "Mitsouko Eau de Parfum",
+    "brand": "Guerlain",
+    "family": "Chypre Fruity",
+    "gender": "women",
+    "year": 1919,
+    "perfumer": "Jacques Guerlain",
+    "topNotes": [
+      "Bergamot",
+      "Citruses",
+      "Jasmine",
+      "Rose"
+    ],
+    "middleNotes": [
+      "Peach",
+      "Ylang-Ylang",
+      "Jasmine",
+      "Rose",
+      "Lilac"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Spices",
+      "Cinnamon",
+      "Vetiver",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25316.jpg",
+    "rating": 4.11,
+    "ratingVotes": 3762,
+    "accords": [
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 98
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 94
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 76
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 51
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 25316,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Mitsouko",
+    "brandFa": "گرلن",
+    "nameFa": "Mitsouko Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شیپر میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jacques Guerlain",
+    "topNotesFa": [
+      "برگاموت",
+      "مرکبات",
+      "یاسمن",
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "هلو",
+      "ایلنگ‌ایلنگ",
+      "یاسمن",
+      "گل رز",
+      "گل یاس"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "Spices",
+      "دارچین",
+      "وتیور",
+      "کهربا"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Elixir-110808.html",
+    "extractedAt": "2026-11-24T16:57:54.486Z",
+    "name": "Hawas Elixir",
+    "brand": "Rasasi",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Mint",
+      "Bergamot",
+      "Artemisia"
+    ],
+    "middleNotes": [
+      "Dark Chocolate",
+      "Lavender",
+      "Benzoin"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "Hawas Elixir by Rasasi is a gourmand-sweet fragrance for both women and men, introduced in 2024. The composition features a blend of mint, artemisia, and bergamot in the opening, followed by heart notes of benzoin, dark chocolate, and lavender, and a base of tonka bean, vanilla, and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110808.jpg",
+    "rating": 4.46,
+    "ratingVotes": 1553,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 74
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 57
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 49
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 110808,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Hawas",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "نعناع",
+      "برگاموت",
+      "افسنتین"
+    ],
+    "middleNotesFa": [
+      "Dark Chocolate",
+      "اسطوخودوس",
+      "بنزوئین"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "موش سفید"
+    ],
+    "descriptionFa": "Hawas Elixir از برند Rasasi یک عطر شیرین و خوش‌بو برای زنان و مردان است که در سال 2024 عرضه شد. این ترکیب شامل ترکیبی از نعناع، درمنه و ترنج در نت‌های ابتدایی است که به دنبال آن نت‌های میانی بنزوئین، شکلات تلخ و اسطوخودوس و نت‌های پایانی دانه‌ی تونکا، وانیل و مشک سفید قرار دارند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Valaya-78574.html",
+    "extractedAt": "2026-11-24T16:58:01.882Z",
+    "name": "Valaya",
+    "brand": "Parfums de Marly",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Aldehydes",
+      "White Peach",
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Lily-of-the-Valley",
+      "Petalia",
+      "Nympheal™",
+      "Vetiver",
+      "Mahonia"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambroxan",
+      "Akigalawood",
+      "Vanilla"
+    ],
+    "description": "A luminous aura and at the same time an intangible softness. Like the scent of fresh cotton, <strong>Valaya </strong>unfolds a sensual fragrance nuance dedicated to the power of femininity.</p> <p>Beyond the artificial and beyond time, it awakens an intimate feeling, a universal emotion, a deep breath of mindfulness. Its formula evokes the delicate and pure skin of a woman in all its beauty.</p> <p>“One of the biggest challenges was to create a fragrance that is fresh and delicate, but at the same time very powerful and expressive. <strong>Valaya </strong>is reminiscent of the feel of cotton against the skin. A cocoon-like perfume that is sensual and elegant at the same time. A white perfume full of contrasts that is delicate yet incredibly alluring.” – <em>Julien Sprecher</em> <em>(brand creator)</em>",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78574.jpg",
+    "rating": 3.89,
+    "ratingVotes": 6909,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 89
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 44
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 78574,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Valaya",
+    "brandFa": "پرفیومز دو مارلی",
+    "nameFa": "Valaya",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "آلدهیدها",
+      "White Peach",
+      "برگاموت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Lily-of-the-Valley",
+      "Petalia",
+      "Nympheal™",
+      "وتیور",
+      "Mahonia"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "آمبروکسان",
+      "Akigalawood",
+      "وانیل"
+    ],
+    "descriptionFa": "هاله‌ای درخشان و در عین حال لطافتی ناملموس. <strong>Valaya </strong>مانند رایحه پنبه تازه، یک رایحه حسی با ظرافت‌های خاص را آشکار می‌کند که به قدرت زنانگی اختصاص دارد.</p> <p>فراتر از مصنوعات و فراتر از زمان، احساسی صمیمی، عاطفه‌ای جهانی و نفسی عمیق از ذهن‌آگاهی را برمی‌انگیزد. فرمول آن یادآور پوست لطیف و پاک یک زن در تمام زیبایی‌اش است.</p> <p>«یکی از بزرگترین چالش‌ها، ایجاد یک عطر بود که",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sorce/Lady-of-Steel-142786.html",
+    "extractedAt": "2026-11-24T16:58:08.048Z",
+    "name": "Lady of Steel",
+    "brand": "Sorce",
+    "family": "Floral",
+    "gender": "women. This is a new fragrance. <b>Lady of Steel</b> was launched in 2026. The nose behind this fragrance is Madison Dahl. The fragrance features Metallic notes, Lily of the Valley and Musk",
+    "year": 2026,
+    "perfumer": "Madison Dahl",
+    "description": "Lady of Steel is a feminine floral fragrance from Sorce’s The Furies collection. Introduced in September 2026, it centers on a delicate lily-of-the-valley profile with a subtle metallic quality. It is the debut fragrance created by Madison Dahl.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142786.jpg",
+    "rating": 3.8,
+    "ratingVotes": 56,
+    "accords": [
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 89
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 53
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 20
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 18
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 142786,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lady of Steel",
+    "brandFa": "Sorce",
+    "nameFa": "Lady of Steel",
+    "familyFa": "گلی",
+    "genderFa": "women. This is a new fragrance. <b>Lady of Steel</b> was launched in 2026. The nose behind this fragrance is Madison Dahl. The fragrance features Metallic notes, Lily of the Valley and Musk",
+    "perfumerFa": "Madison Dahl",
+    "descriptionFa": "Lady of Steel یک عطر زنانه گل‌دار از مجموعه The Furies برند Sorce است. این عطر که در سپتامبر ۲۰۲۶ عرضه شد، بر پایه رایحه ظریف گل معطر دره با کیفیتی فلزی ملایم ساخته شده است. این اولین عطر ساخته‌شده توسط مدیسون دال است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-She-64482.html",
+    "extractedAt": "2026-11-24T16:58:14.355Z",
+    "name": "Emporio Armani She",
+    "brand": "Giorgio Armani",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2020,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Citruses",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Heliotrope",
+      "Cardamom",
+      "Angelica",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Almond",
+      "Vanilla",
+      "Cedar",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64482.jpg",
+    "rating": 4.19,
+    "ratingVotes": 1044,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 81
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 67
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 66
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 38
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 38
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 64482,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Emporio Armani She",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Emporio Armani She",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "مرکبات",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل هلیوتروپ",
+      "هل",
+      "Angelica",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "بادام",
+      "وانیل",
+      "سرو",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rabanne/Ultraviolet-Man-521.html",
+    "extractedAt": "2026-11-24T16:58:18.934Z",
+    "name": "Ultraviolet Man",
+    "brand": "Rabanne",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2001,
+    "perfumer": "Jacques Cavallier Belletrud",
+    "topNotes": [
+      "Mint",
+      "Amber"
+    ],
+    "middleNotes": [
+      "Vetiver",
+      "Pepper",
+      "Spicy Notes"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Vanilla"
+    ],
+    "description": "This is an interesting masculine fragrance, more intense and provocative than the feminine version. Gray amber is in the limelight enhanced by the notes of mint, vetiver and moss . The bottle design deserves attention; just like the bottle for the feminine version, this one was made using glass, silicone and metal. Purple is the color of the third millennium, the the Age of Aquarius, according to astrologers and Paco Rabanne himself. It was created in 1999.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.521.jpg",
+    "rating": 4.05,
+    "ratingVotes": 2736,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 99
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 86
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 83
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 69
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 521,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ultraviolet Man",
+    "brandFa": "Rabanne",
+    "nameFa": "Ultraviolet Man",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jacques Cavallier Belletrud",
+    "topNotesFa": [
+      "نعناع",
+      "کهربا"
+    ],
+    "middleNotesFa": [
+      "وتیور",
+      "فلفل",
+      "Spicy Notes"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "وانیل"
+    ],
+    "descriptionFa": "این یک عطر مردانه جالب است که نسبت به نسخه زنانه آن، شدیدتر و تحریک‌کننده‌تر است. عنبر خاکستری در مرکز توجه قرار دارد و رایحه‌های نعناع، وتیور و خزه آن را تقویت می‌کنند. طراحی بطری شایسته توجه است؛ دقیقاً مانند بطری نسخه زنانه، این بطری نیز با استفاده از شیشه، سیلیکون و فلز ساخته شده است. به گفته‌ی طالع‌بینان و خود پاکو رابان، بنفش رنگ هزاره‌ی سوم، عصر دلو است. این رنگ",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Vilhelm-Parfumerie/Smoke-Show-30933.html",
+    "extractedAt": "2026-11-24T16:58:24.558Z",
+    "name": "Smoke Show",
+    "brand": "Vilhelm Parfumerie",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Jérôme Epinette",
+    "topNotes": [
+      "Saffron",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Rose Oil"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Vetiver",
+      "Cedar"
+    ],
+    "description": "\"Vibrant spotlights, smoky rooms, simmering jazz, yearning notes. Simmering, spicy notes of agarwood are redolent of the era’s spellbinding verve. The soaring notes of Ellington on the ivory keys and the gripping torment in Billie Holiday’s voice take the audience to life’s beautiful extremities. Leather and rose take center stage, while pink pepper and saffron accentuate the nuanced spices of this burning composition.\" - a note from the brand.</p> <p>Smoke Show by Vilhelm Parfumerie is a Woody Spicy fragrance for women and men. This is a new fragrance. Smoke Show was launched in 2015. Top notes are pink pepper and saffron; middle notes are rose oil and leather; base notes are vetiver, cedar and agarwood (oud).",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30933.jpg",
+    "rating": 3.75,
+    "ratingVotes": 521,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 93
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 71
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 46
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 37
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 30933,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Smoke Show",
+    "brandFa": "ویلهلم پرفیومری",
+    "nameFa": "Smoke Show",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jérôme Epinette",
+    "topNotesFa": [
+      "زعفران",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "Rose Oil"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "وتیور",
+      "سرو"
+    ],
+    "descriptionFa": "«نورافکن‌های درخشان، اتاق‌های پر از دود، جاز ملایم، نت‌های دلنشین. نت‌های تند و ملایم چوب عود یادآور شور و هیجان مسحورکننده آن دوران است. نت‌های اوج‌گیرنده الینگتون روی کلیدهای عاجی و عذاب جانکاه در صدای بیلی هالیدی، مخاطبان را به نقاط زیبای زندگی می‌برد. چرم و گل رز در مرکز توجه قرار دارند، در حالی که فلفل صورتی و زعفران ادویه‌های ظریف این ترکیب آتشین را برجسته می‌کنند.» - یادداشتی از برند.</",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Cream-Velvet-102358.html",
+    "extractedAt": "2026-11-24T16:58:30.944Z",
+    "name": "Cream Velvet",
+    "brand": "Khadlaj Perfumes",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Caramel",
+      "Butter"
+    ],
+    "middleNotes": [
+      "Honey",
+      "Tonka",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Cream Velvet by Khadlaj is a luscious amber gourmand fragrance that wraps you in sweet, velvety decadence. It opens with a rich and indulgent blend of creamy butter and golden caramel, creating an irresistible gourmand allure. At its heart, a touch of floral sophistication emerges with jasmine, perfectly balanced by the honeyed warmth and nutty sweetness of tonka bean. The base is a comforting fusion of amber, smooth vanilla, and soft musk, leaving a trail that is both sensual and enchanting.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102358.jpg",
+    "rating": 4.33,
+    "ratingVotes": 1351,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 68
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 32
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 102358,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cream Velvet",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Cream Velvet",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کارامل",
+      "کره"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "Tonka",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "Cream Velvet از برند Khadlaj یک عطر گورماند کهربایی دلپذیر است که شما را در لذت‌طلبی شیرین و مخملی فرو می‌برد. این عطر با ترکیبی غنی و لذت‌بخش از کره خامه‌ای و کارامل طلایی آغاز می‌شود و جذابیت گورماند مقاومت‌ناپذیری ایجاد می‌کند. در نت میانی، رایحه‌ای گل‌فام و ظریف با یاس ظاهر می‌شود که به طور کامل با گرمای عسلی و شیرینی مغزدار دانه‌ی تونکا متعادل شده است. رایحه پایه ترکیبی آرامش‌بخش از کهربا، وانیل ملایم و مشک لطیف است که",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BellaVita/Honey-Oud-107179.html",
+    "extractedAt": "2026-11-24T16:58:36.763Z",
+    "name": "Honey Oud",
+    "brand": "BellaVita",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Oud",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Oud",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Oud",
+      "Praline",
+      "Woody Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107179.jpg",
+    "rating": 3.97,
+    "ratingVotes": 418,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 92
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 35
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 32
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 107179,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Honey Oud",
+    "brandFa": "BellaVita",
+    "nameFa": "Honey Oud",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عود",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "عود",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "عود",
+      "پرالین",
+      "Woody Notes"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fine-ry/Sweet-On-The-Outside-79165.html",
+    "extractedAt": "2026-11-24T16:58:40.384Z",
+    "name": "Sweet On The Outside",
+    "brand": "Fine'ry.",
+    "family": "Oriental Woody",
+    "gender": "women. <b>Sweet On The Outside</b> was launched in 2023. The fragrance features Madagascar Vanilla, Tonka Bean, Smoke and Vetiver",
+    "year": 2023,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79165.jpg",
+    "rating": 4.11,
+    "ratingVotes": 833,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 29
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 29
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 22
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 79165,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sweet On The Outside",
+    "brandFa": "Fine'ry.",
+    "nameFa": "Sweet On The Outside",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women. <b>Sweet On The Outside</b> was launched in 2023. The fragrance features Madagascar Vanilla, Tonka Bean, Smoke and Vetiver",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
