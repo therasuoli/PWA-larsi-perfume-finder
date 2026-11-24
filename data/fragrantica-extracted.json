@@ -31152,5 +31152,2318 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Severnyj-Veter-Northern-Wind/Severnyj-Veter-Ekstremal-nyj-148637.html",
+    "extractedAt": "2026-11-24T06:57:15.982Z",
+    "name": "Северный Ветер Экстремальный",
+    "brand": "Северный Ветер",
+    "family": "Chypre Fruity",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Black Currant",
+      "Pineapple",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Birch",
+      "Patchouli",
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Oakmoss",
+      "Amber",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148637.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 41
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 41
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 39
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 148637,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Северный Ветер Экстремальный",
+    "brandFa": "Северный Ветер",
+    "nameFa": "Северный Ветер Экстремальный",
+    "familyFa": "شیپر میوه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "برگاموت",
+      "توت سیاه",
+      "آناناس",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "توس",
+      "پچولی",
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "خزه بلوط",
+      "کهربا",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Severnyj-Veter-Northern-Wind/Severnyj-Veter-Klassiceskij-148636.html",
+    "extractedAt": "2026-11-24T06:57:20.359Z",
+    "name": "Северный Ветер. Классический",
+    "brand": "Северный Ветер",
+    "family": "Aromatic Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Coriander",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148636.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 82
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 39
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 39
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148636,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Северный Ветер. Классический",
+    "brandFa": "Северный Ветер",
+    "nameFa": "Северный Ветер. Классический",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "گشنیز",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floristica/Orange-Blossom-148635.html",
+    "extractedAt": "2026-11-24T06:57:24.982Z",
+    "name": "Orange Blossom",
+    "brand": "Floristica",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Lemon",
+      "Orange Blossom",
+      "Gardenia",
+      "Spices",
+      "Amber",
+      "Musk"
+    ],
+    "baseNotes": [
+      "Iso E Super"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148635.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 80
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 72
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 38
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 148635,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Orange Blossom",
+    "brandFa": "Floristica",
+    "nameFa": "Orange Blossom",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "لیمو",
+      "گل پرتقال",
+      "گاردنیا",
+      "Spices",
+      "کهربا",
+      "موش"
+    ],
+    "baseNotesFa": [
+      "Iso E Super"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floristica/Magic-Garden-148634.html",
+    "extractedAt": "2026-11-24T06:57:29.946Z",
+    "name": "Magic Garden",
+    "brand": "Floristica",
+    "family": "Floral Green",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Freesia",
+      "Cyclamen",
+      "Rhubarb"
+    ],
+    "middleNotes": [
+      "Tulip"
+    ],
+    "baseNotes": [
+      "Green Notes",
+      "Vetiver",
+      "Woody Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148634.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 86
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 68
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 34
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 148634,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Magic Garden",
+    "brandFa": "Floristica",
+    "nameFa": "Magic Garden",
+    "familyFa": "گلی سبز",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "فریزیا",
+      "Cyclamen",
+      "Rhubarb"
+    ],
+    "middleNotesFa": [
+      "گل لاله"
+    ],
+    "baseNotesFa": [
+      "نت‌های سبز",
+      "وتیور",
+      "Woody Notes"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floristica/Flower-Princess-148633.html",
+    "extractedAt": "2026-11-24T06:57:33.983Z",
+    "name": "Flower Princess",
+    "brand": "Floristica",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Ambrette (Musk Mallow)",
+      "Sichuan Pepper"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambroxan"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148633.jpg",
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 33
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 148633,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Flower Princess",
+    "brandFa": "Floristica",
+    "nameFa": "Flower Princess",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Ambrette (Musk Mallow)",
+      "فلفل سیچوان"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "آمبروکسان"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floristica/Fleur-Magnetique-148632.html",
+    "extractedAt": "2026-11-24T06:57:38.191Z",
+    "name": "Fleur Magnetique",
+    "brand": "Floristica",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Litchi",
+      "Bergamot",
+      "Peach"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Orange Blossom",
+      "Jasmine",
+      "Petalia"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Moss",
+      "Woody Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148632.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 89
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 89
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 71
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 67
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 148632,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fleur Magnetique",
+    "brandFa": "Floristica",
+    "nameFa": "Fleur Magnetique",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Litchi",
+      "برگاموت",
+      "هلو"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "گل پرتقال",
+      "یاسمن",
+      "Petalia"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "خزه",
+      "Woody Notes"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floristica/Golden-Patchouli-148631.html",
+    "extractedAt": "2026-11-24T06:57:43.028Z",
+    "name": "Golden Patchouli",
+    "brand": "Floristica",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Peach",
+      "Apple",
+      "Mandarin Orange",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Gardenia",
+      "Orange Blossom",
+      "Black Currant"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk",
+      "Patchouli",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148631.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 93
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 74
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 148631,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Golden Patchouli",
+    "brandFa": "Floristica",
+    "nameFa": "Golden Patchouli",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "هلو",
+      "سیب",
+      "نارنگی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گاردنیا",
+      "گل پرتقال",
+      "توت سیاه"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "موش",
+      "پچولی",
+      "سرو"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floristica/Lovely-Cherry-148630.html",
+    "extractedAt": "2026-11-24T06:57:47.236Z",
+    "name": "Lovely Cherry",
+    "brand": "Floristica",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cherry",
+      "Raspberry",
+      "Suede",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Marshmallow",
+      "Vanilla",
+      "Gardenia",
+      "Orchid"
+    ],
+    "baseNotes": [
+      "White Suede",
+      "Sandalwood",
+      "Musk",
+      "Oak"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148630.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 86
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 36
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 148630,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lovely Cherry",
+    "brandFa": "Floristica",
+    "nameFa": "Lovely Cherry",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گیلاس",
+      "تمشک",
+      "چرم جیر",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "مارشمالو",
+      "وانیل",
+      "گاردنیا",
+      "Orchid"
+    ],
+    "baseNotesFa": [
+      "White Suede",
+      "چوب صندل",
+      "موش",
+      "Oak"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/COS/Noir-Delice-148629.html",
+    "extractedAt": "2026-11-24T06:57:50.779Z",
+    "name": "Noir Delice",
+    "brand": "COS",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Marine Mercé",
+    "topNotes": [
+      "Whiskey",
+      "Oak",
+      "Blackberry"
+    ],
+    "middleNotes": [
+      "Tonka",
+      "Black Pepper",
+      "Moss"
+    ],
+    "baseNotes": [
+      "Incense",
+      "Cocoa",
+      "Labdanum",
+      "Ambrox Super"
+    ],
+    "description": "\"It's an addiction: a warm, gourmand concoction where alluring tones of liquor and fruit blur into something irresistibly intimate, something that draws you back again and again.\" – Marine Mercé, Master Perfumer</p> <p>Noir Delice is the intimacy of a late night permeated with indulgence and a hazy glow that leaves an air of intrigue. Made in Grasse, France. COS fragrances are formulated with 20% oil for a lasting finish.\" -COS.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148629.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 96
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 42
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 148629,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Noir Delice",
+    "brandFa": "COS",
+    "nameFa": "Noir Delice",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Marine Mercé",
+    "topNotesFa": [
+      "ویسکی",
+      "Oak",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "Tonka",
+      "فلفل سیاه",
+      "خزه"
+    ],
+    "baseNotesFa": [
+      "عود بخور",
+      "کاکائو",
+      "لابدانوم",
+      "Ambrox Super"
+    ],
+    "descriptionFa": "«این یک اعتیاد است: ترکیبی گرم و خوش‌بو که در آن رایحه‌های جذاب مشروب و میوه در هم می‌آمیزند و به چیزی تبدیل می‌شوند که به طرز غیرقابل مقاومتی صمیمی است، چیزی که شما را بارها و بارها به سمت خود می‌کشاند.» – مارین مرسه، استاد عطرساز</p> <p>Noir Delice صمیمیت یک شب دیروقت است که آغشته به لذت و درخششی مبهم است که حالتی اسرارآمیز ایجاد می‌کند. ساخته شده در گراس، فرانسه. عطرهای COS با 20% روغن فرموله شده‌اند تا ماندگاری بیشتری داشته باشند.» -COS.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/COS/Relique-148628.html",
+    "extractedAt": "2026-11-24T06:57:57.828Z",
+    "name": "Relique",
+    "brand": "COS",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Ilias Ermenidis and Marine Mercé",
+    "topNotes": [
+      "Raspberry"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Damask Rose",
+      "dark woodsy notes",
+      "Leather"
+    ],
+    "description": "\"Built on contrast, the fragrance balances dark woods deepened with leather against a luminous note of raspberry that keeps the composition under tension.\" — Ilias Ermenidis and Marine Mercé, Master Perfumers</p> <p>Relique embraces the warmth of worn-in leather, softened by the patina of time. Made in Grasse, France. COS fragrances are formulated with 20% oil for a lasting finish.\" -COS.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148628.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 94
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 63
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 63
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 50
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 148628,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Relique",
+    "brandFa": "COS",
+    "nameFa": "Relique",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Ilias Ermenidis and Marine Mercé",
+    "topNotesFa": [
+      "تمشک"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "گل رز دمشقی",
+      "dark woodsy notes",
+      "چرم"
+    ],
+    "descriptionFa": "«این عطر که بر پایه تضاد ساخته شده است، تعادلی بین رایحه چوب‌های تیره که با چرم غنی‌تر شده‌اند و رایحه درخشان تمشک ایجاد می‌کند که ترکیب را در حالت تعلیق نگه می‌دارد.» — ایلیاس ارمنیدیس و مارین مرسه، استادان عطرسازی</p> <p>Relique گرما و لطافت چرم کهنه را که با گذشت زمان نرم شده است، در خود جای داده است. ساخته شده در گراس، فرانسه. عطرهای COS با 20% روغن فرموله شده‌اند تا ماندگاری بیشتری داشته باشند.» -COS.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Commodity/Spice-144013.html",
+    "extractedAt": "2026-11-24T06:58:04.751Z",
+    "name": "Spice",
+    "brand": "Commodity",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Christelle Laprade",
+    "topNotes": [
+      "Saffron",
+      "Allspice"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Condensed Milk",
+      "Sugar"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "description": "Reminiscent of wandering through a spice market, rich with color, texture and aroma. Suede-like Saffron and sweetly aromatic Allspice—with hints of Nutmeg, Clove and Cardamom—melt into Cinnamon Sugar for a warm, smooth Chai-like blend.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.144013.jpg",
+    "rating": 3.92,
+    "ratingVotes": 71,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 37
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 31
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 25
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 144013,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spice",
+    "brandFa": "Commodity",
+    "nameFa": "Spice",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christelle Laprade",
+    "topNotesFa": [
+      "زعفران",
+      "فلفل هلندی"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "شیر عسلی",
+      "شکر"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "یادآور قدم زدن در یک بازار ادویه، سرشار از رنگ، بافت و عطر. زعفران با رایحه شبیه به جیر و فلفل انگلیسی با عطر شیرین - همراه با رایحه‌های جوز هندی، میخک و هل - با شکر دارچینی ترکیب می‌شوند تا ترکیبی گرم و ملایم شبیه به چای ایجاد کنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/The-Ghost-In-The-Shell-69412.html",
+    "extractedAt": "2026-11-24T06:58:11.106Z",
+    "name": "The Ghost In The Shell",
+    "brand": "Etat Libre d'Orange",
+    "family": null,
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Yuzu",
+      "Aqual",
+      "Hexyl acetate"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Skin",
+      "Jasmine",
+      "Mugane"
+    ],
+    "baseNotes": [
+      "Orcanox™",
+      "Vinyl Guaiacol",
+      "Moss"
+    ],
+    "description": "MERGER OF THE MATTER, BIRTH OF THE SPIRIT.<br /> <br /> \"It is a night of pale moonlight, a night toward the end of the 20th century, a night when the old world is ending and the new one is beginning. It is a night when one trembles to boldly lower the sacred cross against the heart, to aid in the passage to fatherhood.<br /> So, as a crucifix, that night I pick up Hyperion, a novel by Dan Simmons. This is a masterful science fiction saga that celebrates the infinite legend of the French Jesuit priest Pierre Teilhard de Chardin, who was a 20th-century researcher, paleontologist, theologian and philosopher.<br /> And I read, pacified, until the reflections of the dawn, until the first golden rays of the East. I read the future of man, the celebration of transhumanism and the qualitative leap of humanity enhanced by machine. I have rarely loved a book this much, I have rarely loved a thinker this much.<br /> <br /> I read that night what a man thought he saw in the tombs of time.<br /> <br /> I am a lover of words in the service of materials when they come together to make poetry in the bottom of our bottles; thus, a few years ago, I bring up the work of Pierre Teilhard de Chardin to one of the last living vestiges of the triumphant 20th century, and I ask him: - \"Then Teilhard de Chardin, precursor of genius?\" A look, a silence and for the answer four unexpected words, four words whispered by my father: \"GHOST IN THE SHELL\".<br /> This is the act of birth that makes the spirit of perfume. The rest is poetry to live on the skin.<br /> <br /> Pierre Teilhard de Chardin died in 1955, but his spirit continues to travel. This fragrance extends it through an alliance with the Japanese artist Shirow Masamune to transcend the spirit of Earth.<br /> <br /> By mixing biotech and natural materials, this perfume silently celebrates the wake of the future and also whispers of a day to come, by providence or chance, when humanity is reunited and organized. A day when all consciousness is summoned by the infosphere to constitute a superior being and pass from the inert to the living. As the molecules assemble to make the living, we will then make a qualitative leap that becomes the starting point and arrival of transhumanism.<br /> <br /> This perfume is the future. It comes to us from the 20th century.<br /> <br /> Ghost in the Shell, a perfume that speaks of the human phenomenon and its paradox, a perfume to wear on oneself ab libitum, at one’s pleasure. A perfume as a propagation towards the other, that makes you the axis and the arrow of evolution; modern, indeed! From the bottom of the matter, rise up.\" - Etienne de Swardt</p> <p>Top notes: Aqual™, Yuzu HE, Hexyl Acetate (MANE Biotech)<br /> Heart notes: Jasmin absolute, Mugane™, Milky Skin Accord<br /> Base notes: Moss Accord, Vinyl Gaiacol (MANE Biotech), Orcanox™",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69412.jpg",
+    "rating": 3.93,
+    "ratingVotes": 6284,
+    "accords": [
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 81
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 46
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "Pear",
+        "nameFa": "Pear",
+        "percent": 33
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 69412,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Ghost In The Shell",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "The Ghost In The Shell",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "یوزو",
+      "Aqual",
+      "Hexyl acetate"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "Skin",
+      "یاسمن",
+      "Mugane"
+    ],
+    "baseNotesFa": [
+      "Orcanox™",
+      "Vinyl Guaiacol",
+      "خزه"
+    ],
+    "descriptionFa": "ادغام ماده، تولد روح.<br /> <br /> «شبی است با مهتابی کم‌نور، شبی در اواخر قرن بیستم، شبی که دنیای کهنه به پایان می‌رسد و دنیای جدید آغاز می‌شود. شبی است که انسان از اینکه با شهامت صلیب مقدس را بر قلب خود فرود آورد تا به عبور به سوی پدر شدن کمک کند، می‌لرزد.<br /> بنابراین، آن شب به عنوان یک مصلوب، کتاب «هایپریون»، رمانی از دن سیمونز را برمی‌دارم. این یک حماسه علمی تخیلی استادانه است که",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rabanne/1-Million-Black-136741.html",
+    "extractedAt": "2026-11-24T06:58:18.208Z",
+    "name": "1 Million Black",
+    "brand": "Rabanne",
+    "family": "Oriental Vanilla",
+    "gender": "men. This is a new fragrance. <b>1 Million Black</b> was launched in 2026. 1 Million Black was created by Christophe Raynaud and Quentin Bisch. Top notes are Pineapple, Blood Orange, Cardamom and Roasted Pineapple; middle notes are Vanilla, Madagascar Vanilla, Bourbon Vanilla, Coconut and Clary Sage; base notes are Tonka Bean, Ebony Wood and Patchouli",
+    "year": 2026,
+    "perfumer": "Christophe Raynaud and Quentin Bisch",
+    "topNotes": [
+      "Pineapple",
+      "Blood Orange",
+      "Cardamom",
+      "Roasted Pineapple"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Madagascar Vanilla",
+      "Bourbon Vanilla",
+      "Coconut",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Ebony Wood",
+      "Patchouli"
+    ],
+    "description": "Rabanne introduces <strong>1 Million Black</strong>, a new amber woody Eau de Parfum for men and a darker interpretation of the house’s emblematic 1 Million universe. Created by master perfumers <strong>Christophe Raynaud and Quentin Bisch</strong>, the fragrance combines tropical fruitiness, gourmand warmth and dark woods in a bold, contemporary composition.</p> <p>The opening is built around <strong>roasted pineapple</strong>, bringing a juicy tropical character with a warmer, slightly caramelized facet. At the heart, an overdose of <strong>vanilla</strong> develops the fragrance’s creamy gourmand dimension before gradually settling into the depth of <strong>ebony woods</strong>. The contrast between luminous fruit, smooth vanilla and the darker woody base gives 1 Million Black its distinctive signature.</p> <p>The fragrance is presented as an intense and long-lasting Eau de Parfum, with Rabanne claiming performance of up to <strong>48 hours</strong>.</p> <p>Since its debut in 2008, the gold-bar bottle has become one of the defining visual signatures of the 1 Million collection. For <strong>1 Million Black</strong>, Rabanne revisits the familiar design in sleek metallic black, dominated by an oversized <strong>“1”</strong> across the front. The darker treatment reflects the fragrance itself, while maintaining an immediate connection to the original Million identity.</p> <p>With its roasted pineapple, generous vanilla and ebony woods, <strong>1 Million Black</strong> opens a new chapter for the collection, shifting its familiar opulence toward a darker, richer and more gourmand woody profile.</p> <p>Top notes: Roasted pineapple, cardamom, blood orange<br /> Middle notes: Vanilla Overdose, Clary Sage, Coconut<br /> Base notes: Ebony Wood, Tonka Bean, Patchouli",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136741.jpg",
+    "rating": 4.34,
+    "ratingVotes": 1916,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 95
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 25
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 136741,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "1 Million Black",
+    "brandFa": "Rabanne",
+    "nameFa": "1 Million Black",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "men. This is a new fragrance. <b>1 Million Black</b> was launched in 2026. 1 Million Black was created by Christophe Raynaud and Quentin Bisch. Top notes are Pineapple, Blood Orange, Cardamom and Roasted Pineapple; middle notes are Vanilla, Madagascar Vanilla, Bourbon Vanilla, Coconut and Clary Sage; base notes are Tonka Bean, Ebony Wood and Patchouli",
+    "perfumerFa": "Christophe Raynaud and Quentin Bisch",
+    "topNotesFa": [
+      "آناناس",
+      "پرتقال خونی",
+      "هل",
+      "Roasted Pineapple"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "وانیل ماداگاسکار",
+      "وانیل بوربن",
+      "نارگیل",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "Ebony Wood",
+      "پچولی"
+    ],
+    "descriptionFa": "Rabanne عطر <strong>1 Million Black</strong> را معرفی می‌کند، یک ادو پرفیوم جدید با رایحه چوبی کهربایی برای آقایان و تفسیر تیره‌تر از دنیای نمادین 1 Million این برند. این عطر که توسط استادان عطرساز <strong>کریستوف رینو و کوئنتین بیش</strong> ساخته شده است، رایحه میوه‌های استوایی، گرمای دلپذیر و چوب‌های تیره را در یک ترکیب جسورانه و مدرن با هم تلفیق می‌کند.</p> <p>نت ابتدایی بر <strong>پایه رایحه آناناس برشته</strong> ساخته شده است که طراوت و تازگی را به ارمغان می‌آورد.",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Luna-Rossa-Ocean-68753.html",
+    "extractedAt": "2026-11-24T06:58:25.013Z",
+    "name": "Luna Rossa Ocean",
+    "brand": "Prada",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": "Anne Flipo and Carlos Benaïm",
+    "topNotes": [
+      "Bergamot",
+      "Pink Pepper",
+      "Artemisia"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Iris",
+      "Sage",
+      "Suede",
+      "Saffron"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Caramel",
+      "Haitian Vetiver",
+      "Patchouli"
+    ],
+    "description": "\"Prada Luna Rossa Ocean is the new masculine fragrance from Prada, built on a conviction that with technology as an extension of humanity, we can push beyond our limits, imagine beyond possibility and open new horizons. The fragrance features a bright cocktail of qualitative citrus combined with a racy duo of lavender and sage to create a clean and fresh halo. This singular leathery heart expresses a second skin effect by exploring a sensual suede and saffron accord and the elegant creaminess of orris notes.\"</p> <p>American actor Jake Gyllenhaal fronts the new campaign, shot by Johan Renck.</p> <p>The fragrance is available as a 50 and 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68753.jpg",
+    "rating": 3.99,
+    "ratingVotes": 6289,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 79
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 71
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 69
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 60
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 60
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 68753,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Luna Rossa Ocean",
+    "brandFa": "پرادا",
+    "nameFa": "Luna Rossa Ocean",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Anne Flipo and Carlos Benaïm",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل صورتی",
+      "افسنتین"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "زنبق",
+      "مریم‌گلی",
+      "چرم جیر",
+      "زعفران"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کارامل",
+      "Haitian Vetiver",
+      "پچولی"
+    ],
+    "descriptionFa": "«Prada Luna Rossa Ocean عطر جدید مردانه از برند پرادا است که بر این باور استوار است که با فناوری به‌عنوان بازویی برای بشریت، می‌توانیم از محدودیت‌های خود فراتر برویم، فراتر از آنچه ممکن است تصور کنیم و افق‌های جدیدی را بگشاییم. این عطر دارای ترکیبی درخشان از مرکبات با کیفیت است که با ترکیبی جذاب از اسطوخودوس و مریم‌گلی ترکیب شده تا هاله‌ای پاک و تازه ایجاد کند. این رایحه میانی چرمی منحصر‌به‌فرد با کاوش در جیر حسی، جلوه‌ای شبیه به پوست دوم ایجاد می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Histoires-de-Parfums/1725-4491.html",
+    "extractedAt": "2026-11-24T06:58:30.922Z",
+    "name": "1725",
+    "brand": "Histoires de Parfums",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2001,
+    "perfumer": "Sylvie Jourdet",
+    "topNotes": [
+      "Licorice",
+      "Citruses",
+      "Grapefruit",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Star Anise"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Almond",
+      "Sandalwood",
+      "Amber",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4491.jpg",
+    "rating": 4.1,
+    "ratingVotes": 1795,
+    "accords": [
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 79
+      },
+      {
+        "nameEn": "anis",
+        "nameFa": "anis",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 62
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 58
+      }
+    ],
+    "fragranticaId": 4491,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "1725",
+    "brandFa": "Histoires de Parfums",
+    "nameFa": "1725",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Sylvie Jourdet",
+    "topNotesFa": [
+      "شیرین‌بیان",
+      "مرکبات",
+      "گریپ‌فروت",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "انیسون ستاره‌ای"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بادام",
+      "چوب صندل",
+      "کهربا",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dries-Van-Noten/Soie-Malaquais-72605.html",
+    "extractedAt": "2026-11-24T06:58:34.178Z",
+    "name": "Soie Malaquais",
+    "brand": "Dries Van Noten",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Marie Salamagne",
+    "topNotes": [
+      "Black Currant",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Silk",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Chestnut",
+      "Cacao"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72605.jpg",
+    "rating": 4.23,
+    "ratingVotes": 2995,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 89
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 86
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 78
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 43
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 72605,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Soie Malaquais",
+    "brandFa": "Dries Van Noten",
+    "nameFa": "Soie Malaquais",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Marie Salamagne",
+    "topNotesFa": [
+      "توت سیاه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Silk",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Chestnut",
+      "کاکائو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Ambre-Nuit-Esprit-De-Parfum-95986.html",
+    "extractedAt": "2026-11-24T06:58:37.735Z",
+    "name": "Ambre Nuit Esprit De Parfum",
+    "brand": "Dior",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Cardamom",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Spicy Notes"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Musk"
+    ],
+    "description": "Dior Ambre Nuit Esprit De Parfum is a new fragrance for women and men launched in 2024. This scent is an invitation to journey into the dark, where musk seamlessly blends with spices like cinnamon and cardamom. Accompanied by a light amber accord, it leaves an enchanting scent trail that wraps the wearer in its allure.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95986.jpg",
+    "rating": 4.27,
+    "ratingVotes": 624,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 69
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 39
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 18
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 95986,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Ambre Nuit Esprit De",
+    "brandFa": "دیور",
+    "nameFa": "Ambre Nuit Esprit De Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "هل",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "Spicy Notes"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "Dior Ambre Nuit Esprit De Parfum یک عطر جدید برای خانم‌ها و آقایان است که در سال 2024 عرضه شده است. این عطر دعوتی است برای سفر به تاریکی، جایی که مشک به‌راحتی با ادویه‌هایی مانند دارچین و هل ترکیب می‌شود. این عطر که با ترکیبی از رایحه ملایم عنبر همراه است، اثری خوشبو و مسحورکننده از خود به جا می‌گذارد که فرد استفاده‌کننده را در جذابیت خود فرو می‌برد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Liis/Studied-69543.html",
+    "extractedAt": "2026-11-24T06:58:43.074Z",
+    "name": "Studied",
+    "brand": "Liis",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": "Alissa Sullivan and Leslie Hendin",
+    "topNotes": [
+      "Pear",
+      "Ambrette (Musk Mallow)"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Carrot"
+    ],
+    "baseNotes": [
+      "Cashmeran",
+      "Ambroxan"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69543.jpg",
+    "rating": 4.21,
+    "ratingVotes": 1008,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 77
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 69543,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Studied",
+    "brandFa": "Liis",
+    "nameFa": "Studied",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alissa Sullivan and Leslie Hendin",
+    "topNotesFa": [
+      "گلابی",
+      "Ambrette (Musk Mallow)"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "هویج"
+    ],
+    "baseNotesFa": [
+      "کشماران",
+      "آمبروکسان"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Boundless-66528.html",
+    "extractedAt": "2026-11-24T06:58:46.804Z",
+    "name": "Boundless",
+    "brand": "Amouage",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Karine Vinchon Spehner",
+    "topNotes": [
+      "Cardamom",
+      "Blood Orange",
+      "Ginger",
+      "elemi"
+    ],
+    "middleNotes": [
+      "Bourbon Vanilla",
+      "Benzoin"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Myrrh",
+      "Incense",
+      "Cacao",
+      "Guaiac Wood",
+      "Patchouli",
+      "Vetiver",
+      "Papyrus",
+      "Oakmoss"
+    ],
+    "description": "\"<em>Boundless</em> is a burst of joy, a fleeting euphoria, translating the vertical tension that empowers those who want to enclose in their hands the immensity of the world. This ardent and vivacious energy echoes that of sunlight bouncing off the dewy leaves of the jungle, flickering in rays through a flower-studded canopy and grazing rainbow-barked trees before vanishing amongst gnarled and misty-kissed boughs.\" - Amouage",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66528.jpg",
+    "rating": 4.19,
+    "ratingVotes": 2075,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 93
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 59
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 66528,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Boundless",
+    "brandFa": "آموژ",
+    "nameFa": "Boundless",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Karine Vinchon Spehner",
+    "topNotesFa": [
+      "هل",
+      "پرتقال خونی",
+      "زنجبیل",
+      "elemi"
+    ],
+    "middleNotesFa": [
+      "وانیل بوربن",
+      "بنزوئین"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "مور",
+      "عود بخور",
+      "کاکائو",
+      "چوب گوئیک",
+      "پچولی",
+      "وتیور",
+      "پاپیروس",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "«<em>Boundless</em> انفجاری از شادی و نشاط است، یک سرخوشی گذرا که بیانگر کشش عمودی است که به کسانی قدرت می‌دهد که می‌خواهند وسعت جهان را در دستان خود بگیرند. این انرژی پرشور و پرنشاط، یادآور نور خورشیدی است که از برگ‌های شبنم‌زده جنگل منعکس می‌شود، در پرتوهای خود از میان سایه‌بان پوشیده از گل‌ها می‌درخشد و به تنه درختانی با پوست رنگین‌کمانی می‌تابد، و سپس در میان شاخه‌های پیچ‌درپیچ و غبارآلود ناپدید می‌شود.» - آمواج",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Ophidian-Black-Cherry-98556.html",
+    "extractedAt": "2026-11-24T06:58:52.524Z",
+    "name": "Ophidian Black Cherry",
+    "brand": "PARIS CORNER",
+    "family": "Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Raspberry",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Praline",
+      "Damask Rose",
+      "Heliotrope",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Guaiac Wood",
+      "Palo Santo",
+      "Ambrettolide",
+      "Tonka Bean",
+      "Patchouli",
+      "Vetiver",
+      "Pear"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98556.jpg",
+    "rating": 3.95,
+    "ratingVotes": 337,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 34
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 98556,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ophidian Black Cherry",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Ophidian Black Cherry",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "تمشک",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "پرالین",
+      "گل رز دمشقی",
+      "گل هلیوتروپ",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "چوب گوئیک",
+      "Palo Santo",
+      "Ambrettolide",
+      "لوبیا تونکا",
+      "پچولی",
+      "وتیور",
+      "گلابی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lush/Super-Milk-88991.html",
+    "extractedAt": "2026-11-24T06:58:57.498Z",
+    "name": "Super Milk",
+    "brand": "Lush",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. <b>Super Milk</b> was launched in 2023. The fragrance features Litsea Cubeba, Vanilla and Tonka Bean",
+    "year": 2023,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88991.jpg",
+    "rating": 3.96,
+    "ratingVotes": 545,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 65
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 24
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 23
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 16
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 88991,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Super Milk",
+    "brandFa": "لاش",
+    "nameFa": "Super Milk",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. <b>Super Milk</b> was launched in 2023. The fragrance features Litsea Cubeba, Vanilla and Tonka Bean",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
