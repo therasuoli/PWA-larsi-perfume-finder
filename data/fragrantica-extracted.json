@@ -68228,5 +68228,1421 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Angela-Ciampagna/Rosarium-30182.html",
+    "extractedAt": "2026-11-25T08:55:21.022Z",
+    "name": "Rosarium",
+    "brand": "Angela Ciampagna",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Angela Ciampagna",
+    "topNotes": [
+      "Honey",
+      "Carrot Seeds"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Woody Notes",
+      "Juniper Berries",
+      "Celery Seeds"
+    ],
+    "baseNotes": [
+      "Incense",
+      "Vanilla",
+      "Cedar",
+      "Musk",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30182.jpg",
+    "rating": 4.13,
+    "ratingVotes": 359,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 98
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 66
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 58
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 54
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 42
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 30182,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rosarium",
+    "brandFa": "Angela Ciampagna",
+    "nameFa": "Rosarium",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Angela Ciampagna",
+    "topNotesFa": [
+      "عسل",
+      "Carrot Seeds"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "Woody Notes",
+      "زغالک عرعر",
+      "Celery Seeds"
+    ],
+    "baseNotesFa": [
+      "عود بخور",
+      "وانیل",
+      "سرو",
+      "موش",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/White-Rice-89243.html",
+    "extractedAt": "2026-11-25T08:55:24.841Z",
+    "name": "White Rice",
+    "brand": "d'Annam",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Anh Ngo and IFF",
+    "topNotes": [
+      "Rice",
+      "Pandanus"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Tonka Bean",
+      "Cedarwood"
+    ],
+    "description": "A tribute to Vietnam's cultural symbol of livelihood - the white jasmine rice. Found at nearly every Vietnamese meal, the humble bowl of rice has nurtured generations. This scent presents a subtly sweet aroma, harmonizing gentle softness with the rice grain's nuttiness. As you savor it, you embrace the heart of Vietnamese culture, where humble beginnings flourish into enduring strength.</p> <p>Gender: Unisex<br /> Top Notes: Rice, Pandan<br /> Heart Notes: Orris, Jasmine<br /> Base Notes: White Musk, Cedarwood, Tonka Bean",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89243.jpg",
+    "rating": 4.03,
+    "ratingVotes": 2075,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 96
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 77
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 65
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 43
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 89243,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White Rice",
+    "brandFa": "d'Annam",
+    "nameFa": "White Rice",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Anh Ngo and IFF",
+    "topNotesFa": [
+      "Rice",
+      "Pandanus"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "لوبیا تونکا",
+      "چوب سرو"
+    ],
+    "descriptionFa": "ادای احترام به نماد فرهنگی معیشت ویتنام - برنج یاس سفید. یک کاسه برنج ساده که تقریباً در هر وعده غذایی ویتنامی یافت می‌شود، نسل‌ها را تغذیه کرده است. این عطر رایحه‌ای ظریف و شیرین دارد که نرمی ملایم را با طعم آجیلی دانه‌های برنج هماهنگ می‌کند. همانطور که از آن لذت می‌برید، قلب فرهنگ ویتنام را در آغوش می‌گیرید، جایی که آغازهای فروتنانه به قدرت پایدار تبدیل می‌شوند.</p> <p>جنسیت: یونیسکس<br /> نت‌های اولیه: برنج، پان‌<br />دان هه",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jovoy-Paris/Psychedelique-13462.html",
+    "extractedAt": "2026-11-25T08:55:31.255Z",
+    "name": "Psychedelique",
+    "brand": "Jovoy Paris",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2011,
+    "perfumer": "Jacques Flori",
+    "topNotes": [
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Amber",
+      "French labdanum",
+      "Geranium",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanille",
+      "Musk"
+    ],
+    "description": "“Psychedelic: my great patchouli fragrance, dark and smoky, ambered, generous and opulent… Even the rain and mud of Woodstock won't wash it away.”</p> <p>Head notes: fresh hesperidium<br /> Heart notes: floral rose, geranium, ambered, woody (patchouli, cistus, gum cistus)<br /> Base notes: vanilla, musk</p> <p>Perfumer – Jacques Flori (Robertet)",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13462.jpg",
+    "rating": 4.17,
+    "ratingVotes": 2730,
+    "accords": [
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 97
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 13462,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Psychedelique",
+    "brandFa": "Jovoy Paris",
+    "nameFa": "Psychedelique",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jacques Flori",
+    "topNotesFa": [
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "کهربا",
+      "لابدانوم فرانسوی",
+      "گل جعفری",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Vanille",
+      "موش"
+    ],
+    "descriptionFa": "«Psychedelic: عطر فوق‌العاده نعناع هندی من، تیره و دودی، کهربایی، غنی و باشکوه… حتی باران و گل‌ولای وودستاک هم نمی‌تواند آن را بشوید.»</p> <p>نت‌های اولیه: مرکبات تازه<br /> نت‌های میانی: گل رز، شمعدانی، کهربایی، چوبی (نعناع هندی، لادن، صمغ لادن)<br /> نت‌های پایه: وانیل، مشک</p> <p>عطار – ژاک فلوری (روبرت)",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Jubilation-40-Man-87958.html",
+    "extractedAt": "2026-11-25T08:55:37.230Z",
+    "name": "Jubilation 40 Man",
+    "brand": "Amouage",
+    "family": "Woody Chypre",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": "Bertrand Duchaufour",
+    "topNotes": [
+      "Blackberry",
+      "Black Currant",
+      "Labdanum",
+      "Rosemary",
+      "Orange",
+      "Davana"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Bay Leaf",
+      "Cinnamon",
+      "Cloves",
+      "Broom",
+      "Celery Seeds",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Opoponax",
+      "Patchouli",
+      "Myrrh",
+      "Guaiac Wood",
+      "Moss",
+      "Cedar",
+      "Musk",
+      "Ambergris",
+      "Cistus Incanus"
+    ],
+    "description": "\"For this even more celebratory incarnation of Jubilation XXV Man, Amouage called on the talents of its original creator, Bertrand Duchaufour. While keeping the essential structure of his composition intact, the perfumer emphasised and highlighted key aspects to construct an even more striking blend of styles. Jubilation 40 Man reaches new heights of expressiveness, offering an extraordinarily compelling presentation of masculinity.</p> <p>Retaining the instantly recognisable blackberry opening, the scent now also reveals dry, tart hints of Blackcurrant This makes way for the perfume’s majestic heart: Genet unfurls within a burst of honeyed Tobacco notes while regal Frankincense cuts through the narcotic warmth of Balsams and Resins. Eventually, the scent settles on an enveloping, heart-stopping dry-down of Patchouli, Cistus, and Opoponax. Flaming with magnificence and a lust for adventure, Jubilation 40 Man captures the absolute essence of masculine sophistication.\"</p> <p><strong>Top notes: </strong>Blackberry, Blackcurrant, Rosemary, Labdanum, Orange, Davana<br /> <strong>Heart notes: </strong>Scotch Broom, Frankincense, Cinnamon, Clove, Bay St Thomas, Rose, Celery Seeds<br /> <strong>Base notes: </strong>Patchouli, Cistus, Opoponax, Myrrh, Cedarwood, Guaiac Wood, Musks, Moss, Orientalgris, Oud</p> <p>Available in a 100 ml bottle, extrait de parfum containing 40% pure perfume oils.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87958.jpg",
+    "rating": 4.44,
+    "ratingVotes": 1670,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 87958,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jubilation 40 Man",
+    "brandFa": "آموژ",
+    "nameFa": "Jubilation 40 Man",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Bertrand Duchaufour",
+    "topNotesFa": [
+      "توت سیاه",
+      "توت سیاه",
+      "لابدانوم",
+      "رزماری",
+      "پرتقال",
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "برگ غار",
+      "دارچین",
+      "Cloves",
+      "گل ریسک",
+      "Celery Seeds",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "اوپوپناکس",
+      "پچولی",
+      "مور",
+      "چوب گوئیک",
+      "خزه",
+      "سرو",
+      "موش",
+      "کهربا خاکستری",
+      "Cistus Incanus"
+    ],
+    "descriptionFa": "«برای این نسخه حتی جشن‌وارتر از Jubilation XXV Man، Amouage از استعدادهای خالق اصلی آن، برتراند دوچافور، بهره گرفت. این عطر‌ساز در حالی که ساختار اصلی ترکیب خود را دست‌نخورده نگه داشت، جنبه‌های کلیدی را برجسته و تأکید کرد تا ترکیبی از سبک‌ها را ایجاد کند که حتی چشمگیرتر باشد. Jubilation 40 Man به سطوح جدیدی از بیانگری می‌رسد و جلوه‌ای فوق‌العاده جذاب از مردانگی را ارائه می‌دهد.</p> <p>حفظ شود",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Matcha-Mochi-102713.html",
+    "extractedAt": "2026-11-25T08:55:43.855Z",
+    "name": "Matcha Mochi",
+    "brand": "Zara",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Pear"
+    ],
+    "middleNotes": [
+      "White Chocolate"
+    ],
+    "baseNotes": [
+      "Matcha Tea"
+    ],
+    "description": "Fruity amber eau de toilette. A fragrance inspired by the world of sweets, ZARA MATCHA MOCHI, plays with scent notes such as pear, white chocolate, and smooth matcha to create a unique and charming essence.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102713.jpg",
+    "rating": 3.51,
+    "ratingVotes": 80,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 37
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 21
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 102713,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Matcha Mochi",
+    "brandFa": "Zara",
+    "nameFa": "Matcha Mochi",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "White Chocolate"
+    ],
+    "baseNotesFa": [
+      "Matcha Tea"
+    ],
+    "descriptionFa": "ادو تویلت میوه‌ای کهربایی. ZARA MATCHA MOCHI، عطری الهام‌گرفته از دنیای شیرینی‌ها، با رایحه‌هایی مانند گلابی، شکلات سفید و ماچای ملایم بازی می‌کند تا عطری منحصر‌به‌فرد و دل‌فریب ایجاد کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tauer-Perfumes/03-Lonestar-Memories-4575.html",
+    "extractedAt": "2026-11-25T08:55:49.544Z",
+    "name": "03 Lonestar Memories",
+    "brand": "Tauer Perfumes",
+    "family": "Woody Chypre",
+    "gender": "women and men",
+    "year": 2006,
+    "perfumer": "Andy Tauer",
+    "topNotes": [
+      "Clary Sage",
+      "Geranium",
+      "Carrot Seeds"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Labdanum",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Vetiver",
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "description": "Lonestar Memories was inspired by the American West.</p> <p>\"The scent of a lonesome rider, wearing old jeans and leather jacket, after a long day on the horse in the dry woods, preparing his coffee on the open, smoky fire.\"</p> <p>The notes: green geranium, spicy carrot seed blended with clary sage. The heart features smoky leather, cistus and a hint of jasmine. The base notes includes finest woods and balms: myrrh, sandalwood, vetiver and tonka beans.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4575.jpg",
+    "rating": 4.15,
+    "ratingVotes": 1587,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 90
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 76
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 49
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 42
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 4575,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "03 Lonestar Memories",
+    "brandFa": "Tauer Perfumes",
+    "nameFa": "03 Lonestar Memories",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Andy Tauer",
+    "topNotesFa": [
+      "مریم‌گلی",
+      "گل جعفری",
+      "Carrot Seeds"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "لابدانوم",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "وتیور",
+      "چوب صندل",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Lonestar Memories از غرب آمریکا الهام گرفته شده است.</p> <p>«رایحه یک سوارکار تنها، که شلوار جین کهنه و ژاکت چرمی به تن دارد، پس از یک روز طولانی سواری بر اسب در جنگل‌های خشک، در حال دم کردن قهوه‌اش بر روی آتش روباز و دودآلود.»</p> <p>نت‌ها: شمعدانی سبز، دانه هویج تند مخلوط شده با مریم‌گلی. نت میانی شامل چرم دودی، لادن و کمی رایحه یاس است. نت‌های پایه شامل بهترین چوب‌ها و عصاره‌ها هستند: مر، چوب صندل، خس‌خس و دانه تونکا",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/Strawberry-Mochi-100499.html",
+    "extractedAt": "2026-11-25T08:55:55.496Z",
+    "name": "Strawberry Mochi",
+    "brand": "d'Annam",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men. <b>Strawberry Mochi</b> was launched in 2024. The nose behind this fragrance is Anh Ngo. The fragrance features Rice, Red Beans, Brown sugar, Strawberry and Vanilla",
+    "year": 2024,
+    "perfumer": "Anh Ngo",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.100499.jpg",
+    "rating": 3.69,
+    "ratingVotes": 957,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 66
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 44
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 34
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 28
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 11
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 8
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 100499,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Strawberry Mochi",
+    "brandFa": "d'Annam",
+    "nameFa": "Strawberry Mochi",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women and men. <b>Strawberry Mochi</b> was launched in 2024. The nose behind this fragrance is Anh Ngo. The fragrance features Rice, Red Beans, Brown sugar, Strawberry and Vanilla",
+    "perfumerFa": "Anh Ngo",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Terracotta-Le-Parfum-24785.html",
+    "extractedAt": "2026-11-25T08:56:00.591Z",
+    "name": "Terracotta Le Parfum",
+    "brand": "Guerlain",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2014,
+    "perfumer": "Thierry Wasser",
+    "topNotes": [
+      "Tiare Flower",
+      "Coconut",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Ylang-Ylang",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "To celebrate 30 years of the Terracotta bronze cosmetics line, Guerlain launches limited edition Terracotta Le Parfum with other Terracotta products. This is the third fragrance of this collection, following Voile d’Été (1999) and Eau Sous le Vent (2009). Perfumer Thierry Wasser describes the new scent as \"the allure of the sun in a bottle.\" </p> <p></p> <p>The composition comprises of solar floral tones. It opens with accords of bergamot, coconut and tiare flower. Its heart includes white florals such as jasmine, ylang-ylang and orange blossom, laid on the sultry base of musk and vanilla. </p> <p></p> <p>The fragrance is available as 50 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.24785.jpg",
+    "rating": 4.06,
+    "ratingVotes": 6107,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 33
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 31
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 29
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 14
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 14
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 24785,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Terracotta Le",
+    "brandFa": "گرلن",
+    "nameFa": "Terracotta Le Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Thierry Wasser",
+    "topNotesFa": [
+      "Tiare Flower",
+      "نارگیل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "ایلنگ‌ایلنگ",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "برای جشن گرفتن 30 سالگی خط تولید لوازم آرایشی برنزه Terracotta، Guerlain عطر Terracotta Le Parfum را به همراه سایر محصولات Terracotta در یک نسخه محدود عرضه می‌کند. این سومین عطر این مجموعه است که پس از Voile d’Été (1999) و Eau Sous le Vent (2009) عرضه می‌شود. تیری واسر، عطرساز، عطر جدید را «جاذبه خورشید در یک شیشه» توصیف می‌کند. </p> <p></p> <p>این ترکیب شامل رایحه‌های گل آفتابی است. این عطر با رایحه‌های برگاموت و نارگیل آغاز می‌شود.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Intense-Oud-32743.html",
+    "extractedAt": "2026-11-25T08:56:05.569Z",
+    "name": "Intense Oud",
+    "brand": "Gucci",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": "Aurélien Guichard",
+    "topNotes": [
+      "Frankincense",
+      "Raspberry",
+      "Saffron",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Musk",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Agarwood",
+      "Leather",
+      "Patchouli",
+      "Ambergris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32743.jpg",
+    "rating": 4.45,
+    "ratingVotes": 3136,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 88
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 48
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 32743,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Oud",
+    "brandFa": "گوشی",
+    "nameFa": "Intense Oud",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Aurélien Guichard",
+    "topNotesFa": [
+      "کندر",
+      "تمشک",
+      "زعفران",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "موش",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "چرم",
+      "پچولی",
+      "کهربا خاکستری"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragrance-World/B-Rouge-98908.html",
+    "extractedAt": "2026-11-25T08:56:10.579Z",
+    "name": "B Rouge",
+    "brand": "Fragrance World",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Ambergris",
+      "Amberwood"
+    ],
+    "baseNotes": [
+      "Fir Resin",
+      "Cedar"
+    ],
+    "description": "A sultry blend of saffron and jasmine unfolds into a warm and exotic embrace of Amberwood and ambergris, enriched with the earthy depth of fir resin and cedar, evoking the essence of a French-Oriental journey.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98908.jpg",
+    "rating": 3.82,
+    "ratingVotes": 39,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 94
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 32
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 29
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 98908,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "B Rouge",
+    "brandFa": "Fragrance World",
+    "nameFa": "B Rouge",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "کهربا خاکستری",
+      "چوب کهربایی"
+    ],
+    "baseNotesFa": [
+      "Fir Resin",
+      "سرو"
+    ],
+    "descriptionFa": "ترکیبی دلپذیر از زعفران و یاس که به آغوشی گرم و عجیب از چوب عنبر و عنبر سائل تبدیل می‌شود، با عمق خاکی صمغ صنوبر و سرو غنی شده است و یادآور جوهره سفری فرانسوی-شرقی است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/DedCool/Xtra-Milk-87591.html",
+    "extractedAt": "2026-11-25T08:56:17.010Z",
+    "name": "Xtra Milk",
+    "brand": "DedCool",
+    "family": null,
+    "gender": "women and men. <b>Xtra Milk</b> was launched in 2022. The fragrance features White Musk, Amber and Bergamot",
+    "year": 2022,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87591.jpg",
+    "rating": 4,
+    "ratingVotes": 1815,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 47
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 24
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 21
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 11
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 87591,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xtra Milk",
+    "brandFa": "DedCool",
+    "nameFa": "Xtra Milk",
+    "genderFa": "women and men. <b>Xtra Milk</b> was launched in 2022. The fragrance features White Musk, Amber and Bergamot",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aaron-Terence-Hughes/Onyx-Extreme-131733.html",
+    "extractedAt": "2026-11-25T08:56:21.422Z",
+    "name": "Onyx Extreme",
+    "brand": "Aaron Terence Hughes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. Top note is Rose; middle notes are Chocolate, Vanilla Absolute, Raspberry, Ylang Ylang and Plum; base notes are Thailand Oud, Musk, Sandalwood, Patchouli, Oakmoss, Amber and Ambergris",
+    "topNotes": [
+      "Rose"
+    ],
+    "middleNotes": [
+      "Chocolate",
+      "Vanilla Absolute",
+      "Raspberry",
+      "Ylang Ylang",
+      "Plum"
+    ],
+    "baseNotes": [
+      "Thailand Oud",
+      "Musk",
+      "Sandalwood",
+      "Patchouli",
+      "Oakmoss",
+      "Amber",
+      "Ambergris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.131733.jpg",
+    "rating": 4.65,
+    "ratingVotes": 20,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 71
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 51
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 131733,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Onyx Extreme",
+    "brandFa": "Aaron Terence Hughes",
+    "nameFa": "Onyx Extreme",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. Top note is Rose; middle notes are Chocolate, Vanilla Absolute, Raspberry, Ylang Ylang and Plum; base notes are Thailand Oud, Musk, Sandalwood, Patchouli, Oakmoss, Amber and Ambergris",
+    "topNotesFa": [
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "شکلات",
+      "Vanilla Absolute",
+      "تمشک",
+      "Ylang Ylang",
+      "آلو"
+    ],
+    "baseNotesFa": [
+      "Thailand Oud",
+      "موش",
+      "چوب صندل",
+      "پچولی",
+      "خزه بلوط",
+      "کهربا",
+      "کهربا خاکستری"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Pitbull/Pitbull-Woman-22217.html",
+    "extractedAt": "2026-11-25T08:56:25.504Z",
+    "name": "Pitbull Woman",
+    "brand": "Pitbull",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2013,
+    "perfumer": null,
+    "topNotes": [
+      "Red Apple",
+      "Raspberry",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Freesia",
+      "White Peach Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Woody Notes",
+      "Amber"
+    ],
+    "description": "Armando Christian Pérez aka Pitbull is an American / Cuban origin artist of hip-hop, house and pop music. In order to \"show his softer side,\" Pitbull launches a perfume duo Pitbull Woman and Pitbull Man in fall 2013. The fragrances are made in collaboration with Parlux. </p> <p></p> <p>The feminine fragrance (announced as sexy, energetic and lively) opens with juicy raspberries, red apple and sunny mandarin. Its heart includes notes of nectarine blossom, freesia and jasmine, placed on the base of creamy woods, amber, vanilla and musk.</p> <p> Cylindrical bottles are designed to project a \"simple, sexy and powerful\" vibe. The fragrances are available as 30, 50 and 100 ml Eaux de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.22217.jpg",
+    "rating": 3.8,
+    "ratingVotes": 138,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 22217,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pitbull Woman",
+    "brandFa": "Pitbull",
+    "nameFa": "Pitbull Woman",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "سیب قرمز",
+      "تمشک",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "فریزیا",
+      "White Peach Blossom",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "Woody Notes",
+      "کهربا"
+    ],
+    "descriptionFa": "آرماندو کریستین پرز معروف به پیت‌بول، هنرمندی آمریکایی / کوبایی تبار است که در سبک‌های هیپ‌هاپ، هاوس و پاپ فعالیت می‌کند. Pitbull برای «نشان دادن جنبه لطیف‌تر شخصیت خود»، در پاییز 2013 دو عطر Pitbull Woman و Pitbull Man را عرضه کرد. این عطرها با همکاری Parlux ساخته شده‌اند. </p> <p></p> <p>این عطر زنانه (که به عنوان عطری سکسی، پرانرژی و پرنشاط معرفی شده است) با رایحه تمشک آبدار، سیب قرمز و نارنگی آفتابی آغاز می‌شود. نت‌های میانی آن شامل رایحه‌های شلیل است",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
