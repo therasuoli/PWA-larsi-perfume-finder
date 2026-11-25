@@ -73806,5 +73806,3539 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Majestic-Mist/L-L-London-Lush-148735.html",
+    "extractedAt": "2026-11-25T14:54:34.059Z",
+    "name": "L.L (London Lush)",
+    "brand": "Majestic Mist",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men. This is a new fragrance. <b>L.L (London Lush)</b> was launched in 2026. L.L (London Lush) was created by Margaux Le Paih Guérin and Camille Chemardin. Top notes are Mango, Green Mandarin and Pear; middle notes are Coconut, Exotic Fruits, Monoi Oil and Solar Notes; base notes are Sandalwood, Musk, Vanilla and Caramel",
+    "year": 2026,
+    "perfumer": "Margaux Le Paih Guérin and Camille Chemardin",
+    "topNotes": [
+      "Mango",
+      "Green Mandarin",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Coconut",
+      "Exotic Fruits",
+      "Monoi Oil",
+      "Solar Notes"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk",
+      "Vanilla",
+      "Caramel"
+    ],
+    "description": "L.L (London Lush) by Majestic Mist is an extrait de parfum launched in 2026 and presented as a warm interpretation of London luxury. Mango, green mandarin and pear lead to coconut, exotic fruits, monoi oil and solar notes, followed by a base of sandalwood, musk, vanilla and caramel.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148735.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 98
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 75
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 148735,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L.L (London Lush)",
+    "brandFa": "Majestic Mist",
+    "nameFa": "L.L (London Lush)",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women and men. This is a new fragrance. <b>L.L (London Lush)</b> was launched in 2026. L.L (London Lush) was created by Margaux Le Paih Guérin and Camille Chemardin. Top notes are Mango, Green Mandarin and Pear; middle notes are Coconut, Exotic Fruits, Monoi Oil and Solar Notes; base notes are Sandalwood, Musk, Vanilla and Caramel",
+    "perfumerFa": "Margaux Le Paih Guérin and Camille Chemardin",
+    "topNotesFa": [
+      "مانگو",
+      "Green Mandarin",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "نارگیل",
+      "Exotic Fruits",
+      "Monoi Oil",
+      "Solar Notes"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش",
+      "وانیل",
+      "کارامل"
+    ],
+    "descriptionFa": "L.L (London Lush) از برند Majestic Mist یک عصاره عطر است که در سال 2026 عرضه شده و به عنوان تفسیری گرم از تجمل لندن معرفی می‌شود. انبه، نارنگی سبز و گلابی به رایحه‌های نارگیل، میوه‌های اگزوتیک، روغن مونوئی و نت‌های آفتابی منتهی می‌شوند که به دنبال آن رایحه‌های پایه چوب صندل، مشک، وانیل و کارامل قرار دارند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Majestic-Mist/Verdant-Extrait-de-Parfum-148734.html",
+    "extractedAt": "2026-11-25T14:54:40.638Z",
+    "name": "Verdant Extrait de Parfum",
+    "brand": "Majestic Mist",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Margaux Le Paih Guérin and Camille Chemardin",
+    "topNotes": [
+      "Rhubarb",
+      "Grapefruit",
+      "Bergamot",
+      "Mandora"
+    ],
+    "middleNotes": [
+      "Aromatic Notes",
+      "White Flowers",
+      "Peru Balsam"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Virginia Cedar",
+      "Ambroxan",
+      "Sandalwood",
+      "Benzoin",
+      "Caramel"
+    ],
+    "description": "Verdant by Majestic Mist is an extrait de parfum launched in 2026 and inspired by the Kyoto Garden in London’s Holland Park. Crafted with pure essences, it combines botanical freshness with a warm, deep base, opening with rhubarb, grapefruit, bergamot and mandora, followed by aromatic notes, white flowers and Peru balsam over patchouli, Virginia cedar, ambroxan, sandalwood, benzoin and caramel.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148734.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 97
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 90
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 45
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148734,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait de Parfum",
+    "baseName": "Verdant",
+    "brandFa": "Majestic Mist",
+    "nameFa": "Verdant Extrait de Parfum",
+    "concentrationFa": "اکستره پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Margaux Le Paih Guérin and Camille Chemardin",
+    "topNotesFa": [
+      "Rhubarb",
+      "گریپ‌فروت",
+      "برگاموت",
+      "Mandora"
+    ],
+    "middleNotesFa": [
+      "Aromatic Notes",
+      "گل‌های سفید",
+      "بلسام پرو"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "Virginia Cedar",
+      "آمبروکسان",
+      "چوب صندل",
+      "بنزوئین",
+      "کارامل"
+    ],
+    "descriptionFa": "Verdant از برند Majestic Mist یک عصاره عطر است که در سال 2026 عرضه شد و از باغ کیوتو در هلند پارک لندن الهام گرفته شده است. این عطر که با عصاره‌های خالص ساخته شده است، طراوت گیاهی را با رایحه‌ای گرم و عمیق ترکیب می‌کند. رایحه اولیه آن با ریواس، گریپ‌فروت، ترنج و ماندورا آغاز می‌شود و سپس نت‌های معطر، گلهای سفید و مومیایی پرو بر روی رایحه‌های نعناع هندی، سرو ویرجینیا، آمبروکسان، چوب صندل، بنزوئین و کارامل قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ALREHAB-PERFUMES/The-One-Only-148733.html",
+    "extractedAt": "2026-11-25T14:54:48.627Z",
+    "name": "The One & Only",
+    "brand": "ALREHAB PERFUMES",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Orange",
+      "Grapefruit",
+      "Basil",
+      "Citron"
+    ],
+    "middleNotes": [
+      "Olibanum",
+      "Cypress"
+    ],
+    "baseNotes": [
+      "Australian Sandalwood",
+      "AMBROX® SUPER",
+      "Guaiac Wood",
+      "Copaiba balm"
+    ],
+    "description": "The One & Only by Al-Rehab is a woody aromatic fragrance for men, launched in 2026. It opens with pink pepper, orange, grapefruit, citron and basil, followed by lavandin grosso, olibanum and cypress over a base of Australian sandalwood, Ambrox Super, guaiac wood and copaiba balm.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148733.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 28
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 28
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 148733,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The One & Only",
+    "brandFa": "ALREHAB PERFUMES",
+    "nameFa": "The One & Only",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "پرتقال",
+      "گریپ‌فروت",
+      "ریحان",
+      "Citron"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "سرو کوهی"
+    ],
+    "baseNotesFa": [
+      "Australian Sandalwood",
+      "AMBROX® SUPER",
+      "چوب گوئیک",
+      "Copaiba balm"
+    ],
+    "descriptionFa": "The One & Only از برند Al-Rehab یک عطر چوبی معطر برای آقایان است که در سال ۲۰۲۶ عرضه شد. این عطر با فلفل صورتی، پرتقال، گریپ‌فروت، ترنج و ریحان آغاز می‌شود و سپس اسطوخودوس گروسو، کندر و سرو بر پایه چوب صندل استرالیایی، آمبروکس سوپر، چوب گوایاک و روغن کوپایبا ظاهر می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ALREHAB-PERFUMES/Almaqam-Alrafee-148732.html",
+    "extractedAt": "2026-11-25T14:54:55.082Z",
+    "name": "Almaqam Alrafee",
+    "brand": "ALREHAB PERFUMES",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "Lemon",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Osmanthus",
+      "Cumin",
+      "Incense",
+      "Cedar Leaves"
+    ],
+    "baseNotes": [
+      "Styrax",
+      "Leather",
+      "Incense"
+    ],
+    "description": "Almaqam Alrafee by Al-Rehab is a leather fragrance for men. It opens with cardamom, lemon and nutmeg, followed by osmanthus, cumin, incense and cedar leaves, over a base of styrax, leather and incense.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148732.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 95
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 58
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 53
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 148732,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Almaqam Alrafee",
+    "brandFa": "ALREHAB PERFUMES",
+    "nameFa": "Almaqam Alrafee",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "هل",
+      "لیمو",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "اسمانتوس",
+      "زیره",
+      "عود بخور",
+      "Cedar Leaves"
+    ],
+    "baseNotesFa": [
+      "استیراکس",
+      "چرم",
+      "عود بخور"
+    ],
+    "descriptionFa": "Almaqam Alrafee از برند Al-Rehab یک عطر چرمی برای آقایان است. این عطر با رایحه هل، لیمو و جوز هندی آغاز می‌شود، سپس رایحه‌های اوسمانتوس، زیره، بخور و برگ سرو به مشام می‌رسند و در نهایت رایحه‌های پایه استیراکس، چرم و بخور حس می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir/Time-Travelin-148731.html",
+    "extractedAt": "2026-11-25T14:55:01.760Z",
+    "name": "Time Travelin",
+    "brand": "Memoir",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. Top notes are Almond and Bourbon Whiskey; middle notes are Cinnamon, Oak and Toffee; base notes are Sandalwood and Vanilla",
+    "topNotes": [
+      "Almond",
+      "Bourbon Whiskey"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Oak",
+      "Toffee"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "Time Travelin by Memoir is an eau de parfum inspired by Chicago's soulful music scene and musical heritage. It opens with bourbon whiskey and almond, followed by a heart of cinnamon, toffee and oak, over a base of vanilla and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148731.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 86
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 29
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148731,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Time Travelin",
+    "brandFa": "Memoir",
+    "nameFa": "Time Travelin",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. Top notes are Almond and Bourbon Whiskey; middle notes are Cinnamon, Oak and Toffee; base notes are Sandalwood and Vanilla",
+    "topNotesFa": [
+      "بادام",
+      "Bourbon Whiskey"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "Oak",
+      "تافی"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل"
+    ],
+    "descriptionFa": "Time Travelin از برند Memoir یک ادو پرفیوم است که از صحنه موسیقی احساسی و میراث موسیقایی شیکاگو الهام گرفته شده است. این عطر با رایحه ویسکی بوربن و بادام آغاز می‌شود، سپس رایحه اصلی آن شامل دارچین، تافی و بلوط است و در نهایت رایحه پایه آن وانیل و چوب صندل است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir/HAKI-148730.html",
+    "extractedAt": "2026-11-25T14:55:08.673Z",
+    "name": "HAKI",
+    "brand": "Memoir",
+    "family": "Oriental Spicy",
+    "gender": "women and men. Top notes are Cardamom, Plum, Bergamot, Davana, Pink Pepper and Orange Blossom; middle notes are Saffron, Dates, Cumin, Incense, Labdanum and Ginger; base notes are Amber, Haitian Vetiver, Sandalwood and Vanilla",
+    "topNotes": [
+      "Cardamom",
+      "Plum",
+      "Bergamot",
+      "Davana",
+      "Pink Pepper",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Dates",
+      "Cumin",
+      "Incense",
+      "Labdanum",
+      "Ginger"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Haitian Vetiver",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "HAKI by Memoir is a woody, spicy amber eau de parfum. It opens with cardamom, plum, bergamot, davana, pink pepper and orange blossom, followed by a resinous heart of saffron, dates, nuts, cumin, incense, labdanum and ginger, over a base of amber, Haitian vetiver, sandalwood, vanilla and prunes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148730.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 91
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 76
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 76
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 72
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 148730,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "HAKI",
+    "brandFa": "Memoir",
+    "nameFa": "HAKI",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. Top notes are Cardamom, Plum, Bergamot, Davana, Pink Pepper and Orange Blossom; middle notes are Saffron, Dates, Cumin, Incense, Labdanum and Ginger; base notes are Amber, Haitian Vetiver, Sandalwood and Vanilla",
+    "topNotesFa": [
+      "هل",
+      "آلو",
+      "برگاموت",
+      "Davana",
+      "فلفل صورتی",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "Dates",
+      "زیره",
+      "عود بخور",
+      "لابدانوم",
+      "زنجبیل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Haitian Vetiver",
+      "چوب صندل",
+      "وانیل"
+    ],
+    "descriptionFa": "HAKI از برند Memoir یک ادو پرفیوم کهربایی چوبی و تند است. این عطر با رایحه‌های هل، آلو، ترنج، داوانا، فلفل صورتی و شکوفه پرتقال آغاز می‌شود، سپس رایحه میانی صمغی زعفران، خرما، آجیل، زیره، بخور، لادن و زنجبیل را حس می‌کنید و در نهایت رایحه پایه کهربا، خس‌خس هائیتی، چوب صندل، وانیل و آلو خشک را استشمام خواهید کرد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir/Sanktuary-148729.html",
+    "extractedAt": "2026-11-25T14:55:15.062Z",
+    "name": "Sanktuary",
+    "brand": "Memoir",
+    "family": "Chypre Fruity",
+    "gender": "women and men. Top notes are Bergamot, Black Currant, Pineapple, Apple and Juniper Berries; middle notes are Jasmine, Patchouli, Cedarwood, Oud, Olibanum and Thyme; base notes are Musk, Amber and Oakmoss",
+    "topNotes": [
+      "Bergamot",
+      "Black Currant",
+      "Pineapple",
+      "Apple",
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Patchouli",
+      "Cedarwood",
+      "Oud",
+      "Olibanum",
+      "Thyme"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber",
+      "Oakmoss"
+    ],
+    "description": "Sanktuary by Memoir is a fragrance centered on steady companionship and the familiarity of enduring love. It opens with bergamot, black currant, pineapple, apple and juniper berries, followed by jasmine, patchouli, cedarwood, oud, olibanum and thyme, before settling into musk, amber and oakmoss.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148729.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 92
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 90
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 88
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 37
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 33
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 148729,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sanktuary",
+    "brandFa": "Memoir",
+    "nameFa": "Sanktuary",
+    "familyFa": "شیپر میوه‌ای",
+    "genderFa": "women and men. Top notes are Bergamot, Black Currant, Pineapple, Apple and Juniper Berries; middle notes are Jasmine, Patchouli, Cedarwood, Oud, Olibanum and Thyme; base notes are Musk, Amber and Oakmoss",
+    "topNotesFa": [
+      "برگاموت",
+      "توت سیاه",
+      "آناناس",
+      "سیب",
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "پچولی",
+      "چوب سرو",
+      "عود",
+      "کندر",
+      "پونه‌سان"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "Sanktuary از برند Memoir عطری است که بر محوریت همراهی پایدار و صمیمیت عشق جاودانه ساخته شده است. این عطر با رایحه ترنج، انگور فرنگی سیاه، آناناس، سیب و دانه‌های عرعر آغاز می‌شود، سپس رایحه یاس، نعناع هندی، چوب سدر، عود، کندر و آویشن به مشام می‌رسد و در نهایت با رایحه مشک، عنبر و خزه بلوط تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir/Gypsy-Eyes-148728.html",
+    "extractedAt": "2026-11-25T14:55:22.028Z",
+    "name": "Gypsy Eyes",
+    "brand": "Memoir",
+    "family": "Oriental Woody",
+    "gender": "women and men. Top notes are Whiskey, Bergamot and Musk; middle notes are Oud, Rose and Caramel; base notes are Tobacco, Vanilla and Sandalwood",
+    "topNotes": [
+      "Whiskey",
+      "Bergamot",
+      "Musk"
+    ],
+    "middleNotes": [
+      "Oud",
+      "Rose",
+      "Caramel"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Gypsy Eyes by Memoir is an eau de parfum conceived as an olfactory tribute to the romantic journey portrayed in the 1997 film Love Jones. Whiskey, bergamot and musk open the composition, followed by oud, rose and caramel, on a base of tobacco, vanilla and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148728.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 82
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 62
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 59
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 148728,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gypsy Eyes",
+    "brandFa": "Memoir",
+    "nameFa": "Gypsy Eyes",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. Top notes are Whiskey, Bergamot and Musk; middle notes are Oud, Rose and Caramel; base notes are Tobacco, Vanilla and Sandalwood",
+    "topNotesFa": [
+      "ویسکی",
+      "برگاموت",
+      "موش"
+    ],
+    "middleNotesFa": [
+      "عود",
+      "گل رز",
+      "کارامل"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "وانیل",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Gypsy Eyes از برند Memoir یک ادو پرفیوم است که به عنوان ادای احترام بویایی به سفر عاشقانه‌ای که در فیلم Love Jones محصول سال 1997 به تصویر کشیده شده، طراحی شده است. ویسکی، ترنج و مشک رایحه را آغاز می‌کنند، سپس عود، گل رز و کارامل، بر پایه‌ای از تنباکو، وانیل و چوب صندل قرار می‌گیرند.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir/Bespoke-148727.html",
+    "extractedAt": "2026-11-25T14:55:28.662Z",
+    "name": "Bespoke",
+    "brand": "Memoir",
+    "family": "Floral Woody Musk",
+    "gender": "women and men. Top note is Ambrette; middle notes are Jasmine, Violet and Sandalwood; base notes are Cedar, Musk and Amber",
+    "topNotes": [
+      "Ambrette"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Violet",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Bespoke by Memoir is an eau de parfum inspired by dance, jazz and the energy of Chicago. Ambrette and white sapote open the composition, followed by jasmine, violet and sandalwood over a base of cedar, musk and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148727.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 95
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 84
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 47
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 47
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 47
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 148727,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bespoke",
+    "brandFa": "Memoir",
+    "nameFa": "Bespoke",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women and men. Top note is Ambrette; middle notes are Jasmine, Violet and Sandalwood; base notes are Cedar, Musk and Amber",
+    "topNotesFa": [
+      "دانه ابرکفش"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "بنفشه",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "Bespoke by Memoir یک ادو پرفیوم است که از رقص، جاز و انرژی شیکاگو الهام گرفته شده است. آمبرت و ساپوت سفید مقدمه این ترکیب هستند، سپس یاس، بنفشه و چوب صندل بر روی پایه‌ای از سدر، مشک و عنبر قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir-Fragrances/Baptiste-148726.html",
+    "extractedAt": "2026-11-25T14:55:34.098Z",
+    "name": "Baptiste",
+    "brand": "Memoir Fragrances",
+    "family": "Leather",
+    "gender": "women and men. Top notes are Black Tea and Cashmere Wood; middle notes are Suede, Tobacco Leaf, Milk and Sandalwood; base notes are Amber, Leather and Oakmoss",
+    "topNotes": [
+      "Black Tea",
+      "Cashmere Wood"
+    ],
+    "middleNotes": [
+      "Suede",
+      "Tobacco Leaf",
+      "Milk",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Leather",
+      "Oakmoss"
+    ],
+    "description": "Baptiste by Memoir Fragrances is an eau de parfum created with The Brooklyn Circus as a tribute to Jean Baptiste Point du Sable, the Black pioneer associated with the founding of Chicago and with both Chicago and Haiti. Black tea and cashmere wood open the fragrance, followed by a heart of suede, tobacco leaf, milk and sandalwood, over a base of amber, leather and oakmoss.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148726.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 81
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 48
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 48
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 148726,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Baptiste",
+    "brandFa": "Memoir Fragrances",
+    "nameFa": "Baptiste",
+    "familyFa": "چرمی",
+    "genderFa": "women and men. Top notes are Black Tea and Cashmere Wood; middle notes are Suede, Tobacco Leaf, Milk and Sandalwood; base notes are Amber, Leather and Oakmoss",
+    "topNotesFa": [
+      "چای سیاه",
+      "Cashmere Wood"
+    ],
+    "middleNotesFa": [
+      "چرم جیر",
+      "برگ تنباکو",
+      "شیر",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چرم",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "Baptiste از برند Memoir Fragrances یک ادو پرفیوم است که با همکاری The Brooklyn Circus به عنوان ادای احترامی به ژان باپتیست پوینت دو سابل، پیشگام سیاه‌پوست مرتبط با تأسیس شیکاگو و همچنین شیکاگو و هائیتی، ساخته شده است. این عطر با رایحه چای سیاه و چوب کشمیر آغاز می‌شود، سپس رایحه اصلی آن که شامل جیر، برگ تنباکو، شیر و چوب صندل است، بر روی رایحه پایه که شامل عنبر، چرم و خزه بلوط است، قرار می‌گیرد.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memoir/A-Street-in-Bronzeville-148725.html",
+    "extractedAt": "2026-11-25T14:55:40.462Z",
+    "name": "A Street in Bronzeville",
+    "brand": "Memoir",
+    "family": "Woody Chypre",
+    "gender": "women and men. Top notes are Oakmoss and Bergamot; middle notes are Jasmine, Amber and Patchouli; base notes are Oud, Sandalwood and Cedar",
+    "topNotes": [
+      "Oakmoss",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Amber",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "A Street in Bronzeville by Memoir is a woody chypre fragrance inspired by summer nights at Chicago’s Chopin Theatre and the poetry of Gwendolyn Brooks. It opens with oakmoss and bergamot, followed by jasmine, amber and patchouli, over a base of oud, sandalwood and cedar.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148725.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 37
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 33
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 33
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 148725,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "A Street in Bronzeville",
+    "brandFa": "Memoir",
+    "nameFa": "A Street in Bronzeville",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "women and men. Top notes are Oakmoss and Bergamot; middle notes are Jasmine, Amber and Patchouli; base notes are Oud, Sandalwood and Cedar",
+    "topNotesFa": [
+      "خزه بلوط",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "کهربا",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "چوب صندل",
+      "سرو"
+    ],
+    "descriptionFa": "A Street in Bronzeville از برند Memoir یک عطر چوبی شیپری است که از شب‌های تابستانی در تئاتر شوپن شیکاگو و اشعار گووندولین بروکس الهام گرفته شده است. این عطر با رایحه خزه بلوط و ترنج آغاز می‌شود، سپس رایحه یاس، عنبر و نعناع هندی به مشام می‌رسد و در نهایت رایحه پایه عود، چوب صندل و سرو حس می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bullfrog/Black-Potion-Tobacco-148724.html",
+    "extractedAt": "2026-11-25T14:55:45.808Z",
+    "name": "Black Potion Tobacco",
+    "brand": "Bullfrog",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cumin",
+      "Tobacco Blossom"
+    ],
+    "middleNotes": [
+      "Tobacco Leaf",
+      "Honey",
+      "Coriander"
+    ],
+    "baseNotes": [
+      "Tolu Balsam",
+      "Vanilla",
+      "Cocoa"
+    ],
+    "description": "Tobacco flower opens the composition with a spicy touch of cumin. At the heart, honey rounds out the tobacco leaf, while coriander lifts its spicy character. Tolu balsam, vanilla and cocoa bean give the base warmth and depth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148724.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 80
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 64
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 148724,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Potion Tobacco",
+    "brandFa": "Bullfrog",
+    "nameFa": "Black Potion Tobacco",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زیره",
+      "Tobacco Blossom"
+    ],
+    "middleNotesFa": [
+      "برگ تنباکو",
+      "عسل",
+      "گشنیز"
+    ],
+    "baseNotesFa": [
+      "بلسام تولو",
+      "وانیل",
+      "کاکائو"
+    ],
+    "descriptionFa": "گل تنباکو ترکیب را با رایحه‌ای تند از زیره آغاز می‌کند. در نت میانی، عسل رایحه برگ تنباکو را متعادل می‌کند، در حالی که گشنیز طبع تند آن را برجسته می‌کند. بalsam تولو، وانیل و دانه‌های کاکائو به رایحه پایه گرما و عمق می‌بخشند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Antonio-Amatucci/Back-in-Black-148723.html",
+    "extractedAt": "2026-11-25T14:55:51.149Z",
+    "name": "Back in Black",
+    "brand": "Antonio Amatucci",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Sichuan Pepper",
+      "Cardamom",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148723.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 148723,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Back in Black",
+    "brandFa": "Antonio Amatucci",
+    "nameFa": "Back in Black",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل سیچوان",
+      "هل",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "پچولی",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Antonio-Amatucci/Night-of-Vanity-148722.html",
+    "extractedAt": "2026-11-25T14:55:54.947Z",
+    "name": "Night of Vanity",
+    "brand": "Antonio Amatucci",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Sandalwood",
+      "Cashmere Wood"
+    ],
+    "middleNotes": [
+      "Carnation",
+      "Ylang-Ylang",
+      "Rose",
+      "Jasmine",
+      "Dates"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "oak moss",
+      "Caramel",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148722.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 84
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 42
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 40
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 148722,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Night of Vanity",
+    "brandFa": "Antonio Amatucci",
+    "nameFa": "Night of Vanity",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "چوب صندل",
+      "Cashmere Wood"
+    ],
+    "middleNotesFa": [
+      "میخک",
+      "ایلنگ‌ایلنگ",
+      "گل رز",
+      "یاسمن",
+      "Dates"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "oak moss",
+      "کارامل",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Antonio-Amatucci/It-s-Probably-Me-148721.html",
+    "extractedAt": "2026-11-25T14:55:58.693Z",
+    "name": "It's Probably Me",
+    "brand": "Antonio Amatucci",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Lemon",
+      "Cardamom",
+      "Dates"
+    ],
+    "middleNotes": [
+      "Grapefruit",
+      "Lemon",
+      "Cardamom",
+      "Dates"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "oak moss",
+      "Caramel",
+      "Vanilla",
+      "Cashmere Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148721.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148721,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "It's Probably Me",
+    "brandFa": "Antonio Amatucci",
+    "nameFa": "It's Probably Me",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "لیمو",
+      "هل",
+      "Dates"
+    ],
+    "middleNotesFa": [
+      "گریپ‌فروت",
+      "لیمو",
+      "هل",
+      "Dates"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "oak moss",
+      "کارامل",
+      "وانیل",
+      "Cashmere Wood"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Antonio-Amatucci/Garden-of-Immortal-148720.html",
+    "extractedAt": "2026-11-25T14:56:03.747Z",
+    "name": "Garden of Immortal",
+    "brand": "Antonio Amatucci",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Tomato Leaf",
+      "Blackcurrant",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Chamomile",
+      "Rosemary",
+      "Cedar",
+      "Herbal Notes"
+    ],
+    "baseNotes": [
+      "Immortelle",
+      "Leather",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148720.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 70
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 63
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 40
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 148720,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Garden of Immortal",
+    "brandFa": "Antonio Amatucci",
+    "nameFa": "Garden of Immortal",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگ گوجه",
+      "Blackcurrant",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "بابونه",
+      "رزماری",
+      "سرو",
+      "Herbal Notes"
+    ],
+    "baseNotesFa": [
+      "Immortelle",
+      "چرم",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Antonio-Amatucci/Bring-Me-The-Horizon-148719.html",
+    "extractedAt": "2026-11-25T14:56:07.190Z",
+    "name": "Bring Me The Horizon",
+    "brand": "Antonio Amatucci",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Frankincense",
+      "Cinnamon",
+      "Dates"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Vetiver",
+      "Myrrh"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Patchouli",
+      "Amber",
+      "Suede"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148719.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 86
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 83
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148719,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bring Me The Horizon",
+    "brandFa": "Antonio Amatucci",
+    "nameFa": "Bring Me The Horizon",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کندر",
+      "دارچین",
+      "Dates"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "وتیور",
+      "مور"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "پچولی",
+      "کهربا",
+      "چرم جیر"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Antonio-Amatucci/Orpheus-148718.html",
+    "extractedAt": "2026-11-25T14:56:10.594Z",
+    "name": "Orpheus",
+    "brand": "Antonio Amatucci",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Apple",
+      "Timur"
+    ],
+    "middleNotes": [
+      "Priprioca",
+      "Violet",
+      "Rose",
+      "Iris",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Musk",
+      "Iris Butter"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148718.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 64
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 47
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 148718,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Orpheus",
+    "brandFa": "Antonio Amatucci",
+    "nameFa": "Orpheus",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "لیمو",
+      "سیب",
+      "Timur"
+    ],
+    "middleNotesFa": [
+      "Priprioca",
+      "بنفشه",
+      "گل رز",
+      "زنبق",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "موش",
+      "Iris Butter"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amer-Perfumes/Perennial-96577.html",
+    "extractedAt": "2026-11-25T14:56:14.922Z",
+    "name": "Perennial",
+    "brand": "Amer Perfumes",
+    "family": "Floral Green",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Amer Alradhi",
+    "topNotes": [
+      "Mint",
+      "Bergamot",
+      "Lemon",
+      "Coriander",
+      "Olibanum",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Mint",
+      "Galbanum",
+      "Violet Leaf",
+      "Green Tea",
+      "Jasmine",
+      "Gardenia",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Patchouli",
+      "Musk",
+      "Ambergris",
+      "Sandalwood",
+      "Leather",
+      "Tobacco"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96577.jpg",
+    "rating": 4.44,
+    "ratingVotes": 34,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 83
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 23
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 96577,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Perennial",
+    "brandFa": "Amer Perfumes",
+    "nameFa": "Perennial",
+    "familyFa": "گلی سبز",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Amer Alradhi",
+    "topNotesFa": [
+      "نعناع",
+      "برگاموت",
+      "لیمو",
+      "گشنیز",
+      "کندر",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "نعناع",
+      "گلبانوم",
+      "برگ بنفشه",
+      "چای سبز",
+      "یاسمن",
+      "گاردنیا",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "پچولی",
+      "موش",
+      "کهربا خاکستری",
+      "چوب صندل",
+      "چرم",
+      "تنباکو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dossier/Floral-Grapefruit-103289.html",
+    "extractedAt": "2026-11-25T14:56:18.255Z",
+    "name": "Floral Grapefruit",
+    "brand": "Dossier",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Blackcurrant",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Lilac",
+      "Hyacinth",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Orris"
+    ],
+    "description": "A delicate floral fragrance inspired by Chanel's Chance Eau Tendre, combining bright citrus top notes with a floral heart and woody-musk base. The composition opens with a sparkling blend of grapefruit, pear, and blackcurrant, transitioning to a bouquet of hyacinth, jasmine, and lilac before settling into warm base notes of orris root, musks, and amber woods.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103289.jpg",
+    "rating": 3.93,
+    "ratingVotes": 55,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 81
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 33
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 103289,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Floral Grapefruit",
+    "brandFa": "Dossier",
+    "nameFa": "Floral Grapefruit",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "Blackcurrant",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل یاس",
+      "هیاسینت",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "ریشه زنبق"
+    ],
+    "descriptionFa": "یک عطر گل‌دار ظریف که از Chance Eau Tendre محصول برند شنل الهام گرفته شده است و ترکیبی از نت‌های بالای مرکباتی درخشان با نت‌های میانی گل‌دار و نت‌های پایانی مشک و چوبی است. این ترکیب با ترکیبی درخشان از گریپ‌فروت، گلابی و انگور فرنگی سیاه آغاز می‌شود، سپس به دسته گلی از سنبل، یاس و اقاقیا تبدیل می‌شود و در نهایت به نت‌های پایه گرم ریشه زنبق، مشک و چوب کهربایی می‌رسد.",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Monotheme-Venezia/Black-Oud-18409.html",
+    "extractedAt": "2026-11-25T14:56:23.811Z",
+    "name": "Black Oud",
+    "brand": "Monotheme Venezia",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": null,
+    "topNotes": [
+      "Paprika",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Heliotrope",
+      "Labdanum",
+      "Cloves",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Amber",
+      "Woodsy Notes"
+    ],
+    "description": "Monotheme Fine Fragrances Venezia has launched a new collection inspired by the Orient. The collection consists of four fragrances and it is named Black Label. The fragrances are available in black bottles crowned with black caps of the same design as the previous collection of classic Monotheme editions, Bio Collection and invigorating line Book of Citruses. Four oriental fragrances, belonging to the line Black Label, are aimed at both men and women. The scents are based on rich and opulent natural essential oils combined with carefully selected essences. The intention of their creators was to evoke the olfactory wealth of Orient.</p> <p>BLACK OUD charms with citruses and spicy chords of paprika, which lead to the heart of the composition. The heart is dominated by contrasts—fragrant geraniums, warm and soft heliotrope, labdanum and clove. The base only highlights the oriental fairy tale with its warm chords of oud, amber and precious wood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18409.jpg",
+    "rating": 3.97,
+    "ratingVotes": 176,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 27
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 18409,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Oud",
+    "brandFa": "Monotheme Venezia",
+    "nameFa": "Black Oud",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Paprika",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "گل هلیوتروپ",
+      "لابدانوم",
+      "Cloves",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "کهربا",
+      "Woodsy Notes"
+    ],
+    "descriptionFa": "Monotheme Fine Fragrances Venezia مجموعه‌ای جدید با الهام از شرق را عرضه کرده است. این مجموعه شامل چهار عطر است و نام آن Black Label است. این عطرها در بطری‌های مشکی عرضه می‌شوند که با درپوش‌های مشکی به همان طرح مجموعه‌های قبلی ادیشن‌های کلاسیک Monotheme، Bio Collection و خط معطر Book of Citruses تزئین شده‌اند. چهار عطر شرقی متعلق به خط تولید Black Label، هم برای مردان و هم برای زنان طراحی شده‌اند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Beyond-Precious-143163.html",
+    "extractedAt": "2026-11-25T14:56:30.075Z",
+    "name": "Beyond Precious",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Bergamot",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Angelica",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Immortelle",
+      "Tonka Bean"
+    ],
+    "description": "Beyond Precious evokes the certainty of an instinctive connection—something treasured from every angle and chosen without hesitation. Soft yet assured, it rests on the skin like a quiet promise: intimate, graceful and designed to endure. With its subtle bridal character, the fragrance feels timeless and deeply personal—chosen once, cherished forever.</p> <p><strong>Top Notes:</strong> Bergamot, Pear, Neroli<br /> <strong>Heart Notes:</strong> Jasmine, Angelica, Orange Flower<br /> <strong>Base Notes:</strong> Tonka Bean, Immortelle, Vanilla</p> <p>Beyond Precious is a feminine floriental-fruity fragrance that opens with luminous bergamot and neroli, softened by the delicate sweetness of ripe pear. At its heart, jasmine and orange flower create a radiant floral accord, while angelica introduces an airy, subtly green nuance.</p> <p>The base brings gentle warmth through tonka bean and vanilla, enriched by the distinctive golden facets of immortelle. Smooth, intimate and quietly sophisticated, the fragrance settles close to the skin, leaving an elegant and lasting impression.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143163.jpg",
+    "rating": 4.44,
+    "ratingVotes": 139,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 143163,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Beyond Precious",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Beyond Precious",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "Angelica",
+      "یاسمن",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Immortelle",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Beyond Precious یادآور اطمینان یک پیوند غریزی است—چیزی که از هر نظر ارزشمند است و بدون تردید انتخاب می‌شود. نرم اما مطمئن، مانند یک وعده آرام روی پوست می‌نشیند: صمیمی، ظریف و طراحی‌شده برای ماندگاری. این عطر با ویژگی ظریف عروسی خود، حسی جاودانه و عمیقاً شخصی دارد - یک بار انتخاب می‌شود و برای همیشه گرامی داشته می‌شود.</p> <p><strong>نت‌های اولیه:</strong> ترنج، گلابی، نرولی<br /> <strong>نت‌های میانی:</strong> یاس",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zimaya/Reverie-Aqua-115970.html",
+    "extractedAt": "2026-11-25T14:56:37.435Z",
+    "name": "Reverie Aqua",
+    "brand": "Zimaya",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "Cinnamon",
+      "Basil"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Lavender",
+      "Chestnut"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vetiver",
+      "Musk",
+      "Labdanum"
+    ],
+    "description": "Reverie Aqua by Zimaya is an eau de parfum for men that balances aromatic spice with warm, balsamic undertones. It opens with cardamom and cinnamon lifted by basil, moves into a heart of chestnut, lavender, and a soft vanilla nuance, and settles into a smooth, earthy base of vetiver, labdanum, musk, and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115970.jpg",
+    "rating": 4.62,
+    "ratingVotes": 375,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 92
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 78
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 74
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 115970,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Reverie Aqua",
+    "brandFa": "Zimaya",
+    "nameFa": "Reverie Aqua",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "هل",
+      "دارچین",
+      "ریحان"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "اسطوخودوس",
+      "Chestnut"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وتیور",
+      "موش",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Reverie Aqua از برند Zimaya یک ادو پرفیوم مردانه است که ترکیبی متعادل از ادویه‌های معطر با زیررایحه‌های گرم و بالزامیک دارد. این عطر با رایحه هل و دارچین که با رایحه ریحان تقویت شده است، آغاز می‌شود، سپس به رایحه اصلی شامل شاه‌بلوط، اسطوخودوس و یک رایحه ملایم وانیلی می‌رسد و در نهایت در رایحه پایه‌ای ملایم و خاکی شامل خس‌خس، لادن، مشک و عنبر تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Extreme-60284.html",
+    "extractedAt": "2026-11-25T14:56:44.642Z",
+    "name": "L'Homme Idéal Extrême",
+    "brand": "Guerlain",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2020,
+    "perfumer": "Thierry Wasser",
+    "topNotes": [
+      "Almond",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Plum",
+      "Cinnamon",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Leather",
+      "Cedar",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60284.jpg",
+    "rating": 4.36,
+    "ratingVotes": 3928,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 88
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 78
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 55
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 42
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 41
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 60284,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Homme Idéal Extrême",
+    "brandFa": "گرلن",
+    "nameFa": "L'Homme Idéal Extrême",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Thierry Wasser",
+    "topNotesFa": [
+      "بادام",
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "آلو",
+      "دارچین",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "چرم",
+      "سرو",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ahmed-Al-Maghribi/Oud-Roses-66616.html",
+    "extractedAt": "2026-11-25T14:56:48.505Z",
+    "name": "Oud & Roses",
+    "brand": "Ahmed Al Maghribi",
+    "family": "Floral",
+    "gender": "women and men. <b>Oud & Roses</b> was launched in 2016. The fragrance features Rose and Agarwood (Oud)",
+    "year": 2016,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66616.jpg",
+    "rating": 4.26,
+    "ratingVotes": 465,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 64
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 13
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 66616,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud & Roses",
+    "brandFa": "Ahmed Al Maghribi",
+    "nameFa": "Oud & Roses",
+    "familyFa": "گلی",
+    "genderFa": "women and men. <b>Oud & Roses</b> was launched in 2016. The fragrance features Rose and Agarwood (Oud)",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Laboratorio-Olfattivo/Jasminade-133199.html",
+    "extractedAt": "2026-11-25T14:56:52.375Z",
+    "name": "Jasminade",
+    "brand": "Laboratorio Olfattivo",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jean-Claude Ellena",
+    "topNotes": [
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "description": "Jasminade by Laboratorio Olfattivo is a floral fragrance centered on jasmine. Created by Jean-Claude Ellena, it explores different facets of jasmine, from greener and airier nuances to warmer, more sensual tones, with orange blossom adding softness in the heart and white musk providing a clean, delicate base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133199.jpg",
+    "rating": 3.89,
+    "ratingVotes": 66,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 15
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 14
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 11
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 9
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 8
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 7
+      }
+    ],
+    "fragranticaId": 133199,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jasminade",
+    "brandFa": "Laboratorio Olfattivo",
+    "nameFa": "Jasminade",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jean-Claude Ellena",
+    "topNotesFa": [
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "descriptionFa": "Jasminade از برند Laboratorio Olfattivo یک عطر گلی است که بر پایه رایحه یاس ساخته شده است. این عطر که توسط ژان-کلود النا خلق شده است، جنبه‌های مختلف یاس را از ظرافت‌های سبزتر و سبک‌تر گرفته تا لحن‌های گرم‌تر و شهوانی‌تر بررسی می‌کند. شکوفه پرتقال لطافتی به نت میانی می‌افزاید و مشک سفید پایه‌ای تمیز و ظریف ایجاد می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Rugir-98711.html",
+    "extractedAt": "2026-11-25T14:56:59.418Z",
+    "name": "Rugir",
+    "brand": "Armaf",
+    "family": "Oriental Floral",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Lavender",
+      "Mandarin Orange",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Violet",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cardamom",
+      "Guaiac Wood",
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Pink Pepper"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98711.jpg",
+    "rating": 4.11,
+    "ratingVotes": 157,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 98
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 88
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 85
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 74
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 73
+      }
+    ],
+    "fragranticaId": 98711,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rugir",
+    "brandFa": "Armaf",
+    "nameFa": "Rugir",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "سیب",
+      "اسطوخودوس",
+      "نارنگی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "بنفشه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "هل",
+      "چوب گوئیک",
+      "کهربا",
+      "چوب صندل",
+      "پچولی",
+      "فلفل صورتی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Eros-Eau-de-Parfum-62762.html",
+    "extractedAt": "2026-11-25T14:57:03.257Z",
+    "name": "Eros Eau de Parfum",
+    "brand": "Versace",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Mint",
+      "Candy apple",
+      "Lemon",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Ambroxan",
+      "Geranium",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cedar",
+      "Sandalwood",
+      "Bitter Orange",
+      "Patchouli",
+      "Leather"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62762.jpg",
+    "rating": 4.3,
+    "ratingVotes": 9097,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 92
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 72
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "gourmand",
+        "nameFa": "گورماند",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 62762,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Eros",
+    "brandFa": "ورساچه",
+    "nameFa": "Eros Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "نعناع",
+      "Candy apple",
+      "لیمو",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "آمبروکسان",
+      "گل جعفری",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "سرو",
+      "چوب صندل",
+      "پرتقال تلخ",
+      "پچولی",
+      "چرم"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profondo-Parfum-90451.html",
+    "extractedAt": "2026-11-25T14:57:07.485Z",
+    "name": "Acqua di Giò Profondo Parfum",
+    "brand": "Giorgio Armani",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Marine notes",
+      "Green Mandarin"
+    ],
+    "middleNotes": [
+      "Mimosa"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Labdanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90451.jpg",
+    "rating": 4,
+    "ratingVotes": 2445,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 60
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 45
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 40
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 90451,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Acqua di Giò Profondo",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Acqua di Giò Profondo Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Marine notes",
+      "Green Mandarin"
+    ],
+    "middleNotesFa": [
+      "میموزا"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "لابدانوم"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Comme-des-Garcons/Wonderoud-25616.html",
+    "extractedAt": "2026-11-25T14:57:11.336Z",
+    "name": "Wonderoud",
+    "brand": "Comme des Garcons",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Wonderoud</b> was launched in 2014. The fragrance features Agarwood (Oud)",
+    "year": 2014,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25616.jpg",
+    "rating": 4.1,
+    "ratingVotes": 1027,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 25616,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Wonderoud",
+    "brandFa": "کم دو گارسون",
+    "nameFa": "Wonderoud",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Wonderoud</b> was launched in 2014. The fragrance features Agarwood (Oud)",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/La-Fede/Lavish-Rouge-112639.html",
+    "extractedAt": "2026-11-25T14:57:14.765Z",
+    "name": "Lavish Rouge",
+    "brand": "La Fede",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin",
+      "Green Apple",
+      "Grapefruit",
+      "Lemon",
+      "Aspic"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Freesia",
+      "Magnolia",
+      "Rose",
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandal",
+      "Peach",
+      "Cedar",
+      "Coconut",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "\"Immerse yourself in the enchanting embrace of LA FEDE LAVISH ROUGE Eau de Parfum, a fragrance that captures the essence of a sunlit coastal paradise. This captivating scent combines fresh citrus, delicate florals, and rich, warm undertones, offering a harmonious blend that evokes the serenity and beauty of the sea.\" -Khadlaj.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112639.jpg",
+    "rating": 4.14,
+    "ratingVotes": 7,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 73
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 112639,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lavish Rouge",
+    "brandFa": "La Fede",
+    "nameFa": "Lavish Rouge",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Mandarin",
+      "سیب سبز",
+      "گریپ‌فروت",
+      "لیمو",
+      "Aspic"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل پرتقال",
+      "فریزیا",
+      "ماگنولیا",
+      "گل رز",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Sandal",
+      "هلو",
+      "سرو",
+      "نارگیل",
+      "وتیور",
+      "کهربا"
+    ],
+    "descriptionFa": "«خود را در آغوش سحرانگیز ادو پرفیوم LA FEDE LAVISH ROUGE غوطه‌ور کنید، عطری که ماهیت یک بهشت ساحلی آفتاب‌گیر را به تصویر می‌کشد. این رایحه فریبنده ترکیبی از مرکبات تازه، گل‌های ظریف و زیررایحه‌های غنی و گرم است که ترکیبی هماهنگ را ارائه می‌دهد که آرامش و زیبایی دریا را تداعی می‌کند.» -Khadlaj.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Male-430.html",
+    "extractedAt": "2026-11-25T14:57:20.444Z",
+    "name": "Le Male",
+    "brand": "Jean Paul Gaultier",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 1995,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Lavender",
+      "Mint",
+      "Cardamom",
+      "Bergamot",
+      "Artemisia"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Orange Blossom",
+      "Caraway"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Amber",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "Intensive and sensible, modern, and comfortably warm, masculine and gentle... Le Male is magnetically attractive fragrance which seduces with its uniqueness; it is built on contrasts: traditional and bold, fresh and mild, strong and sensual, in one word: absolutely irresistible for women. Fresh mint is a symbol of strength; the tradition is represented by lavender; vanilla gives warmth and tenderness. The top notes are composed of mint, lavender and bergamot. The heart is composed of cinnamon, cumin, and orange blossom. The base contains vanilla, tonka bean, sandalwood and cedarwood. It was created in 1995 by Francis Kurkdjian.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.430.jpg",
+    "rating": 3.99,
+    "ratingVotes": 26180,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 94
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 66
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 65
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 430,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Le Male",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "Le Male",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "نعناع",
+      "هل",
+      "برگاموت",
+      "افسنتین"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "گل پرتقال",
+      "زیره کوهی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "کهربا",
+      "چوب صندل",
+      "سرو"
+    ],
+    "descriptionFa": "قوی و حساس، مدرن و دلپذیر و گرم، مردانه و ملایم... Le Male عطری است که با جذابیت مغناطیسی خود، با منحصر‌به‌ فرد بودنش فریب می‌دهد؛ این عطر بر پایه تضادها ساخته شده است: سنتی و جسور، تازه و ملایم، قوی و شهوانی، به عبارت دیگر: برای زنان کاملاً غیرقابل مقاومت است. نعناع تازه نمادی از قدرت است؛ اسطوخودوس نشان‌دهنده سنت است؛ وانیل گرما و لطافت می‌بخشد. نت‌های اولیه شامل نعناع و اسطوخودوس هستند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
