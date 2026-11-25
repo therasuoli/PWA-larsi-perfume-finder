@@ -91496,5 +91496,1334 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Cherry-Smoke-78578.html",
+    "extractedAt": "2026-11-25T22:45:13.806Z",
+    "name": "Cherry Smoke",
+    "brand": "Tom Ford",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Sour Cherry",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Chinese Osmanthus",
+      "Olive",
+      "Apricot"
+    ],
+    "baseNotes": [
+      "Smoke",
+      "Woody Notes",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "description": "The new fragrance opens with the exquisite scent of Dark Cherry flavor <em>ScentTrek®</em>, enhanced by exotic saffron notes. The fragrant white flowers of osmanthus exude facets of apricot, olive and leather, while a precious smoked wood accord tantalizes with heated vibrancy and a simmering, blazing pull.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78578.jpg",
+    "rating": 4.11,
+    "ratingVotes": 3221,
+    "accords": [
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 100
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 84
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 78578,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cherry Smoke",
+    "brandFa": "تام فورد",
+    "nameFa": "Cherry Smoke",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گیلاس ترش",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "Chinese Osmanthus",
+      "Olive",
+      "زردآلو"
+    ],
+    "baseNotesFa": [
+      "دود",
+      "Woody Notes",
+      "Cypriol Oil or Nagarmotha"
+    ],
+    "descriptionFa": "این عطر جدید با رایحه دل‌انگیز ScentTrek® با طعم آلبالوی سیاه آغاز می‌شود <em></em>که با نت‌های زعفرانِ خاص و کمیاب تقویت شده است. گلهای سفید معطر درخت اوسمانتوس رایحه‌های زردآلو، زیتون و چرم را متصاعد می‌کنند، در حالی که ترکیبی از چوب دودی نفیس با طراوت گرم و کششی ملتهب و سوزان، حس کنجکاوی را برمی‌انگیزد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Burberry/Hero-Parfum-Intense-101015.html",
+    "extractedAt": "2026-11-25T22:45:19.835Z",
+    "name": "Hero Parfum Intense",
+    "brand": "Burberry",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Leather"
+    ],
+    "baseNotes": [
+      "Cedarwood"
+    ],
+    "description": "Burberry Hero Parfum Intense is a new fragrance for men set to be launched in 2025 under the Burberry Hero collection. This scent is characterized by its powerful and rich composition, featuring a trio of cedarwood oils. It opens with a top note of black pepper, invigorating the senses, while a rich leather note at the base heightens the scent’s strength.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101015.jpg",
+    "rating": 4.16,
+    "ratingVotes": 975,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 50
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 23
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 15
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 101015,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum Intense",
+    "baseName": "Hero",
+    "brandFa": "بربری",
+    "nameFa": "Hero Parfum Intense",
+    "concentrationFa": "پرفیوم انتنس",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "چوب سرو"
+    ],
+    "descriptionFa": "Burberry Hero Parfum Intense یک عطر جدید مردانه است که قرار است در سال 2025 تحت مجموعه Burberry Hero عرضه شود. این عطر با ترکیبی قوی و غنی که شامل سه نوع روغن چوب سدر است، متمایز می‌شود. این عطر با نت بالای فلفل سیاه آغاز می‌شود که حواس را تحریک می‌کند، در حالی که نت غنی چرم در رایحه پایه، قدرت عطر را افزایش می‌دهد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/L-Artisan-Parfumeur/Fables-d-Orient-67867.html",
+    "extractedAt": "2026-11-25T22:45:26.342Z",
+    "name": "Fables d'Orient",
+    "brand": "L'Artisan Parfumeur",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>Fables d'Orient</b> was launched in 2021. The nose behind this fragrance is Christophe Raynaud. The fragrance features Nutmeg, Heliotrope, Olibanum, Musk, Amber, Iris and Myrrh",
+    "year": 2021,
+    "perfumer": "Christophe Raynaud",
+    "description": "You have to imagine a \"flower milk\" that has been brought to life in the perfumer's mind. It is a material, a texture as much as a smell. Its incarnation is the sun-radiated heliotrope flower with its unctuous and creamy fragrance. The nutmeg, with its warm, peppery scent, makes it irresistibly addictive. The last piece of the puzzle, ensuring the fragrance blends with the skin, is the magical vibration of amber and the cottony comfort of musk, which close the accord on a sensual and comforting note. </p> <p>\"This is an oriental fragrance that celebrates amber and the most beautiful and precious resins of frankincense and myrrh, wrapped in white iris petals and the comfort of overdosed musks.\" - Christophe Raynaud.</p> <p>Previously L'Orient Collection.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67867.jpg",
+    "rating": 4.14,
+    "ratingVotes": 337,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 89
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 39
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 32
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 29
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 67867,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fables d'Orient",
+    "brandFa": "لارتیزان پرفیومر",
+    "nameFa": "Fables d'Orient",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>Fables d'Orient</b> was launched in 2021. The nose behind this fragrance is Christophe Raynaud. The fragrance features Nutmeg, Heliotrope, Olibanum, Musk, Amber, Iris and Myrrh",
+    "perfumerFa": "Christophe Raynaud",
+    "descriptionFa": "باید «شیر گل»ی را تصور کنید که در ذهن عطر‌ساز جان گرفته است. این یک ماده و یک بافت است، همانقدر که یک رایحه است. تجسم آن گل هلیوتروپ آفتاب‌گیر با رایحه‌ای چرب و خامه مانند است. جوز هندی با رایحه گرم و فلفلی خود، آن را به طرز غیرقابل مقاومتی اعتیادآور می‌کند. آخرین قطعه پازل که تضمین می‌کند عطر با پوست ترکیب شود، ارتعاش جادویی عنبر و راحتی پنبه‌ای مشک است، که",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Ana-Abiyedh-Poudree-84590.html",
+    "extractedAt": "2026-11-25T22:45:31.955Z",
+    "name": "Ana Abiyedh Poudrée",
+    "brand": "Lattafa Perfumes",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Rose"
+    ],
+    "middleNotes": [
+      "Musk"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Cedar",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84590.jpg",
+    "rating": 4.14,
+    "ratingVotes": 1530,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 74
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 41
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 25
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 84590,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ana Abiyedh Poudrée",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Ana Abiyedh Poudrée",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گل پرتقال",
+      "یاسمن",
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "موش"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "سرو",
+      "وتیور",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dries-Van-Noten/Camomille-Satin-96541.html",
+    "extractedAt": "2026-11-25T22:45:37.113Z",
+    "name": "Camomille Satin",
+    "brand": "Dries Van Noten",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Julien Rasquinet and Paul Guerlain",
+    "topNotes": [
+      "Chamomile",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Orange Blossom",
+      "Turkish Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Galbanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96541.jpg",
+    "rating": 4.14,
+    "ratingVotes": 1092,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 87
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 81
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 76
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 55
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 96541,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Camomille Satin",
+    "brandFa": "Dries Van Noten",
+    "nameFa": "Camomille Satin",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Julien Rasquinet and Paul Guerlain",
+    "topNotesFa": [
+      "بابونه",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "گل پرتقال",
+      "گل رز ترکی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "گلبانوم"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Montblanc/Explorer-52002.html",
+    "extractedAt": "2026-11-25T22:45:40.819Z",
+    "name": "Explorer",
+    "brand": "Montblanc",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Jórdi Fernandez, Antoine Maisondieu and Olivier Pescheux",
+    "topNotes": [
+      "Bergamot",
+      "Pink Pepper",
+      "Clary Sage"
+    ],
+    "middleNotes": [
+      "Haitian Vetiver",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Akigalawood",
+      "Indonesian Patchouli Leaf",
+      "Cacao Pod"
+    ],
+    "description": "Montlanc announces the new male pillar fragrance that comes out on the market in February 2019. Montblanc Explorer tells the story of adventures, quests for excellence, challenging conventions and exploring the four corners of the globe. </p> <p>\"From South Africa to Haiti, Italy, Germany or Indonesia; Montblanc EXPLORER invites explorers on a fantastic journey, giving them the opportunity to discover the rarest ingredients and manufacturing methods that combine craftsmanship with the latest technology.\"</p> <p>The composition is made by three Givaudan perfumers: Jordi Fernandez, Antoine Maisondieu and Olivier Pescheux. Each of them gave his knowledge and emotional experiences about a particular ingredient. The fragrance is announced as a unique woody-aromatic-leather concoction that combines essences of bergamot from Italy, vetiver from Haiti and patchouli from Indonesia.</p> <p>Top notes: OrPur® bergamot, French sage, pink pepper<br /> Heart: OrPur® vetiver, skin<br /> Base: patchouli, cocoa, Ambrofix ™, Akigalawood®</p> <p>The bottle of elongated shape is wrapped with leather-like protective sheath printed with the Saffiano motif. The signature star that adorns all the Maison’s leather goods is made exclusively in Hamburg. The sleeve and emblem are assembled by hand at the Montblanc Pelleteria in Florence.</p> <p>The advertising campaign was shot by John Balsom in South Africa, and the model is Rein Langeveld. Montblanc Explorer is available as a 30, 60 and 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52002.jpg",
+    "rating": 4.23,
+    "ratingVotes": 18295,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 96
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 81
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 69
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 52002,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Explorer",
+    "brandFa": "مونت‌بلان",
+    "nameFa": "Explorer",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jórdi Fernandez, Antoine Maisondieu and Olivier Pescheux",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل صورتی",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "Haitian Vetiver",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "Akigalawood",
+      "Indonesian Patchouli Leaf",
+      "Cacao Pod"
+    ],
+    "descriptionFa": "Montblanc عطر جدید مردانه خود را که در فوریه 2019 به بازار عرضه می‌شود، معرفی می‌کند. Montblanc Explorer داستان ماجراجویی‌ها، تلاش برای رسیدن به کمال، به چالش کشیدن سنت‌ها و کاوش در چهار گوشه جهان را روایت می‌کند. </p> <p>«از آفریقای جنوبی تا هائیتی، ایتالیا، آلمان یا اندونزی؛ Montblanc EXPLORER کاوشگران را به یک سفر شگفت‌انگیز دعوت می‌کند و به آنها این فرصت را می‌دهد تا کمیاب‌ترین مواد اولیه و روش‌های تولید را کشف کنند.»",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Autumn-Vibes-67789.html",
+    "extractedAt": "2026-11-25T22:45:47.965Z",
+    "name": "Autumn Vibes",
+    "brand": "Maison Martin Margiela",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Fanny Bal",
+    "topNotes": [
+      "Cardamom",
+      "Pink Pepper",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "Nutmeg",
+      "Carrot Seeds",
+      "Olibanum"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Moss",
+      "Balsam Fir"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67789.jpg",
+    "rating": 3.53,
+    "ratingVotes": 5289,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 46
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 40
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 67789,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Autumn Vibes",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Autumn Vibes",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Fanny Bal",
+    "topNotesFa": [
+      "هل",
+      "فلفل صورتی",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "جوز هندی",
+      "Carrot Seeds",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "خزه",
+      "نراد بلسام"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/MYSLF-L-Absolu-107428.html",
+    "extractedAt": "2026-11-25T22:45:53.332Z",
+    "name": "MYSLF L’Absolu",
+    "brand": "Yves Saint Laurent",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Christophe Raynaud",
+    "topNotes": [
+      "Ginger",
+      "Bergamot",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Patchouli"
+    ],
+    "description": "MYSLF L’Absolu by Yves Saint Laurent is a fragrance for men introduced in 2025. The composition features a blend of spicy, floral, and woody elements. The opening highlights bergamot, ginger, and cardamom, creating a fresh and radiant introduction. The heart is marked by orange blossoms and a blooming floral essence, while the base is anchored by earthy patchouli. The fragrance is described as combining freshness and intensity, with floral notes sourced from YSL's Ourika Gardens in Morocco.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107428.jpg",
+    "rating": 4.38,
+    "ratingVotes": 4046,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 75
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 69
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 107428,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "MYSLF L’",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "MYSLF L’Absolu",
+    "concentrationFa": "ابسولو",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Christophe Raynaud",
+    "topNotesFa": [
+      "زنجبیل",
+      "برگاموت",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "پچولی"
+    ],
+    "descriptionFa": "MYSLF L’Absolu از برند Yves Saint Laurent عطری برای آقایان است که در سال 2025 عرضه شد. این ترکیب شامل ترکیبی از عناصر تند، گل‌دار و چوبی است. نت‌های اولیه شامل ترنج، زنجبیل و هل هستند که مقدمه‌ای تازه و درخشان ایجاد می‌کنند. نت میانی با رایحه شکوفه‌های پرتقال و عصاره گل‌های شکفته مشخص می‌شود، در حالی که نت پایه با رایحه خاکی نعناع هندی تثبیت می‌شود. این عطر ترکیبی از طراوت و شدت، همراه با رایحه‌های گل‌دار توصیف می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nasomatto/Black-Afgano-6472.html",
+    "extractedAt": "2026-11-25T22:46:00.103Z",
+    "name": "Black Afgano",
+    "brand": "Nasomatto",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2009,
+    "perfumer": "Alessandro Gualtieri",
+    "topNotes": [
+      "cannabis",
+      "Green Notes",
+      "Davana",
+      "Saffron",
+      "Thyme"
+    ],
+    "middleNotes": [
+      "Resins",
+      "Woodsy Notes",
+      "Tobacco",
+      "Coffee",
+      "Cinnamon",
+      "Violet",
+      "Raspberry"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Incense",
+      "Amber",
+      "Animal notes",
+      "Guaiac Wood",
+      "Musk",
+      "Cedar",
+      "Tonka",
+      "Gurjan balsam",
+      "Ambroxan",
+      "Vanilla"
+    ],
+    "description": "Black Afgano is an oriental woody fragrance created by Alessandro Gualtieri, featuring a dark, resinous composition inspired by high-quality hashish. The scent opens with herbal cannabis and green nuances, transitioning through smoky tobacco and coffee accords before settling into a base of oud, incense, and dense resins. Launched in 2009 after six years of development, this unisex perfume is characterized by its long-lasting sillage and hypnotic, unconventional character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6472.jpg",
+    "rating": 4.04,
+    "ratingVotes": 13400,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 67
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 65
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 57
+      },
+      {
+        "nameEn": "cannabis",
+        "nameFa": "cannabis",
+        "percent": 48
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 47
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 6472,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Afgano",
+    "brandFa": "Nasomatto",
+    "nameFa": "Black Afgano",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alessandro Gualtieri",
+    "topNotesFa": [
+      "cannabis",
+      "نت‌های سبز",
+      "Davana",
+      "زعفران",
+      "پونه‌سان"
+    ],
+    "middleNotesFa": [
+      "رزین‌ها",
+      "Woodsy Notes",
+      "تنباکو",
+      "قهوه",
+      "دارچین",
+      "بنفشه",
+      "تمشک"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "عود بخور",
+      "کهربا",
+      "Animal notes",
+      "چوب گوئیک",
+      "موش",
+      "سرو",
+      "Tonka",
+      "Gurjan balsam",
+      "آمبروکسان",
+      "وانیل"
+    ],
+    "descriptionFa": "Black Afgano یک عطر شرقی چوبی است که توسط الساندرو گوالتیری ساخته شده و دارای ترکیبی تیره و رزینی است که از حشیش با کیفیت بالا الهام گرفته شده است. این عطر با رایحه گیاهی شاهدانه و ظرافت‌های سبز آغاز می‌شود، سپس به نت‌های تنباکوی دودی و قهوه تغییر می‌کند و در نهایت به رایحه پایه عود، بخور و رزین‌های غلیظ می‌رسد. این عطر یونیسکس که در سال 2009 پس از شش سال تحقیق و توسعه عرضه شد، با رایحه‌ای ماندگار و مسحورکننده شناخته می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Beau-Paradise-Garden-88836.html",
+    "extractedAt": "2026-11-25T22:46:05.800Z",
+    "name": "Le Beau Paradise Garden",
+    "brand": "Jean Paul Gaultier",
+    "family": null,
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Green Notes",
+      "Watery Notes",
+      "Mint",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Coconut",
+      "Fig",
+      "Salt"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88836.jpg",
+    "rating": 4.31,
+    "ratingVotes": 13388,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 88836,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Le Beau Paradise Garden",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "Le Beau Paradise Garden",
+    "genderFa": "مردانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "نت‌های سبز",
+      "Watery Notes",
+      "نعناع",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "نارگیل",
+      "انجیر",
+      "نمک"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chloe/Nomade-Naturelle-Eau-de-Parfum-71597.html",
+    "extractedAt": "2026-11-25T22:46:10.122Z",
+    "name": "Nomade Naturelle Eau de Parfum",
+    "brand": "Chloé",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Caroline Dumur",
+    "topNotes": [
+      "Dates",
+      "Mirabelle"
+    ],
+    "middleNotes": [
+      "Egyptian Jasmine",
+      "Freesia"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Oakmoss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71597.jpg",
+    "rating": 4.09,
+    "ratingVotes": 1687,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 67
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 71597,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Nomade Naturelle",
+    "brandFa": "Chloé",
+    "nameFa": "Nomade Naturelle Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Caroline Dumur",
+    "topNotesFa": [
+      "Dates",
+      "آلو زرد"
+    ],
+    "middleNotesFa": [
+      "Egyptian Jasmine",
+      "فریزیا"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "خزه بلوط"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mugler/Alien-Pulp-121443.html",
+    "extractedAt": "2026-11-25T22:46:14.691Z",
+    "name": "Alien Pulp",
+    "brand": "Mugler",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Dominique Ropion",
+    "topNotes": [
+      "Raspberry",
+      "Lemon Peel"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Green Mandarin",
+      "Sweet Orange"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanillin",
+      "Cashmeran"
+    ],
+    "description": "Enter a radiant dimension of sensuality with <strong>Alien Pulp Eau de Parfum</strong>, a fruity-floral creation that celebrates vibrant, modern femininity. Composed by master perfumer <strong>Dominique Ropion</strong>, the visionary behind the iconic Alien Eau de Parfum, this fragrance delivers an indulgent olfactive experience—one that feels almost deliciously tangible.</p> <p>Alien Pulp reinterprets the legendary Alien signature through a luminous, fruity lens. Bright and boldly addictive, it is perfectly suited to spring and summer wear. Juicy pink raspberry bursts with pulpy sweetness, seamlessly blended with the creamy, solar glow of jasmine to create a sensual, long-lasting trail. Sparkling accents of sweet orange and green mandarin add a lively zest, while velvety woods anchor the composition with warmth and depth, striking an irresistible balance between radiance and sensuality.</p> <p>The Alien Pulp bottle reflects the visionary aesthetic of <strong>Mugler</strong>. Sculpted like a contemporary talisman, it shimmers with a vibrant ombré—from juicy pink to crystal clear—mirroring the fragrance’s sunlit, mouth-watering energy. Designed to be refillable, each bottle can be replenished with the 100ml refill, uniting indulgence with sustainability in true Mugler style.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121443.jpg",
+    "rating": 3.69,
+    "ratingVotes": 960,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 93
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 91
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 121443,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alien Pulp",
+    "brandFa": "مولر",
+    "nameFa": "Alien Pulp",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Dominique Ropion",
+    "topNotesFa": [
+      "تمشک",
+      "Lemon Peel"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Green Mandarin",
+      "Sweet Orange"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Vanillin",
+      "کشماران"
+    ],
+    "descriptionFa": "با <strong>Alien Pulp Eau de Parfum، عطری</strong> میوه‌ای-گل‌فام که زنانگی پرنشاط و مدرن را گرامی می‌دارد، وارد بُعدی درخشان از شهوانیت شوید. این عطر که توسط استاد عطرساز <strong>دومینیک روپیون</strong>، خالق خلاق ادو پرفیوم نمادین Alien، ساخته شده است، یک تجربه بویایی لذت‌بخش را ارائه می‌دهد - تجربه‌ای که تقریباً به طرز خوشایندی ملموس است.</p> <p>Alien Pulp امضای افسانه‌ای Alien را از طریق یک رایحه درخشان بازتعریف می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
