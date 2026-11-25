@@ -79289,5 +79289,1678 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Fide/The-a-Casablanca-148746.html",
+    "extractedAt": "2026-11-25T17:43:24.585Z",
+    "name": "Thé à Casablanca",
+    "brand": "Maison Fidé",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mint Tea",
+      "Fig Leaf",
+      "Bergamot",
+      "Pink Pepper",
+      "Basil",
+      "Galbanum"
+    ],
+    "middleNotes": [
+      "Dates",
+      "Cinnamon",
+      "Turkish Rose",
+      "Myrtle"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Orcanox™",
+      "Tobacco",
+      "Tonka Bean",
+      "Patchouli",
+      "Musk",
+      "Labdanum",
+      "Sublimolide™"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148746.jpg",
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 94
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 89
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 63
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 148746,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Thé à Casablanca",
+    "brandFa": "Maison Fidé",
+    "nameFa": "Thé à Casablanca",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Mint Tea",
+      "Fig Leaf",
+      "برگاموت",
+      "فلفل صورتی",
+      "ریحان",
+      "گلبانوم"
+    ],
+    "middleNotesFa": [
+      "Dates",
+      "دارچین",
+      "گل رز ترکی",
+      "مورد"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "Orcanox™",
+      "تنباکو",
+      "لوبیا تونکا",
+      "پچولی",
+      "موش",
+      "لابدانوم",
+      "Sublimolide™"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nasoterapia/Oud-Rosa-di-Damasco-148745.html",
+    "extractedAt": "2026-11-25T17:43:28.714Z",
+    "name": "Oud & Rosa di Damasco",
+    "brand": "Nasoterapia",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Bitter Orange",
+      "Citron",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Jasmine",
+      "Myrrh",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Patchouli",
+      "Sandalwood",
+      "Ambergris",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148745.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 98
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 85
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 71
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 69
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 58
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 42
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 148745,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud & Rosa di Damasco",
+    "brandFa": "Nasoterapia",
+    "nameFa": "Oud & Rosa di Damasco",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پرتقال تلخ",
+      "Citron",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "یاسمن",
+      "مور",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "پچولی",
+      "چوب صندل",
+      "کهربا خاکستری",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nasoterapia/Vetiver-Fava-Tonka-148744.html",
+    "extractedAt": "2026-11-25T17:43:31.941Z",
+    "name": "Vetiver & Fava Tonka",
+    "brand": "Nasoterapia",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Sicilian Orange",
+      "Cardamom",
+      "Ginger",
+      "Nutmeg",
+      "Cinnamon",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Heliotrope",
+      "Frangipani",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Cedar",
+      "Vetiver",
+      "Patchouli",
+      "Ambergris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148744.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 97
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 92
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 77
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148744,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vetiver & Fava Tonka",
+    "brandFa": "Nasoterapia",
+    "nameFa": "Vetiver & Fava Tonka",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Sicilian Orange",
+      "هل",
+      "زنجبیل",
+      "جوز هندی",
+      "دارچین",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "گل هلیوتروپ",
+      "Frangipani",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "سرو",
+      "وتیور",
+      "پچولی",
+      "کهربا خاکستری"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nasoterapia/Legni-Orientali-Pepe-Nero-148743.html",
+    "extractedAt": "2026-11-25T17:43:36.111Z",
+    "name": "Legni Orientali & Pepe Nero",
+    "brand": "Nasoterapia",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Calabrian bergamot",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Patchouli",
+      "Haitian Vetiver",
+      "Cedar",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Tonka Bean",
+      "Siam Benzoin",
+      "Cashmere Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148743.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 36
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 27
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 148743,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Legni Orientali & Pepe Nero",
+    "brandFa": "Nasoterapia",
+    "nameFa": "Legni Orientali & Pepe Nero",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "Calabrian bergamot",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "پچولی",
+      "Haitian Vetiver",
+      "سرو",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "لوبیا تونکا",
+      "Siam Benzoin",
+      "Cashmere Wood"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Couvent-Maison-de-Parfum/Santa-Cruz-53527.html",
+    "extractedAt": "2026-11-25T17:43:39.787Z",
+    "name": "Santa Cruz",
+    "brand": "Le Couvent Maison de Parfum",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. <b>Santa Cruz</b> was launched in 2018. The fragrance features Eucalyptus, Citruses, Bergamot, Cedar and Vetiver",
+    "year": 2018,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53527.jpg",
+    "rating": 3.97,
+    "ratingVotes": 269,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "camphor",
+        "nameFa": "camphor",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 25
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 13
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 53527,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Santa Cruz",
+    "brandFa": "Le Couvent Maison de Parfum",
+    "nameFa": "Santa Cruz",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. <b>Santa Cruz</b> was launched in 2018. The fragrance features Eucalyptus, Citruses, Bergamot, Cedar and Vetiver",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Coconut-Passion-114727.html",
+    "extractedAt": "2026-11-25T17:43:45.157Z",
+    "name": "Coconut Passion",
+    "brand": "Victoria's Secret",
+    "family": "Aromatic",
+    "gender": "women. <b>Coconut Passion</b> was launched in 2010. The fragrance features Coconut, Vanilla, Chamomile, Aloe Vera and Lily of the Valley",
+    "year": 2010,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114727.jpg",
+    "rating": 4.28,
+    "ratingVotes": 334,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 92
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 32
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 18
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 114727,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coconut Passion",
+    "brandFa": "Victoria's Secret",
+    "nameFa": "Coconut Passion",
+    "familyFa": "معطر",
+    "genderFa": "women. <b>Coconut Passion</b> was launched in 2010. The fragrance features Coconut, Vanilla, Chamomile, Aloe Vera and Lily of the Valley",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Under-the-Stars-83774.html",
+    "extractedAt": "2026-11-25T17:43:49.595Z",
+    "name": "Under the Stars",
+    "brand": "Maison Martin Margiela",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Meabh McCurtin",
+    "topNotes": [
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Leather"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Labdanum"
+    ],
+    "description": "Maison Martin Margiela is introducing a fresh addition to its Replica line, titled Under the Stars. </p> <p>With its blend of oud and amber, Under The Stars captures the cozy ambiance of a campfire crackling beneath a mesmerizing tapestry of stars. This fragrance evokes a sense of warmth and wonder, made to transport you to a night under the open sky.</p> <p>The year is 2022, and the location is Namibia. The description of the composition is \"oud and leather.\"</p> <p>Replica Under the Stars is available as a 30 ml and a 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83774.jpg",
+    "rating": 3.49,
+    "ratingVotes": 1597,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 89
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 66
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 19
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 83774,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Under the Stars",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Under the Stars",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Meabh McCurtin",
+    "topNotesFa": [
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Maison Martin Margiela در حال معرفی یک محصول جدید به خط تولید Replica خود با عنوان Under the Stars است. </p> <p>Under The Stars با ترکیبی از عود و عنبر، فضای دنج آتش‌دان را که زیر آسمان پر ستاره می‌سوزد، تداعی می‌کند. این عطر احساس گرما و شگفتی را برمی‌انگیزد و برای این ساخته شده که شما را به شبی زیر آسمان باز منتقل کند.</p> <p>سال ۲۰۲۲ است و مکان، نامیبیا. توصیف این ترکیب «عود» است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mind-Games/Double-Attack-76712.html",
+    "extractedAt": "2026-11-25T17:43:54.810Z",
+    "name": "Double Attack",
+    "brand": "Mind Games",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Christelle Laprade",
+    "topNotes": [
+      "Bitter Orange",
+      "Pimento",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Agave",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Dark Chocolate",
+      "Madagascar Vanilla",
+      "Sandalwood",
+      "Bourbon Vetiver"
+    ],
+    "description": "Double Attack utilizes the multifaceted notes of chocolate to deliver a medley of bittersweet, woody notes that drive the fragrance. Exceptionally effective in breaking down defenses, all who experience it are enveloped in an opening of spices and florals that give way to the underlying base notes of bourbon, and vanilla, captivating the sense of smell on multiple levels.</p> <p>Champions create their own destinies through careful contemplation of the possibilities before them, and the talent of foresight. Seeing the design in its entirety, they are able to envision multiple courses of action and pursue the prize in spite of any obstacles. Double Attack utilizes the multi-faceted notes of chocolate to deliver a medley of bittersweet, woody notes that drive the fragrance. Exceptionally effective in breaking down defenses, all who experience it are enveloped in an opening of spices and florals that give way to the underlying base notes of bourbon, and vanilla, captivating the sense of smell on multiple levels. Double Attack demonstrates the willingness to risk it all for the pursuit of triumph, a gambler aware that the odds are in their favor.</p> <p>\"Double Attack is a play on the many forms of chocolate. The sweet, classic addiction of chocolate balanced harmoniously with orange bitters, peppery spices and smooth woods. I was reminded of the texture of biting into cacao nibs – there’s a certain woodiness that compliments the sweet creaminess.\" - Christelle Laprade, Perfumer</p> <p><strong>Top:</strong> Orange Bitters, Pimento Oil, Pink Pepper Co2<br /> <strong>Middle</strong>: Agave Flower, Cinnamon Madagascar, Geranium<br /> <strong>Drydown: </strong>Dark Chocolate, Vanilla Madagascar, Vetiver Bourbon, Indian Sandalwood",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76712.jpg",
+    "rating": 3.91,
+    "ratingVotes": 560,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 55
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 42
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 35
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 76712,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Double Attack",
+    "brandFa": "Mind Games",
+    "nameFa": "Double Attack",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christelle Laprade",
+    "topNotesFa": [
+      "پرتقال تلخ",
+      "فلفل هلندی",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "Agave",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "Dark Chocolate",
+      "وانیل ماداگاسکار",
+      "چوب صندل",
+      "Bourbon Vetiver"
+    ],
+    "descriptionFa": "Double Attack از رایحه‌های چندوجهی شکلات استفاده می‌کند تا ترکیبی از رایحه‌های تلخ و شیرین و چوبی را ارائه دهد که محرک این عطر هستند. این عطر در شکستن حریم‌ها فوق‌العاده مؤثر است، همه کسانی که آن را تجربه می‌کنند در آغوش نت‌های آغازین ادویه‌ای و گلی قرار می‌گیرند که جای خود را به نت‌های پایه زیرین بوربن و وانیل می‌دهند و حس بویایی را در سطوح مختلفی مجذوب خود می‌کنند.</p> <p>قهرمانان با تأمل دقیق سرنوشت خود را رقم می‌زنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lalique/Encre-Noire-1834.html",
+    "extractedAt": "2026-11-25T17:44:01.216Z",
+    "name": "Encre Noire",
+    "brand": "Lalique",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2006,
+    "perfumer": "Nathalie Lorson",
+    "topNotes": [
+      "Cypress"
+    ],
+    "middleNotes": [
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Cashmere Wood",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1834.jpg",
+    "rating": 4.13,
+    "ratingVotes": 26402,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 71
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 34
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 18
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 16
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 10
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 8
+      }
+    ],
+    "fragranticaId": 1834,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Encre Noire",
+    "brandFa": "لالیک",
+    "nameFa": "Encre Noire",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Nathalie Lorson",
+    "topNotesFa": [
+      "سرو کوهی"
+    ],
+    "middleNotesFa": [
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "Cashmere Wood",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lalique/Ombre-Noire-48063.html",
+    "extractedAt": "2026-11-25T17:44:06.462Z",
+    "name": "Ombre Noire",
+    "brand": "Lalique",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": "Karine Dubreuil-Sereni",
+    "topNotes": [
+      "Fig Leaf",
+      "Mint",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tobacco Leaf",
+      "Cinnamon",
+      "Papyrus"
+    ],
+    "baseNotes": [
+      "Cognac",
+      "Myrhh",
+      "Olibanum",
+      "Cedar",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48063.jpg",
+    "rating": 4.34,
+    "ratingVotes": 1631,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 79
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 61
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 58
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 50
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 48063,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ombre Noire",
+    "brandFa": "لالیک",
+    "nameFa": "Ombre Noire",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Karine Dubreuil-Sereni",
+    "topNotesFa": [
+      "Fig Leaf",
+      "نعناع",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "برگ تنباکو",
+      "دارچین",
+      "پاپیروس"
+    ],
+    "baseNotesFa": [
+      "کوناک",
+      "Myrhh",
+      "کندر",
+      "سرو",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Britney-Spears/Fantasy-600.html",
+    "extractedAt": "2026-11-25T17:44:09.848Z",
+    "name": "Fantasy",
+    "brand": "Britney Spears",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2005,
+    "perfumer": "James Krivda",
+    "topNotes": [
+      "Kiwi",
+      "Red Litchi",
+      "Quince"
+    ],
+    "middleNotes": [
+      "White Chocolate",
+      "Cupcake",
+      "Orchid",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Orris Root",
+      "Woodsy Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.600.jpg",
+    "rating": 3.94,
+    "ratingVotes": 17137,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 64
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 35
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 20
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 18
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 15
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 600,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fantasy",
+    "brandFa": "Britney Spears",
+    "nameFa": "Fantasy",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "James Krivda",
+    "topNotesFa": [
+      "Kiwi",
+      "Red Litchi",
+      "Quince"
+    ],
+    "middleNotesFa": [
+      "White Chocolate",
+      "Cupcake",
+      "Orchid",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "ریشه زنبق",
+      "Woodsy Notes"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Matiere-Premiere/Vanilla-Powder-84933.html",
+    "extractedAt": "2026-11-25T17:44:14.245Z",
+    "name": "Vanilla Powder",
+    "brand": "Matière Première",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Aurélien Guichard",
+    "topNotes": [
+      "Coconut Powder",
+      "Heliotrope"
+    ],
+    "middleNotes": [
+      "Madagascar Vanilla"
+    ],
+    "baseNotes": [
+      "Vanilla Absolute",
+      "White Musk",
+      "Musk",
+      "Palo Santo",
+      "Coconut",
+      "Lactones"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84933.jpg",
+    "rating": 3.77,
+    "ratingVotes": 4821,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 34
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 19
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 84933,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Powder",
+    "brandFa": "Matière Première",
+    "nameFa": "Vanilla Powder",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Aurélien Guichard",
+    "topNotesFa": [
+      "Coconut Powder",
+      "گل هلیوتروپ"
+    ],
+    "middleNotesFa": [
+      "وانیل ماداگاسکار"
+    ],
+    "baseNotesFa": [
+      "Vanilla Absolute",
+      "موش سفید",
+      "موش",
+      "Palo Santo",
+      "نارگیل",
+      "Lactones"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/Chinese-Calligraphy-118478.html",
+    "extractedAt": "2026-11-25T17:44:18.150Z",
+    "name": "Chinese Calligraphy",
+    "brand": "d'Annam",
+    "family": "Woody",
+    "gender": "women and men. This is a new fragrance. <b>Chinese Calligraphy</b> was launched in 2025. The nose behind this fragrance is Anh Ngo. The fragrance features Coffee, Ink, Paper, Varnish Accord and Orchid",
+    "year": 2025,
+    "perfumer": "Anh Ngo",
+    "description": "\"Calligraphy is China’s living art—each stroke a meditation in ink and paper. This scent evokes the stillness of a scholar’s studio, where technique meets introspection. A quiet homage to the brushstrokes that shaped a civilization.\" -D'Annam.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118478.jpg",
+    "rating": 3.61,
+    "ratingVotes": 309,
+    "accords": [
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 69
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "paper",
+        "nameFa": "paper",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 21
+      },
+      {
+        "nameEn": "varnish",
+        "nameFa": "varnish",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 118478,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chinese Calligraphy",
+    "brandFa": "d'Annam",
+    "nameFa": "Chinese Calligraphy",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>Chinese Calligraphy</b> was launched in 2025. The nose behind this fragrance is Anh Ngo. The fragrance features Coffee, Ink, Paper, Varnish Accord and Orchid",
+    "perfumerFa": "Anh Ngo",
+    "descriptionFa": "«خوشنویسی هنر زندۀ چین است - هر ضربه قلم، مدیتیشنی با مرکب و کاغذ است. این عطر یادآور سکوت اتاق کار یک عالم است، جایی که تکنیک با درون‌نگری پیوند می‌خورد. ادای احترامی آرام به ضربات قلم‌مویی که تمدنی را شکل داد.» -د‌انام.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/L-Artisan-Parfumeur/Mure-et-Musc-Extreme-3488.html",
+    "extractedAt": "2026-11-25T17:44:23.570Z",
+    "name": "Mure et Musc Extreme",
+    "brand": "L'Artisan Parfumeur",
+    "family": "Floral Fruity",
+    "gender": "women and men. <b>Mure et Musc Extreme</b> was launched in 1993. The nose behind this fragrance is Karine Dubreuil-Sereni. The fragrance features Blackberry, Musk, Red Berries and Bergamot",
+    "year": 1993,
+    "perfumer": "Karine Dubreuil-Sereni",
+    "description": "Mure et Musc Extreme by L Artisan Parfumeur is fragrance for women and men. The fragrance features black currant, blueberry and musk. Mure et Musc Extreme is available since 1993.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3488.jpg",
+    "rating": 3.88,
+    "ratingVotes": 1174,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 57
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 49
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 19
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 14
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 3488,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mure et Musc Extreme",
+    "brandFa": "لارتیزان پرفیومر",
+    "nameFa": "Mure et Musc Extreme",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. <b>Mure et Musc Extreme</b> was launched in 1993. The nose behind this fragrance is Karine Dubreuil-Sereni. The fragrance features Blackberry, Musk, Red Berries and Bergamot",
+    "perfumerFa": "Karine Dubreuil-Sereni",
+    "descriptionFa": "Mure et Musc Extreme از برند L Artisan Parfumeur عطری برای زنان و مردان است. این عطر دارای رایحه انگور فرنگی سیاه، بلوبری و مشک است. Mure et Musc Extreme از سال 1993 در دسترس است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/The-Silk-Road-118477.html",
+    "extractedAt": "2026-11-25T17:44:29.940Z",
+    "name": "The Silk Road",
+    "brand": "d'Annam",
+    "family": "Oriental Spicy",
+    "gender": "women and men. This is a new fragrance. <b>The Silk Road</b> was launched in 2025. The nose behind this fragrance is Xinyue Wang. The fragrance features Tobacco Leaf, Spices, Leather, Vetiver and Ginseng",
+    "year": 2025,
+    "perfumer": "Xinyue Wang",
+    "description": "\"The Silk Road carried goods, stories, and dreams across empires. This scent pays homage to the ancient trade routes with notes of spices, tobacco leaf, and leather. A tribute to adventure, history, and cultural exchange.\" -D'Annam.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118477.jpg",
+    "rating": 3.6,
+    "ratingVotes": 184,
+    "accords": [
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 32
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 118477,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Silk Road",
+    "brandFa": "d'Annam",
+    "nameFa": "The Silk Road",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. This is a new fragrance. <b>The Silk Road</b> was launched in 2025. The nose behind this fragrance is Xinyue Wang. The fragrance features Tobacco Leaf, Spices, Leather, Vetiver and Ginseng",
+    "perfumerFa": "Xinyue Wang",
+    "descriptionFa": "«جاده ابریشم کالاها، داستان‌ها و رویاها را از امپراتوری‌ای به امپراتوری دیگر منتقل می‌کرد. این عطر با رایحه‌های ادویه، برگ تنباکو و چرم، ادای احترامی است به مسیرهای تجاری باستانی. ادای احترامی به ماجراجویی، تاریخ و تبادل فرهنگی.» -دِ‌انام.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Neroli-Outrenoir-40345.html",
+    "extractedAt": "2026-11-25T17:44:36.059Z",
+    "name": "Néroli Outrenoir",
+    "brand": "Guerlain",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. <b>Néroli Outrenoir</b> was launched in 2016. Néroli Outrenoir was created by Thierry Wasser and Delphine Jelk. Top notes are Petitgrain, Bergamot, Tangerine, Lemon and Grapefruit; middle notes are Tea, Neroli, Orange Blossom, Smoke and Earthy Notes; base notes are Vanilla, Oakmoss, Myrrh, Benzoin and Ambrette (Musk Mallow)",
+    "year": 2016,
+    "perfumer": "Th",
+    "topNotes": [
+      "Petitgrain",
+      "Bergamot",
+      "Tangerine",
+      "Lemon",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Tea",
+      "Neroli",
+      "Orange Blossom",
+      "Smoke",
+      "Earthy Notes"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Oakmoss",
+      "Myrrh",
+      "Benzoin",
+      "Ambrette (Musk Mallow)"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.40345.jpg",
+    "rating": 4.34,
+    "ratingVotes": 2662,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 49
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 26
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 40345,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Néroli Outrenoir",
+    "brandFa": "گرلن",
+    "nameFa": "Néroli Outrenoir",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. <b>Néroli Outrenoir</b> was launched in 2016. Néroli Outrenoir was created by Thierry Wasser and Delphine Jelk. Top notes are Petitgrain, Bergamot, Tangerine, Lemon and Grapefruit; middle notes are Tea, Neroli, Orange Blossom, Smoke and Earthy Notes; base notes are Vanilla, Oakmoss, Myrrh, Benzoin and Ambrette (Musk Mallow)",
+    "perfumerFa": "Th",
+    "topNotesFa": [
+      "پتیت‌گرین",
+      "برگاموت",
+      "تانجرین",
+      "لیمو",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "چای",
+      "نرولی",
+      "گل پرتقال",
+      "دود",
+      "Earthy Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "خزه بلوط",
+      "مور",
+      "بنزوئین",
+      "Ambrette (Musk Mallow)"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
