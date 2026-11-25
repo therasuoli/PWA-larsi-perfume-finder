@@ -64839,5 +64839,707 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Issey-Miyake/L-Eau-d-Issey-Pour-Homme-721.html",
+    "extractedAt": "2026-11-25T03:58:28.874Z",
+    "name": "L'Eau d'Issey Pour Homme",
+    "brand": "Issey Miyake",
+    "family": "Woody Aquatic",
+    "gender": "men",
+    "year": 1994,
+    "perfumer": "Jacques Cavallier Belletrud",
+    "topNotes": [
+      "Yuzu",
+      "Lemon",
+      "Bergamot",
+      "Lemon Verbena",
+      "Mandarin Orange",
+      "Cypress",
+      "Calone",
+      "Coriander",
+      "Sage",
+      "Tarragon"
+    ],
+    "middleNotes": [
+      "Blue Lotus",
+      "Lily-of-the-Valley",
+      "Nutmeg",
+      "Bourbon Geranium",
+      "Saffron",
+      "Ceylon Cinnamon",
+      "Mignonette"
+    ],
+    "baseNotes": [
+      "Tahitian Vetiver",
+      "Musk",
+      "Cedar",
+      "Sandalwood",
+      "Amber",
+      "Tobacco"
+    ],
+    "description": "Issey Miyake uses very unusual and rare materials in order to create perfumes that evoke the sense of timeless freedom and serenity. L\\'Eau d\\'Issey Pour Homme was created as a universal Eau de Toilette perfect for any occasion.</p> <p>L\\'Eau d\\'Issey for Men is a woody aquatic fragrance with yuzu as in top notes, along with notes of bergamot, lemon and tarragon. A middle note is spicy and woody: nutmeg and water lily are an exciting and unexpected accord in this composition. An end note carries an intense woody scent which is sharp and enriched with tobacco,sandalwood, cedar, vetiver and musk. It was created by Jacques Cavallier in 1994.</p> <p>Two editions in new flacons but with the same compositions were introduced in 2009 - L\\'Eau d\\'Issey Pour Homme and L\\'Eau d\\'Issey Pour Homme Intense. Colours of the flacons - light grey and dark grey colour of asphalt make an impression of a union of water and concrete.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.721.jpg",
+    "rating": 4.17,
+    "ratingVotes": 20952,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 19
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 721,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Eau d'Issey Pour Homme",
+    "brandFa": "Issey Miyake",
+    "nameFa": "L'Eau d'Issey Pour Homme",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jacques Cavallier Belletrud",
+    "topNotesFa": [
+      "یوزو",
+      "لیمو",
+      "برگاموت",
+      "Lemon Verbena",
+      "نارنگی",
+      "سرو کوهی",
+      "Calone",
+      "گشنیز",
+      "مریم‌گلی",
+      "Tarragon"
+    ],
+    "middleNotesFa": [
+      "نیلوفر آبی",
+      "Lily-of-the-Valley",
+      "جوز هندی",
+      "Bourbon Geranium",
+      "زعفران",
+      "Ceylon Cinnamon",
+      "Mignonette"
+    ],
+    "baseNotesFa": [
+      "Tahitian Vetiver",
+      "موش",
+      "سرو",
+      "چوب صندل",
+      "کهربا",
+      "تنباکو"
+    ],
+    "descriptionFa": "ایسِی میاکِه از مواد بسیار غیرمعمول و کمیاب برای خلق عطر‌هایی استفاده می‌کند که حس آزادی و آرامش جاودانه را تداعی می‌کنند. L\\'Eau d\\'Issey Pour Homme به عنوان یک ادوتویلت همه کاره و مناسب برای هر موقعیتی ساخته شد.</p> <p>L\\'Eau d\\'Issey for Men یک عطر چوبی-آبی با نت‌های اولیه یو‌زو، همراه با نت‌های ترنج، لیمو و ترخون است. نت میانی تند و چوبی است: جوز هندی و نیلوفر آبی ترکیبی هیجان‌انگیز و غیرمنتظره هستند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Muse-139992.html",
+    "extractedAt": "2026-11-25T03:58:35.425Z",
+    "name": "Muse",
+    "brand": "Khadlaj Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Almond",
+      "Bergamot",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Cream",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "White Musk",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "description": "Muse by Khadlaj is a fragrance introduced in 2026 built around a soft floral and creamy gourmand profile. The opening combines orange blossom, bergamot, and almond, leading to a heart of orris, jasmine, and a cream accord. The base settles into vanilla, tonka bean, amber, and white musk, giving the composition a warm, smooth, and lightly powdery finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139992.jpg",
+    "rating": 4.13,
+    "ratingVotes": 258,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 88
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 73
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 71
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 46
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 139992,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Muse",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Muse",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "بادام",
+      "برگاموت",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "خامه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش سفید",
+      "لوبیا تونکا",
+      "کهربا"
+    ],
+    "descriptionFa": "Muse از برند Khadlaj عطری است که در سال 2026 عرضه شد و بر اساس یک پروفایل ملایم گل‌فام و گورماند خامه‎‌مانند ساخته شده است. نت ابتدایی ترکیبی از شکوفه پرتقال، ترنج و بادام است که به نت میانی زنبق، یاس و ترکیبی از رایحه کرم ختم می‌شود. رایحه پایه شامل وانیل، دانه‌ی تونکا، عنبر و مشک سفید است که به این ترکیب رایحه‌ای گرم، ملایم و کمی پودری می‌دهد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Andres-Croxatto/Croxatto-Oud-113052.html",
+    "extractedAt": "2026-11-25T03:58:40.540Z",
+    "name": "Croxatto Oud",
+    "brand": "Andres Croxatto",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Chris Maurice and Andrés Croxatto",
+    "topNotes": [
+      "Calabrian bergamot",
+      "Citruses",
+      "Blackcurrant"
+    ],
+    "middleNotes": [
+      "Assam Oud",
+      "Cascarilla",
+      "Tobacco",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Indian Oud",
+      "Indian woods",
+      "Sea Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113052.jpg",
+    "rating": 3.49,
+    "ratingVotes": 198,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 79
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 65
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 46
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 31
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 113052,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Croxatto Oud",
+    "brandFa": "Andres Croxatto",
+    "nameFa": "Croxatto Oud",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Chris Maurice and Andrés Croxatto",
+    "topNotesFa": [
+      "Calabrian bergamot",
+      "مرکبات",
+      "Blackcurrant"
+    ],
+    "middleNotesFa": [
+      "Assam Oud",
+      "Cascarilla",
+      "تنباکو",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "Indian Oud",
+      "Indian woods",
+      "Sea Notes"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/I-am-Trash-Les-Fleurs-du-Dechet-50009.html",
+    "extractedAt": "2026-11-25T03:58:45.449Z",
+    "name": "I am Trash - Les Fleurs du Déchet",
+    "brand": "Etat Libre d'Orange",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>I am Trash - Les Fleurs du Déchet</b> was launched in 2018. The nose behind this fragrance is Daniela Andrier. The fragrance features Apple, Iso E Super, Rose, Akigalawood, Sandalwood and Atlas Cedar",
+    "year": 2018,
+    "perfumer": "Daniela Andrier",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50009.jpg",
+    "rating": 3.76,
+    "ratingVotes": 3416,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 70
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 34
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 50009,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "I am Trash - Les Fleurs du Déchet",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "I am Trash - Les Fleurs du Déchet",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>I am Trash - Les Fleurs du Déchet</b> was launched in 2018. The nose behind this fragrance is Daniela Andrier. The fragrance features Apple, Iso E Super, Rose, Akigalawood, Sandalwood and Atlas Cedar",
+    "perfumerFa": "Daniela Andrier",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/J-F-Schwarzlose-Berlin/So-36-143189.html",
+    "extractedAt": "2026-11-25T03:58:49.785Z",
+    "name": "So.36",
+    "brand": "J.F. Schwarzlose Berlin",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Simone Lo Bue",
+    "topNotes": [
+      "Honey",
+      "Saffron",
+      "Cinnamon",
+      "Sage",
+      "Whiskey"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Peru Balsam",
+      "Rose",
+      "Nutmeg",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Amber",
+      "Vanilla",
+      "Oud",
+      "Cedarwood"
+    ],
+    "description": "So.36 by J.F. Schwarzlose Berlin is an extrait de parfum named after the former Kreuzberg postal district and its connection to Berlin’s rebellious subculture. Launched in 2026, it combines smoky florals and boozy warmth with a deep leather base as a tribute to the neighborhood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143189.jpg",
+    "rating": 3,
+    "ratingVotes": 1,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 98
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 95
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 90
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 58
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 143189,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "So.36",
+    "brandFa": "J.F. Schwarzlose Berlin",
+    "nameFa": "So.36",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Simone Lo Bue",
+    "topNotesFa": [
+      "عسل",
+      "زعفران",
+      "دارچین",
+      "مریم‌گلی",
+      "ویسکی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "بلسام پرو",
+      "گل رز",
+      "جوز هندی",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "کهربا",
+      "وانیل",
+      "عود",
+      "چوب سرو"
+    ],
+    "descriptionFa": "So.36 از J.F. Schwarzlose Berlin یک عصاره عطر است که نام آن از منطقه پستی سابق کرویزبرگ و ارتباط آن با خرده‌فرهنگ سرکش برلین گرفته شده است. این عطر که در سال 2026 عرضه شد، ترکیبی از رایحه‌های گلی دودی و گرمای مست‌کننده با پایه‌ای عمیق از چرم است که ادای احترامی به این محله محسوب می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Odyssey-French-Kiss-138752.html",
+    "extractedAt": "2026-11-25T03:58:55.753Z",
+    "name": "Odyssey French Kiss",
+    "brand": "Armaf",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Coconut",
+      "Strawberry",
+      "Lemon",
+      "Bergamot",
+      "Apple",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Sugar",
+      "Orange Blossom",
+      "Jasmine",
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Praline",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "A joyful confection of sugared kisses, creamy pistachio, and golden afternoons, <strong>French Kiss</strong> captures the irresistible charm of an indulgent Parisian escape. Playful, tempting, and delightfully mischievous, it is a fragrance that feels like a delicious secret—one impossible to resist.</p> <p>The composition opens with a vibrant medley of bergamot, lemon, apple, pear, and strawberry, sparkling with the excitement of lifting the lid on a box of exquisite French pastries. At its heart, orange blossom, jasmine, and lily of the valley lend a luminous floral elegance, bringing freshness and refinement to the gourmand accord.</p> <p>As the fragrance settles, creamy vanilla and praline unfold in a rich, velvety embrace, creating a comforting sweetness that is both sophisticated and utterly addictive. Decadent without becoming overwhelming, <strong>French Kiss</strong> lingers with effortless charm, proving that some temptations are simply too sweet to resist.</p> <p>The bottle features a rounded silhouette dressed in a soft sage green hue, complemented by a matching cap and signature handle detail. A decorative strap encircles the front, embossed with the <strong>French Kiss</strong> name in elegant gold lettering. Oversized kiss motifs in lavender, blush pink, champagne gold, and charcoal are playfully scattered across the surface, lending the design a cheerful, expressive personality.</p> <p>The outer box echoes the bottle's sage green palette, enhanced by a blush pink side panel adorned with shimmering gold kiss motifs. At the centre, the <strong>French Kiss</strong> logo combines bold black typography with graceful lavender script, creating a striking contrast against the soft pastel backdrop and perfectly reflecting the fragrance's playful yet sophisticated spirit.</p> <p>Available as 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138752.jpg",
+    "rating": 3.92,
+    "ratingVotes": 38,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 49
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 35
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 32
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 138752,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Odyssey French Kiss",
+    "brandFa": "Armaf",
+    "nameFa": "Odyssey French Kiss",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "نارگیل",
+      "توت‌فرنگی",
+      "لیمو",
+      "برگاموت",
+      "سیب",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "شکر",
+      "گل پرتقال",
+      "یاسمن",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "پرالین",
+      "وانیل",
+      "کهربا"
+    ],
+    "descriptionFa": "<strong>French Kiss</strong>، ترکیبی شاد از بوسه‌های شیرین، پسته خامه‌ای و بعدازظهرهای طلایی، جذابیت مقاومت‌ناپذیر یک فرار لذت‌بخش به پاریس را به تصویر می‌کشد. این عطر که بازیگوش، وسوسه‌انگیز و به طرز لذت‌بخشی شیطنت‌آمیز است، مانند یک راز خوشمزه است - رازی که نمی‌توان در برابر آن مقاومت کرد.</p> <p>این ترکیب با ترکیبی پرنشاط از ترنج، لیمو، سیب، گلابی و توت‌فرنگی آغاز می‌شود که با هیجان برداشتن در، درخشان می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
