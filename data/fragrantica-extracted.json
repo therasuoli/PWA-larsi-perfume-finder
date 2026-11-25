@@ -72444,5 +72444,1367 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Yum-Vanilla-Cupcake-108-145677.html",
+    "extractedAt": "2026-11-25T11:52:31.402Z",
+    "name": "Yum Vanilla Cupcake | 108",
+    "brand": "Kayali Fragrances",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Yum Vanilla Cupcake | 108</b> was launched in 2026. Yum Vanilla Cupcake | 108 was created by Clement Gavarry and Gabriela Chelariu. Top notes are Pink Pepper, Sugar, Lemon and Sprinkles; middle notes are Buttercream, Sweet Milk, Caramel and Coconut; base notes are Vanilla, Frosting and White Amber",
+    "year": 2026,
+    "perfumer": "Clement Gavarry and Gabriela Chelariu",
+    "topNotes": [
+      "Pink Pepper",
+      "Sugar",
+      "Lemon",
+      "Sprinkles"
+    ],
+    "middleNotes": [
+      "Buttercream",
+      "Sweet Milk",
+      "Caramel",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Frosting",
+      "White Amber"
+    ],
+    "description": "Yum Vanilla Cupcake | 108 by Kayali Fragrances is a creamy gourmand fragrance in the Yum collection. Inspired by joy, nostalgia and togetherness, it combines lemon sugar, rainbow sprinkles and pink pepper with white caramel, coconut flakes, sweet milk and buttercream over vanilla frosting, white amber and the Kayali Signature Accord.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.145677.jpg",
+    "rating": 3.49,
+    "ratingVotes": 309,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 36
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 16
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 12
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 145677,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Yum Vanilla Cupcake | 108",
+    "brandFa": "Kayali Fragrances",
+    "nameFa": "Yum Vanilla Cupcake | 108",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Yum Vanilla Cupcake | 108</b> was launched in 2026. Yum Vanilla Cupcake | 108 was created by Clement Gavarry and Gabriela Chelariu. Top notes are Pink Pepper, Sugar, Lemon and Sprinkles; middle notes are Buttercream, Sweet Milk, Caramel and Coconut; base notes are Vanilla, Frosting and White Amber",
+    "perfumerFa": "Clement Gavarry and Gabriela Chelariu",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "شکر",
+      "لیمو",
+      "Sprinkles"
+    ],
+    "middleNotesFa": [
+      "Buttercream",
+      "Sweet Milk",
+      "کارامل",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Frosting",
+      "کهربا سفید"
+    ],
+    "descriptionFa": "Yum Vanilla Cupcake | 108 از Kayali Fragrances یک عطر گورماند خامه‎‌ای در مجموعه Yum است. این عطر که از شادی، نوستالژی و همدلی الهام گرفته شده است، ترکیبی از شکر لیمو، ترافل‌های رنگین‌کمانی و فلفل صورتی با کارامل سفید، پرک‌های نارگیل، شیر شیرین و کرم کره روی فراستینگ وانیلی، عنبر سفید و ترکیب مخصوص Kayali است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Chameau-by-Emper/Voyage-Sea-Silk-128728.html",
+    "extractedAt": "2026-11-25T11:52:38.565Z",
+    "name": "Voyage Sea Silk",
+    "brand": "Le Chameau by Emper",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin Orange",
+      "Bergamot",
+      "Ginger",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Georgywood"
+    ],
+    "baseNotes": [
+      "Akigalawood",
+      "Ambrofix™",
+      "Cedar",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.128728.jpg",
+    "rating": 5,
+    "ratingVotes": 1,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 41
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 128728,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Voyage Sea Silk",
+    "brandFa": "Le Chameau by Emper",
+    "nameFa": "Voyage Sea Silk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "نارنگی",
+      "برگاموت",
+      "زنجبیل",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Georgywood"
+    ],
+    "baseNotesFa": [
+      "Akigalawood",
+      "Ambrofix™",
+      "سرو",
+      "موش"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Banana-Republic/Tobacco-Tonka-Bean-63828.html",
+    "extractedAt": "2026-11-25T11:52:42.847Z",
+    "name": "Tobacco & Tonka Bean",
+    "brand": "Banana Republic",
+    "family": "Oriental Spicy",
+    "gender": "women and men. <b>Tobacco & Tonka Bean</b> was launched in 2019. Tobacco & Tonka Bean was created by Mane and Gino Percontino. Top notes are Mirabelle Plum and Pear; middle notes are Tobacco Leaf and Coconut; base notes are Tonka Bean and Vanilla",
+    "year": 2019,
+    "perfumer": "Mane and Gino Percon",
+    "topNotes": [
+      "Mirabelle Plum",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Tobacco Leaf",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63828.jpg",
+    "rating": 4.21,
+    "ratingVotes": 1883,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 89
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 51
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 43
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 18
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 63828,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tobacco & Tonka Bean",
+    "brandFa": "Banana Republic",
+    "nameFa": "Tobacco & Tonka Bean",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. <b>Tobacco & Tonka Bean</b> was launched in 2019. Tobacco & Tonka Bean was created by Mane and Gino Percontino. Top notes are Mirabelle Plum and Pear; middle notes are Tobacco Leaf and Coconut; base notes are Tonka Bean and Vanilla",
+    "perfumerFa": "Mane and Gino Percon",
+    "topNotesFa": [
+      "Mirabelle Plum",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "برگ تنباکو",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mykonos/Pink-Drops-121123.html",
+    "extractedAt": "2026-11-25T11:52:46.187Z",
+    "name": "Pink Drops",
+    "brand": "Mykonos",
+    "family": "Floral Fruity",
+    "gender": "women and men. Top notes are Strawberry Jam, Caramel and Almond; middle notes are Milk, Powdery Notes and Heliotrope; base notes are Vanilla and White Musk",
+    "topNotes": [
+      "Strawberry Jam",
+      "Caramel",
+      "Almond"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Powdery Notes",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "White Musk"
+    ],
+    "description": "Pink Drops by Mykonos is a bright, fruit-forward fragrance built around a contrast of sparkling citrus and soft woods. It opens with an energetic blend of bergamot, mandarin, lemon, orange and general fruity nuances that create a zesty, sweet and upbeat impression. The heart introduces apricot, raspberry and rose, adding a juicy, slightly creamy fruitiness alongside a gentle floral tone. As it develops, Pink Drops settles into a warmer base of cedarwood, sandalwood, musk and amber, which smooths the initial brightness and gives the composition a soft, lingering finish. The overall effect is light-hearted and easygoing, with a balance between playful fruit notes, delicate florals and a subtly woody, musky foundation.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121123.jpg",
+    "rating": 4.28,
+    "ratingVotes": 101,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 75
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 20
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 18
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 121123,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pink Drops",
+    "brandFa": "Mykonos",
+    "nameFa": "Pink Drops",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. Top notes are Strawberry Jam, Caramel and Almond; middle notes are Milk, Powdery Notes and Heliotrope; base notes are Vanilla and White Musk",
+    "topNotesFa": [
+      "Strawberry Jam",
+      "کارامل",
+      "بادام"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "نت‌های پودری",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش سفید"
+    ],
+    "descriptionFa": "Pink Drops از برند Mykonos یک عطر شاداب و میوه‌ای است که بر اساس تضاد مرکبات درخشان و چوب‌های ملایم ساخته شده است. این عطر با ترکیبی پرانرژی از ترنج، نارنگی، لیمو، پرتقال و رایحه‌های میوه‌ای کلی آغاز می‌شود که حسی تند، شیرین و شاد ایجاد می‌کند. در رایحه میانی، زردآلو، تمشک و گل رز حس می‌شوند که طراوتی آبدار و کمی خامه مانند را همراه با رایحه‌ای ملایم و گل‌گون به عطر می‌بخشند. Pink Drops با پیشرفت رایحه، در یک رایحه پایه گرم‌تر از",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Filippo-Sorcinelli/Vulnus-142413.html",
+    "extractedAt": "2026-11-25T11:52:52.656Z",
+    "name": "Vulnus",
+    "brand": "Filippo Sorcinelli",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Filippo Sorcinelli",
+    "topNotes": [
+      "Hot iron",
+      "Leather",
+      "Vanilla"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Creme Brulee",
+      "Advocaat"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142413.jpg",
+    "rating": 3.32,
+    "ratingVotes": 158,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 74
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 61
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "hot iron",
+        "nameFa": "hot iron",
+        "percent": 32
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 31
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 27
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 142413,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vulnus",
+    "brandFa": "Filippo Sorcinelli",
+    "nameFa": "Vulnus",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Filippo Sorcinelli",
+    "topNotesFa": [
+      "Hot iron",
+      "چرم",
+      "وانیل"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Creme Brulee",
+      "Advocaat"
+    ],
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Serge-Lutens/La-Fille-de-Berlin-17162.html",
+    "extractedAt": "2026-11-25T11:52:57.915Z",
+    "name": "La Fille de Berlin",
+    "brand": "Serge Lutens",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": "Christopher Sheldrake",
+    "topNotes": [
+      "Rose",
+      "Geranium"
+    ],
+    "middleNotes": [
+      "Palmarosa"
+    ],
+    "baseNotes": [
+      "Honey",
+      "Moss",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17162.jpg",
+    "rating": 4.02,
+    "ratingVotes": 6774,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 27
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 21
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 15
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 15
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 17162,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "La Fille de Berlin",
+    "brandFa": "سرژ لوتنس",
+    "nameFa": "La Fille de Berlin",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christopher Sheldrake",
+    "topNotesFa": [
+      "گل رز",
+      "گل جعفری"
+    ],
+    "middleNotesFa": [
+      "Palmarosa"
+    ],
+    "baseNotesFa": [
+      "عسل",
+      "خزه",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/House-of-BO/Ave-Maria-105029.html",
+    "extractedAt": "2026-11-25T11:53:02.267Z",
+    "name": "Ave Maria",
+    "brand": "House of BŌ",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Gardenia",
+      "Indonesian Jasmine",
+      "Cashmeran"
+    ],
+    "middleNotes": [
+      "Neroli",
+      "Pear",
+      "Rain Notes"
+    ],
+    "baseNotes": [
+      "Red Wine",
+      "Oak",
+      "Leather"
+    ],
+    "description": "Ave Maria by House of Bo is a fragrance that captures the essence of magnetic beauty and luminous grace. It opens with dewy gardenia, followed by a floral heart of African neroli, and settles into the intoxicating depth of a merlot wine accord.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105029.jpg",
+    "rating": 4.14,
+    "ratingVotes": 502,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "wine",
+        "nameFa": "شرابی",
+        "percent": 27
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 23
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 17
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 17
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 105029,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ave Maria",
+    "brandFa": "House of BŌ",
+    "nameFa": "Ave Maria",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گاردنیا",
+      "Indonesian Jasmine",
+      "کشماران"
+    ],
+    "middleNotesFa": [
+      "نرولی",
+      "گلابی",
+      "Rain Notes"
+    ],
+    "baseNotesFa": [
+      "Red Wine",
+      "Oak",
+      "چرم"
+    ],
+    "descriptionFa": "Ave Maria از برند House of Bo عطری است که ماهیت زیبایی خیره‌کننده و وقار درخشان را در خود جای داده است. این عطر با رایحهٔ باغ‌گل شبنم‌زده آغاز می‌شود، سپس به قلب گل‌فام نرولی آفریقایی می‌رسد و در نهایت در عمق مست‌کنندهٔ نت شراب مرلو آرام می‌گیرد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-410.html",
+    "extractedAt": "2026-11-25T11:53:08.028Z",
+    "name": "Acqua di Gio",
+    "brand": "Giorgio Armani",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 1996,
+    "perfumer": "Alberto Morillas, Annick Menardo and Christian Dussoulier",
+    "topNotes": [
+      "Lime",
+      "Lemon",
+      "Bergamot",
+      "Jasmine",
+      "Orange",
+      "Mandarin Orange",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Sea Notes",
+      "Jasmine",
+      "Calone",
+      "Rosemary",
+      "Peach",
+      "Freesia",
+      "Hiacynth",
+      "Cyclamen",
+      "Violet",
+      "Coriander",
+      "Rose",
+      "Nutmeg",
+      "Mignonette"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Cedar",
+      "Oakmoss",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "Inspired by beauty of Pantellerie, where he spent his vacation, Armani created the aroma of Aqua di Gio for men and women. The fragrance for men is a scent of freedom, full of wind and water. The composition is built of a perfect harmony of sweet and salty notes of sea water and nuances of sunny warmth on your skin. Aqua di Gio is full of scorching Mediterranean sun. Bitter citrus with aromatic nuance of rosemary intertwines with salty, sea nuances and pellucid hedione. Sharp notes of spices are softened by woody base with warm, musky trail.</p> <p>It was created in 1996 by Alberto Morillas.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.410.jpg",
+    "rating": 4.13,
+    "ratingVotes": 26351,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 29
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 24
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 410,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Acqua di Gio",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Acqua di Gio",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "perfumerFa": "Alberto Morillas, Annick Menardo and Christian Dussoulier",
+    "topNotesFa": [
+      "لیمو سبز",
+      "لیمو",
+      "برگاموت",
+      "یاسمن",
+      "پرتقال",
+      "نارنگی",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "Sea Notes",
+      "یاسمن",
+      "Calone",
+      "رزماری",
+      "هلو",
+      "فریزیا",
+      "Hiacynth",
+      "Cyclamen",
+      "بنفشه",
+      "گشنیز",
+      "گل رز",
+      "جوز هندی",
+      "Mignonette"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "سرو",
+      "خزه بلوط",
+      "پچولی",
+      "کهربا"
+    ],
+    "descriptionFa": "آرمانی با الهام از زیبایی پانتلریه، جایی که تعطیلات خود را در آن گذراند، عطر Aqua di Gio را برای مردان و زنان خلق کرد. این عطر مردانه، رایحه‌ای از آزادی است که سرشار از حس باد و آب است. این ترکیب از هماهنگی کامل رایحه‌های شیرین و شور آب دریا و ظرافت‌های گرمای آفتاب روی پوست شما تشکیل شده است. Aqua di Gio سرشار از آفتاب سوزان مدیترانه است. مرکبات تلخ با رایحه معطر رزماری با رایحه شور دریا در هم می‌آمیزند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Insolence-Eau-de-Parfum-67537.html",
+    "extractedAt": "2026-11-25T11:53:13.824Z",
+    "name": "Insolence Eau de Parfum",
+    "brand": "Guerlain",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Violet"
+    ],
+    "middleNotes": [
+      "Wild Strawberry",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Iris",
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67537.jpg",
+    "rating": 4.1,
+    "ratingVotes": 2317,
+    "accords": [
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 99
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 31
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 67537,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Insolence",
+    "brandFa": "گرلن",
+    "nameFa": "Insolence Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "بنفشه"
+    ],
+    "middleNotesFa": [
+      "Wild Strawberry",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "زنبق",
+      "وانیل",
+      "لوبیا تونکا",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hedonik/Divine-Perversion-69398.html",
+    "extractedAt": "2026-11-25T11:53:18.679Z",
+    "name": "Divine Perversion",
+    "brand": "Hedonik",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Francesca Bianchi",
+    "topNotes": [
+      "Raspberry",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Caramel",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Amber",
+      "Woody Notes",
+      "Animal notes. The fragrance features Leather",
+      "Amber",
+      "Woody Notes"
+    ],
+    "description": "Daring and funny, fruity and leathery: Divine Perversion is aplayful perfume, centred on a daring leather with a cheerfultwist of raspberry and rose.This is the first perfume of Hedonik, a brand created byFrancesca Bianchi to celebrate her love of leather goods,perfumes, and other object of pleasure.Divine Perversion plays on the contrapposition between asweet, fruity side and an intense, ambery note on the otherone.</p> <p>\"I dedicated this perfume to the leather note, being this material the central component of Hedonik brand - as well as one of my favorite notes. Leather is in fact crucial in this composition, by standing out from the opening to the drydown. I like to play with contradictions, so I used sweet, fruity, caramel notes on one side, and intense leathery and ambery notes on the other as a contrast. I also love to use animalic notes, that add intensity, a sense of humanity and carnality, that makes the perfume irresistibly sensual.\" - Francesca Bianchi, the perfumer.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69398.jpg",
+    "rating": 3.92,
+    "ratingVotes": 380,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 97
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 97
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 90
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 82
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 78
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 69398,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Divine Perversion",
+    "brandFa": "Hedonik",
+    "nameFa": "Divine Perversion",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Francesca Bianchi",
+    "topNotesFa": [
+      "تمشک",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "کارامل",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "کهربا",
+      "Woody Notes",
+      "Animal notes. The fragrance features Leather",
+      "کهربا",
+      "Woody Notes"
+    ],
+    "descriptionFa": "جسورانه و بامزه، میوه‌ای و چرمی: Divine Perversion یک عطر بازیگوش است که بر پایه رایحه جسورانه چرم با ترکیبی شاداب از تمشک و گل رز ساخته شده است. این اولین عطر برند Hedonik است که توسط فرانچسکا بیانکی برای تجلیل از عشقش به کالاهای چرمی، عطرها و سایر اشیاء لذت‌بخش ایجاد شده است. Divine Perversion بر تضاد بین جنبه شیرین و میوه‌ای از یک سو و رایحه شدید و کهربایی از سوی دیگر بازی می‌کند.</p> <p>«من این عطر را تقدیم کردم به...»",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Gucci-Bloom-Intense-79602.html",
+    "extractedAt": "2026-11-25T11:53:26.015Z",
+    "name": "Gucci Bloom Intense",
+    "brand": "Gucci",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Pear",
+      "Ginger",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Night Blooming Jasmine",
+      "Jasmine Sambac",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Moss",
+      "Patchouli",
+      "Coconut"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79602.jpg",
+    "rating": 3.86,
+    "ratingVotes": 887,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 37
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 21
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 21
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 20
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 79602,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Gucci Bloom",
+    "brandFa": "گوشی",
+    "nameFa": "Gucci Bloom Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "گلابی",
+      "زنجبیل",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "Night Blooming Jasmine",
+      "Jasmine Sambac",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "خزه",
+      "پچولی",
+      "نارگیل"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BLACKSTAG/Pulse-144001.html",
+    "extractedAt": "2026-11-25T11:53:29.493Z",
+    "name": "Pulse",
+    "brand": "BLACKSTAG",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Linda Song",
+    "topNotes": [
+      "Violet",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Orris"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk",
+      "Cedarwood"
+    ],
+    "description": "Pulse by BLACKSTAG is a woody floral musk extrait de parfum built around a bold, rhythmic character. Mandarin orange and violet open the composition, followed by orris and lily of the valley over a base of cedarwood, sandalwood and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.144001.jpg",
+    "rating": 4.5,
+    "ratingVotes": 6,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 77
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 38
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 144001,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pulse",
+    "brandFa": "BLACKSTAG",
+    "nameFa": "Pulse",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Linda Song",
+    "topNotesFa": [
+      "بنفشه",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Pulse از برند BLACKSTAG یک عطر اکستریت با رایحه مشک، گل و چوب است که بر اساس شخصیتی جسور و ریتمیک ساخته شده است. نارنگی ماندارین و بنفشه مقدمه این ترکیب هستند، سپس زنبق و گل معطر درختی بر پایه سدر، چوب صندل و مشک قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
