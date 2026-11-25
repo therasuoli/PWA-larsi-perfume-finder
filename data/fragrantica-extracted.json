@@ -61147,5 +61147,1551 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Calms/Obscure-148710.html",
+    "extractedAt": "2026-11-25T02:15:01.712Z",
+    "name": "Obscure",
+    "brand": "Calms",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Harry Sherwood",
+    "topNotes": [
+      "Sesame",
+      "Cinnamon",
+      "Rum"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Oud",
+      "Oak",
+      "Beeswax"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Vanilla",
+      "Benzoin",
+      "Labdanum",
+      "Myrrh",
+      "Oud",
+      "Patchouli",
+      "Peru Balsam"
+    ],
+    "description": "Obscure by CALMS is a fragrance created by Harry Sherwood and launched in 2026. Its concept draws on “O Fortuna” from Carl Orff’s Carmina Burana and the image of the ever-turning wheel of fortune, reflecting change and the tension between the known and the unknown. The composition opens with congeners, sesame, cinnamon and rum, followed by cacao, oud, oak and beeswax over a base of vetiver, vanilla, benzoin, labdanum, myrrh, oud, patchouli and Peru balsam.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148710.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 81
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 59
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 38
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 32
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148710,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Obscure",
+    "brandFa": "Calms",
+    "nameFa": "Obscure",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Harry Sherwood",
+    "topNotesFa": [
+      "Sesame",
+      "دارچین",
+      "رام"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "عود",
+      "Oak",
+      "Beeswax"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "وانیل",
+      "بنزوئین",
+      "لابدانوم",
+      "مور",
+      "عود",
+      "پچولی",
+      "بلسام پرو"
+    ],
+    "descriptionFa": "Obscure از برند CALMS عطری است که توسط هری شرود ساخته شده و در سال ۲۰۲۶ عرضه شده است. مفهوم آن از «O Fortuna» در کارمینا بورانا اثر کارل اورف و تصویر چرخ اقبال که همیشه در حال چرخش است، الهام گرفته شده و تغییر و تنش بین شناخته‌شده و ناشناخته را منعکس می‌کند. این ترکیب با ترکیبات مشابه، کنجد، دارچین و عطر روم آغاز می‌شود و سپس کاکائو، عود، بلوط و موم زنبور عسل بر پایه‌ای از وتیور، وانیل، بنزوئین، لادن، مر، عود، نعناع هندی و Pe قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Samsara-Eau-de-Parfum-67313.html",
+    "extractedAt": "2026-11-25T02:15:08.309Z",
+    "name": "Samsara Eau de Parfum",
+    "brand": "Guerlain",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Iris",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67313.jpg",
+    "rating": 3.85,
+    "ratingVotes": 999,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 76
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 43
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 41
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 67313,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Samsara",
+    "brandFa": "گرلن",
+    "nameFa": "Samsara Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "زنبق",
+      "وانیل",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Montabaco-Aruba-2025-101566.html",
+    "extractedAt": "2026-11-25T02:15:12.932Z",
+    "name": "Montabaco Aruba 2025",
+    "brand": "Ormonde Jayne",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Orange",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Magnolia",
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Tobacco Leaf",
+      "Sandalore™",
+      "Cardamom",
+      "Leather"
+    ],
+    "description": "Montabaco Aruba is a Citrus Leather tribute to the island's natural allure, bringing forth a smooth and cool scent with an addictive warmth that lingers on the skin. It features a rich, creamy sandalwood base, enhanced by radiant top notes of bergamot, orange absolute, and grapefruit. The fragrance opens into a lush floral bouquet of magnolia, jasmine, rose, and violet, evoking the tropical blooms of the island. Deeper notes of tobacco leaf and leather, delicately spiced with cardamom, and rounded out by sandalore. Cool. Distinguished. Inviting.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101566.jpg",
+    "rating": 4.25,
+    "ratingVotes": 102,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 89
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 77
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 65
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 42
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 101566,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Montabaco Aruba 2025",
+    "brandFa": "Ormonde Jayne",
+    "nameFa": "Montabaco Aruba 2025",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "پرتقال",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "ماگنولیا",
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "برگ تنباکو",
+      "Sandalore™",
+      "هل",
+      "چرم"
+    ],
+    "descriptionFa": "Montabaco Aruba ادای احترامی با رایحه مرکبات و چرم به جذابیت طبیعی این جزیره است که عطر ملایم و خنکی با گرمای اعتیادآور ایجاد می‌کند که روی پوست باقی می‌ماند. این عطر دارای یک رایحه پایه غنی و خامه مانند چوب صندل است که با نت‌های اولیه درخشان ترنج، عصاره خالص پرتقال و گریپ‌فروت تقویت شده است. این عطر با یک دسته گل سرسبز شامل مگنولیا، یاس، رز و بنفشه آغاز می‌شود که شکوفه‌های استوایی جزیره را تداعی می‌کند. نت‌های عمیق‌تر برگ تنباکو و",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Odette-Parfum-Co/Pas-de-Chat-89644.html",
+    "extractedAt": "2026-11-25T02:15:19.789Z",
+    "name": "Pas de Chat",
+    "brand": "Odette Parfum Co",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Odette Fontaine",
+    "topNotes": [
+      "Cake",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Fur",
+      "Cashmeran",
+      "Iso E Super"
+    ],
+    "baseNotes": [
+      "Vanilla Bean",
+      "Ambrette (Musk Mallow)",
+      "Tonka",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89644.jpg",
+    "rating": 4.35,
+    "ratingVotes": 378,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 77
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 68
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 89644,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pas de Chat",
+    "brandFa": "Odette Parfum Co",
+    "nameFa": "Pas de Chat",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Odette Fontaine",
+    "topNotesFa": [
+      "Cake",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "خز",
+      "کشماران",
+      "Iso E Super"
+    ],
+    "baseNotesFa": [
+      "Vanilla Bean",
+      "Ambrette (Musk Mallow)",
+      "Tonka",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AndreSimon/Senneh-143735.html",
+    "extractedAt": "2026-11-25T02:15:23.347Z",
+    "name": "Senneh",
+    "brand": "AndrèSimon",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Andrea Rusce",
+    "topNotes": [
+      "Mint",
+      "Saffron",
+      "Hibiscus",
+      "Davana"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Rose",
+      "Cinnamon",
+      "Dates"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Siam Benzoin",
+      "Nard",
+      "Mitti Attar",
+      "Coumarin",
+      "Cypriol",
+      "Patchouli",
+      "Oud",
+      "Java vetiver oil"
+    ],
+    "description": "\"The new Operevive collection was born from a need to relinquish control.<br /> Too often, we move through life trying to eliminate every element of uncertainty, seeking to feel safer and less vulnerable in the face of unwanted change.<br /> In perfumery, we can say that synthetic materials have historically provided greater stability, reproducibility, standardisation and certainty of performance. At the same time, however, they have also allowed us to escape the unpredictability of natural raw materials.<br /> Naturals do not allow you to have complete control over a formula, because they are living matter - matter in constant transformation, composed of thousands of molecules that dance and merge with other materials, themselves made up of thousands of molecules. They interact in ways and at times we cannot foresee. The possible combinations are infinite, just as the upheavals of life can be.<br /> At this stage of my creative journey, I felt the need to abandon my certainties, to lose myself and allow nature to lead me, without knowing exactly where it might take me, but with the awareness that whatever emerges will be a living work precisely because it is uncertain.</p> <p>Senneh is an asymmetrical knot characteristic of Persian carpets woven in the Iranian region of Kurdistan, from which they also take their name. Senneh is also the ancient name of Sanandaj, a Kurdish city that embodies the countless cultural facets of a country with a history spanning thousands of years.<br /> \"Human beings are limbs of one body. If one part suffers, the others cannot remain at peace.\"<br /> - Saadi</p> <p>At this moment in history, the name of Iran is so often surrounded by dark narratives, and yet the land that fills today's headlines is also one of the oldest cradles of human civilisation. A land that for millennia has nurtured poetry, philosophy, science, art and spirituality.<br /> Ancient Persia is not merely a nation; it is a civilisation that spans the centuries and continues to speak to the heart of humanity. Long before many modern states came into existence, Persia had already developed magnificent cities, libraries and schools of thought, and had given rise to astronomers, physicians and philosophers. It is no coincidence that some of the most profound poets in history were born in that very land.<br /> When we look at a country solely through the lens of current events, we risk forgetting what its people truly are: the heirs to a history thousands of years old, a remarkably rich language and a culture that has endured empires, religions and different eras without losing its soul.</p> <p>Persia is a land of gardens, of carpets woven like stories, of delicate miniatures, of knowledge and poetry. A civilisation that taught the world the beauty of the written word and the depth of contemplation.</p> <p>30 ml - 37% concentration - Extrait de Parfum<br /> Conceived and created exclusively with natural raw materials</p> <p>Base Notes: Benzoin Resinoid Sumatra, Benzoin Resinoid Siam, Natural Coumarin, Cypriol, Java<br /> Vetiver, Green Patchouli Absolute, Malinau Oud, Mitti Attar, Musk Root Absolute<br /> Heart Notes: Persian Rose Otto, Iranian Rose, Natural Rose Accord, Cinnamon Bark CO2, Green<br /> Frankincense Sacra, Natural Date Accord<br /> Top Notes: Davana E.O., Saffron Tincture, Hibiscus Tincture, Persian Mint</p> <p>The fragrance is scheduled to launch on October 10, presented in a new 30 ml bottle with new packaging.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143735.jpg",
+    "rating": 4.75,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 22
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 143735,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Senneh",
+    "brandFa": "AndrèSimon",
+    "nameFa": "Senneh",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Andrea Rusce",
+    "topNotesFa": [
+      "نعناع",
+      "زعفران",
+      "گل رز",
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "گل رز",
+      "دارچین",
+      "Dates"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "Siam Benzoin",
+      "Nard",
+      "Mitti Attar",
+      "Coumarin",
+      "سایپریول",
+      "پچولی",
+      "عود",
+      "Java vetiver oil"
+    ],
+    "descriptionFa": "«کلکسیون جدید Operevive از نیاز به رها کردن کنترل متولد شد.<br /> اغلب اوقات، ما در طول زندگی تلاش می‌کنیم تا هرگونه عنصر عدم اطمینان را از بین ببریم و در مواجهه با تغییرات ناخواسته، به دنبال این هستیم که احساس امنیت بیشتری داشته باشیم و کمتر آسیب‌پذیر باشیم.<br /> در صنعت عطر می‌توان گفت که مواد سنتزی از نظر تاریخی پایداری، قابلیت تکرارپذیری، استانداردسازی و اطمینان از عملکرد بیشتری را فراهم کرده‌اند. اما در عین حال، این مواد امکان",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Crivelli/Musc-Nurasana-128346.html",
+    "extractedAt": "2026-11-25T02:15:29.326Z",
+    "name": "Musc Nurāsana",
+    "brand": "Maison Crivelli",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Gaël Montero",
+    "topNotes": [
+      "Bergamot",
+      "Ginger",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Damask Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Labdanum",
+      "Tonka Bean",
+      "Fir"
+    ],
+    "description": "Musc Nurāsana by Maison Crivelli is a unisex extrait de parfum created by Gaël Montero and released in 2026.</p> <p>Presented as the first chapter in a musk-focused exploration, the fragrance is inspired by Thibaud Crivelli’s experience of early morning exercise on a terrace at first light. The composition opens with Italian bergamot, ginger, and Indian cardamom, moving into a heart of Somali frankincense and Turkish Damask rose. Tonka bean, cistus, fir balsam, and musk form the base, giving the fragrance a warm, resinous, spicy-musky character with soft floral nuances.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.128346.jpg",
+    "rating": 4.11,
+    "ratingVotes": 1048,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 92
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 68
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 45
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 128346,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Musc Nurāsana",
+    "brandFa": "مزون کریولی",
+    "nameFa": "Musc Nurāsana",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gaël Montero",
+    "topNotesFa": [
+      "برگاموت",
+      "زنجبیل",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "گل رز دمشقی"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "لابدانوم",
+      "لوبیا تونکا",
+      "نراد"
+    ],
+    "descriptionFa": "Musc Nurāsana از Maison Crivelli یک عطر یونیسکس است که توسط گائل مونترو ساخته شده و در سال 2026 عرضه شده است.</p> <p>این عطر که به عنوان فصل اول یک کاوش متمرکز بر مشک معرفی شده است، از تجربه تیبو کریولی در مورد ورزش صبحگاهی در تراس در اولین ساعات روشنایی الهام گرفته است. این ترکیب با رایحه ترنج ایتالیایی، زنجبیل و هل هندی آغاز می‌شود و به رایحه اصلی کندر سومالی و گل رز دمشقی ترکیه می‌رسد. دانه‌های تونکا، لادن",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bharara/Green-Phantom-142996.html",
+    "extractedAt": "2026-11-25T02:15:35.164Z",
+    "name": "Green Phantom",
+    "brand": "Bharara",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Rose",
+      "Grapefruit",
+      "Bergamot",
+      "Black Currant",
+      "Mandarin Orange",
+      "Lemon",
+      "Geranium",
+      "Red Pepper",
+      "Black Pepper",
+      "Cardamom",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Green Notes",
+      "Magnolia",
+      "Floral Notes",
+      "Green Apple",
+      "Pear"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vetiver",
+      "Woody Notes",
+      "Sandalwood",
+      "Cedarwood",
+      "Tonka Bean",
+      "Oakmoss",
+      "Ambrette (Musk Mallow)",
+      "Ambergris",
+      "Cashmere Wood"
+    ],
+    "description": "Green Phantom by Bharara is a woody aromatic eau de parfum. Mandarin orange, lemon, grapefruit and bergamot open with black currant, rose, geranium and spices; green notes, floral notes, green apple, pear and magnolia form the heart, while vetiver, woods, patchouli, sandalwood, tonka bean, oakmoss, ambergris, ambrette, cedarwood and cashmere wood compose the base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142996.jpg",
+    "rating": 4.48,
+    "ratingVotes": 23,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 99
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 97
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 73
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 62
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 142996,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Green Phantom",
+    "brandFa": "Bharara",
+    "nameFa": "Green Phantom",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گل رز",
+      "گریپ‌فروت",
+      "برگاموت",
+      "توت سیاه",
+      "نارنگی",
+      "لیمو",
+      "گل جعفری",
+      "Red Pepper",
+      "فلفل سیاه",
+      "هل",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "نت‌های سبز",
+      "ماگنولیا",
+      "Floral Notes",
+      "سیب سبز",
+      "گلابی"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وتیور",
+      "Woody Notes",
+      "چوب صندل",
+      "چوب سرو",
+      "لوبیا تونکا",
+      "خزه بلوط",
+      "Ambrette (Musk Mallow)",
+      "کهربا خاکستری",
+      "Cashmere Wood"
+    ],
+    "descriptionFa": "Green Phantom از برند Bharara یک ادو پرفیوم معطر چوبی است. نُت‌های اولیه شامل نارنگی، لیمو، گریپ‌فروت و ترنج همراه با انگور فرنگی سیاه، گل رز، شمعدانی و ادویه‌جات؛ نُت‌های میانی شامل نُت‌های سبز، نُت‌های گل‌دار، سیب سبز، گلابی و مگنولیا رایحه میانی را تشکیل می‌دهند، در حالی که خس‌خس، چوب، نعناع هندی، چوب صندل، دانه‌ تونکا، خزه بلوط، عنبر سائل، گل ادریسی، چوب سدر و چوب کشمیر رایحه پایه را تشکیل می‌دهند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roja-Dove/Lost-In-Paris-97481.html",
+    "extractedAt": "2026-11-25T02:15:41.759Z",
+    "name": "Lost In Paris",
+    "brand": "Roja Dove",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Blood Orange",
+      "Bitter Orange",
+      "Mandarin",
+      "Rum"
+    ],
+    "middleNotes": [
+      "Butter",
+      "Caramel",
+      "Sugar"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cinnamon",
+      "Musk",
+      "Cashmere Wood",
+      "Clove",
+      "Pink Pepper",
+      "Ambergris",
+      "Cedarwood"
+    ],
+    "description": "Lost In Paris by Roja Parfums is a gourmand fragrance that captures the essence of Parisian high society. This perfume blends rich and sumptuous raw materials, creating a luxurious gourmand accord. The scent features notes of caramelized oranges, butter, brown sugar, rum, vanilla bourbon, and ambergris.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97481.jpg",
+    "rating": 4.12,
+    "ratingVotes": 641,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 32
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 97481,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lost In Paris",
+    "brandFa": "Roja Dove",
+    "nameFa": "Lost In Paris",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پرتقال خونی",
+      "پرتقال تلخ",
+      "Mandarin",
+      "رام"
+    ],
+    "middleNotesFa": [
+      "کره",
+      "کارامل",
+      "شکر"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "دارچین",
+      "موش",
+      "Cashmere Wood",
+      "میخک",
+      "فلفل صورتی",
+      "کهربا خاکستری",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Lost In Paris از برند Roja Parfums یک عطر گورماند است که ماهیت طبقه بالای جامعه پاریس را در خود جای داده است. این عطر ترکیبی از مواد اولیه غنی و مجلل است که یک آکورد گورماند لوکس را ایجاد می‌کند. این عطر دارای رایحه‌های پرتقال کاراملی‌شده، کره، شکر قهوه‌ای، رام، وانیل بوربون و عنبر است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Naughton-Wilson/Arezzo-99637.html",
+    "extractedAt": "2026-11-25T02:15:47.616Z",
+    "name": "Arezzo",
+    "brand": "Naughton & Wilson",
+    "family": "Woody",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "John Stephen",
+    "topNotes": [
+      "Mandarin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Brandy",
+      "Spices",
+      "Plum",
+      "Orris",
+      "Labdanum"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Incense",
+      "Patchouli",
+      "Cambodian Oud",
+      "Musk",
+      "Ambergris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99637.jpg",
+    "rating": 4.09,
+    "ratingVotes": 57,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 47
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 42
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 99637,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Arezzo",
+    "brandFa": "Naughton & Wilson",
+    "nameFa": "Arezzo",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "John Stephen",
+    "topNotesFa": [
+      "Mandarin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Brandy",
+      "Spices",
+      "آلو",
+      "ریشه زنبق",
+      "لابدانوم"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "عود بخور",
+      "پچولی",
+      "Cambodian Oud",
+      "موش",
+      "کهربا خاکستری"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Gucci-Guilty-Absolute-43040.html",
+    "extractedAt": "2026-11-25T02:15:52.312Z",
+    "name": "Gucci Guilty Absolute",
+    "brand": "Gucci",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Leather"
+    ],
+    "middleNotes": [
+      "Cypress",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Vetiver"
+    ],
+    "description": "Gucci Guilty Absolute, the new edition of the masculine Gucci Guilty fragrance, comes out in early 2017. It is the product of collaboration between the creative director of the Gucci house Alessandro Michele and perfumer Alberto Morillas. </p> <p> <š> The top notes include leather. The heat is made of patchouli and the base captures goldenwood and vetiver. From the brand: „Created using a particular blend with a structure that remains unchanged from the first time it is applied to the skin. Leather accord and goldenwood are custom-mixed with natural extract of the Nootka Cypress, selected especially for Gucci Guilty Absolute. The resulting scent features ultra-dry woody notes. The fragrance’s composition is intensified with three forms of patchouli oils and earthy vetiver.“</p> <p>Available as a 90 and 150 ml eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43040.jpg",
+    "rating": 4.12,
+    "ratingVotes": 7001,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 68
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 41
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 34
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 27
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 25
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 20
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 43040,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "Gucci Guilty te",
+    "brandFa": "گوشی",
+    "nameFa": "Gucci Guilty Absolute",
+    "concentrationFa": "ابسولو",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "چرم"
+    ],
+    "middleNotesFa": [
+      "سرو کوهی",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "وتیور"
+    ],
+    "descriptionFa": "Gucci Guilty Absolute، نسخه جدید عطر مردانه Gucci Guilty، در اوایل سال 2017 عرضه می‌شود. این عطر حاصل همکاری بین مدیر خلاق خانه مد گوچی، الساندرو میشل، و عطرساز، آلبرتو موریلاس است. </p> <p> &lt;š&gt; نت‌های اولیه شامل رایحه چرم هستند. نت میانی از نعناع هندی تشکیل شده و نت پایه شامل چوب طلایی و وتیور است. از طرف برند: «با استفاده از ترکیبی خاص با ساختاری که بدون تغییر باقی می‌ماند، ساخته شده است.»",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Summer-Fridays/Sunlit-Vanilla-127898.html",
+    "extractedAt": "2026-11-25T02:15:58.863Z",
+    "name": "Sunlit Vanilla",
+    "brand": "Summer Fridays",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Sunlit Vanilla by Summer Fridays is a vanilla-centered fragrance that highlights gourmand nuances with a summery character. It opens with a touch of bergamot that adds brightness before moving into a heart of caramel and coconut, evoking a dessert-like impression. The base combines vanilla, creamy musk, tonka bean and amber, creating a soft, sweet and warm drydown that emphasizes comfort and sweetness without becoming overly heavy.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.127898.jpg",
+    "rating": 3.87,
+    "ratingVotes": 450,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 75
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 65
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 29
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 23
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 127898,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sunlit Vanilla",
+    "brandFa": "Summer Fridays",
+    "nameFa": "Sunlit Vanilla",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "Sunlit Vanilla از برند Summer Fridays یک عطر مبتنی بر وانیل است که ته‌رایحه‌های شیرین را با حال و هوای تابستانی برجسته می‌کند. این عطر با رایحه‌ای از برگاموت آغاز می‌شود که قبل از ورود به نت میانی کارامل و نارگیل، درخشندگی خاصی به آن می‌بخشد و حسی شبیه به دسر را تداعی می‌کند. رایحه پایه ترکیبی از وانیل، مشک خامه ای، دانه‌ی تونکا و عنبر است که رایحه‌ای ملایم، شیرین و گرم ایجاد می‌کند که بر راحتی و شیرینی تأکید دارد، بدون اینکه بیش از حد سنگین شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Queen-of-Silk-89643.html",
+    "extractedAt": "2026-11-25T02:16:05.581Z",
+    "name": "Queen of Silk",
+    "brand": "Creed",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Osmanthus",
+      "Magnolia"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Patchouli",
+      "Passionfruit",
+      "Agarwood (Oud)"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Ambroxan",
+      "Myrrh",
+      "Musk",
+      "Incense",
+      "Cedarwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89643.jpg",
+    "rating": 3.83,
+    "ratingVotes": 1861,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 98
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 51
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 89643,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Queen of Silk",
+    "brandFa": "کريد",
+    "nameFa": "Queen of Silk",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "اسمانتوس",
+      "ماگنولیا"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "پچولی",
+      "Passionfruit",
+      "Agarwood (Oud)"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "آمبروکسان",
+      "مور",
+      "موش",
+      "عود بخور",
+      "چوب سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ex-Nihilo/French-Affair-47569.html",
+    "extractedAt": "2026-11-25T02:16:09.003Z",
+    "name": "French Affair",
+    "brand": "Ex Nihilo",
+    "family": "Chypre",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Violet Leaf",
+      "Litchi",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Rose Oil",
+      "Atlas Cedar",
+      "Angelica"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "\"French Affair revisits the typically seductive optimism from the 70’s. It combines anti-conformism and chic attitude with a charming Parisian airiness. French Affair is inspired by the new Dandies, wandering with panache on boulevard Saint-Germain. It embodies a natural seduction, and plays with gender codes. Its pure and sparkling notes of Bergamot, Rose and Vetiver melt to highlight the richness of an Avant-Garde Chypre. A creation that celebrates a new Rive Gauche spirit.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47569.jpg",
+    "rating": 3.83,
+    "ratingVotes": 585,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 78
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 42
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 32
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 47569,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "French Affair",
+    "brandFa": "اِکس نیهیلو",
+    "nameFa": "French Affair",
+    "familyFa": "شیپر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "برگ بنفشه",
+      "Litchi",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Rose Oil",
+      "سرو اطلس",
+      "Angelica"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "وتیور",
+      "پچولی"
+    ],
+    "descriptionFa": "«French Affair خوش‌بینی اغواکننده و типично دهه ۷۰ را دوباره زنده می‌کند. این عطر ترکیبی از روحیه ضد انطباق و شیک‌پوشی با حس دلنشین و جذاب پاریسی است. French Affair از دندی‌های جدید الهام گرفته است که با شکوه و متانت در بلوار سن ژرمن قدم می‌زنند. این عطر تجسمی از جذابیت طبیعی است و با قواعد جنسیتی بازی می‌کند. نت‌های خالص و درخشان ترنج، گل رز و وتیور در هم می‌آمیزند تا غنای یک رایحه چیپر آوانگارد را برجسته کنند. اثری که",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
