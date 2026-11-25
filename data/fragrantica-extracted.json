@@ -65541,5 +65541,1292 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/Rien-4522.html",
+    "extractedAt": "2026-11-25T05:57:01.557Z",
+    "name": "Rien",
+    "brand": "Etat Libre d'Orange",
+    "family": "Woody Chypre",
+    "gender": "women and men. <b>Rien</b> was launched in 2006. The nose behind this fragrance is Antoine Lie. The fragrance features Leather, Incense, Aldehydes, Styrax, Patchouli, Oakmoss, Labdanum, Amber, Iris, Black Pepper, Cumin and Rose",
+    "year": 2006,
+    "perfumer": "Antoine Lie",
+    "description": "Nothing is Everything. Do not believe what you first see… under the demureness of the name, the spicy savour of blackcurrant bays and the musky notes of blond suede. Rien is a second skin perfume, a perfume that clings to the body and perseveres in the mind. </p> <p>Like venial sin on the verge of becoming mortal, irresistible and resolutely pervasive. As light as mohair and as precious as cashmere, the fragrance envelops skin with a powdered caress. It has the meticulous elegance and hypnotic beauty of a modern Dorian Gray, in a feminine/masculine version. An entrancing fragrance that leaves an unforgettable imprint. Utter charm, utterly charismatic. The vanilla/opium accord of the drydown reinforces the addiction. Rien is an essential. A perfumer’s confession. </p> <p> Composition: Incense, rose, leather, cistus, oakmoss, patchouli, amber, cumin, black pepper, aldehyde...</p> <p> Perfumer is Antoine Lie.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4522.jpg",
+    "rating": 3.76,
+    "ratingVotes": 2816,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 52
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 48
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 40
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 36
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 4522,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rien",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "Rien",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "women and men. <b>Rien</b> was launched in 2006. The nose behind this fragrance is Antoine Lie. The fragrance features Leather, Incense, Aldehydes, Styrax, Patchouli, Oakmoss, Labdanum, Amber, Iris, Black Pepper, Cumin and Rose",
+    "perfumerFa": "Antoine Lie",
+    "descriptionFa": "هیچ‌چیز، همه چیز است. آنچه در ابتدا می‌بینید را باور نکنید… در پس نامی محجوب، طعم تند برگ‌های انگورفرنگی سیاه و رایحه‌های مشک‌آگین جیر روشن نهفته است. Rien عطری است که مانند پوست دوم به بدن می‌چسبد و در ذهن باقی می‌ماند. </p> <p>مانند گناهی کوچک که در آستانه تبدیل شدن به گناهی کبیره است، غیرقابل مقاومت و کاملاً فراگیر. این عطر به سبکی موهر و به ارزشمندی کشمیر است و پوست را با رایحه‌ای پودری فرا می‌گیرد.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Velvetail-Perfumes/Welsh-Corgi-148452.html",
+    "extractedAt": "2026-11-25T05:57:06.734Z",
+    "name": "Welsh Corgi",
+    "brand": "Velvetail Perfumes",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Prin Lomros",
+    "topNotes": [
+      "Solar Notes",
+      "Orange Blossom",
+      "Nectarine"
+    ],
+    "middleNotes": [
+      "Wildflowers",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Marzipan",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148452.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 86
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 72
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 57
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 46
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148452,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Welsh Corgi",
+    "brandFa": "Velvetail Perfumes",
+    "nameFa": "Welsh Corgi",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Prin Lomros",
+    "topNotesFa": [
+      "Solar Notes",
+      "گل پرتقال",
+      "Nectarine"
+    ],
+    "middleNotesFa": [
+      "گل‌های وحشی",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "مارزیپان",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Ejaazi-68228.html",
+    "extractedAt": "2026-11-25T05:57:10.809Z",
+    "name": "Ejaazi",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": null,
+    "topNotes": [
+      "Citruses",
+      "Orange",
+      "Lavender",
+      "Cardamom",
+      "Myrtle"
+    ],
+    "middleNotes": [
+      "Pepper",
+      "Patchouli",
+      "Cinnamon Leaf",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Woodsy Notes",
+      "Amber",
+      "Cedar",
+      "Oakmoss",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68228.jpg",
+    "rating": 3.89,
+    "ratingVotes": 1178,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 84
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 68228,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ejaazi",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Ejaazi",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مرکبات",
+      "پرتقال",
+      "اسطوخودوس",
+      "هل",
+      "مورد"
+    ],
+    "middleNotesFa": [
+      "فلفل",
+      "پچولی",
+      "Cinnamon Leaf",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "Woodsy Notes",
+      "کهربا",
+      "سرو",
+      "خزه بلوط",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Qi-16900.html",
+    "extractedAt": "2026-11-25T05:57:15.835Z",
+    "name": "Qi",
+    "brand": "Ormonde Jayne",
+    "family": "Floral Green",
+    "gender": "women and men",
+    "year": 2012,
+    "perfumer": "Geza Schoen",
+    "topNotes": [
+      "Lemon Blossom",
+      "Neroli",
+      "Freesia"
+    ],
+    "middleNotes": [
+      "Tea",
+      "Osmanthus",
+      "Hedione",
+      "Rose",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Mate",
+      "Musk",
+      "Moss",
+      "Benzoin",
+      "Myrrh"
+    ],
+    "description": "The inspiration for the new perfume collection 'The Four Corners of the Earth' came from the indigenous flora of different parts of the world Linda Pilkington has visited on her travels.</p> <p>'Qi (pronounced “key” or “chi”) means Breath of Life. It's an ancient word that permeates the Chinese language and everyday life. This perfume is inspired by the Chinese people's love for the lightest and most delicate scents. Qi is constructed to make no great statement thus offending no one, it does not tear down any great walls but is rather something more spectacular, like an amazing dawn, a softly-scented fragile breeze, Qi is an honest, open and natural perfume, it makes its mark for those who don't want to be too obvious but may feel unfinished without it.</p> <p>Top: green lemon blossom, neroli, freesia. Heart: tea notes, osmanthus, violet, hedione, rose. Base: mate, benzoin, musk, moss, myrrh.</p> <p>The fragrance is available as Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16900.jpg",
+    "rating": 3.89,
+    "ratingVotes": 564,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 68
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 54
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 16900,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Qi",
+    "brandFa": "Ormonde Jayne",
+    "nameFa": "Qi",
+    "familyFa": "گلی سبز",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Geza Schoen",
+    "topNotesFa": [
+      "Lemon Blossom",
+      "نرولی",
+      "فریزیا"
+    ],
+    "middleNotesFa": [
+      "چای",
+      "اسمانتوس",
+      "Hedione",
+      "گل رز",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "گل ماته",
+      "موش",
+      "خزه",
+      "بنزوئین",
+      "مور"
+    ],
+    "descriptionFa": "الهام‌بخش مجموعه عطر جدید «چهار گوشه زمین»، گونه‌های گیاهی بومی مناطق مختلف جهان بود که لیندا پیلکینگتون در سفرهای خود از آنها بازدید کرده است.</p> <p>«چی (که «کی» یا «چی» تلفظ می‌شود) به معنای «نفس حیات» است. این یک کلمه باستانی است که در زبان چینی و زندگی روزمره نفوذ دارد. این عطر از علاقه مردم چین به معطرترین و ظریف‌ترین رایحه‌ها الهام گرفته شده است. Qi طوری ساخته شده که هیچ",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mugler/Angel-Elixir-78581.html",
+    "extractedAt": "2026-11-25T05:57:22.024Z",
+    "name": "Angel Elixir",
+    "brand": "Mugler",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Domitille Michalon Bertier and Anne Flipo",
+    "topNotes": [
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Ylang-Ylang",
+      "Sandalwood",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Amber Xtreme"
+    ],
+    "description": "This is the soul of an Angel reinvented. An angel you don’t expect. A pure elixir that expresses the heightened femininity of today’s fearless superwomen. Innocent but powerful. Down to earth, but unusual. Ultra-sharp yet enveloping. With <strong>Angel Elixir,</strong> a new star is born.</p> <p>A completely original, woody-floral gourmand fragrance that reinvents what makes Angel Eau de Parfum so unique. Here, Angel’s signature indulgence transforms into a floral Milky Way, encapsulated in Mugler’s iconic star-shaped bottle, transforming into a bewitching navy blue.</p> <p>A shimmering spark of metallic spices. An ethereal milky-floral bouquet designed by Mugler. A nebula of luscious vanilla infusion enhanced with the cutting-edge woody note of Oriental Xtreme™. <strong>Angel Elixir</strong> is more than just a fragrance it is a catalyst for rethinking your reality. Because the real world is not enough.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78581.jpg",
+    "rating": 3.62,
+    "ratingVotes": 2956,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 61
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 78581,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Angel",
+    "brandFa": "مولر",
+    "nameFa": "Angel Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Domitille Michalon Bertier and Anne Flipo",
+    "topNotesFa": [
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "ایلنگ‌ایلنگ",
+      "چوب صندل",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "Amber Xtreme"
+    ],
+    "descriptionFa": "این روح یک فرشته است که از نو خلق شده است. فرشته‌ای که انتظارش را ندارید. یک اکسیر ناب که بیانگر زنانگی برجستهٔ ابرزنان بی‌باک امروزی است. معصوم اما قدرتمند. واقع‌بین، اما غیرمعمول. بسیار تیز اما در عین حال فراگیر. با <strong>Angel Elixir، ستاره‌</strong>ای جدید متولد می‌شود.</p> <p>یک عطر گورماند کاملاً بدیع با رایحه چوبی-گل‌فام که آنچه باعث می‌شود ادو پرفیوم Angel این‌قدر منحصربه‌فرد باشد را از نو ابداع می‌کند. در اینجا، لذت خاص Angel تغییر می‌کند",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ALREHAB-PERFUMES/Oudy-25769.html",
+    "extractedAt": "2026-11-25T05:57:27.457Z",
+    "name": "Oudy",
+    "brand": "ALREHAB PERFUMES",
+    "family": "Oriental Woody",
+    "gender": "women and men. Top notes are Costus and White Musk; middle notes are Agarwood (Oud), Tobacco and Neroli; base notes are Agarwood (Oud) and Broom",
+    "topNotes": [
+      "Costus",
+      "White Musk"
+    ],
+    "middleNotes": [
+      "Agarwood (Oud)",
+      "Tobacco",
+      "Neroli"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Broom"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25769.jpg",
+    "rating": 3.99,
+    "ratingVotes": 136,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 17
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 25769,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oudy",
+    "brandFa": "ALREHAB PERFUMES",
+    "nameFa": "Oudy",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. Top notes are Costus and White Musk; middle notes are Agarwood (Oud), Tobacco and Neroli; base notes are Agarwood (Oud) and Broom",
+    "topNotesFa": [
+      "Costus",
+      "موش سفید"
+    ],
+    "middleNotesFa": [
+      "Agarwood (Oud)",
+      "تنباکو",
+      "نرولی"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "گل ریسک"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Heretic-Parfum/Werwulf-147420.html",
+    "extractedAt": "2026-11-25T05:57:31.765Z",
+    "name": "Werwulf",
+    "brand": "Heretic Parfum",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Wormwood",
+      "Turkish Rose",
+      "Pomelo",
+      "Osmanthus"
+    ],
+    "middleNotes": [
+      "Castoreum",
+      "Leather",
+      "Smoke",
+      "Costus",
+      "Iris",
+      "elemi",
+      "Violet Leaf",
+      "Cardamom",
+      "Fir",
+      "Vanilla Bean"
+    ],
+    "baseNotes": [
+      "Fur",
+      "Labdanum",
+      "Benzoin",
+      "Moss",
+      "Patchouli",
+      "Musk",
+      "Vetiver"
+    ],
+    "description": "Werwulf by Heretic Parfums is a limited-edition unisex eau de parfum released in 2026 and presented in partnership with Robert Eggers and Focus Features. Conceived around transformation and primal instinct, it evokes skin, damp earth, roots, resins and wet fur. Pomelo, Turkish rose, osmanthus and wormwood open the composition, followed by iris, violet leaf, vanilla bean, cardamom, elemi, smoke, leather, castoreum, costus and fir balsam. The base combines labdanum, vetiver, benzoin, fur, patchouli, moss and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147420.jpg",
+    "rating": 4.29,
+    "ratingVotes": 41,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 86
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 46
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 43
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 147420,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Werwulf",
+    "brandFa": "Heretic Parfum",
+    "nameFa": "Werwulf",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "افسنتین",
+      "گل رز ترکی",
+      "پوملو",
+      "اسمانتوس"
+    ],
+    "middleNotesFa": [
+      "کاستوریوم",
+      "چرم",
+      "دود",
+      "Costus",
+      "زنبق",
+      "elemi",
+      "برگ بنفشه",
+      "هل",
+      "نراد",
+      "Vanilla Bean"
+    ],
+    "baseNotesFa": [
+      "خز",
+      "لابدانوم",
+      "بنزوئین",
+      "خزه",
+      "پچولی",
+      "موش",
+      "وتیور"
+    ],
+    "descriptionFa": "Werwulf از برند Heretic Parfums یک ادو پرفیوم یونیسکس با تیراژ محدود است که در سال 2026 عرضه شده و با همکاری Robert Eggers و Focus Features ارائه می‌شود. این عطر که با الهام از دگرگونی و غریزه اولیه ساخته شده است، یادآور پوست، خاک مرطوب، ریشه‌ها، رزین‌ها و خز خیس است. باملو، گل رز ترکی، اوسمانتوس و افسنتین نت‌های ابتدایی این ترکیب را تشکیل می‌دهند، سپس نت‌های زنبق، برگ بنفشه، دانه وانیل، هل، المی، دود، چرم، کاستوریوم، کوستوس و صمغ درخت صنوبر ظاهر می‌شوند. نت‌های پایه",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-Vanille-Couture-113623.html",
+    "extractedAt": "2026-11-25T05:57:38.502Z",
+    "name": "Libre Vanille Couture",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Vanilla",
+    "gender": "women. This is a new fragrance. <b>Libre Vanille Couture</b> was launched in 2025. The fragrance features Bourbon Vanilla, Orange Blossom, Vanilla Caviar, Lavender and Rum",
+    "year": 2025,
+    "description": "Libre Vanille Couture by Yves Saint Laurent is a limited-edition reinterpretation of the original Libre fragrance. This scent introduces an ambery, gourmand twist, featuring golden vanilla caviar at its heart. The composition blends French lavender and Moroccan orange blossom with rich Black Bourbon Vanilla Caviar from Madagascar, enhanced by a touch of Rum Absolute. The fragrance is presented in a gold-adorned bottle, reflecting both sophistication and sensuality.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113623.jpg",
+    "rating": 4.3,
+    "ratingVotes": 1528,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 45
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 29
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 22
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 19
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 18
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 113623,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Libre Vanille Couture",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Libre Vanille Couture",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women. This is a new fragrance. <b>Libre Vanille Couture</b> was launched in 2025. The fragrance features Bourbon Vanilla, Orange Blossom, Vanilla Caviar, Lavender and Rum",
+    "descriptionFa": "Libre Vanille Couture از Yves Saint Laurent تفسیر مجددی از عطر اصلی Libre است که در تیراژ محدود عرضه شده است. این عطر یک حس کهربایی و خوش‌بو را معرفی می‌کند که در قلب آن خاویار وانیل طلایی قرار دارد. این ترکیب، اسطوخودوس فرانسوی و شکوفه پرتقال مراکشی را با خاویار وانیل بوربون سیاه غنی از ماداگاسکار ترکیب می‌کند که با کمی عصاره خالص رام تقویت شده است. این عطر در یک بطری مزین به طلا عرضه می‌شود که نشان‌دهنده هر دو ویژگی ظرافت و پیچیدگی است.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BORNTOSTANDOUT/Black-Mango-102808.html",
+    "extractedAt": "2026-11-25T05:57:44.859Z",
+    "name": "Black Mango",
+    "brand": "BORNTOSTANDOUT®",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Violaine Collas",
+    "topNotes": [
+      "Mango",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Mango",
+      "Tolu Balsam",
+      "Bourbon Vanilla"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Leather",
+      "Cypriol",
+      "Sandalwood"
+    ],
+    "description": "Black Mango is the essence of indulgence and desire, bottled. It opens with the juicy sweetness of ripe mango and the zesty brightness of orange essential oil, instantly flooding your senses like biting into a perfectly ripe mango. As the scent deepens, the creamy richness of mango lassi blends with the warm, seductive notes of bourbon vanilla and resinous tolu, evoking a delicious, irresistible pull. But it doesn’t stop there—the base dives into the dark, smoky allure of oud, supple leather, earthy sandalwood, and spicy cypriol. Black Mango captures the raw, primal pleasure of savoring every last bite, down to the core—bold, addictive, and unforgettable.</p> <p>HEAD Mango, Orange Essential Oil<br /> HEART Mango Lassi, Bourbon Vanilla, Tolu Resinoid, Sublimolide<br /> BASE Oud, Leather, Sandalwood, Cypriol",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102808.jpg",
+    "rating": 3.47,
+    "ratingVotes": 708,
+    "accords": [
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 85
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 72
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "terpenic",
+        "nameFa": "terpenic",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 102808,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Mango",
+    "brandFa": "BORNTOSTANDOUT®",
+    "nameFa": "Black Mango",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Violaine Collas",
+    "topNotesFa": [
+      "مانگو",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "مانگو",
+      "بلسام تولو",
+      "وانیل بوربن"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "چرم",
+      "سایپریول",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Black Mango عصاره لذت و هوس است که در شیشه بسته‌بندی شده است. این عطر با شیرینی آبدار انبه رسیده و طراوت تند روغن اسانس نارنجی آغاز می‌شود و فوراً حواس شما را مانند گاز زدن یک انبه کاملاً رسیده، فرا می‌گیرد. همانطور که رایحه عمیق‌تر می‌شود، غنای خامه‌ای لسی انبه با نت‌های گرم و اغواکننده وانیل بوربون و تولوی رزینی ترکیب می‌شود و جاذبه‌ای خوشمزه و غیرقابل مقاومت را تداعی می‌کند. اما به همین جا ختم نمی‌شود—رایحه پایه به",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Serge-Lutens/Muscs-Koublai-Khan-4090.html",
+    "extractedAt": "2026-11-25T05:57:51.345Z",
+    "name": "Muscs Koublai Khan",
+    "brand": "Serge Lutens",
+    "family": "Oriental",
+    "gender": "women and men. <b>Muscs Koublai Khan</b> was launched in 1998. The nose behind this fragrance is Christopher Sheldrake. The fragrance features Civet, Natural Musk, Ambrette (Musk Mallow), Amber, French labdanum, Rose, Caraway, Patchouli and Vanilla",
+    "year": 1998,
+    "perfumer": "C",
+    "description": "Muscs Koublai Khan by Serge Lutens is a chypre fragrance for women and men. Muscs Koublai Khan was launched in 1998. The nose behind this fragrance is Chistopher Sheldrake. The fragrance features civet, castroneum, cistus labdanum, ambergris, Morrocan rose, cumin, ambrette seed (musk mallow), costus root and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4090.jpg",
+    "rating": 3.95,
+    "ratingVotes": 1639,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 18
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 14
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 11
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 4090,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Muscs Koublai Khan",
+    "brandFa": "سرژ لوتنس",
+    "nameFa": "Muscs Koublai Khan",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. <b>Muscs Koublai Khan</b> was launched in 1998. The nose behind this fragrance is Christopher Sheldrake. The fragrance features Civet, Natural Musk, Ambrette (Musk Mallow), Amber, French labdanum, Rose, Caraway, Patchouli and Vanilla",
+    "perfumerFa": "C",
+    "descriptionFa": "Muscs Koublai Khan از برند Serge Lutens یک عطر شیپره برای زنان و مردان است. Muscs Koublai Khan در سال 1998 عرضه شد. طراح این عطر کریستوفر شلدریک است. این عطر حاوی رایحه‌های مشک گربه، کاسترونئوم، لادن صمغی، عنبر سائل، گل رز مراکشی، زیره، دانه آمبرت (مشک پنیرکی)، ریشه کوستوس و نعناع هندی است.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dossier/Floral-Pear-142267.html",
+    "extractedAt": "2026-11-25T05:57:57.239Z",
+    "name": "Floral Pear",
+    "brand": "Dossier",
+    "family": "Floral Fruity",
+    "gender": "women and men. Top notes are Bergamot, Rhubarb, Pear and Watermelon; middle notes are Rose, Freesia, Orange Blossom and Quince; base notes are Musk, Amber and Woody Notes",
+    "topNotes": [
+      "Bergamot",
+      "Rhubarb",
+      "Pear",
+      "Watermelon"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Freesia",
+      "Orange Blossom",
+      "Quince"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber",
+      "Woody Notes"
+    ],
+    "description": "Floral Pear by Dossier is a fresh fruity-floral fragrance centered on ripe pear, rhubarb and delicate flowers.</p> <p>The opening combines pear, bergamot, watermelon and rhubarb, creating a juicy, crisp impression. Quince, rose, freesia and orange blossom form the floral heart, while woody notes, musk and amber provide a soft base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142267.jpg",
+    "rating": 3.17,
+    "ratingVotes": 6,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 98
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 49
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 49
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 49
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 43
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 142267,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Floral Pear",
+    "brandFa": "Dossier",
+    "nameFa": "Floral Pear",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. Top notes are Bergamot, Rhubarb, Pear and Watermelon; middle notes are Rose, Freesia, Orange Blossom and Quince; base notes are Musk, Amber and Woody Notes",
+    "topNotesFa": [
+      "برگاموت",
+      "Rhubarb",
+      "گلابی",
+      "هندوانه"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "فریزیا",
+      "گل پرتقال",
+      "Quince"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Floral Pear از برند Dossier یک عطر میوه‌ای-گلی تازه است که بر پایه گلابی رسیده، ریواس و گل‌های ظریف ساخته شده است.</p> <p>نت ابتدایی ترکیبی از گلابی، ترنج، هندوانه و ریواس است که حسی آبدار و طراوت‌بخش ایجاد می‌کند. به، گل رز، فریزا و شکوفه پرتقال رایحه میانی گل‌دار را تشکیل می‌دهند، در حالی که رایحه‌های چوبی، مشک و عنبر پایه ملایمی را ایجاد می‌کنند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jimmy-Choo/I-Want-Choo-Forever-75969.html",
+    "extractedAt": "2026-11-25T05:58:03.356Z",
+    "name": "I Want Choo Forever",
+    "brand": "Jimmy Choo",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women. <b>I Want Choo Forever</b> was launched in 2022. I Want Choo Forever was created by Sonia Constant and Louise Turner. Top notes are Bitter Almond and Rose; middle notes are Cherry, Jasmine and Vetiver; base notes are Vanilla, Tonka Bean, Amber and Oakmoss",
+    "year": 2022,
+    "perfumer": "Sonia Constant and Louise Turner",
+    "topNotes": [
+      "Bitter Almond",
+      "Rose"
+    ],
+    "middleNotes": [
+      "Cherry",
+      "Jasmine",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Amber",
+      "Oakmoss"
+    ],
+    "description": "A fruitier version of the original, with black cherry liquor, rose over a chypre base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75969.jpg",
+    "rating": 4.09,
+    "ratingVotes": 2654,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 85
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 69
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 75969,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "I Want Choo Forever",
+    "brandFa": "Jimmy Choo",
+    "nameFa": "I Want Choo Forever",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women. <b>I Want Choo Forever</b> was launched in 2022. I Want Choo Forever was created by Sonia Constant and Louise Turner. Top notes are Bitter Almond and Rose; middle notes are Cherry, Jasmine and Vetiver; base notes are Vanilla, Tonka Bean, Amber and Oakmoss",
+    "perfumerFa": "Sonia Constant and Louise Turner",
+    "topNotesFa": [
+      "بادام تلخ",
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "گیلاس",
+      "یاسمن",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "کهربا",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "نسخه‌ای میوه‌ای‌تر از عطر اصلی، با لیکور گیلاس سیاه و رایحه گل رز بر روی پایه‌ای از رایحه چیپر.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
