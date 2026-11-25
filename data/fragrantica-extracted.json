@@ -62693,5 +62693,2151 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salon-Line/Xerosa-Aura-Dourada-148716.html",
+    "extractedAt": "2026-11-25T03:52:45.169Z",
+    "name": "Xêrosa Aura Dourada",
+    "brand": "Salon Line",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Bergamot",
+      "Melon"
+    ],
+    "middleNotes": [
+      "Peach",
+      "Jasmine",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148716.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 89
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 148716,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xêrosa Aura Dourada",
+    "brandFa": "Salon Line",
+    "nameFa": "Xêrosa Aura Dourada",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت",
+      "خربزه"
+    ],
+    "middleNotesFa": [
+      "هلو",
+      "یاسمن",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salon-Line/Xerosa-Estrela-Cosmica-148715.html",
+    "extractedAt": "2026-11-25T03:52:49.055Z",
+    "name": "Xêrosa Estrela Cósmica",
+    "brand": "Salon Line",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Orange",
+      "Bergamot",
+      "Blueberry"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Peony",
+      "Pear Blossom"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Cedar",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148715.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 98
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 148715,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xêrosa Estrela Cósmica",
+    "brandFa": "Salon Line",
+    "nameFa": "Xêrosa Estrela Cósmica",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "پرتقال",
+      "برگاموت",
+      "بلوبری"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل داوودی",
+      "Pear Blossom"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "سرو",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salon-Line/Xerosa-Vanilla-Secreta-148714.html",
+    "extractedAt": "2026-11-25T03:52:53.642Z",
+    "name": "Xêrosa Vanilla Secreta",
+    "brand": "Salon Line",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Orange",
+      "Sicilian Lemon",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Lily of the Valley",
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Musk",
+      "Caramel"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148714.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 99
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 69
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 49
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 49
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 49
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 148714,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xêrosa Vanilla Secreta",
+    "brandFa": "Salon Line",
+    "nameFa": "Xêrosa Vanilla Secreta",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "پرتقال",
+      "Sicilian Lemon",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "لاله سفید",
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "موش",
+      "کارامل"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salon-Line/Xerosa-Meu-Destino-148713.html",
+    "extractedAt": "2026-11-25T03:52:56.955Z",
+    "name": "Xêrosa Meu Destino",
+    "brand": "Salon Line",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Lemon",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Strawberry",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Coconut",
+      "Raspberry"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148713.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 85
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 67
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 37
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 148713,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xêrosa Meu Destino",
+    "brandFa": "Salon Line",
+    "nameFa": "Xêrosa Meu Destino",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "لیمو",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "توت‌فرنگی",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "نارگیل",
+      "تمشک"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salon-Line/Xerosa-Quartzo-Rosa-148712.html",
+    "extractedAt": "2026-11-25T03:53:00.964Z",
+    "name": "Xêrosa Quartzo Rosa",
+    "brand": "Salon Line",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lychee",
+      "Bergamot",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Nutmeg",
+      "Peony",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Cashmere Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148712.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 93
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 88
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 80
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 73
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 73
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 148712,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xêrosa Quartzo Rosa",
+    "brandFa": "Salon Line",
+    "nameFa": "Xêrosa Quartzo Rosa",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "لیچی",
+      "برگاموت",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "جوز هندی",
+      "گل داوودی",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "Cashmere Wood"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salon-Line/Xerosa-Paradoxo-Floral-148711.html",
+    "extractedAt": "2026-11-25T03:53:05.640Z",
+    "name": "Xêrosa Paradoxo Floral",
+    "brand": "Salon Line",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Tangerine",
+      "Red Berries"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148711.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 90
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 90
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      }
+    ],
+    "fragranticaId": 148711,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Xêrosa Paradoxo Floral",
+    "brandFa": "Salon Line",
+    "nameFa": "Xêrosa Paradoxo Floral",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "تانجرین",
+      "Red Berries"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "یاسمن",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/Hermann-a-mes-Cotes-me-Paraissait-une-Ombre-34730.html",
+    "extractedAt": "2026-11-25T03:53:09.680Z",
+    "name": "Hermann à mes Côtés me Paraissait une Ombre",
+    "brand": "Etat Libre d'Orange",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Pepperwood™",
+      "Galbanum",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Geosmin",
+      "Rose Oil",
+      "Olibanum"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Ambroxan",
+      "Calypsone",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.34730.jpg",
+    "rating": 4.02,
+    "ratingVotes": 4764,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 93
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 77
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 71
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 34730,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hermann à mes Côtés me Paraissait une Ombre",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "Hermann à mes Côtés me Paraissait une Ombre",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "Pepperwood™",
+      "گلبانوم",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "Geosmin",
+      "Rose Oil",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "آمبروکسان",
+      "Calypsone",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Paradigme-110661.html",
+    "extractedAt": "2026-11-25T03:53:13.630Z",
+    "name": "Paradigme",
+    "brand": "Prada",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Marie Salamagne, Bruno Jovanovic and Nicolas Bonneville",
+    "topNotes": [
+      "Calabrian bergamot",
+      "Musk"
+    ],
+    "middleNotes": [
+      "Bourbon Geranium",
+      "Rose Geranium"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Peru Balsam",
+      "Guaiac Wood"
+    ],
+    "description": "Prada Paradigme is a masculine fragrance introduced by Prada in 2025. The scent is designed to challenge conventional norms in perfumery, presenting a new perspective on masculinity by blending elements of curiosity, softness, and individuality. Paradigme serves as a counterpart to Prada's Paradoxe for women and is presented in a bottle inspired by the iconic Prada Triangle.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110661.jpg",
+    "rating": 4.02,
+    "ratingVotes": 6330,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 97
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 60
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 110661,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Paradigme",
+    "brandFa": "پرادا",
+    "nameFa": "Paradigme",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Marie Salamagne, Bruno Jovanovic and Nicolas Bonneville",
+    "topNotesFa": [
+      "Calabrian bergamot",
+      "موش"
+    ],
+    "middleNotesFa": [
+      "Bourbon Geranium",
+      "Rose Geranium"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "بلسام پرو",
+      "چوب گوئیک"
+    ],
+    "descriptionFa": "Prada Paradigme یک عطر مردانه است که توسط Prada در سال 2025 عرضه شد. این عطر به گونه‌ای طراحی شده است که هنجارهای مرسوم در صنعت عطر را به چالش بکشد و با ترکیب عناصری چون کنجکاوی، لطافت و فردیت، دیدگاهی جدید از مردانگی ارائه دهد. Paradigme مکمل عطر Paradoxe پرادا برای خانم‌ها است و در بطری‌ای عرضه می‌شود که از مثلث نمادین پرادا الهام گرفته شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Nautilus-138571.html",
+    "extractedAt": "2026-11-25T03:53:20.032Z",
+    "name": "Hawas Nautilus",
+    "brand": "Rasasi",
+    "family": "Woody Aquatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Ambergris",
+      "Sea water"
+    ],
+    "middleNotes": [
+      "Cypress",
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Driftwood",
+      "Sand"
+    ],
+    "description": "Hawas Nautilus is a marine-focused flanker in Rasasi’s Hawas series, released in 2026. It shifts the Hawas theme away from fruity and sweet elements toward a more pared‑back, mineral and coastal character. The composition highlights a saline, oceanic accord built around ambergris and sea water, moving into a woody heart of cedar and cypress that evokes coastal forests and weathered shoreline vegetation. The drydown emphasizes driftwood and sand, underscoring the fragrance’s warm, sun‑touched, woody and slightly earthy facets while maintaining a clean, aquatic impression. The scent is presented as an eau de parfum for men and is positioned for warm and humid climates, everyday wear, and spring–summer use. Overall, Hawas Nautilus combines aquatic, woody and aromatic elements into a relatively simple six‑note structure that focuses on the idea of the open sea and its shores rather than sweetness or heavy amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138571.jpg",
+    "rating": 4.03,
+    "ratingVotes": 145,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 64
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "sand",
+        "nameFa": "sand",
+        "percent": 37
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 33
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 138571,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Nautilus",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Nautilus",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "کهربا خاکستری",
+      "Sea water"
+    ],
+    "middleNotesFa": [
+      "سرو کوهی",
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "چوب شناور",
+      "Sand"
+    ],
+    "descriptionFa": "Hawas Nautilus یک عطر جانبی با محوریت دریا در مجموعه Hawas برند Rasasi است که در سال 2026 عرضه شد. این عطر، تم Hawas را از عناصر میوه‌ای و شیرین به سمت شخصیتی ساده‌تر، معدنی و ساحلی تغییر می‌دهد. این ترکیب بر یک آکورد شور و اقیانوسی متمرکز است که بر پایه عنبر و آب دریا ساخته شده و به سمت یک قلب چوبی از سدر و سرو می‌رود که یادآور جنگل‌های ساحلی و پوشش گیاهی فرسوده ساحل است. در رایحه پایانی، چوب‌های شناور و شن برجسته می‌شوند،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Discotheque/Eye-Contact-121603.html",
+    "extractedAt": "2026-11-25T03:53:26.048Z",
+    "name": "[Eye Contact]",
+    "brand": "Discothèque",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Black Pepper",
+      "Cashmere Wood"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Musk",
+      "Black Amber"
+    ],
+    "description": "[Eye Contact] by Discothèque is a leather-focused fragrance framed by warm spice and dense woods. The brand presents it with imagery of nocturnal city scenes, glistening skin and shadowy interiors, evoking a mood of intimate encounters and heightened atmosphere. Bright pink pepper and saffron introduce the scent with a spicy opening that leads into a heart of supple leather, soft cashmere and dark black pepper. The base rests on oud, black amber and musk, giving the composition a deep, resinous and slightly smoky character that anchors the spiced leather accord. It is composed as a unisex fragrance.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121603.jpg",
+    "rating": 3.92,
+    "ratingVotes": 72,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 84
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 76
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 47
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 121603,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "[Eye Contact]",
+    "brandFa": "Discothèque",
+    "nameFa": "[Eye Contact]",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "فلفل سیاه",
+      "Cashmere Wood"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "موش",
+      "کهربا سیاه"
+    ],
+    "descriptionFa": "[Eye Contact] از برند Discothèque عطری است که بر رایحه چرم تمرکز دارد و با نت‌های گرم ادویه‌ای و چوب‌های غلیظ احاطه شده است. این برند عطر را با تصاویری از صحنه‌های شبانه شهر، پوست درخشان و فضاهای داخلی سایه‌دار ارائه می‌دهد که حال و هوای برخوردهای صمیمانه و فضایی پرشور را تداعی می‌کند. فلفل صورتی روشن و زعفران رایحه را با نت آغازین تند معرفی می‌کنند که به نت میانی چرم نرم، کشمیر لطیف و فلفل سیاه تیره منتهی می‌شود. رایحه پایه بر پایه عود و کهربای سیاه استوار است",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Penhaligon-s/Hammam-Bouquet-3938.html",
+    "extractedAt": "2026-11-25T03:53:32.387Z",
+    "name": "Hammam Bouquet",
+    "brand": "Penhaligon's",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 1872,
+    "perfumer": "William Penhaligon",
+    "topNotes": [
+      "Lavender",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Orris Root",
+      "Jasmine",
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Hammam Bouquet by Penhaligon`s is a woody fragrance for men. Hammam Bouquet was launched in 1872. Top notes are lavender and bergamot; middle notes are bulgarian rose, orris root, jasmine and cedar; base notes are sandalwood, amber and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3938.jpg",
+    "rating": 4,
+    "ratingVotes": 558,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 70
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 64
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 63
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 51
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 3938,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hammam Bouquet",
+    "brandFa": "پنهالیگونز",
+    "nameFa": "Hammam Bouquet",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "William Penhaligon",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "ریشه زنبق",
+      "یاسمن",
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "descriptionFa": "Hammam Bouquet از برند Penhaligon's یک عطر چوبی برای آقایان است. Hammam Bouquet در سال 1872 عرضه شد. نت‌های اولیه اسطوخودوس و ترنج هستند؛ نت‌های میانی گل رز بلغاری، ریشه زنبق، یاس و سرو هستند؛ نت‌های پایه چوب صندل، عنبر و مشک هستند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arabiyat-Prestige/Kohl-Opulence-Extrait-148312.html",
+    "extractedAt": "2026-11-25T03:53:37.345Z",
+    "name": "Kohl Opulence Extrait",
+    "brand": "Arabiyat Prestige",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Puneet Jain",
+    "topNotes": [
+      "Mandarin Orange",
+      "Pear",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Bergamot",
+      "Georgywood",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Benzoin",
+      "Cedarwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148312.jpg",
+    "rating": 4.67,
+    "ratingVotes": 3,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 70
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148312,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait",
+    "baseName": "Kohl Opulence",
+    "brandFa": "Arabiyat Prestige",
+    "nameFa": "Kohl Opulence Extrait",
+    "concentrationFa": "اکستره",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Puneet Jain",
+    "topNotesFa": [
+      "نارنگی",
+      "گلابی",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "برگاموت",
+      "Georgywood",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "بنزوئین",
+      "چوب سرو"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Sandalwood-102519.html",
+    "extractedAt": "2026-11-25T03:53:41.654Z",
+    "name": "Emporio Armani Stronger With You Sandalwood",
+    "brand": "Giorgio Armani",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Chestnut"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla",
+      "Cedarwood"
+    ],
+    "description": "Stronger With You Sandalwood is a woody fragrance encapsulated in a deep green talismanic bottle, reminiscent of a mystical desert landscape. This enticing scent is empowered by the iconic fougère ambery signature, opening with a leathery and bittersweet saffron accord. The heart is defined by lavender and a sugar-coated chestnut accord, while the base features sandalwood, vanilla, and cedarwood, enhancing the fragrance's mystique.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102519.jpg",
+    "rating": 4.39,
+    "ratingVotes": 1160,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 43
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 33
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 27
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 102519,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Emporio Armani Stronger With You Sandalwood",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Emporio Armani Stronger With You Sandalwood",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "Chestnut"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Stronger With You Sandalwood یک عطر چوبی است که در یک بطری طلسم‌مانند به رنگ سبز تیره قرار گرفته و یادآور چشم‌اندازی اسرارآمیز از صحرا است. این رایحه جذاب با امضای نمادین فوژر کهربایی تقویت شده است و با ترکیبی چرمی و تلخ و شیرین زعفران آغاز می‌شود. نت میانی با رایحه اسطوخودوس و ترکیبی از رایحه شاه‌بلوط پوشیده شده با شکر مشخص می‌شود، در حالی که نت پایه شامل رایحه چوب صندل، وانیل و چوب سدر است که بر رمز و راز این عطر می‌افزاید.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rabanne/1-Million-Elixir-71708.html",
+    "extractedAt": "2026-11-25T03:53:48.657Z",
+    "name": "1 Million Elixir",
+    "brand": "Rabanne",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Davana"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Cedar",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Vanilla Absolute",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71708.jpg",
+    "rating": 4.4,
+    "ratingVotes": 6597,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 28
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 26
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 25
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 71708,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "1 Million",
+    "brandFa": "Rabanne",
+    "nameFa": "1 Million Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "سیب",
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "سرو",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "Vanilla Absolute",
+      "لوبیا تونکا",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/LoveShackFancy/Berry-Kiss-95823.html",
+    "extractedAt": "2026-11-25T03:53:51.913Z",
+    "name": "Berry Kiss",
+    "brand": "LoveShackFancy",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": "Jérôme Epinette",
+    "topNotes": [
+      "Wild Berries",
+      "Blueberry",
+      "Carambola (Star Fruit)",
+      "Pomelo",
+      "Plum"
+    ],
+    "middleNotes": [
+      "Marshmallow",
+      "Freesia"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Cashmere Musk"
+    ],
+    "description": "An overflowing field of berries and marshmallows.</p> <p>Flirty berries and puffy sweets come together in this delicious fruity floral, ripe with blueberries,<br /> plums, pomelo and sparkling starfruit. Sugar-coated marshmallow, skin musks and cashmere are<br /> like the soft picnic blanket underneath this field of bursting berries.</p> <p>Top: Wild berries, Blueberries, Plum, Pink Pomelo, Sparkling Starfruit<br /> Heart: Marshmallow, Freesia<br /> Base: Cashmere, Oriental, Skin Musks",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95823.jpg",
+    "rating": 3.76,
+    "ratingVotes": 63,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 26
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 18
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 16
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 95823,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Berry Kiss",
+    "brandFa": "LoveShackFancy",
+    "nameFa": "Berry Kiss",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jérôme Epinette",
+    "topNotesFa": [
+      "Wild Berries",
+      "بلوبری",
+      "Carambola (Star Fruit)",
+      "پوملو",
+      "آلو"
+    ],
+    "middleNotesFa": [
+      "مارشمالو",
+      "فریزیا"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Cashmere Musk"
+    ],
+    "descriptionFa": "دشتی پر از انواع توت‌ها و مارشمالو.</p> <p>توت‌های جذاب و شیرینی‌های پف‌دار در این رایحه گل‌دار میوه‌ای خوشمزه که سرشار از بلوبری،<br /> آلو، گریپ‌فروت و میوه درخشان کارامبولا. مارشمالوهای پوشیده از شکر، رایحه‌های مشک بدن و کشمیر<br /> مانند یک زیرانداز پیک‌نیک نرم در زیر این مزرعه پر از توت‌های رسیده هستند.</p> <p>نت ابتدایی: توت‌های وحشی، بلوبری، آلو، گریپ‌فروت صورتی، کارامبولای درخشان<br /> نت میانی: مارشمالو، فریزا&lt;br",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dolce-Gabbana/The-One-Pour-Homme-Eau-de-Parfum-121024.html",
+    "extractedAt": "2026-11-25T03:53:56.935Z",
+    "name": "The One Pour Homme Eau de Parfum",
+    "brand": "Dolce&Gabbana",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Jean-Christophe Hérault",
+    "topNotes": [
+      "Orange",
+      "Cardamom",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Clary Sage",
+      "Patchouli",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Tobacco",
+      "Cedarwood"
+    ],
+    "description": "Refined by master perfumer Jean-Christophe Hérault, <strong>The One Pour Homme Eau de Parfum</strong> returns with its iconic woody-ambery signature—now reimagined for superior performance, projection, and longevity, lasting up to <strong>16 hours.</strong></p> <p>The fragrance opens with the sweet richness of <strong>Tarocco orange</strong>, elevated by the zesty sparkle of <strong>grapefruit</strong> and the warm spice of <strong>cardamom</strong>, creating a modern and confident introduction. At the heart, <strong>clary sage</strong>, <strong>geranium</strong>, and <strong>earthy patchouli</strong> blend seamlessly to deliver a refined aromatic depth. The base unfolds with <strong>smoky tobacco</strong>, <strong>vibrant cedarwood</strong>, and intensified <strong>amber accords</strong>, leaving a bold, sensual, and unmistakably masculine trail.</p> <p>A commanding olfactive experience that remains true to the essence of <em>The One</em>, this Eau de Parfum is housed in an elegantly redesigned bottle—clear glass revealing its amber-hued fragrance, finished with a glossy brown cap.</p> <p><strong>What’s New:</strong><br /> The same legendary scent, enhanced with a longer-lasting formula offering up to <em><em>16 hours</em> of wear</em>, with <strong>97% of users agreeing it leaves a lasting impression</strong>—all presented in a refined new bottle design.</p> <p>Available in <strong>50ml, 100ml, and 150ml Eau de Parfum</strong>.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121024.jpg",
+    "rating": 4.28,
+    "ratingVotes": 521,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 63
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 121024,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "The One Pour Homme",
+    "brandFa": "Dolce&Gabbana",
+    "nameFa": "The One Pour Homme Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jean-Christophe Hérault",
+    "topNotesFa": [
+      "پرتقال",
+      "هل",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "مریم‌گلی",
+      "پچولی",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "تنباکو",
+      "چوب سرو"
+    ],
+    "descriptionFa": "<strong>The One Pour Homme Eau de Parfum</strong> که توسط استاد عطرساز ژان کریستوف هرو تجدید نظر شده است، با امضای نمادین چوبی-کهربایی خود بازمی‌گردد - اکنون برای عملکرد، پخش و ماندگاری عالی، تا <strong>16 ساعت، بازطراحی شده است.</strong></p> <p>این عطر با رایحه شیرین و غنی <strong>پرتقال تاروکو</strong> آغاز می‌شود که با درخشش تند <strong>گریپ‌فروت</strong> <strong>و ادویه گرم هل تقویت می‌شود.&lt;/stro",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/Allure-Homme-523.html",
+    "extractedAt": "2026-11-25T03:54:02.711Z",
+    "name": "Allure Homme",
+    "brand": "Chanel",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 1999,
+    "perfumer": "Jacques Polge",
+    "topNotes": [
+      "Lemon",
+      "Peach",
+      "Ginger",
+      "Mandarin Orange",
+      "Lavender",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Pepper",
+      "Cedar",
+      "Patchouli",
+      "Vetiver",
+      "Brazilian Rosewood",
+      "Jasmine",
+      "Rose",
+      "Gardenia",
+      "Anise",
+      "Freesia"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Coconut",
+      "Amber",
+      "Benzoin",
+      "Musk",
+      "Leather",
+      "Oakmoss"
+    ],
+    "description": "His allure, or pace, is determined, but lightsome. The composition is created of four main fragrant lines: green freshness, warm sharpness of pepper, strength and elegance of wood, and warm sensuality of labdanum, and tonka. None of these main lines can be sensed separately, together they create a harmonious whole. The top notes are mandarin, lemon, peach and bergamot; middle notes – freesia, geranium, rose and jasmine, and in the base – benzoin, tonka, sandalwood and vanilla. The perfume was created by famous Jacques Polge and launched in 1999.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.523.jpg",
+    "rating": 4.32,
+    "ratingVotes": 7263,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 89
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 65
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 523,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Allure Homme",
+    "brandFa": "شنل",
+    "nameFa": "Allure Homme",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jacques Polge",
+    "topNotesFa": [
+      "لیمو",
+      "هلو",
+      "زنجبیل",
+      "نارنگی",
+      "اسطوخودوس",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "فلفل",
+      "سرو",
+      "پچولی",
+      "وتیور",
+      "Brazilian Rosewood",
+      "یاسمن",
+      "گل رز",
+      "گاردنیا",
+      "انیسون",
+      "فریزیا"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "چوب صندل",
+      "نارگیل",
+      "کهربا",
+      "بنزوئین",
+      "موش",
+      "چرم",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "جاذبه یا سرعت او قاطعانه، اما سبک است. این ترکیب از چهار خط رایحه اصلی تشکیل شده است: طراوت سبز، تندی گرم فلفل، قدرت و ظرافت چوب، و شهوانیت گرم لادن و دانه تونکا. هیچ یک از این خطوط اصلی را نمی‌توان به‌طور جداگانه حس کرد، اما در کنار هم یک کل هماهنگ را ایجاد می‌کنند. نت‌های اولیه شامل نارنگی، لیمو، هلو و ترنج؛ نت‌های میانی شامل فریزا، شمعدانی، گل رز و یاسمن، و نت‌های پایه شامل بنزوئین،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ELOREA-hyangsu/JANG-jang-95421.html",
+    "extractedAt": "2026-11-25T03:54:09.203Z",
+    "name": "JANG (장)",
+    "brand": "ELOREA | 향수",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Soybean"
+    ],
+    "middleNotes": [
+      "Ylang Ylang",
+      "Jasmine Sambac",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Opoponax",
+      "Styrax"
+    ],
+    "description": "‘JANG’ pays homage to traditional fermented sauces that form the foundation of Korean cuisine. In the past, every household crafted their own 'jang' in large clay vessels ('jangdok'), filling the air with the comforting aroma of fermenting soybeans. This fragrance captures that nostalgic essence in a modern, wearable form. The robust scent of soybeans, jinjang (aged soy sauce), and charcoal is softened by the sweet embrace of jasmine and ylang-ylang, with deep, earthy undertones reminiscent of the clay vessels. It's a luxurious, smoky gourmand fragrance with a unique character, akin to the complexity of a well-aged whisky.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95421.jpg",
+    "rating": 4.22,
+    "ratingVotes": 65,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 25
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 24
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 21
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 14
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 95421,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "JANG (장)",
+    "brandFa": "ELOREA | 향수",
+    "nameFa": "JANG (장)",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Soybean"
+    ],
+    "middleNotesFa": [
+      "Ylang Ylang",
+      "Jasmine Sambac",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "اوپوپناکس",
+      "استیراکس"
+    ],
+    "descriptionFa": "«جانگ» ادای احترامی است به سس‌های تخمیری سنتی که پایه و اساس غذاهای کره‌ای را تشکیل می‌دهند. در گذشته، هر خانوار «جانگ» خود را در ظروف سفالی بزرگ («جانگ‌دوک») تهیه می‌کرد و هوای اطراف را با عطر دلنشین تخمیر دانه‌های سویا پر می‌کرد. این عطر آن حس نوستالژیک را در قالبی مدرن و قابل استفاده به تصویر می‌کشد. رایحه قوی دانه‌های سویا، جین‌جانگ (سس سویای کهنه) و زغال چوب با عطر شیرین یاس و یلانگ-یلانگ ملایم می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/O-Boticario/Floratta-Fleur-d-Eclipse-77256.html",
+    "extractedAt": "2026-11-25T03:54:15.553Z",
+    "name": "Floratta Fleur d' Éclipse",
+    "brand": "O Boticário",
+    "family": "Floral Woody Musk",
+    "gender": "women. <b>Floratta Fleur d' Éclipse</b> was launched in 2022. Floratta Fleur d' Éclipse was created by Carlos Benaïm and Natasha Côté. Top notes are Pink Pepper, Litchi, Pear, Custard and Bergamot; middle notes are Turkish Rose, Magnolia, Osmanthus and Ylang-Ylang; base notes are Patchouli, Musk, Amber and Vetiver",
+    "year": 2022,
+    "perfumer": "Carlos",
+    "topNotes": [
+      "Pink Pepper",
+      "Litchi",
+      "Pear",
+      "Custard",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Turkish Rose",
+      "Magnolia",
+      "Osmanthus",
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Musk",
+      "Amber",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77256.jpg",
+    "rating": 4.06,
+    "ratingVotes": 804,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 88
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 80
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 59
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 77256,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Floratta Fleur d' Éclipse",
+    "brandFa": "O Boticário",
+    "nameFa": "Floratta Fleur d' Éclipse",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women. <b>Floratta Fleur d' Éclipse</b> was launched in 2022. Floratta Fleur d' Éclipse was created by Carlos Benaïm and Natasha Côté. Top notes are Pink Pepper, Litchi, Pear, Custard and Bergamot; middle notes are Turkish Rose, Magnolia, Osmanthus and Ylang-Ylang; base notes are Patchouli, Musk, Amber and Vetiver",
+    "perfumerFa": "Carlos",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "Litchi",
+      "گلابی",
+      "Custard",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رز ترکی",
+      "ماگنولیا",
+      "اسمانتوس",
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "موش",
+      "کهربا",
+      "وتیور"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
