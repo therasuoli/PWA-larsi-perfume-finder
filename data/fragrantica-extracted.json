@@ -122732,5 +122732,1190 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Panache-Angel-Dust-124604.html",
+    "extractedAt": "2026-11-26T21:43:17.983Z",
+    "name": "Panache Angel Dust",
+    "brand": "Khadlaj Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Vanilla",
+      "Mandarin",
+      "Red Currant"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Rum",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Whipped Cream",
+      "Musk",
+      "Benzoin"
+    ],
+    "description": "<strong>Panache Angel Dust</strong> opens with a luminous flirtation—bright mandarin zest glazed in velvety vanilla, kissed by the tart sparkle of redcurrant. The heart turns indulgent and sultry as creamy tuberose blooms against warm sandalwood, softened by a smooth splash of rum that adds depth and intrigue. As it settles, the fragrance melts into a decadent cloud of whipped vanilla and benzoin, wrapped in clean musk for a soft, addictive finish.</p> <p>Sweet yet sensual, airy yet opulent—<strong>Panache Angel Dust</strong> feels like a whispered luxury that lingers on skin, equal parts innocence and temptation.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124604.jpg",
+    "rating": 4.3,
+    "ratingVotes": 867,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 44
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 31
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 124604,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Panache Angel Dust",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Panache Angel Dust",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "وانیل",
+      "Mandarin",
+      "Red Currant"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "رام",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "خامه زده",
+      "موش",
+      "بنزوئین"
+    ],
+    "descriptionFa": "<strong>Panache Angel Dust</strong> با یک معاشقه درخشان آغاز می‌شود - پوست پرتقال ماندارین روشن که با وانیل مخملی پوشانده شده و با درخشش ترش انگور فرنگی قرمز آمیخته شده است. نت میانی عطر، با شکوفه‌های خامه مانند گل مریم که در کنار چوب صندل گرم می‌درخشند، حسی دلپذیر و پرشور ایجاد می‌کند. این نت با یک جرعه ملایم از عطر رام که عمق و جذابیت بیشتری به عطر می‌بخشد، نرم‌تر می‌شود. با تثبیت رایحه، عطر در ابری از وانیل خامه‌ای و بنزوئین ذوب می‌شود که در مشک پاک پیچیده شده است تا پایانی ملایم و اعتی‌آور ایجاد کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Karus-Gold-Absolu-137097.html",
+    "extractedAt": "2026-11-26T21:43:23.774Z",
+    "name": "Karus Gold Absolu",
+    "brand": "Khadlaj Perfumes",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Candied Lemon",
+      "Bergamot",
+      "Blackcurrant"
+    ],
+    "middleNotes": [
+      "Praline",
+      "Magnolia",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vetiver"
+    ],
+    "description": "Karus Gold Absolu by Khadlaj is a fragrance built around a contrast of bright fruit and citrus with a soft floral-gourmand heart. It opens with blackcurrant, candied lemon, and bergamot, developing into praline, magnolia, and violet over a base of musk and vetiver.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137097.jpg",
+    "rating": 4.47,
+    "ratingVotes": 526,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 95
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 79
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 66
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 137097,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "Karus Gold",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Karus Gold Absolu",
+    "concentrationFa": "ابسولو",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Candied Lemon",
+      "برگاموت",
+      "Blackcurrant"
+    ],
+    "middleNotesFa": [
+      "پرالین",
+      "ماگنولیا",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وتیور"
+    ],
+    "descriptionFa": "Karus Gold Absolu از برند Khadlaj عطری است که بر اساس تضاد بین میوه‌های روشن و مرکبات با رایحه میانی ملایم گل‌دار-گورماند ساخته شده است. این عطر با رایحه انگور فرنگی سیاه، لیمو شکری و ترنج آغاز می‌شود و سپس به رایحه پرالین، ماگنولیا و بنفشه بر روی پایه‌ای از مشک و وتیور تبدیل می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Teriaq-Intense-99586.html",
+    "extractedAt": "2026-11-26T21:43:28.670Z",
+    "name": "Teriaq Intense",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Saffron",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Plum Liquor",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Tonka Bean",
+      "Benzoin"
+    ],
+    "description": "Teriaq Intense by Lattafa is a fragrance that dares to be unapologetically unique. Created by master perfumer Quentin Bisch, it offers a raw intensity through a blend of luxurious notes.</p> <p>Top Notes: Bergamot, Saffron<br /> Middle Notes: Plum Liquor, Cinnamon<br /> Base Notes: Tonka Bean, Amber, Benzoin",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99586.jpg",
+    "rating": 4.38,
+    "ratingVotes": 5270,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 65
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 56
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 55
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "spice",
+        "nameFa": "spice",
+        "percent": 24
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 99586,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Teriaq",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Teriaq Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "زعفران",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Plum Liquor",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "لوبیا تونکا",
+      "بنزوئین"
+    ],
+    "descriptionFa": "Teriaq Intense از برند Lattafa عطری است که جرأت دارد بدون هیچ عذرخواهی منحصربه‌فرد باشد. این عطر که توسط استاد عطرساز، کوئنتین بیش، ساخته شده است، از طریق ترکیبی از رایحه‌های مجلل، شدتی خام را ارائه می‌دهد.</p> <p>نت‌های اولیه: ترنج، زعفران<br /> نت‌های میانی: لیکور آلو، دارچین<br /> نت‌های پایه: دانۀ تونکا، عنبر، بنزوئین",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Casamorati-1888/Lira-11801.html",
+    "extractedAt": "2026-11-26T21:43:33.092Z",
+    "name": "Lira",
+    "brand": "Casamorati 1888",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2011,
+    "perfumer": "Chris Maurice",
+    "topNotes": [
+      "Blood Orange",
+      "Bergamot",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanille",
+      "Caramel",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11801.jpg",
+    "rating": 4.28,
+    "ratingVotes": 11025,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 97
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 25
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 11801,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lira",
+    "brandFa": "Casamorati 1888",
+    "nameFa": "Lira",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Chris Maurice",
+    "topNotesFa": [
+      "پرتقال خونی",
+      "برگاموت",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Vanille",
+      "کارامل",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Al-Wataniah/Royal-Oak-II-121285.html",
+    "extractedAt": "2026-11-26T21:43:37.526Z",
+    "name": "Royal Oak II",
+    "brand": "Al Wataniah",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Royal Oak II</b> was launched in 2025. The fragrance features Tobacco, Tonka and Tea",
+    "year": 2025,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121285.jpg",
+    "rating": 4.59,
+    "ratingVotes": 27,
+    "accords": [
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 90
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 70
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 121285,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Royal Oak II",
+    "brandFa": "Al Wataniah",
+    "nameFa": "Royal Oak II",
+    "genderFa": "women and men. This is a new fragrance. <b>Royal Oak II</b> was launched in 2025. The fragrance features Tobacco, Tonka and Tea",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chloe/Cedrus-57246.html",
+    "extractedAt": "2026-11-26T21:43:41.377Z",
+    "name": "Cedrus",
+    "brand": "Chloé",
+    "family": "Woody Spicy",
+    "gender": "women and men. <b>Cedrus</b> was launched in 2019. The nose behind this fragrance is Quentin Bisch. The fragrance features Woody Notes, Vetiver, Moss, Cardamom and Sandalwood",
+    "year": 2019,
+    "perfumer": "Quentin Bisch",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.57246.jpg",
+    "rating": 4.27,
+    "ratingVotes": 2396,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 32
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 10
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 7
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 57246,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cedrus",
+    "brandFa": "Chloé",
+    "nameFa": "Cedrus",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "women and men. <b>Cedrus</b> was launched in 2019. The nose behind this fragrance is Quentin Bisch. The fragrance features Woody Notes, Vetiver, Moss, Cardamom and Sandalwood",
+    "perfumerFa": "Quentin Bisch",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BDK-Parfums/Stellar-Silk-132892.html",
+    "extractedAt": "2026-11-26T21:43:45.329Z",
+    "name": "Stellar Silk",
+    "brand": "BDK Parfums",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Cinnamon",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Bourbon Vanilla",
+      "Butter",
+      "Orris",
+      "Tonka Bean",
+      "Siam Benzoin"
+    ],
+    "baseNotes": [
+      "White Sandalwood"
+    ],
+    "description": "Stellar Silk by bdk Parfums is a unisex fragrance released in 2026 as part of the Studio Collection. Created by Jordi Fernández, it presents vanilla in a powdery and spicy style rather than a strongly gourmand one, opening with ginger and Laotian cinnamon, moving into a heart of orris butter, Bourbon vanilla, Siam benzoin, and tonka bean, and settling into Australian white sandalwood.</p> <p>Available in Absolu de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132892.jpg",
+    "rating": 4.19,
+    "ratingVotes": 506,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 49
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 32
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 132892,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Stellar Silk",
+    "brandFa": "BDK Parfums",
+    "nameFa": "Stellar Silk",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "دارچین",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "وانیل بوربن",
+      "کره",
+      "ریشه زنبق",
+      "لوبیا تونکا",
+      "Siam Benzoin"
+    ],
+    "baseNotesFa": [
+      "White Sandalwood"
+    ],
+    "descriptionFa": "Stellar Silk از bdk Parfums یک عطر یونیسکس است که در سال 2026 به عنوان بخشی از مجموعه Studio عرضه شد. این عطر که توسط جوردی فرناندز ساخته شده است، وانیل را به سبک پودری و تند ارائه می‌دهد تا سبک کاملاً خوراکی، و با زنجبیل و دارچین لائوسی آغاز می‌شود، سپس به نت میانی شامل کره زنبق، وانیل بوربون، بنزوئین سیام و دانه‌ی تونکا می‌رسد و در نهایت با چوب صندل سفید استرالیایی تثبیت می‌شود.</p> <p>در غلظت Absolu de Parfum موجود است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Sweet-Diamond-Pink-Pepper-25-67023.html",
+    "extractedAt": "2026-11-26T21:43:51.046Z",
+    "name": "Sweet Diamond Pink Pepper 25",
+    "brand": "Kayali Fragrances",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Gabriela Chelariu",
+    "topNotes": [
+      "Pink Pepper",
+      "Saffron",
+      "Bergamot",
+      "Royal Lily"
+    ],
+    "middleNotes": [
+      "Bulgarian Rose",
+      "May Rose",
+      "Vanilla Orchid",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "Sweet Diamond Pink Pepper | 25 is an electric, floral, woody creation. With its luxurious, modern metallic finish the unique bottle epitomizes the vibrant and flirtatious juice inside. The scent of Sweet Diamond Pink Pepper | 25 combines the spiciness of pink pepper and saffron with sweet Bulgarian Rose and Royal Lily florals for a perfect balance. Deepened with Sandalwood and Golden Oriental and intriguingly heightened with sparkling bergamot, this scent is perfect for those who expect a little more from the unexpected. The number 25 indicates the 25 rounds of formula modifications that went into creating the perfect balance of flirtatious and sweet.</p> <p>Top notes: Pink Pepper, Bergamot, Royal Lily, Saffron<br /> Middle notes: Bulgarian Rose, Rose Centifolia, Magnolia, Vanilla Orchid<br /> Bottom notes: Sandalwood, Patchouli, Sensual Musk, Golden Oriental</p> <p>The fragrance is available as a 10ml EDP, 50ml EDP and 100ml EDP.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67023.jpg",
+    "rating": 3.77,
+    "ratingVotes": 1963,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 67023,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sweet Diamond Pink Pepper 25",
+    "brandFa": "Kayali Fragrances",
+    "nameFa": "Sweet Diamond Pink Pepper 25",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gabriela Chelariu",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "زعفران",
+      "برگاموت",
+      "Royal Lily"
+    ],
+    "middleNotesFa": [
+      "گل رز بلغاری",
+      "گل رز میانی",
+      "Vanilla Orchid",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب صندل",
+      "پچولی",
+      "موش"
+    ],
+    "descriptionFa": "Sweet Diamond Pink Pepper | 25 ترکیبی پرانرژی، گل‌فام و چوبی است. این بطری منحصر به فرد با روکش فلزی لوکس و مدرن خود، مظهر مایع معطر پر جنب و جوش و اغواکننده درونش است. رایحه Sweet Diamond Pink Pepper | 25 تندی فلفل صورتی و زعفران را با رایحه گل‌های شیرین رز بلغاری و سوسن سلطنتی ترکیب می‌کند تا تعادلی بی‌نقص ایجاد کند. با چوب صندل و گل طلایی شرقی عمیق‌تر شده و با ترنج درخشان به طرز جالبی تقویت شده است،",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Oajan-21548.html",
+    "extractedAt": "2026-11-26T21:43:56.716Z",
+    "name": "Oajan",
+    "brand": "Parfums de Marly",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": null,
+    "topNotes": [
+      "Cinnamon",
+      "Honey",
+      "Osmanthus"
+    ],
+    "middleNotes": [
+      "Benzoin",
+      "Labdanum",
+      "Ambergris",
+      "Artemisia"
+    ],
+    "baseNotes": [
+      "Vanila",
+      "Tonka Bean",
+      "Musk",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.21548.jpg",
+    "rating": 4.41,
+    "ratingVotes": 7406,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 98
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 94
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 81
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 21548,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oajan",
+    "brandFa": "پرفیومز دو مارلی",
+    "nameFa": "Oajan",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "دارچین",
+      "عسل",
+      "اسمانتوس"
+    ],
+    "middleNotesFa": [
+      "بنزوئین",
+      "لابدانوم",
+      "کهربا خاکستری",
+      "افسنتین"
+    ],
+    "baseNotesFa": [
+      "Vanila",
+      "لوبیا تونکا",
+      "موش",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mercedes-Benz/Mercedes-Benz-Man-Bright-65092.html",
+    "extractedAt": "2026-11-26T21:44:00.245Z",
+    "name": "Mercedes Benz Man Bright",
+    "brand": "Mercedes-Benz",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Pink Pepper",
+      "Bergamot",
+      "Mint"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Incense"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "Mercedes Man Bright is described by the brand as \"an eau de parfum that has more starpower than ever. The fragrance of every success. An irresistible fragrance that emphasizes the elegance and charisma of the wearer. A master in the art of seduction... A star that dazzles, even out of the spotlight. His more relaxed backstage persona proves, once more, that life is for living.\"</p> <p>\"Perfumer Olivier Cresp has created a woody, aromatic composition for this very contemporary, dynamic fragrance with character. Bergamot, pink peppercorn, mint, lavender, incense, patchouli, cedarwood, and tonka bean offer a fragrance full of contrasts. A symbol of masculinity. \"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65092.jpg",
+    "rating": 3.92,
+    "ratingVotes": 120,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 73
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 65
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 57
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 65092,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mercedes Benz Man Bright",
+    "brandFa": "Mercedes-Benz",
+    "nameFa": "Mercedes Benz Man Bright",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "برگاموت",
+      "نعناع"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "عود بخور"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "برند مرسدس، Mercedes Man Bright را اینگونه توصیف می‌کند: «ادو پرفیومی که بیش از هر زمان دیگری درخشان است. عطری برای هر موفقیت. عطری مقاومت‌ناپذیر که بر ظرافت و جذابیت فرد استفاده‌کننده تأکید می‌کند. استادی در هنر اغواگری... ستاره‌ای که حتی زمانی که در مرکز توجه نیست، خیره‌کننده است. شخصیت آرام‌تر او در پشت صحنه، یک بار دیگر ثابت می‌کند که زندگی برای زیستن است.»</p> <p>«اولیویه کرسپ، طراح عطر، ترکیبی چوبی و معطر خلق کرده است.»",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Xerjoff/Elle-Anniversary-88612.html",
+    "extractedAt": "2026-11-26T21:44:06.038Z",
+    "name": "Elle Anniversary",
+    "brand": "Xerjoff",
+    "family": null,
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Marie Huguenot",
+    "topNotes": [
+      "Red Fruits",
+      "Litchi",
+      "Green Apple",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Jasmine",
+      "Cashmere Wood",
+      "Licorice"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "description": "\"In honour of Elle, the first perfume born into the first collection ever created in the Xerjoff portfolio,<strong> 17/17</strong>, the much-adored scent is celebrated with the creation of<strong> Elle Anniversary</strong>, a sensual and enchanting scent inspired by the pure beauty that lies at the heart of Elle.</p> <p>Graceful and floral, the true spirit of Elle is carried in the flair and<strong> elegance</strong> of Elle Anniversary, scattered with light flecks of fresh notes in the opening, with <strong>lychee</strong> and bergamot at the top.</p> <p>A calming and uplifting heart, Elle Anniversary is threaded with<strong> delicate jasmine</strong> and warm cashmere wood that merge to create a rush of <strong>romanticism</strong>, which slowly settles to an illustrious base of amber, musk, and patchouli.\"</p> <p>OLFACTORY NOTES</p> <p>Bergamot, Green Apple, Red Fruits, Lychee</p> <p>Jasmine, Peony , Cashmere Wood, Liquorice</p> <p>Musks, Oriental, Sandalwood, Patchouli</p> <p>Available as 50ml Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88612.jpg",
+    "rating": 4,
+    "ratingVotes": 398,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 85
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 26
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 88612,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Elle Anniversary",
+    "brandFa": "زروجف",
+    "nameFa": "Elle Anniversary",
+    "genderFa": "زنانه",
+    "perfumerFa": "Marie Huguenot",
+    "topNotesFa": [
+      "Red Fruits",
+      "Litchi",
+      "سیب سبز",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "یاسمن",
+      "Cashmere Wood",
+      "شیرین‌بیان"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا",
+      "چوب صندل",
+      "پچولی"
+    ],
+    "descriptionFa": "«به افتخار Elle، اولین عطر متولد شده در اولین مجموعه‌ای که تاکنون در سبد محصولات Xerjoff ایجاد شده است، یعنی<strong> 17/17</strong>، این عطر بسیار محبوب با خلق<strong> Elle Anniversary</strong>، عطری حسی و مسحورکننده که از زیبایی ناب نهفته در قلب Elle الهام گرفته است، گرامی داشته می‌شود.</p> <p>روح واقعی Elle که ظریف و گل‌آگین است، در سبک و<strong> ظرافت</strong> Elle Anniversary نهفته است و",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
