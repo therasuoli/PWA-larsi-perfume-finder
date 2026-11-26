@@ -100821,5 +100821,1755 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Atelier-des-Nectars/Caresse-Gourmande-148805.html",
+    "extractedAt": "2026-11-26T08:27:45.483Z",
+    "name": "Caresse Gourmande",
+    "brand": "Atelier des Nectars",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Caresse Gourmande</b> was launched in 2026. The nose behind this fragrance is Veronika Csatlovszky. The fragrance features Bitter Almond, Macarons, White Peach, Guava, Vanilla, Tonka Bean, Caramel, Cream, Sandalwood, White Musk and Woody Notes",
+    "year": 2026,
+    "perfumer": "Veronika Csatlovszky",
+    "description": "Caresse Gourmande by Atelier des Nectars is a fruity, gourmand and woody fragrance for women and men, launched in 2026 and created by Veronika Csatlovszky. It combines bitter almond and macarons with white peach, guava, vanilla, tonka bean, caramel and cream over sandalwood, white musk and woody notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148805.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148805,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Caresse Gourmande",
+    "brandFa": "Atelier des Nectars",
+    "nameFa": "Caresse Gourmande",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Caresse Gourmande</b> was launched in 2026. The nose behind this fragrance is Veronika Csatlovszky. The fragrance features Bitter Almond, Macarons, White Peach, Guava, Vanilla, Tonka Bean, Caramel, Cream, Sandalwood, White Musk and Woody Notes",
+    "perfumerFa": "Veronika Csatlovszky",
+    "descriptionFa": "Caresse Gourmande از برند Atelier des Nectars یک عطر میوه‌ای، گورماند و چوبی برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد و توسط ورونیکا چاتلوفسکی ساخته شد. این عطر ترکیبی از بادام تلخ و ماکارون با هلو سفید، گواوا، وانیل، دانه‌ی تونکا، کارامل و خامه بر روی رایحه‌های چوب صندل، مشک سفید و نت‌های چوبی است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Eau-de-Soleil-Bronze-148804.html",
+    "extractedAt": "2026-11-26T08:27:52.596Z",
+    "name": "Eau de Soleil Bronze",
+    "brand": "Tom Ford",
+    "family": "Oriental Floral",
+    "gender": "women and men. This is a new fragrance. <b>Eau de Soleil Bronze</b> was launched in 2026. The fragrance features Yuzu, Cacao, Rum, Coconut and Frangipani",
+    "year": 2026,
+    "description": "Eau de Soleil Bronze by Tom Ford is an amber floral fragrance in the Soleil collection, announced for 2026. Its composition combines yuzu, cacao, rum, coconut and frangipani.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148804.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 92
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 85
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 77
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 77
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 62
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 62
+      }
+    ],
+    "fragranticaId": 148804,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eau de Soleil Bronze",
+    "brandFa": "تام فورد",
+    "nameFa": "Eau de Soleil Bronze",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. This is a new fragrance. <b>Eau de Soleil Bronze</b> was launched in 2026. The fragrance features Yuzu, Cacao, Rum, Coconut and Frangipani",
+    "descriptionFa": "Eau de Soleil Bronze از برند تام فورد یک عطر کهربایی-گل‌فام از مجموعه Soleil است که برای سال ۲۰۲۶ معرفی شده است. ترکیبات آن شامل یوزو، کاکائو، رام، نارگیل و فرانجیپانی است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ledda/10-Maison-Delice-148803.html",
+    "extractedAt": "2026-11-26T08:27:57.765Z",
+    "name": "10 Maison Délice",
+    "brand": "Ledda",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. Top notes are White Honey, Dates, Cinnamon and Sugar; middle notes are Praline and Shortcrust Pastry; base notes are Musk, Vanilla, Sandalwood and Benzoin",
+    "topNotes": [
+      "White Honey",
+      "Dates",
+      "Cinnamon",
+      "Sugar"
+    ],
+    "middleNotes": [
+      "Praline",
+      "Shortcrust Pastry"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Sandalwood",
+      "Benzoin"
+    ],
+    "description": "10 Maison Délice by LEDDA is a gourmand eau de parfum inspired by traditions and the aroma of homemade baked treats. White honey, fleur de sel, dates, cinnamon and sugar lead to a shortbread accord and praline, followed by a base of musk, vanilla, sandalwood and benzoin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148803.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 36
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 32
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 27
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148803,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "10 Maison Délice",
+    "brandFa": "Ledda",
+    "nameFa": "10 Maison Délice",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. Top notes are White Honey, Dates, Cinnamon and Sugar; middle notes are Praline and Shortcrust Pastry; base notes are Musk, Vanilla, Sandalwood and Benzoin",
+    "topNotesFa": [
+      "White Honey",
+      "Dates",
+      "دارچین",
+      "شکر"
+    ],
+    "middleNotesFa": [
+      "پرالین",
+      "Shortcrust Pastry"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "چوب صندل",
+      "بنزوئین"
+    ],
+    "descriptionFa": "10 Maison Délice از برند LEDDA یک ادو پرفیوم گورماند است که از سنت‌ها و عطر شیرینی‌های خانگی الهام گرفته شده است. عسل سفید، نمک دریایی، خرما، دارچین و شکر به ترکیبی از رایحه شیرینی شورت‌برد و پرالین منتهی می‌شوند که به دنبال آن رایحه پایه مشک، وانیل، چوب صندل و بنزوئین حس می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Agatho-Parfum/White-Dress-148802.html",
+    "extractedAt": "2026-11-26T08:28:03.056Z",
+    "name": "White Dress",
+    "brand": "Agatho Parfum",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Lavender",
+      "Yellow Mandarin",
+      "Carrot Seeds"
+    ],
+    "middleNotes": [
+      "Mahonial",
+      "Orris",
+      "Rose",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Akigalawood",
+      "AmbreXolide",
+      "Tonka Bean",
+      "Cedarwood"
+    ],
+    "description": "White Dress by Agatho is a 2026 fragrance created for the 44th Torino Film Festival as a tribute to an iconic woman of the silver screen. It opens with bergamot, carrot seed, lavender and yellow mandarin, followed by Mahonial, orris, rose and sandalwood, and rests on Akigalawood, Ambrexolide, tonka bean and cedarwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148802.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 77
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 66
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 32
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 32
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148802,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White Dress",
+    "brandFa": "Agatho Parfum",
+    "nameFa": "White Dress",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "اسطوخودوس",
+      "Yellow Mandarin",
+      "Carrot Seeds"
+    ],
+    "middleNotesFa": [
+      "Mahonial",
+      "ریشه زنبق",
+      "گل رز",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "Akigalawood",
+      "AmbreXolide",
+      "لوبیا تونکا",
+      "چوب سرو"
+    ],
+    "descriptionFa": "White Dress از برند Agatho یک عطر محصول سال 2026 است که برای چهل و چهارمین جشنواره فیلم تورین به عنوان ادای احترامی به یک زن نمادین سینما خلق شده است. این عطر با رایحه ترنج، دانه هویج، اسطوخودوس و نارنگی زرد آغاز می‌شود، سپس رایحه ماهونال، زنبق، گل رز و چوب صندل به مشام می‌رسد و در نهایت رایحه چوب آکیگالا، آمبرکسولید، دانه‌ تونکا و چوب سدر باقی می‌ماند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Bonheur-Perfumes/Reine-d-Or-Cleo-120646.html",
+    "extractedAt": "2026-11-26T08:28:08.082Z",
+    "name": "Reine d'Or Cleo",
+    "brand": "Le Bonheur Perfumes",
+    "family": "Oriental Spicy",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Lucas Sieuzac",
+    "topNotes": [
+      "Clary Sage",
+      "Peach",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Guaiac Wood",
+      "Tobacco",
+      "Marigold"
+    ],
+    "baseNotes": [
+      "Violet",
+      "Saffron",
+      "Orange Blossom"
+    ],
+    "description": "Reine d'Or Cleo by Le Bonheur Perfumes is a women's fragrance built around warm spices, aromatic nuances, and floral accents. The composition opens with a blend of cinnamon, clary sage, and peach, combining spicy, herbal, and soft fruity facets. The heart introduces tagette, guaiac wood, and tobacco, adding a slightly resinous, woody, and smoky dimension. In the base, orange blossom, violet, and saffron bring together floral and gently leathery tones, rounding out the scent with a nuanced, oriental-spicy character. The overall impression is a structured fragrance that contrasts warm spice and woods with floral notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120646.jpg",
+    "rating": 4.8,
+    "ratingVotes": 15,
+    "accords": [
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 88
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 72
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 48
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 44
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 120646,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Reine d'Or Cleo",
+    "brandFa": "Le Bonheur Perfumes",
+    "nameFa": "Reine d'Or Cleo",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Lucas Sieuzac",
+    "topNotesFa": [
+      "مریم‌گلی",
+      "هلو",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "چوب گوئیک",
+      "تنباکو",
+      "گل داودی"
+    ],
+    "baseNotesFa": [
+      "بنفشه",
+      "زعفران",
+      "گل پرتقال"
+    ],
+    "descriptionFa": "Reine d'Or Cleo از برند Le Bonheur Perfumes یک عطر زنانه است که بر پایه ادویه‌های گرم، ظرافت‌های معطر و رایحه‌های گل ساخته شده است. این ترکیب با ترکیبی از دارچین، مریم‌گلی و هلو آغاز می‌شود که جنبه‌های تند، گیاهی و میوه‌ای ملایم را با هم ترکیب می‌کند. در نت میانی، گل همیشه بهار، چوب گوایاک و تنباکو حس می‌شوند که بُعدی کمی رزینی، چوبی و دودی به عطر می‌بخشند. در رایحه پایه، شکوفه پرتقال، بنفشه و زعفران رایحه‌های گل‌فام و کمی چرمی را با هم ترکیب می‌کنند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ellis-Brooklyn/Vanilla-Rice-136821.html",
+    "extractedAt": "2026-11-26T08:28:14.358Z",
+    "name": "Vanilla Rice",
+    "brand": "Ellis Brooklyn",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Nicole Mancini",
+    "topNotes": [
+      "Toasted Rice",
+      "Freesia",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Cherry Blossom",
+      "Coconut Milk",
+      "Jasmine",
+      "Nectar"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Skin",
+      "Tonka Bean"
+    ],
+    "description": "Vanilla Rice is a milky gourmand-floral fragrance built around toasted rice, vanilla, and coconut milk. Mandarin and freesia open the composition, followed by sakura blossom and jasmine nectar, while skin musks and tonka bean give the drydown a soft, sweet finish. The scent references rice as a universal staple and reflects the idea of understated or \"soft\" power, as described by founder Bee Shapiro.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136821.jpg",
+    "rating": 4.22,
+    "ratingVotes": 291,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 78
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 77
+      },
+      {
+        "nameEn": "gourmand",
+        "nameFa": "گورماند",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 62
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 136821,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Rice",
+    "brandFa": "Ellis Brooklyn",
+    "nameFa": "Vanilla Rice",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nicole Mancini",
+    "topNotesFa": [
+      "Toasted Rice",
+      "فریزیا",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "Cherry Blossom",
+      "شیر نارگیل",
+      "یاسمن",
+      "Nectar"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "Skin",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Vanilla Rice یک عطر شیرین و گل‌دار با رایحه شیر است که بر پایه برنج بو داده، وانیل و شیر نارگیل ساخته شده است. ماندارین و فریزا رایحه را آغاز می‌کنند، سپس شکوفه ساکورا و شهد یاس می‌آیند، در حالی که مشک پوستی و دانه‌های تونکا به رایحه نهایی عطر، لطافت و شیرینی می‌بخشند. این عطر به برنج به‌عنوان یک ماده غذایی اصلی جهانی اشاره دارد و نشان‌دهنده ایده قدرت کم‌اهمیت یا «نرم» است، همانطور که بنیانگذار آن، بی شاپیرو، توصیف کرده است.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Demeter-Fragrance/Holy-Water-5967.html",
+    "extractedAt": "2026-11-26T08:28:20.980Z",
+    "name": "Holy Water",
+    "brand": "Demeter Fragrance",
+    "family": null,
+    "gender": "women and men. <b>Holy Water</b> was launched in 2009. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Holy Water",
+    "year": 2009,
+    "perfumer": "Francis Kurkdjian",
+    "description": "Holy Water is a fragrance introduced in April 2009 and available as 15ml purse spray, 15ml cologne spray, 30ml cologne spray, 125ml cologne spray... The fragrance presents innocent aromas of holy water in an old church somewhere in Europe.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5967.jpg",
+    "rating": 3.75,
+    "ratingVotes": 211,
+    "fragranticaId": 5967,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Holy Water",
+    "brandFa": "Demeter Fragrance",
+    "nameFa": "Holy Water",
+    "genderFa": "women and men. <b>Holy Water</b> was launched in 2009. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Holy Water",
+    "perfumerFa": "Francis Kurkdjian",
+    "descriptionFa": "Holy Water عطری است که در آوریل 2009 عرضه شد و به صورت اسپری کیف دستی 15 میلی‌لیتری، اسپری ادکلن 15 میلی‌لیتری، اسپری ادکلن 30 میلی‌لیتری، اسپری ادکلن 125 میلی‌لیتری در دسترس است... این عطر رایحه‌های معصومانه‌ای از آب مقدس در کلیسایی قدیمی در جایی در اروپا را ارائه می‌دهد."
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BORNTOSTANDOUT/Purple-Stain-102810.html",
+    "extractedAt": "2026-11-26T08:28:26.446Z",
+    "name": "Purple Stain",
+    "brand": "BORNTOSTANDOUT®",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Saffron",
+      "Cinnamon",
+      "Mandarin",
+      "Nutmeg",
+      "Ginger",
+      "Bark",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Vanilla",
+      "Peru Balsam",
+      "Caramel"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Akigalawood",
+      "Labdanum",
+      "Patchouli",
+      "Ambrofix™",
+      "Cypriol",
+      "Concrete"
+    ],
+    "description": "Purple Stain opens with the warm spice of saffron, cinnamon, and nutmeg, brightened by the fresh zest of mandarin and bergamot. The heart is rich and indulgent, blending the radiant sweetness of orange blossom with creamy caramel and vanilla. As it settles, the base reveals a deep, smoky blend of oud, patchouli, and cypriol, softened by the resinous richness of cistus and the woody elegance of akigalawood. Velvety and bold, Purple Stain is a fragrance that lingers, leaving a powerful and unforgettable impression.<br /> <br /> HEAD Saffron, Cinnamon Bark, Nutmeg, Ginger Extract, Mandarin, Bergamot<br /> HEART Orange Blossom, Caramel, Peru Balsam, Vanilla<br /> BASE Akigalawood, Oud, Patchouli, Cypriol, Ambrofix, Cistus Concrete",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102810.jpg",
+    "rating": 4.14,
+    "ratingVotes": 559,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 81
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 45
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 43
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 36
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 102810,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Purple Stain",
+    "brandFa": "BORNTOSTANDOUT®",
+    "nameFa": "Purple Stain",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "زعفران",
+      "دارچین",
+      "Mandarin",
+      "جوز هندی",
+      "زنجبیل",
+      "Bark",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "وانیل",
+      "بلسام پرو",
+      "کارامل"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "Akigalawood",
+      "لابدانوم",
+      "پچولی",
+      "Ambrofix™",
+      "سایپریول",
+      "Concrete"
+    ],
+    "descriptionFa": "Purple Stain با رایحه تند و گرم زعفران، دارچین و جوز هندی آغاز می‌شود که با طراوت پوست نارنگی و ترنج درخشان‌تر می‌شود. نت میانی غنی و دلپذیر است و شیرینی درخشان شکوفه پرتقال را با کارامل خامه‌ای و وانیل ترکیب می‌کند. با نشستن عطر، رایحه پایه ترکیبی عمیق و دودی از عود، نعناع هندی و سیپریول را آشکار می‌کند که با غنای رزینی گل ختمی و ظرافت چوبی چوب آکیگالا ملایم شده است. Purple Stain که مخملی و جسورانه است، یک عطر است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/Vietnamese-Coffee-89234.html",
+    "extractedAt": "2026-11-26T08:28:32.485Z",
+    "name": "Vietnamese Coffee",
+    "brand": "d'Annam",
+    "family": "Aromatic",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Anh Ngo and IFF",
+    "topNotes": [
+      "Coffee"
+    ],
+    "middleNotes": [
+      "Condensed Milk",
+      "Dark Chocolate",
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Cedarwood",
+      "Amber"
+    ],
+    "description": "Vietnamese Coffee EDP honors Vietnam's delightful brew, crafted from dark-roasted Robusta beans, which exude a bold, caramel-chocolate richness and a pronounced bitterness that harmonizes exquisitely with creamy condensed milk. Topped with ice, it becomes the iconic drink known as \"\"Cà Phê Sữa Đá\"\", the perfect way to start the day for most Vietnamese.</p> <p>Gender: Unisex<br /> Top Notes: Roasted Coffee<br /> Heart Notes: Dark Chocolate, Condensed Milk, Muguet<br /> Base Notes: Tonka Bean, Oriental, Cedarwood",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89234.jpg",
+    "rating": 3.95,
+    "ratingVotes": 1073,
+    "accords": [
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 90
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 38
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 34
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 89234,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vietnamese Coffee",
+    "brandFa": "d'Annam",
+    "nameFa": "Vietnamese Coffee",
+    "familyFa": "معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Anh Ngo and IFF",
+    "topNotesFa": [
+      "قهوه"
+    ],
+    "middleNotesFa": [
+      "شیر عسلی",
+      "Dark Chocolate",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چوب سرو",
+      "کهربا"
+    ],
+    "descriptionFa": "ادو پرفیوم قهوه ویتنامی ادای احترامی است به نوشیدنی دلپذیر ویتنام که از دانه‌های روبوستا تیره بو داده تهیه می‌شود و طعم غنی و قوی کارامل-شکلاتی و تلخی مشخصی دارد که به طرز شگفت‌انگیزی با شیر تغلیظ‌شده خامهٔ‌دار هماهنگ می‌شود. با افزودن یخ، به نوشیدنی نمادینی تبدیل می‌شود که به «Cà Phê Sữa Đá» معروف است؛ روشی عالی برای شروع روز برای اکثر ویتنامی‌ها.</p> <p>جنسیت: یونیسکس<br /> نت‌های اولیه: قهوه بو داده<br /> نت‌های میانی: شکلات تلخ، شیرعسلی",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diptyque/Philosykos-Eau-de-Parfum-3865.html",
+    "extractedAt": "2026-11-26T08:28:39.722Z",
+    "name": "Philosykos Eau de Parfum",
+    "brand": "Diptyque",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 1996,
+    "perfumer": "Olivia Giacobetti",
+    "topNotes": [
+      "Fig Leaf",
+      "Fig"
+    ],
+    "middleNotes": [
+      "Green Notes",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Fig Tree",
+      "Woody Notes",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3865.jpg",
+    "rating": 4.15,
+    "ratingVotes": 12399,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 34
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 31
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 29
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 3865,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Philosykos",
+    "brandFa": "دیپتیک",
+    "nameFa": "Philosykos Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olivia Giacobetti",
+    "topNotesFa": [
+      "Fig Leaf",
+      "انجیر"
+    ],
+    "middleNotesFa": [
+      "نت‌های سبز",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "Fig Tree",
+      "Woody Notes",
+      "سرو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Argos/Neptune-s-Trident-109838.html",
+    "extractedAt": "2026-11-26T08:28:43.860Z",
+    "name": "Neptune's Trident",
+    "brand": "Argos",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Christian Petrovich",
+    "topNotes": [
+      "Bergamot",
+      "Mandarin Orange",
+      "Lavender",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Green Tea",
+      "Orange Blossom",
+      "Jasmine Sambac",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Iris",
+      "Ambergris",
+      "Sandalwood",
+      "Vetiver",
+      "Labdanum"
+    ],
+    "description": "\"Argos' Neptune’s Trident Extrait de Parfum is a powerful and immersive ocean-inspired creation that blends freshness, depth, and mythic elegance. This extrait concentration brings a richer and longer-lasting interpretation of the Neptune story with bright citrus, aromatic florals, green tea, and a deep marine ambergris base that reflects the vast and commanding spirit of the sea.</p> <p>Inspired by Johann Michael Rottmayr’s majestic depictions of Neptune, <strong>Neptune’s Trident Extrait</strong> captures the dual nature of the Roman god of the sea. Neptune represents both the calm and the storm, the tranquil stillness of deep waters and the raw force of a rising tide. This fragrance explores that balance through an olfactive journey that is vibrant, serene, and profoundly powerful.\" -Argos.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109838.jpg",
+    "rating": 4.34,
+    "ratingVotes": 441,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 73
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 53
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 52
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 109838,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Neptune's Trident",
+    "brandFa": "Argos",
+    "nameFa": "Neptune's Trident",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christian Petrovich",
+    "topNotesFa": [
+      "برگاموت",
+      "نارنگی",
+      "اسطوخودوس",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "چای سبز",
+      "گل پرتقال",
+      "Jasmine Sambac",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "زنبق",
+      "کهربا خاکستری",
+      "چوب صندل",
+      "وتیور",
+      "لابدانوم"
+    ],
+    "descriptionFa": "\"عصاره عطر Neptune’s Trident از برند Argos یک محصول قدرتمند و فراگیر الهام‌گرفته از اقیانوس است که ترکیبی از طراوت، عمق و ظرافت افسانه‌ای است. این غلظت عصاره‌ای، با مرکبات درخشان، رایحه‌های گل‌های معطر، چای سبز و رایحه پایه عنبر سائل دریایی عمیق که منعکس‌کننده روح وسیع و فرمانروای دریاست، تفسیر غنی‌تر و ماندگارتر از داستان نپتون را ارائه می‌دهد.</p> <p>الهام‌گرفته از تصاویر باشکوه یوهان مایکل روت‌مایر از",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Juliet-Rose/Ghost-Cat-124627.html",
+    "extractedAt": "2026-11-26T08:28:50.411Z",
+    "name": "Ghost Cat",
+    "brand": "Juliet Rose",
+    "family": "Woody Aromatic",
+    "gender": "women and men. <b>Ghost Cat</b> was launched during the 2020's. Top notes are Bergamot, Camphor, Grass and Lavender; middle notes are Petrichor, Oakmoss and Smoke; base notes are Driftwood, White Oud, Cedarwood, Vetiver and Ash",
+    "topNotes": [
+      "Bergamot",
+      "Camphor",
+      "Grass",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Petrichor",
+      "Oakmoss",
+      "Smoke"
+    ],
+    "baseNotes": [
+      "Driftwood",
+      "White Oud",
+      "Cedarwood",
+      "Vetiver",
+      "Ash"
+    ],
+    "description": "Ghost Cat by Juliet Rose is an atmospheric composition built around green, smoky and mineral facets. Bright, slightly medicinal tones of white camphor, cut grass, lavender and bergamot open the fragrance before giving way to a heart of turned earth, oakmoss, wood smoke and petrichor that suggests damp soil and wet air after rain. In the base, vetiver, cedarwood, ash, driftwood, white oud and a tarmac accord add dry woods, smoke and a dark, urban nuance, creating a contrast between natural landscapes and man‑made surroundings.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124627.jpg",
+    "rating": 4.57,
+    "ratingVotes": 7,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 59
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 38
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 38
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 32
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 29
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 29
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 124627,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ghost Cat",
+    "brandFa": "Juliet Rose",
+    "nameFa": "Ghost Cat",
+    "familyFa": "چوبی معطر",
+    "genderFa": "women and men. <b>Ghost Cat</b> was launched during the 2020's. Top notes are Bergamot, Camphor, Grass and Lavender; middle notes are Petrichor, Oakmoss and Smoke; base notes are Driftwood, White Oud, Cedarwood, Vetiver and Ash",
+    "topNotesFa": [
+      "برگاموت",
+      "Camphor",
+      "علف",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "Petrichor",
+      "خزه بلوط",
+      "دود"
+    ],
+    "baseNotesFa": [
+      "چوب شناور",
+      "White Oud",
+      "چوب سرو",
+      "وتیور",
+      "Ash"
+    ],
+    "descriptionFa": "Ghost Cat اثر Juliet Rose یک ترکیب اتمسفریک است که بر اساس جنبه‌های سبز، دودی و معدنی ساخته شده است. رایحه با نت‌های روشن و کمی دارویی کافور سفید، علف تازه چیده شده، اسطوخودوس و ترنج آغاز می‌شود و سپس جای خود را به نت‌های میانی خاک تازه زیرورو شده، خزه بلوط، دود چوب و پتریکور می‌دهد که یادآور خاک مرطوب و هوای نمناک پس از باران است. در رایحه پایه، وتیور، چوب سدر، خاکستر، چوب آب‌رفته، عود سفید و ترکیبی از آسفالت، رایحه‌های چوب خشک، دود و یک حس تاریک و شهری را اضافه می‌کنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mancera/Hindu-Kush-49030.html",
+    "extractedAt": "2026-11-26T08:28:56.255Z",
+    "name": "Hindu Kush",
+    "brand": "Mancera",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Pierre Montale",
+    "topNotes": [
+      "Incense",
+      "Spices",
+      "cannabis",
+      "Labdanum"
+    ],
+    "middleNotes": [
+      "Woody Notes",
+      "Patchouli Leaf"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Guaiac Wood",
+      "Vanilla Pod",
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49030.jpg",
+    "rating": 3.92,
+    "ratingVotes": 3327,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 61
+      },
+      {
+        "nameEn": "cannabis",
+        "nameFa": "cannabis",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 31
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 49030,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hindu Kush",
+    "brandFa": "مانسرا",
+    "nameFa": "Hindu Kush",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Pierre Montale",
+    "topNotesFa": [
+      "عود بخور",
+      "Spices",
+      "cannabis",
+      "لابدانوم"
+    ],
+    "middleNotesFa": [
+      "Woody Notes",
+      "Patchouli Leaf"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب گوئیک",
+      "Vanilla Pod",
+      "موش سفید"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Escentric-Molecules/Escentric-02-3607.html",
+    "extractedAt": "2026-11-26T08:29:00.277Z",
+    "name": "Escentric 02",
+    "brand": "Escentric Molecules",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>Escentric 02</b> was launched in 2008. The nose behind this fragrance is Geza Schoen. The fragrance features Ambroxan, Iso E Super, Iris and Jasmine",
+    "year": 2008,
+    "perfumer": "Geza Schoen",
+    "description": "Escentric 02 together with Molecule 02 represents the second completely synthetic fragrance pair, launched by Escentric Molecules. This time it was inspired by the basic scented component of grey amber, ambroxan. It is placen in the centre. The rest of the composition, just like in Escentric 01, is composed out of artful copies of the natural ingredients: a scent identical to the real musk - muscone, beautiful hedione (smells like jasmine), elderflower extract and orris. The fragrance is light with a shining and brisk opening (elderflower and hedoine) and a pleasantly warm finish. Read more about ambroxan here. The perfume was launched in 2008.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3607.jpg",
+    "rating": 3.96,
+    "ratingVotes": 5164,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 49
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 24
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 20
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 3607,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Escentric 02",
+    "brandFa": "Escentric Molecules",
+    "nameFa": "Escentric 02",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>Escentric 02</b> was launched in 2008. The nose behind this fragrance is Geza Schoen. The fragrance features Ambroxan, Iso E Super, Iris and Jasmine",
+    "perfumerFa": "Geza Schoen",
+    "descriptionFa": "Escentric 02 به همراه Molecule 02 دومین جفت عطر کاملاً مصنوعی است که توسط Escentric Molecules عرضه شده است. این بار الهام‌گرفته از ماده معطر اصلی عنبر خاکستری، یعنی آمبروکسان، بود. این ماده در مرکز قرار دارد. بقیه ترکیبات، دقیقاً مانند Escentric 01، از نسخه‌های هنرمندانه مواد طبیعی تشکیل شده است: رایحه‌ای مشابه مشک واقعی - موسکون، هدیون زیبا (بوی یاس می‌دهد)، گل‌سفید",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Louis-Vuitton/L-Immensite-49751.html",
+    "extractedAt": "2026-11-26T08:29:05.953Z",
+    "name": "L’Immensité",
+    "brand": "Louis Vuitton",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2018,
+    "perfumer": "Jacques Cavallier Belletrud",
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Rosemary",
+      "Sage",
+      "Geranium",
+      "Water Notes"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Ambroxan",
+      "Labdanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49751.jpg",
+    "rating": 4.3,
+    "ratingVotes": 5313,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 68
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 21
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 17
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 13
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 49751,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L’Immensité",
+    "brandFa": "Louis Vuitton",
+    "nameFa": "L’Immensité",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jacques Cavallier Belletrud",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "رزماری",
+      "مریم‌گلی",
+      "گل جعفری",
+      "Water Notes"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "آمبروکسان",
+      "لابدانوم"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Fahrenheit-228.html",
+    "extractedAt": "2026-11-26T08:29:10.609Z",
+    "name": "Fahrenheit",
+    "brand": "Dior",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 1988,
+    "perfumer": "Jean-Louis Sieuzac, Michel Almairac and Maurice Roger",
+    "topNotes": [
+      "Nutmeg Flower",
+      "Lavender",
+      "Cedar",
+      "Mandarin Orange",
+      "Chamomile",
+      "Bergamot",
+      "Hawthorn",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Violet Leaf",
+      "Nutmeg",
+      "Cedar",
+      "Sandalwood",
+      "Carnation",
+      "Honeysuckle",
+      "Jasmine",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Vetiver",
+      "Musk",
+      "Amber",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.228.jpg",
+    "rating": 3.98,
+    "ratingVotes": 23585,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 86
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 73
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 68
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 63
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 228,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fahrenheit",
+    "brandFa": "دیور",
+    "nameFa": "Fahrenheit",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jean-Louis Sieuzac, Michel Almairac and Maurice Roger",
+    "topNotesFa": [
+      "Nutmeg Flower",
+      "اسطوخودوس",
+      "سرو",
+      "نارنگی",
+      "بابونه",
+      "برگاموت",
+      "Hawthorn",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "برگ بنفشه",
+      "جوز هندی",
+      "سرو",
+      "چوب صندل",
+      "میخک",
+      "گل پامچال",
+      "یاسمن",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "وتیور",
+      "موش",
+      "کهربا",
+      "پچولی",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Escentric-Molecules/Molecule-01-845.html",
+    "extractedAt": "2026-11-26T08:29:14.983Z",
+    "name": "Molecule 01",
+    "brand": "Escentric Molecules",
+    "family": "Woody Floral Musk",
+    "gender": "women and men. <b>Molecule 01</b> was launched in 2006. The nose behind this fragrance is Geza Schoen. The fragrance features Iso E Super",
+    "year": 2006,
+    "perfumer": "Geza Schoen",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.845.jpg",
+    "rating": 3.96,
+    "ratingVotes": 10580,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 20
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 845,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Molecule 01",
+    "brandFa": "Escentric Molecules",
+    "nameFa": "Molecule 01",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "women and men. <b>Molecule 01</b> was launched in 2006. The nose behind this fragrance is Geza Schoen. The fragrance features Iso E Super",
+    "perfumerFa": "Geza Schoen",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
