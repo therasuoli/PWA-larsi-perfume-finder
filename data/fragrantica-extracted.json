@@ -105098,5 +105098,1537 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Daniel-s-Truth/Blendique-1-Hair-Mist-148822.html",
+    "extractedAt": "2026-11-26T10:53:54.633Z",
+    "name": "Blendique 1 Hair Mist",
+    "brand": "Daniel's Truth",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Peony",
+      "Sage"
+    ],
+    "middleNotes": [
+      "Fig",
+      "Eucalyptus"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "White Musk"
+    ],
+    "description": "Blendique 1 by Daniel's Truth is a hair mist launched in 2026. It opens with peony and sage, followed by fig, aronia and eucalyptus, over a base of woody notes and white musk. The formula uses Damask rose water in place of alcohol to hydrate, lightly style and add shine to the hair. Its bottle design draws on traditional light-blocking vessels used to store aged liqueurs and fragrances.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148822.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 57
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 52
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 33
+      },
+      {
+        "nameEn": "camphor",
+        "nameFa": "camphor",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 148822,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blendique 1 Hair Mist",
+    "brandFa": "Daniel's Truth",
+    "nameFa": "Blendique 1 Hair Mist",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گل داوودی",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "انجیر",
+      "اوکالیپتوس"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "موش سفید"
+    ],
+    "descriptionFa": "Blendique 1 از برند Daniel's Truth یک اسپری مو است که در سال 2026 عرضه شد. این عطر با رایحه گل صدتومانی و مریم‌گلی آغاز می‌شود، سپس رایحه‌های انجیر، آرونیا و اکالیپتوس به مشام می‌رسند و در نهایت رایحه‌های پایه شامل نت‌های چوبی و مشک سفید حس می‌شوند. در این فرمول به جای الکل از گلاب گل رز دمشقی استفاده شده است تا موها را هیدراته کند، کمی حالت دهد و به آنها درخشندگی ببخشد. طراحی بطری آن از ظروف سنتی نورگیر که برای نگهداری لیکورها و عطر‌های کهنه استفاده می‌شوند، الهام گرفته است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Daniel-s-Truth/Iris-Veil-148821.html",
+    "extractedAt": "2026-11-26T10:54:00.821Z",
+    "name": "Iris Veil",
+    "brand": "Daniel's Truth",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Violet Leaf",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Freesia",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Cedarwood",
+      "White Musk"
+    ],
+    "description": "Iris Veil by Daniel’s Truth is a Floral Woody Musk fragrance launched in 2026. It opens with violet leaf and bergamot, followed by a heart of iris, freesia and rose, over a base of sandalwood, cedarwood and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148821.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 83
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 46
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 43
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 148821,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Iris Veil",
+    "brandFa": "Daniel's Truth",
+    "nameFa": "Iris Veil",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگ بنفشه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "فریزیا",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "چوب سرو",
+      "موش سفید"
+    ],
+    "descriptionFa": "Iris Veil از برند Daniel’s Truth یک عطر گل‌فام چوبی مشکی است که در سال 2026 عرضه شد. این عطر با رایحه برگ بنفشه و ترنج آغاز می‌شود، سپس رایحه میانی زنبق، فریزا و گل رز را احساس می‌کنید و در نهایت رایحه پایه چوب صندل، چوب سدر و مشک سفید به مشام می‌رسد.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hetkinen/Mycel-148820.html",
+    "extractedAt": "2026-11-26T10:54:05.798Z",
+    "name": "Mycel",
+    "brand": "Hetkinen",
+    "family": "Woody",
+    "gender": "women and men. This is a new fragrance. <b>Mycel</b> was launched in 2026. The fragrance features Pine, Woody Notes, Moss, Earthy Notes and Mushroom",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148820.jpg",
+    "accords": [
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 28
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 20
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 12
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 8
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 148820,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mycel",
+    "brandFa": "Hetkinen",
+    "nameFa": "Mycel",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>Mycel</b> was launched in 2026. The fragrance features Pine, Woody Notes, Moss, Earthy Notes and Mushroom",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hetkinen/Bling-Mul-148819.html",
+    "extractedAt": "2026-11-26T10:54:10.342Z",
+    "name": "Bling Mul",
+    "brand": "Hetkinen",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Yuzu",
+      "Lime",
+      "Birch",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Apple Blossom",
+      "Lilac",
+      "White Rose",
+      "Apricot",
+      "Ambrette"
+    ],
+    "baseNotes": [
+      "Birch"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148819.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 36
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 34
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 34
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148819,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bling Mul",
+    "brandFa": "Hetkinen",
+    "nameFa": "Bling Mul",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "یوزو",
+      "لیمو سبز",
+      "توس",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "Apple Blossom",
+      "گل یاس",
+      "White Rose",
+      "زردآلو",
+      "دانه ابرکفش"
+    ],
+    "baseNotesFa": [
+      "توس"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hetkinen/Halo-Gold-148818.html",
+    "extractedAt": "2026-11-26T10:54:14.091Z",
+    "name": "Halo Gold",
+    "brand": "Hetkinen",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Halo Gold</b> was launched in 2026. The fragrance features Vanilla, Juniper, Neroli, Orange Blossom, Jasmine, Sandalwood, Rum and Woody Notes",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148818.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 86
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 43
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 34
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 34
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 27
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148818,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Halo Gold",
+    "brandFa": "Hetkinen",
+    "nameFa": "Halo Gold",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Halo Gold</b> was launched in 2026. The fragrance features Vanilla, Juniper, Neroli, Orange Blossom, Jasmine, Sandalwood, Rum and Woody Notes",
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diptyque/Orpheon-Eau-de-Parfum-65738.html",
+    "extractedAt": "2026-11-26T10:54:18.760Z",
+    "name": "Orphéon Eau de Parfum",
+    "brand": "Diptyque",
+    "family": "Woody Chypre",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Olivier Pescheux",
+    "topNotes": [
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Powdery Notes",
+      "Cedar",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65738.jpg",
+    "rating": 4.3,
+    "ratingVotes": 6980,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 90
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 53
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 14
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 65738,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Orphéon",
+    "brandFa": "دیپتیک",
+    "nameFa": "Orphéon Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olivier Pescheux",
+    "topNotesFa": [
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "نت‌های پودری",
+      "سرو",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Vanilla-Scotch-143903.html",
+    "extractedAt": "2026-11-26T10:54:23.643Z",
+    "name": "Vanilla Scotch",
+    "brand": "Jo Malone London",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Vanilla Scotch</b> was launched in 2026. The fragrance features Vanilla, Whiskey, Tonka Bean and Amber",
+    "year": 2026,
+    "description": "A festive adventure in the Highlands. Warm indulgent vanilla blended with a spirited splash of a Scotch whisky accord, tumbling over roasted tonka bean and wrapped in the sensual allure of golden amber. </p> <p>Presented in a special festive glass design.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143903.jpg",
+    "rating": 4.04,
+    "ratingVotes": 270,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 62
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 31
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 27
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 143903,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Scotch",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Vanilla Scotch",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Vanilla Scotch</b> was launched in 2026. The fragrance features Vanilla, Whiskey, Tonka Bean and Amber",
+    "descriptionFa": "یک ماجراجویی شاد در هایلندز. وانیل گرم و دلپذیر که با یک قطره پرشور از رایحه ویسکی اسکاچ ترکیب شده است، بر روی دانه تونکای برشته شده می‌ریزد و در جذابیت حسی کهربای طلایی پیچیده می‌شود. </p> <p>در یک شیشه با طراحی ویژه جشن ارائه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Afnan/9pm-65414.html",
+    "extractedAt": "2026-11-26T10:54:28.627Z",
+    "name": "9pm",
+    "brand": "Afnan",
+    "family": "Oriental Vanilla",
+    "gender": "men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Cinnamon",
+      "Wild Lavender",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Amber",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65414.jpg",
+    "rating": 4.32,
+    "ratingVotes": 19291,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 46
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 36
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 65414,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "9pm",
+    "brandFa": "افنان",
+    "nameFa": "9pm",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "سیب",
+      "دارچین",
+      "Wild Lavender",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "کهربا",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ahmed-Al-Maghribi/Blush-Noir-125252.html",
+    "extractedAt": "2026-11-26T10:54:33.636Z",
+    "name": "Blush Noir",
+    "brand": "Ahmed Al Maghribi",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Pink Grapefruit",
+      "Blackberry",
+      "Black Currant",
+      "Rhubarb",
+      "Cassis",
+      "Peony",
+      "Peach",
+      "Red Apple",
+      "Pear",
+      "Litchi",
+      "Clary Sage"
+    ],
+    "middleNotes": [
+      "Marine notes",
+      "Lily of the Valley",
+      "Raspberry",
+      "Egyptian Jasmine",
+      "May Rose",
+      "Saffron",
+      "Damask Rose",
+      "Violet",
+      "Praline",
+      "Wild Berries",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Incense",
+      "Sandalwood",
+      "Ambergris",
+      "Ambroxan",
+      "Caramel",
+      "Oud",
+      "Mineral notes",
+      "Moss"
+    ],
+    "description": "Concentration: 39% (Extrait de Parfum), Alcohol Volume: 52%<br /> Olfactory Profile: Fruity – Floral – Musky – Ambery – Woody</p> <p>A vibrant modern rose creation blending juicy fruits, delicate florals, deep musk, and the brand's signature oud. Bold yet feminine with a sensual pink aura.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.125252.jpg",
+    "rating": 4.11,
+    "ratingVotes": 28,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 38
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 34
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 125252,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blush Noir",
+    "brandFa": "Ahmed Al Maghribi",
+    "nameFa": "Blush Noir",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "سیب",
+      "Pink Grapefruit",
+      "توت سیاه",
+      "توت سیاه",
+      "Rhubarb",
+      "توت سیاه فرانسوی",
+      "گل داوودی",
+      "هلو",
+      "سیب قرمز",
+      "گلابی",
+      "Litchi",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "Marine notes",
+      "لاله سفید",
+      "تمشک",
+      "Egyptian Jasmine",
+      "گل رز میانی",
+      "زعفران",
+      "گل رز دمشقی",
+      "بنفشه",
+      "پرالین",
+      "Wild Berries",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "عود بخور",
+      "چوب صندل",
+      "کهربا خاکستری",
+      "آمبروکسان",
+      "کارامل",
+      "عود",
+      "Mineral notes",
+      "خزه"
+    ],
+    "descriptionFa": "غلظت: 39% (عصاره عطر)، حجم الکل: 52%<br /> مشخصات رایحه: میوه‌ای – گل‌دار – مشکی – کهربایی – چوبی</p> <p>یک عطر گل رز مدرن و پرنشاط که ترکیبی از میوه‌های آبدار، رایحه‌های گل‌های ظریف، مشک عمیق و عود مخصوص برند است. جسور اما زنانه با هاله صورتی حسی.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Massimo-Dutti/White-Evening-81591.html",
+    "extractedAt": "2026-11-26T10:54:39.757Z",
+    "name": "White Evening",
+    "brand": "Massimo Dutti",
+    "family": null,
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Givaudan",
+    "topNotes": [
+      "Iris"
+    ],
+    "middleNotes": [
+      "Amber"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81591.jpg",
+    "rating": 4.36,
+    "ratingVotes": 134,
+    "accords": [
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 98
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 61
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 81591,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White Evening",
+    "brandFa": "Massimo Dutti",
+    "nameFa": "White Evening",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Givaudan",
+    "topNotesFa": [
+      "زنبق"
+    ],
+    "middleNotesFa": [
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Milton-Lloyd/Essentials-N012-124880.html",
+    "extractedAt": "2026-11-26T10:54:44.652Z",
+    "name": "Essentials N°12",
+    "brand": "Milton Lloyd",
+    "family": "Aromatic Aquatic",
+    "gender": "men. <b>Essentials N°12</b> was launched during the 2020's. Top note is Bergamot; middle notes are Sea Notes, Fougère Accord and Black Pepper; base notes are Ambroxan, Woody Notes and Musk",
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Sea Notes",
+      "Fougère Accord",
+      "Black Pepper"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Woody Notes",
+      "Musk"
+    ],
+    "description": "ZESTY, AROMATIC AND DISTINCTIVE. Add some spark to your style with the help of Essentials №12, an electrifying men’s fragrance blending together citrus, pepper, and Ambroxan. Essentials №12 is a daring perfume for men.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124880.jpg",
+    "rating": 4.75,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 92
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 76
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 70
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 124880,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Essentials N°12",
+    "brandFa": "Milton Lloyd",
+    "nameFa": "Essentials N°12",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "men. <b>Essentials N°12</b> was launched during the 2020's. Top note is Bergamot; middle notes are Sea Notes, Fougère Accord and Black Pepper; base notes are Ambroxan, Woody Notes and Musk",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Sea Notes",
+      "Fougère Accord",
+      "فلفل سیاه"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "Woody Notes",
+      "موش"
+    ],
+    "descriptionFa": "ترش، معطر و متمایز. با کمک Essentials №12، یک عطر هیجان‌انگیز مردانه که ترکیبی از مرکبات، فلفل و آمبروکسان است، کمی درخشش به سبک خود اضافه کنید. Essentials №12 یک عطر جسورانه برای آقایان است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Christian-Louboutin/Fetiche-Le-Cuir-95662.html",
+    "extractedAt": "2026-11-26T10:54:50.983Z",
+    "name": "Fétiche Le Cuir",
+    "brand": "Christian Louboutin",
+    "family": "Leather",
+    "gender": "women and men. This is a new fragrance. <b>Fétiche Le Cuir</b> was launched in 2024. The nose behind this fragrance is Juliette Karagueuzoglou. The fragrance features Leather, Osmanthus and Suede",
+    "year": 2024,
+    "perfumer": "Juliette Karagueuzoglou",
+    "description": "She’s captivated by her own dominating stare in the mirror.</p> <p>Her arousal grows as she slips her feet into her Kate leather stilettos. She unfurls, rises, stands - an exhilarating feeling of power overcomes her.</p> <p>Before she saunters down the stairs, she adds the final touch, enveloping herself in notes of carnal leather and deep osmanthus, sensual yet dominating and irresistibly bold. A fierce fragrance, like a caress on the skin. Where does one end, and the other begin? The source of her confidence?</p> <p>Fétiche Le Cuir by Christian Louboutin.</p> <p>Fétiche Le Cuir by Christian Louboutin is a leather floral fragrance that explores the sumptuousness of leather through the natural richness and sensual facets of osmanthus. This scent features floral osmanthus notes, peachy and warm, anchored by a vibrant silky-suede base drenched in musks.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95662.jpg",
+    "rating": 4.07,
+    "ratingVotes": 190,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 62
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 22
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 21
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 21
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 95662,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fétiche Le Cuir",
+    "brandFa": "Christian Louboutin",
+    "nameFa": "Fétiche Le Cuir",
+    "familyFa": "چرمی",
+    "genderFa": "women and men. This is a new fragrance. <b>Fétiche Le Cuir</b> was launched in 2024. The nose behind this fragrance is Juliette Karagueuzoglou. The fragrance features Leather, Osmanthus and Suede",
+    "perfumerFa": "Juliette Karagueuzoglou",
+    "descriptionFa": "او شیفته نگاه مسلط خود در آینه است.</p> <p>همانطور که پاهایش را در کفش‌های پاشنه بلند چرمی Kate خود فرو می‌کند، هیجانش بیشتر می‌شود. او خود را باز می‌کند، بلند می‌شود، می‌ایستد - احساس نشاط‌آوری از قدرت بر او چیره می‌شود.</p> <p>قبل از اینکه با قدم‌های آرام از پله‌ها پایین برود، آخرین لمس را اضافه می‌کند و خود را در رایحه‌های چرم شهوانی و عطر عمیق اوسمانتوس می‌پیچاند، رایحه‌ای که هم حسی است و هم غالب و به‌طور غیرقابل مقاومتی جسورانه. عطری تند، مانند نوازشی بر پوست. کجا",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragrance-World/Redriguez-Pour-Homme-109010.html",
+    "extractedAt": "2026-11-26T10:54:57.144Z",
+    "name": "Redriguez Pour Homme",
+    "brand": "Fragrance World",
+    "family": "Floral",
+    "gender": "men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Iris"
+    ],
+    "baseNotes": [
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109010.jpg",
+    "rating": 3.75,
+    "ratingVotes": 8,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 17
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 2
+      }
+    ],
+    "fragranticaId": 109010,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Redriguez Pour Homme",
+    "brandFa": "Fragrance World",
+    "nameFa": "Redriguez Pour Homme",
+    "familyFa": "گلی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "موش"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Yara-Elixir-117615.html",
+    "extractedAt": "2026-11-26T10:55:01.402Z",
+    "name": "Yara Elixir",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Strawberry S’mores",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Caramel",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Yara Elixir from <em>Lattafa </em>is an ode to bold, modern femininity. Deliciously sweet, enveloping and sensual, this fragrance embodies the charm of a confident woman, both gentle and magnetic. Between melting red fruits, luminous flowers and an addictive amber base,Yara Elixircaptures the essence of oriental glamour.</p> <p>Leading the waymelting strawberries and chocolate s'moresintertwine withblackcurrant, The heart blossoms with a bouquet of flowers. The heart opens with a bouquet ofjasmineandorange blossom, symbols of femininity and softness. In the backgroundvanillagets married atcarameland themusk amber, leaving a suave, unforgettable trail on the skin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117615.jpg",
+    "rating": 4.22,
+    "ratingVotes": 1446,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 94
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 66
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 117615,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Yara",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Yara Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Strawberry S’mores",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کارامل",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "Yara Elixir از برند <em>Lattafa </em>سرودی است برای زنانگی جسور و مدرن. این عطر که خوشایند شیرین، فراگیر و شهوانی است، تجسم جذابیت یک زن با اعتماد به نفس است که هم ملایم و هم نافذ است. Yara Elixir با ترکیبی از میوه‌های قرمز آبدار، گل‌های درخشان و رایحه پایه کهربایی اعتیادآور، عصاره جذابیت شرقی را در خود جای داده است.</p> <p>در نت اولیه، توت‌فرنگی‌های آب‌شده و اسمورهای شکلاتی با انگورفرنگی سیاه در هم می‌آمیزند. نت میانی با یک دسته گل شکوفا می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ESSNCE/Blueberry-Eclair-145002.html",
+    "extractedAt": "2026-11-26T10:55:08.375Z",
+    "name": "Blueberry Eclair",
+    "brand": "ESSNCE",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women. Top notes are Blueberry and Blackberry; middle notes are Blueberry, Frosting [Glacé], Marshmallow, Gardenia, Freesia and Rice; base notes are Vanilla, Musk and Cedar",
+    "topNotes": [
+      "Blueberry",
+      "Blackberry"
+    ],
+    "middleNotes": [
+      "Blueberry",
+      "Frosting [Glacé]",
+      "Marshmallow",
+      "Gardenia",
+      "Freesia",
+      "Rice"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "Blueberry Eclair by ESSNCE is a floral fruity gourmand fragrance for women that extends the Eclair line’s vanilla theme with a blueberry accord. It opens with blueberry and blackberry, followed by gardenia, freesia, blueberry frosting, rice and marshmallow, and rests on a base of musk, cedar and vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.145002.jpg",
+    "rating": 4.15,
+    "ratingVotes": 13,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 84
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 22
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 15
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 145002,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blueberry Eclair",
+    "brandFa": "ESSNCE",
+    "nameFa": "Blueberry Eclair",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women. Top notes are Blueberry and Blackberry; middle notes are Blueberry, Frosting [Glacé], Marshmallow, Gardenia, Freesia and Rice; base notes are Vanilla, Musk and Cedar",
+    "topNotesFa": [
+      "بلوبری",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "بلوبری",
+      "Frosting [Glacé]",
+      "مارشمالو",
+      "گاردنیا",
+      "فریزیا",
+      "Rice"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "سرو"
+    ],
+    "descriptionFa": "Blueberry Eclair از برند ESSNCE یک عطر گلی میوه‌ای گُرماند برای خانم‌ها است که تم وانیلی خط تولید Eclair را با ترکیبی از بلوبری تکمیل می‌کند. این عطر با رایحه بلوبری و تمشک آغاز می‌شود، سپس رایحه گاردنیا، فریزا، کرم بلوبری، برنج و مارشمالو به مشام می‌رسد و در نهایت بر پایه رایحه مشک، سرو و وانیل استوار می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
