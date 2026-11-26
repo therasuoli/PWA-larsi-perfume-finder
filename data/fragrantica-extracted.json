@@ -108408,5 +108408,1428 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Mashrabya-100127.html",
+    "extractedAt": "2026-11-26T12:59:31.692Z",
+    "name": "Mashrabya",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Apple Shisha Accord",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Cinnamon",
+      "Dates"
+    ],
+    "baseNotes": [
+      "Oud Smoke",
+      "Caramel",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.100127.jpg",
+    "rating": 4.28,
+    "ratingVotes": 2226,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 63
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 47
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 27
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 100127,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mashrabya",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Mashrabya",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Apple Shisha Accord",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "دارچین",
+      "Dates"
+    ],
+    "baseNotesFa": [
+      "Oud Smoke",
+      "کارامل",
+      "وانیل",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Malin-Goetz/Leather-67401.html",
+    "extractedAt": "2026-11-26T12:59:36.918Z",
+    "name": "Leather",
+    "brand": "Malin+Goetz",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": null,
+    "topNotes": [
+      "Pepper",
+      "Cloves",
+      "Lotus"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Lily-of-the-Valley",
+      "Orchid"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67401.jpg",
+    "rating": 4.02,
+    "ratingVotes": 475,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 70
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 43
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 67401,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Leather",
+    "brandFa": "Malin+Goetz",
+    "nameFa": "Leather",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل",
+      "Cloves",
+      "نیلوفر آبی"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "Lily-of-the-Valley",
+      "Orchid"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "چوب صندل",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragonard/L-Oranger-136927.html",
+    "extractedAt": "2026-11-26T12:59:41.163Z",
+    "name": "L'Oranger",
+    "brand": "Fragonard",
+    "family": "Citrus Aromatic",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Green Mandarin",
+      "Petitgrain",
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Cypress",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "description": "L'Oranger by Fragonard is a citrus-aromatic fragrance built around bright citrus facets and orange blossom. It opens with bergamot, green mandarin, and petitgrain, develops through a heart of lavender, cypress, and orange blossom absolute, and settles into a soft base of white musk and blond woods.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136927.jpg",
+    "rating": 4.6,
+    "ratingVotes": 20,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 72
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 136927,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Oranger",
+    "brandFa": "Fragonard",
+    "nameFa": "L'Oranger",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Green Mandarin",
+      "پتیت‌گرین",
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "سرو کوهی",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "descriptionFa": "L'Oranger by Fragonard is a citrus-aromatic fragrance built around bright citrus facets and orange blossom. It opens with bergamot, green mandarin, and petitgrain, develops through a heart of lavender, cypress, and orange blossom absolute, and settles into a soft base of white musk and blond woods.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Room-1015/Kokoa-Bang-142378.html",
+    "extractedAt": "2026-11-26T12:59:45.973Z",
+    "name": "Kokoa Bang",
+    "brand": "Room 1015",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jérôme di Marino",
+    "topNotes": [
+      "Pear",
+      "Champagne Rosé",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Cacao",
+      "Magnolia",
+      "Mugane"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Myrrh",
+      "Siam Benzoin"
+    ],
+    "description": "Kokoa Bang by Room 1015 is an eau de parfum created by Jérôme Di Marino and launched in 2026. Inspired by dessert-making as a form of creative expression, the fragrance opens with rosé Champagne, pear and lemon, followed by magnolia, cacao and Mugane wood over a base of myrrh, vanilla, tonka bean and Siam benzoin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142378.jpg",
+    "rating": 4.06,
+    "ratingVotes": 85,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 94
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 93
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 88
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 86
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 64
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 142378,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kokoa Bang",
+    "brandFa": "اتاق ۱۰۱۵",
+    "nameFa": "Kokoa Bang",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jérôme di Marino",
+    "topNotesFa": [
+      "گلابی",
+      "Champagne Rosé",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "کاکائو",
+      "ماگنولیا",
+      "Mugane"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "مور",
+      "Siam Benzoin"
+    ],
+    "descriptionFa": "Kokoa Bang by Room 1015 is an eau de parfum created by Jérôme Di Marino and launched in 2026. Inspired by dessert-making as a form of creative expression, the fragrance opens with rosé Champagne, pear and lemon, followed by magnolia, cacao and Mugane wood over a base of myrrh, vanilla, tonka bean and Siam benzoin.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Dua-Brand/Dreamy-Elixir-66140.html",
+    "extractedAt": "2026-11-26T12:59:50.205Z",
+    "name": "Dreamy Elixir",
+    "brand": "The Dua Brand",
+    "family": "Floral Fruity",
+    "gender": "women and men. <b>Dreamy Elixir</b> was launched in 2020. The fragrance features Plum, Red Currant, Vanilla, Bulgarian Rose, Mimosa absolute, Sandalwood, Tonka Bean, Petalia and White Flowers",
+    "year": 2020,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66140.jpg",
+    "rating": 4.15,
+    "ratingVotes": 46,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 69
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 44
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 34
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 66140,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Dreamy",
+    "brandFa": "The Dua Brand",
+    "nameFa": "Dreamy Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. <b>Dreamy Elixir</b> was launched in 2020. The fragrance features Plum, Red Currant, Vanilla, Bulgarian Rose, Mimosa absolute, Sandalwood, Tonka Bean, Petalia and White Flowers",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/GUY-FOX/Kuya-136667.html",
+    "extractedAt": "2026-11-26T12:59:53.571Z",
+    "name": "Kuya",
+    "brand": "GUY FOX",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Kuya</b> was launched in 2026. The nose behind this fragrance is Frank Voelkl. The fragrance features Vanilla, Coconut and Surf Wax",
+    "year": 2026,
+    "perfumer": "Frank Voelkl",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136667.jpg",
+    "rating": 4.41,
+    "ratingVotes": 22,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 15
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 13
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 136667,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kuya",
+    "brandFa": "GUY FOX",
+    "nameFa": "Kuya",
+    "genderFa": "women and men. This is a new fragrance. <b>Kuya</b> was launched in 2026. The nose behind this fragrance is Frank Voelkl. The fragrance features Vanilla, Coconut and Surf Wax",
+    "perfumerFa": "Frank Voelkl",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Milestone-Perfumes/Safran-Noir-112544.html",
+    "extractedAt": "2026-11-26T12:59:57.269Z",
+    "name": "Safran Noir",
+    "brand": "Milestone Perfumes",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Juniper Berries",
+      "Chinese Grapefruit"
+    ],
+    "middleNotes": [
+      "Black Violet",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Raspberry",
+      "Cashmeran",
+      "Vetiver"
+    ],
+    "description": "Safran Noir presents a blend of exotic spices and woods, opening with zesty citrus and earthy elements, evolving into a leathery heart, and settling into a sweet, woody base. Its complex structure offers a balance between freshness and depth, suitable for cooler weather.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112544.jpg",
+    "rating": 4.35,
+    "ratingVotes": 37,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 66
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 112544,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Safran Noir",
+    "brandFa": "Milestone Perfumes",
+    "nameFa": "Safran Noir",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "زغالک عرعر",
+      "Chinese Grapefruit"
+    ],
+    "middleNotesFa": [
+      "Black Violet",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "تمشک",
+      "کشماران",
+      "وتیور"
+    ],
+    "descriptionFa": "Safran Noir presents a blend of exotic spices and woods, opening with zesty citrus and earthy elements, evolving into a leathery heart, and settling into a sweet, woody base. Its complex structure offers a balance between freshness and depth, suitable for cooler weather.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zoologist-Perfumes/Toucan-137612.html",
+    "extractedAt": "2026-11-26T13:00:01.396Z",
+    "name": "Toucan",
+    "brand": "Zoologist Perfumes",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Simon Constantine",
+    "topNotes": [
+      "Papaya",
+      "Coconut",
+      "Orange",
+      "Lime"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Jasmine",
+      "Orange Blossom",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Benzoin",
+      "Tonka Bean",
+      "Cloves",
+      "Sandalwood"
+    ],
+    "description": "In the heart of a tropical rainforest, delicate mist from a thundering waterfall is carried on the rising heat of sultry air, brushing the sweet, ripe treasures the trees hold aloft to the sun. Above, a shadow darkens the leaves. It dives, showing its true colours in a brilliant array. The huge beak of the toucan slices through the treetops and, with a flourish of bold plumage, the forager snatches its luscious bounty away to feast with its chatty, colourful brood.</p> <p>Zoologist Toucan bursts forth with a tang of tropical fruits: zesty lime, juicy orange, sweet papaya, and creamy coconut. Lush geranium, exotic jasmine, and velvety ylang-ylang weave an alluring tapestry of greenery and florals. At its heart, warm clove, rich sandalwood, and a whisper of vanilla evoke the quiet fortitude of ancient trees. This fragrance dazzles with the vibrant spirit of the tropics. Toucan calls you to embrace the jungle’s intoxicating allure, then sends you soaring with bold sophistication.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137612.jpg",
+    "rating": 3.78,
+    "ratingVotes": 109,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 73
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 73
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 66
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 65
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 45
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 137612,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Toucan",
+    "brandFa": "Zoologist Perfumes",
+    "nameFa": "Toucan",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Simon Constantine",
+    "topNotesFa": [
+      "پاپایا",
+      "نارگیل",
+      "پرتقال",
+      "لیمو سبز"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "یاسمن",
+      "گل پرتقال",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بنزوئین",
+      "لوبیا تونکا",
+      "Cloves",
+      "چوب صندل"
+    ],
+    "descriptionFa": "In the heart of a tropical rainforest, delicate mist from a thundering waterfall is carried on the rising heat of sultry air, brushing the sweet, ripe treasures the trees hold aloft to the sun. Above, a shadow darkens the leaves. It dives, showing its true colours in a brilliant array. The huge beak of the toucan slices through the treetops and, with a flourish of bold plumage, the forager snatches its luscious bounty away to feast with its chatty, colourful brood.</p> <p>Zoologist Toucan bursts forth with a tang of tropical fruits: zesty lime, juicy orange, sweet papaya, and creamy coconut. Lush geranium, exotic jasmine, and velvety ylang-ylang weave an alluring tapestry of greenery and florals. At its heart, warm clove, rich sandalwood, and a whisper of vanilla evoke the quiet fortitude of ancient trees. This fragrance dazzles with the vibrant spirit of the tropics. Toucan calls you to embrace the jungle’s intoxicating allure, then sends you soaring with bold sophistication.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Hypnotic-Poison-219.html",
+    "extractedAt": "2026-11-26T13:00:06.601Z",
+    "name": "Hypnotic Poison",
+    "brand": "Dior",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 1998,
+    "perfumer": "Annick Menardo",
+    "topNotes": [
+      "Coconut",
+      "Plum",
+      "Apricot"
+    ],
+    "middleNotes": [
+      "Brazilian Rosewood",
+      "Jasmine",
+      "Tuberose",
+      "Caraway",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Almond",
+      "Sandalwood",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.219.jpg",
+    "rating": 4.08,
+    "ratingVotes": 31096,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 79
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 219,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hypnotic Poison",
+    "brandFa": "دیور",
+    "nameFa": "Hypnotic Poison",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Annick Menardo",
+    "topNotesFa": [
+      "نارگیل",
+      "آلو",
+      "زردآلو"
+    ],
+    "middleNotesFa": [
+      "Brazilian Rosewood",
+      "یاسمن",
+      "گل شیپور",
+      "زیره کوهی",
+      "گل رز",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بادام",
+      "چوب صندل",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fueguia-1833/Ballena-de-la-Pampa-16426.html",
+    "extractedAt": "2026-11-26T13:00:10.581Z",
+    "name": "Ballena de la Pampa",
+    "brand": "Fueguia 1833",
+    "family": null,
+    "gender": "women and men",
+    "year": 2010,
+    "perfumer": "Julian Bedel",
+    "topNotes": [
+      "Musk"
+    ],
+    "middleNotes": [
+      "Hay"
+    ],
+    "baseNotes": [
+      "Ambergris"
+    ],
+    "description": "Ballena de la Pampa from the Fabula Fauna collection is an animalistic scent which contains 13 kinds of musk surrounded by straw and ambergris. </p> <p>The fragrances are available as 30 and 100 ml EDT, 30 and 100 ml EDP as 15 and 30 ml perfume absolute extract.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16426.jpg",
+    "rating": 4.22,
+    "ratingVotes": 188,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 92
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 70
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 68
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 34
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 16426,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ballena de la Pampa",
+    "brandFa": "Fueguia 1833",
+    "nameFa": "Ballena de la Pampa",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Julian Bedel",
+    "topNotesFa": [
+      "موش"
+    ],
+    "middleNotesFa": [
+      "یونجه"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری"
+    ],
+    "descriptionFa": "Ballena de la Pampa from the Fabula Fauna collection is an animalistic scent which contains 13 kinds of musk surrounded by straw and ambergris. </p> <p>The fragrances are available as 30 and 100 ml EDT, 30 and 100 ml EDP as 15 and 30 ml perfume absolute extract.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maissa-Parfums/Tobacco-81559.html",
+    "extractedAt": "2026-11-26T13:00:15.094Z",
+    "name": "Tobacco",
+    "brand": "Maïssa Parfums",
+    "family": "Aromatic Spicy",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Clove",
+      "Ginger",
+      "Balsamic Notes",
+      "elemi"
+    ],
+    "middleNotes": [
+      "Ceylon Cinnamon",
+      "Plum",
+      "Cistus Incanus",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amberwood",
+      "Gourmand Accord",
+      "Lactones"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81559.jpg",
+    "rating": 3.75,
+    "ratingVotes": 61,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 40
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 26
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 81559,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tobacco",
+    "brandFa": "Maïssa Parfums",
+    "nameFa": "Tobacco",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "میخک",
+      "زنجبیل",
+      "نت‌های بلسامی",
+      "elemi"
+    ],
+    "middleNotesFa": [
+      "Ceylon Cinnamon",
+      "آلو",
+      "Cistus Incanus",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب کهربایی",
+      "Gourmand Accord",
+      "Lactones"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lorenzo-Pazzaglia/Black-Sea-69652.html",
+    "extractedAt": "2026-11-26T13:00:18.891Z",
+    "name": "Black Sea",
+    "brand": "Lorenzo Pazzaglia",
+    "family": null,
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Lorenzo Pazzaglia",
+    "topNotes": [
+      "Salt",
+      "Ozonic notes",
+      "Watery Notes",
+      "Myrtle",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Sea Notes",
+      "Salt",
+      "Ylang-Ylang",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Algae",
+      "White Musk",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "description": "\"The sky darkens and the sea is calm, just before the storm. The wind arrives with its load of flowers and aromatic herbs and the menacing sky is reflected in the leaden water that looks like ink. It's a moment: the waves slap the rocks with such a force as to saturate the air and the saltiness applauds the air filling the lungs. Nature is demonstrating her immense strength. Black Sea is a perfume that releases the power of the elements, a fragrance for me as I fearlessly throw myself into the arms of a creation to be discovered. \" - Antea Devon</p> <p>Top Notes: Bergamot, Sardinian Myrtle, Salt, Ozone, Aquatic Notes<br /> Heart notes: Orange Blossom, Black Salt of Cyprus, Ylang-Ylang, Marine Notes<br /> Base Notes: Seaweed, White Musk, Patchouli, Oakmoss, Orientalgris",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69652.jpg",
+    "rating": 4.14,
+    "ratingVotes": 1677,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 66
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 60
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 69652,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Sea",
+    "brandFa": "Lorenzo Pazzaglia",
+    "nameFa": "Black Sea",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Lorenzo Pazzaglia",
+    "topNotesFa": [
+      "نمک",
+      "Ozonic notes",
+      "Watery Notes",
+      "مورد",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Sea Notes",
+      "نمک",
+      "ایلنگ‌ایلنگ",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "جلبک",
+      "موش سفید",
+      "خزه بلوط",
+      "پچولی"
+    ],
+    "descriptionFa": "\"The sky darkens and the sea is calm, just before the storm. The wind arrives with its load of flowers and aromatic herbs and the menacing sky is reflected in the leaden water that looks like ink. It's a moment: the waves slap the rocks with such a force as to saturate the air and the saltiness applauds the air filling the lungs. Nature is demonstrating her immense strength. Black Sea is a perfume that releases the power of the elements, a fragrance for me as I fearlessly throw myself into the arms of a creation to be discovered. \" - Antea Devon</p> <p>Top Notes: Bergamot, Sardinian Myrtle, Salt, Ozone, Aquatic Notes<br /> Heart notes: Orange Blossom, Black Salt of Cyprus, Ylang-Ylang, Marine Notes<br /> Base Notes: Seaweed, White Musk, Patchouli, Oakmoss, Orientalgris",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profondo-59532.html",
+    "extractedAt": "2026-11-26T13:00:22.628Z",
+    "name": "Acqua di Giò Profondo",
+    "brand": "Giorgio Armani",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2020,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Sea Notes",
+      "Aquozone",
+      "Bergamot",
+      "Green Mandarin"
+    ],
+    "middleNotes": [
+      "Rosemary",
+      "Lavender",
+      "Cypress",
+      "Mastic or Lentisque"
+    ],
+    "baseNotes": [
+      "Mineral notes",
+      "Musk",
+      "Patchouli",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59532.jpg",
+    "rating": 4.33,
+    "ratingVotes": 12261,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 98
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 72
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 42
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 59532,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Acqua di Giò Profondo",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Acqua di Giò Profondo",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "Sea Notes",
+      "Aquozone",
+      "برگاموت",
+      "Green Mandarin"
+    ],
+    "middleNotesFa": [
+      "رزماری",
+      "اسطوخودوس",
+      "سرو کوهی",
+      "Mastic or Lentisque"
+    ],
+    "baseNotesFa": [
+      "Mineral notes",
+      "موش",
+      "پچولی",
+      "کهربا"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
