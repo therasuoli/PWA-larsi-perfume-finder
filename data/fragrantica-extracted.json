@@ -96165,5 +96165,1333 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Oneiros/Floritura-102981.html",
+    "extractedAt": "2026-11-26T02:12:51.866Z",
+    "name": "Floritura",
+    "brand": "Oneiros",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Anh Ngo",
+    "topNotes": [
+      "Blackcurrant",
+      "Cardamom",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tulip",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Amber",
+      "Musk"
+    ],
+    "description": "<em>\"Floritura unfolds as a vibrant tulip garden filled with life, petals lifted toward the air after the rain has faded. In the calm after the storm, the blooms move subtly, held in a moment of quiet ease. Soft white florals blend with damp garden soil and a faint hint of green, coming together in a quiet, harmonious symphony.\"</em>, press release.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102981.jpg",
+    "rating": 4.75,
+    "ratingVotes": 24,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 86
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 86
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 57
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 54
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 102981,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Floritura",
+    "brandFa": "Oneiros",
+    "nameFa": "Floritura",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Anh Ngo",
+    "topNotesFa": [
+      "Blackcurrant",
+      "هل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل لاله",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "<em>\"Floritura unfolds as a vibrant tulip garden filled with life, petals lifted toward the air after the rain has faded. In the calm after the storm, the blooms move subtly, held in a moment of quiet ease. Soft white florals blend with damp garden soil and a faint hint of green, coming together in a quiet, harmonious symphony.\"</em>, press release.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Dioressence-2026-142887.html",
+    "extractedAt": "2026-11-26T02:12:56.189Z",
+    "name": "Dioressence (2026)",
+    "brand": "Dior",
+    "family": "Chypre Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Orange"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Geranium",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Patchouli",
+      "Benzoin"
+    ],
+    "description": "Dioressence by Dior is a 2026 reinterpretation of the house's classic fragrance, created by Francis Kurkdjian and scheduled for release on October 1, 2026. It is part of a series of 13 Dior classics revisited by Kurkdjian, with the aim of restoring the fragrance's spirit, character and depth while giving it a clearer, fresher character.</p> <p>Created in 1979 by Max Gavarry, Dioressence is the House of Dior's first amber fragrance. A sensual fragrance with patchouli notes whose perfect balance of Dior's floral elegance and animalic magnetism evokes a world of voluptuous sensuality.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142887.jpg",
+    "rating": 4.05,
+    "ratingVotes": 43,
+    "accords": [
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 99
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 63
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 60
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 142887,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dioressence (2026)",
+    "brandFa": "دیور",
+    "nameFa": "Dioressence (2026)",
+    "familyFa": "شیپر گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل جعفری",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "پچولی",
+      "بنزوئین"
+    ],
+    "descriptionFa": "Dioressence by Dior is a 2026 reinterpretation of the house's classic fragrance, created by Francis Kurkdjian and scheduled for release on October 1, 2026. It is part of a series of 13 Dior classics revisited by Kurkdjian, with the aim of restoring the fragrance's spirit, character and depth while giving it a clearer, fresher character.</p> <p>Created in 1979 by Max Gavarry, Dioressence is the House of Dior's first amber fragrance. A sensual fragrance with patchouli notes whose perfect balance of Dior's floral elegance and animalic magnetism evokes a world of voluptuous sensuality.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rabanne/Million-Gold-95641.html",
+    "extractedAt": "2026-11-26T02:13:00.122Z",
+    "name": "Million Gold",
+    "brand": "Rabanne",
+    "family": "Woody Aromatic",
+    "gender": "men. This is a new fragrance. <b>Million Gold</b> was launched in 2024. The nose behind this fragrance is Quentin Bisch. The fragrance features Sandalwood, Spices, Mandarin Orange and Cedarwood",
+    "year": 2024,
+    "perfumer": "Quentin Bisch",
+    "description": "Million Gold by Rabanne is a new fragrance for men, released in 2024. It features a blend of cedarwood, mandarin orange, sandalwood, and spices, creating a distinctive and appealing scent.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95641.jpg",
+    "rating": 3.61,
+    "ratingVotes": 1696,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 58
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 13
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 10
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 8
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 95641,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Million Gold",
+    "brandFa": "Rabanne",
+    "nameFa": "Million Gold",
+    "familyFa": "چوبی معطر",
+    "genderFa": "men. This is a new fragrance. <b>Million Gold</b> was launched in 2024. The nose behind this fragrance is Quentin Bisch. The fragrance features Sandalwood, Spices, Mandarin Orange and Cedarwood",
+    "perfumerFa": "Quentin Bisch",
+    "descriptionFa": "Million Gold by Rabanne is a new fragrance for men, released in 2024. It features a blend of cedarwood, mandarin orange, sandalwood, and spices, creating a distinctive and appealing scent.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Aqua-Allegoria-Forte-Nerolia-Vetiver-79228.html",
+    "extractedAt": "2026-11-26T02:13:05.354Z",
+    "name": "Aqua Allegoria Forte Nerolia Vetiver",
+    "brand": "Guerlain",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Delphine Jelk",
+    "topNotes": [
+      "Fig Leaf",
+      "Bergamot",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Neroli",
+      "Fig",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Cedar",
+      "Tonka Bean"
+    ],
+    "description": "Nerolia Vetiver Forte embodies a Neroli irradiated with light, enveloped in the generosity of a velvety Fig accord, the warmth of Vetiver and the almond notes of Tonka Bean.</p> <p>“I imagined a neroli golden by the rays of the setting sun, awakened by the power of vetiver, – Delphine Jelk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79228.jpg",
+    "rating": 4.01,
+    "ratingVotes": 1214,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 96
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 93
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 79228,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aqua Allegoria Forte Nerolia Vetiver",
+    "brandFa": "گرلن",
+    "nameFa": "Aqua Allegoria Forte Nerolia Vetiver",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Delphine Jelk",
+    "topNotesFa": [
+      "Fig Leaf",
+      "برگاموت",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "نرولی",
+      "انجیر",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "سرو",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Nerolia Vetiver Forte embodies a Neroli irradiated with light, enveloped in the generosity of a velvety Fig accord, the warmth of Vetiver and the almond notes of Tonka Bean.</p> <p>“I imagined a neroli golden by the rays of the setting sun, awakened by the power of vetiver, – Delphine Jelk.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ajmal/Qasida-137638.html",
+    "extractedAt": "2026-11-26T02:13:09.300Z",
+    "name": "Qasida",
+    "brand": "Ajmal",
+    "family": "Oriental Floral",
+    "gender": "women and men. Top notes are Almond and Neroli; middle notes are Orange Blossom and Rose; base notes are Vanilla, Leather, Musk and Oud",
+    "topNotes": [
+      "Almond",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Leather",
+      "Musk",
+      "Oud"
+    ],
+    "description": "Qasida by Ajmal is an Eau de Parfum built around a contrast of soft florals and warm oriental elements. Almond and neroli open the composition, leading into a heart of rose and orange blossom, while musk, vanilla, oud, and leather create a rich and lasting base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137638.jpg",
+    "rating": 4.2,
+    "ratingVotes": 5,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 70
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 67
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 67
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 67
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 67
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 67
+      }
+    ],
+    "fragranticaId": 137638,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Qasida",
+    "brandFa": "Ajmal",
+    "nameFa": "Qasida",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. Top notes are Almond and Neroli; middle notes are Orange Blossom and Rose; base notes are Vanilla, Leather, Musk and Oud",
+    "topNotesFa": [
+      "بادام",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چرم",
+      "موش",
+      "عود"
+    ],
+    "descriptionFa": "Qasida by Ajmal is an Eau de Parfum built around a contrast of soft florals and warm oriental elements. Almond and neroli open the composition, leading into a heart of rose and orange blossom, while musk, vanilla, oud, and leather create a rich and lasting base.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Red-Jeans-638.html",
+    "extractedAt": "2026-11-26T02:13:13.966Z",
+    "name": "Red Jeans",
+    "brand": "Versace",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 1994,
+    "perfumer": "Jean-Pierre Bethouart",
+    "topNotes": [
+      "Peach",
+      "Apricot",
+      "Freesia",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Violet",
+      "Lily-of-the-Valley",
+      "Water Lily",
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "This is a fruity-floral, described as sweet and casual, ment for the young and young-at-heart. Top notes are peach, apricot, freesia, blackcurrant.In the heart note, lily-of-the-valley, violet, water lily and rose. The base is composed of sandalwood, musk and vanilla. Red Jeans was created in 1994.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.638.jpg",
+    "rating": 3.51,
+    "ratingVotes": 4083,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 99
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 95
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 46
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 638,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Red Jeans",
+    "brandFa": "ورساچه",
+    "nameFa": "Red Jeans",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jean-Pierre Bethouart",
+    "topNotesFa": [
+      "هلو",
+      "زردآلو",
+      "فریزیا",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "بنفشه",
+      "Lily-of-the-Valley",
+      "گل نیلوفر",
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "چوب صندل"
+    ],
+    "descriptionFa": "This is a fruity-floral, described as sweet and casual, ment for the young and young-at-heart. Top notes are peach, apricot, freesia, blackcurrant.In the heart note, lily-of-the-valley, violet, water lily and rose. The base is composed of sandalwood, musk and vanilla. Red Jeans was created in 1994.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/Jasmin-et-Cigarette-4518.html",
+    "extractedAt": "2026-11-26T02:13:18.381Z",
+    "name": "Jasmin et Cigarette",
+    "brand": "Etat Libre d'Orange",
+    "family": "Woody Floral Musk",
+    "gender": "women. <b>Jasmin et Cigarette</b> was launched in 2006. The nose behind this fragrance is Antoine Maisondieu. The fragrance features Jasmine, Tobacco, Hay, Apricot, Musk, Cumin, Cedar, Tonka Bean and Amber",
+    "year": 2006,
+    "perfumer": "Antoine Maisondieu",
+    "description": "It is the era of Harcourt Studios when Greta Garbo and Marlene Dietrich magnetised men with a Hollywood look in the eye, smoking a cigarette in a smoky black and white ambiance. Jasmin et Cigarette is also the slightly jasminy smell of a woman’s skin when she exposes her freshness to the dark seduction of night. A hazy atmosphere. The reminder of a fantasy, of an indelible trail she leaves on a dress at the break of day or in the intimate memory of the man who made love to her. It is elegance seen by Gainsbourg, the woman from the 80’s who smokes Gitane cigarettes and wears jeans and who, with astounding naturalness, claims her sensuality as a right. Transparency in sophistication, just a trace of jasmine mingled to the so far neglected smell of a cigarette. Jasmin et Cigarette is the twilight zone, the banned, addiction. Nicotine woman or heroine, she is an icon, the woman one longs for. </p> <p> Composition: Jasmine asbolute, tobacco notes, apricot, tonka beans, curcuma, cedar, amber, musc...</p> <p>Nose for this perfume is Antoine Maisondieu.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4518.jpg",
+    "rating": 3.73,
+    "ratingVotes": 3914,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 36
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 32
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 4518,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jasmin et Cigarette",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "Jasmin et Cigarette",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "women. <b>Jasmin et Cigarette</b> was launched in 2006. The nose behind this fragrance is Antoine Maisondieu. The fragrance features Jasmine, Tobacco, Hay, Apricot, Musk, Cumin, Cedar, Tonka Bean and Amber",
+    "perfumerFa": "Antoine Maisondieu",
+    "descriptionFa": "It is the era of Harcourt Studios when Greta Garbo and Marlene Dietrich magnetised men with a Hollywood look in the eye, smoking a cigarette in a smoky black and white ambiance. Jasmin et Cigarette is also the slightly jasminy smell of a woman’s skin when she exposes her freshness to the dark seduction of night. A hazy atmosphere. The reminder of a fantasy, of an indelible trail she leaves on a dress at the break of day or in the intimate memory of the man who made love to her. It is elegance seen by Gainsbourg, the woman from the 80’s who smokes Gitane cigarettes and wears jeans and who, with astounding naturalness, claims her sensuality as a right. Transparency in sophistication, just a trace of jasmine mingled to the so far neglected smell of a cigarette. Jasmin et Cigarette is the twilight zone, the banned, addiction. Nicotine woman or heroine, she is an icon, the woman one longs for. </p> <p> Composition: Jasmine asbolute, tobacco notes, apricot, tonka beans, curcuma, cedar, amber, musc...</p> <p>Nose for this perfume is Antoine Maisondieu.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Carner-Barcelona/Tardes-11416.html",
+    "extractedAt": "2026-11-26T02:13:23.167Z",
+    "name": "Tardes",
+    "brand": "Carner Barcelona",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2010,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Almond",
+      "Brazilian Rosewood",
+      "Rose",
+      "Geranium"
+    ],
+    "middleNotes": [
+      "Plum",
+      "Virginia Cedar",
+      "Celery"
+    ],
+    "baseNotes": [
+      "Heliotrope",
+      "Tonka Bean",
+      "Musk"
+    ],
+    "description": "\"A peaceful stroll through the wheat fields and almond trees as the light of a summer day wanes and the warmth of the air caresses your skin... Admiring the beauty of the sun as it starts dipping behind the rolling hills and bunches of wild roses and geraniums color the dimming countryside. Their bountiful blooms release subtle droplets of nectar that float in the air and blend with the earthy scent of freshly cut wood, invading the early night...\" - a note from the brand.</p> <p>Tardes by Carner Barcelona is a floral woody musk fragrance for women. Tardes was launched in 2010. The nose behind this fragrance is Daniela (Roche) Andrier. Top notes: geranium, rose, rosewood, and almond. Heart: cedar, plum and celery. Base: tonka, musk and heliotrope.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11416.jpg",
+    "rating": 3.99,
+    "ratingVotes": 2804,
+    "accords": [
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 76
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 61
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 11416,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tardes",
+    "brandFa": "Carner Barcelona",
+    "nameFa": "Tardes",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "بادام",
+      "Brazilian Rosewood",
+      "گل رز",
+      "گل جعفری"
+    ],
+    "middleNotesFa": [
+      "آلو",
+      "Virginia Cedar",
+      "کرفس"
+    ],
+    "baseNotesFa": [
+      "گل هلیوتروپ",
+      "لوبیا تونکا",
+      "موش"
+    ],
+    "descriptionFa": "\"A peaceful stroll through the wheat fields and almond trees as the light of a summer day wanes and the warmth of the air caresses your skin... Admiring the beauty of the sun as it starts dipping behind the rolling hills and bunches of wild roses and geraniums color the dimming countryside. Their bountiful blooms release subtle droplets of nectar that float in the air and blend with the earthy scent of freshly cut wood, invading the early night...\" - a note from the brand.</p> <p>Tardes by Carner Barcelona is a floral woody musk fragrance for women. Tardes was launched in 2010. The nose behind this fragrance is Daniela (Roche) Andrier. Top notes: geranium, rose, rosewood, and almond. Heart: cedar, plum and celery. Base: tonka, musk and heliotrope.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mugler/Alien-Goddess-68354.html",
+    "extractedAt": "2026-11-26T02:13:27.314Z",
+    "name": "Alien Goddess",
+    "brand": "Mugler",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2021,
+    "perfumer": "Nathalie Lorson and Marie Salamagne",
+    "topNotes": [
+      "Coconut Water",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Cashmeran"
+    ],
+    "description": "Alien Goddess, the new Mugler perfume from the Alien collection, targets Generation-Z; a younger population yet to meet Mugler as a brand.</p> <p>Willow Smith, the daughter of Will Smith and Jadae Pinkett Smith who is a singer and actress, has been chosen to embody a new vision of femininity that is at once strong, powerful, inclusive and “edgy”. The campaign was directed by Emmanuel Adjei and photographed by Txema Yeste.</p> <p>Alien Goddess includes bergamot essence, jasmine grandiflorum SuperInfusion, Madagascar Bourbon vanilla and a note of cashmere. It was created by Firmenich perfumers Nathalie Lorson and Marie Salamagne.</p> <p>The Alien Goddess bottle retains the shape of the original Alien fragrance, launched in 2005, but in a golden color. The fragrance is available as 30, 60 and 90 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68354.jpg",
+    "rating": 3.92,
+    "ratingVotes": 9139,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 73
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 31
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 28
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 68354,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alien Goddess",
+    "brandFa": "مولر",
+    "nameFa": "Alien Goddess",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nathalie Lorson and Marie Salamagne",
+    "topNotesFa": [
+      "Coconut Water",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "کشماران"
+    ],
+    "descriptionFa": "Alien Goddess, the new Mugler perfume from the Alien collection, targets Generation-Z; a younger population yet to meet Mugler as a brand.</p> <p>Willow Smith, the daughter of Will Smith and Jadae Pinkett Smith who is a singer and actress, has been chosen to embody a new vision of femininity that is at once strong, powerful, inclusive and “edgy”. The campaign was directed by Emmanuel Adjei and photographed by Txema Yeste.</p> <p>Alien Goddess includes bergamot essence, jasmine grandiflorum SuperInfusion, Madagascar Bourbon vanilla and a note of cashmere. It was created by Firmenich perfumers Nathalie Lorson and Marie Salamagne.</p> <p>The Alien Goddess bottle retains the shape of the original Alien fragrance, launched in 2005, but in a golden color. The fragrance is available as 30, 60 and 90 ml Eau de Parfum.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Ginger-Biscuit-Cologne-2023-87708.html",
+    "extractedAt": "2026-11-26T02:13:32.576Z",
+    "name": "Ginger Biscuit Cologne (2023)",
+    "brand": "Jo Malone London",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Ginger",
+      "Cinnamon",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Hazelnut"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87708.jpg",
+    "rating": 4.29,
+    "ratingVotes": 1516,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 56
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 34
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 87708,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Ginger Biscuit (2023)",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Ginger Biscuit Cologne (2023)",
+    "concentrationFa": "کلن",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زنجبیل",
+      "دارچین",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "فندق"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BORNTOSTANDOUT/Cola-Addict-135643.html",
+    "extractedAt": "2026-11-26T02:13:35.935Z",
+    "name": "Cola Addict",
+    "brand": "BORNTOSTANDOUT®",
+    "family": "Citrus Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cola",
+      "Lime peel",
+      "Lemon",
+      "Lemon Peel",
+      "Cinnamon",
+      "Ginger",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Cola",
+      "Nutmeg",
+      "Rum",
+      "Coffee"
+    ],
+    "baseNotes": [
+      "Cola",
+      "Syrup",
+      "Vanilla",
+      "Caramel",
+      "Sandalwood",
+      "Moss"
+    ],
+    "description": "Cola Addict by BORNTOSTANDOUT is a unisex fragrance built around a cola accord with citrus, spice, and gourmand facets. It opens with sparkling cola foam, lemon, lime, and cinnamon bark, develops through rum, caffeine, and nutmeg, and settles into a sweeter base of vanilla and caramel.</p> <p>Head: Cola foam, Lemon peel, Lime peel, Neroli, Ginger, Cinnamon bark</p> <p>Heart: Cola, Caffeine, Rum, Nutmeg</p> <p>Base: Cola syrup, Vanilla, Sandalwood, Caramel, Moss",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135643.jpg",
+    "rating": 3.64,
+    "ratingVotes": 232,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 135643,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cola Addict",
+    "brandFa": "BORNTOSTANDOUT®",
+    "nameFa": "Cola Addict",
+    "familyFa": "Citrus Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Cola",
+      "Lime peel",
+      "لیمو",
+      "Lemon Peel",
+      "دارچین",
+      "زنجبیل",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "Cola",
+      "جوز هندی",
+      "رام",
+      "قهوه"
+    ],
+    "baseNotesFa": [
+      "Cola",
+      "Syrup",
+      "وانیل",
+      "کارامل",
+      "چوب صندل",
+      "خزه"
+    ],
+    "descriptionFa": "Cola Addict by BORNTOSTANDOUT is a unisex fragrance built around a cola accord with citrus, spice, and gourmand facets. It opens with sparkling cola foam, lemon, lime, and cinnamon bark, develops through rum, caffeine, and nutmeg, and settles into a sweeter base of vanilla and caramel.</p> <p>Head: Cola foam, Lemon peel, Lime peel, Neroli, Ginger, Cinnamon bark</p> <p>Heart: Cola, Caffeine, Rum, Nutmeg</p> <p>Base: Cola syrup, Vanilla, Sandalwood, Caramel, Moss",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nishane/Ani-X-80464.html",
+    "extractedAt": "2026-11-26T02:13:39.907Z",
+    "name": "Ani X",
+    "brand": "Nishane",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Cécile Zarokian",
+    "topNotes": [
+      "Lemon",
+      "Ginger",
+      "Bergamot",
+      "Melon",
+      "Cardamom",
+      "Water Notes",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Green Apple",
+      "Patchouli",
+      "Black Currant",
+      "Sage",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cashmere Wood",
+      "Sandalwood",
+      "Cedar",
+      "White Musk",
+      "Ambergris"
+    ],
+    "description": "</p> <p>ANI was the first reference launched in 2019 under the new theme “NO BOUNDARIES” that aimed to eliminate all emotional boundaries between people. The fragrance immediately became a global hit being often mentioned as the best vanilla scent ever. With ANI X, NISHANE wanted to enhance this mystical journey through time that the fans had with ANI, a fragrance that pays homage to an ancient metropolis that now stands as a monument to the might of empires and the inevitability of time. Just like the original bestseller, ANI X aims to break down boundaries and to empower the wearers to build their own empire from the ruins. In an attempt to reach the perfume lovers who specifically seek for the refreshening aspect of the scent, ANI X was designed to open with a richer burst of juicy citrus than the original formula of ANI. The freshness that the wearer will feel with the new ANI X on top of the well-known vanilla excellence of the original ANI will be a nice surprise for the perfume lovers.</p> <p>ANI X is a fragrance with true heritage to its name, and invites you to explore how to eliminate the boundaries of time and space, to create your own empire even when all that remains is nothing but the ruins. So spray on ANI X, let the fragrance take you on a journey through the ages, and embrace the power of history in a bottle.</p> <p> TOP NOTES</p> <p>bergamot oil - lemon oil - watery notes - honeydew melon - cardamom oil - blue ginger - pink pepper</p><p> </p> <p> HEART NOTES</p> <p>lavender oil - sage - green apple - blackcurrant - rose - patchouli</p><p> </p> <p> BASE NOTES</p> <p>cedarwood - cashmere wood - vanilla - ambergris infusion - white musk - sandalwood</p><p>",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80464.jpg",
+    "rating": 4.26,
+    "ratingVotes": 2211,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 80464,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ani X",
+    "brandFa": "نیشانه",
+    "nameFa": "Ani X",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Cécile Zarokian",
+    "topNotesFa": [
+      "لیمو",
+      "زنجبیل",
+      "برگاموت",
+      "خربزه",
+      "هل",
+      "Water Notes",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "سیب سبز",
+      "پچولی",
+      "توت سیاه",
+      "مریم‌گلی",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Cashmere Wood",
+      "چوب صندل",
+      "سرو",
+      "موش سفید",
+      "کهربا خاکستری"
+    ],
+    "descriptionFa": "</p> <p>ANI was the first reference launched in 2019 under the new theme “NO BOUNDARIES” that aimed to eliminate all emotional boundaries between people. The fragrance immediately became a global hit being often mentioned as the best vanilla scent ever. With ANI X, NISHANE wanted to enhance this mystical journey through time that the fans had with ANI, a fragrance that pays homage to an ancient metropolis that now stands as a monument to the might of empires and the inevitability of time. Just like the original bestseller, ANI X aims to break down boundaries and to empower the wearers to build their own empire from the ruins. In an attempt to reach the perfume lovers who specifically seek for the refreshening aspect of the scent, ANI X was designed to open with a richer burst of juicy citrus than the original formula of ANI. The freshness that the wearer will feel with the new ANI X on top of the well-known vanilla excellence of the original ANI will be a nice surprise for the perfume lovers.</p> <p>ANI X is a fragrance with true heritage to its name, and invites you to explore how to eliminate the boundaries of time and space, to create your own empire even when all that remains is nothing but the ruins. So spray on ANI X, let the fragrance take you on a journey through the ages, and embrace the power of history in a bottle.</p> <p> TOP NOTES</p> <p>bergamot oil - lemon oil - watery notes - honeydew melon - cardamom oil - blue ginger - pink pepper</p><p> </p> <p> HEART NOTES</p> <p>lavender oil - sage - green apple - blackcurrant - rose - patchouli</p><p> </p> <p> BASE NOTES</p> <p>cedarwood - cashmere wood - vanilla - ambergris infusion - white musk - sandalwood</p><p>",
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
