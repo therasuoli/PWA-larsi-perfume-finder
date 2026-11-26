@@ -97493,5 +97493,1588 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Duale/Luar-da-Anna-148801.html",
+    "extractedAt": "2026-11-26T03:50:05.223Z",
+    "name": "Luar da Anna",
+    "brand": "Duale",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Hawthorn"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Woody Notes"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Amber",
+      "Praline"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148801.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 88
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 65
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 59
+      }
+    ],
+    "fragranticaId": 148801,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Luar da Anna",
+    "brandFa": "Duale",
+    "nameFa": "Luar da Anna",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "لیمو",
+      "Hawthorn"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "Woody Notes"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "کهربا",
+      "پرالین"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Duale/Solar-da-Jade-148800.html",
+    "extractedAt": "2026-11-26T03:50:09.608Z",
+    "name": "Solar da Jade",
+    "brand": "Duale",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Citruses",
+      "Pear",
+      "Bergamot",
+      "Green Mandarin"
+    ],
+    "middleNotes": [
+      "Violet Leaf",
+      "Floral Notes",
+      "Lavender",
+      "Lilac"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Patchouli",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148800.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 148800,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Solar da Jade",
+    "brandFa": "Duale",
+    "nameFa": "Solar da Jade",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "مرکبات",
+      "گلابی",
+      "برگاموت",
+      "Green Mandarin"
+    ],
+    "middleNotesFa": [
+      "برگ بنفشه",
+      "Floral Notes",
+      "اسطوخودوس",
+      "گل یاس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "پچولی",
+      "موش"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Habit-Rouge-Parfum-90802.html",
+    "extractedAt": "2026-11-26T03:50:14.706Z",
+    "name": "Habit Rouge Parfum",
+    "brand": "Guerlain",
+    "family": "Oriental Woody",
+    "gender": "men. <b>Habit Rouge Parfum</b> was launched in 2024. The nose behind this fragrance is Delphine Jelk. The fragrance features Vanilla, Rum, Patchouli and Bergamot",
+    "year": 2024,
+    "perfumer": "Delphin",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90802.jpg",
+    "rating": 4.28,
+    "ratingVotes": 2018,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 61
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 50
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 90802,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Habit Rouge",
+    "brandFa": "گرلن",
+    "nameFa": "Habit Rouge Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "men. <b>Habit Rouge Parfum</b> was launched in 2024. The nose behind this fragrance is Delphine Jelk. The fragrance features Vanilla, Rum, Patchouli and Bergamot",
+    "perfumerFa": "Delphin",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mind-Games/Castling-76716.html",
+    "extractedAt": "2026-11-26T03:50:19.776Z",
+    "name": "Castling",
+    "brand": "Mind Games",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Christelle Laprade",
+    "topNotes": [
+      "Fig Leaf",
+      "Sea Salt",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Lotus",
+      "Freesia"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla",
+      "Musk",
+      "Woodsy Notes",
+      "Madagascar Vetiver"
+    ],
+    "description": "Castling is a fragrance defined by its rare ability to eclipse expectations, advancing its cause effortlessly in a fragrance that is bright, elegant, and refined. Notes of bergamot and luminous florals float above a solid composition of white woods and earthy musks.</p> <p>Castling is a fragrance defined by its rare ability to eclipse expectations. Surging past perceived barriers, Castling gains the advantage by turning defense into offense and quickly switching the intent of the player. Protecting the target while simultaneously destroying the aggressor assures victory in the humbling manner of a commander. Castling advances its cause effortlessly in a fragrance that is bright, elegant, and refined. Notes of bergamot and luminous florals float above a solid composition of white woods, and earthy musks. The vitality of the florals illustrate it’s quickness and vigor, the ability to react in an instant in the face of an oncoming threat. Profound and primal undertones assure the competitor that their moves are supported, developing into deeply sensual notes that linger long after the competitor has won the game.</p> <p>\"Castling is an ode to my beginnings, transporting you to the South of France. An aura of clean, powerful luminosity lingers in the air and slowly unfolds into the universality of fig. I divulged on the sheer strength of white woods and the milky creaminess of fig to build this composition. And a touch of orris, with its refined purity, adds just the right amount of innocence.\" - Christelle Laprade, Perfumer.</p> <p><strong>Top:</strong> Fig Leaves, Bergamot Capua, Fleur Del Sel<br /> <strong>Middle:</strong> Iris, Freesia, Lotus Flower<br /> <strong>Drydown:</strong> Vanilla Woods, Skin Musk, Vetiver Madagascar, Sandalwood East India",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76716.jpg",
+    "rating": 3.9,
+    "ratingVotes": 346,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 64
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 76716,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Castling",
+    "brandFa": "Mind Games",
+    "nameFa": "Castling",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christelle Laprade",
+    "topNotesFa": [
+      "Fig Leaf",
+      "نمک دریا",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "نیلوفر آبی",
+      "فریزیا"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل",
+      "موش",
+      "Woodsy Notes",
+      "Madagascar Vetiver"
+    ],
+    "descriptionFa": "Castling عطری است که با توانایی نادر خود در فراتر رفتن از انتظارات تعریف می‌شود و به راحتی هدف خود را در عطری درخشان، شیک و ظریف پیش می‌برد. رایحه‌های برگاموت و گل‌های درخشان بر فراز ترکیبی قوی از چوب‌های سفید و مشک‌های خاکی شناور هستند.</p> <p>Castling عطری است که با توانایی نادرش در فراتر رفتن از انتظارات شناخته می‌شود. Castling با عبور از موانع فرضی، با تبدیل دفاع به حمله و ... برتری را به دست می‌آورد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Obsidian-121721.html",
+    "extractedAt": "2026-11-26T03:50:25.782Z",
+    "name": "Obsidian",
+    "brand": "Rayhaan",
+    "family": "Woody",
+    "gender": "men. Top notes are Iris and Citrus; middle note is Leather; base notes are Sandalwood, Ambrette, Cedar and Oud",
+    "topNotes": [
+      "Iris",
+      "Citrus"
+    ],
+    "middleNotes": [
+      "Leather"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Ambrette",
+      "Cedar",
+      "Oud"
+    ],
+    "description": "Obsidian opens with a fresh blend of iris and citrus, creating a bright yet refined introduction. The heart develops with sueded leather and delicate floral accords, adding depth and texture. The base unfolds with warm notes of cedar, sandalwood, ambrette, and oud, creating a rich and lingering dry-down.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121721.jpg",
+    "rating": 4.36,
+    "ratingVotes": 1792,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 97
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 88
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 48
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 48
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 39
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 32
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 121721,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Obsidian",
+    "brandFa": "Rayhaan",
+    "nameFa": "Obsidian",
+    "familyFa": "چوبی",
+    "genderFa": "men. Top notes are Iris and Citrus; middle note is Leather; base notes are Sandalwood, Ambrette, Cedar and Oud",
+    "topNotesFa": [
+      "زنبق",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "دانه ابرکفش",
+      "سرو",
+      "عود"
+    ],
+    "descriptionFa": "Obsidian با ترکیبی تازه از زنبق و مرکبات آغاز می‌شود و مقدمه‌ای درخشان و در عین حال ظریف ایجاد می‌کند. نت میانی با رایحه چرم جیر و ترکیبات گل‌فام ظریف شکل می‌گیرد و عمق و بافت را به عطر می‌افزاید. رایحه پایه با نت‌های گرم سدر، چوب صندل، آمبرت و عود آشکار می‌شود و رایحه‌ای غنی و ماندگار ایجاد می‌کند.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Athalia-36539.html",
+    "extractedAt": "2026-11-26T03:50:31.617Z",
+    "name": "Athalia",
+    "brand": "Parfums de Marly",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2016,
+    "perfumer": null,
+    "topNotes": [
+      "Bitter Orange",
+      "Frankincense"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Orange Blossom",
+      "Cashmeran"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Amber",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.36539.jpg",
+    "rating": 3.82,
+    "ratingVotes": 1820,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 84
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 77
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 58
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 42
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 27
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 36539,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Athalia",
+    "brandFa": "پرفیومز دو مارلی",
+    "nameFa": "Athalia",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "پرتقال تلخ",
+      "کندر"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "گل پرتقال",
+      "کشماران"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "کهربا",
+      "وانیل"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Terra-118549.html",
+    "extractedAt": "2026-11-26T03:50:35.544Z",
+    "name": "Terra",
+    "brand": "Rayhaan",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "elemi",
+      "Sichuan Pepper",
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Cumin",
+      "Coriander",
+      "Anise",
+      "Saffron",
+      "Wormwood",
+      "Orange Blossom",
+      "Geranium",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Frankincense",
+      "Vanilla",
+      "Amber",
+      "Benzoin",
+      "Opoponax",
+      "Oud",
+      "Labdanum",
+      "Birch",
+      "Musk",
+      "Ambergris",
+      "Maltol"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118549.jpg",
+    "rating": 4.29,
+    "ratingVotes": 2429,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 30
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 118549,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Terra",
+    "brandFa": "Rayhaan",
+    "nameFa": "Terra",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "هل",
+      "elemi",
+      "فلفل سیچوان",
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "زیره",
+      "گشنیز",
+      "انیسون",
+      "زعفران",
+      "افسنتین",
+      "گل پرتقال",
+      "گل جعفری",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "کندر",
+      "وانیل",
+      "کهربا",
+      "بنزوئین",
+      "اوپوپناکس",
+      "عود",
+      "لابدانوم",
+      "توس",
+      "موش",
+      "کهربا خاکستری",
+      "Maltol"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Number-One-6278.html",
+    "extractedAt": "2026-11-26T03:50:39.096Z",
+    "name": "Boss Number One",
+    "brand": "Hugo Boss",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 1985,
+    "perfumer": "Pierre Wargnye",
+    "topNotes": [
+      "Artemisia",
+      "Juniper",
+      "Caraway",
+      "Bergamot",
+      "Lemon",
+      "Basil",
+      "Green Apple",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Honey",
+      "Lavender",
+      "Rose",
+      "Sage",
+      "Jasmine",
+      "Geranium",
+      "Orris Root",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Oakmoss",
+      "Patchouli",
+      "Sandalwood",
+      "Musk",
+      "Amber",
+      "Cinnamon",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6278.jpg",
+    "rating": 3.93,
+    "ratingVotes": 2099,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 93
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 84
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 64
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 52
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 49
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 6278,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Boss Number One",
+    "brandFa": "هوگو باس",
+    "nameFa": "Boss Number One",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Pierre Wargnye",
+    "topNotesFa": [
+      "افسنتین",
+      "عرعر",
+      "زیره کوهی",
+      "برگاموت",
+      "لیمو",
+      "ریحان",
+      "سیب سبز",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "اسطوخودوس",
+      "گل رز",
+      "مریم‌گلی",
+      "یاسمن",
+      "گل جعفری",
+      "ریشه زنبق",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "خزه بلوط",
+      "پچولی",
+      "چوب صندل",
+      "موش",
+      "کهربا",
+      "دارچین",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/La-Nuit-de-L-Homme-Le-Parfum-10206.html",
+    "extractedAt": "2026-11-26T03:50:43.722Z",
+    "name": "La Nuit de L'Homme Le Parfum",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2010,
+    "perfumer": null,
+    "topNotes": [
+      "Pepper",
+      "Anise",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Fruity Notes",
+      "Lavender",
+      "French labdanum"
+    ],
+    "baseNotes": [
+      "Vanille",
+      "Patchouli",
+      "Vetyver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10206.jpg",
+    "rating": 4.24,
+    "ratingVotes": 3720,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 64
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 60
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 10206,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "La Nuit de L'Homme Le",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "La Nuit de L'Homme Le Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل",
+      "انیسون",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Fruity Notes",
+      "اسطوخودوس",
+      "لابدانوم فرانسوی"
+    ],
+    "baseNotesFa": [
+      "Vanille",
+      "پچولی",
+      "Vetyver"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Essential-Parfums/Rose-Magnetic-50787.html",
+    "extractedAt": "2026-11-26T03:50:48.258Z",
+    "name": "Rose Magnetic",
+    "brand": "Essential Parfums",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>Rose Magnetic</b> was launched in 2018. The nose behind this fragrance is Sophie Labbe. The fragrance features Turkish Rose, Rose, Litchi, Grapefruit, Vanilla, Mint, Tonka Bean and Cedar",
+    "year": 2018,
+    "perfumer": "Sophie Labbe",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50787.jpg",
+    "rating": 3.8,
+    "ratingVotes": 2249,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 31
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 50787,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rose Magnetic",
+    "brandFa": "Essential Parfums",
+    "nameFa": "Rose Magnetic",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>Rose Magnetic</b> was launched in 2018. The nose behind this fragrance is Sophie Labbe. The fragrance features Turkish Rose, Rose, Litchi, Grapefruit, Vanilla, Mint, Tonka Bean and Cedar",
+    "perfumerFa": "Sophie Labbe",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EPC-Experimental-Perfume-Club/Sandalwood-Musk-63861.html",
+    "extractedAt": "2026-11-26T03:50:53.120Z",
+    "name": "Sandalwood Musk",
+    "brand": "EPC Experimental Perfume Club",
+    "family": "Oriental",
+    "gender": "women and men. <b>Sandalwood Musk</b> was launched in 2018. The nose behind this fragrance is Emmanuelle Moeglin. The fragrance features Suede, Sandalwood, Ambroxan, Pink Pepper and Vetiver",
+    "year": 2018,
+    "perfumer": "Emmanuelle Moeglin",
+    "description": "Creamy wood and hot stone wrapped in soft leather.</p> <p>Featuring a minimalist blend of some of our favourite ingredients, Sandalwood Musk stars smooth Indian sandalwood married with sparkling pink peppercorn, smoky vetiver, soft leather and mineral Ambroxan. This addictive soft leather fragrance comes to life on the skin, evoking the smell of the incandescent ashes of burning sandalwood.</p> <p>A sandalwood pierced with light, shining in the dark. Enhancing both the dark woods, and the soft creaminess of sandalwood oil with different ingredients. Animalic, addictive, leather suede accentuates sandalwoods darkest qualities. A surge of vibration from spicy pink peppercorn lifts you from the depths. A gentle, blanket-like Ambroxan envelops you. A sandalwood lifted by the minerals of the earth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63861.jpg",
+    "rating": 3.76,
+    "ratingVotes": 54,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 97
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 86
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 84
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 17
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 63861,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sandalwood Musk",
+    "brandFa": "EPC Experimental Perfume Club",
+    "nameFa": "Sandalwood Musk",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. <b>Sandalwood Musk</b> was launched in 2018. The nose behind this fragrance is Emmanuelle Moeglin. The fragrance features Suede, Sandalwood, Ambroxan, Pink Pepper and Vetiver",
+    "perfumerFa": "Emmanuelle Moeglin",
+    "descriptionFa": "چوب خامه‌ای و سنگ داغ پیچیده شده در چرم نرم.</p> <p>Sandalwood Musk با ترکیبی مینیمالیستی از برخی از مواد اولیه مورد علاقه ما، شامل چوب صندل هندی ملایم همراه با فلفل صورتی درخشان، وتیور دودی، چرم نرم و آمبروکسان معدنی است. این عطر اعتیادآور چرم نرم روی پوست جان می‌گیرد و رایحه خاکستر سوزان چوب صندل در حال سوختن را تداعی می‌کند.</p> <p>چوب صندلی که نور از آن عبور می‌کند و در تاریکی می‌درخشد",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Essential-Parfums/Orange-X-Santal-50786.html",
+    "extractedAt": "2026-11-26T03:50:59.999Z",
+    "name": "Orange X Santal",
+    "brand": "Essential Parfums",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. <b>Orange X Santal</b> was launched in 2018. The nose behind this fragrance is Natalie Gracia-Cetto. The fragrance features Bitter Orange, Australian Sandalwood, Cypress, Basil and Oakmoss",
+    "year": 2018,
+    "perfumer": "Natalie Gracia-Cetto",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50786.jpg",
+    "rating": 3.8,
+    "ratingVotes": 2817,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 29
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 24
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 50786,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Orange X Santal",
+    "brandFa": "Essential Parfums",
+    "nameFa": "Orange X Santal",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. <b>Orange X Santal</b> was launched in 2018. The nose behind this fragrance is Natalie Gracia-Cetto. The fragrance features Bitter Orange, Australian Sandalwood, Cypress, Basil and Oakmoss",
+    "perfumerFa": "Natalie Gracia-Cetto",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Heretic-Parfum/The-Veil-119140.html",
+    "extractedAt": "2026-11-26T03:51:04.500Z",
+    "name": "The Veil",
+    "brand": "Heretic Parfum",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>The Veil</b> was launched in 2025. The fragrance features Musk, Petrichor, Dry Wood and Mushroom",
+    "year": 2025,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.119140.jpg",
+    "rating": 4.02,
+    "ratingVotes": 116,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 28
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 15
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 119140,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Veil",
+    "brandFa": "Heretic Parfum",
+    "nameFa": "The Veil",
+    "genderFa": "women and men. This is a new fragrance. <b>The Veil</b> was launched in 2025. The fragrance features Musk, Petrichor, Dry Wood and Mushroom",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/French-Avenue/An-Equestrian-Series-Haydan-101173.html",
+    "extractedAt": "2026-11-26T03:51:08.425Z",
+    "name": "An Equestrian Series Haydan",
+    "brand": "French Avenue",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Clary Sage",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Cedar",
+      "Praline"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Patchouli",
+      "Vetiver",
+      "Oakmoss",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101173.jpg",
+    "rating": 4.27,
+    "ratingVotes": 130,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 95
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 83
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 70
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 56
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 51
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 101173,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "An Equestrian Series Haydan",
+    "brandFa": "French Avenue",
+    "nameFa": "An Equestrian Series Haydan",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "سرو",
+      "پرالین"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "پچولی",
+      "وتیور",
+      "خزه بلوط",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/The-Kingdom-For-Women-98648.html",
+    "extractedAt": "2026-11-26T03:51:12.063Z",
+    "name": "The Kingdom For Women",
+    "brand": "Lattafa Perfumes",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Peony",
+      "Cassis"
+    ],
+    "middleNotes": [
+      "Praline",
+      "Tonka Bean",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98648.jpg",
+    "rating": 4.03,
+    "ratingVotes": 1214,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 68
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 66
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 98648,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Kingdom For Women",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "The Kingdom For Women",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "گل داوودی",
+      "توت سیاه فرانسوی"
+    ],
+    "middleNotesFa": [
+      "پرالین",
+      "لوبیا تونکا",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
