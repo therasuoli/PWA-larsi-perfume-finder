@@ -106630,5 +106630,1783 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Disney/Gabby-s-Dollhouse-148828.html",
+    "extractedAt": "2026-11-26T11:50:07.576Z",
+    "name": "Gabby's Dollhouse",
+    "brand": "Disney",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon Peel"
+    ],
+    "middleNotes": [
+      "Fruits",
+      "Flowers"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "description": "Body Mist by Gabby's Dollhouse is a fragranced body spray.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148828.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148828,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gabby's Dollhouse",
+    "brandFa": "Disney",
+    "nameFa": "Gabby's Dollhouse",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Lemon Peel"
+    ],
+    "middleNotesFa": [
+      "Fruits",
+      "Flowers"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "descriptionFa": "بادی‌میست محصول Gabby's Dollhouse یک اسپری بدن معطر است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Disney/Stitch-Angel-148827.html",
+    "extractedAt": "2026-11-26T11:50:13.223Z",
+    "name": "Stitch Angel",
+    "brand": "Disney",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Citrus"
+    ],
+    "middleNotes": [
+      "Rose"
+    ],
+    "baseNotes": [
+      "Juniper",
+      "Tonka"
+    ],
+    "description": "Stitch Angel by Disney is a body mist for children.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148827.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 148827,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Stitch Angel",
+    "brandFa": "Disney",
+    "nameFa": "Stitch Angel",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "عرعر",
+      "Tonka"
+    ],
+    "descriptionFa": "Stitch Angel از دیزنی یک بادی میست برای کودکان است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Disney/Minecraft-148826.html",
+    "extractedAt": "2026-11-26T11:50:18.749Z",
+    "name": "Minecraft",
+    "brand": "Disney",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Citrus",
+      "Fruits"
+    ],
+    "middleNotes": [
+      "Floral Notes",
+      "Juniper"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Pine"
+    ],
+    "description": "This Minecraft-themed scented mist offers a practical way to refresh your body and hair, making it a fun addition to your daily personal care routine. Inspired by the Minecraft universe, its design is both original and eye-catching—ideal for fans of the popular video game who love products featuring their favorite characters and themes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148826.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 57
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 148826,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Minecraft",
+    "brandFa": "Disney",
+    "nameFa": "Minecraft",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مرکبات",
+      "Fruits"
+    ],
+    "middleNotesFa": [
+      "Floral Notes",
+      "عرعر"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کاج"
+    ],
+    "descriptionFa": "این اسپری خوشبو با تم Minecraft روشی کاربردی برای طراوت بخشیدن به بدن و موهای شما ارائه می‌دهد و به همین دلیل، افزودنی سرگرم‌کننده به برنامه روزانه مراقبت شخصی شما است. طراحی آن که از دنیای Minecraft الهام گرفته شده، هم بدیع و هم چشم‌نواز است—ایده‌آل برای طرفداران این بازی ویدیویی محبوب که عاشق محصولاتی هستند که شخصیت‌ها و تم‌های مورد علاقه‌شان را به نمایش می‌گذارند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Disney/Stitch-148825.html",
+    "extractedAt": "2026-11-26T11:50:25.099Z",
+    "name": "Stitch",
+    "brand": "Disney",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Caramel"
+    ],
+    "middleNotes": [
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Woodsy Notes"
+    ],
+    "description": "Stitch by Disney is a hair and body mist.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148825.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 25
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 148825,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Stitch",
+    "brandFa": "Disney",
+    "nameFa": "Stitch",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کارامل"
+    ],
+    "middleNotesFa": [
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "Woodsy Notes"
+    ],
+    "descriptionFa": "استیچ از دیزنی یک اسپری مو و بدن است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Disney/Kuromi-148824.html",
+    "extractedAt": "2026-11-26T11:50:31.243Z",
+    "name": "Kuromi",
+    "brand": "Disney",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Fruity Notes"
+    ],
+    "middleNotes": [
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Musk"
+    ],
+    "description": "Kuromi by Disney is a fragranced mist for the hair and body.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148824.jpg",
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 15
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 148824,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kuromi",
+    "brandFa": "Disney",
+    "nameFa": "Kuromi",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Fruity Notes"
+    ],
+    "middleNotesFa": [
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "موش"
+    ],
+    "descriptionFa": "Kuromi از برند دیزنی یک اسپری معطر برای مو و بدن است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Disney/Spiderman-148823.html",
+    "extractedAt": "2026-11-26T11:50:37.042Z",
+    "name": "Spiderman",
+    "brand": "Disney",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. This is a new fragrance. <b>Spiderman</b> was launched in 2026. The fragrance features Citruses, Floral Notes and Woody Notes",
+    "year": 2026,
+    "description": "Spiderman is a hair and body mist associated with the character's adventures and heroic spirit. It has a citrus, floral and woody scent.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148823.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 148823,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spiderman",
+    "brandFa": "Disney",
+    "nameFa": "Spiderman",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. This is a new fragrance. <b>Spiderman</b> was launched in 2026. The fragrance features Citruses, Floral Notes and Woody Notes",
+    "descriptionFa": "اسپایدرمن یک اسپری مو و بدن است که با ماجراهای این شخصیت و روحیه قهرمانانه او مرتبط است. این محصول دارای رایحه مرکبات، گل و چوب است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Toskovat/Anarchist-A-78326.html",
+    "extractedAt": "2026-11-26T11:50:42.465Z",
+    "name": "Anarchist A-",
+    "brand": "Toskovat'",
+    "family": "Aromatic",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "David-Lev Jipa-Slivinschi",
+    "topNotes": [
+      "Credit Cards",
+      "Whiskey",
+      "Snow"
+    ],
+    "middleNotes": [
+      "Money",
+      "Candle Wax",
+      "Ink"
+    ],
+    "baseNotes": [
+      "Plastic Bag",
+      "Priest’s Clothes",
+      "Holy Water",
+      "Precious Woods",
+      "Olibanum Sacra Resin Green"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78326.jpg",
+    "rating": 3.48,
+    "ratingVotes": 760,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 56
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 15
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 78326,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Anarchist A-",
+    "brandFa": "Toskovat'",
+    "nameFa": "Anarchist A-",
+    "familyFa": "معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "David-Lev Jipa-Slivinschi",
+    "topNotesFa": [
+      "Credit Cards",
+      "ویسکی",
+      "Snow"
+    ],
+    "middleNotesFa": [
+      "Money",
+      "Candle Wax",
+      "Ink"
+    ],
+    "baseNotesFa": [
+      "Plastic Bag",
+      "Priest’s Clothes",
+      "Holy Water",
+      "Precious Woods",
+      "Olibanum Sacra Resin Green"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html",
+    "extractedAt": "2026-11-26T11:50:47.154Z",
+    "name": "Shaghaf Oud Tonka Oil",
+    "brand": "Swiss Arabian",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Almond"
+    ],
+    "middleNotes": [
+      "Turkish Rose",
+      "Cinnamon",
+      "Tunisian Orange Blossom",
+      "Bark"
+    ],
+    "baseNotes": [
+      "Tonka",
+      "Vanilla",
+      "Amberwood"
+    ],
+    "description": "Shaghaf Oud Tonka is a fragrance that combines a mesmerizing blend of scents to create a captivating experience. It starts with a top note of almond, followed by a heart of cinnamon bark, Tunisian orange flower, and Turkish rose, creating a symphony of sensuality and allure. The base notes of tonka, vanilla, and amberwood add depth and richness, providing a warm, sweet, and woody finish. This fragrance invites wearers to embrace its elegance and leave a lasting impression.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92888.jpg",
+    "rating": 4.73,
+    "ratingVotes": 26,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 79
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 50
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 45
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 92888,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Shaghaf Oud Tonka Oil",
+    "brandFa": "Swiss Arabian",
+    "nameFa": "Shaghaf Oud Tonka Oil",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "بادام"
+    ],
+    "middleNotesFa": [
+      "گل رز ترکی",
+      "دارچین",
+      "Tunisian Orange Blossom",
+      "Bark"
+    ],
+    "baseNotesFa": [
+      "Tonka",
+      "وانیل",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "Shaghaf Oud Tonka عطری است که ترکیبی مسحورکننده از رایحه‌ها را با هم تلفیق می‌کند تا تجربه‌ای جذاب ایجاد کند. این عطر با نت بالای بادام شروع می‌شود و سپس نت‌های میانی پوست دارچین، شکوفه پرتقال تونس و گل رز ترکی را در بر می‌گیرد و سمفونی از شهوانیت و جذابیت را خلق می‌کند. نت‌های پایه تونکا، وانیل و چوب عنبر عمق و غنای عطر را افزایش می‌دهند و رایحه‌ای گرم، شیرین و چوبی به آن می‌بخشند. این عطر، استفاده‌کنندگان را دعوت می‌کند تا ظرافت و",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Afnan/9am-Dive-78611.html",
+    "extractedAt": "2026-11-26T11:50:53.758Z",
+    "name": "9am Dive",
+    "brand": "Afnan",
+    "family": "Aromatic Aquatic",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Imran Fazlani",
+    "topNotes": [
+      "Lemon",
+      "Mint",
+      "Black Currant",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Apple",
+      "Cedar",
+      "Incense"
+    ],
+    "baseNotes": [
+      "Ginger",
+      "Sandalwood",
+      "Patchouli",
+      "Jasmine"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78611.jpg",
+    "rating": 4.14,
+    "ratingVotes": 3902,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 97
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 93
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 81
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 78611,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "9am Dive",
+    "brandFa": "افنان",
+    "nameFa": "9am Dive",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Imran Fazlani",
+    "topNotesFa": [
+      "لیمو",
+      "نعناع",
+      "توت سیاه",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "سیب",
+      "سرو",
+      "عود بخور"
+    ],
+    "baseNotesFa": [
+      "زنجبیل",
+      "چوب صندل",
+      "پچولی",
+      "یاسمن"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Perfumer-H/Clay-147881.html",
+    "extractedAt": "2026-11-26T11:50:57.171Z",
+    "name": "Clay",
+    "brand": "Perfumer H",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Italian Mandarin",
+      "Calabrian bergamot",
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Virginia Cedar",
+      "Ambroxan"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147881.jpg",
+    "rating": 3.17,
+    "ratingVotes": 6,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 88
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 77
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 73
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 69
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 147881,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Clay",
+    "brandFa": "Perfumer H",
+    "nameFa": "Clay",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "Italian Mandarin",
+      "Calabrian bergamot",
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "Virginia Cedar",
+      "آمبروکسان"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Vilhelm-Parfumerie/Oligarch-141445.html",
+    "extractedAt": "2026-11-26T11:51:00.519Z",
+    "name": "Oligarch",
+    "brand": "Vilhelm Parfumerie",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pineapple",
+      "Green Apple",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "White Tobacco",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.141445.jpg",
+    "rating": 3.03,
+    "ratingVotes": 68,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 98
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 89
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 88
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 76
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 36
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 141445,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oligarch",
+    "brandFa": "ویلهلم پرفیومری",
+    "nameFa": "Oligarch",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "آناناس",
+      "سیب سبز",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "White Tobacco",
+      "لوبیا تونکا",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "موش"
+    ],
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Memo-Paris/Irish-Leather-18393.html",
+    "extractedAt": "2026-11-26T11:51:05.793Z",
+    "name": "Irish Leather",
+    "brand": "Memo Paris",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": "Alienor Massenet",
+    "topNotes": [
+      "juniper berry",
+      "Pepper",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Mate",
+      "Clary Sage",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Cedarwood",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18393.jpg",
+    "rating": 3.99,
+    "ratingVotes": 3716,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 32
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 19
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 15
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 18393,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Irish Leather",
+    "brandFa": "Memo Paris",
+    "nameFa": "Irish Leather",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alienor Massenet",
+    "topNotesFa": [
+      "juniper berry",
+      "فلفل",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "گل ماته",
+      "مریم‌گلی",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "چوب سرو",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/ESSNCE/Sassy-Classy-89774.html",
+    "extractedAt": "2026-11-26T11:51:09.712Z",
+    "name": "Sassy Classy",
+    "brand": "ESSNCE",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Citruses",
+      "Fruits",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Pink Pepper",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Amber",
+      "Vanilla",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89774.jpg",
+    "rating": 2.89,
+    "ratingVotes": 28,
+    "accords": [
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 78
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 67
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 52
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 89774,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sassy Classy",
+    "brandFa": "ESSNCE",
+    "nameFa": "Sassy Classy",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "مرکبات",
+      "Fruits",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "فلفل صورتی",
+      "یاسمن",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "کهربا",
+      "وانیل",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mind-Games/J-adoube-76713.html",
+    "extractedAt": "2026-11-26T11:51:14.270Z",
+    "name": "J'adoube",
+    "brand": "Mind Games",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Nathalie Benareau",
+    "topNotes": [
+      "Red Currant",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Pomegranate",
+      "Damask Rose"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Patchouli",
+      "Benzoin",
+      "Amber"
+    ],
+    "description": "J’adoube begins with a whisper of warning. An intriguing sensation engulfs us in an opening of pomegranate, rouge groseille, and mandarin, as the fragrance surges forward in a wave of tantalizing sweetness. Its evolution towards a bold and deep base of leather, patchouli, and ambrostar, brings focus to chaos while remaining wholly spontaneous and free.</p> <p>J’adoube begins with a whisper of warning. I move, it hints, yet I remain the same. J’adoube. I adjust. I reposition, I recalculate, I reconsider. The fragrance takes the time to acquaint us with our own inhibitions, unafraid to explore our darkness, and distracts us from the notion that we are fixed in a moment or place in time. An intriguing sensation engulfs us in an opening of pomegranate, rouge groseille, and mandarin, as the fragrance surges forward in a wave of tantalizing sweetness. J’adoube develops and expands into an intense experience, realizing the excitement found in the anticipation of a new love, a raw and singular beginning. Its evolution towards a bold and deep base of leather, patchouli, and ambrostar, bring focus to chaos, grounding the scent in a disciplined declaration of intent while remaining wholly spontaneous and free. J’adoube represents this juxtaposition of abandon and control moving between notes seamlessly, in a fragrance that is equally dramatic as compelling.</p> <p>\"In chess, players say 'j'adoube' if they want to adjust the position of a piece, but not move it. I wanted to nod the history of this term with the incorporation of pomegranate, a juicy, precise fruity note that adds an element of excitement. The bold black suede accord gives the fragrance strength and a firm foundation, very much like the rook’s role in the game.\" - Nathalie Benareau, Perfumer.</p> <p><strong>Top:</strong> Rouge Groseille DI, Mandarin Oil Madagascar<br /> <strong>Middle:</strong> Bright Red Pomegranate, Damascene Rose<br /> <strong>Drydown:</strong> Ambrostar, Benzoin Vintage Leather, Patchouli Oil, Sulawesi",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76713.jpg",
+    "rating": 4.21,
+    "ratingVotes": 998,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 77
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 59
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 47
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 76713,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "J'adoube",
+    "brandFa": "Mind Games",
+    "nameFa": "J'adoube",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nathalie Benareau",
+    "topNotesFa": [
+      "Red Currant",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "Pomegranate",
+      "گل رز دمشقی"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "پچولی",
+      "بنزوئین",
+      "کهربا"
+    ],
+    "descriptionFa": "J’adoube با زمزمه‌ای هشداردهنده آغاز می‌شود. حسی جذاب ما را در رایحه‌های اولیه انار، انگور فرنگی قرمز و نارنگی غرق می‌کند، در حالی که عطر در موجی از شیرینی وسوسه‌انگیز به جلو می‌تازد. تکامل آن به سمت یک رایحه پایه جسورانه و عمیق از چرم، نعناع هندی و آمبروستار، در عین حال که کاملاً خودجوش و آزاد باقی می‌ماند، تمرکز را به هرج‌ومرج معطوف می‌کند.</p> <p>J’adoube با زمزمه‌ای هشداردهنده آغاز می‌شود. من حرکت می‌کنم، این را نشان می‌دهد، اما همچنان همان هستم. J’ad",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Nava-Sol-138578.html",
+    "extractedAt": "2026-11-26T11:51:21.303Z",
+    "name": "Nava Sol",
+    "brand": "Rayhaan",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Sapodilla",
+      "Ambrette"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Magnolia",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambergris",
+      "Cedar"
+    ],
+    "description": "Nava Sol by Rayhaan is a fragrance that combines fruity, floral, and woody-musky elements. It opens with sapodilla and ambrette, develops through magnolia, violet, and sandalwood, and settles into a base of ambergris, cedar, and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138578.jpg",
+    "rating": 4.02,
+    "ratingVotes": 583,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 90
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 88
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 138578,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nava Sol",
+    "brandFa": "Rayhaan",
+    "nameFa": "Nava Sol",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Sapodilla",
+      "دانه ابرکفش"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "ماگنولیا",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا خاکستری",
+      "سرو"
+    ],
+    "descriptionFa": "Nava Sol از برند Rayhaan عطری است که ترکیبی از عناصر میوه‌ای، گلی و چوبی-مشکی است. این عطر با رایحه ساپودیلا و آمبرت آغاز می‌شود، سپس به رایحه ماگنولیا، بنفشه و چوب صندل می‌رسد و در نهایت به رایحه پایه عنبر، سرو و مشک می‌نشیند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Helan/Fragranza-Pandoro-117323.html",
+    "extractedAt": "2026-11-26T11:51:27.137Z",
+    "name": "Fragranza Pandoro",
+    "brand": "Helan",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Powdered Sugar",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Butter",
+      "Milk"
+    ],
+    "baseNotes": [
+      "Vanilla Absolute",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117323.jpg",
+    "rating": 4.23,
+    "ratingVotes": 57,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 63
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 20
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 12
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 8
+      }
+    ],
+    "fragranticaId": 117323,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fragranza Pandoro",
+    "brandFa": "Helan",
+    "nameFa": "Fragranza Pandoro",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Powdered Sugar",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "کره",
+      "شیر"
+    ],
+    "baseNotesFa": [
+      "Vanilla Absolute",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Sawaar-Vanille-Blanc-120093.html",
+    "extractedAt": "2026-11-26T11:51:31.243Z",
+    "name": "Sawaar Vanille Blanc",
+    "brand": "Khadlaj Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Vanilla",
+      "Powdered Sugar",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Cashmere Wood",
+      "Amber",
+      "White Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Benzoin"
+    ],
+    "description": "Sawaar Vanille Blanc by Khadlaj centers on a sweet, creamy vanilla accord framed by gourmand and ambery nuances. The opening combines vanilla, powdered sugar, and apple for a soft, dessert-like impression with a fruity edge. In the heart, amber and white florals add warmth and a gentle floral layer, supported by a smooth cashmere note that contributes to a plush, enveloping texture. The base rests on sandalwood, benzoin, and additional vanilla, creating a long-lasting, resinous and woody sweetness. Overall, it is a warm, comforting composition with a pronounced vanilla character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120093.jpg",
+    "rating": 4.36,
+    "ratingVotes": 799,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 74
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 55
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 44
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 26
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 120093,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sawaar Vanille Blanc",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Sawaar Vanille Blanc",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "وانیل",
+      "Powdered Sugar",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "Cashmere Wood",
+      "کهربا",
+      "White Blossom"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "بنزوئین"
+    ],
+    "descriptionFa": "Sawaar Vanille Blanc از برند Khadlaj بر روی یک آکورد وانیلی شیرین و خامه ای متمرکز است که با ظرافت‌های گورماند و کهربایی احاطه شده است. نت ابتدایی ترکیبی از وانیل، پودر قند و سیب است که حسی ملایم و شبیه به دسر با طعم میوه‌ای ایجاد می‌کند. در نت میانی، کهربا و گل‌های سفید گرما و لایه‌ای ملایم از رایحه گل‌ها را اضافه می‌کنند که توسط نت لطیف کشمیر پشتیبانی می‌شود و به بافتی نرم و فراگیر کمک می‌کند. رایحه پایه بر پایه چوب صندل، بنزوئین و وانیل اضافی استوار است، ج",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
