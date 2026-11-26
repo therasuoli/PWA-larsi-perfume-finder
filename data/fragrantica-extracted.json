@@ -109831,5 +109831,2249 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Duale/Quartzo-Rosa-Tesouro-Perdido-148838.html",
+    "extractedAt": "2026-11-26T14:20:44.791Z",
+    "name": "Quartzo Rosa Tesouro Perdido",
+    "brand": "Duale",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Raspberry",
+      "Peach"
+    ],
+    "middleNotes": [
+      "Red Berries",
+      "Geranium",
+      "Rose",
+      "Iris"
+    ],
+    "baseNotes": [
+      "White Cedar Extract",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148838.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 63
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 59
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 44
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 148838,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Quartzo Rosa Tesouro Perdido",
+    "brandFa": "Duale",
+    "nameFa": "Quartzo Rosa Tesouro Perdido",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "تمشک",
+      "هلو"
+    ],
+    "middleNotesFa": [
+      "Red Berries",
+      "گل جعفری",
+      "گل رز",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "White Cedar Extract",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Duale/Jade-Tesouro-Perdido-148837.html",
+    "extractedAt": "2026-11-26T14:20:48.367Z",
+    "name": "Jade Tesouro Perdido",
+    "brand": "Duale",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin Orange",
+      "Black Currant",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Ambergris",
+      "Cedar",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148837.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 148837,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jade Tesouro Perdido",
+    "brandFa": "Duale",
+    "nameFa": "Jade Tesouro Perdido",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "نارنگی",
+      "توت سیاه",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "گل پرتقال",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا خاکستری",
+      "سرو",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Duale/Tesouro-Perdido-Ametista-148836.html",
+    "extractedAt": "2026-11-26T14:20:52.131Z",
+    "name": "Tesouro Perdido Ametista",
+    "brand": "Duale",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lotus",
+      "Freesia"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Musk",
+      "Amberwood",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148836.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 86
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 36
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 148836,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tesouro Perdido Ametista",
+    "brandFa": "Duale",
+    "nameFa": "Tesouro Perdido Ametista",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "نیلوفر آبی",
+      "فریزیا"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "موش",
+      "چوب کهربایی",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Duale/Diamante-Tesouro-Perdido-148835.html",
+    "extractedAt": "2026-11-26T14:20:57.264Z",
+    "name": "Tesouro Perdido Diamante",
+    "brand": "Duale",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Lemon",
+      "Hawthorn"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Lily",
+      "Violet",
+      "Liatris"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Musk",
+      "Praline",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148835.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 75
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 38
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148835,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tesouro Perdido Diamante",
+    "brandFa": "Duale",
+    "nameFa": "Tesouro Perdido Diamante",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "لیمو",
+      "Hawthorn"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "لاله",
+      "بنفشه",
+      "Liatris"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "موش",
+      "پرالین",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Botanic/So-Bare-148834.html",
+    "extractedAt": "2026-11-26T14:21:01.502Z",
+    "name": "So Bare",
+    "brand": "Le Botanic",
+    "family": "Oriental Vanilla",
+    "gender": "women. <b>So Bare</b> was launched in 2024. The fragrance features Vanilla and Cashmeran",
+    "year": 2024,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148834.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 90
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 70
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 20
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 148834,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "So Bare",
+    "brandFa": "Le Botanic",
+    "nameFa": "So Bare",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women. <b>So Bare</b> was launched in 2024. The fragrance features Vanilla and Cashmeran",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Botanic/Overcast-148833.html",
+    "extractedAt": "2026-11-26T14:21:05.789Z",
+    "name": "Overcast",
+    "brand": "Le Botanic",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>Overcast</b> was launched in 2016. The fragrance features Peach, Pear Blossom, Lily, Heliotrope, Damask Rose, Violet Leaf, Cashmere Wood, Ebony, Amber, Tonka Bean, Vanilla, Coconut and Sugar",
+    "year": 2016,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148833.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 32
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148833,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Overcast",
+    "brandFa": "Le Botanic",
+    "nameFa": "Overcast",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>Overcast</b> was launched in 2016. The fragrance features Peach, Pear Blossom, Lily, Heliotrope, Damask Rose, Violet Leaf, Cashmere Wood, Ebony, Amber, Tonka Bean, Vanilla, Coconut and Sugar",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/In-The-Box/Mohan-148832.html",
+    "extractedAt": "2026-11-26T14:21:09.246Z",
+    "name": "Mohan",
+    "brand": "In The Box",
+    "family": "Chypre Floral",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Mandarin Orange",
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Ginger",
+      "Jasmine",
+      "Iris",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Sugar",
+      "Amber",
+      "Patchouli",
+      "Oakmoss",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148832.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 32
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 148832,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mohan",
+    "brandFa": "In The Box",
+    "nameFa": "Mohan",
+    "familyFa": "شیپر گلی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "نارنگی",
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "زنجبیل",
+      "یاسمن",
+      "زنبق",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "شکر",
+      "کهربا",
+      "پچولی",
+      "خزه بلوط",
+      "موش"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/In-The-Box/Rajah-Essence-148831.html",
+    "extractedAt": "2026-11-26T14:21:12.737Z",
+    "name": "Rajah Essence",
+    "brand": "In The Box",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Amber"
+    ],
+    "baseNotes": [
+      "Peru Balsam",
+      "Ambergris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148831.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 71
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 46
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 18
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 14
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 148831,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rajah Essence",
+    "brandFa": "In The Box",
+    "nameFa": "Rajah Essence",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "بلسام پرو",
+      "کهربا خاکستری"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/O-Boticario/Cuide-se-Bem-Suspiros-de-Amor-148830.html",
+    "extractedAt": "2026-11-26T14:21:17.951Z",
+    "name": "Cuide-se Bem Suspiros de Amor",
+    "brand": "O Boticário",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Red Berries"
+    ],
+    "middleNotes": [
+      "Vanilla Flower"
+    ],
+    "baseNotes": [
+      "Hazelnut",
+      "Meringue"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148830.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 148830,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cuide-se Bem Suspiros de Amor",
+    "brandFa": "O Boticário",
+    "nameFa": "Cuide-se Bem Suspiros de Amor",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Red Berries"
+    ],
+    "middleNotesFa": [
+      "Vanilla Flower"
+    ],
+    "baseNotesFa": [
+      "فندق",
+      "Meringue"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Xerjoff/Begum-Stone-Label-Pure-Perfume-148829.html",
+    "extractedAt": "2026-11-26T14:21:21.467Z",
+    "name": "Begum Stone Label Pure Perfume",
+    "brand": "Xerjoff",
+    "family": "Chypre Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Freesia",
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Sandalwood",
+      "Patchouli",
+      "Vetiver",
+      "Brazilian Rosewood",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "baseNotes": [
+      "Iris",
+      "Sandalwood",
+      "Patchouli",
+      "Vetiver",
+      "Brazilian Rosewood",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "description": "The exclusive Begum Stone Label pure perfume from Xerjoff utilises the hedonistic notes of chypre florals and puts a modern spin on them. A top layer of lemon and bergamot is balanced with a musky base to produce a woody fragrance perfect for those who don’t favour sweet aromas.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148829.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 63
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148829,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Begum Stone Label Pure Perfume",
+    "brandFa": "زروجف",
+    "nameFa": "Begum Stone Label Pure Perfume",
+    "familyFa": "شیپر گلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فریزیا",
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "چوب صندل",
+      "پچولی",
+      "وتیور",
+      "Brazilian Rosewood",
+      "وانیل",
+      "کهربا",
+      "موش"
+    ],
+    "baseNotesFa": [
+      "زنبق",
+      "چوب صندل",
+      "پچولی",
+      "وتیور",
+      "Brazilian Rosewood",
+      "وانیل",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "عطر خالص و انحصاری Begum Stone Label از برند Xerjoff از رایحه‌های لذت‌بخش گل‌های شیپر استفاده می‌کند و جلوه‌ای مدرن به آنها می‌بخشد. لایه بالایی از رایحه لیمو و ترنج با رایحه پایه مشک متعادل شده است تا عطری چوبی ایجاد کند که برای کسانی که رایحه‌های شیرین را نمی‌پسندند، عالی است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/RuPaul/Glamazon-29199.html",
+    "extractedAt": "2026-11-26T14:21:27.218Z",
+    "name": "Glamazon",
+    "brand": "RuPaul",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Moroccan Rose"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Tonka Bean",
+      "Red Cedar"
+    ],
+    "description": "The famous American drag queen RuPaul launches fragrance called Glamazon in 2013. Glamazon is a fragrance for men and women who want to be glamorous and fierce</p> <p>” Glamazon is for women and men of all ages and preferences who share one thing in common: They are not afraid to be fierce. For me, glamour should be accessible to all, I am committed to helping the world look and smell more beautiful” – RuPaul.</p> <p>The fragrance is developed in collaboration with the company Colorevolution. The composition includes accords of pink pepper, Moroccan rose, tonka bean, red cedar and amber.</p> <p>It is available in bottles of 50 ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.29199.jpg",
+    "rating": 4.3,
+    "ratingVotes": 33,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 85
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 81
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 41
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 29199,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Glamazon",
+    "brandFa": "RuPaul",
+    "nameFa": "Glamazon",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Moroccan Rose"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "لوبیا تونکا",
+      "Red Cedar"
+    ],
+    "descriptionFa": "دراگ کوئین معروف آمریکایی، روپال، در سال 2013 عطری به نام Glamazon را عرضه کرد. Glamazon عطری است برای مردان و زنانی که می‌خواهند جذاب و جسور باشند</p> <p>«Glamazon برای زنان و مردان در هر سنی و با هر سلیقه‌ای است که یک چیز مشترک دارند: آنها از جسور بودن نمی‌ترسند. از نظر من، جذابیت باید برای همه قابل دسترس باشد، من متعهد هستم که به جهان کمک کنم تا زیباتر به نظر برسد و خوشبوتر باشد.» – روپال.</p> <p>این عطر در",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Afnan/Turathi-Blue-70839.html",
+    "extractedAt": "2026-11-26T14:21:33.290Z",
+    "name": "Turathi Blue",
+    "brand": "Afnan",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": "Imran Fazlani",
+    "topNotes": [
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Woodsy Notes",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Spices",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70839.jpg",
+    "rating": 4.31,
+    "ratingVotes": 8781,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 31
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 70839,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Turathi Blue",
+    "brandFa": "افنان",
+    "nameFa": "Turathi Blue",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "perfumerFa": "Imran Fazlani",
+    "topNotesFa": [
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "Woodsy Notes",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Spices",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-grayi/White-Rabbit-90633.html",
+    "extractedAt": "2026-11-26T14:21:37.855Z",
+    "name": "White Rabbit",
+    "brand": "d.grayi",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "James Nguyen",
+    "topNotes": [
+      "Milk",
+      "Carrot",
+      "White Pepper",
+      "Sweet Notes"
+    ],
+    "middleNotes": [
+      "Rice",
+      "Tuberose",
+      "Pandanus"
+    ],
+    "baseNotes": [
+      "Hay",
+      "White Musk",
+      "Animal notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90633.jpg",
+    "rating": 3.71,
+    "ratingVotes": 97,
+    "accords": [
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 87
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 66
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 49
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 90633,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White Rabbit",
+    "brandFa": "d.grayi",
+    "nameFa": "White Rabbit",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "James Nguyen",
+    "topNotesFa": [
+      "شیر",
+      "هویج",
+      "فلفل سفید",
+      "Sweet Notes"
+    ],
+    "middleNotesFa": [
+      "Rice",
+      "گل شیپور",
+      "Pandanus"
+    ],
+    "baseNotesFa": [
+      "یونجه",
+      "موش سفید",
+      "Animal notes"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bvlgari/Eau-Parfumee-The-Blanc-2025-104940.html",
+    "extractedAt": "2026-11-26T14:21:42.465Z",
+    "name": "Eau Parfumée Thé Blanc 2025",
+    "brand": "Bvlgari",
+    "family": "Aromatic Green",
+    "gender": "women and men. This is a new fragrance. <b>Eau Parfumée Thé Blanc 2025</b> was launched in 2025. The nose behind this fragrance is Jacques Cavallier Belletrud. The fragrance features White Tea and White Musk",
+    "year": 2025,
+    "perfumer": "Jacques Cavallier Belletrud",
+    "description": "Eau Parfumée Thé Blanc by Bvlgari is a new fragrance for both women and men, released in 2025. This scent is characterized by the delicate aroma of Chinese white tea, complemented by the soft and comforting presence of white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104940.jpg",
+    "rating": 4.06,
+    "ratingVotes": 155,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 89
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 30
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 15
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 15
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 104940,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Eau ée Thé Blanc 2025",
+    "brandFa": "بولگاری",
+    "nameFa": "Eau Parfumée Thé Blanc 2025",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "Aromatic Green",
+    "genderFa": "women and men. This is a new fragrance. <b>Eau Parfumée Thé Blanc 2025</b> was launched in 2025. The nose behind this fragrance is Jacques Cavallier Belletrud. The fragrance features White Tea and White Musk",
+    "perfumerFa": "Jacques Cavallier Belletrud",
+    "descriptionFa": "Eau Parfumée Thé Blanc از برند Bvlgari یک عطر جدید برای خانم‌ها و آقایان است که در سال 2025 عرضه شده است. این رایحه با عطر ظریف چای سفید چینی مشخص می‌شود که با حضور ملایم و آرامش‌بخش مشک سفید تکمیل می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Karl-Lagerfeld/Fleur-D-Iris-105342.html",
+    "extractedAt": "2026-11-26T14:21:48.379Z",
+    "name": "Fleur D'Iris",
+    "brand": "Karl Lagerfeld",
+    "family": null,
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Diviniris",
+      "Orange Blossom",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Orchid",
+      "Cyclamen"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Heliotrope"
+    ],
+    "description": "Iris, one of the most precious flowers in perfumery, takes center stage in this composition, revealing its irresistible creamy allure. This complex and elegant bloom, accented with powdery nuances, unfolds gracefully on the skin following a citrus opening composed of mandarin essence and orange blossom absolute. The silky sweetness of Madagascar vanilla absolute, heliotrope, and musk blends beautifully, unveiling a sensual accord.</p> <p>The cylindrical bottle, topped with a transparent cabochon-shaped cap, reflects the delicate hue of iris petals. The pale lilac shade also adorns the white outer packaging with its grainy leather texture, edged with black trimming, boldly displaying the fragrance name in large letters.</p> <p><strong>Top Notes:</strong> Mandarin essence, orange blossom, Diviniris<br /> <strong>Heart Notes:</strong> Iris, orchid, cyclamen<br /> <strong>Base Notes:</strong> Vanilla, heliotrope, musk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105342.jpg",
+    "rating": 3.8,
+    "ratingVotes": 333,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 60
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 30
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 105342,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fleur D'Iris",
+    "brandFa": "Karl Lagerfeld",
+    "nameFa": "Fleur D'Iris",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Diviniris",
+      "گل پرتقال",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "Orchid",
+      "Cyclamen"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "گل هلیوتروپ"
+    ],
+    "descriptionFa": "زنبق، یکی از ارزشمندترین گل‌ها در صنعت عطر، در این ترکیب نقش اصلی را ایفا می‌کند و جذابیت خامه‌ای مقاومت‌ناپذیر خود را آشکار می‌سازد. این گل پیچیده و زیبا که با ظرافت‌های پودری برجسته شده است، پس از رایحه‌ای مرکباتی متشکل از اسانس نارنگی و عصاره خالص شکوفه پرتقال، به آرامی بر روی پوست نمایان می‌شود. شیرینی ابریشمی عصاره وانیل ماداگاسکار، هلیوتروپ و مشک به زیبایی با هم ترکیب می‌شوند و ترکیبی حسی را آشکار می‌کنند.</p> <p>سیلی",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/Snowflakes-Cashmere-58338.html",
+    "extractedAt": "2026-11-26T14:21:53.578Z",
+    "name": "Snowflakes & Cashmere",
+    "brand": "Bath & Body Works",
+    "family": "Floral Green",
+    "gender": "women",
+    "year": 2016,
+    "perfumer": null,
+    "topNotes": [
+      "Cashmeran",
+      "Vanilla"
+    ],
+    "middleNotes": [
+      "Clementine",
+      "White Tea"
+    ],
+    "baseNotes": [
+      "Woodsy Notes",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58338.jpg",
+    "rating": 4.41,
+    "ratingVotes": 1275,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 71
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 66
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 21
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 20
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 58338,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Snowflakes & Cashmere",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "Snowflakes & Cashmere",
+    "familyFa": "گلی سبز",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "کشماران",
+      "وانیل"
+    ],
+    "middleNotesFa": [
+      "کلمانتین",
+      "White Tea"
+    ],
+    "baseNotesFa": [
+      "Woodsy Notes",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Labo/The-Matcha-26-69731.html",
+    "extractedAt": "2026-11-26T14:21:58.085Z",
+    "name": "The Matcha 26",
+    "brand": "Le Labo",
+    "family": null,
+    "gender": "women and men. <b>The Matcha 26</b> was launched in 2021. The fragrance features Fig, Cedar, Matcha Tea, Bitter Orange and Vetiver",
+    "year": 2021,
+    "description": "In the same way matcha tea is much more than just a drink in Japanese culture, The Matcha 26 is much more than a scent to us. It is a moment of introspection, a moment of self that offers a quiet inner celebration of grace and soulful beauty. A simple whiff takes us away from the hum of the outside and brings us back “in”.</p> <p>Matcha tea accord is infused with a creamy fig note, grounded by soft vetiver and textural cedar woods and uplifted by enticing bitter orange.<br /> <br /> Introverted and deep by nature, The Matcha 26 is a skin scent, something meant for, and only those individuals lucky enough to be very close to, the wearer. It carries a noble stillness. To us, it is a scented reminder of home, of welcomed solitude, and of all things familiar and treasured.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69731.jpg",
+    "rating": 4.11,
+    "ratingVotes": 4799,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 48
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 69731,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Matcha 26",
+    "brandFa": "ل لابو",
+    "nameFa": "The Matcha 26",
+    "genderFa": "women and men. <b>The Matcha 26</b> was launched in 2021. The fragrance features Fig, Cedar, Matcha Tea, Bitter Orange and Vetiver",
+    "descriptionFa": "همانطور که چای ماچا در فرهنگ ژاپن چیزی فراتر از یک نوشیدنی است، The Matcha 26 نیز برای ما چیزی فراتر از یک عطر است. این عطر لحظه‌ای است برای درون‌نگری، لحظه‌ای برای خود که جشن درونی آرام و باشکوهی از وقار و زیبایی معنوی را به ارمغان می‌آورد. یک بوی ساده ما را از هیاهوی بیرون دور می‌کند و ما را به «درون» بازمی‌گرداند.</p> <p>ترکیب چای ماچا با رایحه خرمای کرمی آمیخته شده است، با وتیور ملایم و چوب سدر بافت‌دار تثبیت شده و با",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Xerjoff/Cruz-del-Sur-I-46097.html",
+    "extractedAt": "2026-11-26T14:22:03.112Z",
+    "name": "Cruz del Sur I",
+    "brand": "Xerjoff",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Miroslav Petkov",
+    "topNotes": [
+      "Rum",
+      "Grapes",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Dried Fruits",
+      "Cloves",
+      "Cumin",
+      "Cedar",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Castoreum",
+      "Myrhh",
+      "Incense",
+      "Labdanum",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Higher up, closer to the treetops, the air smells of rum, of bergamot and of vague hints of grapes. We advance, overcoming one liana after the other with strokes of machete, and approach the inner landscape of desire by walking through scents of lily, cedar, dried fruits, cloves, cumin.</p> <p>The animals plod on with their legs half submerged in water, while the sun barely filtering through the thick growth of the forest brings out even more strongly the scent of their hide. Here the yearning after lost civilizations is felt most acutely.</p> <p>Your closed eyes, overwhelmed by the solid base of sandalwood, amber, ladanum, incense, myrrh and castoreum, testify to a frantic search for the mythical city of gold that is much more than an obsession. For once, it is enough to breathe in and drift away.</p> <p>Cruz del Sur I is available from September 2017 in 50ml Eau de Parfum flacons.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46097.jpg",
+    "rating": 3.53,
+    "ratingVotes": 327,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 95
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 88
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 73
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 46097,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cruz del Sur I",
+    "brandFa": "زروجف",
+    "nameFa": "Cruz del Sur I",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Miroslav Petkov",
+    "topNotesFa": [
+      "رام",
+      "Grapes",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Dried Fruits",
+      "Cloves",
+      "زیره",
+      "سرو",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "کاستوریوم",
+      "Myrhh",
+      "عود بخور",
+      "لابدانوم",
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "در ارتفاع بالاتر، نزدیک‌تر به نوک درختان، هوا بوی رام، ترنج و رایحه‌های مبهم انگور می‌دهد. پیش می‌رویم، با ضربات قمه یک به یک از پیچک‌ها عبور می‌کنیم و با عبور از میان رایحه‌های نیلوفر، سرو، میوه‌های خشک، میخک و زیره، به چشم‌انداز درونی هوس نزدیک می‌شویم.</p> <p>حیوانات با پاهایی که تا نیمه در آب فرو رفته‌اند، به راه خود ادامه می‌دهند، در حالی که نور خورشید که به سختی از میان انبوه درختان جنگل عبور می‌کند، بوی عطرها را بیشتر آشکار می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Atelier-des-Ors/Aube-Rubis-29713.html",
+    "extractedAt": "2026-11-26T14:22:09.212Z",
+    "name": "Aube Rubis",
+    "brand": "Atelier des Ors",
+    "family": "Aromatic Fruity",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Marie Salamagne",
+    "topNotes": [
+      "Black Currant",
+      "Grapefruit",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Sage",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Haitian Vetiver",
+      "Praline"
+    ],
+    "description": "Inspired by dawn and the circle of life, Aube Rubis celebrates light and life.</p> <p>A sparkling prelude of grapefruit and blackcurrant speaks of the early morning</p> <p>coolness, before it radiates light and warmth when the sun stands high in the sky. In </p> <p>fact, the fragrance closes on a rich and warm accord with the sensual elegance of </p> <p>sage and earthy patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.29713.jpg",
+    "rating": 3.79,
+    "ratingVotes": 444,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 72
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 71
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 69
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 41
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 29713,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aube Rubis",
+    "brandFa": "Atelier des Ors",
+    "nameFa": "Aube Rubis",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Marie Salamagne",
+    "topNotesFa": [
+      "توت سیاه",
+      "گریپ‌فروت",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "مریم‌گلی",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "Haitian Vetiver",
+      "پرالین"
+    ],
+    "descriptionFa": "Aube Rubis که از سپیده‌دم و چرخه زندگی الهام گرفته است، نور و زندگی را گرامی می‌دارد.</p> <p>پیش‌درآمد درخشان گریپ‌فروت و انگورفرنگی سیاه از خنکی اول صبح حکایت می‌کند،</p> <p>قبل از اینکه با بالا آمدن خورشید در آسمان، نور و گرما را منعکس کند. در </p> <p>واقع، این عطر با ترکیبی غنی و گرم با ظرافت حسی </p> <p>مریم‌گلی و رایحه خاکی نعناع هندی به پایان می‌رسد.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Boa-143690.html",
+    "extractedAt": "2026-11-26T14:22:15.656Z",
+    "name": "Hawas Boa",
+    "brand": "Rasasi",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "prickly pear",
+      "Green Apple",
+      "Pomelo",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Driftwood",
+      "Tonka Bean",
+      "Olibanum"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Vetiver",
+      "Ambronova ™",
+      "Sandalwood"
+    ],
+    "description": "Hawas Boa by Rasasi opens with pomelo, prickly pear, green apple and orange blossom, followed by tonka bean, driftwood, Flowerpool and olibanum over a base of sandalwood, Ambronova, vetiver and vanilla.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143690.jpg",
+    "rating": 3.59,
+    "ratingVotes": 198,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 73
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 35
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 143690,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Boa",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Boa",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "prickly pear",
+      "سیب سبز",
+      "پوملو",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "چوب شناور",
+      "لوبیا تونکا",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "وتیور",
+      "Ambronova ™",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Hawas Boa از برند Rasasi با رایحه گریپ‌فروت، گلابی خاردار، سیب سبز و شکوفه پرتقال آغاز می‌شود، سپس دانه‌های تونکا، چوب دریفت‌وود، فلاورپول و کندر بر پایه رایحه چوب صندل، آمبرونوا، وتیور و وانیل ظاهر می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Estee-Lauder/Estee-544.html",
+    "extractedAt": "2026-11-26T14:22:22.423Z",
+    "name": "Estee",
+    "brand": "Estée Lauder",
+    "family": "Floral",
+    "gender": "women",
+    "year": 1968,
+    "perfumer": "Betty Busse and Bernard Chant",
+    "topNotes": [
+      "Aldehydes",
+      "Coriander",
+      "Lily",
+      "Ylang-Ylang",
+      "Tuberose",
+      "Lemon",
+      "Raspberry",
+      "Peach"
+    ],
+    "middleNotes": [
+      "Honey",
+      "Carnation",
+      "Lily-of-the-Valley",
+      "Iris",
+      "Orris Root",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Sandalwood",
+      "Styrax",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.544.jpg",
+    "rating": 3.81,
+    "ratingVotes": 2539,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 73
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 53
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 544,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Estee",
+    "brandFa": "Estée Lauder",
+    "nameFa": "Estee",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Betty Busse and Bernard Chant",
+    "topNotesFa": [
+      "آلدهیدها",
+      "گشنیز",
+      "لاله",
+      "ایلنگ‌ایلنگ",
+      "گل شیپور",
+      "لیمو",
+      "تمشک",
+      "هلو"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "میخک",
+      "Lily-of-the-Valley",
+      "زنبق",
+      "ریشه زنبق",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "چوب صندل",
+      "استیراکس",
+      "سرو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
