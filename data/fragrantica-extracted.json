@@ -123917,5 +123917,1283 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Voyde/Mirage-131883.html",
+    "extractedAt": "2026-11-26T22:45:20.766Z",
+    "name": "Mirage",
+    "brand": "Voyde",
+    "family": "Woody Spicy",
+    "gender": "women and men. <b>Mirage</b> was launched in 2022. Mirage was created by Miriam Shechet and Macaul Neenan. The fragrance features Sandalwood, elemi, Frankincense and Pink Pepper",
+    "year": 2022,
+    "perfumer": "Miriam Shechet and Macaul Neenan",
+    "description": "Mirage by Voyde (previously Labhouse): Pepper-scorched citrus collapses into sandalwood and resin, phantom warmth rising off desert stone. Mirage was built around radiant heat. Pink pepper opens with a dry spark. Elemi adds a bright resin edge that keeps the top clear and lifted. Frankincense is the turning point. It diffuses the spice and light, creating a hazy, almost weightless layer that feels like heat rising off pavement. It blurs the sharpness and gives the composition movement. Toasted sandalwood anchors the base. Warm and slightly sweet, it brings a creamy depth that balances the dryness of the resins. Mirage is spice, resin, and glowing wood. Heat you can see in the air before you feel it on skin. Concentration: Eau de parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.131883.jpg",
+    "rating": 3.86,
+    "ratingVotes": 7,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 39
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 22
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 131883,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mirage",
+    "brandFa": "Voyde",
+    "nameFa": "Mirage",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "women and men. <b>Mirage</b> was launched in 2022. Mirage was created by Miriam Shechet and Macaul Neenan. The fragrance features Sandalwood, elemi, Frankincense and Pink Pepper",
+    "perfumerFa": "Miriam Shechet and Macaul Neenan",
+    "descriptionFa": "Mirage از Voyde (قبلاً Labhouse): مرکبات تند و تیز با چوب صندل و رزین ترکیب می‌شود و گرمای خیالی از سنگ صحرا برخاسته و بالا می‌آید. Mirage بر اساس گرمای تابشی ساخته شده است. فلفل صورتی با جرقه‌ای خشک آغاز می‌شود. المی یک لبه رزینی درخشان اضافه می‌کند که رایحه اولیه را شفاف و برجسته نگه می‌دارد. کندر نقطه عطف است. این رایحه، ادویه و نور را پخش می‌کند و لایه‌ای مه‌آلود و تقریباً بی‌وزن ایجاد می‌کند که مانند گرمایی است که از سطح زمین بالا می‌آید. این رایحه، لبه‌های تیز را محو می‌کند",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Squishmallows/Wonder-Whirl-136708.html",
+    "extractedAt": "2026-11-26T22:45:26.482Z",
+    "name": "Wonder Whirl",
+    "brand": "Squishmallows",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Raspberry",
+      "Wild Berries",
+      "Tangelo"
+    ],
+    "middleNotes": [
+      "Sugar",
+      "Cherry Blossom",
+      "Freesia",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Marshmallow",
+      "Musk",
+      "Vanilla"
+    ],
+    "description": "Wonder Whirl by Squishmallows is a 2026 fruity gourmand fragrance inspired by Joelle the Bigfoot and a theme of exploration. It combines blue raspberry, tangelo, wild berries, sugared violet, blue freesia, sakura blossom, blue vanilla, sweet musk, and the brand's Squishmallows accord, described as a sweet, fluffy marshmallow note.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136708.jpg",
+    "rating": 4.12,
+    "ratingVotes": 51,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 93
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 21
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 11
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 10
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 136708,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Wonder Whirl",
+    "brandFa": "Squishmallows",
+    "nameFa": "Wonder Whirl",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "تمشک",
+      "Wild Berries",
+      "Tangelo"
+    ],
+    "middleNotesFa": [
+      "شکر",
+      "Cherry Blossom",
+      "فریزیا",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "مارشمالو",
+      "موش",
+      "وانیل"
+    ],
+    "descriptionFa": "Wonder Whirl از Squishmallows یک عطر گورماند میوه‌ای محصول سال 2026 است که از Joelle the Bigfoot و مضمون اکتشاف الهام گرفته شده است. این عطر ترکیبی از تمشک آبی، تانگلو، توت‌های وحشی، بنفشه شکری، فریزیای آبی، شکوفه ساکورا، وانیل آبی، مشک شیرین و آکورد Squishmallows برند است که به عنوان یک رایحه شیرین و پفکی مارشمالو توصیف می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-Extrait-de-Parfum-46066.html",
+    "extractedAt": "2026-11-26T22:45:32.644Z",
+    "name": "Baccarat Rouge 540 Extrait de Parfum",
+    "brand": "Maison Francis Kurkdjian",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Bitter Almond",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Egyptian Jasmine",
+      "Virginia Cedar"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Woody Notes",
+      "Musk",
+      "Ambroxan",
+      "Cashmeran"
+    ],
+    "description": "Baccarat Rouge 540 extrait de parfum intensifies the radiance of the three auras found in the eau de parfum without betraying the original inspiration. The perfumer’s mastered craft and the wisdom gained with time gave birth to this woody extrait de perfume, an ultimate accomplishment for Francis Kurkdjian. The Grandiflorum jasmine head note gently underscores the craftsman’s voice. The hint of fire is enhanced with powdered epicurean facets of bitter almond. Lastly, the mineral note built around ambergris is tamed with an ambery and woody accord. Adding to the intensity of the extrait, the perfume bottle also plays with light. Its aesthetic dons a brilliant red robe reminiscent of Baccarat red. Baccarat Rouge 540 Maison Francis Kurkdjian extrait de parfum embodies the profusion and fusion of elements that can only be tamed by the art of the perfumer and the wisdom gained with time.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46066.jpg",
+    "rating": 4.2,
+    "ratingVotes": 11870,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 93
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 69
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 59
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 46066,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait de Parfum",
+    "baseName": "Baccarat Rouge 540",
+    "brandFa": "مزون فرانسیس کورکدیان",
+    "nameFa": "Baccarat Rouge 540 Extrait de Parfum",
+    "concentrationFa": "اکستره پرفیوم",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "بادام تلخ",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "Egyptian Jasmine",
+      "Virginia Cedar"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "Woody Notes",
+      "موش",
+      "آمبروکسان",
+      "کشماران"
+    ],
+    "descriptionFa": "Baccarat Rouge 540 extrait de parfum درخشش سه هاله موجود در ادو پرفیوم را بدون خدشه‌دار کردن الهام اصلی تشدید می‌کند. مهارت استادانه عطرساز و دانشی که با گذر زمان کسب کرده بود، این عصاره عطر چوبی را پدید آورد که نقطه اوج موفقیت فرانسیس کورکجیان است. نت ابتدایی یاس گراندی فلوروم به آرامی صدای استاد را برجسته می‌کند. رایحه آتش با جنبه‌های لذت‌گرایانه پودری عنبر تقویت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Mayar-84309.html",
+    "extractedAt": "2026-11-26T22:45:38.625Z",
+    "name": "Mayar",
+    "brand": "Lattafa Perfumes",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Litchi",
+      "Raspberry",
+      "Violet Leaf"
+    ],
+    "middleNotes": [
+      "White Rose",
+      "Peony",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84309.jpg",
+    "rating": 4.03,
+    "ratingVotes": 2085,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 54
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 26
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 84309,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mayar",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Mayar",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Litchi",
+      "تمشک",
+      "برگ بنفشه"
+    ],
+    "middleNotesFa": [
+      "White Rose",
+      "گل داوودی",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Corium-97118.html",
+    "extractedAt": "2026-11-26T22:45:42.655Z",
+    "name": "Corium",
+    "brand": "Rayhaan",
+    "family": null,
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Chestnut",
+      "Spices",
+      "elemi"
+    ],
+    "middleNotes": [
+      "Sage"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Leather",
+      "Oud"
+    ],
+    "description": "Corium by Rayhaan is designed for men who appreciate a powerful and robust scent. This fragrance features a blend of chestnut, sage, and leather notes, evoking a sense of strength and confidence.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97118.jpg",
+    "rating": 4.39,
+    "ratingVotes": 622,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 86
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 62
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 97118,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Corium",
+    "brandFa": "Rayhaan",
+    "nameFa": "Corium",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Chestnut",
+      "Spices",
+      "elemi"
+    ],
+    "middleNotesFa": [
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چرم",
+      "عود"
+    ],
+    "descriptionFa": "Corium از برند Rayhaan برای مردانی طراحی شده است که طرفدار رایحه‌ای قوی و ماندگار هستند. این عطر ترکیبی از رایحه‌های شاه‌بلوط، مریم‌گلی و چرم است که حسی از قدرت و اعتماد به نفس را تداعی می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/YANI/Shiraz-99487.html",
+    "extractedAt": "2026-11-26T22:45:47.649Z",
+    "name": "Shiraz",
+    "brand": "YANI",
+    "family": "Citrus",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Anne-Louise Gautier",
+    "topNotes": [
+      "Mandarin",
+      "Citron"
+    ],
+    "middleNotes": [
+      "Grapefruit",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Neroli",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Shiraz cannot be described in such a way that it is not wrong to it.</p> <p>So we make a perfume so that you can smell the heavenly beauty of May before you see it.<br /> Shiraz perfume, is a complicated perfume like Hafez, SaadiSour and fresh like orange spring and jasmine glorious like Persepolis.</p> <p>Scent style:citrus ,flower, neroli</p> <p>First note:mandarin, Italian citron, Aurantium</p> <p>Middle notes: Grapefruit skin, jasmine</p> <p>Base note: musk accord, amber ,neroli",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99487.jpg",
+    "rating": 4.62,
+    "ratingVotes": 8,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 29
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 17
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 14
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 99487,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Shiraz",
+    "brandFa": "YANI",
+    "nameFa": "Shiraz",
+    "familyFa": "Citrus",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Anne-Louise Gautier",
+    "topNotesFa": [
+      "Mandarin",
+      "Citron"
+    ],
+    "middleNotesFa": [
+      "گریپ‌فروت",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "نرولی",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "شیراز را نمی‌توان طوری توصیف کرد که در حقش اجحاف نشود.</p> <p>بنابراین ما عطری می‌سازیم تا بتوانید قبل از دیدن زیبایی بهشتی ماه مه، رایحه آن را استشمام کنید.<br /> عطر شیراز، عطری پیچیده مانند حافظ، سعدی، ترش و تازه مانند بهار نارنج و یاس، باشکوه مانند تخت جمشید است.</p> <p>سبک رایحه: مرکبات، گل، نرولی</p> <p>نت اولیه: نارنگی، ترنج ایتالیایی، نارنج</p> <p>نت‌های میانی: پوست گریپ‌فروت، یاسمن</p> <p>",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Club-De-Nuit-Lionheart-Man-102026.html",
+    "extractedAt": "2026-11-26T22:45:52.843Z",
+    "name": "Club De Nuit Lionheart Man",
+    "brand": "Armaf",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Mint",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Benzoin"
+    ],
+    "baseNotes": [
+      "Honey",
+      "Tonka Bean",
+      "Tobacco"
+    ],
+    "description": "Born from the roots of tradition and the wild spirit of the land, ARMAF CLUB DE NUIT Lionheart MAN is a fragrance that tells the story of strength, resilience, and heritage. Inspired by the natural world, it evokes both the freshness of the great outdoors and the comforting warmth of home.</p> <p>With an invigorating opening of lavender and mint, this fragrance awakens the senses, like a refreshing breeze through the trees. As it settles, the heart reveals the soft, sweet warmth of benzoin and vanilla, enveloping you in a feeling of grounded comfort. The oriental-fougere composition strikes a perfect balance between revitalizing freshness and indulgent sweetness, making it a versatile and enduring scent.</p> <p>Lionheart MAN is the fragrance for the modern man who honors his roots and walks boldly toward the future. It’s a scent that captures the spirit of adventure, grounded in a legacy of power and passion.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102026.jpg",
+    "rating": 4.48,
+    "ratingVotes": 876,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 46
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 102026,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Club De Nuit Lionheart Man",
+    "brandFa": "Armaf",
+    "nameFa": "Club De Nuit Lionheart Man",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "نعناع",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "بنزوئین"
+    ],
+    "baseNotesFa": [
+      "عسل",
+      "لوبیا تونکا",
+      "تنباکو"
+    ],
+    "descriptionFa": "ARMAF CLUB DE NUIT Lionheart MAN که از ریشه‌های سنت و روح وحشی سرزمین سرچشمه گرفته است، عطری است که داستان قدرت، تاب‌آوری و میراث را روایت می‌کند. این عطر که از دنیای طبیعت الهام گرفته شده است، هم طراوت طبیعت بکر و هم گرمای دلنشین خانه را تداعی می‌کند.</p> <p>این عطر با رایحه اولیه نشاط‌بخش اسطوخودوس و نعناع، حواس را بیدار می‌کند، مانند نسیمی خنک که از میان درختان می‌وزد. همانطور که رایحه تثبیت می‌شود، نت‌های میانی",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Oud-Mood-46814.html",
+    "extractedAt": "2026-11-26T22:45:58.447Z",
+    "name": "Oud Mood",
+    "brand": "Lattafa Perfumes",
+    "family": null,
+    "gender": "women and men. Top notes are Rose, Saffron and Pimento; middle notes are Agarwood (Oud), Caramel, Floral Notes and Patchouli; base notes are Woody Notes, Amber, Incense, Resins and Musk",
+    "topNotes": [
+      "Rose",
+      "Saffron",
+      "Pimento"
+    ],
+    "middleNotes": [
+      "Agarwood (Oud)",
+      "Caramel",
+      "Floral Notes",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Amber",
+      "Incense",
+      "Resins",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46814.jpg",
+    "rating": 4,
+    "ratingVotes": 2277,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 57
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 46
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 40
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 33
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 46814,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Mood",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Oud Mood",
+    "genderFa": "women and men. Top notes are Rose, Saffron and Pimento; middle notes are Agarwood (Oud), Caramel, Floral Notes and Patchouli; base notes are Woody Notes, Amber, Incense, Resins and Musk",
+    "topNotesFa": [
+      "گل رز",
+      "زعفران",
+      "فلفل هلندی"
+    ],
+    "middleNotesFa": [
+      "Agarwood (Oud)",
+      "کارامل",
+      "Floral Notes",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "کهربا",
+      "عود بخور",
+      "رزین‌ها",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Aqua-Universalis-6804.html",
+    "extractedAt": "2026-11-26T22:46:03.199Z",
+    "name": "Aqua Universalis",
+    "brand": "Maison Francis Kurkdjian",
+    "family": "Aromatic",
+    "gender": "women and men. <b>Aqua Universalis</b> was launched in 2009. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Lily-of-the-Valley, Amalfi Lemon, Bergamot, Musk, Orange Blossom, Orange and Woodsy Notes",
+    "year": 2009,
+    "perfumer": "Francis Kurkdjian",
+    "description": "Aqua Universalis – inspired by cleanliness, a scent composed of bergamot, Sicilian lemon, lily of the valley, sweet orange and blond musky wood. It arrives as 75 ml and 200 ml EDT, as well as 1 liter laundry detergent and softener with the same notes.</p> <p>The collection also features a \"photophore\" candle which does not arrive in a traditional glass package, but makes a hole inside its body while it burns and it seems like it is burning in its very heart. They wanted to make a little twist in the design and presentation of products and awaken their customers' interest and so invented a small leather bracelet, Tour Atour, impregnated with scent. A box of 20 fragrant incense papers is also part of the collection. Perfumer is Francis Kurkdjian.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6804.jpg",
+    "rating": 3.92,
+    "ratingVotes": 3198,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 64
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 33
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 22
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 19
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 6804,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aqua Universalis",
+    "brandFa": "مزون فرانسیس کورکدیان",
+    "nameFa": "Aqua Universalis",
+    "familyFa": "معطر",
+    "genderFa": "women and men. <b>Aqua Universalis</b> was launched in 2009. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Lily-of-the-Valley, Amalfi Lemon, Bergamot, Musk, Orange Blossom, Orange and Woodsy Notes",
+    "perfumerFa": "Francis Kurkdjian",
+    "descriptionFa": "Aqua Universalis – عطری الهام‌گرفته از پاکیزگی، متشکل از رایحه ترنج، لیموی سیسیل، گل میخک، پرتقال شیرین و چوب مشک‌دار روشن. این محصول به صورت EDT در حجم‌های 75 و 200 میلی‌لیتر، و همچنین به صورت مایع لباسشویی و نرم‌کننده 1 لیتری با همان رایحه‌ها عرضه می‌شود.</p> <p>این مجموعه همچنین شامل یک شمع «فوتوفور» است که در بسته‌بندی شیشه‌ای سنتی عرضه نمی‌شود، بلکه در حین سوختن در داخل بدنه خود حفره‌ای ایجاد می‌کند و به نظر می‌رسد که در داخل خود می‌سوزد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Guidance-46-94033.html",
+    "extractedAt": "2026-11-26T22:46:09.185Z",
+    "name": "Guidance 46",
+    "brand": "Amouage",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Rose Water",
+      "Pear",
+      "Hazelnut",
+      "Bitter Almond",
+      "Frankincense",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Osmanthus",
+      "Saffron",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Akigalawood",
+      "Vanilla",
+      "Ambrette",
+      "Ambergris",
+      "Labdanum",
+      "Georgywood",
+      "Cypriol"
+    ],
+    "description": "Guidance 46 by Amouage is an Exceptional Extrait created by perfumer Quentin Bisch under the direction of Chief Creative Officer Renaud Salmon. This fragrance reinterprets the Amouage triad of Rose, Frankincense, and Orientalgris, while introducing new elements such as Pear, Hazelnut, and Sandalwood. The scent is designed to heighten contrasts and reveal more of the mysteries at the heart of the Guidance story.</p> <p><strong>Guidance 46 Exceptional Extrait</strong></p> <p><strong>Perfumer: </strong>Quentin Bisch<br /> <strong>Olfactive family:</strong> Floral Woody<br /> <strong>Ageing:</strong> 4 weeks (2 weeks maturation + 2 weeks maceration)<br /> <strong>Concentration: </strong>Extrait de Parfum containing 46% pure perfume oils</p> <p><strong>Top notes: </strong>Pear, Frankincense, Hazelnut, Rose Water, Pink Pepper, Bitter Almond<br /> <strong>Heart:</strong> Saffron, Rose, Sambac Jasmine, Osmanthus<br /> <strong>Base:</strong> Cistus, Sandalwood, Akigalawood, Orientalgris, Vanilla, Ambrette, Georgywood, Cypriol</p> <p>Available as a 100ml Extrait de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94033.jpg",
+    "rating": 4.16,
+    "ratingVotes": 3343,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 94033,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Guidance 46",
+    "brandFa": "آموژ",
+    "nameFa": "Guidance 46",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "Rose Water",
+      "گلابی",
+      "فندق",
+      "بادام تلخ",
+      "کندر",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "اسمانتوس",
+      "زعفران",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Akigalawood",
+      "وانیل",
+      "دانه ابرکفش",
+      "کهربا خاکستری",
+      "لابدانوم",
+      "Georgywood",
+      "سایپریول"
+    ],
+    "descriptionFa": "Guidance 46 از برند Amouage یک عصاره استثنایی است که توسط عطرساز کوئنتین بیش (Quentin Bisch) و تحت نظارت رنو سالمون (Renaud Salmon)، مدیر ارشد خلاقیت، ساخته شده است. این عطر ترکیبات سه‌گانه Amouage شامل گل رز، کندر و عنبر را بازتعریف می‌کند و در عین حال عناصر جدیدی مانند گلابی، فندق و چوب صندل را معرفی می‌کند. این عطر به گونه‌ای طراحی شده است که تضادها را برجسته‌تر کند و اسرار نهفته در قلب داستان Guidance را بیشتر آشکار سازد.</p> <p><strong>Guidance 46 استثنایی",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Paradigme-Le-Parfum-132417.html",
+    "extractedAt": "2026-11-26T22:46:15.524Z",
+    "name": "Paradigme Le Parfum",
+    "brand": "Prada",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Peru Balsam",
+      "Benzoin",
+      "Guaiac Wood",
+      "Amberever"
+    ],
+    "description": "Paradigme Le Parfum is a 2026 masculine release from Prada and a flanker to Paradigme Eau de Parfum from 2025. It is presented as an ambery woody composition with a bergamot opening, a heart of gourmand geranium and leathery vanilla, and a base of Peru balsam, benzoin, guaiac wood, and Amberever.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132417.jpg",
+    "rating": 4.29,
+    "ratingVotes": 1309,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 82
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 132417,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Paradigme Le",
+    "brandFa": "پرادا",
+    "nameFa": "Paradigme Le Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "بلسام پرو",
+      "بنزوئین",
+      "چوب گوئیک",
+      "Amberever"
+    ],
+    "descriptionFa": "Paradigme Le Parfum یک عطر مردانه از برند Prada است که در سال 2026 عرضه می‌شود و نسخه‌ای جانبی از Paradigme Eau de Parfum محصول سال 2025 است. این عطر به عنوان یک ترکیب چوبی کهربایی با نت ابتدایی ترنج، نت میانی شمعدانی گورماند و وانیل چرمی، و نت پایانی مریم گلی پرو، بنزوئین، چوب گوایاک و Amberever ارائه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Bold-Raspberry-141375.html",
+    "extractedAt": "2026-11-26T22:46:20.815Z",
+    "name": "Bold Raspberry",
+    "brand": "Zara",
+    "family": null,
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Raspberry"
+    ],
+    "middleNotes": [
+      "Lollipop"
+    ],
+    "baseNotes": [
+      "Musk"
+    ],
+    "description": "An explosion of energy that invites you to enjoy the moment without a second thought. Fun, bold, and full of personality, this fragrance turns the everyday into something unexpected. Raspberry adds a sparkling, fruity touch that melts into the addictive sweetness of a lollipop accord. Musk wraps the composition in a soft base, leaving a light and carefree trail. Fruity Amber | Fun, vibrant, and bold",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.141375.jpg",
+    "rating": 4,
+    "ratingVotes": 9,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 15
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 141375,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bold Raspberry",
+    "brandFa": "Zara",
+    "nameFa": "Bold Raspberry",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "تمشک"
+    ],
+    "middleNotesFa": [
+      "Lollipop"
+    ],
+    "baseNotesFa": [
+      "موش"
+    ],
+    "descriptionFa": "انفجاری از انرژی که شما را دعوت می‌کند تا بدون هیچ فکر دیگری از لحظه لذت ببرید. این عطر که سرگرم‌کننده، جسور و سرشار از شخصیت است، زندگی روزمره را به چیزی غیرمنتظره تبدیل می‌کند. تمشک رایحه‌ای درخشان و میوه‌ای به عطر می‌بخشد که با شیرینی اعتیادآور نت آب‌نبات چوبی ترکیب می‌شود. مشک این ترکیب را در یک پایه ملایم قرار می‌دهد و اثری سبک و بی‌خیال از خود به‌جای می‌گذارد. کهربای میوه‌ای | سرگرم‌کننده، پرنشاط و جسور",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
