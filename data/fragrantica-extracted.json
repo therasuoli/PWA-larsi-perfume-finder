@@ -94641,5 +94641,1529 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ataraxia-Perfumery/My-Doll-s-Makeup-142160.html",
+    "extractedAt": "2026-11-26T00:50:24.950Z",
+    "name": "My Doll's Makeup",
+    "brand": "Ataraxia Perfumery",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Sy Truong",
+    "topNotes": [
+      "Lipstick",
+      "Iris",
+      "Porcelain",
+      "Raspberry",
+      "Soda Bubbles"
+    ],
+    "middleNotes": [
+      "Blush",
+      "Candle Wax",
+      "Iris Butter",
+      "Velvet",
+      "Orris",
+      "White Chocolate"
+    ],
+    "baseNotes": [
+      "Makeup palette",
+      "Lip gloss",
+      "Eye pencil",
+      "Myrrh",
+      "Little Doll Strawberry",
+      "Instant film accord",
+      "Vanilla"
+    ],
+    "description": "Have you seen my doll? I can’t find her anywhere. She is wearing my makeup.</p> <p>I grew up beside her. Whenever I felt sad or cried I would hug her very tight, and let her take care of everything. As a young girl, I remember being ashamed pretty often. Maybe not ashamed, but disgusted. Mommy always said I shouldn’t cry as much. We couldn’t really afford better makeup, and my face would just melt away with my tears, leaving behind something very weird. Something other people couldn’t look at. In time I learned to also hate seeing it. Good thing I could always put more blush and lipstick to cover it up. Anyway.</p> <p>I can’t seem to find my doll. If you see her, please bring her back to me. She is wearing my face.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142160.jpg",
+    "rating": 4.34,
+    "ratingVotes": 44,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 79
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 30
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 29
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 27
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 142160,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "My Doll's Makeup",
+    "brandFa": "Ataraxia Perfumery",
+    "nameFa": "My Doll's Makeup",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sy Truong",
+    "topNotesFa": [
+      "رژ لب",
+      "زنبق",
+      "Porcelain",
+      "تمشک",
+      "Soda Bubbles"
+    ],
+    "middleNotesFa": [
+      "Blush",
+      "Candle Wax",
+      "Iris Butter",
+      "Velvet",
+      "ریشه زنبق",
+      "White Chocolate"
+    ],
+    "baseNotesFa": [
+      "Makeup palette",
+      "Lip gloss",
+      "Eye pencil",
+      "مور",
+      "Little Doll Strawberry",
+      "Instant film accord",
+      "وانیل"
+    ],
+    "descriptionFa": "عروسکم را دیده‌ای؟ هیچ‌جا نمی‌توانم پیدایش کنم. او آرایش من را زده است.</p> <p>من کنار او بزرگ شدم. هر وقت احساس ناراحتی می‌کردم یا گریه می‌کردم، او را خیلی محکم در آغوش می‌گرفتم و اجازه می‌دادم که او از همه چیز مراقبت کند. به یاد دارم که در دوران کودکی، اغلب احساس شرم می‌کردم. شاید نه شرمنده، بلکه منزجر. مامان همیشه می‌گفت که نباید اینقدر گریه کنم. ما واقعاً توانایی خرید لوازم آرایش بهتر را نداشتیم و صورتم با اشک‌هایم آب می‌شد و چیزی بسیار... از خود به‌جا می‌گذاشت.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Alhambra/Delilah-Blanc-109599.html",
+    "extractedAt": "2026-11-26T00:50:30.621Z",
+    "name": "Delilah Blanc",
+    "brand": "Maison Alhambra",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "White Peach",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109599.jpg",
+    "rating": 4.11,
+    "ratingVotes": 751,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 57
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 32
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 109599,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Delilah Blanc",
+    "brandFa": "Maison Alhambra",
+    "nameFa": "Delilah Blanc",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "White Peach",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Philosophy/Fresh-Cream-Warm-Cashmere-49834.html",
+    "extractedAt": "2026-11-26T00:50:34.881Z",
+    "name": "Fresh Cream Warm Cashmere",
+    "brand": "Philosophy",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. <b>Fresh Cream Warm Cashmere</b> was launched in 2018. The nose behind this fragrance is Mathieu Nardin. The fragrance features Vanilla, Cashmere Wood, Musk, Sandalwood and Coconut",
+    "year": 2018,
+    "perfumer": "Mathieu Nardin",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49834.jpg",
+    "rating": 4.25,
+    "ratingVotes": 2349,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 66
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 63
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 27
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 49834,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fresh Cream Warm Cashmere",
+    "brandFa": "Philosophy",
+    "nameFa": "Fresh Cream Warm Cashmere",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. <b>Fresh Cream Warm Cashmere</b> was launched in 2018. The nose behind this fragrance is Mathieu Nardin. The fragrance features Vanilla, Cashmere Wood, Musk, Sandalwood and Coconut",
+    "perfumerFa": "Mathieu Nardin",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Blue-Sapphire-18518.html",
+    "extractedAt": "2026-11-26T00:50:39.055Z",
+    "name": "Blue Sapphire",
+    "brand": "Boadicea the Victorious",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": "Christian Provenzano",
+    "topNotes": [
+      "Lemon",
+      "Chamomile",
+      "Sage",
+      "Saffron",
+      "Marigold"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Indian Jasmine",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Patchouli",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.18518.jpg",
+    "rating": 4.16,
+    "ratingVotes": 1198,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 98
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 85
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 70
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 65
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 64
+      }
+    ],
+    "fragranticaId": 18518,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Sapphire",
+    "brandFa": "Boadicea the Victorious",
+    "nameFa": "Blue Sapphire",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christian Provenzano",
+    "topNotesFa": [
+      "لیمو",
+      "بابونه",
+      "مریم‌گلی",
+      "زعفران",
+      "گل داودی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "Indian Jasmine",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "پچولی",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floraiku/I-See-the-Clouds-Go-By-46162.html",
+    "extractedAt": "2026-11-26T00:50:43.986Z",
+    "name": "I See the Clouds Go By",
+    "brand": "Floraïku",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Alienor Massenet",
+    "topNotes": [
+      "Cassis"
+    ],
+    "middleNotes": [
+      "Cherry Blossom"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46162.jpg",
+    "rating": 3.92,
+    "ratingVotes": 754,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 89
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 80
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 73
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 71
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 46162,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "I See the Clouds Go By",
+    "brandFa": "Floraïku",
+    "nameFa": "I See the Clouds Go By",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alienor Massenet",
+    "topNotesFa": [
+      "توت سیاه فرانسوی"
+    ],
+    "middleNotesFa": [
+      "Cherry Blossom"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Viking-Cologne-67039.html",
+    "extractedAt": "2026-11-26T00:50:48.758Z",
+    "name": "Viking Cologne",
+    "brand": "Creed",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": "Olivier Creed and Erwin Creed",
+    "topNotes": [
+      "Mandarin Orange",
+      "Lemon",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Geranium",
+      "Rosemary",
+      "Sage",
+      "Nutmeg"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Cedar",
+      "Sandalwood",
+      "Olibanum",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67039.jpg",
+    "rating": 3.98,
+    "ratingVotes": 1413,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 91
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 35
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 28
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 26
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 67039,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Viking",
+    "brandFa": "کريد",
+    "nameFa": "Viking Cologne",
+    "concentrationFa": "کلن",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Creed and Erwin Creed",
+    "topNotesFa": [
+      "نارنگی",
+      "لیمو",
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "گل جعفری",
+      "رزماری",
+      "مریم‌گلی",
+      "جوز هندی"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "سرو",
+      "چوب صندل",
+      "کندر",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fantome/Lorelei-106329.html",
+    "extractedAt": "2026-11-26T00:50:52.709Z",
+    "name": "Lorelei",
+    "brand": "Fantôme",
+    "family": "Floral Aquatic",
+    "gender": "women and men. <b>Lorelei</b> was launched in 2021. The nose behind this fragrance is Bree Elliott. The fragrance features Aquatic notes, Wild Strawberry, Narcissus, Basil, Woodsy Notes and Algae",
+    "year": 2021,
+    "perfumer": "Bree Elliott",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106329.jpg",
+    "rating": 4,
+    "ratingVotes": 31,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 83
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 67
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 49
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 106329,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lorelei",
+    "brandFa": "Fantôme",
+    "nameFa": "Lorelei",
+    "familyFa": "گلی آبی",
+    "genderFa": "women and men. <b>Lorelei</b> was launched in 2021. The nose behind this fragrance is Bree Elliott. The fragrance features Aquatic notes, Wild Strawberry, Narcissus, Basil, Woodsy Notes and Algae",
+    "perfumerFa": "Bree Elliott",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arquiste/Sydney-Rock-Pool-53078.html",
+    "extractedAt": "2026-11-26T00:50:57.852Z",
+    "name": "Sydney Rock Pool",
+    "brand": "Arquiste",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Rodrigo Flores-Roux",
+    "topNotes": [
+      "Coconut",
+      "Mineral notes",
+      "Australian Sandalwood",
+      "Skin"
+    ],
+    "middleNotes": [
+      "Driftwood",
+      "Frangipani",
+      "Jasmine Sambac",
+      "Narcissus"
+    ],
+    "baseNotes": [
+      "Sea Salt",
+      "Ambertonic",
+      "Seaweed"
+    ],
+    "description": "\"The scent of warm skin after a swim in one Sydney’s famous rock pools, the addictive scent of an endless summer.\" (From the brand's website.)",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53078.jpg",
+    "rating": 3.84,
+    "ratingVotes": 649,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 80
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 77
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 65
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 53078,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sydney Rock Pool",
+    "brandFa": "Arquiste",
+    "nameFa": "Sydney Rock Pool",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Rodrigo Flores-Roux",
+    "topNotesFa": [
+      "نارگیل",
+      "Mineral notes",
+      "Australian Sandalwood",
+      "Skin"
+    ],
+    "middleNotesFa": [
+      "چوب شناور",
+      "Frangipani",
+      "Jasmine Sambac",
+      "نرگس"
+    ],
+    "baseNotesFa": [
+      "نمک دریا",
+      "Ambertonic",
+      "جلبک دریایی"
+    ],
+    "descriptionFa": "«رایحه پوست گرم پس از شنا در یکی از استخرهای صخره‌ای معروف سیدنی، رایحه اعتی‌آور یک تابستان بی‌پایان.» (از وب‌سایت برند.)",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Louis-Marie/No-04-Bois-de-Balincourt-27394.html",
+    "extractedAt": "2026-11-26T00:51:03.842Z",
+    "name": "No.04 Bois de Balincourt",
+    "brand": "Maison Louis Marie",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2014,
+    "perfumer": null,
+    "topNotes": [
+      "Sandalwood",
+      "Cedar"
+    ],
+    "middleNotes": [
+      "Vetiver",
+      "Nutmeg",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Amberwood"
+    ],
+    "description": "\"This scent is a sandalwood fragrance with a dominant cedarwood & sandalwood accord supplemented by a spicy cinnamon nutmeg complex with an earthy vetiver note. Direction to use: Use roll-on perfume oil any time you desire. Apply to pulse points (neck, chest and wrist), lightly rolling the ball on the skin to release the fragrance.\" Brand Website.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27394.jpg",
+    "rating": 3.97,
+    "ratingVotes": 1708,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 28
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 26
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 17
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 10
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 27394,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No.04 Bois de Balincourt",
+    "brandFa": "Maison Louis Marie",
+    "nameFa": "No.04 Bois de Balincourt",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "چوب صندل",
+      "سرو"
+    ],
+    "middleNotesFa": [
+      "وتیور",
+      "جوز هندی",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "«این عطر، عطر چوب صندل است که آکورد غالب آن چوب سدر و چوب صندل است و با ترکیبی تند از دارچین و جوز هندی و رایحه‌ای خاکی از وتیور تکمیل می‌شود. نحوه استفاده: هر زمان که خواستید از روغن عطر رولی استفاده کنید. روی نقاط نبض (گردن، سینه و مچ دست) بمالید و به آرامی توپ را روی پوست بچرخانید تا رایحه آزاد شود.» وب‌سایت برند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arabiyat-Prestige/Marwa-Extrait-142642.html",
+    "extractedAt": "2026-11-26T00:51:09.392Z",
+    "name": "Marwa Extrait",
+    "brand": "Arabiyat Prestige",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Ginger",
+      "Bergamot",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Floral Notes",
+      "Tea"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Musk",
+      "Guaiac Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142642.jpg",
+    "rating": 4.44,
+    "ratingVotes": 339,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 84
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 50
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 142642,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait",
+    "baseName": "Marwa",
+    "brandFa": "Arabiyat Prestige",
+    "nameFa": "Marwa Extrait",
+    "concentrationFa": "اکستره",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زنجبیل",
+      "برگاموت",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "Floral Notes",
+      "چای"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "موش",
+      "چوب گوئیک"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Frederic-Malle-Editions-de-Parfums/Portrait-of-a-Lady-10464.html",
+    "extractedAt": "2026-11-26T00:51:14.130Z",
+    "name": "Portrait of a Lady",
+    "brand": "Frederic Malle Editions de Parfums",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2010,
+    "perfumer": "Dominique Ropion",
+    "topNotes": [
+      "Rose",
+      "Clove",
+      "Raspberry",
+      "Black Currant",
+      "Cinnamon",
+      "Red Berries"
+    ],
+    "middleNotes": [
+      "Turkish Rose",
+      "Patchouli",
+      "Incense",
+      "Sandalwood",
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Incense",
+      "Sandalwood",
+      "Musk",
+      "Benzoin",
+      "Amber",
+      "Cedar",
+      "Ambergris",
+      "Vanilla"
+    ],
+    "description": "Frederic Malle is a true perfume connoisseur and creator of the Editions de Parfums niche” fragrances without compromise\" collection. His line consists of 19 amazing perfumes so far, all developed by, according to the Malle, the top ten noses of the world.</p> <p>The collection expands in November with a new edition named Portrait of a Lady, signed by the famous perfumer Dominique Ropion. Dominique Ropion created the following collection of fragrances: Vetiver Extraordinaire, Carnal Flower, Geranium Pour Monsieur and Une Fleur de Cassie.</p> <p>Portrait of a Lady is named after the novel by Henry James from the 1881. The perfume deals with rose note and spices in a new, modern way that varies between the oriental and chypre theme with patchouli, natural and intense, dominating the heart of the composition. Portrait of a Lady is a modern, elegant and unusual expression of the Victorian novel, its heroine, Isabel Archer, her fate and the quest for freedom. She smells of dark roses, mystical and intense.</p> <p>The notes of this sensual modern classic include Turkish rose, raspberry, black currant, cinnamon, clove, patchouli, sandalwood, incense, ambroxan, benzoin and white musk.</p> <p>Frederic Malle Portrait of a Lady is available in high concentration of perfume from over 50% in bottles of 50 and 100 ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10464.jpg",
+    "rating": 4.05,
+    "ratingVotes": 12375,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 78
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 49
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 47
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 46
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 10464,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Portrait of a Lady",
+    "brandFa": "Frederic Malle Editions de Parfums",
+    "nameFa": "Portrait of a Lady",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Dominique Ropion",
+    "topNotesFa": [
+      "گل رز",
+      "میخک",
+      "تمشک",
+      "توت سیاه",
+      "دارچین",
+      "Red Berries"
+    ],
+    "middleNotesFa": [
+      "گل رز ترکی",
+      "پچولی",
+      "عود بخور",
+      "چوب صندل",
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "عود بخور",
+      "چوب صندل",
+      "موش",
+      "بنزوئین",
+      "کهربا",
+      "سرو",
+      "کهربا خاکستری",
+      "وانیل"
+    ],
+    "descriptionFa": "فردریک مال یک کارشناس واقعی عطر و خالق مجموعه «عطرهای خاص بدون مصالحه» Editions de Parfums است. خط تولید او تاکنون شامل 19 عطر شگفت‌انگیز است که به گفته مال، همگی توسط ده نفر از بهترین متخصصان عطر در جهان ساخته شده‌اند.</p> <p>این مجموعه در ماه نوامبر با یک نسخه جدید به نام Portrait of a Lady، که توسط عطر‌ساز معروف دومینیک روپیون ساخته شده است، گسترش می‌یابد. دومینیک روپیون مجموعه عطرهای زیر را خلق کرده است",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fantome/Marya-Morevna-83611.html",
+    "extractedAt": "2026-11-26T00:51:19.162Z",
+    "name": "Marya Morevna",
+    "brand": "Fantôme",
+    "family": "Oriental Floral",
+    "gender": "women and men. The fragrance features Beetroot, Metallic notes, Musk, Lotus, Wild Orchid, Ambrette and Amber",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83611.jpg",
+    "rating": 3.92,
+    "ratingVotes": 25,
+    "accords": [
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 76
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 20
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 83611,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Marya Morevna",
+    "brandFa": "Fantôme",
+    "nameFa": "Marya Morevna",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. The fragrance features Beetroot, Metallic notes, Musk, Lotus, Wild Orchid, Ambrette and Amber",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zoologist-Perfumes/Hyrax-49269.html",
+    "extractedAt": "2026-11-26T00:51:23.744Z",
+    "name": "Hyrax",
+    "brand": "Zoologist Perfumes",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Sven Pritzkoleit",
+    "topNotes": [
+      "elemi",
+      "Saffron",
+      "Pink Pepper",
+      "Turkish Rose"
+    ],
+    "middleNotes": [
+      "Hyrax",
+      "Whiskey",
+      "Styrax",
+      "Hyacinth"
+    ],
+    "baseNotes": [
+      "Castoreum",
+      "Civet",
+      "Amber",
+      "Benzoin",
+      "Patchouli",
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "description": "\"Climbing to its perch in the morning sky, the African sun reaches across a mountain range to caress a wide, flat boulder, baking it to a gentle heat. From the shade of a narrow crevice, a family of hyrax emerges, hot dust dulling the sheen of their golden fur. They settle onto the warm expanse of rock to partake in their ritual sunbath, but remain ever vigilant. The shadow of a soaring eagle rushes across the ground. With an urgent squeal, the alarm is sounded - the colony dashes for cover. As the heat from sweltering sun intensifies, ancient aromas are coaxed from the scorched rocks, sparse vegetation and petrified hyraceum. Eerily, they intertwine to form a scent that is both primitive and exotic, its animalistic tendencies tamed by an undercurrent of sweet florals.</p> <p>At the heart of Zoologist Hyrax is a daring, seldom-used ingredient in the art of perfumery –– African stone, or hyraceum, giving this bold animalic scent its distinctive signature. This unique perfume skillfully blends saffron, pink pepper, whiskey, rose and musks to invoke an abstract image of a dusty African mountainscape. Like the nimble hyraxes that spill from hillside crevices in search of the sun upon their musky hides, this scent will weave its way into your senses with a light but primal touch.\" - Zoologist",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49269.jpg",
+    "rating": 3.17,
+    "ratingVotes": 1088,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 76
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 55
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 49269,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hyrax",
+    "brandFa": "Zoologist Perfumes",
+    "nameFa": "Hyrax",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sven Pritzkoleit",
+    "topNotesFa": [
+      "elemi",
+      "زعفران",
+      "فلفل صورتی",
+      "گل رز ترکی"
+    ],
+    "middleNotesFa": [
+      "Hyrax",
+      "ویسکی",
+      "استیراکس",
+      "هیاسینت"
+    ],
+    "baseNotesFa": [
+      "کاستوریوم",
+      "گربه سروتی",
+      "کهربا",
+      "بنزوئین",
+      "پچولی",
+      "چوب صندل",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "«خورشید آفریقا که به جایگاه خود در آسمان صبحگاهی بالا می‌رود، از فراز رشته‌کوهی به یک تخته‌سنگ پهن و صاف می‌تابد و آن را به آرامی گرم می‌کند. از سایه یک شکاف باریک، خانواده‌ای از حیوانات واریانی بیرون می‌آیند، گرد و غبار داغ، درخشش خز طلایی آنها را کم‌رنگ کرده است. آنها روی سطح وسیع و گرم صخره می‌نشینند تا در آیین حمام آفتاب خود شرکت کنند، اما همیشه هوشیار می‌مانند. سایه عقابی که در حال اوج‌گیری است، روی زمین می‌دود. با جیغی ناگهانی،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ahmed-Al-Maghribi/Garnet-137508.html",
+    "extractedAt": "2026-11-26T00:51:29.098Z",
+    "name": "Garnet",
+    "brand": "Ahmed Al Maghribi",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Leather"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Oud"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Musk"
+    ],
+    "description": "Garnet by Ahmed Al Maghribi is an Eau de Parfum structured around a contrast of aromatic lavender and leather in the opening. The heart combines rose, jasmine, and oud, while amber and musk in the base add warmth and softness to the composition.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137508.jpg",
+    "rating": 4.56,
+    "ratingVotes": 9,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 67
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 33
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 137508,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Garnet",
+    "brandFa": "Ahmed Al Maghribi",
+    "nameFa": "Garnet",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "چرم"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "عود"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "Garnet از برند احمد مغربی یک ادو پرفیوم است که ساختار آن بر اساس تضاد اسطوخودوس معطر و چرم در نت ابتدایی شکل گرفته است. در نت میانی، گل رز، یاس و عود با هم ترکیب شده‌اند، در حالی که عنبر و مشک در نت پایه، گرما و لطافت را به این ترکیب اضافه می‌کنند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
