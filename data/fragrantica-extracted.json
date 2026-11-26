@@ -99076,5 +99076,243 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Penhaligon-s/The-Omniscient-Mr-Thompson-84254.html",
+    "extractedAt": "2026-11-26T03:56:12.875Z",
+    "name": "The Omniscient Mr Thompson",
+    "brand": "Penhaligon's",
+    "family": null,
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "elemi",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Black Pepper",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sesame",
+      "Oak"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84254.jpg",
+    "rating": 4.16,
+    "ratingVotes": 1705,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 91
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 86
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 85
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 44
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 84254,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Omniscient Mr Thompson",
+    "brandFa": "پنهالیگونز",
+    "nameFa": "The Omniscient Mr Thompson",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "elemi",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "فلفل سیاه",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Sesame",
+      "Oak"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roja-Dove/Amber-Aoud-17931.html",
+    "extractedAt": "2026-11-26T03:56:16.911Z",
+    "name": "Amber Aoud",
+    "brand": "Roja Dove",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2012,
+    "perfumer": "Roja Dove",
+    "topNotes": [
+      "Bergamot",
+      "Lemon",
+      "Lime"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Fig",
+      "Ylang-Ylang",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Ambergris",
+      "Saffron",
+      "Civet",
+      "Sandalwood",
+      "Musk",
+      "Cinnamon",
+      "Orris Root",
+      "Patchouli",
+      "Oakmoss",
+      "Birch"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17931.jpg",
+    "rating": 4.38,
+    "ratingVotes": 1953,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 80
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 79
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 67
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      }
+    ],
+    "fragranticaId": 17931,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Amber Aoud",
+    "brandFa": "Roja Dove",
+    "nameFa": "Amber Aoud",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Roja Dove",
+    "topNotesFa": [
+      "برگاموت",
+      "لیمو",
+      "لیمو سبز"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "انجیر",
+      "ایلنگ‌ایلنگ",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "کهربا خاکستری",
+      "زعفران",
+      "گربه سروتی",
+      "چوب صندل",
+      "موش",
+      "دارچین",
+      "ریشه زنبق",
+      "پچولی",
+      "خزه بلوط",
+      "توس"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
