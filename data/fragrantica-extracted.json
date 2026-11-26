@@ -114225,5 +114225,1451 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Elizabeth-Taylor/Sparkling-White-Diamonds-1711.html",
+    "extractedAt": "2026-11-26T16:56:53.475Z",
+    "name": "Sparkling White Diamonds",
+    "brand": "Elizabeth Taylor",
+    "family": "Floral",
+    "gender": "women",
+    "year": 1999,
+    "perfumer": null,
+    "topNotes": [
+      "Lily",
+      "Gardenia",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Narcissus",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber",
+      "Woodsy Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1711.jpg",
+    "rating": 3.88,
+    "ratingVotes": 498,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 28
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 27
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 25
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 21
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 19
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 1711,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sparkling White Diamonds",
+    "brandFa": "Elizabeth Taylor",
+    "nameFa": "Sparkling White Diamonds",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "لاله",
+      "گاردنیا",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "نرگس",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا",
+      "Woodsy Notes"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Acqua-di-Parma/Buongiorno-Amore-Mio-128854.html",
+    "extractedAt": "2026-11-26T16:56:56.809Z",
+    "name": "Buongiorno Amore Mio",
+    "brand": "Acqua di Parma",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cotton Flower",
+      "Hedione",
+      "Orris"
+    ],
+    "baseNotes": [
+      "Ambrette",
+      "Musk",
+      "Ambroxan"
+    ],
+    "description": "Buongiorno Amore Mio by Acqua di Parma is a 2026 fragrance built around a fresh, airy, and softly textured composition. It opens with bergamot and aldehydes, moves into a heart of cotton accord, orris, and hedione, and settles into a musky base of ambrette, ambroxan, and musk. The scent is presented as an evocation of the beginning of a new day, combining brightness with a clean, comforting softness.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.128854.jpg",
+    "rating": 3.81,
+    "ratingVotes": 57,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 91
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 28
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 128854,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Buongiorno Amore Mio",
+    "brandFa": "آکوا دی پارما",
+    "nameFa": "Buongiorno Amore Mio",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Cotton Flower",
+      "Hedione",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "دانه ابرکفش",
+      "موش",
+      "آمبروکسان"
+    ],
+    "descriptionFa": "Buongiorno Amore Mio از برند Acqua di Parma یک عطر محصول سال 2026 است که بر اساس ترکیبی تازه، سبک و با بافتی ملایم ساخته شده است. این عطر با رایحه ترنج و آلدئیدها آغاز می‌شود، به رایحه میانی آکورد پنبه، زنبق و هدیون می‌رسد و در نهایت در رایحه پایه مشکی شامل آمبرت، آمبروکسان و مشک تثبیت می‌شود. این عطر به عنوان یادآور آغاز یک روز جدید معرفی می‌شود و درخشش را با لطافتی تمیز و آرامش‌بخش ترکیب می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diptyque/Oyedo-Eau-de-Toilette-3958.html",
+    "extractedAt": "2026-11-26T16:57:04.469Z",
+    "name": "Oyedo Eau de Toilette",
+    "brand": "Diptyque",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2000,
+    "perfumer": "Akiko Kamei",
+    "topNotes": [
+      "Mandarin Orange",
+      "Yuzu",
+      "Lemon",
+      "Lime"
+    ],
+    "middleNotes": [
+      "Thyme"
+    ],
+    "baseNotes": [
+      "Woodsy Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3958.jpg",
+    "rating": 3.79,
+    "ratingVotes": 2755,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 23
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 19
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 16
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 12
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 9
+      },
+      {
+        "nameEn": "bitter",
+        "nameFa": "تلخ",
+        "percent": 7
+      }
+    ],
+    "fragranticaId": 3958,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Toilette",
+    "baseName": "Oyedo",
+    "brandFa": "دیپتیک",
+    "nameFa": "Oyedo Eau de Toilette",
+    "concentrationFa": "ادو توالت",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Akiko Kamei",
+    "topNotesFa": [
+      "نارنگی",
+      "یوزو",
+      "لیمو",
+      "لیمو سبز"
+    ],
+    "middleNotesFa": [
+      "پونه‌سان"
+    ],
+    "baseNotesFa": [
+      "Woodsy Notes"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/Pink-Chiffon-77522.html",
+    "extractedAt": "2026-11-26T16:57:08.484Z",
+    "name": "Pink Chiffon",
+    "brand": "Bath & Body Works",
+    "family": "Floral",
+    "gender": "women. <b>Pink Chiffon</b> was launched in 2012. The fragrance features Pear, Vanilla Orchid, Musk, Tiare Flower and Jasmine",
+    "year": 2012,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77522.jpg",
+    "rating": 4.23,
+    "ratingVotes": 274,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 93
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 79
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 56
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 77522,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pink Chiffon",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "Pink Chiffon",
+    "familyFa": "گلی",
+    "genderFa": "women. <b>Pink Chiffon</b> was launched in 2012. The fragrance features Pear, Vanilla Orchid, Musk, Tiare Flower and Jasmine",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Frederic-Malle-Editions-de-Parfums/Promise-47332.html",
+    "extractedAt": "2026-11-26T16:57:12.575Z",
+    "name": "Promise",
+    "brand": "Frederic Malle Editions de Parfums",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Dominique Ropion",
+    "topNotes": [
+      "Apple",
+      "Pink Pepper",
+      "Rosemary",
+      "Saffron",
+      "Cloves"
+    ],
+    "middleNotes": [
+      "Bulgarian Rose",
+      "Turkish Rose"
+    ],
+    "baseNotes": [
+      "Cypriol Oil or Nagarmotha",
+      "Patchouli",
+      "Castoreum",
+      "Labdanum",
+      "Ambroxan"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47332.jpg",
+    "rating": 4.19,
+    "ratingVotes": 3793,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 55
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 47
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 35
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 47332,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Promise",
+    "brandFa": "Frederic Malle Editions de Parfums",
+    "nameFa": "Promise",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Dominique Ropion",
+    "topNotesFa": [
+      "سیب",
+      "فلفل صورتی",
+      "رزماری",
+      "زعفران",
+      "Cloves"
+    ],
+    "middleNotesFa": [
+      "گل رز بلغاری",
+      "گل رز ترکی"
+    ],
+    "baseNotesFa": [
+      "Cypriol Oil or Nagarmotha",
+      "پچولی",
+      "کاستوریوم",
+      "لابدانوم",
+      "آمبروکسان"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arabian-Oud/Najd-127631.html",
+    "extractedAt": "2026-11-26T16:57:16.886Z",
+    "name": "Najd",
+    "brand": "Arabian Oud",
+    "family": "Oriental Floral",
+    "gender": "women and men. Top note is Saffron; middle notes are Cedarwood and Rose; base note is Oud",
+    "topNotes": [
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Cedarwood",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Oud"
+    ],
+    "description": "Najd by Arabian Oud is a unisex fragrance that combines floral and woody-oud facets with an animalic nuance. It opens with saffron, leading into a heart where cedarwood and rose are prominent, set on a base of oud. The composition reflects a classic Middle Eastern-style structure built around rose and oud, with saffron adding warmth and spice and cedarwood lending a dry, woody backbone. Users describe the scent as floral-animalic with above-average projection and longevity.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.127631.jpg",
+    "rating": 4.5,
+    "ratingVotes": 12,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 25
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 127631,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Najd",
+    "brandFa": "Arabian Oud",
+    "nameFa": "Najd",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. Top note is Saffron; middle notes are Cedarwood and Rose; base note is Oud",
+    "topNotesFa": [
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "چوب سرو",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "عود"
+    ],
+    "descriptionFa": "Najd از برند Arabian Oud یک عطر یونیسکس است که ترکیبی از جنبه‌های گلی و چوبی-عود با یک ظرافت حیوانی است. این عطر با رایحه زعفران آغاز می‌شود و به رایحه میانی می‌رسد که در آن چوب سدر و گل رز برجسته هستند و بر پایه عود قرار گرفته‌اند. این ترکیب ساختاری کلاسیک به سبک خاورمیانه را نشان می‌دهد که بر پایه گل رز و عود ساخته شده است، زعفران گرما و تندی به آن می‌افکند و چوب سدر اسکلتی خشک و چوبی به آن می‌بخشد. کاربران این رایحه را گل‌فام-حیوانی با ماندگاری بالاتر از حد متوسط توصیف می‌کنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Xerjoff/White-On-White-85263.html",
+    "extractedAt": "2026-11-26T16:57:23.135Z",
+    "name": "White On White",
+    "brand": "Xerjoff",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Fig",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Tolu Balsam",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk",
+      "Vanilla",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85263.jpg",
+    "rating": 4,
+    "ratingVotes": 187,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 78
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 35
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 85263,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "White On White",
+    "brandFa": "زروجف",
+    "nameFa": "White On White",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "انجیر",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "بلسام تولو",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش",
+      "وانیل",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Odyssey-Nexus-138751.html",
+    "extractedAt": "2026-11-26T16:57:27.601Z",
+    "name": "Odyssey Nexus",
+    "brand": "Armaf",
+    "family": "Aromatic Aquatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Sea Notes",
+      "Bergamot",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Rosemary",
+      "Sage",
+      "Ginger",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Frankincense",
+      "Woodsy Notes",
+      "Balsamic Notes"
+    ],
+    "description": "Engineered to redefine the senses, <strong>Odyssey Nexus</strong> unfolds through an advanced olfactive network where aromatic freshness and aquatic energy move in perfect harmony. Conceived as a fragrance inspired by connectivity and innovation, it translates a modern sensory architecture into an immersive olfactory experience.</p> <p>The composition opens with an electric burst of bergamot, mandarin, and marine notes, creating an immediate impression of vibrant energy and crystalline freshness. This luminous introduction seamlessly connects to an aromatic heart, where sage, rosemary, ginger, and geranium bring depth, vitality, and refined sophistication.</p> <p>Fresh citrus brightness flows effortlessly through herbal and spicy accords, creating a dynamic composition that feels both invigorating and contemporary. The result is a fragrance that radiates confidence and momentum, leaving a distinctive, long-lasting presence that resonates long after the first impression.</p> <p>The bottle presents a compact cylindrical silhouette topped with a matte black cap, balancing industrial precision with contemporary elegance. A distinctive rectangular side loop adds both character and functionality, while a black strap wraps around the upper body, secured by a circular rivet and embossed with the <strong>Odyssey</strong> signature.</p> <p>Its textured finish blends steel blue, silver-white, and black, creating a sleek, technical aesthetic that reflects the fragrance's modern identity. The <strong>Nexus</strong> logo appears in crisp white on the front, completing the clean, graphic design.</p> <p>Echoing the bottle, the outer packaging features the same textured steel blue, silver-white, and black palette. The <strong>Odyssey Nexus</strong> logo is positioned at the centre, while the outline of the bottle's signature side loop extends along one side of the box, reinforcing the collection's distinctive visual language and creating a seamless connection between bottle and packaging.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138751.jpg",
+    "rating": 4.44,
+    "ratingVotes": 179,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 28
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 26
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 138751,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Odyssey Nexus",
+    "brandFa": "Armaf",
+    "nameFa": "Odyssey Nexus",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Sea Notes",
+      "برگاموت",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "رزماری",
+      "مریم‌گلی",
+      "زنجبیل",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "کندر",
+      "Woodsy Notes",
+      "نت‌های بلسامی"
+    ],
+    "descriptionFa": "<strong>Odyssey Nexus</strong> که برای بازتعریف حواس طراحی شده است، از طریق یک شبکه بویایی پیشرفته آشکار می‌شود که در آن طراوت معطر و انرژی دریایی در هماهنگی کامل با هم حرکت می‌کنند. این عطر که با الهام از ارتباطات و نوآوری طراحی شده است، ساختار حسی مدرن را به یک تجربه بویایی فراگیر تبدیل می‌کند.</p> <p>این ترکیب با انفجاری پرانرژی از رایحه‌های ترنج، نارنگی و نت‌های دریایی آغاز می‌شود و تأثیری آنی ایجاد می‌کند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/House-of-BO/Casa-Blanca-92545.html",
+    "extractedAt": "2026-11-26T16:57:33.158Z",
+    "name": "Casa Blanca",
+    "brand": "House of BŌ",
+    "family": "Aromatic Fruity",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Frank Voelkl",
+    "topNotes": [
+      "White Tea",
+      "Mineral notes",
+      "Labdanum"
+    ],
+    "middleNotes": [
+      "Fig",
+      "White Suede",
+      "Copal"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Bourbon Vanilla",
+      "Oud"
+    ],
+    "description": "“Enter a white temple nestled within a coastal field of Fig trees and immerse yourself in a <em>puriFIGating</em> journey of understated sophistication that inspires the curious mind.” — Bernardo Möller<br /> <br /> Creamy Minerals, White Tea, Labdanum<br /> Copal Blanco, Desert Fig, White Suede<br /> Tobacco, White Oud, Vanilla Bourbon",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92545.jpg",
+    "rating": 4.12,
+    "ratingVotes": 620,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 86
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 85
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 80
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 57
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 52
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 92545,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Casa Blanca",
+    "brandFa": "House of BŌ",
+    "nameFa": "Casa Blanca",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Frank Voelkl",
+    "topNotesFa": [
+      "White Tea",
+      "Mineral notes",
+      "لابدانوم"
+    ],
+    "middleNotesFa": [
+      "انجیر",
+      "White Suede",
+      "کوپال"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "وانیل بوربن",
+      "عود"
+    ],
+    "descriptionFa": "«وارد معبدی سفید شوید که در میان دشتی ساحلی از درختان انجیر قرار گرفته است و خود را در سفری <em>پاک‌کننده</em> با ظرافتی بی‌تکلف غوطه‌ور کنید که ذهن کنجکاو را برمی‌انگیزد.» — برناردو مولر<br /> <br /> مواد معدنی کرمی، چای سفید، لادن<br /> کوپال بلانکو، انجیر صحرایی، جیر سفید<br /> تنباکو، عود سفید، وانیل بوربون",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rabanne/1-Million-Royal-79159.html",
+    "extractedAt": "2026-11-26T16:57:38.809Z",
+    "name": "1 Million Royal",
+    "brand": "Rabanne",
+    "family": "Oriental Woody",
+    "gender": "men. <b>1 Million Royal</b> was launched in 2023. 1 Million Royal was created by Quentin Bisch and Christophe Raynaud. Top notes are Cardamom, Tangerine and Bergamot; middle notes are Lavender, Sage and Violet Leaf; base notes are Benzoin, Cedar and Patchouli",
+    "year": 2023,
+    "perfumer": "Quentin Bisch and Christophe Raynaud",
+    "topNotes": [
+      "Cardamom",
+      "Tangerine",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Sage",
+      "Violet Leaf"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Cedar",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79159.jpg",
+    "rating": 4.28,
+    "ratingVotes": 3342,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 72
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 44
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 27
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 79159,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "1 Million Royal",
+    "brandFa": "Rabanne",
+    "nameFa": "1 Million Royal",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "men. <b>1 Million Royal</b> was launched in 2023. 1 Million Royal was created by Quentin Bisch and Christophe Raynaud. Top notes are Cardamom, Tangerine and Bergamot; middle notes are Lavender, Sage and Violet Leaf; base notes are Benzoin, Cedar and Patchouli",
+    "perfumerFa": "Quentin Bisch and Christophe Raynaud",
+    "topNotesFa": [
+      "هل",
+      "تانجرین",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "برگ بنفشه"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "سرو",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Black-Opium-Over-Red-88707.html",
+    "extractedAt": "2026-11-26T16:57:42.213Z",
+    "name": "Black Opium Over Red",
+    "brand": "Yves Saint Laurent",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": "Honorine Blanc, Nathalie Lorson, Marie Salamagne and Olivier Cresp",
+    "topNotes": [
+      "Cherry",
+      "Green Mandarin"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Black Tea"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Coffee",
+      "Indonesian Patchouli Leaf"
+    ],
+    "description": "Black Opium OVER RED invites you to experiment with \"the OVER RED rush\". \"A quest for experimental pleasure, highly disruptive, profoundly artistic, and excessively fragrant. A climax in true euphoria.\" The fragrance unites Black Opium's classic signature with a new contrast for additional excitement. </p> <p>Top notes: cherry, green mandarin<br /> Heart: Moroccan Ourika® jasmine, orange blossom absolute, black tea<br /> Base: coffee, Indonesian patchouli, Madagascar vanilla</p> <p>Black Opium Eau de Parfum Over Red is available in bottle of 30ml, 50ml, and 90ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88707.jpg",
+    "rating": 4.25,
+    "ratingVotes": 6354,
+    "accords": [
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 94
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 69
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 88707,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Opium Over Red",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Black Opium Over Red",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Honorine Blanc, Nathalie Lorson, Marie Salamagne and Olivier Cresp",
+    "topNotesFa": [
+      "گیلاس",
+      "Green Mandarin"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل پرتقال",
+      "چای سیاه"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "قهوه",
+      "Indonesian Patchouli Leaf"
+    ],
+    "descriptionFa": "Black Opium OVER RED شما را دعوت می‌کند تا «هیجان OVER RED» را تجربه کنید. «جستجویی برای لذت تجربی، بسیار متمایز، عمیقاً هنری و فوق‌العاده معطر. نقطه اوج در سرخوشی واقعی.» این عطر امضای کلاسیک Black Opium را با تضاد جدیدی ترکیب می‌کند تا هیجان بیشتری ایجاد کند. </p> <p>نت‌های اولیه: گیلاس، نارنگی سبز<br /> نت میانی: یاس Ourika® مراکشی، عصاره خالص شکوفه پرتقال، چای سیاه<br /> نت پایه: قهوه، اندونزیایی",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Calvin-Klein/Obsession-for-Men-249.html",
+    "extractedAt": "2026-11-26T16:57:46.867Z",
+    "name": "Obsession for Men",
+    "brand": "Calvin Klein",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 1986,
+    "perfumer": "Robert Slattery",
+    "topNotes": [
+      "Cinnamon",
+      "Lavender",
+      "Coriander",
+      "Mandarin Orange",
+      "Lime",
+      "Bergamot",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Myrhh",
+      "Nutmeg",
+      "Carnation",
+      "Brazilian Rosewood",
+      "Pine Tree",
+      "Sage",
+      "Jasmine",
+      "Red Berries"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Sandalwood",
+      "Musk",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "A fresh citrus explosion at the top notes (tangerine, grapefruit, lime and bergamot) is harmonized with a floral sharpness of lavender, nut, spiced notes of coriander and warm cinnamon. Carnation (along with jasmine, rose tree and pine) is restrained with warm patchouli, sandalwood, vetiver, benzoin, vanilla and amber. Subtle aroma of red berries enforces the structure, adding sensuousness and characteristic to the perfume. The creator of this fragrance is Bob Slattery, and the bottle designer is Pierre Dinand. Obsession for Men was launched in 1986, a year after the female version. This fragrance pair belongs to one of the most popular ones in the 80s. In 2005, their nighttime heir was presented: Obsession Night. Obsession for Men is the 1987 FiFi award winner. See the article about Calvin Klein on fragrantica.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.249.jpg",
+    "rating": 3.85,
+    "ratingVotes": 6774,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 72
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 72
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 249,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Obsession for Men",
+    "brandFa": "کلوین کلین",
+    "nameFa": "Obsession for Men",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Robert Slattery",
+    "topNotesFa": [
+      "دارچین",
+      "اسطوخودوس",
+      "گشنیز",
+      "نارنگی",
+      "لیمو سبز",
+      "برگاموت",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "Myrhh",
+      "جوز هندی",
+      "میخک",
+      "Brazilian Rosewood",
+      "Pine Tree",
+      "مریم‌گلی",
+      "یاسمن",
+      "Red Berries"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "چوب صندل",
+      "موش",
+      "پچولی",
+      "وتیور"
+    ],
+    "descriptionFa": "ترکیب انفجاری مرکبات تازه در نت‌های اولیه (نارنگی، گریپ‌فروت، لیمو و ترنج) با طراوت گل‌های اسطوخودوس، رایحه آجیل، نت‌های تند گشنیز و دارچین گرم هماهنگ شده است. میخک (همراه با یاس، درخت گل رز و کاج) با رایحه گرم نعناع هندی، چوب صندل، خس‌خس، بنزوئین، وانیل و عنبر تعدیل می‌شود. رایحه ملایم توت‌های قرمز ساختار عطر را تقویت کرده و حسی دلپذیر و ویژگی خاصی به آن می‌بخشد. سازنده این عطر",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Khadlaj-Perfumes/Island-Sun-139991.html",
+    "extractedAt": "2026-11-26T16:57:52.441Z",
+    "name": "Island Sun",
+    "brand": "Khadlaj Perfumes",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lime",
+      "Mango",
+      "Coconut",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Pink Pepper",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Musk",
+      "Precious Woods"
+    ],
+    "description": "Island Sun by Khadlaj is a fruity-floral fragrance built around a bright tropical opening. Mango and coconut are paired with lime and lemon for a sunny introduction, followed by pink pepper, jasmine, and orange blossom in the heart. The base combines musk, tonka bean, and precious woods, giving the composition a soft and warm finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139991.jpg",
+    "rating": 4,
+    "ratingVotes": 124,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 78
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 139991,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Island Sun",
+    "brandFa": "Khadlaj Perfumes",
+    "nameFa": "Island Sun",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "لیمو سبز",
+      "مانگو",
+      "نارگیل",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "فلفل صورتی",
+      "گل پرتقال",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "موش",
+      "Precious Woods"
+    ],
+    "descriptionFa": "Island Sun از برند Khadlaj یک عطر میوه‌ای-گل‌دار است که بر اساس یک نت ابتدایی گرمسیری شاداب ساخته شده است. انبه و نارگیل با لیموترش و لیمو ترکیب می‌شوند تا مقدمه‌ای آفتابی ایجاد کنند، سپس فلفل صورتی، یاس و شکوفه پرتقال در نت میانی قرار می‌گیرند. در رایحه پایه، مشک، دانه‌ی تونکا و چوب‌های معطر با هم ترکیب شده‌اند و به این ترکیب رایحه‌ای ملایم و گرم می‌بخشند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
