@@ -118615,5 +118615,2847 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Savana-148864.html",
+    "extractedAt": "2026-11-26T19:54:47.844Z",
+    "name": "Savana",
+    "brand": "Lucce Parfums",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "Geranium",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Patchouli",
+      "Cinnamon",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Agarwood (Oud)",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148864.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 63
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 39
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 39
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 39
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 148864,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Savana",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Savana",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "هل",
+      "گل جعفری",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "پچولی",
+      "دارچین",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "Agarwood (Oud)",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Jazz-148863.html",
+    "extractedAt": "2026-11-26T19:54:52.368Z",
+    "name": "Jazz",
+    "brand": "Lucce Parfums",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Rum",
+      "Java vetiver oil",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Tobacco Leaf",
+      "Vanilla",
+      "Styrax"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148863.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 73
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 49
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 148863,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jazz",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Jazz",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "نرولی",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "رام",
+      "Java vetiver oil",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "برگ تنباکو",
+      "وانیل",
+      "استیراکس"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/NYC-Woman-148862.html",
+    "extractedAt": "2026-11-26T19:54:57.400Z",
+    "name": "NYC Woman",
+    "brand": "Lucce Parfums",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Orange Blossom",
+      "Cactus Flower",
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Lily",
+      "Freesia",
+      "Gardenia",
+      "Jasmine",
+      "Camellia",
+      "Lily of the Valley",
+      "Rose",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148862.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 74
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 34
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 31
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 148862,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "NYC Woman",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "NYC Woman",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گل پرتقال",
+      "Cactus Flower",
+      "برگاموت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "لاله",
+      "فریزیا",
+      "گاردنیا",
+      "یاسمن",
+      "Camellia",
+      "لاله سفید",
+      "گل رز",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Crown-148861.html",
+    "extractedAt": "2026-11-26T19:55:01.983Z",
+    "name": "Crown",
+    "brand": "Lucce Parfums",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Pink Pepper",
+      "Saffron",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Vanilla",
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Olibanum",
+      "Patchouli",
+      "Cashmeran"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148861.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 92
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148861,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Crown",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Crown",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "زعفران",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "وانیل",
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "کندر",
+      "پچولی",
+      "کشماران"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/NYC-Night-148860.html",
+    "extractedAt": "2026-11-26T19:55:06.624Z",
+    "name": "NYC Night",
+    "brand": "Lucce Parfums",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Wormwood",
+      "Anise",
+      "Fennel"
+    ],
+    "middleNotes": [
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Black Vanilla Husk",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148860.jpg",
+    "accords": [
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "anis",
+        "nameFa": "anis",
+        "percent": 88
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 81
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 63
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 148860,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "NYC Night",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "NYC Night",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "افسنتین",
+      "انیسون",
+      "رازیانه"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "Black Vanilla Husk",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Vibration-148859.html",
+    "extractedAt": "2026-11-26T19:55:10.687Z",
+    "name": "Vibration",
+    "brand": "Lucce Parfums",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Mandarin Orange",
+      "Ginger",
+      "Rosemary"
+    ],
+    "middleNotes": [
+      "Magnolia",
+      "Damask Rose",
+      "Precious Woods"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Patchouli",
+      "Indian Sandalwood",
+      "Musk",
+      "Crystal Amber",
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148859.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 79
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 66
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 27
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148859,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vibration",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Vibration",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "نارنگی",
+      "زنجبیل",
+      "رزماری"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "گل رز دمشقی",
+      "Precious Woods"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "پچولی",
+      "Indian Sandalwood",
+      "موش",
+      "Crystal Amber",
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Alexander-148858.html",
+    "extractedAt": "2026-11-26T19:55:14.157Z",
+    "name": "Alexander",
+    "brand": "Lucce Parfums",
+    "family": "Woody Aquatic",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Sea Notes",
+      "Grapefruit",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148858.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 60
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 55
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148858,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alexander",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Alexander",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Sea Notes",
+      "گریپ‌فروت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "برگ غار",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "چوب گوئیک",
+      "خزه بلوط",
+      "پچولی"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Castanez-Parfums/Electra-148857.html",
+    "extractedAt": "2026-11-26T19:55:18.666Z",
+    "name": "Electra",
+    "brand": "Castanez Parfums",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "José Castanez",
+    "topNotes": [
+      "Mango",
+      "Bergamot",
+      "Sichuan Pepper",
+      "Davana"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Bulgarian Rose",
+      "Saffron"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Indian Oud",
+      "Indonesian Oud",
+      "Vanilla",
+      "Sandalwood",
+      "Ambergris",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148857.jpg",
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 90
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 65
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      }
+    ],
+    "fragranticaId": 148857,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Electra",
+    "brandFa": "Castanez Parfums",
+    "nameFa": "Electra",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "José Castanez",
+    "topNotesFa": [
+      "مانگو",
+      "برگاموت",
+      "فلفل سیچوان",
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "گل رز بلغاری",
+      "زعفران"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "Indian Oud",
+      "Indonesian Oud",
+      "وانیل",
+      "چوب صندل",
+      "کهربا خاکستری",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Amber-Pure-148856.html",
+    "extractedAt": "2026-11-26T19:55:21.799Z",
+    "name": "Amber Pure",
+    "brand": "Lucce Parfums",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Sicilian Orange",
+      "Calabrian bergamot",
+      "Sicilian Lemon"
+    ],
+    "middleNotes": [
+      "Fruity Notes"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Madagascar Vanilla",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148856.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 148856,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Amber Pure",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Amber Pure",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Sicilian Orange",
+      "Calabrian bergamot",
+      "Sicilian Lemon"
+    ],
+    "middleNotesFa": [
+      "Fruity Notes"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "وانیل ماداگاسکار",
+      "کهربا"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lucce-Parfums/Madame-148855.html",
+    "extractedAt": "2026-11-26T19:55:26.571Z",
+    "name": "Madame",
+    "brand": "Lucce Parfums",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Orange",
+      "Mandarin Orange",
+      "Bergamot",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Turkish Rose",
+      "Jasmine",
+      "Mimosa",
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "White Musk",
+      "Vanilla",
+      "Vetiver",
+      "Tonka Bean",
+      "Opoponax"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148855.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 76
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 56
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 54
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 148855,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Madame",
+    "brandFa": "Lucce Parfums",
+    "nameFa": "Madame",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "پرتقال",
+      "نارنگی",
+      "برگاموت",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "گل رز ترکی",
+      "یاسمن",
+      "میموزا",
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "موش سفید",
+      "وانیل",
+      "وتیور",
+      "لوبیا تونکا",
+      "اوپوپناکس"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Castanez-Parfums/Falling-into-Neptune-148854.html",
+    "extractedAt": "2026-11-26T19:55:30.807Z",
+    "name": "Falling into Neptune",
+    "brand": "Castanez Parfums",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "José Castanez",
+    "topNotes": [
+      "Grapefruit",
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Marine notes",
+      "Ozonic notes",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Oud",
+      "Oakmoss",
+      "Patchouli",
+      "Vetiver",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148854.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 84
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 34
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 32
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 32
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148854,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Falling into Neptune",
+    "brandFa": "Castanez Parfums",
+    "nameFa": "Falling into Neptune",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "José Castanez",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "Marine notes",
+      "Ozonic notes",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "عود",
+      "خزه بلوط",
+      "پچولی",
+      "وتیور",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Santiago-David-Parfums/Primer-Beso-148853.html",
+    "extractedAt": "2026-11-26T19:55:34.955Z",
+    "name": "Primer Beso",
+    "brand": "Santiago David Parfums",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "David Santiago",
+    "topNotes": [
+      "Grapes",
+      "Raspberry"
+    ],
+    "middleNotes": [
+      "Woody Notes",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Strawberry"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148853.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 34
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 14
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 148853,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Primer Beso",
+    "brandFa": "Santiago David Parfums",
+    "nameFa": "Primer Beso",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "David Santiago",
+    "topNotesFa": [
+      "Grapes",
+      "تمشک"
+    ],
+    "middleNotesFa": [
+      "Woody Notes",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "توت‌فرنگی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Santiago-David-Parfums/Lazaro-148852.html",
+    "extractedAt": "2026-11-26T19:55:39.874Z",
+    "name": "Lázaro",
+    "brand": "Santiago David Parfums",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "David Santiago",
+    "topNotes": [
+      "Cinnamon",
+      "Pebbles"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Agarwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148852.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 49
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 49
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 148852,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lázaro",
+    "brandFa": "Santiago David Parfums",
+    "nameFa": "Lázaro",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "David Santiago",
+    "topNotesFa": [
+      "دارچین",
+      "Pebbles"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "عود"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Scent-br/Vanilla-Aura-148851.html",
+    "extractedAt": "2026-11-26T19:55:44.807Z",
+    "name": "Vanilla Aura",
+    "brand": "Scent.br",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Rum"
+    ],
+    "middleNotes": [
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Vanilla Caviar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148851.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 50
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 40
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 25
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 148851,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Aura",
+    "brandFa": "Scent.br",
+    "nameFa": "Vanilla Aura",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "رام"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "Vanilla Caviar"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Balenciaga/Twenty-Four-Seven-115076.html",
+    "extractedAt": "2026-11-26T19:55:48.373Z",
+    "name": "Twenty Four Seven",
+    "brand": "Balenciaga",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Twenty Four Seven</b> was launched in 2025. The fragrance features Vanilla Absolute, Musk and Amber",
+    "year": 2025,
+    "description": "Twenty Four Seven is described as an oasis of tranquility that envelops the wearer in a vanillic-woody cocoon. This fragrance is designed as a scent for every hour that distorts time, disconnecting from the fast pace of life and reconnecting to the inner self. It features a maximalist synthesis of rich, irresistible vanilla absolute, intensified by the blazing power of a combination of amber and incandescent musks. The fragrance has been characterized as the 'white T-shirt of fragrance' - warm, woody, subtly sweet, and offering comfort like a reassuring second skin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115076.jpg",
+    "rating": 3.77,
+    "ratingVotes": 116,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 74
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 27
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 22
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 15
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 115076,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Twenty Four Seven",
+    "brandFa": "Balenciaga",
+    "nameFa": "Twenty Four Seven",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Twenty Four Seven</b> was launched in 2025. The fragrance features Vanilla Absolute, Musk and Amber",
+    "descriptionFa": "Twenty Four Seven به عنوان واحه آرامشی توصیف می‌شود که فرد استفاده‌کننده را در پیله‌ای با رایحه وانیل و چوب فرو می‌برد. این عطر به عنوان عطری برای هر ساعت طراحی شده است که زمان را مخدوش می‌کند، از سرعت بالای زندگی جدا می‌شود و دوباره با درون فرد ارتباط برقرار می‌کند. این عطر ترکیبی ماکسیمالیستی از عصاره غلیظ و مقاومت‌ناپذیر وانیل است که با قدرت خیره‌کننده ترکیب عنبر و مشک‌های درخشان تقویت شده است. این عطر دارای ویژگی‌های زیر است",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html",
+    "extractedAt": "2026-11-26T19:55:55.406Z",
+    "name": "L’Homme Idéal Eau de Parfum",
+    "brand": "Guerlain",
+    "family": "Oriental Woody",
+    "gender": "men. <b>L’Homme Idéal Eau de Parfum</b> was launched in 2016. L’Homme Idéal Eau de Parfum was created by Thierry Wasser and Delphine Jelk. Top notes are Almond, Spices, Lavender, Bergamot, Rosemary and Thyme; middle notes are Cherry, Vanilla, Incense and Bulgarian Rose; base notes are Tonka Bean, Leather and Sandalwood",
+    "year": 2016,
+    "perfumer": "Thierry Wasser and Delphine Jelk",
+    "topNotes": [
+      "Almond",
+      "Spices",
+      "Lavender",
+      "Bergamot",
+      "Rosemary",
+      "Thyme"
+    ],
+    "middleNotes": [
+      "Cherry",
+      "Vanilla",
+      "Incense",
+      "Bulgarian Rose"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Leather",
+      "Sandalwood"
+    ],
+    "description": "Guerlain launched L'Homme Ideal fragrance in 2014.The first reinterpretation called L'Homme Ideal Cologne was introduced in spring 2015 as its invigorating and lighter version. The third flanker, announced as more intense, more sensual and mysterious, L'Homme Idéal Eau de Parfum, comes out in April 2016.</p> <p>The new fragrance is developed by the Guerlain in-house perfumer Thierry Wasser along with colleague Delphine Jelk. The composition is a woody-oriental, focusing on the almond note covered with leather and Guerlinade vanilla. The opening notes include bergamot, spices and almond. Turkish rose, incense and vanilla are in the heart, while the base consists of sandalwood, leather and tonka.</p> <p>The bottle retains its original form, colored in a soft amber shade with the logo letters in bright orange. The fragrance is available as a 50 and a 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37735.jpg",
+    "rating": 4.44,
+    "ratingVotes": 10750,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 90
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 87
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 85
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 65
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 54
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 53
+      }
+    ],
+    "fragranticaId": 37735,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "L’Homme Idéal",
+    "brandFa": "گرلن",
+    "nameFa": "L’Homme Idéal Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "men. <b>L’Homme Idéal Eau de Parfum</b> was launched in 2016. L’Homme Idéal Eau de Parfum was created by Thierry Wasser and Delphine Jelk. Top notes are Almond, Spices, Lavender, Bergamot, Rosemary and Thyme; middle notes are Cherry, Vanilla, Incense and Bulgarian Rose; base notes are Tonka Bean, Leather and Sandalwood",
+    "perfumerFa": "Thierry Wasser and Delphine Jelk",
+    "topNotesFa": [
+      "بادام",
+      "Spices",
+      "اسطوخودوس",
+      "برگاموت",
+      "رزماری",
+      "پونه‌سان"
+    ],
+    "middleNotesFa": [
+      "گیلاس",
+      "وانیل",
+      "عود بخور",
+      "گل رز بلغاری"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چرم",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Guerlain عطر L'Homme Ideal را در سال 2014 عرضه کرد. اولین نسخه بازتفسیر شده آن با نام L'Homme Ideal Cologne در بهار 2015 به عنوان نسخه‌ای نشاط‌بخش و سبک‌تر معرفی شد. سومین نسخه، که به عنوان نسخه‌ای شدیدتر، شهوانی‌تر و مرموزتر معرفی شد، یعنی L'Homme Idéal Eau de Parfum، در آوریل 2016 عرضه شد.</p> <p>این عطر جدید توسط تیری واسر، عطرساز داخلی گرلن، به همراه همکارش دلفین جلک ساخته شده است. ترکیب این عطر عبارت است از",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zaharoff/Signature-Pour-Homme-56744.html",
+    "extractedAt": "2026-11-26T19:56:00.378Z",
+    "name": "Signature Pour Homme",
+    "brand": "Zaharoff",
+    "family": "Woody Aromatic",
+    "gender": "men. <b>Signature Pour Homme</b> was launched in 2018. The nose behind this fragrance is Claude Dir. The fragrance features Lavender, Myrrh, Incense, Sandalwood, Agarwood (Oud), Cypress, Black Pepper, Patchouli, Vanilla, Vetiver, Bulgarian Rose and Jasmine",
+    "year": 2018,
+    "perfumer": "Cla",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56744.jpg",
+    "rating": 4.4,
+    "ratingVotes": 684,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 94
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 80
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 78
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 65
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 62
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 56744,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Signature Pour Homme",
+    "brandFa": "Zaharoff",
+    "nameFa": "Signature Pour Homme",
+    "familyFa": "چوبی معطر",
+    "genderFa": "men. <b>Signature Pour Homme</b> was launched in 2018. The nose behind this fragrance is Claude Dir. The fragrance features Lavender, Myrrh, Incense, Sandalwood, Agarwood (Oud), Cypress, Black Pepper, Patchouli, Vanilla, Vetiver, Bulgarian Rose and Jasmine",
+    "perfumerFa": "Cla",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Qissa-Delicious-98552.html",
+    "extractedAt": "2026-11-26T19:56:04.265Z",
+    "name": "Qissa Delicious",
+    "brand": "PARIS CORNER",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Whipped Cream",
+      "Dark Chocolate",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Marshmallow",
+      "Coconut",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98552.jpg",
+    "rating": 4.07,
+    "ratingVotes": 1266,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 68
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 30
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 27
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 25
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 21
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 98552,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Qissa Delicious",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Qissa Delicious",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "خامه زده",
+      "Dark Chocolate",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "مارشمالو",
+      "نارگیل",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش سفید"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Si-Passione-48002.html",
+    "extractedAt": "2026-11-26T19:56:07.929Z",
+    "name": "Sì Passione",
+    "brand": "Giorgio Armani",
+    "family": "Floral Fruity",
+    "gender": "women. <b>Sì Passione</b> was launched in 2017. Sì Passione was created by Christine Nagel and Julie Massé. Top notes are Pear, Black Currant, Pink Pepper and Grapefruit; middle notes are Pineapple, Rose, Jasmine and Heliotrope; base notes are Vanilla, Cedar, Patchouli and Amberwood",
+    "year": 2017,
+    "perfumer": "Christine Nagel and Julie Massé",
+    "topNotes": [
+      "Pear",
+      "Black Currant",
+      "Pink Pepper",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Pineapple",
+      "Rose",
+      "Jasmine",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cedar",
+      "Patchouli",
+      "Amberwood"
+    ],
+    "description": "In December 2017, Armani launches a new edition of Sì fragrance from 2013, represented by Hollywood actress Cate Blanchett. Sì Passione is a reinterpretation of the original that gives it a new dimension - described as \"an irresistible combination of grace, strength and independent spirit.\" Announced as an intense, uncompromising scent, it is made for a confident woman who dares to say yes, and is to embody the red lipstick effect in the bottle.</p> <p>\"Sì Passione is a bright and sensual perfume that emits confidence, seduction, and strength. Bright and fresh in its initial impression, Sì Passione opens with notes of spicy pink pepper, like a burst of adrenaline. After initially drawing attention, sparkling and radiant pear brightens the iconic juicy blackcurrant to add boldness. A floral heart beats passionately with rose and feminine jasmine to create a powerful scent, like a seemingly fragile woman who shows incredible strength when guided by passion. The addition of heliotrope makes this perfume addictive and acts as an invitation to self-indulgence and pleasure. The warm and sensual vanilla and cedarwood dry down mirrors the self-assurance that a swipe of red lipstick can instantly give the wearer.\"</p> <p>The fragrance is available as a 30, 50 and 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48002.jpg",
+    "rating": 3.82,
+    "ratingVotes": 7577,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 35
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 48002,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sì Passione",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Sì Passione",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women. <b>Sì Passione</b> was launched in 2017. Sì Passione was created by Christine Nagel and Julie Massé. Top notes are Pear, Black Currant, Pink Pepper and Grapefruit; middle notes are Pineapple, Rose, Jasmine and Heliotrope; base notes are Vanilla, Cedar, Patchouli and Amberwood",
+    "perfumerFa": "Christine Nagel and Julie Massé",
+    "topNotesFa": [
+      "گلابی",
+      "توت سیاه",
+      "فلفل صورتی",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "آناناس",
+      "گل رز",
+      "یاسمن",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "سرو",
+      "پچولی",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "در دسامبر 2017، آرمانی نسخه جدیدی از عطر Sì را که در سال 2013 معرفی شده بود، عرضه کرد که چهره تبلیغاتی آن بازیگر هالیوودی کیت بلانشت بود. Sì Passione تفسیر مجددی از عطر اصلی است که بُعد جدیدی به آن می‌بخشد - این عطر به عنوان «ترکیبی مقاومت‌ناپذیر از ظرافت، قدرت و روحیه مستقل» توصیف شده است. این عطر که به عنوان عطری شدید و بی‌رقیب معرفی شده است، برای زنانی ساخته شده که به خود اطمینان دارند و جرأت «بله» گفتن را دارند، و قرار است جلوه رژ لب قرمز را در بطری خود تجسم بخشد.<",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chloe/Chloe-L-Eau-de-Parfum-Intense-2024-96145.html",
+    "extractedAt": "2026-11-26T19:56:14.623Z",
+    "name": "Chloé L'Eau de Parfum Intense (2024)",
+    "brand": "Chloé",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Raspberry"
+    ],
+    "middleNotes": [
+      "Rose"
+    ],
+    "baseNotes": [
+      "Cashmeran",
+      "Cedar"
+    ],
+    "description": "Chloé L'Eau de Parfum Intense by Chloé is a new perfume for women, released in 2024. It is being marketed by Coty and features a blend of raspberry, rose, ambrox, cashmeran, and cedar notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96145.jpg",
+    "rating": 3.82,
+    "ratingVotes": 1427,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 84
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 62
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 26
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 96145,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum Intense",
+    "baseName": "Chloé L' (2024)",
+    "brandFa": "Chloé",
+    "nameFa": "Chloé L'Eau de Parfum Intense (2024)",
+    "concentrationFa": "ادو پرفیوم انتنس",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "تمشک"
+    ],
+    "middleNotesFa": [
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "کشماران",
+      "سرو"
+    ],
+    "descriptionFa": "Chloé L'Eau de Parfum Intense از برند Chloé یک عطر جدید زنانه است که در سال 2024 عرضه شده است. این عطر توسط Coty عرضه می‌شود و ترکیبی از رایحه‌های تمشک، گل رز، آمبروکس، کشمیران و سدر است.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mercedes-Benz/Mercedes-Benz-Club-Black-Eau-de-Toilette-46797.html",
+    "extractedAt": "2026-11-26T19:56:20.059Z",
+    "name": "Mercedes Benz Club Black Eau de Toilette",
+    "brand": "Mercedes-Benz",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Benzoin",
+      "Woodsy Notes",
+      "Ambroxan"
+    ],
+    "description": "An exquisite and refined fragrance that sublimates noble ingredients.</p> <p>The fizzy and luminous bergamot at the top is enhanced in the heart with the beautiful signature of jasmine warmed up by incense.The signature of the drydown surprises with a blend of precious and rare perfumery ingredients such as – ambrox, benzoin, golden woods and vanilla. A very powerful fragrance with an irresistible and addictive trail.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46797.jpg",
+    "rating": 4.48,
+    "ratingVotes": 6839,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 92
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 39
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 46797,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Toilette",
+    "baseName": "Mercedes Benz Club Black",
+    "brandFa": "Mercedes-Benz",
+    "nameFa": "Mercedes Benz Club Black Eau de Toilette",
+    "concentrationFa": "ادو توالت",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بنزوئین",
+      "Woodsy Notes",
+      "آمبروکسان"
+    ],
+    "descriptionFa": "یک عطر نفیس و ظریف که ترکیبات ارزشمند را به اوج می‌رساند.</p> <p>ترنج پرطراوت و درخشان در نت اولیه، در نت میانی با رایحه خاص و زیبای یاس که با بخور گرم شده است، تقویت می‌شود. رایحه خاص نت پایانی با ترکیبی از مواد عطر‌سازی ارزشمند و کمیاب مانند آمبروکس، بنزوئین، چوب‌های طلایی و وانیل، شگفت‌انگیز است. یک عطر بسیار قوی با رایحه‌ای مقاومت‌ناپذیر و اعتیادآور.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-Parfum-49912.html",
+    "extractedAt": "2026-11-26T19:56:26.631Z",
+    "name": "Bleu de Chanel Parfum",
+    "brand": "Chanel",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2018,
+    "perfumer": "Olivier Polge",
+    "topNotes": [
+      "Lemon Zest",
+      "Bergamot",
+      "Mint",
+      "Artemisia"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Pineapple",
+      "Geranium",
+      "Green Notes"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Cedar",
+      "Amberwood",
+      "Iso E Super",
+      "Tonka Bean"
+    ],
+    "description": "BLEU DE CHANEL represents the colour of freedom. A fragrance unveiling three nuances of its temperament in three interpretations: Eau de Toilette from 2010, Eau de Parfum from 2014 and Parfum from 2018. </p> <p>\"The most intense of the BLEU DE CHANEL fragrances. Powerful and refined, BLEU DE CHANEL Parfum for men reveals the essence of determination.An aromatic freshness opens, lingering on the warm, addictive fullness of Cedar and Sandalwood from New Caledonia that sweeps throughout the intense, woody fragrance.\"</p> <p>It is available in bottles of 50 and 100 ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49912.jpg",
+    "rating": 4.45,
+    "ratingVotes": 11467,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 27
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 26
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 49912,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Bleu de Chanel",
+    "brandFa": "شنل",
+    "nameFa": "Bleu de Chanel Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Polge",
+    "topNotesFa": [
+      "Lemon Zest",
+      "برگاموت",
+      "نعناع",
+      "افسنتین"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "آناناس",
+      "گل جعفری",
+      "نت‌های سبز"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "سرو",
+      "چوب کهربایی",
+      "Iso E Super",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "BLEU DE CHANEL نشان‌دهنده رنگ آزادی است. عطری که سه ظرافت طبع خود را در سه تفسیر آشکار می‌کند: ادوتویلت از سال 2010، ادوپرفیوم از سال 2014 و پرفیوم از سال 2018. </p> <p>«شدیدترین عطر از میان عطرهای BLEU DE CHANEL. عطر BLEU DE CHANEL برای مردان، قدرتمند و ظریف، ماهیت عزم راسخ را آشکار می‌کند. طراوتی معطر آغاز می‌شود و بر روی پری گرم و اعتیادآور سدر و چوب صندل باقی می‌ماند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/MYSLF-Eau-de-Toilette-Intense-132682.html",
+    "extractedAt": "2026-11-26T19:56:32.529Z",
+    "name": "MYSLF Eau de Toilette Intense",
+    "brand": "Yves Saint Laurent",
+    "family": "Woody Floral Musk",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Ambrofix™",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "description": "MYSLF Eau de Toilette Intense by Yves Saint Laurent is a men's fragrance released in 2026. The composition opens with bergamot, moves into a heart of orange blossom absolute, Ambrofix, and Indonesian patchouli, and settles into a base of white musk. It is presented as a woody skin-musk style scent, combining fresh citrus and floral aspects with warm woody and musky undertones.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132682.jpg",
+    "rating": 4.16,
+    "ratingVotes": 953,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 86
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 81
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 29
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 132682,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Toilette",
+    "baseName": "MYSLF Intense",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "MYSLF Eau de Toilette Intense",
+    "concentrationFa": "ادو توالت",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Ambrofix™",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "descriptionFa": "MYSLF Eau de Toilette Intense از برند Yves Saint Laurent یک عطر مردانه است که در سال 2026 عرضه شده است. این ترکیب با رایحه ترنج آغاز می‌شود، سپس به نت‌های میانی شامل عصاره شکوفه پرتقال، آمبروفیکس و نعناع هندی اندونزیایی می‌رسد و در نهایت در نت‌های پایه مشک سفید قرار می‌گیرد. این عطر به عنوان عطری چوبی با رایحه مشک و پوست معرفی می‌شود که ترکیبی از نت‌های مرکباتی تازه و گل‌ها با زیرنُت‌های گرم چوبی و مشکی است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salvatore-Ferragamo/Uomo-Salvatore-Ferragamo-Urban-Feel-55367.html",
+    "extractedAt": "2026-11-26T19:56:37.659Z",
+    "name": "Uomo Salvatore Ferragamo Urban Feel",
+    "brand": "Salvatore Ferragamo",
+    "family": "Woody",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Marie Salamagne and Alberto Morillas",
+    "topNotes": [
+      "Bergamot",
+      "Ozonic notes",
+      "Clary Sage",
+      "Coffee"
+    ],
+    "middleNotes": [
+      "Driftwood",
+      "Cedar",
+      "Cumin"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Incense",
+      "Patchouli",
+      "Labdanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55367.jpg",
+    "rating": 3.96,
+    "ratingVotes": 714,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 86
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 68
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 54
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 49
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 55367,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Uomo Salvatore Ferragamo Urban Feel",
+    "brandFa": "سالواتوره فراگامو",
+    "nameFa": "Uomo Salvatore Ferragamo Urban Feel",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Marie Salamagne and Alberto Morillas",
+    "topNotesFa": [
+      "برگاموت",
+      "Ozonic notes",
+      "مریم‌گلی",
+      "قهوه"
+    ],
+    "middleNotesFa": [
+      "چوب شناور",
+      "سرو",
+      "زیره"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "عود بخور",
+      "پچولی",
+      "لابدانوم"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Roccobarocco/Eau-de-Toilette-pour-Homme-50127.html",
+    "extractedAt": "2026-11-26T19:56:41.604Z",
+    "name": "Eau de Toilette pour Homme",
+    "brand": "Roccobarocco",
+    "family": null,
+    "gender": "men. Top notes are Neroli and Herbal Notes; middle notes are Orange Blossom, Artemisia and Egyptian Jasmine; base notes are Oakmoss, Patchouli, Civet and Sandalwood",
+    "topNotes": [
+      "Neroli",
+      "Herbal Notes"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Artemisia",
+      "Egyptian Jasmine"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Patchouli",
+      "Civet",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50127.jpg",
+    "rating": 4.16,
+    "ratingVotes": 31,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 46
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 34
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 31
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 31
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 31
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 50127,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Toilette",
+    "baseName": "pour Homme",
+    "brandFa": "Roccobarocco",
+    "nameFa": "Eau de Toilette pour Homme",
+    "concentrationFa": "ادو توالت",
+    "genderFa": "men. Top notes are Neroli and Herbal Notes; middle notes are Orange Blossom, Artemisia and Egyptian Jasmine; base notes are Oakmoss, Patchouli, Civet and Sandalwood",
+    "topNotesFa": [
+      "نرولی",
+      "Herbal Notes"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "افسنتین",
+      "Egyptian Jasmine"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "پچولی",
+      "گربه سروتی",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Carolina-Herrera/Chic-291.html",
+    "extractedAt": "2026-11-26T19:56:45.771Z",
+    "name": "Chic",
+    "brand": "Carolina Herrera",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2002,
+    "perfumer": "Alberto Morillas and Jacques Cavallier Belletrud",
+    "topNotes": [
+      "Red Freesia",
+      "Bulgarian Rose",
+      "Tuberose"
+    ],
+    "middleNotes": [
+      "Freesia",
+      "Lily-of-the-Valley",
+      "Mandarin Blossom",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "Chic is light, but elegant, coloured in red, of course, because this colour is very feminine; it is not virgin-like, but passionate. The real chic lies in constrasts: when the simple becomes complicated, because it encourages thinking and has a magical, influential power. For this purpose the simple and magical red colour was chosen, the shape of the bottle is simple, and the fragrance itself is a perfect balance between freshness and graceful sensuality. The top notes include Bulgarian rose and red freesia, the middle ones mandarin blossom and orange; the base voluptuous vanilla and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.291.jpg",
+    "rating": 3.91,
+    "ratingVotes": 1200,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 34
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 32
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 32
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 21
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 291,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chic",
+    "brandFa": "کارولینا هررا",
+    "nameFa": "Chic",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Alberto Morillas and Jacques Cavallier Belletrud",
+    "topNotesFa": [
+      "Red Freesia",
+      "گل رز بلغاری",
+      "گل شیپور"
+    ],
+    "middleNotesFa": [
+      "فریزیا",
+      "Lily-of-the-Valley",
+      "Mandarin Blossom",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "چوب صندل",
+      "وانیل"
+    ],
+    "descriptionFa": "شیک سبک، اما ظریف است، البته به رنگ قرمز، زیرا این رنگ بسیار زنانه است؛ این رنگ مانند یک دختر باکره نیست، بلکه پرشور است. شیک بودن واقعی در تضادها نهفته است: زمانی که سادگی پیچیده می‌شود، زیرا تفکر را برمی‌انگیزد و قدرت جادویی و تأثیرگذاری دارد. برای این منظور، رنگ قرمز ساده و جادویی انتخاب شد، شکل بطری ساده است و خود عطر تعادلی عالی بین طراوت و ظرافت دارد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
