@@ -116825,5 +116825,1795 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Naughton-Wilson/Masculino-148850.html",
+    "extractedAt": "2026-11-26T18:45:35.257Z",
+    "name": "Masculino",
+    "brand": "Naughton & Wilson",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "John Stephen",
+    "topNotes": [
+      "Lemon",
+      "Lime",
+      "Orange",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Mandarin Orange",
+      "Star Anise",
+      "Rosemary"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Vetiver",
+      "Sandalwood",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "Masculino by Naughton & Wilson is an aromatic fougère fragrance for men, launched in 2026 and created by John Stephen. It combines fresh citrus and aromatic herbs with a woody, mossy base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148850.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 65
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 25
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 148850,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Masculino",
+    "brandFa": "Naughton & Wilson",
+    "nameFa": "Masculino",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "John Stephen",
+    "topNotesFa": [
+      "لیمو",
+      "لیمو سبز",
+      "پرتقال",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "نارنگی",
+      "انیسون ستاره‌ای",
+      "رزماری"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "وتیور",
+      "چوب صندل",
+      "پچولی",
+      "موش"
+    ],
+    "descriptionFa": "Masculino از برند Naughton & Wilson یک عطر فوژر معطر برای آقایان است که در سال 2026 عرضه شد و توسط جان استفن ساخته شده است. این عطر ترکیبی از مرکبات تازه و گیاهان معطر با رایحه‌ای پایه از چوب و خزه است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mustang/Pink-Signature-148849.html",
+    "extractedAt": "2026-11-26T18:45:41.484Z",
+    "name": "Pink Signature",
+    "brand": "Mustang",
+    "family": null,
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Elisa Tzedakis",
+    "topNotes": [
+      "Peach Blossom",
+      "Mint",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Bulgarian Rose",
+      "Lily of the Valley",
+      "Cherry"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Osmanthus",
+      "Patchouli"
+    ],
+    "description": "Pink Signature by Mustang is a fragrance for women, launched in 2026 and created by Elisa Tzedakis. It opens with peach blossom, mint and petitgrain, followed by Bulgarian rose, lily of the valley and cherry wood, over a base of vetiver, osmanthus and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148849.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 85
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 77
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 51
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 49
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 148849,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pink Signature",
+    "brandFa": "Mustang",
+    "nameFa": "Pink Signature",
+    "genderFa": "زنانه",
+    "perfumerFa": "Elisa Tzedakis",
+    "topNotesFa": [
+      "Peach Blossom",
+      "نعناع",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "گل رز بلغاری",
+      "لاله سفید",
+      "گیلاس"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "اسمانتوس",
+      "پچولی"
+    ],
+    "descriptionFa": "Pink Signature از برند Mustang یک عطر زنانه است که در سال 2026 عرضه شد و توسط الیزا تزدکیس ساخته شده است. این عطر با رایحه گل هلو، نعناع و پتی‌گرن آغاز می‌شود، سپس رایحه گل رز بلغاری، گل برف و چوب گیلاس به مشام می‌رسد و در نهایت رایحه پایه وتیور، عطر معطر و نعناع هندی حس می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mustang/Amber-Signature-148848.html",
+    "extractedAt": "2026-11-26T18:45:47.202Z",
+    "name": "Amber Signature",
+    "brand": "Mustang",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Elisa Tzedakis",
+    "topNotes": [
+      "Ginger",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Magnolia",
+      "Water Notes",
+      "Patchouli",
+      "Cashmere Wood"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Moss",
+      "Musk",
+      "Caramel",
+      "Amber"
+    ],
+    "description": "Amber Signature by Mustang is an oriental spicy fragrance launched in 2025 and created by Elisa Tzedakis. It opens with ginger, savory and cinnamon, followed by magnolia, water notes, patchouli and cashmere wood, over a base of myrrh, tree moss, musk, caramel and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148848.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 48
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 46
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 148848,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Amber Signature",
+    "brandFa": "Mustang",
+    "nameFa": "Amber Signature",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Elisa Tzedakis",
+    "topNotesFa": [
+      "زنجبیل",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "Water Notes",
+      "پچولی",
+      "Cashmere Wood"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "خزه",
+      "موش",
+      "کارامل",
+      "کهربا"
+    ],
+    "descriptionFa": "Amber Signature از برند Mustang یک عطر شرقی تند است که در سال 2025 عرضه شد و توسط الیزا تزدکیس ساخته شده است. این عطر با رایحه‌های زنجبیل، آویشن کوهی و دارچین آغاز می‌شود، سپس رایحه‌های مگنولیا، نت‌های آبی، نعناع هندی و چوب کشمیر به مشام می‌رسند و در نهایت رایحه‌های پایه مریم‌گلی، خزه درخت، مشک، کارامل و عنبر حس می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Heretic-Parfum/Sacre-Coeur-148847.html",
+    "extractedAt": "2026-11-26T18:45:53.495Z",
+    "name": "Sacré Coeur",
+    "brand": "Heretic Parfum",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Cedar",
+      "Myrrh",
+      "Frankincense"
+    ],
+    "middleNotes": [
+      "Cypress",
+      "Juniper",
+      "Labdanum",
+      "Styrax"
+    ],
+    "baseNotes": [
+      "Cypriol",
+      "Vanilla Absolute"
+    ],
+    "description": "Sacré Coeur by Heretic Parfums is an Oriental Woody fragrance launched in 2025 as a limited edition of 400 bottles in the Black Label collection. It opens with cedar, myrrh and Omani frankincense, develops through cypress, juniper, labdanum and styrax, and settles on cypriol and vanilla absolute.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148847.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 98
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 32
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 20
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 148847,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sacré Coeur",
+    "brandFa": "Heretic Parfum",
+    "nameFa": "Sacré Coeur",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "سرو",
+      "مور",
+      "کندر"
+    ],
+    "middleNotesFa": [
+      "سرو کوهی",
+      "عرعر",
+      "لابدانوم",
+      "استیراکس"
+    ],
+    "baseNotesFa": [
+      "سایپریول",
+      "Vanilla Absolute"
+    ],
+    "descriptionFa": "Sacré Coeur از برند Heretic Parfums یک عطر شرقی چوبی است که در سال 2025 به عنوان یک نسخه محدود 400 بطری در مجموعه Black Label عرضه شد. این عطر با رایحه سدر، مر و کندر عمان آغاز می‌شود، سپس رایحه‌های سرو، عرعر، لادن و استیراکس را در خود جای می‌دهد و در نهایت با رایحه‌های سیپریول و عصاره خالص وانیل تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Laura-Biagiotti/Roma-Passione-40842.html",
+    "extractedAt": "2026-11-26T18:46:00.148Z",
+    "name": "Roma Passione",
+    "brand": "Laura Biagiotti",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2016,
+    "perfumer": "Juliette Karagueuzoglou and Nicolas Beaulieu",
+    "topNotes": [
+      "Black Currant",
+      "Pink Grapefruit",
+      "Italian Mandarin"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Peony",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Tonka Bean",
+      "Musk"
+    ],
+    "description": "Laura Biagiotti launches two new fragrances inspired by the city of Rome in October, 2016. The new Roma Passione and Roma Passione Uomo represent reinterpretations of the classics Roma from 1988 and Roma Uomo from 1995. The bottles retain the original design, colored in fiery red that goes with the name of the perfume.</p> <p>Roma Passione is a floral - fruity fragrance that begins with sparkling pink grapefruit, Italian mandarin and black currant. Its illuminated floral heart includes a bouquet of roses, jasmine and white peony on the sensual base of vanilla, amber, tonka bean and musk. The creation is signed by perfumers Juliette Karagueuzoglou and Nicolas Beaulieu.</p> <p>It is available as a 25, 50 and 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.40842.jpg",
+    "rating": 3.53,
+    "ratingVotes": 439,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 77
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 73
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 69
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 40842,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Roma Passione",
+    "brandFa": "Laura Biagiotti",
+    "nameFa": "Roma Passione",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Juliette Karagueuzoglou and Nicolas Beaulieu",
+    "topNotesFa": [
+      "توت سیاه",
+      "Pink Grapefruit",
+      "Italian Mandarin"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "گل داوودی",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "لوبیا تونکا",
+      "موش"
+    ],
+    "descriptionFa": "لورا بیاگیوتی در اکتبر 2016 دو عطر جدید را که از شهر رم الهام گرفته شده‌اند، عرضه می‌کند. Roma Passione و Roma Passione Uomo جدید، بازتفسیرهایی از عطر کلاسیک Roma متعلق به سال 1988 و Roma Uomo متعلق به سال 1995 هستند. بطری‌ها طراحی اصلی خود را حفظ کرده‌اند و به رنگ قرمز آتشین هستند که با نام عطر مطابقت دارد.</p> <p>Roma Passione یک عطر گل‌دار - میوه‌ای است که با رایحه مرکبات صورتی درخشان، نارنگی ایتالیایی و انگور فرنگی سیاه آغاز می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Eclaire-93628.html",
+    "extractedAt": "2026-11-26T18:46:06.645Z",
+    "name": "Eclaire",
+    "brand": "Lattafa Perfumes",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Caramel",
+      "Milk",
+      "Sugar"
+    ],
+    "middleNotes": [
+      "Honey",
+      "White Flowers"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Praline",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93628.jpg",
+    "rating": 4.05,
+    "ratingVotes": 10417,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 49
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 13
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 93628,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eclaire",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Eclaire",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "کارامل",
+      "شیر",
+      "شکر"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "گل‌های سفید"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "پرالین",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Elysian/Lavender-Milk-Tea-90184.html",
+    "extractedAt": "2026-11-26T18:46:11.298Z",
+    "name": "Lavender Milk Tea",
+    "brand": "Elysian",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Jessi Park",
+    "topNotes": [
+      "Lavender",
+      "Ambrette",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Black Tea",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Incense",
+      "Cacao",
+      "Tuberose"
+    ],
+    "description": "Introducing <strong>Lavender Milk Tea</strong>, a floral gourmand that weaves a comforting and aromatic tale. Immerse yourself in the soothing embrace of lavender essence, where the floral notes intertwine with the warmth of delicate orange blossoms. The subtle touch of musk and vanilla adds a velvety smoothness to the composition, creating an atmosphere of serenity.</p> <p>As the fragrance evolves, the gentle allure of ambrette, English tea and the creamy richness of milk unfold, enhancing the overall sense of tranquility. Delicate hints of cinnamon and the mysterious allure of incense create an aromatic dance that captivates the senses. Tuberose and tonka contribute a layer of sophistication, while cacao provides a subtle sweetness that lingers in the air.</p> <p>\"Lavender Milk Tea\" is more than a fragrance; it's a lactonic sensory experience that transports you to a place of calm. Let the harmonious blend of these exquisite notes envelop you in a comforting embrace, like a sip of your favorite soothing tea.</p> <p>New You Magazine chose Lavender Milk Tea as Best New Fragrance of 2024.</p> <p><strong>Notes: Lavender, orange blossoms, ambrette, black tea, creamy milk, cinnamon, incense, tuberose, tonka bean, cacao</strong>",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90184.jpg",
+    "rating": 3.86,
+    "ratingVotes": 119,
+    "accords": [
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 75
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 41
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 90184,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lavender Milk Tea",
+    "brandFa": "Elysian",
+    "nameFa": "Lavender Milk Tea",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jessi Park",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "دانه ابرکفش",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "چای سیاه",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "عود بخور",
+      "کاکائو",
+      "گل شیپور"
+    ],
+    "descriptionFa": "معرفی <strong>چای شیر اسطوخودوس</strong>، یک عطر گلی خوشبو که داستانی آرامش‌بخش و معطر را روایت می‌کند. خود را در آغوش آرامش‌بخش عصاره اسطوخودوس غوطه‌ور کنید، جایی که رایحه‌های گل با گرمای شکوفه‌های ظریف پرتقال در هم می‌آمیزند. رایحه ظریف مشک و وانیل لطافتی مخملی به این ترکیب می‌افزاید و فضایی آرامش‌بخش ایجاد می‌کند.</p> <p>با تغییر رایحه، جذابیت ملایم آدرگون، چای انگلیسی و",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ariana-Grande/Ari-31661.html",
+    "extractedAt": "2026-11-26T18:46:17.895Z",
+    "name": "Ari",
+    "brand": "Ariana Grande",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2015,
+    "perfumer": null,
+    "topNotes": [
+      "Raspberry",
+      "Pear",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Vanilla Orchid",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Marshmallow",
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Pop singer Ariana Grande launches her first fragrance in September 2015 called Ari by Ariana Grande.</p> <p>The fragrance is announced as luscious and sexy, opening with sparkling fruity notes connected to its ultra-feminine floral heart and the base of musk, woods and marshmallow accord.</p> <p>It is available in a cute pink bottle with white pom-pom as 50 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31661.jpg",
+    "rating": 4.15,
+    "ratingVotes": 7158,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 23
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 18
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 16
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 15
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 31661,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ari",
+    "brandFa": "Ariana Grande",
+    "nameFa": "Ari",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "تمشک",
+      "گلابی",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "Vanilla Orchid",
+      "گل رز",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "مارشمالو",
+      "موش",
+      "Woody Notes"
+    ],
+    "descriptionFa": "آریانا گرانده، خواننده پاپ، اولین عطر خود را در سپتامبر 2015 با نام Ari by Ariana Grande عرضه کرد.</p> <p>این عطر به عنوان عطری دلپذیر و سکسی معرفی شده است که با نت‌های میوه‌ای درخشان آغاز می‌شود و به قلب گل‌دار فوق‌العاده زنانه آن و رایحه پایه مشک، چوب و مارشمالو متصل می‌شود.</p> <p>این عطر در یک بطری صورتی زیبا با یک منگوله سفید به صورت ادو پرفیوم ۵۰ میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Neandertal/Neandertal-Light-52102.html",
+    "extractedAt": "2026-11-26T18:46:24.437Z",
+    "name": "Neandertal Light",
+    "brand": "Neandertal",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Chris Maurice",
+    "topNotes": [
+      "Hinoki Wood",
+      "Violet Leaf",
+      "Galbanum",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "Metallic notes",
+      "Orris Root"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Leather",
+      "Musk",
+      "Patchouli",
+      "Cedar"
+    ],
+    "description": "\"Neandertal light™ is in stark contrast to Neandertal dark, a journey which explores concepts of olfactory dissonance. Radiant and expansive Neandertal light concentrates on the present and as such, possesses a linear and harmonious structure. Hinoki<br /> oil is expanded with muted green notes creating a horizontal landscape, an olfactory still-life representation of nature. The binding quality of orris gives Neandertal light rigidity, form and cohesiveness within the structure. This binding quality produces a powerful resulting force, encapsulating time and the space around us. Leather and ambergris add unparalleled natural beauty and familiarity, displaying both power and magnetism. A contemporary portrait of the Neandertal’s mystery, this fragrance captures a suspended snapshot in time.</p> <p>Each bottle is handmade by the artist Kentaro Yamada.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52102.jpg",
+    "rating": 3.84,
+    "ratingVotes": 352,
+    "accords": [
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 82
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 66
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 52
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 52
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 52102,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Neandertal Light",
+    "brandFa": "Neandertal",
+    "nameFa": "Neandertal Light",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Chris Maurice",
+    "topNotesFa": [
+      "Hinoki Wood",
+      "برگ بنفشه",
+      "گلبانوم",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "Metallic notes",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "چرم",
+      "موش",
+      "پچولی",
+      "سرو"
+    ],
+    "descriptionFa": "«Neandertal light™ در تضاد کامل با Neandertal dark است، سفری که مفاهیم ناهماهنگی بویایی را بررسی می‌کند. Neandertal light درخشان و گسترده بر زمان حال تمرکز دارد و به همین دلیل، ساختاری خطی و هماهنگ دارد. روغن هینوکی<br /> با رایحه‌های سبز ملایم ترکیب شده و منظره‌ای افقی ایجاد می‌کند که تصویری بویایی از طبیعت بی‌حرکت است. خاصیت چسبندگی زنبق Neandertal light را استحکام، فرم و",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Y-Iced-Cologne-120529.html",
+    "extractedAt": "2026-11-26T18:46:29.611Z",
+    "name": "Y Iced Cologne",
+    "brand": "Yves Saint Laurent",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Dominique Ropion",
+    "topNotes": [
+      "Mint",
+      "Ice"
+    ],
+    "middleNotes": [
+      "Mint",
+      "Mint Tea",
+      "Blue Sage"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Ambroxan"
+    ],
+    "description": "Y Iced Cologne by Yves Saint Laurent is an aromatic fougère Eau de Toilette Intense for men, composed by perfumer Dominique Ropion. The composition centers on an interplay between intense coolness and a warmer, textured base.</p> <p>It opens with a blast of fresh ice mint, reinforced by the Arctical™ molecule to highlight its frosty, airy character. The heart features an aromatic mint facet, described as Ourika Living Mint or mint tea, combined with blue sage to give the fragrance a herbal, slightly aromatic profile. In the base, ambroxan and patchouli add a long‑lasting, warm, woody-amber trail that contrasts with the icy top.</p> <p>The scent is presented in an icy blue flacon designed by Suzanne Dalton, with a metallic Y-cut that visually links it to the Y collection.</p> <p>Available in 60ml and 100ml Eau de Toilette Intense.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120529.jpg",
+    "rating": 4.25,
+    "ratingVotes": 1879,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 94
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 120529,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Y Iced",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Y Iced Cologne",
+    "concentrationFa": "کلن",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "perfumerFa": "Dominique Ropion",
+    "topNotesFa": [
+      "نعناع",
+      "Ice"
+    ],
+    "middleNotesFa": [
+      "نعناع",
+      "Mint Tea",
+      "Blue Sage"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "آمبروکسان"
+    ],
+    "descriptionFa": "Y Iced Cologne از برند Yves Saint Laurent یک ادوتویلت اینتنس با رایحه فوژر معطر برای آقایان است که توسط عطرساز دومینیک روپیون ساخته شده است. این ترکیب بر تعاملی بین خنکی شدید و رایحه‌ای گرم‌تر و بافت‌دار متمرکز است.</p> <p>این عطر با انفجاری از رایحه نعناع یخی تازه آغاز می‌شود که با مولکول Arctical™ تقویت شده است تا ویژگی خنک و سبک آن برجسته شود. نت میانی دارای یک وجه نعنایی معطر است که به عنوان نعنای زنده اوریکا یا چای نعنا توصیف می‌شود و با ... ترکیب شده است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Azul-135602.html",
+    "extractedAt": "2026-11-26T18:46:34.616Z",
+    "name": "Azul",
+    "brand": "Rayhaan",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Grapefruit blossom"
+    ],
+    "baseNotes": [
+      "Calone",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135602.jpg",
+    "rating": 4.22,
+    "ratingVotes": 810,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 32
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 28
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 17
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 17
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 11
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 135602,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Azul",
+    "brandFa": "Rayhaan",
+    "nameFa": "Azul",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "لیمو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Grapefruit blossom"
+    ],
+    "baseNotesFa": [
+      "Calone",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ralph-Lauren/Ralph-s-Club-New-York-Parfum-135665.html",
+    "extractedAt": "2026-11-26T18:46:38.310Z",
+    "name": "Ralph's Club New York Parfum",
+    "brand": "Ralph Lauren",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Black Currant",
+      "Cardamom",
+      "Cypress",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cognac",
+      "Lavender",
+      "Rose Geranium"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Oud",
+      "Fir",
+      "Cashmeran"
+    ],
+    "description": "Ralph's Club New York by Ralph Lauren is a men's parfum released in 2026. The fragrance opens with cypress, bergamot, cardamom, and black currant, followed by a heart of cognac, Diva lavender, and rose geranium. The base combines sandalwood, cashmeran, oud, and fir balsam absolute, giving the composition a woody and aromatic character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135665.jpg",
+    "rating": 4.52,
+    "ratingVotes": 447,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 77
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 37
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 18
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 135665,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Ralph's Club New York",
+    "brandFa": "Ralph Lauren",
+    "nameFa": "Ralph's Club New York Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "توت سیاه",
+      "هل",
+      "سرو کوهی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "کوناک",
+      "اسطوخودوس",
+      "Rose Geranium"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "عود",
+      "نراد",
+      "کشماران"
+    ],
+    "descriptionFa": "Ralph's Club New York از برند Ralph Lauren یک عطر مردانه است که در سال 2026 عرضه شده است. این عطر با رایحه‌های سرو، ترنج، هل و انگور فرنگی سیاه آغاز می‌شود و سپس رایحه‌های میانی شامل کنیاک، اسطوخودوس دیوا و شمعدانی گل رز ظاهر می‌شوند. رایحه پایه ترکیبی از چوب صندل، کشمیران، عود و عصاره مطلق صنوبر بالزام است که به این ترکیب، ویژگی چوبی و معطر می‌بخشد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Tolu-4929.html",
+    "extractedAt": "2026-11-26T18:46:43.683Z",
+    "name": "Tolu",
+    "brand": "Ormonde Jayne",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2002,
+    "perfumer": "Geza Schoen",
+    "topNotes": [
+      "Orange Blossom",
+      "Juniper",
+      "Clary Sage"
+    ],
+    "middleNotes": [
+      "Orchid",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Tolu Balsam",
+      "Amber",
+      "Tonka Bean",
+      "Olibanum"
+    ],
+    "description": "Tolu is an exotic fragrance based on Peruvian tolu resin, from a precious variety of tree in South America. Laced with frankincense and amber and a heady mix of floral and herbal top notes, Tolu takes the wearer on a sensual oriental journey.</p> <p>Top notes of Juniper Berry, Orange Blossom and Clary Sage yield to a heart of Orchid, Moroccan Rose and Muguet. The base features precious Tolu, Tonka Bean, Golden Frankincense and Oriental.</p> <p>The fragrance is available in eau de parfum or Made to Measure Parfum for which the customer selects the concentration, a solid perfume compact, bath and body products and candles.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4929.jpg",
+    "rating": 4.06,
+    "ratingVotes": 1178,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 39
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 36
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 4929,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tolu",
+    "brandFa": "Ormonde Jayne",
+    "nameFa": "Tolu",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Geza Schoen",
+    "topNotesFa": [
+      "گل پرتقال",
+      "عرعر",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "Orchid",
+      "گل رز",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "بلسام تولو",
+      "کهربا",
+      "لوبیا تونکا",
+      "کندر"
+    ],
+    "descriptionFa": "تولو یک عطر عجیب و غریب است که بر پایه صمغ تولو پروویی ساخته شده است؛ صمغی که از گونه‌ای درخت ارزشمند در آمریکای جنوبی به دست می‌آید. Tolu که با کندر و عنبر و ترکیبی مست‌کننده از رایحه‌های اولیه گل و گیاه آمیخته شده است، استفاده‌کننده را به سفری شرقی و شهوانی می‌برد.</p> <p>نت‌های اولیه توت عرعر، شکوفه پرتقال و مریم‌گلی معطر جای خود را به نت‌های میانی ارکیده، گل رز مراکشی و گل معطر می‌دهند. رایحه پایه شامل تولوی گرانبها، دانه‌ تونکا، کندر طلایی و رایحه شرقی است.</p> <p>Th",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Dua-Brand/Rockstar-86516.html",
+    "extractedAt": "2026-11-26T18:46:48.603Z",
+    "name": "Rockstar",
+    "brand": "The Dua Brand",
+    "family": "Oriental Spicy",
+    "gender": "women and men. <b>Rockstar</b> was launched in 2022. The fragrance features Bulgarian Rose, Leather, Rum, Patchouli, Musk, Sandalwood, Caramel, Ambergris, Bergamot, Geranium, Cinnamon, Vanilla, Tonka Bean and Labdanum",
+    "year": 2022,
+    "description": "Rockstar by The Dua Brand is a unisex fragrance that belongs to the Oriental Spicy olfactory group. This extraordinary fragrance captures the essence of a true rockstar, someone who exudes confidence and effortless charm. Its composition features a delightful blend of notes that includes rum, passion fruit, bergamot, geranium, cinnamon, leather, patchouli, Bulgarian rose, caramel, vanilla, sandalwood, labdanum, tonka bean, musk, and ambergris. Crafted with an Extrait de Parfum concentration, this fragrance offers a long-lasting and intensified aroma that will leave a lasting impression. The Dua Brand presents this remarkable scent as an affordable alternative to the extravagant prices often associated with Xerjoff fragrances.</p> <p>The fragrance Rockstar opens with a distinctive combination of passion fruit and bergamot, creating an intriguing and slightly exotic introduction. As it develops, the scent reveals warm and spicy notes of cinnamon and leather blended with the sweetness of caramel and vanilla. The heart of the fragrance is enriched with Bulgarian rose, adding a touch of elegance and sophistication. Tonka bean and musk provide a balanced base that combines sweetness with a balsamic undertone. Overall, Rockstar by The Dua Brand is a captivating fragrance that embodies the spirit of a rockstar – confident, charismatic, and effortlessly cool.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.86516.jpg",
+    "rating": 3.83,
+    "ratingVotes": 23,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 82
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 70
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 64
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 59
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      }
+    ],
+    "fragranticaId": 86516,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rockstar",
+    "brandFa": "The Dua Brand",
+    "nameFa": "Rockstar",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "women and men. <b>Rockstar</b> was launched in 2022. The fragrance features Bulgarian Rose, Leather, Rum, Patchouli, Musk, Sandalwood, Caramel, Ambergris, Bergamot, Geranium, Cinnamon, Vanilla, Tonka Bean and Labdanum",
+    "descriptionFa": "Rockstar از برند The Dua یک عطر یونیسکس است که متعلق به گروه بویایی شرقی تند است. این عطر خارق‌العاده، ماهیت یک راک‌استار واقعی را به تصویر می‌کشد؛ فردی که اعتماد به نفس و جذابیت بی‌نظیری دارد. ترکیب آن شامل ترکیبی دلپذیر از رایحه‌هایی است که شامل عطر روم، میوه گل‌ساعتی، ترنج، شمعدانی، دارچین، چرم، نعناع هندی، گل رز بلغاری، کارامل، وانیل، چوب صندل، لادن، دانه‌ تونکا، مشک و عنبر است. Cr",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Alfred-Dunhill/Egyptian-Smoke-67463.html",
+    "extractedAt": "2026-11-26T18:46:54.335Z",
+    "name": "Egyptian Smoke",
+    "brand": "Alfred Dunhill",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2020,
+    "perfumer": "Jérôme Epinette",
+    "topNotes": [
+      "Black Tea",
+      "Ginger",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Grasse Rose",
+      "Tobacco",
+      "Cacao",
+      "Papyrus"
+    ],
+    "baseNotes": [
+      "Palo Santo",
+      "Vanilla",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67463.jpg",
+    "rating": 4.19,
+    "ratingVotes": 471,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 97
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 74
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 50
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 67463,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Egyptian Smoke",
+    "brandFa": "Alfred Dunhill",
+    "nameFa": "Egyptian Smoke",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jérôme Epinette",
+    "topNotesFa": [
+      "چای سیاه",
+      "زنجبیل",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Grasse Rose",
+      "تنباکو",
+      "کاکائو",
+      "پاپیروس"
+    ],
+    "baseNotesFa": [
+      "Palo Santo",
+      "وانیل",
+      "لوبیا تونکا",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Poison-Girl-Eau-De-Toilette-41809.html",
+    "extractedAt": "2026-11-26T18:46:59.408Z",
+    "name": "Poison Girl Eau De Toilette",
+    "brand": "Dior",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2017,
+    "perfumer": "François Demachy",
+    "topNotes": [
+      "Frosted Orange",
+      "Bitter Orange",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Neroli",
+      "Grasse Rose",
+      "Damask Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Caramel",
+      "Tonka Bean",
+      "Heliotrope",
+      "Cashmeran"
+    ],
+    "description": "Dior launched Poison Girl in January 2016 as the fragrance of a new generation of Poison. Its sweet and heady combination of bitter orange, Damask rose and rose from Grasse, almond, vanilla and tonka bean is announced by the slogan \"I'm not a girl, I'm poison.\" A year later, in January 2017, its new edition comes out as Poison Girl Eau De Toilette.</p> <p>Poison Girl Eau de Toilette is a refreshed version of the original, dedicated to the same \"type of femininity ... freer, more daring and more virtual than ever.\" The new composition, which is also signed by Francois Demachy, is based on the \"shock effect\" of three aromatic aspects; there are refreshing frozen orange, warm roses from Grasse and sparkling neroli. </p> <p>The signature bottle design, which was created for the original fragrance in 1985 by designer Véronique Monod, is also present in this edition. The fragrance will be available as a 30, 50 and 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41809.jpg",
+    "rating": 4.07,
+    "ratingVotes": 3038,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 57
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 22
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 22
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 41809,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau De Toilette",
+    "baseName": "Poison Girl",
+    "brandFa": "دیور",
+    "nameFa": "Poison Girl Eau De Toilette",
+    "concentrationFa": "Eau De Toilette",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "François Demachy",
+    "topNotesFa": [
+      "Frosted Orange",
+      "پرتقال تلخ",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "نرولی",
+      "Grasse Rose",
+      "گل رز دمشقی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کارامل",
+      "لوبیا تونکا",
+      "گل هلیوتروپ",
+      "کشماران"
+    ],
+    "descriptionFa": "دیور در ژانویه ۲۰۱۶ عطر Poison Girl را به‌عنوان عطری از نسل جدید Poison عرضه کرد. ترکیب شیرین و مست‌کننده آن از نارنج تلخ، گل رز دمشقی و گل رز گراس، بادام، وانیل و دانه‌های تونکا با این شعار معرفی می‌شود: «من دختر نیستم، من سم هستم.» یک سال بعد، در ژانویه ۲۰۱۷، نسخه جدید آن با نام Poison Girl Eau De Toilette عرضه شد.</p> <p>Poison Girl Eau de Toilette نسخه‌ای تازه از عطر اصلی است که به همان «t» اختصاص دارد.",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
