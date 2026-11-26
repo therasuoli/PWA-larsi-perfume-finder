@@ -102571,5 +102571,2532 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EN-BAD-TASTE/SUCRE-BLEU-148817.html",
+    "extractedAt": "2026-11-26T09:57:36.260Z",
+    "name": "SUCRE BLEU!",
+    "brand": "EN BAD TASTE",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Bunny",
+    "topNotes": [
+      "Almond",
+      "Bergamot",
+      "Heliotrope",
+      "Lemon Peel"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Iris",
+      "Jasmine",
+      "Black Tea"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Ambergris",
+      "Musk"
+    ],
+    "description": "SUCRE BLEU! by EN BAD TASTE is a floral woody gourmand fragrance for women and men, launched in 2026 as a winter limited edition. It opens with almond, bergamot, heliotrope and lemon peel, followed by cinnamon, iris, jasmine and black tea over a base of oakmoss, ambergris and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148817.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 98
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 73
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 54
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 49
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 49
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 49
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 148817,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "SUCRE BLEU!",
+    "brandFa": "EN BAD TASTE",
+    "nameFa": "SUCRE BLEU!",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bunny",
+    "topNotesFa": [
+      "بادام",
+      "برگاموت",
+      "گل هلیوتروپ",
+      "Lemon Peel"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "زنبق",
+      "یاسمن",
+      "چای سیاه"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "کهربا خاکستری",
+      "موش"
+    ],
+    "descriptionFa": "SUCRE BLEU! از برند EN BAD TASTE یک عطر گلی چوبی گورمند برای زنان و مردان است که در سال 2026 به‌عنوان یک نسخه محدود زمستانی عرضه شد. این عطر با رایحه‌های بادام، ترنج، هلیوتروپ و پوست لیمو آغاز می‌شود و سپس رایحه‌های دارچین، زنبق، یاس و چای سیاه بر روی پایه‌ای از خزه بلوط، عنبر و مشک قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EN-BAD-TASTE/Fairly-Grimm-148816.html",
+    "extractedAt": "2026-11-26T09:57:42.216Z",
+    "name": "Fairly Grimm",
+    "brand": "EN BAD TASTE",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Bunny",
+    "topNotes": [
+      "Pepper",
+      "Poppy"
+    ],
+    "middleNotes": [
+      "Violet",
+      "Orris Root",
+      "Black Currant",
+      "Apple"
+    ],
+    "baseNotes": [
+      "Labdanum",
+      "Tobacco",
+      "Pine"
+    ],
+    "description": "Fairly Grimm by En Bad Taste is a woody-fruity fragrance for women and men, launched in 2026 as a limited autumn edition. Created by Bunny, it opens with pepper and poppy, followed by violet, orris root, black currant and apple, over a base of labdanum, tobacco and pine.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148816.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 97
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 90
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 82
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 74
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 51
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 148816,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fairly Grimm",
+    "brandFa": "EN BAD TASTE",
+    "nameFa": "Fairly Grimm",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bunny",
+    "topNotesFa": [
+      "فلفل",
+      "Poppy"
+    ],
+    "middleNotesFa": [
+      "بنفشه",
+      "ریشه زنبق",
+      "توت سیاه",
+      "سیب"
+    ],
+    "baseNotesFa": [
+      "لابدانوم",
+      "تنباکو",
+      "کاج"
+    ],
+    "descriptionFa": "Fairly Grimm از برند En Bad Taste یک عطر چوبی-میوه‌ای برای زنان و مردان است که در سال 2026 به‌عنوان یک نسخه محدود پاییزی عرضه شد. این عطر که توسط Bunny ساخته شده است، با رایحه فلفل و خشخاش آغاز می‌شود و سپس رایحه‌های بنفشه، ریشه زنبق، انگور فرنگی سیاه و سیب را در بر می‌گیرد و در نهایت بر پایه لادن، تنباکو و کاج قرار می‌گیرد.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EN-BAD-TASTE/DULCE-CABANA-148815.html",
+    "extractedAt": "2026-11-26T09:57:47.347Z",
+    "name": "DULCE CABANA",
+    "brand": "EN BAD TASTE",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Bunny",
+    "topNotes": [
+      "Carnation",
+      "Mint"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Milk",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Cinnamon",
+      "White Musk"
+    ],
+    "description": "DULCE CABANA by EN BAD TASTE is an aromatic gourmand fragrance for women and men, launched in 2026 as a summer limited edition. Created by Bunny, it opens with carnation and mint, followed by orris butter, milk and Egyptian geranium, with a base of cinnamon and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148815.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 97
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 83
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 56
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 56
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 148815,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "DULCE CABANA",
+    "brandFa": "EN BAD TASTE",
+    "nameFa": "DULCE CABANA",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bunny",
+    "topNotesFa": [
+      "میخک",
+      "نعناع"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "شیر",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "دارچین",
+      "موش سفید"
+    ],
+    "descriptionFa": "DULCE CABANA از برند EN BAD TASTE یک عطر گورماند آروماتیک برای زنان و مردان است که در سال ۲۰۲۶ به‌عنوان یک نسخه محدود تابستانی عرضه شد. این عطر که توسط Bunny خلق شده است، با رایحه‌های میخک و نعناع آغاز می‌شود و سپس رایحه‌های کره زنبق، شیر و شمعدانی مصری به مشام می‌رسند و در نهایت رایحه‌های پایه شامل دارچین و مشک سفید هستند.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EN-BAD-TASTE/HOTEL-148814.html",
+    "extractedAt": "2026-11-26T09:57:52.281Z",
+    "name": "HOTEL",
+    "brand": "EN BAD TASTE",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Bunny",
+    "topNotes": [
+      "Gardenia",
+      "Hyacinth",
+      "Geranium"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Jasmine",
+      "Hedione"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Musk"
+    ],
+    "description": "HOTEL by EN BAD TASTE is a floral musk fragrance for women and men, launched in 2026. Created by perfumer Bunny, it opens with gardenia, hyacinth and geranium, followed by iris, jasmine and Hedione over a base of ambergris and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148814.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 80
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 55
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 50
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148814,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "HOTEL",
+    "brandFa": "EN BAD TASTE",
+    "nameFa": "HOTEL",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bunny",
+    "topNotesFa": [
+      "گاردنیا",
+      "هیاسینت",
+      "گل جعفری"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "یاسمن",
+      "Hedione"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "موش"
+    ],
+    "descriptionFa": "HOTEL از برند EN BAD TASTE یک عطر مشک‌دار گل‌دار برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد. این عطر که توسط عطرساز Bunny ساخته شده است، با رایحه‌های گاردنیا، سنبل و شمعدانی آغاز می‌شود و سپس رایحه‌های زنبق، یاس و هدیون بر پایه عنبر و مشک ظاهر می‌شوند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EN-BAD-TASTE/Coquette-Reds-148813.html",
+    "extractedAt": "2026-11-26T09:57:57.056Z",
+    "name": "Coquette Reds",
+    "brand": "EN BAD TASTE",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Bunny",
+    "topNotes": [
+      "Pink Pepper",
+      "Cherry",
+      "Pepper",
+      "Timur"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Black Currant",
+      "Black Pepper"
+    ],
+    "baseNotes": [
+      "Berries",
+      "Ambergris",
+      "Musk"
+    ],
+    "description": "Coquette Reds by EN BAD TASTE is a spicy fruity fragrance for women and men, launched in 2026 and created by Bunny. It opens with pink pepper, cherry and Timur pepper, followed by jasmine, black currant and black pepper over a base of dark berries, ambergris and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148813.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 95
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 52
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148813,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coquette Reds",
+    "brandFa": "EN BAD TASTE",
+    "nameFa": "Coquette Reds",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bunny",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "گیلاس",
+      "فلفل",
+      "Timur"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "توت سیاه",
+      "فلفل سیاه"
+    ],
+    "baseNotesFa": [
+      "Berries",
+      "کهربا خاکستری",
+      "موش"
+    ],
+    "descriptionFa": "Coquette Reds از برند EN BAD TASTE یک عطر تند و میوه‌ای برای خانم‌ها و آقایان است که در سال ۲۰۲۶ عرضه شد و توسط Bunny ساخته شده است. این عطر با فلفل صورتی، گیلاس و فلفل تیمور آغاز می‌شود و سپس رایحه‌های یاس، انگور فرنگی سیاه و فلفل سیاه بر روی پایه‌ای از توت‌های تیره، عنبر و مشک قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/EN-BAD-TASTE/Spilled-Milk-148812.html",
+    "extractedAt": "2026-11-26T09:58:03.120Z",
+    "name": "Spilled Milk",
+    "brand": "EN BAD TASTE",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Bunny",
+    "topNotes": [
+      "Osmanthus",
+      "Apricot",
+      "Butter"
+    ],
+    "middleNotes": [
+      "Powdery Notes",
+      "Iris",
+      "Salt",
+      "Ambroxan"
+    ],
+    "baseNotes": [
+      "Milk",
+      "Black Pepper",
+      "White Musk"
+    ],
+    "description": "Spilled Milk by EN BAD TASTE is a milky gourmand fragrance for women and men, launched in 2026 and created by Bunny. It opens with osmanthus, apricot and butter, followed by powdery notes, iris, salt and ambroxan over a base of milk, black pepper and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148812.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 83
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 67
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 42
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 148812,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spilled Milk",
+    "brandFa": "EN BAD TASTE",
+    "nameFa": "Spilled Milk",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bunny",
+    "topNotesFa": [
+      "اسمانتوس",
+      "زردآلو",
+      "کره"
+    ],
+    "middleNotesFa": [
+      "نت‌های پودری",
+      "زنبق",
+      "نمک",
+      "آمبروکسان"
+    ],
+    "baseNotesFa": [
+      "شیر",
+      "فلفل سیاه",
+      "موش سفید"
+    ],
+    "descriptionFa": "Spilled Milk از برند EN BAD TASTE یک عطر شیرین و شیرمانند برای خانم‌ها و آقایان است که در سال 2026 عرضه شد و توسط Bunny ساخته شده است. این عطر با رایحه‌های اوسمانتوس، زردآلو و کره آغاز می‌شود و سپس رایحه‌های پودری، زنبق، نمک و آمبروکسان بر روی پایه‌ای از شیر، فلفل سیاه و مشک سفید قرار می‌گیرند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Petals-Poison/Phantom-of-the-Ballet-148811.html",
+    "extractedAt": "2026-11-26T09:58:09.345Z",
+    "name": "Phantom of the Ballet",
+    "brand": "Petals & Poison",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jená Bhone",
+    "topNotes": [
+      "Almond",
+      "Heliotrope"
+    ],
+    "middleNotes": [
+      "Magnolia",
+      "White Iris"
+    ],
+    "baseNotes": [
+      "Orris Root",
+      "Tobacco",
+      "Paper"
+    ],
+    "description": "Phantom of the Ballet by Petals & Poison is a woody floral fragrance for women and men, created by Jená Bhone. Almond and heliotrope form the opening, followed by magnolia and white iris over a base of woody notes, orris root, tobacco and red rosin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148811.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 75
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 50
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148811,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Phantom of the Ballet",
+    "brandFa": "Petals & Poison",
+    "nameFa": "Phantom of the Ballet",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jená Bhone",
+    "topNotesFa": [
+      "بادام",
+      "گل هلیوتروپ"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "White Iris"
+    ],
+    "baseNotesFa": [
+      "ریشه زنبق",
+      "تنباکو",
+      "Paper"
+    ],
+    "descriptionFa": "Phantom of the Ballet از برند Petals & Poison یک عطر چوبی-گل‌دار برای زنان و مردان است که توسط جنا بون ساخته شده است. بادام و هلیوتروپ نت‌های آغازین را تشکیل می‌دهند، سپس مگنولیا و زنبق سفید بر روی پایه‌ای از نت‌های چوبی، ریشه زنبق، تنباکو و رزین قرمز قرار می‌گیرند.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Petals-Poison/Lucerna-Velata-148810.html",
+    "extractedAt": "2026-11-26T09:58:15.868Z",
+    "name": "Lucerna Velata",
+    "brand": "Petals & Poison",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jená Bhone",
+    "topNotes": [
+      "Timur",
+      "Geranium",
+      "Magnolia",
+      "Ambergris"
+    ],
+    "middleNotes": [
+      "Jasmine Sambac",
+      "Orris Root"
+    ],
+    "baseNotes": [
+      "Iris",
+      "Musk",
+      "Powdery Notes"
+    ],
+    "description": "Lucerna Velata by Petals & Poison is a Floral Woody Musk fragrance for women and men, launched in 2026 and created by Jená Bhone. It opens with timur, geranium, magnolia and ambergris, followed by jasmine sambac and orris root, over a base of blue iris, musk and powdery notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148810.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148810,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lucerna Velata",
+    "brandFa": "Petals & Poison",
+    "nameFa": "Lucerna Velata",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jená Bhone",
+    "topNotesFa": [
+      "Timur",
+      "گل جعفری",
+      "ماگنولیا",
+      "کهربا خاکستری"
+    ],
+    "middleNotesFa": [
+      "Jasmine Sambac",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "زنبق",
+      "موش",
+      "نت‌های پودری"
+    ],
+    "descriptionFa": "Lucerna Velata از برند Petals & Poison یک عطر گل‌دار، چوبی و مشکی برای زنان و مردان است که در سال 2026 عرضه شد و توسط جنا بون (Jená Bhone) ساخته شد. این عطر با رایحه‌های فلفل تیمور، شمعدانی، ماگنولیا و عنبر سائل آغاز می‌شود، سپس رایحه‌های یاس سامباک و ریشه زنبق وحشی به مشام می‌رسند و در نهایت رایحه‌های پایه زنبق آبی، مشک و نت‌های پودری حس می‌شوند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Petals-Poison/Purgatory-Gardens-148809.html",
+    "extractedAt": "2026-11-26T09:58:21.068Z",
+    "name": "Purgatory Gardens",
+    "brand": "Petals & Poison",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jená Bhone",
+    "topNotes": [
+      "Peach",
+      "Moss",
+      "Fog"
+    ],
+    "middleNotes": [
+      "Orchid",
+      "Cassia",
+      "Wild Strawberry",
+      "Ambroxan"
+    ],
+    "baseNotes": [
+      "Pollen",
+      "Melon",
+      "Skin musk"
+    ],
+    "description": "Purgatory Gardens by Petals & Poison is a floral fruity fragrance with green facets for women and men, launched in 2026. It opens with peach, moss and fog, followed by orchid, cassia, wild strawberry and ambroxan, over a base of pollen, melon and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148809.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 87
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 38
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148809,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Purgatory Gardens",
+    "brandFa": "Petals & Poison",
+    "nameFa": "Purgatory Gardens",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jená Bhone",
+    "topNotesFa": [
+      "هلو",
+      "خزه",
+      "Fog"
+    ],
+    "middleNotesFa": [
+      "Orchid",
+      "دارچین چینی",
+      "Wild Strawberry",
+      "آمبروکسان"
+    ],
+    "baseNotesFa": [
+      "Pollen",
+      "خربزه",
+      "Skin musk"
+    ],
+    "descriptionFa": "Purgatory Gardens از برند Petals & Poison یک عطر میوه‌ای-گل‌دار با جلوه‌های سبز برای خانم‌ها و آقایان است که در سال 2026 عرضه شد. این عطر با رایحه‌های هلو، خزه و مه آغاز می‌شود، سپس رایحه‌های ارکیده، دارچین، توت‌فرنگی وحشی و آمبروکسان به مشام می‌رسند و در نهایت رایحه‌های گرده، طالبی و مشک به عنوان رایحه‌های پایه حس می‌شوند.",
+    "seasons": [
+      "autumn",
+      "spring",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "پاییز",
+      "بهار",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Petals-Poison/Curiouser-148808.html",
+    "extractedAt": "2026-11-26T09:58:26.501Z",
+    "name": "Curiouser",
+    "brand": "Petals & Poison",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jená Bhone",
+    "topNotes": [
+      "Bergamot",
+      "Black Pepper",
+      "White Rose",
+      "Tea"
+    ],
+    "middleNotes": [
+      "Orris",
+      "Powdery Notes",
+      "Green Notes",
+      "Tea Cream"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Iris",
+      "Buttercream"
+    ],
+    "description": "Curiouser by Petals & Poison is a floral gourmand fragrance for women and men, launched in 2026. It opens with bergamot, black pepper, white rose and English breakfast tea, followed by orris butter, tea cream and powdery green notes over a base of musk, iris and buttercream.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148808.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 71
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 38
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148808,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Curiouser",
+    "brandFa": "Petals & Poison",
+    "nameFa": "Curiouser",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jená Bhone",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل سیاه",
+      "White Rose",
+      "چای"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "نت‌های پودری",
+      "نت‌های سبز",
+      "Tea Cream"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "زنبق",
+      "Buttercream"
+    ],
+    "descriptionFa": "Curiouser از برند Petals & Poison یک عطر گلی گورمند برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد. این عطر با رایحه‌های ترنج، فلفل سیاه، گل رز سفید و چای صبحانه انگلیسی آغاز می‌شود و سپس رایحه‌های کره زنبق، کرم چای و نت‌های سبز پودری بر پایه مشک، زنبق و کرم کره ظاهر می‌شوند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Petals-Poison/The-Velvet-Caterpillar-148807.html",
+    "extractedAt": "2026-11-26T09:58:32.979Z",
+    "name": "The Velvet Caterpillar",
+    "brand": "Petals & Poison",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jená Bhone",
+    "topNotes": [
+      "Bergamot",
+      "Orange Peel",
+      "Mint Tea",
+      "Chamomile"
+    ],
+    "middleNotes": [
+      "Suede",
+      "Violet",
+      "Ash",
+      "Cashmere Wood",
+      "Rain Notes",
+      "Mushroom"
+    ],
+    "baseNotes": [
+      "Orris Root",
+      "Fig",
+      "Amber",
+      "White Musk",
+      "Palisander Rosewood"
+    ],
+    "description": "The Velvet Caterpillar by Petals & Poison is a woody aromatic fragrance for women and men, launched in 2026 and created by Jená Bhone. It opens with blue chamomile, bergamot, orange peel and Moroccan mint tea, followed by suede, violet, ash, cashmere wood, rain and mushroom, over a base of orris root, fig, rosewood, amber and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148807.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 85
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 79
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 51
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 43
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 148807,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Velvet Caterpillar",
+    "brandFa": "Petals & Poison",
+    "nameFa": "The Velvet Caterpillar",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jená Bhone",
+    "topNotesFa": [
+      "برگاموت",
+      "Orange Peel",
+      "Mint Tea",
+      "بابونه"
+    ],
+    "middleNotesFa": [
+      "چرم جیر",
+      "بنفشه",
+      "Ash",
+      "Cashmere Wood",
+      "Rain Notes",
+      "قارچ"
+    ],
+    "baseNotesFa": [
+      "ریشه زنبق",
+      "انجیر",
+      "کهربا",
+      "موش سفید",
+      "Palisander Rosewood"
+    ],
+    "descriptionFa": "The Velvet Caterpillar از برند Petals & Poison یک عطر چوبی معطر برای زنان و مردان است که در سال 2026 عرضه شد و توسط جنا بون ساخته شده است. این عطر با رایحه‌های بابونه آبی، ترنج، پوست پرتقال و چای نعناع مراکشی آغاز می‌شود، سپس رایحه‌های جیر، بنفشه، خاکستر، چوب کشمیر، باران و قارچ به مشام می‌رسند و در نهایت رایحه‌های ریشه زنبق، انجیر، چوب گل سرخ، عنبر و مشک سفید به عنوان رایحه‌های پایه حس می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Petals-Poison/Brine-Bone-148806.html",
+    "extractedAt": "2026-11-26T09:58:39.837Z",
+    "name": "Brine & Bone",
+    "brand": "Petals & Poison",
+    "family": "Woody Aquatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jená Bhone",
+    "topNotes": [
+      "Sea Salt",
+      "Moss",
+      "Ozonic notes",
+      "Eucalyptus",
+      "Pepper",
+      "Algae"
+    ],
+    "middleNotes": [
+      "Orris Root",
+      "Grass",
+      "Freesia",
+      "Labdanum",
+      "Lavender",
+      "Mint"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Cedar",
+      "Juniper",
+      "Earthy Notes",
+      "Smoke",
+      "Musk"
+    ],
+    "description": "Brine & Bone by Petals & Poison is a woody aquatic fragrance for women and men, launched in 2026. It opens with sea salt, kelp, moss, ozonic notes, peppercorn and eucalyptus, followed by orris root, grass, freesia, labdanum, lavender and mint, over a base of patchouli, cedar, juniper, earthy notes, smoke and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148806.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 65
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 65
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 62
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148806,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Brine & Bone",
+    "brandFa": "Petals & Poison",
+    "nameFa": "Brine & Bone",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jená Bhone",
+    "topNotesFa": [
+      "نمک دریا",
+      "خزه",
+      "Ozonic notes",
+      "اوکالیپتوس",
+      "فلفل",
+      "جلبک"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "علف",
+      "فریزیا",
+      "لابدانوم",
+      "اسطوخودوس",
+      "نعناع"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "سرو",
+      "عرعر",
+      "Earthy Notes",
+      "دود",
+      "موش"
+    ],
+    "descriptionFa": "Brine & Bone از برند Petals & Poison یک عطر چوبی دریایی برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد. این عطر با رایحه‌های نمک دریا، جلبک دریایی، خزه، نت‌های ازونی، دانه‌های فلفل و اکالیپتوس آغاز می‌شود، سپس رایحه‌های ریشه زنبق، علف، فریزا، لادن، اسطوخودوس و نعناع به مشام می‌رسد و در نهایت رایحه‌های پایه شامل نعناع هندی، سرو، عرعر، نت‌های خاکی، دود و مشک حس می‌شود.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Loewe/Iris-Root-117174.html",
+    "extractedAt": "2026-11-26T09:58:47.422Z",
+    "name": "Iris Root",
+    "brand": "Loewe",
+    "family": "Floral Woody Musk",
+    "gender": "women and men. This is a new fragrance. <b>Iris Root</b> was launched in 2025. The nose behind this fragrance is Nuria Cruelles. Top notes are Timur and Angelica; middle notes are Orris Root and Iris; </p><div v-pre class='fragrantica-blockquote'><p>Iris Root explores the hidden beauty of the iris rhizome, known for its creamy smoothness and poised elegance. The fragrance captures the powdery, nuanced character of iris root with an unexpected vibrancy. Angelica seed contributes a soft herbality to the composition, while Timut pepper (a variety of Nepalese Sichuan pepper) introduces a sparkling lift with its citrusy, grapefruit-like accord that echoes the blooming freshness of the iris. The result is a composition of texture and contrast: creamy yet unexpectedly vibrant, with a delicate powdery quality that elevates the natural warmth of skin. The fragrance is housed in a sculptural handblown glass vessel featuring naturally formed bubbles and topped with a tactile granite cap, reflecting the collection's dedication to artisanal craft",
+    "year": 2025,
+    "perfumer": "Nuria Cruelles",
+    "description": "Iris Root explores the hidden beauty of the iris rhizome, known for its creamy smoothness and poised elegance. The fragrance captures the powdery, nuanced character of iris root with an unexpected vibrancy. Angelica seed contributes a soft herbality to the composition, while Timut pepper (a variety of Nepalese Sichuan pepper) introduces a sparkling lift with its citrusy, grapefruit-like accord that echoes the blooming freshness of the iris. The result is a composition of texture and contrast: creamy yet unexpectedly vibrant, with a delicate powdery quality that elevates the natural warmth of skin. The fragrance is housed in a sculptural handblown glass vessel featuring naturally formed bubbles and topped with a tactile granite cap, reflecting the collection's dedication to artisanal craft.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117174.jpg",
+    "rating": 4.12,
+    "ratingVotes": 153,
+    "accords": [
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 71
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 25
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 19
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 18
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 117174,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Iris Root",
+    "brandFa": "Loewe",
+    "nameFa": "Iris Root",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women and men. This is a new fragrance. <b>Iris Root</b> was launched in 2025. The nose behind this fragrance is Nuria Cruelles. Top notes are Timur and Angelica; middle notes are Orris Root and Iris; </p><div v-pre class='fragrantica-blockquote'><p>Iris Root explores the hidden beauty of the iris rhizome, known for its creamy smoothness and poised elegance. The fragrance captures the powdery, nuanced character of iris root with an unexpected vibrancy. Angelica seed contributes a soft herbality to the composition, while Timut pepper (a variety of Nepalese Sichuan pepper) introduces a sparkling lift with its citrusy, grapefruit-like accord that echoes the blooming freshness of the iris. The result is a composition of texture and contrast: creamy yet unexpectedly vibrant, with a delicate powdery quality that elevates the natural warmth of skin. The fragrance is housed in a sculptural handblown glass vessel featuring naturally formed bubbles and topped with a tactile granite cap, reflecting the collection's dedication to artisanal craft",
+    "perfumerFa": "Nuria Cruelles",
+    "descriptionFa": "Iris Root زیبایی پنهان ریزوم زنبق را آشکار می‌کند که به لطافت کرمی و ظرافت متوازن خود معروف است. این عطر، ویژگی پودری و ظریف ریشه زنبق را با طراوتی غیرمنتظره به تصویر می‌کشد. دانه گیاه گلرنگ به این ترکیب رایحه‌ای گیاهی ملایم می‌بخشد، در حالی که فلفل تیموت (نوعی فلفل سیچوان نپالی) با رایحه مرکباتی و شبیه به گریپ‌فروت خود که طراوت شکوفه‌های زنبق را تداعی می‌کند، طراوتی درخشان به آن می‌افزاید.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gulf-Orchid/Diwan-96180.html",
+    "extractedAt": "2026-11-26T09:58:53.762Z",
+    "name": "Diwan",
+    "brand": "Gulf Orchid",
+    "family": "Woody Aquatic",
+    "gender": "women and men. <b>Diwan</b> was launched during the 2020's. Top notes are Lemon, Water Notes and Coconut; middle notes are Lily of the Valley, Violet and Anise; base notes are Musk, Dry Wood, Cedarwood, Sandalwood and Vanilla",
+    "topNotes": [
+      "Lemon",
+      "Water Notes",
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Violet",
+      "Anise"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Dry Wood",
+      "Cedarwood",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "Diwan Eau de Parfum is a unisex fragrance with a sharp and bold edge, inspired by the ancient city of Diwan. It captures the elegance and luxury of the oriental Arab civilization.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96180.jpg",
+    "rating": 3.38,
+    "ratingVotes": 40,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 84
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 73
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 58
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 58
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 96180,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Diwan",
+    "brandFa": "Gulf Orchid",
+    "nameFa": "Diwan",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "women and men. <b>Diwan</b> was launched during the 2020's. Top notes are Lemon, Water Notes and Coconut; middle notes are Lily of the Valley, Violet and Anise; base notes are Musk, Dry Wood, Cedarwood, Sandalwood and Vanilla",
+    "topNotesFa": [
+      "لیمو",
+      "Water Notes",
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "بنفشه",
+      "انیسون"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب خشک",
+      "چوب سرو",
+      "چوب صندل",
+      "وانیل"
+    ],
+    "descriptionFa": "ادو پرفیوم دیوان یک عطر یونیسکس با رایحه‌ای تند و جسورانه است که از شهر باستانی دیوان الهام گرفته شده است. این عطر، جلوه‌ای از ظرافت و تجمل تمدن عربی شرقی است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Frederic-Malle-Editions-de-Parfums/Musc-Ravageur-1801.html",
+    "extractedAt": "2026-11-26T09:58:58.978Z",
+    "name": "Musc Ravageur",
+    "brand": "Frederic Malle Editions de Parfums",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2000,
+    "perfumer": "Maurice Roucel",
+    "topNotes": [
+      "Lavender",
+      "Tangerine",
+      "Bergamot",
+      "Coriander",
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Cloves",
+      "Orris Root",
+      "Rose",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Tonka Bean",
+      "Amber",
+      "Sandalwood",
+      "Guaiac Wood",
+      "Cedar",
+      "Animal notes",
+      "Patchouli"
+    ],
+    "description": "Musc Ravageur by Frederic Malle is a Oriental fragrance for women and men. Musk Ravageur was launched in 2000. The nose behind this fragrance is Maurice Roucel. Top notes are lavender and bergamot; middle notes are cinnamon and cloves; base notes are sandalwood, tonka bean, vanilla, guaiac wood and cedar.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1801.jpg",
+    "rating": 4.19,
+    "ratingVotes": 10737,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 64
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 48
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 1801,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Musc Ravageur",
+    "brandFa": "Frederic Malle Editions de Parfums",
+    "nameFa": "Musc Ravageur",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Maurice Roucel",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "تانجرین",
+      "برگاموت",
+      "گشنیز",
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "Cloves",
+      "ریشه زنبق",
+      "گل رز",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "لوبیا تونکا",
+      "کهربا",
+      "چوب صندل",
+      "چوب گوئیک",
+      "سرو",
+      "Animal notes",
+      "پچولی"
+    ],
+    "descriptionFa": "Musc Ravageur از برند فردریک مال یک عطر شرقی برای زنان و مردان است. Musk Ravageur در سال 2000 عرضه شد. عطار این عطر موریس روسل است. نت‌های اولیه اسطوخودوس و ترنج هستند؛ نت‌های میانی دارچین و میخک هستند؛ نت‌های پایه چوب صندل، دانه‌ی تونکا، وانیل، چوب گوایاک و سرو هستند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/Kimono-100500.html",
+    "extractedAt": "2026-11-26T09:59:04.973Z",
+    "name": "Kimono",
+    "brand": "d'Annam",
+    "family": "Floral",
+    "gender": "women. <b>Kimono</b> was launched in 2024. The nose behind this fragrance is Anh Ngo. The fragrance features Powdery Notes, Magnolia, Lipstick, Rice, Silk and Flour",
+    "year": 2024,
+    "perfumer": "Anh Ngo",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.100500.jpg",
+    "rating": 3.87,
+    "ratingVotes": 609,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 33
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 26
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 24
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 17
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 17
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 100500,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kimono",
+    "brandFa": "d'Annam",
+    "nameFa": "Kimono",
+    "familyFa": "گلی",
+    "genderFa": "women. <b>Kimono</b> was launched in 2024. The nose behind this fragrance is Anh Ngo. The fragrance features Powdery Notes, Magnolia, Lipstick, Rice, Silk and Flour",
+    "perfumerFa": "Anh Ngo",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Elie-Saab/L-Homme-103457.html",
+    "extractedAt": "2026-11-26T09:59:09.492Z",
+    "name": "L'Homme",
+    "brand": "Elie Saab",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Pierre-Constantin Guéros",
+    "topNotes": [
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vetiver",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Patchouli"
+    ],
+    "description": "L'Homme by Elie Saab is a new fragrance for men, launched in 2025 and marketed by Give Back Beauty. The scent is crafted by perfumer Pierre-Constantin Guéros, featuring a blend of fresh and woody notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103457.jpg",
+    "rating": 3.73,
+    "ratingVotes": 279,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 35
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 32
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 103457,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Homme",
+    "brandFa": "Elie Saab",
+    "nameFa": "L'Homme",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Pierre-Constantin Guéros",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "وتیور",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "پچولی"
+    ],
+    "descriptionFa": "L'Homme از برند Elie Saab یک عطر جدید مردانه است که در سال 2025 عرضه شده و توسط Give Back Beauty به بازار عرضه می‌شود. این عطر توسط عطرساز پیر-کنستانتین گرو ساخته شده و ترکیبی از رایحه‌های تازه و چوبی است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/d-Annam/Matcha-Soft-Serve-100496.html",
+    "extractedAt": "2026-11-26T09:59:15.451Z",
+    "name": "Matcha Soft Serve",
+    "brand": "d'Annam",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. <b>Matcha Soft Serve</b> was launched in 2024. The nose behind this fragrance is Anh Ngo. The fragrance features Matcha Tea, Milk, Vanilla and Cone Waffle",
+    "year": 2024,
+    "perfumer": "Anh Ngo",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.100496.jpg",
+    "rating": 3.81,
+    "ratingVotes": 1160,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 99
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 59
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 18
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 13
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 9
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 100496,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Matcha Soft Serve",
+    "brandFa": "d'Annam",
+    "nameFa": "Matcha Soft Serve",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. <b>Matcha Soft Serve</b> was launched in 2024. The nose behind this fragrance is Anh Ngo. The fragrance features Matcha Tea, Milk, Vanilla and Cone Waffle",
+    "perfumerFa": "Anh Ngo",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Classique-427.html",
+    "extractedAt": "2026-11-26T09:59:19.185Z",
+    "name": "Classique",
+    "brand": "Jean Paul Gaultier",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 1993,
+    "perfumer": "Jacques Cavallier Belletrud",
+    "topNotes": [
+      "Orange Blossom",
+      "Star Anise",
+      "Rose",
+      "Mandarin Orange",
+      "Pear",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Ginger",
+      "Orchid",
+      "Tuberose",
+      "Iris",
+      "Plum"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Musk",
+      "Cinnamon",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.427.jpg",
+    "rating": 3.92,
+    "ratingVotes": 12757,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 97
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 96
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 81
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 60
+      },
+      {
+        "nameEn": "anis",
+        "nameFa": "anis",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 427,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Classique",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "Classique",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jacques Cavallier Belletrud",
+    "topNotesFa": [
+      "گل پرتقال",
+      "انیسون ستاره‌ای",
+      "گل رز",
+      "نارنگی",
+      "گلابی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "زنجبیل",
+      "Orchid",
+      "گل شیپور",
+      "زنبق",
+      "آلو"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "موش",
+      "دارچین",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Crivelli/Oud-Maracuja-83842.html",
+    "extractedAt": "2026-11-26T09:59:23.440Z",
+    "name": "Oud Maracujá",
+    "brand": "Maison Crivelli",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Passionfruit",
+      "Fruity Notes",
+      "Saffron",
+      "Turkish Rose"
+    ],
+    "middleNotes": [
+      "Agarwood (Oud)",
+      "Benzoin",
+      "Indonesian Patchouli Leaf"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Akigalawood",
+      "Amber",
+      "Vanilla",
+      "Labdanum"
+    ],
+    "description": "<strong>The experience</strong>: a passion fruit tasting in remote oud wood forests.</p> <p><strong>The surprising contrast</strong>: the richness of oud wood, contrasted by exotic and luminous passion fruit notes.</p> <p><strong>Fragrance family</strong>: exotic, woody and fruity (vegan).</p> <p><strong>Key raw materials</strong>: passion fruit accord, saffron, rose absolute from Turkey ORPUR, oud accord, benzoin from Laos ORPUR, cistus absolute from Spain ORPUR, leather accord, patchouli oil from Indonesia ORPUR, vanilla, akigalawood.</p> <p>The ORPUR label brings together the finest natural perfume ingredients from the Givaudan perfume house.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83842.jpg",
+    "rating": 4.15,
+    "ratingVotes": 6230,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 97
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 68
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 54
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 48
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 83842,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Maracujá",
+    "brandFa": "مزون کریولی",
+    "nameFa": "Oud Maracujá",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "Passionfruit",
+      "Fruity Notes",
+      "زعفران",
+      "گل رز ترکی"
+    ],
+    "middleNotesFa": [
+      "Agarwood (Oud)",
+      "بنزوئین",
+      "Indonesian Patchouli Leaf"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "Akigalawood",
+      "کهربا",
+      "وانیل",
+      "لابدانوم"
+    ],
+    "descriptionFa": "<strong>تجربه</strong>: طعم میوه گل‌ساعتی در جنگل‌های دورافتاده چوب عود.</p> <p><strong>تضاد شگفت‌انگیز</strong>: غنای چوب عود، در تضاد با نت‌های میوه گل‌شور اگزوتیک و درخشان.</p> <p><strong>گروه رایحه</strong>: اگزوتیک، چوبی و میوه‌ای (وگان).</p> <p><strong>مواد اولیه اصلی: ترکیب</strong> میوه گل‌ساعتی، زعفران، عصاره خالص گل رز از ترکیه ORPUR، ترکیب عود، بنزوئین از لائوس ORPUR، عصاره خالص گل‌سرخ",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Burberry/Goddess-Amber-Vanilla-136709.html",
+    "extractedAt": "2026-11-26T09:59:29.896Z",
+    "name": "Goddess Amber Vanilla",
+    "brand": "Burberry",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Maple syrup",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Vanilla Absolute",
+      "Vanilla",
+      "Vanilla Caviar"
+    ],
+    "baseNotes": [
+      "Amber"
+    ],
+    "description": "Goddess Amber Vanilla by Burberry is a 2026 fragrance for women from the Goddess collection. It offers a deeper, sweeter interpretation of the line, opening with lavender and a maple syrup accord, moving into a vanilla-centered heart of vanilla infusion, vanilla caviar, vanilla absolute, and roasted vanilla, before settling into a warm amber base.</p> <p>It is available in Eau de Parfum Intense concentration.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136709.jpg",
+    "rating": 3.91,
+    "ratingVotes": 874,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 38
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 29
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 13
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 12
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 136709,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Goddess Amber Vanilla",
+    "brandFa": "بربری",
+    "nameFa": "Goddess Amber Vanilla",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Maple syrup",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "Vanilla Absolute",
+      "وانیل",
+      "Vanilla Caviar"
+    ],
+    "baseNotesFa": [
+      "کهربا"
+    ],
+    "descriptionFa": "Goddess Amber Vanilla از برند Burberry یک عطر زنانه از مجموعه Goddess است که در سال ۲۰۲۶ عرضه می‌شود. این عطر تفسیر عمیق‌تر و شیرین‌تری از این مجموعه ارائه می‌دهد و با رایحه اسطوخودوس و ترکیبی از شربت افرا آغاز می‌شود، سپس به رایحه میانی مبتنی بر وانیل شامل عصاره وانیل، خاویار وانیل، عصاره خالص وانیل و وانیل برشته‌شده می‌رسد و در نهایت در رایحه پایه کهربایی گرم قرار می‌گیرد.</p> <p>این عطر در غلظت ادو پرفیوم اینتنس عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ex-Nihilo/Blue-Talisman-84224.html",
+    "extractedAt": "2026-11-26T09:59:36.081Z",
+    "name": "Blue Talisman",
+    "brand": "Ex Nihilo",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Pear",
+      "Bergamot",
+      "Mandarin Orange",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Georgywood"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambrofix™",
+      "Akigalawood",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84224.jpg",
+    "rating": 4.16,
+    "ratingVotes": 6726,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 59
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 46
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 84224,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Talisman",
+    "brandFa": "اِکس نیهیلو",
+    "nameFa": "Blue Talisman",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت",
+      "نارنگی",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Georgywood"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Ambrofix™",
+      "Akigalawood",
+      "سرو"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lush/Alina-107555.html",
+    "extractedAt": "2026-11-26T09:59:39.478Z",
+    "name": "Alina",
+    "brand": "Lush",
+    "family": "Oriental",
+    "gender": "women and men. <b>Alina</b> was launched in 2024. The fragrance features Bergamot, Cloves, Patchouli and Vanilla",
+    "year": 2024,
+    "perfumer": "Lush perfumer of the same name, who was inspired by the generations of women that came before her",
+    "description": "Alina was created by Lush perfumer of the same name, who was inspired by the generations of women that came before her. Alina created three distinct fragrances, each one representing a different generation born in the last 100 years, before blending them together to create a multi-layered and timeless scent. She named the fragrance Alina – a name given to her by her grandmother.</p> <p>You'll be greeted with a sweet and fresh first impression, thanks to Alina's bergamot, pink pepper and clove bud oil, along with warm amber and vanilla. Then comes a more floral, sweet, and powdery centre with jasmine and orris butter, before finally an undercurrent of olibanum and patchouli leave a deep and woody lasting impact.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107555.jpg",
+    "rating": 4.04,
+    "ratingVotes": 27,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 76
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 23
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 107555,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alina",
+    "brandFa": "لاش",
+    "nameFa": "Alina",
+    "familyFa": "شرقی",
+    "genderFa": "women and men. <b>Alina</b> was launched in 2024. The fragrance features Bergamot, Cloves, Patchouli and Vanilla",
+    "perfumerFa": "Lush perfumer of the same name, who was inspired by the generations of women that came before her",
+    "descriptionFa": "Alina توسط عطرساز Lush که هم‌نام این عطر است، ساخته شد. او از نسل‌های زنان قبل از خود الهام گرفته بود. آلینا سه عطر متمایز ایجاد کرد که هر کدام نشان‌دهنده یک نسل متفاوت متولد شده در 100 سال گذشته هستند، سپس آنها را با هم ترکیب کرد تا عطری چندلایه و جاودانه ایجاد کند. او نام این عطر را آلینا گذاشت - نامی که مادربزرگش به او داده بود.</p> <p>اولین بویی که به مشام شما می‌رسد، شیرین و تازه است،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
