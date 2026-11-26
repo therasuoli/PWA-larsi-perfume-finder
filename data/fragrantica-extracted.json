@@ -125195,5 +125195,1219 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Pomares-Stolen-Perfume/Chekhov-s-Garden-148865.html",
+    "extractedAt": "2026-11-26T23:44:46.909Z",
+    "name": "Chekhov's Garden",
+    "brand": "Pomares Stolen Perfume",
+    "family": "Floral Fruity",
+    "gender": "women and men. This is a new fragrance. <b>Chekhov's Garden</b> was launched in 2025. The nose behind this fragrance is Rachel Binder. The fragrance features Peach, Peach Blossom, Cherry, Cherry Blossom, Apple, Apple Blossom, Mandarin Orange, Mandarin Orange Blossom, Petitgrain, Green Notes, Rose, Peony, Hyacinth, Iris, Sweet Pea, Violet, Mimosa, Birch, Cypress, Oak, Maple and Orris Root",
+    "year": 2025,
+    "perfumer": "Rachel Binder",
+    "description": "Chekhov's Garden by Pomare's Stolen Perfume is a natural fragrance inspired by the plants cultivated in Anton Chekhov's garden at his White Dacha. Made with botanical extractions, it combines orchard fruits and their blossoms with green notes, flowers, orris and woods.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148865.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 37
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 32
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148865,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chekhov's Garden",
+    "brandFa": "Pomares Stolen Perfume",
+    "nameFa": "Chekhov's Garden",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. This is a new fragrance. <b>Chekhov's Garden</b> was launched in 2025. The nose behind this fragrance is Rachel Binder. The fragrance features Peach, Peach Blossom, Cherry, Cherry Blossom, Apple, Apple Blossom, Mandarin Orange, Mandarin Orange Blossom, Petitgrain, Green Notes, Rose, Peony, Hyacinth, Iris, Sweet Pea, Violet, Mimosa, Birch, Cypress, Oak, Maple and Orris Root",
+    "perfumerFa": "Rachel Binder",
+    "descriptionFa": "Chekhov's Garden از مجموعه Stolen Perfume برند Pomare یک عطر طبیعی است که از گیاهان کشت‌شده در باغ آنتون چخوف در ویلای سفید او الهام گرفته شده است. این عطر که با عصاره‌های گیاهی ساخته شده است، میوه‌های باغ و شکوفه‌های آنها را با رایحه‌های سبز، گل‌ها، زنبق و چوب ترکیب می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/French-Avenue/Ravine-Ice-122272.html",
+    "extractedAt": "2026-11-26T23:44:53.274Z",
+    "name": "Ravine Ice",
+    "brand": "French Avenue",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Geranium"
+    ],
+    "middleNotes": [
+      "Salt",
+      "Sage",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Moss",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122272.jpg",
+    "rating": 4.27,
+    "ratingVotes": 482,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 86
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 49
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 49
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 122272,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ravine Ice",
+    "brandFa": "French Avenue",
+    "nameFa": "Ravine Ice",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "لیمو",
+      "گل جعفری"
+    ],
+    "middleNotesFa": [
+      "نمک",
+      "مریم‌گلی",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "خزه",
+      "سرو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Oud-Wood-Parfum-89988.html",
+    "extractedAt": "2026-11-26T23:44:56.678Z",
+    "name": "Oud Wood Parfum",
+    "brand": "Tom Ford",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "Pink Pepper",
+      "Rosemary"
+    ],
+    "middleNotes": [
+      "Agarwood (Oud)",
+      "Sandalwood",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka",
+      "Amber"
+    ],
+    "description": "TOM FORD BEAUTY will release the new fragrance from the Private Blend collection, the new edition of Oud Wood Eau de Parfum from 2007, called Oud Wood Parfum in March 2024.</p> <p>Oud Wood is enriched with fresh spices of cardamom and pink pepper, mixing with the essence of rosewood. Various woods including intense patchouli, sandalwood, vetiver, and oud are icombined into the underlying tones of amber, tonka bean absolute, and vanilla.</p> <p>The sleek and sophisticated bottle, emblematic of Private Blend, is adorned in black paint and embellished with a platinum-colored plaque. Offered in 50ml bottles.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89988.jpg",
+    "rating": 4.17,
+    "ratingVotes": 636,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 99
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 75
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 62
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 53
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 41
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 89988,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Oud Wood",
+    "brandFa": "تام فورد",
+    "nameFa": "Oud Wood Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "هل",
+      "فلفل صورتی",
+      "رزماری"
+    ],
+    "middleNotesFa": [
+      "Agarwood (Oud)",
+      "چوب صندل",
+      "پچولی",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Tonka",
+      "کهربا"
+    ],
+    "descriptionFa": "TOM FORD BEAUTY عطر جدید مجموعه Private Blend، نسخه جدید عطر Oud Wood Eau de Parfum از سال 2007 را که Oud Wood Parfum نام دارد، در مارس 2024 عرضه خواهد کرد.</p> <p>Oud Wood با ادویه‌های تازه هل و فلفل صورتی غنی شده است که با عصاره چوب رز ترکیب می‌شوند. چوب‌های مختلف از جمله نعناع هندی قوی، چوب صندل، وتیور و عود با رایحه‌های زیرین کهربا، عصاره دانه‌ی تونکا و وانیل ترکیب می‌شوند.</p> <p>Th",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Harmonist/Moon-Glory-59475.html",
+    "extractedAt": "2026-11-26T23:45:01.781Z",
+    "name": "Moon Glory",
+    "brand": "The Harmonist",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": "Guillaume Flavigny",
+    "topNotes": [
+      "Ylang-Ylang",
+      "Hawaiian Jasmine",
+      "Litchi"
+    ],
+    "middleNotes": [
+      "Honey",
+      "Passion Flower",
+      "Lady of the Night Flower"
+    ],
+    "baseNotes": [
+      "Peru Balsam",
+      "White Musk",
+      "Hinoki Wood"
+    ],
+    "description": "Moon Glory celebrates the poetry of the moon, a force that shapes every movement, pattern and rhythm on earth. The fragrance is rooted in the intoxicating scent of flowers at dusk. The delicacy of Hawaiian Jasmine, Queen of the Night and Passionflower is paired with the sweetness of Lychee, Honey and Ylang-Ylang. It’s a graceful fragrance that embraces the wearer.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59475.jpg",
+    "rating": 4.01,
+    "ratingVotes": 656,
+    "accords": [
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 99
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 87
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 60
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 49
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 48
+      }
+    ],
+    "fragranticaId": 59475,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Moon Glory",
+    "brandFa": "The Harmonist",
+    "nameFa": "Moon Glory",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Guillaume Flavigny",
+    "topNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "Hawaiian Jasmine",
+      "Litchi"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "Passion Flower",
+      "Lady of the Night Flower"
+    ],
+    "baseNotesFa": [
+      "بلسام پرو",
+      "موش سفید",
+      "Hinoki Wood"
+    ],
+    "descriptionFa": "Moon Glory شاعرانگی ماه را گرامی می‌دارد، نیرویی که هر حرکت، الگو و ریتمی را روی زمین شکل می‌دهد. این عطر ریشه در رایحه مست‌کننده گل‌ها در غروب آفتاب دارد. ظرافت یاس هاوایی، ملکه شب و گل ساعتی با شیرینی لیچی، عسل و یلانگ-یلانگ ترکیب شده است. این یک عطر دلپذیر است که استفاده‌کننده را در آغوش می‌گیرد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Prada-L-Homme-Water-Splash-54677.html",
+    "extractedAt": "2026-11-26T23:45:08.378Z",
+    "name": "Prada L’Homme Water Splash",
+    "brand": "Prada",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Neroli",
+      "Mandarin Leaf",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Ginger"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "L'Homme Prada Water Splash brings amber and iris to the touch of red ginger, cardamom and neroli, while notes of green mandarin and refined sandalwood create a new vibration.</p> <p>Top notes: neroli, mandarin leaf, cardamom<br /> Heart: ginger, iris<br /> Base: amber, sandalwood, cedar</p> <p>Available as a 150 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54677.jpg",
+    "rating": 4.48,
+    "ratingVotes": 460,
+    "accords": [
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 90
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 83
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 61
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 54677,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Prada L’Homme Water Splash",
+    "brandFa": "پرادا",
+    "nameFa": "Prada L’Homme Water Splash",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "نرولی",
+      "Mandarin Leaf",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "زنجبیل"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "کهربا",
+      "سرو"
+    ],
+    "descriptionFa": "L'Homme Prada Water Splash رایحه‌های عنبر و زنبق را با ترکیبی از زنجبیل قرمز، هل و نرولی ترکیب می‌کند، در حالی که رایحه‌های نارنگی سبز و چوب صندل نفیس حس و حال جدیدی ایجاد می‌کنند.</p> <p>نت‌های اولیه: نرولی، برگ نارنگی، هل<br /> نت میانی: زنجبیل، زنبق<br /> نت پایه: عنبر، چوب صندل، سرو</p> <p>به صورت ادوتویلت 150 میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Herod-16939.html",
+    "extractedAt": "2026-11-26T23:45:13.427Z",
+    "name": "Herod",
+    "brand": "Parfums de Marly",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2012,
+    "perfumer": "Olivier Pescheux",
+    "topNotes": [
+      "Cinnamon",
+      "Pepperwood™"
+    ],
+    "middleNotes": [
+      "Tobacco Leaf",
+      "Incense",
+      "Osmanthus",
+      "Labdanum"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Iso E Super",
+      "Cedar",
+      "Musk",
+      "Cypriol Oil or Nagarmotha",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Herod is the seventh perfume from the house Parfums de Marly. It is classified as a woody - spicy composition.</p> <p>Top notes: cinnamon and pepper wood. Heart: osmanthus, tobacco leaf, labdanum and incense. Base: vanilla, cedar, vetiver, patchouli, iso e super, cypriol and musk.</p> <p>It is available as 125 ml EDT.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16939.jpg",
+    "rating": 4.41,
+    "ratingVotes": 11227,
+    "accords": [
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 88
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 74
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 73
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 72
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 16939,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Herod",
+    "brandFa": "پرفیومز دو مارلی",
+    "nameFa": "Herod",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Pescheux",
+    "topNotesFa": [
+      "دارچین",
+      "Pepperwood™"
+    ],
+    "middleNotesFa": [
+      "برگ تنباکو",
+      "عود بخور",
+      "اسمانتوس",
+      "لابدانوم"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Iso E Super",
+      "سرو",
+      "موش",
+      "Cypriol Oil or Nagarmotha",
+      "وتیور",
+      "کهربا"
+    ],
+    "descriptionFa": "Herod هفتمین عطر برند Parfums de Marly است. این عطر به عنوان یک ترکیب چوبی - تند طبقه‌بندی می‌شود.</p> <p>نت‌های اولیه: دارچین و چوب فلفل. نت میانی: عطر گل اوسمانتوس، برگ تنباکو، لادن و بخور. رایحه پایه: وانیل، سرو، خس‌خس، نعناع هندی، ایزو ای سوپر، سیپریول و مشک.</p> <p>این عطر به صورت EDT در حجم 125 میلی‌لیتر عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sisley/Izia-42935.html",
+    "extractedAt": "2026-11-26T23:45:17.693Z",
+    "name": "Izia",
+    "brand": "Sisley",
+    "family": "Floral Aldehyde",
+    "gender": "women",
+    "year": 2017,
+    "perfumer": "Amandine Clerc-Marie",
+    "topNotes": [
+      "White Bergamot",
+      "Aldehydes",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Angelica",
+      "Floral Notes",
+      "Peony",
+      "Lily-of-the-Valley",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Amber"
+    ],
+    "description": "Sisley Izia is a \"modern, new and multifunctional\" perfume with a focus on the note of rose. The composition begins with aldehydes, white bergamot and pink pepper. A rose accord in the \"sophisticated\" heart of the perfume is enriched with transparent floral notes and angelica. Oriental, musk and cedar form the warm woody-musky base of the fragrance.The fragrance is available as a 30, 50 and 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42935.jpg",
+    "rating": 3.95,
+    "ratingVotes": 2836,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 99
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 76
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 56
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 42935,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Izia",
+    "brandFa": "Sisley",
+    "nameFa": "Izia",
+    "familyFa": "Floral Aldehyde",
+    "genderFa": "زنانه",
+    "perfumerFa": "Amandine Clerc-Marie",
+    "topNotesFa": [
+      "White Bergamot",
+      "آلدهیدها",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "Angelica",
+      "Floral Notes",
+      "گل داوودی",
+      "Lily-of-the-Valley",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "کهربا"
+    ],
+    "descriptionFa": "Sisley Izia یک عطر «مدرن، جدید و چندمنظوره» است که بر رایحه گل رز تمرکز دارد. ترکیب این عطر با آلدئیدها، ترنج سفید و فلفل صورتی آغاز می‌شود. ترکیب رایحه گل رز در قلب «پیچیده» عطر با نت‌های گل‌فام شفاف و گل‌ریحان غنی شده است. عطر شرقی، مشک و سدر پایه گرم چوبی-مشکی عطر را تشکیل می‌دهند. این عطر به صورت ادو پرفیوم در حجم‌های 30، 50 و 100 میلی‌لیتر عرضه می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Shay-Blue-London/Blood-Oranges-17778.html",
+    "extractedAt": "2026-11-26T23:45:24.279Z",
+    "name": "Blood Oranges",
+    "brand": "Shay & Blue London",
+    "family": "Citrus",
+    "gender": "women and men",
+    "year": 2013,
+    "perfumer": "Julie Massé",
+    "topNotes": [
+      "Blood Orange"
+    ],
+    "middleNotes": [
+      "Leather"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Musk",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17778.jpg",
+    "rating": 4.07,
+    "ratingVotes": 359,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 33
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 23
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 17778,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blood Oranges",
+    "brandFa": "Shay & Blue London",
+    "nameFa": "Blood Oranges",
+    "familyFa": "Citrus",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Julie Massé",
+    "topNotesFa": [
+      "پرتقال خونی"
+    ],
+    "middleNotesFa": [
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "موش",
+      "کهربا"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Missoni/Missoni-Parfum-Pour-Homme-45285.html",
+    "extractedAt": "2026-11-26T23:45:29.000Z",
+    "name": "Missoni Parfum Pour Homme",
+    "brand": "Missoni",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Lemon",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Ginger",
+      "Apple",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Birch",
+      "Oak",
+      "Musk",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "description": "\"The captivating freshness of the Missoni Parfum pour Homme is inspired by the Mediterranean landscape warmed by the sun. A woody fragrance both fresh and luminous, full of contrasts, a precious scent reflecting the colours of the Mediterranean Sea. Leaves and pulp of Green Lemon and Ginger, together with Pink Pomelo mix the timeless, aromatic notes of Lavande Espic, fruity Pomarose and a light touch of Jasmine Petals. The dry-down contains comforting notes of Sandalwood, as enveloping as a precious Missoni cardigan, with the passionate, sensual and masculine touches of Oakwood, Birch, Patchouli and vibrant Musks.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45285.jpg",
+    "rating": 4.1,
+    "ratingVotes": 2241,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 63
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 46
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 30
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 45285,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Missoni Pour Homme",
+    "brandFa": "Missoni",
+    "nameFa": "Missoni Parfum Pour Homme",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "لیمو",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "زنجبیل",
+      "سیب",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "توس",
+      "Oak",
+      "موش",
+      "چوب صندل",
+      "پچولی"
+    ],
+    "descriptionFa": "«تازگی مسحورکننده عطر Missoni Parfum pour Homme از چشم‌انداز مدیترانه‌ای که آفتاب آن را گرم کرده، الهام گرفته است. یک رایحه چوبی که هم تازه و هم درخشان است، سرشار از تضادها، عطری ارزشمند که منعکس‌کننده رنگ‌های دریای مدیترانه است. برگ‌ها و پالپ لیموی سبز و زنجبیل، همراه با گریپ‌فروت صورتی، رایحه‌های جاودانه و معطر اسطوخودوس اسپیک، پوماروز میوه‌ای و رایحه ملایم گلبرگ‌های یاس را با هم ترکیب می‌کنند. رایحه پایانی حاوی حس راحتی است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Bright-Crystal-632.html",
+    "extractedAt": "2026-11-26T23:45:35.125Z",
+    "name": "Bright Crystal",
+    "brand": "Versace",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2006,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Yuzu",
+      "Pomegranate",
+      "Ice"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Lotus",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Mahogany",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.632.jpg",
+    "rating": 3.74,
+    "ratingVotes": 24868,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 23
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 22
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 21
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 632,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bright Crystal",
+    "brandFa": "ورساچه",
+    "nameFa": "Bright Crystal",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "یوزو",
+      "Pomegranate",
+      "Ice"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "نیلوفر آبی",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Mahogany",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Donna-Karan/DKNY-Be-Delicious-Lime-Mojito-53500.html",
+    "extractedAt": "2026-11-26T23:45:39.862Z",
+    "name": "DKNY Be Delicious Lime Mojito",
+    "brand": "Donna Karan",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2019,
+    "perfumer": null,
+    "topNotes": [
+      "Citron",
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Honeysuckle",
+      "Dew Drop"
+    ],
+    "baseNotes": [
+      "Musk",
+      "White Woods"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53500.jpg",
+    "rating": 3.83,
+    "ratingVotes": 246,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 31
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 24
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 21
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 21
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 17
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 53500,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "DKNY Be Delicious Lime Mojito",
+    "brandFa": "Donna Karan",
+    "nameFa": "DKNY Be Delicious Lime Mojito",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Citron",
+      "برگاموت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گل پامچال",
+      "Dew Drop"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "White Woods"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
