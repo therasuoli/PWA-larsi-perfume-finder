@@ -126409,5 +126409,1536 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/O-Boticario/Vanilla-Delight-148868.html",
+    "extractedAt": "2026-11-27T00:54:42.447Z",
+    "name": "Vanilla Delight",
+    "brand": "O Boticário",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Alienor Massenet",
+    "topNotes": [
+      "Roasted Nuts",
+      "Apricot"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Caramel",
+      "Sandalwood"
+    ],
+    "description": "<strong>Privée Collection Sugardose Vanilla Delight</strong> presents a luxurious, sweet fragrance that explores the extreme, addictive nuances of sugar, crafted using the legendary De Laire bases, one of the most precious secrets in high perfumery.<br /> Created by renowned perfumer Alienor Massenet, this fragrance features the exceptional Vanille Heritage De Laire, which captures the comforting essence of vanilla infused with the addictive touch of caramel.<br /> Absolute pleasure, so satisfying it borders on ecstasy. Indulgent, comforting, and impossible to resist.<br /> A delight that envelops, intoxicates, and satisfies.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148868.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 59
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 59
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 35
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148868,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Delight",
+    "brandFa": "O Boticário",
+    "nameFa": "Vanilla Delight",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alienor Massenet",
+    "topNotesFa": [
+      "Roasted Nuts",
+      "زردآلو"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کارامل",
+      "چوب صندل"
+    ],
+    "descriptionFa": "<strong>Privée Collection Sugardose Vanilla Delight</strong> عطری لوکس و شیرین است که ته‌رایحه‌های شدید و اعتیادآور شکر را نشان می‌دهد و با استفاده از عصاره‌های افسانه‌ای De Laire، یکی از ارزشمندترین اسرار صنعت عطرسازی درجه یک، ساخته شده است.<br /> این عطر که توسط عطرساز مشهور آلیانور ماسنه خلق شده است، حاوی وانیل هریتج دی‌لِر استثنایی است که عصاره آرامش‌بخش وانیل را با لمسی اعتیادآور در خود جای داده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/O-Boticario/Honey-Craving-148867.html",
+    "extractedAt": "2026-11-27T00:54:47.355Z",
+    "name": "Honey Craving",
+    "brand": "O Boticário",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Emilie Coppermann",
+    "topNotes": [
+      "Cyclamen",
+      "Fig",
+      "Plum"
+    ],
+    "middleNotes": [
+      "Honey",
+      "Lilac"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "<strong>Privée Collection Sugardose Honey Craving</strong> reveals the most captivating facet of honey in an unforgettable creation. As a high-intensity eau de parfum from O Boticário, its composition blends refined, high-end perfumery ingredients to leave a striking, long-lasting trail on the skin. It is the perfect choice for those who wish to treat themselves to an experience of luxury and sophistication in their everyday life.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148867.jpg",
+    "accords": [
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 27
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 23
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 148867,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Honey Craving",
+    "brandFa": "O Boticário",
+    "nameFa": "Honey Craving",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Emilie Coppermann",
+    "topNotesFa": [
+      "Cyclamen",
+      "انجیر",
+      "آلو"
+    ],
+    "middleNotesFa": [
+      "عسل",
+      "گل یاس"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "<strong>Sugardose Honey Craving از مجموعه Privée</strong> جذاب‌ترین جنبه عسل را در یک محصول فراموش‌نشدنی آشکار می‌کند. این عطر که یک ادو پرفیوم با شدت بالا از O Boticário است، ترکیبی از مواد اولیه نفیس و درجه یک عطرسازی است که اثری چشمگیر و ماندگار بر روی پوست به جا می‌گذارد. این عطر انتخاب ایده‌آلی برای کسانی است که می‌خواهند در زندگی روزمره خود، تجربه‌ای از تجمل و ظرافت را به خود هدیه دهند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/O-Boticario/Berry-Rush-148866.html",
+    "extractedAt": "2026-11-27T00:54:53.410Z",
+    "name": "Berry Rush",
+    "brand": "O Boticário",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Alienor Massenet",
+    "topNotes": [
+      "Black Currant",
+      "Strawberry",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Magnolia",
+      "Frangipani"
+    ],
+    "baseNotes": [
+      "Cacao",
+      "Vanilla",
+      "Moss"
+    ],
+    "description": "<strong>Privée Collection Sugardose Berry Rush</strong> presents a luxurious, sweet fragrance that explores the extreme, addictive nuances of sugar, crafted using the legendary \"Bases de Laire,\" one of the most cherished secrets in high perfumery.<br /> Created by renowned perfumer Alienor Massenet, this fragrance features the exceptional Rouge Groseille De Laire, which blends the sweetness and succulence of berries with the tartness of rhubarb.<br /> It offers an instant sense of euphoria, a sweet jolt of energy and pleasure. It is an electric whirlwind of desire, where sugar reaches its peak, heightening the senses and making everything feel more vibrant.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148866.jpg",
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 96
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 72
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 51
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 43
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 43
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148866,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Berry Rush",
+    "brandFa": "O Boticário",
+    "nameFa": "Berry Rush",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Alienor Massenet",
+    "topNotesFa": [
+      "توت سیاه",
+      "توت‌فرنگی",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "Frangipani"
+    ],
+    "baseNotesFa": [
+      "کاکائو",
+      "وانیل",
+      "خزه"
+    ],
+    "descriptionFa": "<strong>Privée Collection Sugardose Berry Rush</strong> عطری لوکس و شیرین است که تفاوت‌های شدید و اعتی‌آور شکر را بررسی می‌کند و با استفاده از «Bases de Laire» افسانه‌ای، یکی از ارزشمندترین اسرار در عطر‌سازی درجه یک، ساخته شده است.<br /> این عطر که توسط عطرساز مشهور آلیانور ماسنت ساخته شده است، حاوی Rouge Groseille De Laire استثنایی است که شیرینی و آبدار بودن توت‌ها را با ترشی ریواس ترکیب می‌کند.&lt;",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ex-Nihilo/Vendomania-Extrait-de-Parfum-138916.html",
+    "extractedAt": "2026-11-27T00:54:58.956Z",
+    "name": "Vendomania Extrait de Parfum",
+    "brand": "Ex Nihilo",
+    "family": "Oriental Woody",
+    "gender": "women and men. This is a new fragrance. <b>Vendomania Extrait de Parfum</b> was launched in 2026. The nose behind this fragrance is Jordi Fernández. The fragrance features Saffron, Oud, Iris, Jasmine, Leather, Coconut, Patchouli, Sandalwood, Vanilla and Praline",
+    "year": 2026,
+    "perfumer": "Jordi Fernández",
+    "description": "Vendomania by Ex Nihilo is a 2026 unisex extrait created by Jordi Fernández. Presented as a deeper interpretation of the original Vendomania from 2020 and as a tribute to Place Vendôme, it combines iris and jasmine with creamy coconut facets over a richer base of patchouli, oud, leather, sandalwood, and vanilla. The fragrance was released as a Selfridges exclusive.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138916.jpg",
+    "rating": 4.28,
+    "ratingVotes": 25,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 77
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 50
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 50
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 138916,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait de Parfum",
+    "baseName": "Vendomania",
+    "brandFa": "اِکس نیهیلو",
+    "nameFa": "Vendomania Extrait de Parfum",
+    "concentrationFa": "اکستره پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>Vendomania Extrait de Parfum</b> was launched in 2026. The nose behind this fragrance is Jordi Fernández. The fragrance features Saffron, Oud, Iris, Jasmine, Leather, Coconut, Patchouli, Sandalwood, Vanilla and Praline",
+    "perfumerFa": "Jordi Fernández",
+    "descriptionFa": "Vendomania از برند Ex Nihilo یک عطر یونیسکس اکستریت محصول سال 2026 است که توسط جوردی فرناندز ساخته شده است. این عطر که به عنوان تفسیر عمیق‌تری از Vendomania اصلی در سال ۲۰۲۰ و به عنوان ادای احترامی به میدان واندوم ارائه شده است، ترکیبی از زنبق و یاس با جلوه‌های خامه مانند نارگیل بر روی پایه‌ای غنی‌تر از نعناع هندی، عود، چرم، چوب صندل و وانیل است. این عطر به صورت انحصاری برای Selfridges عرضه شد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/Vanilla-Cocoa-Flurries-148202.html",
+    "extractedAt": "2026-11-27T00:55:04.107Z",
+    "name": "Vanilla Cocoa Flurries",
+    "brand": "Bath & Body Works",
+    "family": "Oriental Vanilla",
+    "gender": "women. This is a new fragrance. <b>Vanilla Cocoa Flurries</b> was launched in 2026. The fragrance features Woody Notes, Cacao, Vanilla and Coconut Milk",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148202.jpg",
+    "rating": 3.71,
+    "ratingVotes": 14,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 92
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 82
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 148202,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Cocoa Flurries",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "Vanilla Cocoa Flurries",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women. This is a new fragrance. <b>Vanilla Cocoa Flurries</b> was launched in 2026. The fragrance features Woody Notes, Cacao, Vanilla and Coconut Milk",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ex-Nihilo/The-Irreverents-Extrait-146355.html",
+    "extractedAt": "2026-11-27T00:55:07.912Z",
+    "name": "The Irreverents Extrait",
+    "brand": "Ex Nihilo",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Pink Pepper",
+      "Incense"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Cacao",
+      "Vanilla",
+      "Tonka Bean",
+      "Ambrofix™",
+      "Dried Fruits"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.146355.jpg",
+    "rating": 4.56,
+    "ratingVotes": 39,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 41
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 38
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 146355,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait",
+    "baseName": "The Irreverents",
+    "brandFa": "اِکس نیهیلو",
+    "nameFa": "The Irreverents Extrait",
+    "concentrationFa": "اکستره",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "فلفل صورتی",
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کاکائو",
+      "وانیل",
+      "لوبیا تونکا",
+      "Ambrofix™",
+      "Dried Fruits"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Louis-Vuitton/Pur-Oud-66436.html",
+    "extractedAt": "2026-11-27T00:55:12.367Z",
+    "name": "Pur Oud",
+    "brand": "Louis Vuitton",
+    "family": "Woody Spicy",
+    "gender": "women and men. <b>Pur Oud</b> was launched in 2021. The nose behind this fragrance is Jacques Cavallier Belletrud. The fragrance features Agarwood (Oud), Ambrettolide and Helvetolide",
+    "year": 2021,
+    "perfumer": "Jacques Cavallier",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66436.jpg",
+    "rating": 3.13,
+    "ratingVotes": 400,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 1
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 1
+      }
+    ],
+    "fragranticaId": 66436,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pur Oud",
+    "brandFa": "Louis Vuitton",
+    "nameFa": "Pur Oud",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "women and men. <b>Pur Oud</b> was launched in 2021. The nose behind this fragrance is Jacques Cavallier Belletrud. The fragrance features Agarwood (Oud), Ambrettolide and Helvetolide",
+    "perfumerFa": "Jacques Cavallier",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Gris-Dior-Esprit-De-Parfum-95984.html",
+    "extractedAt": "2026-11-27T00:55:16.185Z",
+    "name": "Gris Dior Esprit De Parfum",
+    "brand": "Dior",
+    "family": "Chypre Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Bulgarian Rose"
+    ],
+    "middleNotes": [
+      "Atlas Cedar"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "Gris Dior Esprit De Parfum is a new fragrance for women and men launched in 2024. This unisex scent is characterized by its chypre vibes, unveiling a stronger character with opulent Atlas cedar, dry Indonesian patchouli, and creamy amber. The floral elements are intensified with seductive violet accord and fragrant Bulgarian rose.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95984.jpg",
+    "rating": 4.27,
+    "ratingVotes": 396,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 76
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 74
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 31
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 23
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 95984,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Gris Dior Esprit De",
+    "brandFa": "دیور",
+    "nameFa": "Gris Dior Esprit De Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شیپر گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "گل رز بلغاری"
+    ],
+    "middleNotesFa": [
+      "سرو اطلس"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "کهربا"
+    ],
+    "descriptionFa": "Gris Dior Esprit De Parfum یک عطر جدید برای خانم‌ها و آقایان است که در سال 2024 عرضه شده است. این عطر یونیسکس با حس و حال شیپری خود متمایز می‌شود و با رایحه غنی سرو اطلس، نعناع هندی خشک اندونزیایی و کهربای کرمی، شخصیتی قوی‌تر را آشکار می‌کند. عناصر گل‌دار با رایحه اغواکننده بنفشه و گل رز معطر بلغاری تقویت می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Silver-Birch-Lavender-Cologne-59427.html",
+    "extractedAt": "2026-11-27T00:55:21.780Z",
+    "name": "Silver Birch & Lavender Cologne",
+    "brand": "Jo Malone London",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Birch",
+      "Woodsy Notes"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59427.jpg",
+    "rating": 3.87,
+    "ratingVotes": 844,
+    "accords": [
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 59
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 59427,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Silver Birch & Lavender",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Silver Birch & Lavender Cologne",
+    "concentrationFa": "کلن",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "توس",
+      "Woodsy Notes"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormonde-Jayne/Bijou-Zafran-126910.html",
+    "extractedAt": "2026-11-27T00:55:25.194Z",
+    "name": "Bijou Zafran",
+    "brand": "Ormonde Jayne",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Elodie Bernard",
+    "topNotes": [
+      "Saffron",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Benzoin",
+      "Iris",
+      "Cypriol"
+    ],
+    "baseNotes": [
+      "Mineral notes",
+      "Vanilla Bean",
+      "Musk",
+      "Leather",
+      "Amber",
+      "Patchouli"
+    ],
+    "description": "Bijou Zafran by Ormond Jayne is a fragrance composed by perfumer Élodie Bernard and released in 2026. It combines a saffron and pear opening with a heart of cypriol, iris and benzoin, set over a base of patchouli, musk, mineral amber, vanilla bean and leather for a warm, resinous and slightly woody character.</p> <p>This fragrance is in eau de parfum strength and now added to the globally permanent collection.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.126910.jpg",
+    "rating": 4.33,
+    "ratingVotes": 290,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 79
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 58
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 51
+      }
+    ],
+    "fragranticaId": 126910,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bijou Zafran",
+    "brandFa": "Ormonde Jayne",
+    "nameFa": "Bijou Zafran",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Elodie Bernard",
+    "topNotesFa": [
+      "زعفران",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "بنزوئین",
+      "زنبق",
+      "سایپریول"
+    ],
+    "baseNotesFa": [
+      "Mineral notes",
+      "Vanilla Bean",
+      "موش",
+      "چرم",
+      "کهربا",
+      "پچولی"
+    ],
+    "descriptionFa": "Bijou Zafran از برند Ormond Jayne عطری است که توسط عطر‌ساز Élodie Bernard ساخته شده و در سال 2026 عرضه شده است. این عطر ترکیبی از رایحه اولیه زعفران و گلابی با رایحه میانی سیپریول، زنبق و بنزوئین است که بر پایه رایحه پایانی نعناع هندی، مشک، عنبر معدنی، دانه وانیل و چرم قرار گرفته است تا شخصیتی گرم، رزینی و کمی چوبی ایجاد کند.</p> <p>این عطر با غلظت ادو پرفیوم عرضه شده و اکنون به مجموعه دائمی جهانی اضافه شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rogue-Perfumery/Mousse-Illuminee-53821.html",
+    "extractedAt": "2026-11-27T00:55:30.530Z",
+    "name": "Mousse Illuminee",
+    "brand": "Rogue Perfumery",
+    "family": null,
+    "gender": "women and men. <b>Mousse Illuminee</b> was launched in 2018. The nose behind this fragrance is Manuel Cross. The fragrance features Oakmoss, Artemisia, Cypress, White Flowers, Laurels, Olibanum, White Musk and Cedar",
+    "year": 2018,
+    "perfumer": "Manuel Cross",
+    "description": "\"A dreamlike forest. The green lichen emanate. A bright, silver glow. Notes include: Treemoss, Frankincense, Green Cypress, Artemisia, Laurel Leaves, Cedar, White Floral Notes, White Musk.<br /> <br /> Mousse Illuminee is built around a lovely treemoss absolute from Robertet. The absolute smells dry, resinous, sweet...of the forest.<br /> <br /> I decided upon an early 80's style men's powerhouse fragrance. I went heavy on floral Lyral and clean white musk notes for the base. Artemisia, laurel leaf and cypress were used to accentuate the bitter spicy green notes. I then completed the composition with big notes of frankincense, lending a piney, camphor-like opening.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53821.jpg",
+    "rating": 4.4,
+    "ratingVotes": 1046,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 96
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 92
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 92
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 64
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 59
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 45
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 53821,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mousse Illuminee",
+    "brandFa": "Rogue Perfumery",
+    "nameFa": "Mousse Illuminee",
+    "genderFa": "women and men. <b>Mousse Illuminee</b> was launched in 2018. The nose behind this fragrance is Manuel Cross. The fragrance features Oakmoss, Artemisia, Cypress, White Flowers, Laurels, Olibanum, White Musk and Cedar",
+    "perfumerFa": "Manuel Cross",
+    "descriptionFa": "«جنگلی رویایی. گلسنگ سبز می‌درخشد. یک درخشش روشن و نقره‌ای. نت‌ها عبارتند از: خزه درخت، کندر، سرو سبز، درمنه، برگ‌های درخت لورل، سرو، نت‌های گل سفید، مشک سفید.<br /> <br /> Mousse Illuminee بر اساس یک عصاره خالص و دلپذیر از خزه درخت از شرکت Robertet ساخته شده است. این عصاره مطلق بویی خشک، رزینی، شیرین... و جنگلی دارد.<br /> <br /> من تصمیم گرفتم یک عطر مردانه قوی با سبک اوایل دهه ۸۰ بسازم. من از رایحه گل‌فام لیرال و رایحه تمیز به مقدار زیاد استفاده کردم",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sennok/Soap-Clean-Soap-109565.html",
+    "extractedAt": "2026-11-27T00:55:35.263Z",
+    "name": "Soap Clean Soap",
+    "brand": "Sennok",
+    "family": null,
+    "gender": "women and men. Top notes are Aldehydes, Bergamot and Mint; middle notes are White Musk, Jasmine and Rose; base notes are Musk and Sandalwood",
+    "topNotes": [
+      "Aldehydes",
+      "Bergamot",
+      "Mint"
+    ],
+    "middleNotes": [
+      "White Musk",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "A clear, clean soap-inspired fragrance designed to evoke the sensation of a steamy bathroom filled with frothy bubbles. The scent opens with fresh bergamot and aldehydic accords, creating a cheerful and refreshing atmosphere. Floral heart notes of jasmine and rose blend with white musk, while the base combines musk and sandalwood for a clean yet comforting finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109565.jpg",
+    "rating": 3.87,
+    "ratingVotes": 23,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 30
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 20
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 109565,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Soap Clean Soap",
+    "brandFa": "Sennok",
+    "nameFa": "Soap Clean Soap",
+    "genderFa": "women and men. Top notes are Aldehydes, Bergamot and Mint; middle notes are White Musk, Jasmine and Rose; base notes are Musk and Sandalwood",
+    "topNotesFa": [
+      "آلدهیدها",
+      "برگاموت",
+      "نعناع"
+    ],
+    "middleNotesFa": [
+      "موش سفید",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل"
+    ],
+    "descriptionFa": "یک رایحه شفاف و تمیز الهام‌گرفته از صابون که برای تداعی حس یک حمام بخارآلود پر از حباب‌های کف‌آلود طراحی شده است. این رایحه با ترنج تازه و آکوردهای آلدئیدی آغاز می‌شود و فضایی شاد و طراوت‌بخش ایجاد می‌کند. نت‌های میانی گل‌دار یاس و رز با مشک سفید ترکیب می‌شوند، در حالی که نت‌های پایه شامل مشک و چوب صندل هستند که رایحه‌ای تمیز و در عین حال آرامش‌بخش ایجاد می‌کنند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Goldfield-Banks-Australia/Ingenious-Ginger-81895.html",
+    "extractedAt": "2026-11-27T00:55:39.731Z",
+    "name": "Ingenious Ginger",
+    "brand": "Goldfield & Banks Australia",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Hamid Merati-Kashani",
+    "topNotes": [
+      "Ginger flower",
+      "Lemon",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Mandarin Orange",
+      "Magnolia",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Sandalwood",
+      "Musk",
+      "Cashmeran",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81895.jpg",
+    "rating": 4.38,
+    "ratingVotes": 5056,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 25
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 81895,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ingenious Ginger",
+    "brandFa": "Goldfield & Banks Australia",
+    "nameFa": "Ingenious Ginger",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Hamid Merati-Kashani",
+    "topNotesFa": [
+      "Ginger flower",
+      "لیمو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "نارنگی",
+      "ماگنولیا",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب صندل",
+      "موش",
+      "کشماران",
+      "پچولی"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Falcone-Perfumes/Mirsaal-Valentine-107080.html",
+    "extractedAt": "2026-11-27T00:55:44.883Z",
+    "name": "Mirsaal Valentine",
+    "brand": "Le Falconé Perfumes",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Mint",
+      "Lemon",
+      "Basil",
+      "Apple",
+      "Blackcurrant",
+      "Thyme"
+    ],
+    "middleNotes": [
+      "Rosemary",
+      "Lavender",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Lemon Verbena",
+      "Musk"
+    ],
+    "description": "Mirsaal Valentine by Le Falconé Perfumes is designed to evoke elegance and individuality. The fragrance features a balanced composition that aims to convey timeless sophistication and refined simplicity. Its blend of aromatic and fresh notes makes it suitable for those who appreciate authenticity and effortless grace.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107080.jpg",
+    "rating": 4.53,
+    "ratingVotes": 228,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 61
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 51
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 32
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 24
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 23
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 107080,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mirsaal Valentine",
+    "brandFa": "Le Falconé Perfumes",
+    "nameFa": "Mirsaal Valentine",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "نعناع",
+      "لیمو",
+      "ریحان",
+      "سیب",
+      "Blackcurrant",
+      "پونه‌سان"
+    ],
+    "middleNotesFa": [
+      "رزماری",
+      "اسطوخودوس",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Lemon Verbena",
+      "موش"
+    ],
+    "descriptionFa": "Mirsaal Valentine از برند Le Falconé Perfumes به گونه‌ای طراحی شده است که القاکننده ظرافت و شخصیت منحصر به فرد باشد. این عطر دارای ترکیبی متعادل است که هدفش القای ظرافت جاودانه و سادگی شیک است. ترکیب رایحه‌های معطر و طراوت‌بخش آن، این عطر را برای کسانی که قدردان اصالت و ظرافت بی‌تکلف هستند، مناسب می‌سازد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/English-Pear-Freesia-10314.html",
+    "extractedAt": "2026-11-27T00:55:51.403Z",
+    "name": "English Pear & Freesia",
+    "brand": "Jo Malone London",
+    "family": "Chypre Fruity",
+    "gender": "women",
+    "year": 2010,
+    "perfumer": "Christine Nagel",
+    "topNotes": [
+      "Pear",
+      "Melon"
+    ],
+    "middleNotes": [
+      "Freesia",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Patchouli",
+      "Rhuburb",
+      "Amber"
+    ],
+    "description": "Jo Malone presents new fragrance, English Pear and Freesia, which unites English landscapes and seasons which are connected with souls of the British. </p> <p>Inspiration for this fragrance were also verses by one of the last great romantic poets, John Keats (Ode to Autumn). </p> <p>Jo Malone's creative studio chose a perfumer for this collection. That is Christine Nagel known for numerous successful creations (Miss Dior Cherie, Narciso Rodriguez, Rose Absolue, Delices etc). The fragrance is ripe, juicy and thoroughly designed. </p> <p>Nuances of freesia and pear are very complex, since ripe pears were necessary to achieve a certain note to sound unique in composition of the fragrance. </p> <p>Pear in the moment of perfect ripeness has crispy structure of skin and juicy fruit. Pear is combined with quince which introduces honey sweetness and is surrounded with white freesia and wild climbing rose. </p> <p>A base of the composition is created of green, fresh and sour nuances of rhubarb along with warm and subtle aromas of patchouli, amber and white musk that stay in a trail. </p> <p>Jo Malone English Pear and Freesia is available as 30 and 100ml EDC. The fragrance arrives on the market in September 2010.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10314.jpg",
+    "rating": 3.82,
+    "ratingVotes": 10209,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 83
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 59
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 57
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 34
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 10314,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "English Pear & Freesia",
+    "brandFa": "Jo Malone London",
+    "nameFa": "English Pear & Freesia",
+    "familyFa": "شیپر میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Christine Nagel",
+    "topNotesFa": [
+      "گلابی",
+      "خربزه"
+    ],
+    "middleNotesFa": [
+      "فریزیا",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "پچولی",
+      "Rhuburb",
+      "کهربا"
+    ],
+    "descriptionFa": "جو مالون عطر جدیدی به نام English Pear and Freesia را معرفی می‌کند که مناظر و فصول انگلیسی را که با روح بریتانیایی‌ها پیوند خورده‌اند، در هم می‌آمیزد. </p> <p>الهام‌بخش این عطر همچنین اشعاری از یکی از آخرین شاعران بزرگ رمانتیک، جان کیتس (سرود پاییز) بود. </p> <p>استودیوی خلاق جو مالون یک عطرساز را برای این مجموعه انتخاب کرد. او کسی نیست جز کریستین ناگل که به خاطر خلق عطرهای موفق متعدد (Miss Dior Cherie، Narciso Rodriguez) شناخته شده است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
