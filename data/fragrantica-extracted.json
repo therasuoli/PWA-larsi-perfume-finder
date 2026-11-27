@@ -144844,5 +144844,2039 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bloom-Body/Cedar-Blanc-148931.html",
+    "extractedAt": "2026-11-27T14:16:10.942Z",
+    "name": "Cedar Blanc",
+    "brand": "Bloom Body",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148931.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 97
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 97
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 49
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 49
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 148931,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cedar Blanc",
+    "brandFa": "Bloom Body",
+    "nameFa": "Cedar Blanc",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bloom-Body/Royale-148930.html",
+    "extractedAt": "2026-11-27T14:16:15.947Z",
+    "name": "Royale",
+    "brand": "Bloom Body",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Hazelnut"
+    ],
+    "middleNotes": [
+      "Rose"
+    ],
+    "baseNotes": [
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148930.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 62
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 12
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 148930,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Royale",
+    "brandFa": "Bloom Body",
+    "nameFa": "Royale",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "فندق"
+    ],
+    "middleNotesFa": [
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bloom-Body/Cheer-148929.html",
+    "extractedAt": "2026-11-27T14:16:19.762Z",
+    "name": "Cheer",
+    "brand": "Bloom Body",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pear"
+    ],
+    "middleNotes": [
+      "Iris"
+    ],
+    "baseNotes": [
+      "Praline"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148929.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 67
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 33
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 27
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 27
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148929,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cheer",
+    "brandFa": "Bloom Body",
+    "nameFa": "Cheer",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "پرالین"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bloom-Body/Majesty-148928.html",
+    "extractedAt": "2026-11-27T14:16:24.699Z",
+    "name": "Majesty",
+    "brand": "Bloom Body",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Litchi"
+    ],
+    "middleNotes": [
+      "Turkish Rose"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148928.jpg",
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 70
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148928,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Majesty",
+    "brandFa": "Bloom Body",
+    "nameFa": "Majesty",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Litchi"
+    ],
+    "middleNotesFa": [
+      "گل رز ترکی"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bloom-Body/Blue-Mist-148927.html",
+    "extractedAt": "2026-11-27T14:16:28.996Z",
+    "name": "Blue Mist",
+    "brand": "Bloom Body",
+    "family": null,
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Sicilian Lemon"
+    ],
+    "middleNotes": [
+      "Apple"
+    ],
+    "baseNotes": [
+      "Jasmine"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148927.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 80
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 148927,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Mist",
+    "brandFa": "Bloom Body",
+    "nameFa": "Blue Mist",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Sicilian Lemon"
+    ],
+    "middleNotesFa": [
+      "سیب"
+    ],
+    "baseNotesFa": [
+      "یاسمن"
+    ],
+    "seasons": [
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bloom-Body/Florenca-148926.html",
+    "extractedAt": "2026-11-27T14:16:33.195Z",
+    "name": "Florença",
+    "brand": "Bloom Body",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Tangerine",
+      "Pineapple",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Moss",
+      "Magnolia",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Musk",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148926.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 82
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 78
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 45
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 148926,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Florença",
+    "brandFa": "Bloom Body",
+    "nameFa": "Florença",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "تانجرین",
+      "آناناس",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "خزه",
+      "ماگنولیا",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "موش",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/KaBEAUTY/Athena-148925.html",
+    "extractedAt": "2026-11-27T14:16:38.302Z",
+    "name": "Athena",
+    "brand": "KaBEAUTY",
+    "family": null,
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Mango",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Jasmine",
+      "Olibanum"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148925.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 77
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 70
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148925,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Athena",
+    "brandFa": "KaBEAUTY",
+    "nameFa": "Athena",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "مانگو",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "یاسمن",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "موش"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/KaBEAUTY/Electra-148924.html",
+    "extractedAt": "2026-11-27T14:16:43.215Z",
+    "name": "Electra",
+    "brand": "KaBEAUTY",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Tuberose",
+      "Peach",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Gardenia",
+      "Jasmine",
+      "Orris Root"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148924.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 68
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 57
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 36
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 36
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 36
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 148924,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Electra",
+    "brandFa": "KaBEAUTY",
+    "nameFa": "Electra",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گل شیپور",
+      "هلو",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گاردنیا",
+      "یاسمن",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/KaBEAUTY/Venus-148923.html",
+    "extractedAt": "2026-11-27T14:16:46.875Z",
+    "name": "Venus",
+    "brand": "KaBEAUTY",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Violet",
+      "Mandora",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Wisteria",
+      "Rose",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148923.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 77
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 38
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 38
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 148923,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Venus",
+    "brandFa": "KaBEAUTY",
+    "nameFa": "Venus",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "بنفشه",
+      "Mandora",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رین",
+      "گل رز",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "وانیل",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Annayake/Miyabi-Woman-7304.html",
+    "extractedAt": "2026-11-27T14:16:51.998Z",
+    "name": "Miyabi Woman",
+    "brand": "Annayake",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2009,
+    "perfumer": null,
+    "topNotes": [
+      "Peach",
+      "Neroli",
+      "Tangerine",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Freesia",
+      "Heliotrope",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Vanille",
+      "Tonka Bean",
+      "White Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Miyabi Man and Miyabi Woman are a fragrant pair of the Annayake collection and they are presented to the market in December 2009. Their compositions are blended perfectly, in a simple but elegant way. The fragrances have the same name which means 'to follow elegance and tradition' in Japanese.</p> <p>She is sophisticated and refined,<br /> In ivory and gold,<br /> Gentle and gracious…</p> <p>Elegant notes of Miyabi Woman bring floral waves with a veil of sensuality. Top notes offer juicy and velvety peach scent, while a heart is floral and incorporates white freesia and sunflower which suggest softness and gentleness of ingredients. A base is created of sandalwood, tonka, amber and white musk, as an unforgettable experience for all senses. Milky, warm and tasty nuances remind of vanilla scent which clings to your skin as comfortably as a dress on a women and it accentuates her elegance and grace.</p> <p>Flacon design follows tradition of minimalism, sophistication and cleanliness and offers the ultimate balance of curvy and straight lines. Modern interpretation of brush and ink alludes at traditional calligraphy art and Japanese identity. The flacons were designed by Thierry de Baschmakoff. Available as 100 ml!",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7304.jpg",
+    "rating": 3.94,
+    "ratingVotes": 294,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 53
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 36
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 7304,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Miyabi Woman",
+    "brandFa": "Annayake",
+    "nameFa": "Miyabi Woman",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "هلو",
+      "نرولی",
+      "تانجرین",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "فریزیا",
+      "گل هلیوتروپ",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "Vanille",
+      "لوبیا تونکا",
+      "موش سفید",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "descriptionFa": "Miyabi Man and Miyabi Woman are a fragrant pair of the Annayake collection and they are presented to the market in December 2009. Their compositions are blended perfectly, in a simple but elegant way. The fragrances have the same name which means 'to follow elegance and tradition' in Japanese.</p> <p>She is sophisticated and refined,<br /> In ivory and gold,<br /> Gentle and gracious…</p> <p>Elegant notes of Miyabi Woman bring floral waves with a veil of sensuality. Top notes offer juicy and velvety peach scent, while a heart is floral and incorporates white freesia and sunflower which suggest softness and gentleness of ingredients. A base is created of sandalwood, tonka, amber and white musk, as an unforgettable experience for all senses. Milky, warm and tasty nuances remind of vanilla scent which clings to your skin as comfortably as a dress on a women and it accentuates her elegance and grace.</p> <p>Flacon design follows tradition of minimalism, sophistication and cleanliness and offers the ultimate balance of curvy and straight lines. Modern interpretation of brush and ink alludes at traditional calligraphy art and Japanese identity. The flacons were designed by Thierry de Baschmakoff. Available as 100 ml!",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nesti-Dante/Luxury-Gold-115104.html",
+    "extractedAt": "2026-11-27T14:16:57.005Z",
+    "name": "Luxury Gold",
+    "brand": "Nesti Dante",
+    "family": "Floral",
+    "gender": "women and men. <b>Luxury Gold</b> was launched during the 2020's. Top notes are Grapefruit and Orange; middle notes are Iris and White Rose; base note is Cedarwood",
+    "topNotes": [
+      "Grapefruit",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Iris",
+      "White Rose"
+    ],
+    "baseNotes": [
+      "Cedarwood"
+    ],
+    "description": "Luxury Gold is a commemorative fragrance collection created by Nesti Dante to celebrate their 60th anniversary in soap making. This luxurious line features bath and body products infused with 24-carat gold leaf and centered around the signature fragrance of Noble Iris, which serves as the floral emblem of Florence, Italy, where Nesti Dante is based. The fragrance combines the powdery, elegant scent of iris with complementary floral and citrus notes, creating a sophisticated and refined olfactory experience that reflects the brand's Italian heritage and artisanal soap-making traditions.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115104.jpg",
+    "rating": 4,
+    "ratingVotes": 3,
+    "accords": [
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 50
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 2
+      }
+    ],
+    "fragranticaId": 115104,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Luxury Gold",
+    "brandFa": "Nesti Dante",
+    "nameFa": "Luxury Gold",
+    "familyFa": "گلی",
+    "genderFa": "women and men. <b>Luxury Gold</b> was launched during the 2020's. Top notes are Grapefruit and Orange; middle notes are Iris and White Rose; base note is Cedarwood",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "White Rose"
+    ],
+    "baseNotesFa": [
+      "چوب سرو"
+    ],
+    "descriptionFa": "Luxury Gold is a commemorative fragrance collection created by Nesti Dante to celebrate their 60th anniversary in soap making. This luxurious line features bath and body products infused with 24-carat gold leaf and centered around the signature fragrance of Noble Iris, which serves as the floral emblem of Florence, Italy, where Nesti Dante is based. The fragrance combines the powdery, elegant scent of iris with complementary floral and citrus notes, creating a sophisticated and refined olfactory experience that reflects the brand's Italian heritage and artisanal soap-making traditions.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Sauvage-Parfum-56324.html",
+    "extractedAt": "2026-11-27T14:17:00.676Z",
+    "name": "Sauvage Parfum",
+    "brand": "Dior",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "François Demachy",
+    "topNotes": [
+      "Bergamot",
+      "Mandarin Orange",
+      "elemi"
+    ],
+    "middleNotes": [
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Olibanum",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "description": "Dior Sauvage Parfum is a new, highly concentrated interpretation of the original, inspired by landscapes of moonlit prairies, dark skies and campfires. Dior perfumer François Demachy designed the composition to blend extreme freshness with warm, oriental tones. The result is a rich and intoxicating Oriental.</p> <p>Top notes: bergamot, spicy mandarin<br /> Heart: sandalwood from Sri Lanka<br /> Base: tonka, frankincense</p> <p>The fragrance is available as a 60 and 100 ml Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56324.jpg",
+    "rating": 4.12,
+    "ratingVotes": 6470,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 63
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 53
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 56324,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Sauvage",
+    "brandFa": "دیور",
+    "nameFa": "Sauvage Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "perfumerFa": "François Demachy",
+    "topNotesFa": [
+      "برگاموت",
+      "نارنگی",
+      "elemi"
+    ],
+    "middleNotesFa": [
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "کندر",
+      "لوبیا تونکا",
+      "وانیل"
+    ],
+    "descriptionFa": "Dior Sauvage Parfum is a new, highly concentrated interpretation of the original, inspired by landscapes of moonlit prairies, dark skies and campfires. Dior perfumer François Demachy designed the composition to blend extreme freshness with warm, oriental tones. The result is a rich and intoxicating Oriental.</p> <p>Top notes: bergamot, spicy mandarin<br /> Heart: sandalwood from Sri Lanka<br /> Base: tonka, frankincense</p> <p>The fragrance is available as a 60 and 100 ml Parfum.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Myths-Man-38259.html",
+    "extractedAt": "2026-11-27T14:17:05.343Z",
+    "name": "Myths Man",
+    "brand": "Amouage",
+    "family": "Oriental",
+    "gender": "men",
+    "year": 2016,
+    "perfumer": "Daniel Visentin, Dorothée Piot and Karine Vinchon Spehner",
+    "topNotes": [
+      "Chrysanthemum",
+      "Orris"
+    ],
+    "middleNotes": [
+      "elemi",
+      "Rum",
+      "Vetiver",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Ash",
+      "Leather",
+      "Labdanum"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38259.jpg",
+    "rating": 4.31,
+    "ratingVotes": 2153,
+    "accords": [
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 82
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 68
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 60
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 38259,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Myths Man",
+    "brandFa": "آموژ",
+    "nameFa": "Myths Man",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Daniel Visentin, Dorothée Piot and Karine Vinchon Spehner",
+    "topNotesFa": [
+      "Chrysanthemum",
+      "ریشه زنبق"
+    ],
+    "middleNotesFa": [
+      "elemi",
+      "رام",
+      "وتیور",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Ash",
+      "چرم",
+      "لابدانوم"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Merchant-of-Venice/Queen-of-The-Night-83803.html",
+    "extractedAt": "2026-11-27T14:17:09.946Z",
+    "name": "Queen of The Night",
+    "brand": "The Merchant of Venice",
+    "family": "Oriental Woody",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Gaël Montero",
+    "topNotes": [
+      "Saffron",
+      "Cinnamon",
+      "Blue Lotus"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Amber",
+      "Kyphi"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Tonka",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83803.jpg",
+    "rating": 4.22,
+    "ratingVotes": 543,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 25
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 22
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 22
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 21
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 21
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 83803,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Queen of The Night",
+    "brandFa": "The Merchant of Venice",
+    "nameFa": "Queen of The Night",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Gaël Montero",
+    "topNotesFa": [
+      "زعفران",
+      "دارچین",
+      "نیلوفر آبی"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "کهربا",
+      "Kyphi"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "Tonka",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tommy-Hilfiger/Impact-Intense-67365.html",
+    "extractedAt": "2026-11-27T14:17:14.047Z",
+    "name": "Impact Intense",
+    "brand": "Tommy Hilfiger",
+    "family": "Citrus Aromatic",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Red Apple",
+      "Elemi resin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Chestnut",
+      "Amber",
+      "Cardamom",
+      "Labdanum"
+    ],
+    "baseNotes": [
+      "Atlas Cedar",
+      "Virginia Cedar",
+      "Texas Cedar",
+      "Akigalawood",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67365.jpg",
+    "rating": 4.3,
+    "ratingVotes": 1016,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 61
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 41
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 26
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 67365,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Impact",
+    "brandFa": "Tommy Hilfiger",
+    "nameFa": "Impact Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "سیب قرمز",
+      "Elemi resin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Chestnut",
+      "کهربا",
+      "هل",
+      "لابدانوم"
+    ],
+    "baseNotesFa": [
+      "سرو اطلس",
+      "Virginia Cedar",
+      "Texas Cedar",
+      "Akigalawood",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Laverne/Blue-Laverne-Bakhur-80315.html",
+    "extractedAt": "2026-11-27T14:17:18.082Z",
+    "name": "Blue Laverne Bakhur",
+    "brand": "Laverne",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Blue Laverne Bakhur</b> was launched in 2023. The nose behind this fragrance is Christian Provenzano. The fragrance features Incense, Agarwood (Oud), Bergamot, Leather, Violet Leaves, Guaiac Wood, Cypress, Geranium, Patchouli, Musk and Jasmine",
+    "year": 2023,
+    "perfumer": "Christian Provenzano",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80315.jpg",
+    "rating": 4.15,
+    "ratingVotes": 735,
+    "accords": [
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 72
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 65
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 59
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 80315,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Laverne Bakhur",
+    "brandFa": "Laverne",
+    "nameFa": "Blue Laverne Bakhur",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Blue Laverne Bakhur</b> was launched in 2023. The nose behind this fragrance is Christian Provenzano. The fragrance features Incense, Agarwood (Oud), Bergamot, Leather, Violet Leaves, Guaiac Wood, Cypress, Geranium, Patchouli, Musk and Jasmine",
+    "perfumerFa": "Christian Provenzano",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Swiss-Arabian/Shaghaf-Men-23114.html",
+    "extractedAt": "2026-11-27T14:17:22.352Z",
+    "name": "Shaghaf Men",
+    "brand": "Swiss Arabian",
+    "family": "Aromatic Aquatic",
+    "gender": "men. Top notes are Chinese Orange, Lemon and Lavender; middle notes are Sea Notes, Cardamom, Cinnamon, Sage, Cypriol Oil or Nagarmotha and Marigold; base notes are Praline, Tolu Balsam, Patchouli, Palisander Rosewood, Black Amber and ebony tree",
+    "topNotes": [
+      "Chinese Orange",
+      "Lemon",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Sea Notes",
+      "Cardamom",
+      "Cinnamon",
+      "Sage",
+      "Cypriol Oil or Nagarmotha",
+      "Marigold"
+    ],
+    "baseNotes": [
+      "Praline",
+      "Tolu Balsam",
+      "Patchouli",
+      "Palisander Rosewood",
+      "Black Amber",
+      "ebony tree"
+    ],
+    "description": "\"Swiss Arabian Shaghaf Men Eau de Parfum is a perfect modern fragrance that will give you an unmistakable charisma and allow you to achieve your goals easily. Bursting with an explosive bouquet of tagetes flowers, calamansi fruit, tolu balsam, cinnamon, sage, black amber and rosewood, Shaghaf Men EDP is a force of nature that will just keep going.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.23114.jpg",
+    "rating": 3.9,
+    "ratingVotes": 510,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 96
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 88
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 87
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 61
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 23114,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Shaghaf Men",
+    "brandFa": "Swiss Arabian",
+    "nameFa": "Shaghaf Men",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "men. Top notes are Chinese Orange, Lemon and Lavender; middle notes are Sea Notes, Cardamom, Cinnamon, Sage, Cypriol Oil or Nagarmotha and Marigold; base notes are Praline, Tolu Balsam, Patchouli, Palisander Rosewood, Black Amber and ebony tree",
+    "topNotesFa": [
+      "Chinese Orange",
+      "لیمو",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "Sea Notes",
+      "هل",
+      "دارچین",
+      "مریم‌گلی",
+      "Cypriol Oil or Nagarmotha",
+      "گل داودی"
+    ],
+    "baseNotesFa": [
+      "پرالین",
+      "بلسام تولو",
+      "پچولی",
+      "Palisander Rosewood",
+      "کهربا سیاه",
+      "ebony tree"
+    ],
+    "descriptionFa": "\"Swiss Arabian Shaghaf Men Eau de Parfum is a perfect modern fragrance that will give you an unmistakable charisma and allow you to achieve your goals easily. Bursting with an explosive bouquet of tagetes flowers, calamansi fruit, tolu balsam, cinnamon, sage, black amber and rosewood, Shaghaf Men EDP is a force of nature that will just keep going.\" - a note from the brand.",
+    "seasons": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Eros-Parfum-70090.html",
+    "extractedAt": "2026-11-27T14:17:26.422Z",
+    "name": "Eros Parfum",
+    "brand": "Versace",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Mint",
+      "Lemon",
+      "Black Pepper",
+      "elemi",
+      "Litsea Cubeba"
+    ],
+    "middleNotes": [
+      "Green Apple",
+      "Geranium",
+      "Lavender",
+      "Sage",
+      "Pomarose"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Amber",
+      "Vanilla",
+      "Patchouli",
+      "Benzoin"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70090.jpg",
+    "rating": 4.2,
+    "ratingVotes": 3157,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 72
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 70
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 36
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 70090,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Eros",
+    "brandFa": "ورساچه",
+    "nameFa": "Eros Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "نعناع",
+      "لیمو",
+      "فلفل سیاه",
+      "elemi",
+      "Litsea Cubeba"
+    ],
+    "middleNotesFa": [
+      "سیب سبز",
+      "گل جعفری",
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "Pomarose"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "کهربا",
+      "وانیل",
+      "پچولی",
+      "بنزوئین"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Dalal-119588.html",
+    "extractedAt": "2026-11-27T14:17:31.205Z",
+    "name": "Dalal",
+    "brand": "Lattafa Perfumes",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women. Top notes are Apple and Mandarin; middle notes are Jasmine, Ylang-Ylang and Orange; base notes are Vanilla, Musk and Oakmoss",
+    "topNotes": [
+      "Apple",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Ylang-Ylang",
+      "Orange"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Oakmoss"
+    ],
+    "description": "Dalal by Lattafa is a gourmand-floral fragrance that combines fruity sweetness with soft florals and a warm, creamy base. It opens with a blend of Golden Delicious apple and mandarin, leading into a floral heart of ylang-ylang, jasmine, and orange blossom. Vanilla, musk, and oakmoss form the base, giving the scent a sweet, slightly powdery and gently mossy character that leans feminine and comforting.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.119588.jpg",
+    "rating": 4.3,
+    "ratingVotes": 556,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 97
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 93
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 86
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 80
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 71
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 119588,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dalal",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Dalal",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women. Top notes are Apple and Mandarin; middle notes are Jasmine, Ylang-Ylang and Orange; base notes are Vanilla, Musk and Oakmoss",
+    "topNotesFa": [
+      "سیب",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "ایلنگ‌ایلنگ",
+      "پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "Dalal by Lattafa is a gourmand-floral fragrance that combines fruity sweetness with soft florals and a warm, creamy base. It opens with a blend of Golden Delicious apple and mandarin, leading into a floral heart of ylang-ylang, jasmine, and orange blossom. Vanilla, musk, and oakmoss form the base, giving the scent a sweet, slightly powdery and gently mossy character that leans feminine and comforting.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
