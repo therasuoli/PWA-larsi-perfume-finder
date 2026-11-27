@@ -132711,5 +132711,1663 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dar-Al-Misk/Mango-Touch-148875.html",
+    "extractedAt": "2026-11-27T06:59:43.036Z",
+    "name": "Mango Touch",
+    "brand": "Dar Al-Misk",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mango",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Geranium",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Honey",
+      "Musk",
+      "Vanilla",
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Oakmoss"
+    ],
+    "description": "Mango Touch by Dar Al Misk is a floral fruity gourmand fragrance for women and men, launched in 2026. It opens with mango and bergamot, followed by a heart of rose, geranium and jasmine, over a base of honey, musk, vanilla, amber, sandalwood, patchouli and oakmoss.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148875.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 76
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 71
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 148875,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mango Touch",
+    "brandFa": "Dar Al-Misk",
+    "nameFa": "Mango Touch",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مانگو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "گل جعفری",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "عسل",
+      "موش",
+      "وانیل",
+      "کهربا",
+      "چوب صندل",
+      "پچولی",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "Mango Touch از برند Dar Al Misk یک عطر گلی میوه‌ای گورماند برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با رایحه انبه و ترنج آغاز می‌شود، سپس رایحه اصلی گل رز، شمعدانی و یاس را در بر می‌گیرد و در نهایت بر پایه عسل، مشک، وانیل، عنبر، چوب صندل، نعناع هندی و خزه بلوط قرار می‌گیرد.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dar-Al-Misk/Marshmallow-148874.html",
+    "extractedAt": "2026-11-27T06:59:48.673Z",
+    "name": "Marshmallow",
+    "brand": "Dar Al-Misk",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Marshmallow",
+      "Milk",
+      "Incense"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Magnolia",
+      "Rose",
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Praline",
+      "Musk",
+      "Cashmere Wood"
+    ],
+    "description": "Marshmallow by Dar Al-Misk is an amber gourmand fragrance for women and men, launched in 2026. It opens with marshmallow, milk and incense, followed by lily of the valley, magnolia, rose and vanilla, over a base of caramel, praline, musk and cashmere wood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148874.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 58
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 54
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 148874,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Marshmallow",
+    "brandFa": "Dar Al-Misk",
+    "nameFa": "Marshmallow",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مارشمالو",
+      "شیر",
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "ماگنولیا",
+      "گل رز",
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "پرالین",
+      "موش",
+      "Cashmere Wood"
+    ],
+    "descriptionFa": "مارشمالو از برند دارالمسک یک عطر کهربایی گُرماند برای خانم‌ها و آقایان است که در سال ۲۰۲۶ عرضه شد. این عطر با رایحه‌های مارشمالو، شیر و بخور آغاز می‌شود، سپس رایحه‌های گل برف، ماگنولیا، رز و وانیل به مشام می‌رسند و در نهایت رایحه‌های کارامل، پرالین، مشک و چوب کشمیر به عنوان رایحه‌های پایه حس می‌شوند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Miss-Dior-Eau-de-Parfum-2026-139149.html",
+    "extractedAt": "2026-11-27T06:59:55.204Z",
+    "name": "Miss Dior Eau de Parfum (2026)",
+    "brand": "Dior",
+    "family": "Chypre Floral",
+    "gender": "women. This is a new fragrance. <b>Miss Dior Eau de Parfum (2026)</b> was launched in 2026. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Rose de Mai, Rose, Vanilla, Tonka Bean, Patchouli, Sandalwood and Palisander Rosewood",
+    "year": 2026,
+    "perfumer": "Francis Kurkdjian",
+    "description": "Miss Dior Eau de Parfum (2026) by Dior is a reformulated edition of the house's fragrance for women, now created by Francis Kurkdjian. It continues the Miss Dior line with a composition built around Centifolia rose absolute from Grasse, supported by rosewood and patchouli, and a warm base of sandalwood, vanilla, and tonka bean.</p> <p>The scent is presented as a creamy floral with honeyed rose facets and a soft, woody-vanillic drydown.</p> <p>The 2026 edition also introduces a revised bottle featuring Dior's signature houndstooth motif on the bow.</p> <p>\"The first fragrance by the House of Dior is reinvented in the most couture of bottles, presented by Natalie Portman in a new chapter imbued with love and flowers. A creation inspired by the ultimate declaration. An ode to love, the eternal signature of the House of Dior.\"</p> <p>Miss Dior 2026 is available in 30 ml, 50 ml, 100 ml, and 150 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139149.jpg",
+    "rating": 3.92,
+    "ratingVotes": 258,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 88
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 40
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 34
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 139149,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Miss Dior (2026)",
+    "brandFa": "دیور",
+    "nameFa": "Miss Dior Eau de Parfum (2026)",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شیپر گلی",
+    "genderFa": "women. This is a new fragrance. <b>Miss Dior Eau de Parfum (2026)</b> was launched in 2026. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Rose de Mai, Rose, Vanilla, Tonka Bean, Patchouli, Sandalwood and Palisander Rosewood",
+    "perfumerFa": "Francis Kurkdjian",
+    "descriptionFa": "Miss Dior Eau de Parfum (2026) از برند Dior نسخه‌ای بازفرمول‌شده از عطر زنانه این برند است که اکنون توسط فرانسیس کورکجیان ساخته شده است. این عطر ادامه خط تولید Miss Dior است و ترکیبی دارد که بر اساس عصاره گل رز سنتیفولیا از گراس ساخته شده و رایحه‌های چوب گل سرخ و نعناع هندی آن را تقویت می‌کنند و رایحه‌های پایه گرم آن شامل چوب صندل، وانیل و دانه‌های تونکا هستند.</p> <p>این عطر به عنوان یک رایحه گل‌دار خامه ای با جلوه‌های گل رز عسلی و رایحه پایانی ملایم، چوبی-وانیلی ارائه می‌شود.</p> <p>این",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fugazzi/Vanilla-Haze-95955.html",
+    "extractedAt": "2026-11-27T07:00:00.887Z",
+    "name": "Vanilla Haze",
+    "brand": "Fugazzi",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Almond",
+      "Hazelnut",
+      "Coconut Milk",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Vanilla Pod",
+      "Tonka Bean",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Cashmere Wood",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Vanilla Haze by Fugazzi is a fragrance that combines smoky vanilla pods with fresh mandarin notes. It opens with rich caramel and a sophisticated hint of hazelnut, complemented by the sweetness of crème brûlée. This scent is designed for those who have their own charisma and live by their own rules.</p> <p>Available in 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95955.jpg",
+    "rating": 3.83,
+    "ratingVotes": 1691,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 80
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 52
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 95955,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Haze",
+    "brandFa": "Fugazzi",
+    "nameFa": "Vanilla Haze",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "بادام",
+      "فندق",
+      "شیر نارگیل",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "Vanilla Pod",
+      "لوبیا تونکا",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "Cashmere Wood",
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "Vanilla Haze از برند Fugazzi عطری است که غلاف‌های وانیل دودی را با رایحه‌های نارنگی تازه ترکیب می‌کند. این عطر با رایحه غنی کارامل و کمی رایحه پیچیده فندق آغاز می‌شود که با شیرینی کرم‌بروله تکمیل می‌شود. این عطر برای کسانی طراحی شده است که کاریزمای خاص خود را دارند و طبق قوانین خود زندگی می‌کنند.</p> <p>در حجم 100 میلی‌لیتر ادو پرفیوم عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Stora-Skuggan/Silphium-43524.html",
+    "extractedAt": "2026-11-27T07:00:07.055Z",
+    "name": "Silphium",
+    "brand": "Stora Skuggan",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Olle Hemmendorff and Tomas Hempel",
+    "topNotes": [
+      "Labdanum"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Ginger",
+      "Black Pepper",
+      "Clove",
+      "Cinnamon",
+      "Tobacco"
+    ],
+    "baseNotes": [
+      "Olibanum",
+      "Cedar",
+      "Myrhh",
+      "Leather"
+    ],
+    "description": "\"Even if one just tastes it, at once arouses a humour throughout the body and has a very healthy aroma” - Pedanius Dioscorides, around year 70 BC \"Silphium (probably of the genus Ferula) was a plant that grew in the area of Cyrene, present day Libya, and was widely renowned as a spice, medicinal herb and perfume ingredient throughout the empires of the classical antiquity. It was praised by Greek philosophers and writers, as well as Roman emperors and cookbook authors. There were many attempts to cultivate Silphium, but they inevitably failed. It would only grow wild in a limited area of the north African coast. This is combination with its qualities as seasoning and medicine made Silphium the most valuable spice in the world, outshining both saffron and cinnamon. The demand for Silphium eventually became so overwhelming that it was harvested to extinction, and the taste and smell of the once greatest spice in the world was lost in time. Our rendition of this historical plant is created by researching surviving assumed relatives of Silphium, using aromachemicals (the molecular building blocks of scents) to create an accord that we feel represents what descriptions remains. This is set against a background of ancient incense, woods and leather\" - Stora Skuggan. Silphium features top notes of Silphium accord and Cistus. The heart notes are Cinnnamon, Black Pepper, Tobacco, Ginger, Geranium and Clove. Base notes are Frankincense, Myrrh, Cedarwood and Leather. The perfumers behind Silphium are Olle Hemmendorff and Tomas Hempel.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43524.jpg",
+    "rating": 3.88,
+    "ratingVotes": 531,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 24
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 19
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 43524,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Silphium",
+    "brandFa": "Stora Skuggan",
+    "nameFa": "Silphium",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olle Hemmendorff and Tomas Hempel",
+    "topNotesFa": [
+      "لابدانوم"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "زنجبیل",
+      "فلفل سیاه",
+      "میخک",
+      "دارچین",
+      "تنباکو"
+    ],
+    "baseNotesFa": [
+      "کندر",
+      "سرو",
+      "Myrhh",
+      "چرم"
+    ],
+    "descriptionFa": "«حتی اگر فقط طعم آن را بچشید، بلافاصله در سراسر بدن ایجاد نشاط می‌کند و عطر بسیار سالمی دارد» - پدانیوس دیوسکوریدس، حدود سال 70 قبل از میلاد «سیلفیوم (احتمالاً از جنس فرولا) گیاهی بود که در منطقه سیرن، لیبی امروزی، رشد می‌کرد و در سراسر امپراتوری‌های دوران باستان کلاسیک به عنوان ادویه، گیاه دارویی و ماده اولیه عطر شهرت داشت. این گیاه مورد تحسین فیلسوفان و نویسندگان یونانی و همچنین امپراتور روم قرار گرفت.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragrance-World/Abraaj-Enclosure-104795.html",
+    "extractedAt": "2026-11-27T07:00:14.473Z",
+    "name": "Abraaj Enclosure",
+    "brand": "Fragrance World",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Peppermint",
+      "Cardamom",
+      "Pink Pepper",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Olibanum",
+      "Patchouli",
+      "Rose",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Amber Xtreme",
+      "Leather",
+      "Labdanum"
+    ],
+    "description": "Abraaj Enclosure is a luxury Arabic fragrance featuring a fougère-oriental composition with contrasting warm and cool elements. The scent combines fresh mint and spices with resinous amber and leather accents, creating a versatile aroma suitable for various occasions. Inspired by the landscape of Oman's Musandam Fjords, it balances aromatic freshness from peppermint and pink pepper with deeper woody-amber base notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104795.jpg",
+    "rating": 3.77,
+    "ratingVotes": 30,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 104795,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Abraaj Enclosure",
+    "brandFa": "Fragrance World",
+    "nameFa": "Abraaj Enclosure",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "نعناع فلفلی",
+      "هل",
+      "فلفل صورتی",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "پچولی",
+      "گل رز",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "Amber Xtreme",
+      "چرم",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Abraaj Enclosure یک عطر عربی لوکس است که دارای ترکیبی از رایحه فوژر-شرقی با عناصر متضاد گرم و خنک است. این رایحه، نعناع تازه و ادویه‌جات را با کهربای رزینی و نت‌های چرمی ترکیب می‌کند و عطری همه کاره ایجاد می‌کند که برای مناسبت‌های مختلف مناسب است. این عطر که از چشم‌انداز فجوردهای مسندم عمان الهام گرفته شده است، طراوت معطر نعناع فلفلی و فلفل صورتی را با نت‌های عمیق‌تر پایه چوبی-کهربایی متعادل می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Blue-Sapphire-Supercharged-74434.html",
+    "extractedAt": "2026-11-27T07:00:20.986Z",
+    "name": "Blue Sapphire Supercharged",
+    "brand": "Boadicea the Victorious",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Christian Provenzano",
+    "topNotes": [
+      "Aldehydes",
+      "Orange",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Raspberry",
+      "Cardamom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Leather",
+      "Amber",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74434.jpg",
+    "rating": 4.5,
+    "ratingVotes": 224,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 94
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 88
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 69
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      }
+    ],
+    "fragranticaId": 74434,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blue Sapphire Supercharged",
+    "brandFa": "Boadicea the Victorious",
+    "nameFa": "Blue Sapphire Supercharged",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Christian Provenzano",
+    "topNotesFa": [
+      "آلدهیدها",
+      "پرتقال",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "تمشک",
+      "هل",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "چرم",
+      "کهربا",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Opus-XII-Rose-Incense-74282.html",
+    "extractedAt": "2026-11-27T07:00:24.638Z",
+    "name": "Opus XII – Rose Incense",
+    "brand": "Amouage",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Bruno Jovanovic",
+    "topNotes": [
+      "Olibanum",
+      "Ink",
+      "elemi"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Olibanum"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Vanilla",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74282.jpg",
+    "rating": 4.24,
+    "ratingVotes": 1123,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 96
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 89
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 87
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 51
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 74282,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Opus XII – Rose Incense",
+    "brandFa": "آموژ",
+    "nameFa": "Opus XII – Rose Incense",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Bruno Jovanovic",
+    "topNotesFa": [
+      "کندر",
+      "Ink",
+      "elemi"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "وانیل",
+      "چوب صندل",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Cerruti/1881-327.html",
+    "extractedAt": "2026-11-27T07:00:27.917Z",
+    "name": "1881",
+    "brand": "Cerruti",
+    "family": "Floral",
+    "gender": "women",
+    "year": 1995,
+    "perfumer": "Claire Cain Miller",
+    "topNotes": [
+      "Mimosa",
+      "Iris",
+      "Rose",
+      "Freesia",
+      "Violet",
+      "Lily-of-the-Valley",
+      "Jasmine",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Chamomile",
+      "Iris",
+      "Narcissus",
+      "Galbanum",
+      "Geranium",
+      "Jasmine",
+      "Coriander",
+      "Brazilian Rosewood",
+      "Orange Blossom",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Cedar",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Fragrance that became a classic of this designer’s house was launched in 1995. Nino Cerruti, was known as \"the youngest of the great classics,\" opened the first Cerruti boutique in Paris in 1967, on rue Royale. The first women's line appeared in 1976, achieving the reputation of impeccably elegant style. Cerutti perfumes are made of finest high-quality materials. That is why the perfumer chose a \"fleur de lin\" note that is Nino Cerruti's signature flower. Perfume was created by Claire Cain. Bottle is designed by Serge Mansau.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.327.jpg",
+    "rating": 3.86,
+    "ratingVotes": 9104,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 98
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 66
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 66
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 65
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 54
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 327,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "1881",
+    "brandFa": "Cerruti",
+    "nameFa": "1881",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Claire Cain Miller",
+    "topNotesFa": [
+      "میموزا",
+      "زنبق",
+      "گل رز",
+      "فریزیا",
+      "بنفشه",
+      "Lily-of-the-Valley",
+      "یاسمن",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "بابونه",
+      "زنبق",
+      "نرگس",
+      "گلبانوم",
+      "گل جعفری",
+      "یاسمن",
+      "گشنیز",
+      "Brazilian Rosewood",
+      "گل پرتقال",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "سرو",
+      "وانیل",
+      "کهربا"
+    ],
+    "descriptionFa": "این عطر که به یکی از عطرهای کلاسیک این برند تبدیل شد، در سال 1995 عرضه گردید. نینو چروتی، که به عنوان «جوان‌ترین طراح در میان طراحان کلاسیک بزرگ» شناخته می‌شد، اولین بوتیک چروتی را در سال 1967 در خیابان رویال پاریس افتتاح کرد. اولین مجموعه زنانه در سال 1976 عرضه شد و به شهرت سبک بی‌نقص و شیک دست یافت. عطرهای Cerutti از بهترین مواد با کیفیت بالا ساخته شده‌اند. به همین دلیل است که عطر‌ساز نت «گل کتان» را انتخاب کرد که امضای نینو چروتی است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/27-87/Hashtag-37889.html",
+    "extractedAt": "2026-11-27T07:00:33.306Z",
+    "name": "#Hashtag",
+    "brand": "27 87",
+    "family": "Aromatic",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Aldehydes",
+      "Violet Leaf"
+    ],
+    "middleNotes": [
+      "Olibanum",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar"
+    ],
+    "description": "Blog, tweet, instagram. Life today is the story we tell. #Hashtag is the story we smell! It shall be an inspiration for upcoming posts by reflecting the yet undiscovered thoughts through its own magical way.</p> <p>#Hashtag by 27 87 is an Aromatic fragrance for women and men. This is a new fragrance. #Hashtag was launched in 2016. The nose behind this fragrance is Daniela Andrier. Top notes are aldehydes and violet leaf; middle notes are iris and olibanum; base notes are cedar and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37889.jpg",
+    "rating": 3.63,
+    "ratingVotes": 705,
+    "accords": [
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 67
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 47
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 37889,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "#Hashtag",
+    "brandFa": "27 87",
+    "nameFa": "#Hashtag",
+    "familyFa": "معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "آلدهیدها",
+      "برگ بنفشه"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو"
+    ],
+    "descriptionFa": "وبلاگ، توییتر، اینستاگرام. زندگی امروز همان داستانی است که ما روایت می‌کنیم. #Hashtag داستانی است که ما آن را استشمام می‌کنیم! این عطر با بازتاب افکار کشف‌نشده از طریق روش جادویی خاص خود، الهام‌بخش پست‌های بعدی خواهد بود.</p> <p>#Hashtag از برند 27 87 یک عطر آروماتیک برای زنان و مردان است. این یک عطر جدید است. #Hashtag در سال 2016 عرضه شد. عطار این عطر دانیلا آندریر است. نت‌های اولیه شامل آلدئیدها و برگ بنفشه هستند؛ نت‌های میانی شامل زنبق و",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/L-Artisan-Parfumeur/Mirabilis-60-40724.html",
+    "extractedAt": "2026-11-27T07:00:37.637Z",
+    "name": "Mirabilis 60",
+    "brand": "L'Artisan Parfumeur",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Mirabilis 60</b> was launched in 2016. The nose behind this fragrance is Daphné Bugey. The fragrance features Musk, Olibanum, Woody Notes, Ambroxan and Earthy Notes",
+    "year": 2016,
+    "perfumer": "Daphné Bugey",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.40724.jpg",
+    "rating": 3.98,
+    "ratingVotes": 396,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 31
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 19
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 40724,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mirabilis 60",
+    "brandFa": "لارتیزان پرفیومر",
+    "nameFa": "Mirabilis 60",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Mirabilis 60</b> was launched in 2016. The nose behind this fragrance is Daphné Bugey. The fragrance features Musk, Olibanum, Woody Notes, Ambroxan and Earthy Notes",
+    "perfumerFa": "Daphné Bugey",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Portals-Parfums/Fiery-Passion-87654.html",
+    "extractedAt": "2026-11-27T07:00:41.684Z",
+    "name": "Fiery Passion",
+    "brand": "Portals Parfums",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women. <b>Fiery Passion</b> was launched in 2023. Fiery Passion was created by Patty Hidalgo, Natasha Côté and Laurent Le Guernec. The fragrance features Strawberry, Peony, Vanilla, Musk and Woody Notes",
+    "year": 2023,
+    "perfumer": "Patty Hidalgo, Natasha Côté and Laurent Le Guernec",
+    "description": "This sparkling scent recalls the delicious confections of youth with the warmth of avant-garde musks and woods to create a sweet, mouth-watering bouquet.<br /> <br /> <strong>Key Notes</strong>: Strawberry, Pink Peony, Vanilla, Musk, Woods.</p> <p>The bottle is a one-foot-tall sculpture, the head of which opens to reveal four vials of 15ml. The fragrances are sold together. Separate versions of them will be available in 2024.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87654.jpg",
+    "rating": 3.84,
+    "ratingVotes": 154,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 81
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 27
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 87654,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fiery Passion",
+    "brandFa": "Portals Parfums",
+    "nameFa": "Fiery Passion",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women. <b>Fiery Passion</b> was launched in 2023. Fiery Passion was created by Patty Hidalgo, Natasha Côté and Laurent Le Guernec. The fragrance features Strawberry, Peony, Vanilla, Musk and Woody Notes",
+    "perfumerFa": "Patty Hidalgo, Natasha Côté and Laurent Le Guernec",
+    "descriptionFa": "این رایحه درخشان یادآور شیرینی‌های لذیذ دوران جوانی است که با گرمای مشک‌ها و چوب‌های آوانگارد ترکیب شده تا یک رایحه شیرین و اشتهاآور را ایجاد کند.<br /> <br /> <strong>نت‌های اصلی</strong>: توت‌فرنگی، گل صدتومانی صورتی، وانیل، مشک، چوب.</p> <p>بطری یک مجسمه به ارتفاع یک فوت است که سر آن باز می‌شود و چهار ویال 15 میلی‌لیتری را نشان می‌دهد. این عطرها به‌صورت یکجا فروخته می‌شوند. نسخه‌های جداگانه آنها در سال 2024 عرضه خواهد شد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/MAISON-ASRAR/Vanguard-121661.html",
+    "extractedAt": "2026-11-27T07:00:48.391Z",
+    "name": "Vanguard",
+    "brand": "MAISON ASRAR",
+    "family": "Chypre",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Pineapple",
+      "Blackcurrant",
+      "Grapefruit",
+      "Pink Pepper",
+      "Apple",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Lily of the Valley",
+      "Ginger",
+      "Carnation"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cashmere Musk",
+      "Leather",
+      "Moss",
+      "Ambergris",
+      "Cedarwood"
+    ],
+    "description": "Vanguard by Maison Asrar is a chypre-leather fragrance introduced in 2025 as part of the Royal Collection. It opens with a fresh and slightly fruity accord of apple, bergamot, blackcurrant, grapefruit, pink pepper, and pineapple. The heart brings a warmer, spicier character through carnation, ginger, and cardamom, softened by the floral touch of lily of the valley. The composition rests on a base of ambergris, cashmere, cedarwood, leather, moss, and musk, creating a textured, leathery and woody drydown with a classic chypre feel.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121661.jpg",
+    "rating": 4.63,
+    "ratingVotes": 896,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 56
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 37
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 121661,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanguard",
+    "brandFa": "MAISON ASRAR",
+    "nameFa": "Vanguard",
+    "familyFa": "شیپر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "آناناس",
+      "Blackcurrant",
+      "گریپ‌فروت",
+      "فلفل صورتی",
+      "سیب",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "لاله سفید",
+      "زنجبیل",
+      "میخک"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Cashmere Musk",
+      "چرم",
+      "خزه",
+      "کهربا خاکستری",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Vanguard از Maison Asrar یک عطر چایپر-چرمی است که در سال 2025 به‌عنوان بخشی از مجموعه Royal عرضه شد. این عطر با ترکیبی تازه و کمی میوه‌ای از سیب، ترنج، انگور فرنگی سیاه، گریپ‌فروت، فلفل صورتی و آناناس آغاز می‌شود. نت میانی با میخک، زنجبیل و هل، حالتی گرم‌تر و تندتر ایجاد می‌کند که با رایحه گل‌مانند گل برف نرم می‌شود. این ترکیب بر پایه‌ای از عنبر، کشمیر، چوب سدر، چرم، خزه،",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salvatore-Ferragamo/Signorina-13639.html",
+    "extractedAt": "2026-11-27T07:00:53.924Z",
+    "name": "Signorina",
+    "brand": "Salvatore Ferragamo",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2011,
+    "perfumer": "Sophie Labbe and Juliette Karagueuzoglou",
+    "topNotes": [
+      "Pink Pepper",
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Peony",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Panacotta",
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "Signorina is a celebration of chic girls with a sophisticated, subtly cheeky and fresh scent signature. A new fragrance creation with the elegant and all Italian style by Salvatore Ferragamo. A fragrance inspired by the strong bond between Salvatore Ferragamo and trendy feminine young ladies with timeless modernity, creativity and a hint of audacity.</p> <p></p> <p>Signorina, a lovely and chic Italian name that literally means young woman. Stylish, truly Italian, fresh and full of life. </p> <p> The bright fizzy notes of currant spiced by fresh pink pepper bring their joyful, cheeky character to green notes. A generous dewy floral heart is composed of elegant jasmine, pink peony and rose. Spontaneous and delicate sweetness of pannacotta together with soft musks and intriguing woody patchouli notes offer a racy Italian elegance and an unexpected addictiveness. </p> <p>Olfactive Family: Floriental Fruity </p> <p>Perfumers: Sophie Labbe, Juliette Karagueuzoglou (IFF)</p> <p>Signorina`s flacon is a statement of subtle elegance and grace. The squared design recalls a precious jewel box. On top, the flacon shows a reinterpretation of the iconic Vara bow in gros grain in two cheeky pink shades. A lovely bubble of pink gold completes this sophisticated creations with a touch of irony. The outer packaging is gracefully decorated with pink gold frames, that give a light and iconic style. The Salvatore Ferragamo logo is embossed on the top and elegantly seals the box. A perfect blend of style and freshness.</p> <p>Salvatore Ferragamo celebrates chic young women creating a unique style signature of timeless modernity, creativity and a hint of audacity. A girl playing with her different characters: sophisticated and cheeky, like Signorina Eau de Parfum, elegant and seductive like Signorina Eleganza and unpredictably mysterious like Signorina Misteriosa ...because Signorina is a different Signorina every day. “My life is a play” is her credo: Grace Hartzel perfectly embodies the three personalities of Signorina deciding when and how to let the play start, but always remaining the same person. #mylifeisaplay",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13639.jpg",
+    "rating": 3.82,
+    "ratingVotes": 4412,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 75
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 45
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 13639,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Signorina",
+    "brandFa": "سالواتوره فراگامو",
+    "nameFa": "Signorina",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Sophie Labbe and Juliette Karagueuzoglou",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "گل داوودی",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Panacotta",
+      "موش",
+      "پچولی"
+    ],
+    "descriptionFa": "Signorina تجلیلی است از دختران شیک‌پوش با رایحه‌ای پیچیده، کمی جسورانه و تازه. عطر جدیدی با سبک ظریف و کاملاً ایتالیایی از Salvatore Ferragamo. این عطر از پیوند قوی بین سالواتوره فراگامو و خانم‌های جوان شیک‌پوش با مدرنیته‌ای جاودانه، خلاقیت و کمی جسارت الهام گرفته است.</p> <p></p> <p>Signorina، یک نام ایتالیایی زیبا و شیک که به معنای واقعی کلمه به معنای زن جوان است. شیک",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/19-69/Higher-Peace-69490.html",
+    "extractedAt": "2026-11-27T07:00:58.625Z",
+    "name": "Higher Peace",
+    "brand": "19-69",
+    "family": null,
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Davana",
+      "Bergamot",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Hay",
+      "cannabis",
+      "Coumarin"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Tobacco",
+      "Benzoin"
+    ],
+    "description": "The 19-69 fragrance Higher Peace is inspired by the Santa Monica Canyon and the documentary Tripping with Ken Kesey.</p> <p>The scent is hempy, bladed and Play-Doh-y. Fragrance notes include Bergamot, Fresh Hay and Tobacco.</p> <p>The scent Higher Peace is influenced by the Merry Pranksters and the retired schoolbus Furthur, which enlightened America during the 60s. It’s about never stop learning. Letting your guard down, trying to understand each other and, with that, traveling through unknown waters. It is also a statement of peace, inspired by the values of bagism, a term created by Lennon and Ono in 1969. The intent of bagism is avoiding prejudice and stereotyping by not judging others on the basis on skin color, gender, sexuality, age or other.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69490.jpg",
+    "rating": 3.74,
+    "ratingVotes": 117,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 88
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 39
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "cannabis",
+        "nameFa": "cannabis",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 26
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 69490,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Higher Peace",
+    "brandFa": "19-69",
+    "nameFa": "Higher Peace",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Davana",
+      "برگاموت",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "یونجه",
+      "cannabis",
+      "Coumarin"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "تنباکو",
+      "بنزوئین"
+    ],
+    "descriptionFa": "عطر Higher Peace از برند 19-69 از دره سانتا مونیکا و مستند «سفر با کن کیسی» الهام گرفته شده است.</p> <p>این عطر رایحه‌ای شبیه به کنف، برگ و خمیر بازی دارد. نت‌های رایحه شامل ترنج، یونجه تازه و تنباکو است.</p> <p>رایحه Higher Peace تحت تأثیر گروه Merry Pranksters و اتوبوس مدرسه بازنشسته Furthur است که در دهه 60 آمریکا را روشن کرد. این عطر درباره این است که هرگز یادگیری را متوقف نکنید. کاهش حالت دفاعی، تلاش برای درک یکدیگر",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
