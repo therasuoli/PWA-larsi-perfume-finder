@@ -155445,5 +155445,1500 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Master-Perfumer/Clementine-Ray-148943.html",
+    "extractedAt": "2026-11-27T23:43:04.934Z",
+    "name": "Clementine Ray",
+    "brand": "The Master Perfumer",
+    "family": null,
+    "gender": "women. The fragrance features Clementine, Cassis, Floral Notes and Black Amber",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148943.jpg",
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 75
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 62
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 52
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148943,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Clementine Ray",
+    "brandFa": "The Master Perfumer",
+    "nameFa": "Clementine Ray",
+    "genderFa": "women. The fragrance features Clementine, Cassis, Floral Notes and Black Amber",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Nahema-Eau-de-Parfum-65153.html",
+    "extractedAt": "2026-11-27T23:43:08.799Z",
+    "name": "Nahema Eau de Parfum",
+    "brand": "Guerlain",
+    "family": "Chypre Floral",
+    "gender": "women",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Peach",
+      "Passionfruit"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Hyacinth"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65153.jpg",
+    "rating": 4.12,
+    "ratingVotes": 520,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 54
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 33
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 65153,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Nahema",
+    "brandFa": "گرلن",
+    "nameFa": "Nahema Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شیپر گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "هلو",
+      "Passionfruit"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "هیاسینت"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Van-Cleef-Arpels/Bois-Dore-44864.html",
+    "extractedAt": "2026-11-27T23:43:13.103Z",
+    "name": "Bois Doré",
+    "brand": "Van Cleef & Arpels",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Fabrice Pellegrin",
+    "topNotes": [
+      "Black Pepper",
+      "Mineral notes"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Almond",
+      "Tobacco",
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Teak Wood",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44864.jpg",
+    "rating": 4.28,
+    "ratingVotes": 2602,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 47
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 28
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 44864,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bois Doré",
+    "brandFa": "ون کلیف و آرپلز",
+    "nameFa": "Bois Doré",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Fabrice Pellegrin",
+    "topNotesFa": [
+      "فلفل سیاه",
+      "Mineral notes"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "بادام",
+      "تنباکو",
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "Teak Wood",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Burberry/Weekend-for-Women-1000.html",
+    "extractedAt": "2026-11-27T23:43:16.385Z",
+    "name": "Weekend for Women",
+    "brand": "Burberry",
+    "family": "Floral",
+    "gender": "women",
+    "year": 1997,
+    "perfumer": "Nathalie Lorson",
+    "topNotes": [
+      "Mignonette",
+      "Mandarin Orange",
+      "Sage"
+    ],
+    "middleNotes": [
+      "Nectarine",
+      "Blue Hyacinth",
+      "Peach Blossom",
+      "Rose Hip",
+      "Iris",
+      "Red Cyclamen",
+      "Violet Root"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "This relaxing, powdery fragrance is dedicated to weekend. A relaxing country style perfume, named Weekend for Women. Top notes include sweet and zesty mandarine and aromatic grassy notes. Heart notes contain blue hyacinth, iris, nectarine, peach flower, red cyclamen and wild rose. The drydown is a perfect blend of sandalwood, cedar and musk. It was created by Nathalie Lorson in 1997.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1000.jpg",
+    "rating": 3.74,
+    "ratingVotes": 8647,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 49
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 26
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 1000,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Weekend for Women",
+    "brandFa": "بربری",
+    "nameFa": "Weekend for Women",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nathalie Lorson",
+    "topNotesFa": [
+      "Mignonette",
+      "نارنگی",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "Nectarine",
+      "Blue Hyacinth",
+      "Peach Blossom",
+      "Rose Hip",
+      "زنبق",
+      "Red Cyclamen",
+      "Violet Root"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "سرو"
+    ],
+    "descriptionFa": "این عطر آرامش‌بخش و پودری مخصوص آخر هفته است. یک عطر آرامش‌بخش با سبک روستایی، به نام Weekend for Women. نت‌های اولیه شامل نارنگی شیرین و تند و نت‌های معطر علفی هستند. نت‌های میانی شامل سنبل آبی، زنبق، شلیل، گل هلو، سیکلامن قرمز و گل رز وحشی هستند. رایحه پایه ترکیبی عالی از چوب صندل، سرو و مشک است. این عطر توسط ناتالی لورسون در سال 1997 ساخته شد.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Just-Jack/Italian-Leather-82834.html",
+    "extractedAt": "2026-11-27T23:43:22.418Z",
+    "name": "Italian Leather",
+    "brand": "Just Jack",
+    "family": "Leather",
+    "gender": "women and men. Top notes are Raspberry and Saffron; middle notes are Thyme, Night Blooming Jasmine and Olibanum; base notes are Suede and Amberwood",
+    "topNotes": [
+      "Raspberry",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Thyme",
+      "Night Blooming Jasmine",
+      "Olibanum"
+    ],
+    "baseNotes": [
+      "Suede",
+      "Amberwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82834.jpg",
+    "rating": 3.82,
+    "ratingVotes": 111,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 75
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 82834,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Italian Leather",
+    "brandFa": "Just Jack",
+    "nameFa": "Italian Leather",
+    "familyFa": "چرمی",
+    "genderFa": "women and men. Top notes are Raspberry and Saffron; middle notes are Thyme, Night Blooming Jasmine and Olibanum; base notes are Suede and Amberwood",
+    "topNotesFa": [
+      "تمشک",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "پونه‌سان",
+      "Night Blooming Jasmine",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "چرم جیر",
+      "چوب کهربایی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html",
+    "extractedAt": "2026-11-27T23:43:26.565Z",
+    "name": "Shaghaf Oud Azraq",
+    "brand": "Swiss Arabian",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Honey",
+      "Agarwood"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Bourbon Vanilla",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Leather"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82383.jpg",
+    "rating": 4.32,
+    "ratingVotes": 1087,
+    "accords": [
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 85
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 61
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 82383,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Shaghaf Oud Azraq",
+    "brandFa": "Swiss Arabian",
+    "nameFa": "Shaghaf Oud Azraq",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عسل",
+      "عود"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "وانیل بوربن",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "چرم"
+    ],
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Gucci-Pour-Homme-II-1119.html",
+    "extractedAt": "2026-11-27T23:43:31.164Z",
+    "name": "Gucci Pour Homme II",
+    "brand": "Gucci",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2007,
+    "perfumer": "Karine Dubreuil-Sereni",
+    "topNotes": [
+      "Violet Leaf",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Black Tea",
+      "Cinnamon",
+      "Pimento"
+    ],
+    "baseNotes": [
+      "Tobacco Leaf",
+      "Myrrh",
+      "Musk",
+      "Olive Tree"
+    ],
+    "description": "Four years after Gucci Pour Homme, Gucci launched Gucci Pour Homme II, created by Karine Dubreuil just like the first one.<br /> The fragrance has kept the same gorgeous elegant and masculine features of its predecessor, but has become brighter and lighter. The composition opens with fresh notes of violet leaf and bergamot. Very soon the green-fruity opening leaves the space to the spicy notes of the heart: red hot chili pepper Pimento, cinnamon and black tea. The woodsy and elegant violet links it to the base composed of olive tree wood, tobacco leaves, musk and myrtle.<br /> The fragrance was created in 2007.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1119.jpg",
+    "rating": 4.38,
+    "ratingVotes": 5297,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 83
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 82
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 70
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 53
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 46
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 1119,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gucci Pour Homme II",
+    "brandFa": "گوشی",
+    "nameFa": "Gucci Pour Homme II",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Karine Dubreuil-Sereni",
+    "topNotesFa": [
+      "برگ بنفشه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "چای سیاه",
+      "دارچین",
+      "فلفل هلندی"
+    ],
+    "baseNotesFa": [
+      "برگ تنباکو",
+      "مور",
+      "موش",
+      "Olive Tree"
+    ],
+    "descriptionFa": "چهار سال پس از Gucci Pour Homme، گوچی Gucci Pour Homme II را عرضه کرد که مانند نسخه اول توسط کارین دوبرویل ساخته شده بود.<br /> این عطر همان ویژگی‌های زیبا، شیک و مردانه نسخه قبلی خود را حفظ کرده است، اما درخشان‌تر و سبک‌تر شده است. این ترکیب با نت‌های تازه برگ بنفشه و ترنج آغاز می‌شود. خیلی زود رایحه اولیه سبز و میوه‌ای جای خود را به نت‌های تند قلب عطر می‌دهد: فلفل قرمز تند پIMENTO، دارچین",
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jusbox/Carioca-Heart-85950.html",
+    "extractedAt": "2026-11-27T23:43:38.024Z",
+    "name": "Carioca Heart",
+    "brand": "Jusbox",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Mango",
+      "Pineapple",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Rum",
+      "Sandalwood",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Ambroxan",
+      "Labdanum"
+    ],
+    "description": "The charm of Copacabana, the rhythm of samba, and a pinch of nostalgia are enclosed in a fragrance with sparkling and citrus notes, accompanied by the sweetness of pineapple and mango: Carioca Heart, Eau de Parfum.</p> <p>Inspired by the Bossa Nova musical genre, born in the streets of Rio de Janeiro, this perfume is able to restore the freshness of lemon, the delicacy of peony, and strong notes of sandalwood. The fragrance brings back the refinement of jazz combined with a pinch of saudade.</p> <p>Available as a 78 ml EDP.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85950.jpg",
+    "rating": 4.03,
+    "ratingVotes": 832,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 95
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 93
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 33
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 85950,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Carioca Heart",
+    "brandFa": "Jusbox",
+    "nameFa": "Carioca Heart",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مانگو",
+      "آناناس",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "رام",
+      "چوب صندل",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "آمبروکسان",
+      "لابدانوم"
+    ],
+    "descriptionFa": "جادوی کوپاکابانا، ریتم سامبا و اندکی حس نوستالژی در عطری با رایحه‌های درخشان و مرکباتی، همراه با شیرینی آناناس و انبه نهفته است: Carioca Heart، ادو پرفیوم.</p> <p>این عطر که از سبک موسیقی بوزا نوا، متولد شده در خیابان‌های ریو دو ژانیرو، الهام گرفته است، می‌تواند طراوت لیمو، ظرافت گل صدتومانی و رایحه‌های قوی چوب صندل را بازگرداند. این عطر ظرافت را بازمی‌گرداند",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Scandal-Le-Parfum-74914.html",
+    "extractedAt": "2026-11-27T23:43:44.547Z",
+    "name": "Scandal Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Ane Ayo, Fabrice Pellegrin and Daphné Bugey",
+    "topNotes": [
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Salt"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74914.jpg",
+    "rating": 4.2,
+    "ratingVotes": 3270,
+    "accords": [
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 94
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 70
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 59
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 24
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 74914,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Scandal Le",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "Scandal Le Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Ane Ayo, Fabrice Pellegrin and Daphné Bugey",
+    "topNotesFa": [
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "نمک"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Aromatix-X-French-Avenue/Platine-Blanc-106068.html",
+    "extractedAt": "2026-11-27T23:43:47.861Z",
+    "name": "Platine Blanc",
+    "brand": "Aromatix X French Avenue",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Muneeb Alwazeer",
+    "topNotes": [
+      "Mint",
+      "Lime",
+      "Tonic Water",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Rosemary",
+      "Black Currant",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambergris",
+      "Sandalwood",
+      "Oakmoss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106068.jpg",
+    "rating": 4.34,
+    "ratingVotes": 1471,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 92
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 18
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 16
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 106068,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Platine Blanc",
+    "brandFa": "Aromatix X French Avenue",
+    "nameFa": "Platine Blanc",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Muneeb Alwazeer",
+    "topNotesFa": [
+      "نعناع",
+      "لیمو سبز",
+      "Tonic Water",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "رزماری",
+      "توت سیاه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا خاکستری",
+      "چوب صندل",
+      "خزه بلوط"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Orange-Bitters-Cologne-2025-115320.html",
+    "extractedAt": "2026-11-27T23:43:51.284Z",
+    "name": "Orange Bitters Cologne 2025",
+    "brand": "Jo Malone London",
+    "family": "Citrus",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Bitter Orange",
+      "Sweet Orange",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Dried Plum"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Orange Bitters Cologne returns for 2025 from Jo Malone London, presented as a rebranding of the earlier Orange Bitters (2016) and Orange Bitters Cologne (2023). The composition focuses on bright citrus facets of sweet orange, mandarin, and bitter orange, contrasted with a prune note and set on a base of sandalwood and amber. It is positioned as a seasonal, limited-edition release.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115320.jpg",
+    "rating": 4.09,
+    "ratingVotes": 66,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 27
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 19
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 19
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 14
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 12
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 115320,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Orange Bitters 2025",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Orange Bitters Cologne 2025",
+    "concentrationFa": "کلن",
+    "familyFa": "Citrus",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پرتقال تلخ",
+      "Sweet Orange",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "Dried Plum"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Orange Bitters Cologne برای سال 2025 از Jo Malone London بازمی‌گردد که به عنوان برندسازی مجدد Orange Bitters (2016) و Orange Bitters Cologne (2023) قبلی عرضه می‌شود. این ترکیب بر جنبه‌های مرکباتی درخشان پرتقال شیرین، نارنگی و پرتقال تلخ متمرکز است که با رایحه آلو در تضاد قرار گرفته و بر پایه چوب صندل و عنبر قرار دارد. این محصول به عنوان یک نسخه فصلی و محدود عرضه می‌شود.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Midnight-Poison-1282.html",
+    "extractedAt": "2026-11-27T23:43:57.145Z",
+    "name": "Midnight Poison",
+    "brand": "Dior",
+    "family": "Woody Chypre",
+    "gender": "women",
+    "year": 2007,
+    "perfumer": "Jacques Cavallier Belletrud, Olivier Cresp and François Demachy",
+    "topNotes": [
+      "Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Rose"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Amber",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1282.jpg",
+    "rating": 4.22,
+    "ratingVotes": 9922,
+    "accords": [
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 91
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 70
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 54
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 1282,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Midnight Poison",
+    "brandFa": "دیور",
+    "nameFa": "Midnight Poison",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "زنانه",
+    "perfumerFa": "Jacques Cavallier Belletrud, Olivier Cresp and François Demachy",
+    "topNotesFa": [
+      "برگاموت",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "کهربا",
+      "وانیل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Patek-Maison/Prisme-Imperial-92866.html",
+    "extractedAt": "2026-11-27T23:44:01.652Z",
+    "name": "Prisme Imperial",
+    "brand": "Patek Maison",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men. Top notes are Pistachio and Sweet Almond; middle notes are Pear, Peach and Peony; base notes are Vanilla, Tonka and Woody Notes",
+    "topNotes": [
+      "Pistachio",
+      "Sweet Almond"
+    ],
+    "middleNotes": [
+      "Pear",
+      "Peach",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka",
+      "Woody Notes"
+    ],
+    "description": "Prisme Imperial by Patek Maison is an Eau De Parfum that offers a unique blend of nutty and fruity notes, complemented by a rich gourmand base. The fragrance opens with top notes of Pistachio and Sweet Almond, leading to a floral and fruity heart of Peony, Pear, and Peach. The base notes of Vanilla, Woody Gourmand, and Tonka provide a warm and inviting finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92866.jpg",
+    "rating": 4.52,
+    "ratingVotes": 60,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 96
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 93
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 65
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 92866,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Prisme Imperial",
+    "brandFa": "Patek Maison",
+    "nameFa": "Prisme Imperial",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women and men. Top notes are Pistachio and Sweet Almond; middle notes are Pear, Peach and Peony; base notes are Vanilla, Tonka and Woody Notes",
+    "topNotesFa": [
+      "پسته",
+      "Sweet Almond"
+    ],
+    "middleNotesFa": [
+      "گلابی",
+      "هلو",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Tonka",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Prisme Imperial از برند Patek Maison یک ادو پرفیوم است که ترکیبی منحصر به فرد از رایحه‌های آجیل و میوه‌ای را ارائه می‌دهد که با یک رایحه پایه غنی و خوش‌بو تکمیل می‌شود. این عطر با نت‌های بالای پسته و بادام شیرین آغاز می‌شود و به نت‌های میانی گل‌دار و میوه‌ای شامل گل صدتومانی، گلابی و هلو می‌رسد. نت‌های پایه وانیل، وودی گورماند و تونکا رایحه‌ای گرم و دلپذیر ایجاد می‌کنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Van-Cleef-Arpels/Bois-d-Amande-60167.html",
+    "extractedAt": "2026-11-27T23:44:06.482Z",
+    "name": "Bois d'Amande",
+    "brand": "Van Cleef & Arpels",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": "Sidonie Lancesseur",
+    "topNotes": [
+      "Almond",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Virginia Cedar"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.60167.jpg",
+    "rating": 4.1,
+    "ratingVotes": 1535,
+    "accords": [
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 99
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 71
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 60167,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bois d'Amande",
+    "brandFa": "ون کلیف و آرپلز",
+    "nameFa": "Bois d'Amande",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sidonie Lancesseur",
+    "topNotesFa": [
+      "بادام",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Virginia Cedar"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
