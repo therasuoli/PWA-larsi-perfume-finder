@@ -127940,5 +127940,1281 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BLK-Cosmetics/Lazy-Mornings-144005.html",
+    "extractedAt": "2026-11-27T02:16:21.019Z",
+    "name": "Lazy Mornings",
+    "brand": "BLK Cosmetics",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Fig"
+    ],
+    "middleNotes": [
+      "Vanilla Orchid",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Cotton Flower",
+      "White Musk"
+    ],
+    "description": "Clean, soft, and quietly radiant. It opens with the fresh sweetness of fig and grapefruit, crisp and sunlit. Peony and vanilla orchid add a gentle floral warmth, softening into a base of white musk and cotton. The feeling is comforting, like sunlight on skin or fresh sheets on a winter morning. Familiar, delicate, and effortlessly warm.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.144005.jpg",
+    "rating": 4,
+    "ratingVotes": 3,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 29
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 18
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 15
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 15
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 144005,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lazy Mornings",
+    "brandFa": "BLK Cosmetics",
+    "nameFa": "Lazy Mornings",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "انجیر"
+    ],
+    "middleNotesFa": [
+      "Vanilla Orchid",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "Cotton Flower",
+      "موش سفید"
+    ],
+    "descriptionFa": "تمیز، ملایم و آرامش‌بخش. با شیرینی تازه انجیر و گریپ‌فروت، که طراوت و آفتاب را تداعی می‌کند، آغاز می‌شود. گل صدتومانی و ارکیده وانیلی گرمای ملایم گل‌ها را اضافه می‌کنند و در پایه مشک سفید و پنبه ملایم می‌شوند. این حس آرامش‌بخش است، مانند تابش نور خورشید بر پوست یا ملحفه‌های تازه در یک صبح زمستانی. آشنا، ظریف و به‌طور طبیعی گرم.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zoologist-Perfumes/Civet-42936.html",
+    "extractedAt": "2026-11-27T02:16:27.619Z",
+    "name": "Civet",
+    "brand": "Zoologist Perfumes",
+    "family": "Aromatic",
+    "gender": "women and men. <b>Civet</b> was launched in 2016. The nose behind this fragrance is Shelley Waddington. The fragrance features Resins, Civet, Spices, Tuberose, Ylang-Ylang, Coffee, Incense, Carnation, Russian Leather, Frangipani, Oakmoss, Musk, Orange, Labdanum, Woodsy Notes, Black Pepper, Tarragon, Canadian balsam, Heliotrope, Vanilla, Lime (Linden) Blossom, Bergamot, Vetiver, Hyacinth and Lemon",
+    "year": 2016,
+    "perfumer": "Shelley Waddington",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42936.jpg",
+    "rating": 3.94,
+    "ratingVotes": 1820,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 70
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 61
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 46
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 42936,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Civet",
+    "brandFa": "Zoologist Perfumes",
+    "nameFa": "Civet",
+    "familyFa": "معطر",
+    "genderFa": "women and men. <b>Civet</b> was launched in 2016. The nose behind this fragrance is Shelley Waddington. The fragrance features Resins, Civet, Spices, Tuberose, Ylang-Ylang, Coffee, Incense, Carnation, Russian Leather, Frangipani, Oakmoss, Musk, Orange, Labdanum, Woodsy Notes, Black Pepper, Tarragon, Canadian balsam, Heliotrope, Vanilla, Lime (Linden) Blossom, Bergamot, Vetiver, Hyacinth and Lemon",
+    "perfumerFa": "Shelley Waddington",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Loewe/Moonlight-147268.html",
+    "extractedAt": "2026-11-27T02:16:32.404Z",
+    "name": "Moonlight",
+    "brand": "Loewe",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Moonlight</b> was launched in 2026. The nose behind this fragrance is Núria Cruelles Borrull. The fragrance features Iris, Amber, Coconut, Banana, Vanilla, Cedar, Cacao and Musk",
+    "year": 2026,
+    "perfumer": "Núria Cruelles Borrull",
+    "description": "Moonlight by Loewe is a limited-edition eau de parfum, released on November 12, 2026.</p> <p>Part of the LOEWE x Disney Tim Burton’s The Nightmare Before Christmas collection, the gourmand fragrance evokes the sweetness of holiday treats through coconut, iris and amber notes.</p> <p>\"This fragrance captures the sweetness of holiday treats, part of a limited-edition holiday capsule Disney <em>Tim Burton’s The Nightmare Before Christmas.</em></p> <p>LOEWE Moonlight Eau de Parfum arrives in a playful grey glass flask with a black cap inspired by a Jack-in-the-Box toy. Emerging from the lid, the silver toned character transforms the bottle into a collectible object.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.147268.jpg",
+    "rating": 3.96,
+    "ratingVotes": 28,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 91
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 91
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 64
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 147268,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Moonlight",
+    "brandFa": "Loewe",
+    "nameFa": "Moonlight",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Moonlight</b> was launched in 2026. The nose behind this fragrance is Núria Cruelles Borrull. The fragrance features Iris, Amber, Coconut, Banana, Vanilla, Cedar, Cacao and Musk",
+    "perfumerFa": "Núria Cruelles Borrull",
+    "descriptionFa": "Moonlight از برند Loewe یک ادو پرفیوم با تیراژ محدود است که در تاریخ ۱۲ نوامبر ۲۰۲۶ عرضه می‌شود.</p> <p>این عطر گورمند که بخشی از مجموعه LOEWE x Disney Tim Burton’s The Nightmare Before Christmas است، شیرینی شیرینی‌های مخصوص تعطیلات را از طریق رایحه‌های نارگیل، زنبق و عنبر تداعی می‌کند.</p> <p>«این عطر شیرینی شیرینی‌های مخصوص تعطیلات را تداعی می‌کند و بخشی از مجموعه محدود تعطیلات<em>«کابوس قبل از کریسمس» تیم برتون از دیزنی است.</em></p> &lt;",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Breeze-99142.html",
+    "extractedAt": "2026-11-27T02:16:37.470Z",
+    "name": "Breeze",
+    "brand": "Lattafa Perfumes",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Cardamom",
+      "Incense"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Cyclamen"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Sandalwood"
+    ],
+    "description": "Breeze by Lattafa is a unisex fragrance from the woody floral family, the top notes of lively bergamot, enveloping incense and spicy cardamom create a vibrant and enveloping opening. This bold combination captures the essence of adventure, offering an enchanting start to this extraordinary fragrance.</p> <p>At the heart of this fragrance, delicate jasmine and floral cyclamen blend in an elegant and refined bouquet. Jasmine, with its enveloping scent, adds a touch of sensuality, while cyclamen helps create a light and feminine fragrance, perfect for those who love the harmony of nature.</p> <p>The base notes of sandalwood, cedarwood and musk give the fragrance a deep and enveloping base. Sandalwood adds an earthy, warm note, while cedarwood gives a feeling of strength and stability. Musk, with its enveloping sensuality, completes the fragrance, making it unforgettable and long-lasting.</p> <p>Experience the essence of this extraordinary fragrance that captures the essence of endless adventures and unforgettable moments.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99142.jpg",
+    "rating": 3.98,
+    "ratingVotes": 994,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 82
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 82
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 81
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 99142,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Breeze",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Breeze",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "هل",
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Cyclamen"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Breeze از برند Lattafa یک عطر یونیسکس از خانواده رایحه‌های چوبی-گل‌دار است. نت‌های ابتدایی آن شامل ترنج پرنشاط، بخور فراگیر و هل تند است که ترکیبی پرنشاط و فراگیر را ایجاد می‌کنند. این ترکیب جسورانه، ماهیت ماجراجویی را به تصویر می‌کشد و شروعی مسحورکننده برای این عطر خارق‌العاده ارائه می‌دهد.</p> <p>در نت میانی این عطر، رایحه ظریف یاس و سیکلامن گل‌دار در یک دسته گل شیک و نفیس با هم ترکیب می‌شوند. یاس، با رایحه فراگیرش",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Aqua-Allegoria-Flora-Salvaggia-66359.html",
+    "extractedAt": "2026-11-27T02:16:43.632Z",
+    "name": "Aqua Allegoria Flora Salvaggia",
+    "brand": "Guerlain",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2021,
+    "perfumer": "Thierry Wasser and Delphine Jelk",
+    "topNotes": [
+      "Watery Notes",
+      "Violet",
+      "Melon",
+      "Wildflowers"
+    ],
+    "middleNotes": [
+      "Solar Notes",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Violet",
+      "Iris",
+      "White Musk"
+    ],
+    "description": "FLORA SALVAGGIA paints landscapes of spring meadows and fields where we can enjoy flowers in full bloom; lush, green grasses swaying in the wind and aromatic herbs that stun our senses and play throughout the composition. The fragrance is created as floral and bright, and opens with the juicy and fresh, fruity and watery scent of melon combined with violets and wildflowers in the opening, which are a prelude to the dominant orange blossoms and sunny jasmine Sambac flowers in the heart of the fragrance, creating a feeling of the warmth of sun rays. Over time, powdery violet, white musk and noble iris combine to create a fascinating finish.</p> <p>The fragrance is available as a 75ml and 125ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66359.jpg",
+    "rating": 3.9,
+    "ratingVotes": 2369,
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 96
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 67
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 65
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 38
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 27
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 66359,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aqua Allegoria Flora Salvaggia",
+    "brandFa": "گرلن",
+    "nameFa": "Aqua Allegoria Flora Salvaggia",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Thierry Wasser and Delphine Jelk",
+    "topNotesFa": [
+      "Watery Notes",
+      "بنفشه",
+      "خربزه",
+      "گل‌های وحشی"
+    ],
+    "middleNotesFa": [
+      "Solar Notes",
+      "یاسمن",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "بنفشه",
+      "زنبق",
+      "موش سفید"
+    ],
+    "descriptionFa": "FLORA SALVAGGIA مناظری از چمنزارها و مزارع بهاری را ترسیم می‌کند که در آنها می‌توانیم از شکوفه‌های کامل گل‌ها لذت ببریم؛ علف‌های سرسبز و انبوهی که در باد تکان می‌خورند و گیاهان معطری که حواس ما را مبهوت می‌کنند و در سراسر این ترکیب نقش‌آفرینی می‌کنند. این عطر به صورت گلی و درخشان ساخته شده است و با رایحه آبدار و تازه، میوه‌ای و آبی طالبی همراه با بنفشه و گل‌های وحشی در نت ابتدایی آغاز می‌شود که مقدمه‌ای برای شکوفه‌های پرتقال غالب و",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Forever-and-Ever-2026-142896.html",
+    "extractedAt": "2026-11-27T02:16:50.416Z",
+    "name": "Forever and Ever (2026)",
+    "brand": "Dior",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Francis Kurkdjian",
+    "topNotes": [
+      "Almond"
+    ],
+    "middleNotes": [
+      "Wild Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambrette"
+    ],
+    "description": "Forever and Ever by Dior is a fragrance reinterpreted by Francis Kurkdjian, released on October 1, 2026.</p> <p>Created in 2002 by Jean-Pierre Béthouart, Forever and Ever is a fresh, delicate floral fragrance. A bouquet of newly blossomed flowers, radiant and spontaneous, composed with freesia and rose notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142896.jpg",
+    "rating": 4,
+    "ratingVotes": 73,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 90
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 10
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 9
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 9
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 142896,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Forever and Ever (2026)",
+    "brandFa": "دیور",
+    "nameFa": "Forever and Ever (2026)",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Francis Kurkdjian",
+    "topNotesFa": [
+      "بادام"
+    ],
+    "middleNotesFa": [
+      "Wild Rose"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "دانه ابرکفش"
+    ],
+    "descriptionFa": "Forever and Ever از برند Dior عطری است که توسط فرانسیس کورکجیان بازتفسیر شده و در تاریخ ۱ اکتبر ۲۰۲۶ عرضه می‌شود.</p> <p>Forever and Ever که در سال 2002 توسط ژان-پیر بتوآرت ساخته شد، یک عطر گل‌دار تازه و ظریف است. دسته گلی از شکوفه‌های تازه، درخشان و خودجوش، ترکیبی از رایحه‌های فریزا و رز.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/TUMI/Awaken-62766.html",
+    "extractedAt": "2026-11-27T02:16:56.849Z",
+    "name": "Awaken",
+    "brand": "TUMI",
+    "family": null,
+    "gender": "men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Grapefruit",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "Cypress",
+      "Fir",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Cedar",
+      "Olibanum",
+      "Patchouli"
+    ],
+    "description": "\"Life in rhythm, connected and attuned to the precision of Greenwich Mean Time, AWAKEN [08:00 GMT] is an energizing fragrance that is refreshing, revitalizing and stimulating. Top notes of bergamot, grapefruit and coriander are balanced by mid and base notes of clary sage, fir needle, cypress, frankincense, patchouli and cedarwood. Makes a perfect complement to UNWIND [20:00 GMT], our other fragrance designed for Global Citizens.</p> <p>Designed for different stages of a journey and with a lock cap to avoid suitcase spills, the scents keep the traveling man in mind—whether he’s literally on the go or working from home.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62766.jpg",
+    "rating": 3.86,
+    "ratingVotes": 362,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 57
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 27
+      },
+      {
+        "nameEn": "conifer",
+        "nameFa": "conifer",
+        "percent": 15
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 13
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 62766,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Awaken",
+    "brandFa": "TUMI",
+    "nameFa": "Awaken",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "برگاموت",
+      "گریپ‌فروت",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "سرو کوهی",
+      "نراد",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "سرو",
+      "کندر",
+      "پچولی"
+    ],
+    "descriptionFa": "«AWAKEN [08:00 GMT]، زندگی در ریتم، مرتبط و هماهنگ با دقت ساعت گرینویچ، یک عطر انرژی‌بخش است که طراوت‌بخش، احیاکننده و تحریک‌کننده است. نت‌های اولیه برگاموت، گریپ‌فروت و گشنیز با نت‌های میانی و پایانی مریم‌گلی معطر، سوزن درخت صنوبر، سرو، کندر، نعناع هندی و چوب سدر متعادل شده‌اند. مکمل عالی برای UNWIND [20:00 GMT]، عطر دیگر ما که برای شهروندان جهانی طراحی شده است، می‌باشد.</p> <p>طراحی شده",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/FOMO/Eclat-Noir-119083.html",
+    "extractedAt": "2026-11-27T02:17:03.269Z",
+    "name": "Eclat Noir",
+    "brand": "FOMO",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Angelica",
+      "Pear",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Caraway"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Angelica",
+      "Cedar"
+    ],
+    "description": "Eclat Noir by FOMO is an oriental fragrance for a unisex audience. Launched in 2025, it features notes of pear and pink pepper alongside herbal facets of angelica and caraway, with jasmine supported by vanilla and cedar.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.119083.jpg",
+    "rating": 4.45,
+    "ratingVotes": 44,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 95
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 89
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 70
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 119083,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eclat Noir",
+    "brandFa": "FOMO",
+    "nameFa": "Eclat Noir",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Angelica",
+      "گلابی",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "زیره کوهی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Angelica",
+      "سرو"
+    ],
+    "descriptionFa": "Eclat Noir از برند FOMO یک عطر شرقی برای مخاطبان یونیسکس است. این عطر که در سال 2025 عرضه شد، دارای رایحه‌های گلابی و فلفل صورتی در کنار جنبه‌های گیاهی مورد استفاده در عطر مانند آنجلیکا و زیره است، و رایحه یاس آن با وانیل و سدر تقویت شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Palawan-148482.html",
+    "extractedAt": "2026-11-27T02:17:08.332Z",
+    "name": "Palawan",
+    "brand": "Rayhaan",
+    "family": "Floral Fruity",
+    "gender": "women and men. Top notes are Calamansi, Yellow Mandarin, Pineapple and Grapefruit; middle notes are African Orange Flower, Fig and Pomarose; base notes are White Musk, Amber and Sandalwood",
+    "topNotes": [
+      "Calamansi",
+      "Yellow Mandarin",
+      "Pineapple",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "African Orange Flower",
+      "Fig",
+      "Pomarose"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Palawan by Rayhaan is an eau de parfum with calamansi, grapefruit, yellow mandarin and pineapple over a heart of African orange flower, Pomarose and fig, followed by sandalwood, white musk and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148482.jpg",
+    "rating": 4.77,
+    "ratingVotes": 26,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 49
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 28
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 21
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 20
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 148482,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Palawan",
+    "brandFa": "Rayhaan",
+    "nameFa": "Palawan",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women and men. Top notes are Calamansi, Yellow Mandarin, Pineapple and Grapefruit; middle notes are African Orange Flower, Fig and Pomarose; base notes are White Musk, Amber and Sandalwood",
+    "topNotesFa": [
+      "Calamansi",
+      "Yellow Mandarin",
+      "آناناس",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "African Orange Flower",
+      "انجیر",
+      "Pomarose"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Palawan by Rayhaan یک ادو پرفیوم با رایحه کالامانسی، گریپ‌فروت، نارنگی زرد و آناناس بر روی ترکیبی از شکوفه پرتقال آفریقایی، پوماروز و انجیر است که با رایحه چوب صندل، مشک سفید و عنبر تکمیل می‌شود.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Art-of-Arabia-III-92425.html",
+    "extractedAt": "2026-11-27T02:17:13.657Z",
+    "name": "Art of Arabia III",
+    "brand": "Lattafa Perfumes",
+    "family": "Aromatic Spicy",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Olibanum",
+      "Davana",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Dates",
+      "Tobacco",
+      "Sandalwood",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Myrrh",
+      "Vanilla",
+      "Tonka Bean",
+      "Labdanum",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92425.jpg",
+    "rating": 4.19,
+    "ratingVotes": 848,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 92
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 46
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 92425,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Art of Arabia III",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Art of Arabia III",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کندر",
+      "Davana",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Dates",
+      "تنباکو",
+      "چوب صندل",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "مور",
+      "وانیل",
+      "لوبیا تونکا",
+      "لابدانوم",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Sapphire-136382.html",
+    "extractedAt": "2026-11-27T02:17:17.693Z",
+    "name": "Hawas Sapphire",
+    "brand": "Rasasi",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Guava",
+      "Blackcurrant",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Tonka Bean",
+      "Ambergris"
+    ],
+    "description": "Hawas Sapphire opens with a vibrant blend of <strong>bergamot</strong>, <strong>blackcurrant</strong>, and juicy <strong>guava</strong>, creating a fresh, sparkling introduction with a tropical twist. As the fragrance develops, a smooth heart of <strong>orange blossom</strong> and creamy <strong>sandalwood</strong> adds elegance and warmth, balancing the bright fruity opening with a refined floral-woody character. The dry down settles into a sensual base of <strong>musk</strong>, rich <strong>tonka bean</strong>, and <strong>ambergris</strong>, leaving a soft, musky trail with subtle sweetness and lasting depth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136382.jpg",
+    "rating": 4.03,
+    "ratingVotes": 746,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 54
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 49
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 46
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 136382,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Sapphire",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Sapphire",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گواوا",
+      "Blackcurrant",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "لوبیا تونکا",
+      "کهربا خاکستری"
+    ],
+    "descriptionFa": "Hawas Sapphire با ترکیبی پرنشاط از <strong>ترنج</strong>، <strong>انگور فرنگی سیاه</strong> و <strong>گواوای</strong> آبدار آغاز می‌شود و مقدمه‌ای تازه و درخشان با طعمی استوایی ایجاد می‌کند. با پخش شدن رایحه، نت میانی ملایم <strong>شکوفه پرتقال</strong> و <strong>چوب صندل</strong> کرمی، ظرافت و گرمایی به عطر می‌بخشد و تعادلی بین نت آغازین میوه‌ای و شاداب و نت پایانی گل‌فام و چوبی ایجاد می‌کند. رایحه نهایی به یک حس تبدیل می‌شود",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Etat-Libre-d-Orange/Story-of-Your-Life-97060.html",
+    "extractedAt": "2026-11-27T02:17:24.361Z",
+    "name": "Story of Your Life",
+    "brand": "Etat Libre d'Orange",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Benzoin",
+      "Davana"
+    ],
+    "middleNotes": [
+      "Bread",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Rum",
+      "Woody Notes",
+      "Amber",
+      "Cocoa",
+      "Patchouli"
+    ],
+    "description": "Story of Your Life by Etat Libre d'Orange is a new fragrance for women and men launched in 2024. This unisex scent is available in 100 ml Eau de Parfum starting from September 15th. The fragrance captures echoes of past lives, the sensuality of skin meeting skin, and the scent of warm brioche at dawn.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97060.jpg",
+    "rating": 3.42,
+    "ratingVotes": 1208,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 81
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 50
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 46
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 97060,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Story of Your Life",
+    "brandFa": "Etat Libre d'Orange",
+    "nameFa": "Story of Your Life",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "بنزوئین",
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "Bread",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "رام",
+      "Woody Notes",
+      "کهربا",
+      "کاکائو",
+      "پچولی"
+    ],
+    "descriptionFa": "Story of Your Life از برند Etat Libre d'Orange یک عطر جدید برای زنان و مردان است که در سال 2024 عرضه شده است. این عطر یونیسکس در حجم 100 میلی‌لیتر ادو پرفیوم از 15 سپتامبر عرضه می‌شود. این عطر یادآور زندگی‌های گذشته، حس شهوانی تماس پوست با پوست و رایحه بریوش گرم در سپیده‌دم است.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
