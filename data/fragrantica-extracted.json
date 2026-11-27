@@ -130746,5 +130746,1970 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dar-Al-Misk/Great-On-You-148873.html",
+    "extractedAt": "2026-11-27T05:55:17.475Z",
+    "name": "Great On You",
+    "brand": "Dar Al-Misk",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Ginger",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Caramel",
+      "Patchouli"
+    ],
+    "description": "Great On You by Dar Al Misk is an amber gourmand fragrance for women and men, launched in 2026. It opens with ginger and lemon, moves to a heart of floral notes, and settles on caramel and patchouli.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148873.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 83
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 148873,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Great On You",
+    "brandFa": "Dar Al-Misk",
+    "nameFa": "Great On You",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زنجبیل",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "کارامل",
+      "پچولی"
+    ],
+    "descriptionFa": "Great On You از برند Dar Al Misk یک عطر کهربایی گُرمَند برای زنان و مردان است که در سال ۲۰۲۶ عرضه شد. این عطر با رایحه زنجبیل و لیمو آغاز می‌شود، به نت‌های میانی گل‌دار می‌رسد و در نهایت با رایحه کارامل و نعناع هندی تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dar-Al-Misk/Prestige-La-Homme-148872.html",
+    "extractedAt": "2026-11-27T05:55:25.170Z",
+    "name": "Prestige La Homme",
+    "brand": "Dar Al-Misk",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Bergamot",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Caraway"
+    ],
+    "description": "Prestige La Homme by Dar Al-Misk is an Oriental Woody fragrance for men, launched in 2026. Cardamom opens the composition, followed by a heart of lavender, bergamot and cedarwood, with vetiver and caraway in the base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148872.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 40
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 40
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 148872,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Prestige La Homme",
+    "brandFa": "Dar Al-Misk",
+    "nameFa": "Prestige La Homme",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "هل"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "برگاموت",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "زیره کوهی"
+    ],
+    "descriptionFa": "Prestige La Homme از برند دارالمسک یک عطر شرقی چوبی برای آقایان است که در سال 2026 عرضه شد. هل رایحه آغازین این ترکیب است، سپس رایحه میانی اسطوخودوس، ترنج و چوب سدر و رایحه پایه خس‌خس و زیره سیاه را داریم.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dar-Al-Misk/Captain-II-148871.html",
+    "extractedAt": "2026-11-27T05:55:31.335Z",
+    "name": "Captain II",
+    "brand": "Dar Al-Misk",
+    "family": "Aromatic Aquatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Bergamot",
+      "Grapefruit",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Sea Notes",
+      "Cypress"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Ambergris"
+    ],
+    "description": "Captain II by Dar Al-Misk is a citrus aquatic fragrance for women and men, launched in 2026. It opens with lemon, bergamot, grapefruit and pink pepper, followed by sea notes and cypress over a base of oakmoss and ambergris.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148871.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 70
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 35
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 148871,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Captain II",
+    "brandFa": "Dar Al-Misk",
+    "nameFa": "Captain II",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "لیمو",
+      "برگاموت",
+      "گریپ‌فروت",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Sea Notes",
+      "سرو کوهی"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "کهربا خاکستری"
+    ],
+    "descriptionFa": "Captain II از برند Dar Al-Misk یک عطر مرکباتی دریایی برای زنان و مردان است که در سال 2026 عرضه شد. این عطر با رایحه‌های لیمو، ترنج، گریپ‌فروت و فلفل صورتی آغاز می‌شود و سپس رایحه‌های دریایی و سرو بر پایه خزه بلوط و عنبر ساطع می‌شوند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dar-El-Ward/Bayan-148870.html",
+    "extractedAt": "2026-11-27T05:55:37.685Z",
+    "name": "Bayan",
+    "brand": "Dar El Ward",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Citruses",
+      "Ozonic notes",
+      "Fruity Notes"
+    ],
+    "middleNotes": [
+      "Spicy Notes"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Musk",
+      "Sweet Notes"
+    ],
+    "description": "Bayan by Dar El Ward is a woody spicy fragrance opening with citruses, ozonic notes and fruity notes. Spicy notes form the heart, followed by a base of woody notes, musk and sweet notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148870.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 66
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 62
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 62
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 62
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 62
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148870,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bayan",
+    "brandFa": "Dar El Ward",
+    "nameFa": "Bayan",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "مرکبات",
+      "Ozonic notes",
+      "Fruity Notes"
+    ],
+    "middleNotesFa": [
+      "Spicy Notes"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "موش",
+      "Sweet Notes"
+    ],
+    "descriptionFa": "Bayan از برند Dar El Ward یک عطر چوبی تند است که با رایحه‌های مرکبات، نت‌های اوزونی و نت‌های میوه‌ای آغاز می‌شود. نت‌های تند رایحه میانی را تشکیل می‌دهند و پس از آن نت‌های پایه شامل نت‌های چوبی، مشک و نت‌های شیرین قرار دارند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Laverne/The-One-Cheetah-148869.html",
+    "extractedAt": "2026-11-27T05:55:43.847Z",
+    "name": "The One Cheetah",
+    "brand": "Laverne",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Jasmine",
+      "White Flowers",
+      "Broom",
+      "Linden Blossom"
+    ],
+    "middleNotes": [
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148869.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 95
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 75
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 148869,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The One Cheetah",
+    "brandFa": "Laverne",
+    "nameFa": "The One Cheetah",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "یاسمن",
+      "گل‌های سفید",
+      "گل ریسک",
+      "Linden Blossom"
+    ],
+    "middleNotesFa": [
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tommy-Hilfiger/True-Star-1395.html",
+    "extractedAt": "2026-11-27T05:55:49.068Z",
+    "name": "True Star",
+    "brand": "Tommy Hilfiger",
+    "family": "Floral Fruity",
+    "gender": "women. <b>True Star</b> was launched in 2004. The nose behind this fragrance is Raymond Matts. The fragrance features Melon, Honeysuckle, Aldehydes, Citruses and Musk. This perfume is the winner of award <b>FiFi Award Best National Advertising Campaign / TV 2005</b>",
+    "year": 2004,
+    "perfumer": "Raymond Matts",
+    "description": "True Star is a perfume dedicated to the true star, passionate and famous Beyonce Knowles. She herself says that composition of this fragrance is very sexy and realistic. It is made to highlight her charm, beauty and energy. </p> <p>The fragrance is aquatic fresh and fruity sweet, including notes of melon, aldehydes, citruses, honeysuckle and sensual musk. The nose behind the scent is Raymond Matts. It was launched in 2004. The perfume is available in the bottles of 30, 50 and 100 ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1395.jpg",
+    "rating": 3.42,
+    "ratingVotes": 496,
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 77
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 67
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 58
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 51
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 1395,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "True Star",
+    "brandFa": "Tommy Hilfiger",
+    "nameFa": "True Star",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women. <b>True Star</b> was launched in 2004. The nose behind this fragrance is Raymond Matts. The fragrance features Melon, Honeysuckle, Aldehydes, Citruses and Musk. This perfume is the winner of award <b>FiFi Award Best National Advertising Campaign / TV 2005</b>",
+    "perfumerFa": "Raymond Matts",
+    "descriptionFa": "True Star عطری است که به ستاره واقعی، پرشور و مشهور، بیانسه نولز تقدیم شده است. خود او می‌گوید که ترکیب این عطر بسیار سکسی و واقعی است. این عطر برای برجسته کردن جذابیت، زیبایی و انرژی او ساخته شده است. </p> <p>این عطر دارای رایحه‌ای خنک و میوه‌ای شیرین است که شامل نت‌هایی از طالبی، آلدئیدها، مرکبات، پیچ تلخ و مشک شهوانی است. عطار این عطر ریموند متس است. این عطر در سال 2004 عرضه شد. این عطر موجود است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diptyque/L-Eau-Papier-78658.html",
+    "extractedAt": "2026-11-27T05:55:55.295Z",
+    "name": "L'Eau Papier",
+    "brand": "Diptyque",
+    "family": "Woody",
+    "gender": "women and men. <b>L'Eau Papier</b> was launched in 2023. The nose behind this fragrance is Fabrice Pellegrin. The fragrance features Musk, White Musk, Sesame, Mimosa and Woody Notes",
+    "year": 2023,
+    "perfumer": "Fabrice Pellegrin",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78658.jpg",
+    "rating": 4.16,
+    "ratingVotes": 7502,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 84
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 42
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 27
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 23
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 21
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 78658,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Eau Papier",
+    "brandFa": "دیپتیک",
+    "nameFa": "L'Eau Papier",
+    "familyFa": "چوبی",
+    "genderFa": "women and men. <b>L'Eau Papier</b> was launched in 2023. The nose behind this fragrance is Fabrice Pellegrin. The fragrance features Musk, White Musk, Sesame, Mimosa and Woody Notes",
+    "perfumerFa": "Fabrice Pellegrin",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/West-Third-Brand/Tobacco-1812-24904.html",
+    "extractedAt": "2026-11-27T05:56:00.260Z",
+    "name": "Tobacco 1812",
+    "brand": "West Third Brand",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Tobacco 1812</b> was launched during the 2010's. The nose behind this fragrance is Michael Loring Probst. The fragrance features Tobacco Leaf, Dried Fruits, Honey, Spices, Tobacco Blossom, Exotic Woods, Chocolate and Tonka Bean",
+    "perfumer": "Michael Loring Probst",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.24904.jpg",
+    "rating": 4.15,
+    "ratingVotes": 125,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 54
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 30
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 24904,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tobacco 1812",
+    "brandFa": "West Third Brand",
+    "nameFa": "Tobacco 1812",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Tobacco 1812</b> was launched during the 2010's. The nose behind this fragrance is Michael Loring Probst. The fragrance features Tobacco Leaf, Dried Fruits, Honey, Spices, Tobacco Blossom, Exotic Woods, Chocolate and Tonka Bean",
+    "perfumerFa": "Michael Loring Probst",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bodycology/Strawberry-Cheesecake-96004.html",
+    "extractedAt": "2026-11-27T05:56:03.640Z",
+    "name": "Strawberry Cheesecake",
+    "brand": "Bodycology",
+    "family": "Aromatic Fruity",
+    "gender": "women. <b>Strawberry Cheesecake</b> was launched in 2023. The fragrance features Strawberry, Vanilla, Custard and Red Berries",
+    "year": 2023,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96004.jpg",
+    "rating": 4.16,
+    "ratingVotes": 284,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 76
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 25
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 15
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 8
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 7
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 96004,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Strawberry Cheesecake",
+    "brandFa": "Bodycology",
+    "nameFa": "Strawberry Cheesecake",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "women. <b>Strawberry Cheesecake</b> was launched in 2023. The fragrance features Strawberry, Vanilla, Custard and Red Berries",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nicolai-Parfumeur-Createur/Ambre-Cashmere-Intense-32133.html",
+    "extractedAt": "2026-11-27T05:56:08.159Z",
+    "name": "Ambre Cashmere Intense",
+    "brand": "Nicolai Parfumeur Createur",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Patricia de Nicolai",
+    "topNotes": [
+      "Citron",
+      "Black Pepper",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Orris Root",
+      "Violet",
+      "Cloves"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla",
+      "Benzoin",
+      "Labdanum",
+      "Tonka Bean",
+      "Sandalwood",
+      "Musk",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.32133.jpg",
+    "rating": 3.99,
+    "ratingVotes": 924,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 62
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 48
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 43
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 32
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 32133,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Ambre Cashmere",
+    "brandFa": "Nicolai Parfumeur Createur",
+    "nameFa": "Ambre Cashmere Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Patricia de Nicolai",
+    "topNotesFa": [
+      "Citron",
+      "فلفل سیاه",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "بنفشه",
+      "Cloves"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل",
+      "بنزوئین",
+      "لابدانوم",
+      "لوبیا تونکا",
+      "چوب صندل",
+      "موش",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Powerfully-123070.html",
+    "extractedAt": "2026-11-27T05:56:13.192Z",
+    "name": "Emporio Armani Stronger With You Powerfully",
+    "brand": "Giorgio Armani",
+    "family": "Oriental Vanilla",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cherry",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Spices",
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Chestnut",
+      "Amberwood"
+    ],
+    "description": "Emporio Armani Stronger With You Powerfully by Emporio Armani is a warm, sweet and slightly spicy fragrance that builds on the gourmand character of the line. The scent opens with a fruity blend of cherry and mandarin orange, combining juiciness with a soft, tangy brightness. In the heart, lavender and spices add aromatic, slightly herbal and piquant nuances, giving contrast to the sweetness. The base is centered on amberwood, chestnut and vanilla, creating a creamy, woody and roasted accord with a pronounced gourmand facet. This structure gives the fragrance a cozy, enveloping character suited to cooler weather and evening wear, with a focus on sweet, woody and spicy tones.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123070.jpg",
+    "rating": 4.54,
+    "ratingVotes": 3755,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 95
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 95
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 70
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 70
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 46
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 123070,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Emporio Armani Stronger With You Powerfully",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Emporio Armani Stronger With You Powerfully",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "گیلاس",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "Spices",
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Chestnut",
+      "چوب کهربایی"
+    ],
+    "descriptionFa": "Emporio Armani Stronger With You Powerfully از برند Emporio Armani یک عطر گرم، شیرین و کمی تند است که بر اساس ویژگی‌های خوراکی این لاین ساخته شده است. این عطر با ترکیبی میوه‌ای از گیلاس و نارنگی آغاز می‌شود که طراوت را با درخششی ملایم و تند ترکیب می‌کند. در نت میانی، اسطوخودوس و ادویه‌ها ته‌رایحه‌های معطر، کمی گیاهی و تند را اضافه می‌کنند که با شیرینی عطر تضاد ایجاد می‌کند. رایحه پایه بر پایه چوب کهربایی، شاه‌بلوط و وانیل است.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragrance-World/Deux-Cent-Douze-VIP-Black-109002.html",
+    "extractedAt": "2026-11-27T05:56:19.189Z",
+    "name": "Deux Cent Douze VIP Black",
+    "brand": "Fragrance World",
+    "family": "Aromatic",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Absinthe",
+      "Anise",
+      "Fennel"
+    ],
+    "middleNotes": [
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109002.jpg",
+    "rating": 4.12,
+    "ratingVotes": 8,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 91
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 68
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 59
+      },
+      {
+        "nameEn": "anis",
+        "nameFa": "anis",
+        "percent": 55
+      },
+      {
+        "nameEn": "bitter",
+        "nameFa": "تلخ",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 109002,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Deux Cent Douze VIP Black",
+    "brandFa": "Fragrance World",
+    "nameFa": "Deux Cent Douze VIP Black",
+    "familyFa": "معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "افسنتین",
+      "انیسون",
+      "رازیانه"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Vintage-Radio-89454.html",
+    "extractedAt": "2026-11-27T05:56:22.889Z",
+    "name": "Vintage Radio",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Lavender",
+      "Sage",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Plum",
+      "Palo Santo",
+      "Black Pepper"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Oud"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89454.jpg",
+    "rating": 4.27,
+    "ratingVotes": 5208,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 86
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 77
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 48
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 89454,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vintage Radio",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Vintage Radio",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "آلو",
+      "Palo Santo",
+      "فلفل سیاه"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "عود"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bodycology/Caramel-Indulgence-114913.html",
+    "extractedAt": "2026-11-27T05:56:26.246Z",
+    "name": "Caramel Indulgence",
+    "brand": "Bodycology",
+    "family": "Aromatic Fruity",
+    "gender": "women. This is a new fragrance. <b>Caramel Indulgence</b> was launched in 2025. The fragrance features Caramel, Pistachio and Coconut Milk",
+    "year": 2025,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114913.jpg",
+    "rating": 4.22,
+    "ratingVotes": 46,
+    "accords": [
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 54
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 35
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 20
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 12
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 114913,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Caramel Indulgence",
+    "brandFa": "Bodycology",
+    "nameFa": "Caramel Indulgence",
+    "familyFa": "Aromatic Fruity",
+    "genderFa": "women. This is a new fragrance. <b>Caramel Indulgence</b> was launched in 2025. The fragrance features Caramel, Pistachio and Coconut Milk",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Sunshine-Man-31619.html",
+    "extractedAt": "2026-11-27T05:56:30.571Z",
+    "name": "Sunshine Man",
+    "brand": "Amouage",
+    "family": "Aromatic",
+    "gender": "men",
+    "year": 2015,
+    "perfumer": "Fabrice Pellegrin and Pierre Negrin",
+    "topNotes": [
+      "Lavender",
+      "Brandy",
+      "Immortelle",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Juniper Berries",
+      "Clary Sage",
+      "Bergamot"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Cedar"
+    ],
+    "description": "Edition for men Amouage Sunshine Men joins women’s version Amouage Sunshine Women in July 2015 by creating fragrant pair inspired by warmth of sunrays. Bright yellow flacon for women is not repeated in the version for men, but the men’s edition receives characteristic glass flacon made of transparent glass with a white cap and engraved Amouage logo on the central part of the bottle. What is characteristic of the edition for men are sunrays in golden color drawn on the front side to create the Sun together with Amouage logo.</p> <p>Composition of the fragrance AMOUAGE SUNSHINE MEN opens with yellow flowers of immortelle, aromatic lavender and juicy, intoxicating blend orange brandy. The heart highlights bergamot, juniper berries and clary sage on a base of cedar, tonka and vanilla. Warm effect of sunrays comes from a sensual union of immortelle, orange brandy, luminosity of bergamot zest while warm milky-tobacco shades are left by tonka and vanilla. Aromatic notes convey atmosphere of the coast and richness of shades in sea air. The fragrance is available as 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31619.jpg",
+    "rating": 4.01,
+    "ratingVotes": 2224,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 81
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 61
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 61
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 31619,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sunshine Man",
+    "brandFa": "آموژ",
+    "nameFa": "Sunshine Man",
+    "familyFa": "معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Fabrice Pellegrin and Pierre Negrin",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "Brandy",
+      "Immortelle",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "زغالک عرعر",
+      "مریم‌گلی",
+      "برگاموت"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "سرو"
+    ],
+    "descriptionFa": "نسخه مردانه Amouage Sunshine Men در جولای 2015 به نسخه زنانه Amouage Sunshine Women می‌پیوندد و جفتی خوشبو را که از گرمای پرتوهای خورشید الهام گرفته است، ایجاد می‌کند. بطری زرد روشن نسخه زنانه در نسخه مردانه تکرار نمی‌شود، اما نسخه مردانه دارای یک بطری شیشه‌ای خاص از جنس شیشه شفاف با درپوش سفید و لوگوی Amouage حک‌شده در قسمت مرکزی بطری است. ویژگی بارز نسخه مردانه، پرتوهای خورشید به رنگ طلایی است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/4160-Tuesdays/Freeway-49307.html",
+    "extractedAt": "2026-11-27T05:56:36.427Z",
+    "name": "Freeway",
+    "brand": "4160 Tuesdays",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Sarah McCartney",
+    "topNotes": [
+      "Mandarin Orange",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Orange Blossom",
+      "Rum",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Woody Notes",
+      "cannabis",
+      "Brandy"
+    ],
+    "description": "Freeway is made exclusively for Luckyscent, to celebrate its 15th anniversary. \"The idea was to take the fresh, sugary brightness of orange blossom and sully it with a host of gritty, determinedly non-floral smells from an urban environment, making for a scent with a sexy kick in its tail: think flowers crushed under a rubber-soled sneaker. \"</p> <p>Notes: mandarin petitgrain, orange blossom, tobacco, rum, brandy, cannabis, woods, vanilla.</p> <p>50 ml EDP.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.49307.jpg",
+    "rating": 4.15,
+    "ratingVotes": 100,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 87
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 71
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 49
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 49307,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Freeway",
+    "brandFa": "4160 Tuesdays",
+    "nameFa": "Freeway",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sarah McCartney",
+    "topNotesFa": [
+      "نارنگی",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "گل پرتقال",
+      "رام",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Woody Notes",
+      "cannabis",
+      "Brandy"
+    ],
+    "descriptionFa": "Freeway منحصراً برای Luckyscent و به مناسبت جشن پانزدهمین سالگرد تأسیس آن ساخته شده است. «ایده این بود که طراوت و شیرینی دلپذیر شکوفه پرتقال را با مجموعه‌ای از رایحه‌های خشن و قطعاً غیرگل‌مانند محیط شهری آمیخته کنیم و عطری بسازیم که در پایان، ضربه‌ای سکسی به مشام برساند: تصور کنید گل‌هایی که زیر کفش کتانی با کفی لاستیکی له شده‌اند.»</p> <p>نت‌ها: پتی‌گرن ماندارین، شکوفه پرتقال، تنباکو، رام، براندی، شاهدانه، چوب، وانیل.</p> &lt;p",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/MIIM-MIIC/No-108-Warm-Vanilla-Syrup-130261.html",
+    "extractedAt": "2026-11-27T05:56:43.114Z",
+    "name": "No 108 Warm Vanilla Syrup",
+    "brand": "MIIM.MIIC",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. Top notes are Marshmallow, Vanilla, Ylang Ylang, Cream, Violet Leaves and Rum; middle notes are Bubble Gum, Jellybean and Caramel; base notes are Tonka, Sugar, Sandalwood and Vetiver",
+    "topNotes": [
+      "Marshmallow",
+      "Vanilla",
+      "Ylang Ylang",
+      "Cream",
+      "Violet Leaves",
+      "Rum"
+    ],
+    "middleNotes": [
+      "Bubble Gum",
+      "Jellybean",
+      "Caramel"
+    ],
+    "baseNotes": [
+      "Tonka",
+      "Sugar",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "description": "No 108 Warm Vanilla Syrup by MIIM.MIIC is a sweet gourmand fragrance centered on creamy vanilla and confectionery accords. The opening combines violet leaves, rum, ylang-ylang, marshmallow, and vanilla cream, followed by a playful heart of white caramel, bubble gum, and jellybean. The base of tonka, vetiver, sandalwood, and rock sugar adds warmth and a sugary, slightly woody finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.130261.jpg",
+    "rating": 4.07,
+    "ratingVotes": 27,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 30
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 19
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 16
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 130261,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "No 108 Warm Vanilla Syrup",
+    "brandFa": "MIIM.MIIC",
+    "nameFa": "No 108 Warm Vanilla Syrup",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. Top notes are Marshmallow, Vanilla, Ylang Ylang, Cream, Violet Leaves and Rum; middle notes are Bubble Gum, Jellybean and Caramel; base notes are Tonka, Sugar, Sandalwood and Vetiver",
+    "topNotesFa": [
+      "مارشمالو",
+      "وانیل",
+      "Ylang Ylang",
+      "خامه",
+      "Violet Leaves",
+      "رام"
+    ],
+    "middleNotesFa": [
+      "Bubble Gum",
+      "Jellybean",
+      "کارامل"
+    ],
+    "baseNotesFa": [
+      "Tonka",
+      "شکر",
+      "چوب صندل",
+      "وتیور"
+    ],
+    "descriptionFa": "No 108 Warm Vanilla Syrup از MIIM.MIIC یک عطر شیرین گُرمَندی است که بر پایه رایحه‌های وانیل خامه ای و شیرینی‌جات ساخته شده است. نت ابتدایی ترکیبی از برگ بنفشه، عطر روم، یلانگ-یلانگ، مارشمالو و کرم وانیلی است که به دنبال آن نت میانی بازیگوشانه کارامل سفید، آدامس بادکنکی و آب‌نبات ژله‌ای قرار دارد. نت پایه شامل دانه‌های تونکا، وتیور، چوب صندل و شکر سنگ است که گرما و رایحه‌ای شیرین و کمی چوبی به عطر می‌بخشد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Guidance-78656.html",
+    "extractedAt": "2026-11-27T05:56:47.880Z",
+    "name": "Guidance",
+    "brand": "Amouage",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Pear",
+      "Hazelnut",
+      "Olibanum"
+    ],
+    "middleNotes": [
+      "Osmanthus",
+      "Rose",
+      "Saffron",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla",
+      "Akigalawood",
+      "Ambergris",
+      "Labdanum"
+    ],
+    "description": "THE DELICATE STRENGTH OF FEMININITY</p> <p>An ivory tower wreathed in shreds of clouds, dewy mists of fragile Pear, inviting Almond Milk and beads of Frankincense draw the outlines of a dreamful haven.<br /> <br /> A princess whispers you in and leads the way to a lush garden where Osmanthus blossoms diffuse their heady apricot scent. A fountain gleams in the centre, its marble edge covered in scarlet roses whose voluptuous scent meets that of leathery Saffron threads laid on the floor.<br /> <br /> Through Jasmine screens, sultry and spent, the woman walks and there comes with her a scent of dark Vanilla and skinlike Sandalwood, of ambery Labdanum and purring hints of regal Orientalgris: who are you, she asks, and you feel seen.<br /> <br /> A spellbinding and novel interpretation of the Amouage triad of Rose, Frankincense and Orientalgris, Guidance reads like a poem, smells like an embrace, and feels like a word of wisdom.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78656.jpg",
+    "rating": 3.78,
+    "ratingVotes": 8871,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 51
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 47
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 78656,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Guidance",
+    "brandFa": "آموژ",
+    "nameFa": "Guidance",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "گلابی",
+      "فندق",
+      "کندر"
+    ],
+    "middleNotesFa": [
+      "اسمانتوس",
+      "گل رز",
+      "زعفران",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل",
+      "Akigalawood",
+      "کهربا خاکستری",
+      "لابدانوم"
+    ],
+    "descriptionFa": "قدرت ظریف زنانگی</p> <p>برجی عاجی که در میان تکه‌های ابر پیچیده شده است، مه‌های شبنمی گلابی ظریف، شیر بادام دلپذیر و دانه‌های کندر، خطوط یک بهشت رویایی را ترسیم می‌کنند.<br /> <br /> یک شاهزاده‌خانم شما را به آرامی به داخل فرا می‌خواند و راه را به سمت باغی سرسبز نشان می‌دهد که در آن شکوفه‌های اوسمانتوس عطر مست‌کننده زردآلو را پخش می‌کنند. یک فواره در مرکز می‌درخشد، لبه مرمرین آن پوشیده از گل‌های رز سرخ است که عطر دل‌انگیزشان با عطر",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Trudon/Midnight-Omen-113433.html",
+    "extractedAt": "2026-11-27T05:56:53.971Z",
+    "name": "Midnight Omen",
+    "brand": "Trudon",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Orris",
+      "Mandarin",
+      "Peony"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Violet",
+      "Leather",
+      "Cashmeran"
+    ],
+    "baseNotes": [
+      "Moss",
+      "Amber",
+      "Woody Notes",
+      "Patchouli",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113433.jpg",
+    "rating": 3.96,
+    "ratingVotes": 129,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 80
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 49
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 41
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 41
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 35
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 33
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 113433,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Midnight Omen",
+    "brandFa": "Trudon",
+    "nameFa": "Midnight Omen",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "ریشه زنبق",
+      "Mandarin",
+      "گل داوودی"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "بنفشه",
+      "چرم",
+      "کشماران"
+    ],
+    "baseNotesFa": [
+      "خزه",
+      "کهربا",
+      "Woody Notes",
+      "پچولی",
+      "موش"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
