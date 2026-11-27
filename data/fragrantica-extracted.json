@@ -148440,5 +148440,1253 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Loewe/Aire-Sutileza-44895.html",
+    "extractedAt": "2026-11-27T16:56:32.502Z",
+    "name": "Aire Sutileza",
+    "brand": "Loewe",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2017,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Calabrian Mandarin",
+      "Red Currant"
+    ],
+    "middleNotes": [
+      "Lily-of-the-Valley",
+      "Magnolia",
+      "Egyptian Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Haitian Vetiver",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44895.jpg",
+    "rating": 4.23,
+    "ratingVotes": 1286,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 98
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 41
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 44895,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Aire Sutileza",
+    "brandFa": "Loewe",
+    "nameFa": "Aire Sutileza",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "Calabrian Mandarin",
+      "Red Currant"
+    ],
+    "middleNotesFa": [
+      "Lily-of-the-Valley",
+      "ماگنولیا",
+      "Egyptian Jasmine"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Haitian Vetiver",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Carner-Barcelona/Marbella-59783.html",
+    "extractedAt": "2026-11-27T16:56:37.727Z",
+    "name": "Marbella",
+    "brand": "Carner Barcelona",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Bulgarian Rose",
+      "Black Currant",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Green Tea",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Peach",
+      "Musk",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59783.jpg",
+    "rating": 3.87,
+    "ratingVotes": 631,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 92
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 78
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 72
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 59783,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Marbella",
+    "brandFa": "Carner Barcelona",
+    "nameFa": "Marbella",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گل رز بلغاری",
+      "توت سیاه",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "چای سبز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "هلو",
+      "موش",
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Alhambra/The-Trail-101523.html",
+    "extractedAt": "2026-11-27T16:56:42.332Z",
+    "name": "The Trail",
+    "brand": "Maison Alhambra",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Incense"
+    ],
+    "middleNotes": [
+      "Cade oil"
+    ],
+    "baseNotes": [
+      "Cypress"
+    ],
+    "description": "The Trail by Maison Alhambra is a distinctive fragrance characterized by its smoky and woody aroma. The scent opens with a prominent note of incense, leading to a heart of cade oil, and is grounded by a base of cypress.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101523.jpg",
+    "rating": 4.13,
+    "ratingVotes": 171,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 73
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 61
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 55
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 101523,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Trail",
+    "brandFa": "Maison Alhambra",
+    "nameFa": "The Trail",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "Cade oil"
+    ],
+    "baseNotesFa": [
+      "سرو کوهی"
+    ],
+    "descriptionFa": "The Trail از برند Maison Alhambra یک عطر متمایز است که با رایحه دودی و چوبی خود شناخته می‌شود. این عطر با نت برجسته کندر آغاز می‌شود، به نت میانی روغن کاد می‌رسد و با نت پایه‌ای سرو تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/By-Kilian/Voulez-Vous-Coucher-Avec-Moi-31625.html",
+    "extractedAt": "2026-11-27T16:56:49.197Z",
+    "name": "Voulez-Vous Coucher Avec Moi",
+    "brand": "By Kilian",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2015,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Neroli"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Tuberose",
+      "Gardenia",
+      "Bulgarian Rose",
+      "Litchi"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "The collection In the Garden of Good and Evil by the house of By Kilian initiated in 2012 was inspired by the motive of the original sin and contains fragrances playing on the theme: Forbidden Games, Good Girl Gone Bad, In the City of Sin and Playing With The Devil. The new chapter in Kilian’s collection opens with fragrance VOULEZ-VOUS COUCHER AVEC MOI which draws inspiration from dark nights and exciting game of seduction.</p> <p>Voulez-Vous Coucher Avec Moi is signed by perfume Alberto Morillas, and is composed of a mixture of ylang-ylang and tuberose with intoxicating Bulgarian rose. Depth and strength are provided by vanilla and cedar. Black bottle of the fragrance follow the ‘night’ theme evoking seduction nd temptation. The bottle is refillable and arrives in black lacquered clutch bag decorated with two golden snakes facing each other.</p> <p>Besides the 50ml bottle, starting from October 2015, the market will also welcome a travel package as 3 x 10ml.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31625.jpg",
+    "rating": 3.89,
+    "ratingVotes": 2002,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 62
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 39
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 31625,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Voulez-Vous Coucher Avec Moi",
+    "brandFa": "بای کیلیان",
+    "nameFa": "Voulez-Vous Coucher Avec Moi",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "نرولی"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "گل شیپور",
+      "گاردنیا",
+      "گل رز بلغاری",
+      "Litchi"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب صندل",
+      "سرو"
+    ],
+    "descriptionFa": "مجموعه In the Garden of Good and Evil از برند By Kilian که در سال 2012 عرضه شد، از موضوع گناه اولیه الهام گرفته و شامل عطر‌هایی است که بر اساس این موضوع ساخته شده‌اند: Forbidden Games، Good Girl Gone Bad، In the City of Sin و Playing With The Devil. فصل جدید مجموعه کیلیان با عطر VOULEZ-VOUS COUCHER AVEC MOI آغاز می‌شود که از شب‌های تاریک و بازی هیجان‌انگیز اغواگری الهام گرفته است.</p> <p>Voulez-Vous Co",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Amouage/Beach-Hut-Man-46336.html",
+    "extractedAt": "2026-11-27T16:56:54.511Z",
+    "name": "Beach Hut Man",
+    "brand": "Amouage",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": "Elise Benat",
+    "topNotes": [
+      "Mint",
+      "Galbanum",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Ivy",
+      "Moss",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Myrrh",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46336.jpg",
+    "rating": 4.19,
+    "ratingVotes": 4019,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 26
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 46336,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Beach Hut Man",
+    "brandFa": "آموژ",
+    "nameFa": "Beach Hut Man",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Elise Benat",
+    "topNotesFa": [
+      "نعناع",
+      "گلبانوم",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "Ivy",
+      "خزه",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "مور",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Panier-des-Sens/L-Olivier-97920.html",
+    "extractedAt": "2026-11-27T16:56:59.460Z",
+    "name": "L'Olivier",
+    "brand": "Panier des Sens",
+    "family": "Aromatic Aquatic",
+    "gender": "men",
+    "year": 2021,
+    "perfumer": null,
+    "topNotes": [
+      "Sea water"
+    ],
+    "middleNotes": [
+      "Olive Leaf"
+    ],
+    "baseNotes": [
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97920.jpg",
+    "rating": 4.48,
+    "ratingVotes": 42,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 79
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 32
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 24
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 18
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 97920,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Olivier",
+    "brandFa": "Panier des Sens",
+    "nameFa": "L'Olivier",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Sea water"
+    ],
+    "middleNotesFa": [
+      "Olive Leaf"
+    ],
+    "baseNotesFa": [
+      "سرو"
+    ],
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Coty/Sand-Sable-3944.html",
+    "extractedAt": "2026-11-27T16:57:03.267Z",
+    "name": "Sand & Sable",
+    "brand": "Coty",
+    "family": "Floral",
+    "gender": "women. <b>Sand & Sable</b> was launched in 1981. The fragrance features Gardenia, Tuberose, Jasmine, Peach, Green Notes and Rose",
+    "year": 1981,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3944.jpg",
+    "rating": 4.03,
+    "ratingVotes": 728,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 40
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 29
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 22
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 19
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 14
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 7
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 3944,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sand & Sable",
+    "brandFa": "Coty",
+    "nameFa": "Sand & Sable",
+    "familyFa": "گلی",
+    "genderFa": "women. <b>Sand & Sable</b> was launched in 1981. The fragrance features Gardenia, Tuberose, Jasmine, Peach, Green Notes and Rose",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Strangelove-NYC/Fall-Into-Stars-57324.html",
+    "extractedAt": "2026-11-27T16:57:06.869Z",
+    "name": "Fall Into Stars",
+    "brand": "Strangelove NYC",
+    "family": null,
+    "gender": "women and men. <b>Fall Into Stars</b> was launched in 2019. The nose behind this fragrance is Christophe Laudamiel. The fragrance features Indian Oud, Palisander Rosewood, Narcissus, Vanilla and Pink Pepper",
+    "year": 2019,
+    "perfumer": "Christophe Laudamiel",
+    "description": "\"Love without boundaries...fallintostars. Fall Into Stars propels a mystical experience of boundless wonder, as lovers transcend time and space to journey into a parallel universe. This dazzling fragrance ignites the smoldering flame of their passion, incandescent as a meteor shower that lights up the night. Honeyed notes of jonquil nectar bring a delicate sparkle to the enveloping drama of pure Indian oud, the deep sensuality of rosewood, the powerful warmth of amber and the rose-inflected sweetness of pink peppercorns. Apply onto pulse points to soar into the next dimension.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.57324.jpg",
+    "rating": 4.42,
+    "ratingVotes": 369,
+    "accords": [
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 64
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 47
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 41
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 57324,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Fall Into Stars",
+    "brandFa": "Strangelove NYC",
+    "nameFa": "Fall Into Stars",
+    "genderFa": "women and men. <b>Fall Into Stars</b> was launched in 2019. The nose behind this fragrance is Christophe Laudamiel. The fragrance features Indian Oud, Palisander Rosewood, Narcissus, Vanilla and Pink Pepper",
+    "perfumerFa": "Christophe Laudamiel",
+    "descriptionFa": "«عشق بدون مرز... fallintostars. Fall Into Stars تجربه‌ای عرفانی از شگفتی بی‌کران را القا می‌کند، زیرا عاشقان از زمان و مکان فراتر رفته و به سفری در یک جهان موازی می‌روند. این عطر خیره‌کننده شعله فروزان اشتیاق آنها را برافروخته می‌کند، شعله‌ای درخشان همچون باران شهابی که شب را روشن می‌کند. نت‌های عسلی شهد نرگس زرد، درخششی ظریف به درام فراگیر عود خالص هندی، شهوانیت عمیق چوب گل سرخ و... می‌بخشد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nishane/A-Date-With-Oud-114860.html",
+    "extractedAt": "2026-11-27T16:57:12.714Z",
+    "name": "A Date With Oud",
+    "brand": "Nishane",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Catherine Jarno",
+    "topNotes": [
+      "Dates",
+      "Grapefruit",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Frankincense"
+    ],
+    "baseNotes": [
+      "Agarwood",
+      "Tonka Bean"
+    ],
+    "description": "A fire flickers in the dunes, where hot sands meet cool night air. From the ashes rises the resinous smoke of burning oud, while in the darkness, a single Ajwa date is savored—sweet, rich, unforgettable. This is no ordinary indulgence; it is <em>A Date with Oud</em>.</p> <p>NISHANE presents <em>A Date with Oud</em>, an ambery creation that contrasts the addictive sweetness of Ajwa dates with the smoldering depth of dehn-al-oud. The fragrance evokes the essence of Khaleeji hospitality at its most generous and refined.</p> <p>Composed by Catherine Jarno, Senior Perfumer at IFF, the perfume opens with a sumptuous Ajwa date accord. Fruity and buttery accents are illuminated by the brightness of grapefruit and the subtle chill of black pepper. In the heart, frankincense radiates with mineral clarity, while the rare Leatherwood lends dry, tactile nuances. These notes settle into a base where smoky, animalic oud rests upon the almond-like warmth of tonka bean.</p> <p>“I create to exalt what I can smell in nature, and to offer it to others,” explains Jarno, describing her philosophy of creation. “I take inspiration in what nature does best and use my analytical skills to craft accords that feel both authentic and innovative.”</p> <p>Bringing together the beloved richness of Ajwa dates with the rare sophistication of Leatherwood, <em>A Date with Oud</em> represents NISHANE’s first special edition for Al Tayer Group. This collaboration embodies shared values of craft, discernment, and cultural resonance.</p> <p>“The Gulf region has given us some of our most devoted patrons,” say Mert Güzel and Murat Katran, founders and creative directors of NISHANE. “We have long sought a way to honor their loyalty and refined appreciation of perfumery. <em>A Date with Oud</em> is our tribute.”</p> <p>Available exclusively through Al Tayer Group, the fragrance will be retailed across select locations in the Gulf, including Bloomingdale’s and Harvey Nichols in the UAE, as well as the Group’s digital platforms. Presented in 15 ml and 100 ml formats, this extrait de parfum (35%) captures the generosity of Gulf heritage with unmistakable depth.</p> <p><strong>Fragrance Notes</strong></p> <p><strong>Top:</strong> Ajwa Date, Black Pepper Essence, Grapefruit Essence</p> <p><strong>Heart:</strong> Frankincense Essence, Leatherwood Essence LMR</p> <p><strong>Base:</strong> Oud Accord, Tonka Bean Absolute",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114860.jpg",
+    "rating": 3.67,
+    "ratingVotes": 55,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 88
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 54
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 114860,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "A Date With Oud",
+    "brandFa": "نیشانه",
+    "nameFa": "A Date With Oud",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Catherine Jarno",
+    "topNotesFa": [
+      "Dates",
+      "گریپ‌فروت",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "آتشی در تپه‌های شنی می‌سوزد، جایی که شن‌های داغ با هوای خنک شب تلاقی می‌کنند. از میان خاکستر، دود صمغی عود در حال سوختن به هوا برمی‌خیزد، در حالی که در تاریکی، یک خرما عجوه چشیده می‌شود - شیرین، غنی، فراموش‌نشدنی. این یک لذت معمولی نیست؛ این <em>یک قرار ملاقات با عود</em> است.</p> <p>NISHANE عطر <em>A Date with Oud</em> را معرفی می‌کند، عطری کهربایی که شیرینی اعتیادآور خرماهای عجوه را با عمق سوزان دهن‌العود در تضاد قرار می‌دهد. این عطر یادآور",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arabiyat-Prestige/Ramad-Earthy-128565.html",
+    "extractedAt": "2026-11-27T16:57:17.450Z",
+    "name": "Ramad Earthy",
+    "brand": "Arabiyat Prestige",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Kemal Tekin",
+    "topNotes": [
+      "Honey",
+      "Apricot",
+      "Cardamom",
+      "Tangerine",
+      "Mango",
+      "Pomegranate",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Davana",
+      "Cappuccino",
+      "Tea"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vanilla",
+      "Tonka Bean",
+      "Labdanum",
+      "Cedarwood",
+      "Vetiver"
+    ],
+    "description": "Ramad Earthy by Arabiyat Prestige is a unisex extrait created by Kemal Tekin and scheduled for release in 2026. The concept draws on the duality of nature as both nurturer and destroyer, expressed through a contrast of luminous fruit, honeyed sweetness, spices, and darker smoky nuances. The composition opens with honey, apricot, pomegranate, tangerine, cardamom, ginger, and mango. Its heart introduces cappuccino, tea, and davana, while the base develops through labdanum, patchouli, vanilla, tonka bean, cedarwood, and vetiver, giving the fragrance a dense woody, balsamic, sweet, and spicy character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.128565.jpg",
+    "rating": 4.05,
+    "ratingVotes": 254,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 86
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 81
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 58
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 48
+      }
+    ],
+    "fragranticaId": 128565,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ramad Earthy",
+    "brandFa": "Arabiyat Prestige",
+    "nameFa": "Ramad Earthy",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Kemal Tekin",
+    "topNotesFa": [
+      "عسل",
+      "زردآلو",
+      "هل",
+      "تانجرین",
+      "مانگو",
+      "Pomegranate",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "Davana",
+      "Cappuccino",
+      "چای"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وانیل",
+      "لوبیا تونکا",
+      "لابدانوم",
+      "چوب سرو",
+      "وتیور"
+    ],
+    "descriptionFa": "Ramad Earthy از برند Arabiyat Prestige یک عطر یونیسکس است که توسط کمال تکین ساخته شده و قرار است در سال 2026 عرضه شود. این مفهوم از دوگانگی طبیعت به‌عنوان پرورش‌دهنده و نابودکننده الهام گرفته است که از طریق تضاد میوه‌های درخشان، شیرینی عسلی، ادویه‌ها و ظرافت‌های دودی تیره‌تر بیان می‌شود. این ترکیب با عسل، زردآلو، انار، نارنگی، هل، زنجبیل و انبه آغاز می‌شود. در نت میانی آن کاپوچینو، چای و داوانا حس می‌شود، در حالی که نت پایه...",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Oud-Minerale-2023-88818.html",
+    "extractedAt": "2026-11-27T16:57:23.370Z",
+    "name": "Oud Minérale (2023)",
+    "brand": "Tom Ford",
+    "family": "Woody Aquatic",
+    "gender": "women and men. <b>Oud Minérale (2023)</b> was launched in 2023. The fragrance features Sea Notes, Salt, Agarwood (Oud), Seagrass, Balsam Fir, Musk, Amber, Styrax and Pink Pepper",
+    "year": 2023,
+    "description": "In 2023, Oud Minerale Eau de Parfum by TOM FORD is now launching in the Signature Collection a contrasting fusion of elements.</p> <p>The warmth of oud is intensified by a rush of fresh pink pepper, while silver fir balsam and ambergris balance earthy and maritime nuances. A wave of smoky wood embraces sensual, skin-clinging musk. Oud Minérale combines rich oud notes with refreshing oceanic minerals.</p> <p>Notes: marine accord, oud accord, ambergris accord, pink pepper, styrax, and silver fir balsam.</p> <p>Available in 50ml and 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88818.jpg",
+    "rating": 3.84,
+    "ratingVotes": 3218,
+    "accords": [
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 53
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 37
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 22
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 88818,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Minérale (2023)",
+    "brandFa": "تام فورد",
+    "nameFa": "Oud Minérale (2023)",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "women and men. <b>Oud Minérale (2023)</b> was launched in 2023. The fragrance features Sea Notes, Salt, Agarwood (Oud), Seagrass, Balsam Fir, Musk, Amber, Styrax and Pink Pepper",
+    "descriptionFa": "در سال 2023، ادو پرفیوم Oud Minerale از برند TOM FORD اکنون در مجموعه Signature عرضه می‌شود که ترکیبی متضاد از عناصر است.</p> <p>گرمای عود با انفجار فلفل صورتی تازه تشدید می‌شود، در حالی که صمغ صنوبر نقره‌ای و عنبر خاکستری توازن بین رایحه‌های خاکی و دریایی را برقرار می‌کنند. موجی از رایحه چوب دودی، مشک حسی و چسبنده به پوست را در بر می‌گیرد. Oud Minérale نت‌های غنی عود را با مواد معدنی طراوت‌بخش اقیانوسی ترکیب می‌کند.</p> <p>نت‌ها: نت دریایی، نت عود، عنبر",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jennifer-Lopez/Glow-869.html",
+    "extractedAt": "2026-11-27T16:57:30.261Z",
+    "name": "Glow",
+    "brand": "Jennifer Lopez",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2002,
+    "perfumer": "Louise Turner and Catherine Walsh",
+    "topNotes": [
+      "Neroli",
+      "Orange Blossom",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rose",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Orris Root",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "Glow is the first fragrance by Jennifer Lopez. The fragrance was meant to target women in their late teens and early 20s and it became very popular breaking numerous records in sales which inspired other celebreties to launch their own signature fragrances. Notes are: neroli, pink grapefruit, rose, sandalwood, amber, musk, jasmine, iris and vanilla. J.Lo describes Glow as ‘a skin-scent’. It is described as ‘clean’, even soapy with a sweet, powdery trail. Glow was created by Louise Turner in 2002. Read about the new limited edition of J.Lo Glow in the news section- Glow with J.Lo",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.869.jpg",
+    "rating": 3.63,
+    "ratingVotes": 5933,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 54
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 48
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 34
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 26
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 22
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 869,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Glow",
+    "brandFa": "Jennifer Lopez",
+    "nameFa": "Glow",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Louise Turner and Catherine Walsh",
+    "topNotesFa": [
+      "نرولی",
+      "گل پرتقال",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل رز",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "ریشه زنبق",
+      "کهربا",
+      "وانیل"
+    ],
+    "descriptionFa": "Glow اولین عطر جنیفر لوپز است. این عطر برای زنان اواخر نوجوانی و اوایل دهه ۲۰ طراحی شده بود و بسیار محبوب شد و رکورد‌های فروش متعددی را شکست که الهام‌بخش سایر افراد مشهور شد تا عطرهای مخصوص خود را عرضه کنند. نت‌های این عطر عبارتند از: نرولی، گریپ‌فروت صورتی، رز، چوب صندل، عنبر، مشک، یاس، زنبق و وانیل. جنیفر لوپز از Glow به عنوان «عطری برای پوست» یاد می‌کند. این عطر به عنوان عطری «تمیز» و حتی صابونی با رایحه‌ای شیرین و پودری توصیف می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
