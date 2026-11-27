@@ -149688,5 +149688,1375 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Prada-Paradoxe-75668.html",
+    "extractedAt": "2026-11-27T17:49:09.134Z",
+    "name": "Prada Paradoxe",
+    "brand": "Prada",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Nadège Le Garlantezec, Antoine Maisondieu and Shyamala Maisondieu",
+    "topNotes": [
+      "Pear",
+      "Tangerine",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Neroli Essence",
+      "Neroli",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Amber",
+      "White Musk",
+      "Benzoin"
+    ],
+    "description": "\"Reinventing freshness with the first neroli bud extraction for Prada, to capture the flower’s fresh dimension. Reinventing sensuality with Ambrofix, a bio-converted amber, revealing a vibrant warmth. Reinventing intensity through a new revolutionary musk molecule: the Serenolide, for an intense yet subtle and comfortable trail noticeable right from the top.\"</p> <p>Prada Paradoxe is available as a 30, 50 and 90 ml Eau de Parfum and in a 100 ml refill.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75668.jpg",
+    "rating": 3.93,
+    "ratingVotes": 11572,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 85
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 29
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 29
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 75668,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Prada Paradoxe",
+    "brandFa": "پرادا",
+    "nameFa": "Prada Paradoxe",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nadège Le Garlantezec, Antoine Maisondieu and Shyamala Maisondieu",
+    "topNotesFa": [
+      "گلابی",
+      "تانجرین",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Neroli Essence",
+      "نرولی",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "کهربا",
+      "موش سفید",
+      "بنزوئین"
+    ],
+    "descriptionFa": "«ابتکار در طراوت با اولین عصاره‌گیری از جوانه‌های نرولی برای Prada، تا بُعد طراوت این گل را به تصویر بکشد. ابداع دوباره حس‌انگیزی با آمبروفیکس، یک عنبر زیستی‌تبدیل‌شده که گرمایی پرنشاط را آشکار می‌کند. ابتکار در ایجاد شدت رایحه از طریق یک مولکول مشک انقلابی جدید: سرنولید، برای ایجاد اثری شدید اما ظریف و دلپذیر که از همان ابتدا قابل تشخیص است.»</p> <p>Prada Paradoxe به صورت ادو پرفیوم در اندازه‌های 30، 50 و 90 میلی‌لیتر و در اندازه‌ی 100 میلی‌لیتر عرضه می‌شود.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Henry-Jacques/Patchouli-142211.html",
+    "extractedAt": "2026-11-27T17:49:15.223Z",
+    "name": "Patchouli",
+    "brand": "Henry Jacques",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Patchouli"
+    ],
+    "middleNotes": [
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.142211.jpg",
+    "rating": 5,
+    "ratingVotes": 2,
+    "accords": [
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 142211,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Patchouli",
+    "brandFa": "Henry Jacques",
+    "nameFa": "Patchouli",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "پچولی"
+    ],
+    "middleNotesFa": [
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Devotion-Intense-96028.html",
+    "extractedAt": "2026-11-27T17:49:19.021Z",
+    "name": "Devotion Intense",
+    "brand": "Dolce&Gabbana",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Hazelnut"
+    ],
+    "middleNotes": [
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "description": "Devotion Eau de Parfum Intense is a delicious fragrance that celebrates the noblest values of life, a unique essence sealed with the Sacred Heart.<br /> <br /> Top notes: hazelnut<br /> Middle notes: orange blossom<br /> Base notes: vanilla</p> <p>DOLCE & GABBANA DEVOTION INTENSE EAU DE PARFUM is available as a 30ml, 50ml and 100ml Eau de Parfum Intense.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96028.jpg",
+    "rating": 4.02,
+    "ratingVotes": 3452,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 87
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 96028,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Devotion",
+    "brandFa": "Dolce&Gabbana",
+    "nameFa": "Devotion Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "فندق"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "descriptionFa": "Devotion Eau de Parfum Intense عطری دلپذیر است که اصیل‌ترین ارزش‌های زندگی را گرامی می‌دارد، عطری منحصربه‌فرد که با نشان قلب مقدس مهر و موم شده است.<br /> <br /> نت‌های اولیه: فندق<br /> نت‌های میانی: شکوفه پرتقال<br /> نت‌های پایه: وانیل</p> <p>ادو پرفیوم اینتنس DOLCE & GABBANA DEVOTION در حجم‌های 30 میلی‌لیتر، 50 میلی‌لیتر و 100 میلی‌لیتر موجود است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Nashi-Blossom-37551.html",
+    "extractedAt": "2026-11-27T17:49:25.233Z",
+    "name": "Nashi Blossom",
+    "brand": "Jo Malone London",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": "Fabrice Pellegrin",
+    "topNotes": [
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Pear Blossom",
+      "Rose"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.37551.jpg",
+    "rating": 3.57,
+    "ratingVotes": 286,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 83
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 82
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 44
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 37
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 37551,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nashi Blossom",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Nashi Blossom",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Fabrice Pellegrin",
+    "topNotesFa": [
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Pear Blossom",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Givenchy/Gentleman-Society-78639.html",
+    "extractedAt": "2026-11-27T17:49:29.256Z",
+    "name": "Gentleman Society",
+    "brand": "Givenchy",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": "Karine Dubreuil-Sereni and Maïa Lernout",
+    "topNotes": [
+      "Cardamom",
+      "Sage"
+    ],
+    "middleNotes": [
+      "French Narcissus",
+      "Haitian Vetiver",
+      "Madagascar Vetiver"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Palo Santo",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78639.jpg",
+    "rating": 4.11,
+    "ratingVotes": 4209,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 85
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 55
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 30
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 27
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 78639,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gentleman Society",
+    "brandFa": "ژیوانشی",
+    "nameFa": "Gentleman Society",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Karine Dubreuil-Sereni and Maïa Lernout",
+    "topNotesFa": [
+      "هل",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "French Narcissus",
+      "Haitian Vetiver",
+      "Madagascar Vetiver"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Palo Santo",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hermes/Terre-d-Hermes-Intense-102772.html",
+    "extractedAt": "2026-11-27T17:49:33.357Z",
+    "name": "Terre d’Hermès Intense",
+    "brand": "Hermès",
+    "family": "Woody",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Christine Nagel",
+    "topNotes": [
+      "Bergamot",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Coffee",
+      "Licorice"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Lava",
+      "Stone"
+    ],
+    "description": "Terre d’Hermès Intense by Hermès is a fragrance that continues the exploration of man's connection with the earth. Created by Christine Nagel, this Eau de Parfum offers a powerful interpretation of the original Terre d’Hermès, focusing on the personality of ingredients rather than sheer intensity.</p> <p>Hermès Terre d’Hermès Intense is available in 50 and 100 ml and in a 200 ml refill.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102772.jpg",
+    "rating": 3.76,
+    "ratingVotes": 2018,
+    "accords": [
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 97
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 78
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 70
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 102772,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Terre d’Hermès",
+    "brandFa": "هرمس",
+    "nameFa": "Terre d’Hermès Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Christine Nagel",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "قهوه",
+      "شیرین‌بیان"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "Lava",
+      "Stone"
+    ],
+    "descriptionFa": "Terre d’Hermès Intense از برند هرمس عطری است که به کاوش در ارتباط انسان با زمین ادامه می‌دهد. این ادو پرفیوم که توسط کریستین ناگل خلق شده است، تفسیر قدرتمندی از Terre d’Hermès اصلی ارائه می‌دهد و به‌جای تمرکز صرف بر شدت رایحه، بر شخصیت مواد تشکیل‌دهنده متمرکز است.</p> <p>Hermès Terre d’Hermès Intense در بسته‌های 50 و 100 میلی‌لیتری و یک بسته‌ی شارژ 200 میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Noir-de-Noir-1822.html",
+    "extractedAt": "2026-11-27T17:49:39.380Z",
+    "name": "Noir de Noir",
+    "brand": "Tom Ford",
+    "family": "Chypre",
+    "gender": "women and men",
+    "year": 2007,
+    "perfumer": "Jacques Cavallier Belletrud, Harry Fremont and Olivier Cresp",
+    "topNotes": [
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Black Rose",
+      "Truffle",
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vanilla",
+      "Agarwood (Oud)",
+      "Oakmoss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1822.jpg",
+    "rating": 4.32,
+    "ratingVotes": 9057,
+    "accords": [
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 87
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 65
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 62
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 43
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 1822,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Noir de Noir",
+    "brandFa": "تام فورد",
+    "nameFa": "Noir de Noir",
+    "familyFa": "شیپر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jacques Cavallier Belletrud, Harry Fremont and Olivier Cresp",
+    "topNotesFa": [
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "Black Rose",
+      "ترافل",
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وانیل",
+      "Agarwood (Oud)",
+      "خزه بلوط"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/BDK-Parfums/Velvet-Tonka-68119.html",
+    "extractedAt": "2026-11-27T17:49:43.112Z",
+    "name": "Velvet Tonka",
+    "brand": "BDK Parfums",
+    "family": "Floral",
+    "gender": "women and men",
+    "year": 2021,
+    "perfumer": "Alexandra Carlin",
+    "topNotes": [
+      "Almond",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Rose Oil"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Bourbon Vanilla",
+      "Amberwood",
+      "Amyris"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.68119.jpg",
+    "rating": 3.74,
+    "ratingVotes": 2555,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 89
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 85
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 66
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 51
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 45
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 68119,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Velvet Tonka",
+    "brandFa": "BDK Parfums",
+    "nameFa": "Velvet Tonka",
+    "familyFa": "گلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alexandra Carlin",
+    "topNotesFa": [
+      "بادام",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "Rose Oil"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "وانیل بوربن",
+      "چوب کهربایی",
+      "امیریس"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gulf-Orchid/Sweet-Heaven-Ice-102436.html",
+    "extractedAt": "2026-11-27T17:49:48.088Z",
+    "name": "Sweet Heaven Ice",
+    "brand": "Gulf Orchid",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Plum",
+      "Cognac",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Cashmere Wood",
+      "Myrrh"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka",
+      "Sandalwood",
+      "Caramel"
+    ],
+    "description": "Sweet Heaven Ice by Gulf Orchid is a luxurious cinnamon perfume for men.</p> <p>It shouldn’t be possible—a scent that burns cold. First, the rush of cognac and cinnamon, crisp yet commanding. Then, a slow shift—cashmere wood and iris, soft but never fragile. And when it finally settles, tonka, vanilla, and caramel leave behind something both fresh and dangerously smooth. A contradiction you can’t stop chasing.</p> <p>Sweet Heaven Ice – A Chill That Burns",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102436.jpg",
+    "rating": 3.92,
+    "ratingVotes": 244,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 90
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 83
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 70
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 102436,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sweet Heaven Ice",
+    "brandFa": "Gulf Orchid",
+    "nameFa": "Sweet Heaven Ice",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "آلو",
+      "کوناک",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "Cashmere Wood",
+      "مور"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Tonka",
+      "چوب صندل",
+      "کارامل"
+    ],
+    "descriptionFa": "Sweet Heaven Ice از برند Gulf Orchid یک عطر لوکس با رایحه دارچین برای آقایان است.</p> <p>نباید ممکن باشد - عطری که سرد می‌سوزد. ابتدا، موجی از رایحه کنیاک و دارچین، تند و در عین حال نافذ. سپس، تغییری آهسته—چوب کشمیر و زنبق، ملایم اما هرگز شکننده نیستند. و وقتی که بالاخره آرام می‌گیرد، رایحه‌های دانه‌ی تونکا، وانیل و کارامل چیزی را به جا می‌گذارند که هم تازه و هم به طرز خطرناکی ملایم است. تناقضی که نمی‌توانید از تعقیب آن دست بردارید.</p> <p>Sweet Heaven Ice – خنکی دلپذیر",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Botanicae/Itaca-89595.html",
+    "extractedAt": "2026-11-27T17:49:53.908Z",
+    "name": "Itaca",
+    "brand": "Botanicae",
+    "family": null,
+    "gender": "women and men. Top note is Davana; middle notes are Sea Salt, Turkish Rose and Labdanum; base notes are Oakmoss, Patchouli and Oud",
+    "topNotes": [
+      "Davana"
+    ],
+    "middleNotes": [
+      "Sea Salt",
+      "Turkish Rose",
+      "Labdanum"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Patchouli",
+      "Oud"
+    ],
+    "description": "Embark on an olfactory journey with ‘Itaca’, guiding you through the landscapes of Kavafis’ poem on the Odyssey.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89595.jpg",
+    "rating": 3.8,
+    "ratingVotes": 71,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 85
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 84
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 75
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 48
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 89595,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Itaca",
+    "brandFa": "Botanicae",
+    "nameFa": "Itaca",
+    "genderFa": "women and men. Top note is Davana; middle notes are Sea Salt, Turkish Rose and Labdanum; base notes are Oakmoss, Patchouli and Oud",
+    "topNotesFa": [
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "نمک دریا",
+      "گل رز ترکی",
+      "لابدانوم"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "پچولی",
+      "عود"
+    ],
+    "descriptionFa": "با «Itaca» به یک سفر بویایی بروید که شما را به مناظر شعر کاوافیس در مورد ادیسه هدایت می‌کند.",
+    "seasons": [
+      "autumn",
+      "spring",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "پاییز",
+      "بهار",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Britney-Spears/Pure-Fantasy-114323.html",
+    "extractedAt": "2026-11-27T17:49:58.804Z",
+    "name": "Pure Fantasy",
+    "brand": "Britney Spears",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Nectarine",
+      "Lychee",
+      "Quince"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Cupcake",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla Bean",
+      "Tonka Bean",
+      "Sandalwood"
+    ],
+    "description": "Pure Fantasy is a 2025 addition to Britney Spears’ Fantasy line, released to mark the collection’s 20th anniversary. The composition opens with nectarine, quince, and lychee, moves into a heart of jasmine and vanilla with a vanilla cupcake nuance, and settles on vanilla bean absolute, tonka bean absolute, and sandalwood. It is presented as a fruity-gourmand interpretation within the Fantasy series.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114323.jpg",
+    "rating": 4.57,
+    "ratingVotes": 75,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 39
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 28
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 26
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 114323,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pure Fantasy",
+    "brandFa": "Britney Spears",
+    "nameFa": "Pure Fantasy",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Nectarine",
+      "لیچی",
+      "Quince"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "Cupcake",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Vanilla Bean",
+      "لوبیا تونکا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Pure Fantasy یک عطر جدید در سال 2025 به مجموعه Fantasy بریتنی اسپیرز اضافه شده است که به مناسبت بیستمین سالگرد این مجموعه عرضه شده است. این ترکیب با شلیل، به و لیچی آغاز می‌شود، به نت میانی یاس و وانیل با رایحه‌ای شبیه به کاپ‌کیک وانیلی می‌رسد و در نهایت به نت پایانی عصاره خالص دانه‌های وانیل، عصاره خالص دانه‌های تونکا و چوب صندل می‌رسد. این عطر به عنوان یک تفسیر میوه‌ای-گورماند در مجموعه Fantasy ارائه شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Habibi-NY/Magnificent-Rose-138857.html",
+    "extractedAt": "2026-11-27T17:50:04.712Z",
+    "name": "Magnificent Rose",
+    "brand": "Habibi NY",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Blackcurrant",
+      "Rose"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "White Musk",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Magnificent Rose by Habibi NY is a rose-centered fragrance that highlights a rich Damask rose note supported by fruity, floral, and woody facets. The composition opens with a distinctive rose accord alongside sweet blackcurrant, then moves into a floral heart of muguet (lily of the valley), jasmine, and a soft white musk. In the base, warm amber, vetiver, and sandalwood provide a smooth, gently resinous and woody foundation that gives the scent depth and longevity. The overall impression is a refined, floral-woody perfume with a prominent rose character and a musky-ambery backdrop.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138857.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 57
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 53
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 138857,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Magnificent Rose",
+    "brandFa": "Habibi NY",
+    "nameFa": "Magnificent Rose",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Blackcurrant",
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "موش سفید",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وتیور",
+      "کهربا"
+    ],
+    "descriptionFa": "Magnificent Rose از برند Habibi NY یک عطر مبتنی بر رایحه گل رز است که نت غنی گل رز دمشقی را برجسته می‌کند و جنبه‌های میوه‌ای، گلی و چوبی آن را تقویت می‌کنند. این ترکیب با یک آکورد متمایز گل رز در کنار انگور فرنگی سیاه شیرین آغاز می‌شود، سپس به نت میانی گل‌دار شامل موگه (گل برف)، یاسمن و مشک سفید ملایم می‌رسد. در رایحه پایه، کهربای گرم، وتیور و چوب صندل یک پایه ملایم، کمی رزینی و چوبی ایجاد می‌کنند که به عطر عمق و ماندگاری می‌بخشد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Springtime-in-a-Park-55927.html",
+    "extractedAt": "2026-11-27T17:50:11.663Z",
+    "name": "Springtime in a Park",
+    "brand": "Maison Martin Margiela",
+    "family": null,
+    "gender": "women and men. <b>Springtime in a Park</b> was launched in 2019. The nose behind this fragrance is Jacques Cavallier Belletrud. The fragrance features Lily-of-the-Valley, Pear and Musk",
+    "year": 2019,
+    "perfumer": "Jacques Cavallier Belletrud",
+    "description": "Spingtime in a Park captures the scent of a green city oasis in spring. Flowers sprout. The first warm rays of sunshine of the year after a long, cold winter invite you to take a stroll. The delicate pastel shades of the fragrant flowers are a feast for the senses from which one cannot get enough.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55927.jpg",
+    "rating": 3.74,
+    "ratingVotes": 2835,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 85
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 64
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 55927,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Springtime in a Park",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Springtime in a Park",
+    "genderFa": "women and men. <b>Springtime in a Park</b> was launched in 2019. The nose behind this fragrance is Jacques Cavallier Belletrud. The fragrance features Lily-of-the-Valley, Pear and Musk",
+    "perfumerFa": "Jacques Cavallier Belletrud",
+    "descriptionFa": "Springtime in a Park رایحه یک واحه سبز شهری در بهار را به تصویر می‌کشد. گل‌ها جوانه می‌زنند. اولین پرتوهای گرم آفتاب سال پس از یک زمستان طولانی و سرد، شما را به قدم زدن دعوت می‌کنند. رنگ‌های پاستلی ظریف گل‌های معطر، لذتی برای حواس هستند که هرگز از آن سیر نمی‌شوید.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
