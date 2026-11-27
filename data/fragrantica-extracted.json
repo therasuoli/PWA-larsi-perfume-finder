@@ -154370,5 +154370,1080 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nosu/Untitled-148942.html",
+    "extractedAt": "2026-11-27T22:46:21.599Z",
+    "name": "Untitled",
+    "brand": "Nosu",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jacob Grainger",
+    "topNotes": [
+      "Grass",
+      "Cassis",
+      "Yuzu"
+    ],
+    "middleNotes": [
+      "Chamomile",
+      "Lavender",
+      "Metallic notes"
+    ],
+    "baseNotes": [
+      "Transparent Woods",
+      "Musk"
+    ],
+    "description": "A limited-edition fragrance created as part of a collaborative project between Nosu and London-based music producer Jeigo, inspired by Jeigo’s piece <em>Placid Shimmers. </em>Edition of 100 x 7.5ml bottles.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148942.jpg",
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 47
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 47
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 47
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 148942,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Untitled",
+    "brandFa": "Nosu",
+    "nameFa": "Untitled",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jacob Grainger",
+    "topNotesFa": [
+      "علف",
+      "توت سیاه فرانسوی",
+      "یوزو"
+    ],
+    "middleNotesFa": [
+      "بابونه",
+      "اسطوخودوس",
+      "Metallic notes"
+    ],
+    "baseNotesFa": [
+      "Transparent Woods",
+      "موش"
+    ],
+    "descriptionFa": "یک عطر با تیراژ محدود که در چارچوب یک پروژه مشترک بین Nosu و تهیه‌کننده موسیقی ساکن لندن، Jeigo، و با الهام از قطعه Placid Shimmers اثر Jeigo ساخته شده <em>است. </em>نسخهٔ 100 عدد بطری 7.5 میلی‌لیتری.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Pearfat-Parfum/Rabbit-Rabbit-91562.html",
+    "extractedAt": "2026-11-27T22:46:27.130Z",
+    "name": "Rabbit Rabbit",
+    "brand": "Pearfat Parfum",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men. <b>Rabbit Rabbit</b> was launched in 2024. The nose behind this fragrance is Alie Kiral. The fragrance features Apricot, Carrot, Juniper, Galanga, Cake, Turmeric and Barley",
+    "year": 2024,
+    "perfumer": "Alie Kiral",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91562.jpg",
+    "rating": 4.01,
+    "ratingVotes": 210,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 79
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 68
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 36
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 91562,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rabbit Rabbit",
+    "brandFa": "Pearfat Parfum",
+    "nameFa": "Rabbit Rabbit",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "women and men. <b>Rabbit Rabbit</b> was launched in 2024. The nose behind this fragrance is Alie Kiral. The fragrance features Apricot, Carrot, Juniper, Galanga, Cake, Turmeric and Barley",
+    "perfumerFa": "Alie Kiral",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Dolce-Gabbana-Pour-Homme-2012-15336.html",
+    "extractedAt": "2026-11-27T22:46:31.044Z",
+    "name": "Dolce&Gabbana Pour Homme (2012)",
+    "brand": "Dolce&Gabbana",
+    "family": "Aromatic Fougere",
+    "gender": "men",
+    "year": 2012,
+    "perfumer": null,
+    "topNotes": [
+      "Citruses",
+      "Bergamot",
+      "Neroli",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Sage",
+      "Pepper"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Tonka Bean",
+      "Cedar"
+    ],
+    "description": "Designer duo Dolce & Gabbana launched their first perfume Dolce & Gabbana Pour Femme in 1992, followed by its male equivalent Dolce & Gabbana Pour Homme in 1994. Rich floral character of the feminine edition and aromatic - fougere for the masculine one, this perfume pair marked the decade of the nineties. In 2012, the designers have decided to \"return to the roots\" and to re-launch the two fragrances.</p> <p>“It’s not so much a reedition as it is a fine-tuning,” said Gabbana to wwd magazine. “We altered the bottles a bit.…There has been an evolution [of the brand] since the Nineties, Domenico and I were much younger then — we’ve really matured a lot.”</p> <p>Dolce & Gabbana Pour Homme reedition is of aromatic, dry and floral character and opens with notes of tangerine, bergamot and neroli. The heart consists of lavender, sage and pepper and the base includes tobacco, cedar and tonka accords.</p> <p>The advertising campaign is shot by Mario Testino in Sicily with famous models Laetitia Casta and Noah Mills. The fragrances are available from July 2012 – as 40, 75 and 125 ml Eau de Toilette for men.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15336.jpg",
+    "rating": 4.17,
+    "ratingVotes": 5600,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 61
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 49
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 29
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 15336,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dolce&Gabbana Pour Homme (2012)",
+    "brandFa": "Dolce&Gabbana",
+    "nameFa": "Dolce&Gabbana Pour Homme (2012)",
+    "familyFa": "Aromatic Fougere",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "مرکبات",
+      "برگاموت",
+      "نرولی",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "فلفل"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "لوبیا تونکا",
+      "سرو"
+    ],
+    "descriptionFa": "دوتایی طراحان Dolce & Gabbana اولین عطر خود با نام Dolce & Gabbana Pour Femme را در سال 1992 عرضه کردند و پس از آن معادل مردانه آن با نام Dolce & Gabbana Pour Homme در سال 1994 به بازار آمد. این جفت عطر با رایحه گل‌دار غنی در نسخه زنانه و رایحه آروماتیک - فوژر در نسخه مردانه، دهه نود را تحت تأثیر قرار داد. در سال 2012، طراحان تصمیم گرفتند «به ریشه‌ها بازگردند» و این دو عطر را دوباره عرضه کنند.</p> <p>«این کار بیشتر شبیه به یک بازنشر است تا",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Glossier/You-46885.html",
+    "extractedAt": "2026-11-27T22:46:36.804Z",
+    "name": "You",
+    "brand": "Glossier",
+    "family": "Floral Woody Musk",
+    "gender": "women and men. <b>You</b> was launched in 2017. You was created by Dora Baghriche and Frank Voelkl. The fragrance features Iris, Pink Pepper, Ambroxan and Ambrette",
+    "year": 2017,
+    "perfumer": "Dora Baghriche and Frank Voelkl",
+    "description": "\"An ambiguous scent that’s hard to describe but easily appreciated. Creamy, sparkling, clean, warm. That’s You.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46885.jpg",
+    "rating": 4.11,
+    "ratingVotes": 10714,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 60
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 40
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 46885,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "You",
+    "brandFa": "Glossier",
+    "nameFa": "You",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women and men. <b>You</b> was launched in 2017. You was created by Dora Baghriche and Frank Voelkl. The fragrance features Iris, Pink Pepper, Ambroxan and Ambrette",
+    "perfumerFa": "Dora Baghriche and Frank Voelkl",
+    "descriptionFa": "«یک رایحه مبهم که توصیف آن دشوار است اما به راحتی قابل تحسین است. خامه ای، درخشان، پاک، گرم. این تو هستی.»",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AMEHA-Paris/Poire-Emeraude-130499.html",
+    "extractedAt": "2026-11-27T22:46:42.113Z",
+    "name": "Poire Émeraude",
+    "brand": "AMEHA Paris",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Cyrille Carles",
+    "topNotes": [
+      "Pear",
+      "Bergamot",
+      "Cherry"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Almond",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Amber"
+    ],
+    "description": "Poire Émeraude by AMEHA Paris is a unisex fragrance centered on the sweetness of pear. The composition opens with Hebei pear, bergamot, and cherry, followed by a gourmand heart of almond and caramel. Madagascar vanilla and amber form a warm, soft base, giving the scent a fruity-amber character with a smooth and comforting finish. It was created by Cyrille Carles and released in 2025.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.130499.jpg",
+    "rating": 4.33,
+    "ratingVotes": 52,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 78
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 62
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 56
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 43
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 37
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 130499,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Poire Émeraude",
+    "brandFa": "AMEHA Paris",
+    "nameFa": "Poire Émeraude",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Cyrille Carles",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت",
+      "گیلاس"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "بادام",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "کهربا"
+    ],
+    "descriptionFa": "Poire Émeraude از AMEHA Paris یک عطر یونیسکس است که بر شیرینی گلابی متمرکز است. این ترکیب با رایحه گلابی هبی، ترنج و گیلاس آغاز می‌شود و سپس به رایحه دلپذیر میانی بادام و کارامل می‌رسد. وانیل ماداگاسکار و عنبر یک پایه گرم و ملایم را تشکیل می‌دهند و به رایحه، شخصیتی میوه‌ای-عنبری با پایانی لطیف و آرامش‌بخش می‌بخشند. این عطر توسط سیریل کارلس ساخته شده و در سال 2025 عرضه شده است.",
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Cloud-Born-146136.html",
+    "extractedAt": "2026-11-27T22:46:48.484Z",
+    "name": "Cloud Born",
+    "brand": "PARIS CORNER",
+    "family": "Floral Aldehyde",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Aldehydes",
+      "Bergamot",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Lily of the Valley",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambergris",
+      "Cedarwood",
+      "Tonka Bean",
+      "Moss"
+    ],
+    "description": "Cloud Born by Paris Corner is a floral aldehyde fragrance for women and men, launched in 2026. It opens with bergamot, aldehydes and pear, followed by a floral heart of orange blossom, lily of the valley and rose, over a base of musk, cedarwood, ambergris, tonka bean and moss.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.146136.jpg",
+    "rating": 4.88,
+    "ratingVotes": 8,
+    "accords": [
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 73
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 65
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 64
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 60
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 34
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 146136,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cloud Born",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Cloud Born",
+    "familyFa": "Floral Aldehyde",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "آلدهیدها",
+      "برگاموت",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "لاله سفید",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا خاکستری",
+      "چوب سرو",
+      "لوبیا تونکا",
+      "خزه"
+    ],
+    "descriptionFa": "Cloud Born از برند Paris Corner یک عطر فلورال آلدئیدی برای خانم‌ها و آقایان است که در سال 2026 عرضه شد. این عطر با رایحه‌های ترنج، آلدئیدها و گلابی آغاز می‌شود، سپس رایحه میانی گل‌دار شامل شکوفه پرتقال، گل برف و گل رز نمایان می‌شود و در نهایت رایحه پایه شامل مشک، چوب سدر، عنبر، دانه‌های تونکا و خزه حس می‌شود.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/Football-Season-122534.html",
+    "extractedAt": "2026-11-27T22:46:55.338Z",
+    "name": "Football Season",
+    "brand": "Bath & Body Works",
+    "family": "Aromatic",
+    "gender": "men. This is a new fragrance. <b>Football Season</b> was launched in 2025. The fragrance features Cedarwood, Eucalyptus and Blue Sage",
+    "year": 2025,
+    "description": "Football Season is a fresh and comforting fragrance featuring a blend of eucalyptus, blue sage, and cedarwood. The composition creates a crisp, aromatic scent with herbaceous and woody qualities.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122534.jpg",
+    "rating": 4,
+    "ratingVotes": 37,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 54
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 30
+      },
+      {
+        "nameEn": "camphor",
+        "nameFa": "camphor",
+        "percent": 30
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 13
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 122534,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Football Season",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "Football Season",
+    "familyFa": "معطر",
+    "genderFa": "men. This is a new fragrance. <b>Football Season</b> was launched in 2025. The fragrance features Cedarwood, Eucalyptus and Blue Sage",
+    "descriptionFa": "Football Season یک رایحه تازه و آرامش‌بخش است که ترکیبی از اکالیپتوس، مریم‌گلی آبی و چوب سدر را در خود دارد. این ترکیب، رایحه‌ای طراوت‌بخش و معطر با ویژگی‌های گیاهی و چوبی ایجاد می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Rish/Love-Nectar-130663.html",
+    "extractedAt": "2026-11-27T22:47:00.391Z",
+    "name": "Love Nectar",
+    "brand": "Jean Rish",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2016,
+    "perfumer": null,
+    "topNotes": [
+      "Black Currant"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Patchouli",
+      "Vanilla"
+    ],
+    "description": "Love Nectar by Jean Rish is a women's fragrance released in 2016. It opens with black currant, moves into a floral heart of orange blossom and jasmine, and settles into a warm base of vanilla, patchouli, and tonka bean.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.130663.jpg",
+    "rating": 3.2,
+    "ratingVotes": 5,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 45
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 130663,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Love Nectar",
+    "brandFa": "Jean Rish",
+    "nameFa": "Love Nectar",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "توت سیاه"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "پچولی",
+      "وانیل"
+    ],
+    "descriptionFa": "Love Nectar از Jean Rish یک عطر زنانه است که در سال 2016 عرضه شد. این عطر با رایحه انگور فرنگی سیاه آغاز می‌شود، سپس به رایحه میانی گل‌دار شکوفه پرتقال و یاس می‌رسد و در نهایت در رایحه پایه گرم وانیل، نعناع هندی و دانه‌ تونکا تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Regime-des-Fleurs/Oud-Dukhan-70979.html",
+    "extractedAt": "2026-11-27T22:47:05.795Z",
+    "name": "Oud Dukhan",
+    "brand": "Régime des Fleurs",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Oud Dukhan</b> was launched in 2021. The nose behind this fragrance is Dominique Ropion. The fragrance features Olibanum, Cardamom, Black Pepper, Agarwood (Oud), White Musk and Ambergris",
+    "year": 2021,
+    "perfumer": "Dominique Ropion",
+    "description": "Previously known as Al-Dukhun. From Régime des Fleurs and Christopher Niquet, a perfume by Dominique Ropion.</p> <p><em>\"Burning Oud on a slab of grey marble inside a North African Riad.\"</em></p> <p>With Olibanum Resin, Cardamom, Orientalgris, Oud, Black Pepper, White Musk.</p> <p>Photographed by Kira Bunse.</p> <p>Available as a 75 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70979.jpg",
+    "rating": 3.78,
+    "ratingVotes": 152,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 96
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 81
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 70979,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Dukhan",
+    "brandFa": "Régime des Fleurs",
+    "nameFa": "Oud Dukhan",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Oud Dukhan</b> was launched in 2021. The nose behind this fragrance is Dominique Ropion. The fragrance features Olibanum, Cardamom, Black Pepper, Agarwood (Oud), White Musk and Ambergris",
+    "perfumerFa": "Dominique Ropion",
+    "descriptionFa": "قبلاً با نام Al-Dukhun شناخته می‌شد. از Régime des Fleurs و کریستوفر نیکت، عطری از دومینیک روپیون.</p> <p><em>«سوزاندن عود روی تخته‌ای از سنگ مرمر خاکستری در داخل یک ریاد شمال آفریقا.»</em></p> <p>با رایحه صمغ کندر، هل، عنبر سائل شرقی، عود، فلفل سیاه، مشک سفید.</p> <p>عکاس: کیرا بونس.</p> <p>به صورت ادو پرفیوم ۷۵ میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Scents-of-Wood/Plum-in-Cognac-69978.html",
+    "extractedAt": "2026-11-27T22:47:10.313Z",
+    "name": "Plum in Cognac",
+    "brand": "Scents of Wood",
+    "family": "Woody Spicy",
+    "gender": "women and men. <b>Plum in Cognac</b> was launched in 2020. The nose behind this fragrance is Pascal Gaurin. The fragrance features Plum, Rum, Cinnamon, Vanilla, Peru Balsam, Labdanum, Haitian Vetiver, Immortelle and Osmanthus",
+    "year": 2020,
+    "perfumer": "Pa",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69978.jpg",
+    "rating": 4.26,
+    "ratingVotes": 954,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 84
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 82
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 68
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 60
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 58
+      }
+    ],
+    "fragranticaId": 69978,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Plum in Cognac",
+    "brandFa": "Scents of Wood",
+    "nameFa": "Plum in Cognac",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "women and men. <b>Plum in Cognac</b> was launched in 2020. The nose behind this fragrance is Pascal Gaurin. The fragrance features Plum, Rum, Cinnamon, Vanilla, Peru Balsam, Labdanum, Haitian Vetiver, Immortelle and Osmanthus",
+    "perfumerFa": "Pa",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Jungle-Vibe-123211.html",
+    "extractedAt": "2026-11-27T22:47:15.123Z",
+    "name": "Jungle Vibe",
+    "brand": "Rayhaan",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Fig",
+      "Grapefruit",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Green Notes",
+      "Aquatic notes"
+    ],
+    "baseNotes": [
+      "Sandalwood"
+    ],
+    "description": "Jungle Vibe is a fresh, nature-inspired fragrance that opens with a bright burst of citrus and greenery. The composition leads with bergamot and grapefruit in the top notes, followed by fig and additional green accords. The fragrance features a creamy sandalwood base combined with aquatic and tropical elements, creating a balanced profile suitable for everyday wear.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123211.jpg",
+    "rating": 4.23,
+    "ratingVotes": 1134,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 93
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 80
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 123211,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jungle Vibe",
+    "brandFa": "Rayhaan",
+    "nameFa": "Jungle Vibe",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "انجیر",
+      "گریپ‌فروت",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "نت‌های سبز",
+      "Aquatic notes"
+    ],
+    "baseNotesFa": [
+      "چوب صندل"
+    ],
+    "descriptionFa": "Jungle Vibe یک عطر تازه و الهام‌گرفته از طبیعت است که با انفجاری درخشان از مرکبات و رایحه‌های سبز آغاز می‌شود. این ترکیب با رایحه اولیه ترنج و گریپ‌فروت آغاز می‌شود و سپس رایحه انجیر و سایر نت‌های سبز به مشام می‌رسد. این عطر دارای رایحه پایه چوب صندل خامه ای همراه با عناصر دریایی و گرمسیری است که ترکیبی متعادل و مناسب برای استفاده روزمره ایجاد می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
