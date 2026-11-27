@@ -134369,5 +134369,2159 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Mineral-Saffron-148883.html",
+    "extractedAt": "2026-11-27T08:29:30.268Z",
+    "name": "Mineral Saffron",
+    "brand": "Zara",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Saffron",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Lavender"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148883.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 91
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 68
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 64
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148883,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mineral Saffron",
+    "brandFa": "Zara",
+    "nameFa": "Mineral Saffron",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زعفران",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sora-Dora/Gold-148882.html",
+    "extractedAt": "2026-11-27T08:29:34.754Z",
+    "name": "Gold",
+    "brand": "Sora Dora",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2027,
+    "perfumer": null,
+    "topNotes": [
+      "Cinnamon",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Rum",
+      "Plum",
+      "Peru Balsam"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Cedarwood",
+      "Benzoin",
+      "White Musk"
+    ],
+    "description": "Gold by Sora Dora is a fragrance announced for February 2027. It opens with cinnamon and nutmeg, followed by a heart of rum, plum and Peru balsam, over a base of vanilla, cedarwood, benzoin and white musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148882.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 94
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 83
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 148882,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gold",
+    "brandFa": "Sora Dora",
+    "nameFa": "Gold",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "دارچین",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "رام",
+      "آلو",
+      "بلسام پرو"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چوب سرو",
+      "بنزوئین",
+      "موش سفید"
+    ],
+    "descriptionFa": "Gold از برند Sora Dora عطری است که قرار است در فوریه ۲۰۲۷ عرضه شود. این عطر با رایحه دارچین و جوز هندی آغاز می‌شود، سپس رایحه اصلی آن شامل عطر رام، آلو و بلسان پرو است که بر پایه رایحه وانیل، چوب سدر، بنزوئین و مشک سفید قرار دارد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Vanilla-Ember-148881.html",
+    "extractedAt": "2026-11-27T08:29:40.040Z",
+    "name": "Vanilla Ember",
+    "brand": "Zara",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Black Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tobacco Leaf"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Black Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148881.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 67
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 47
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 40
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148881,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Ember",
+    "brandFa": "Zara",
+    "nameFa": "Vanilla Ember",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل سیاه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "برگ تنباکو"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا سیاه"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versatile-Paris/It-s-a-Match-a-Extrait-de-Parfum-148880.html",
+    "extractedAt": "2026-11-27T08:29:44.561Z",
+    "name": "It's a Match-a Extrait de Parfum",
+    "brand": "Versatile Paris",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>It's a Match-a Extrait de Parfum</b> was launched in 2026. The nose behind this fragrance is Amélie Bourgeois. The fragrance features Matcha Tea, Creamy notes, Green Notes, Blueberry, Vanilla, Pancake, Sweet Notes and Pistachio",
+    "year": 2026,
+    "perfumer": "Amélie Bourgeois",
+    "description": "It's a Match-a by Versatile Paris is a unisex extrait de parfum created by Amélie Bourgeois. It centers on creamy pistachio matcha, warm vanilla pancakes and blueberry, with green and sweet nuances.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148880.jpg",
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 95
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 52
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 25
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 148880,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait de Parfum",
+    "baseName": "It's a Match-a",
+    "brandFa": "Versatile Paris",
+    "nameFa": "It's a Match-a Extrait de Parfum",
+    "concentrationFa": "اکستره پرفیوم",
+    "genderFa": "women and men. This is a new fragrance. <b>It's a Match-a Extrait de Parfum</b> was launched in 2026. The nose behind this fragrance is Amélie Bourgeois. The fragrance features Matcha Tea, Creamy notes, Green Notes, Blueberry, Vanilla, Pancake, Sweet Notes and Pistachio",
+    "perfumerFa": "Amélie Bourgeois",
+    "descriptionFa": "It's a Match-a از برند Versatile Paris یک عصاره عطر یونیسکس است که توسط آملی بورژوا ساخته شده است. این عطر بر پایه رایحه ماچای پسته خامه‎‌ای، پنکیک وانیلی گرم و بلوبری، با ظرافت‌های سبز و شیرین ساخته شده است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AVANTE/Eclat-Prive-148879.html",
+    "extractedAt": "2026-11-27T08:29:50.540Z",
+    "name": "Éclat Privé",
+    "brand": "AVANTÉ",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Violet Leaf",
+      "Coriander"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Patchouli",
+      "Vanilla"
+    ],
+    "description": "Éclat Privé by AVANTÉ is a woody-spicy fragrance for women and men. Bergamot and black pepper open the composition, followed by violet leaf and coriander over a base of patchouli, vanilla and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148879.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 63
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 40
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148879,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Éclat Privé",
+    "brandFa": "AVANTÉ",
+    "nameFa": "Éclat Privé",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "برگ بنفشه",
+      "گشنیز"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "پچولی",
+      "وانیل"
+    ],
+    "descriptionFa": "Éclat Privé از برند AVANTÉ یک عطر چوبی-تند برای خانم‌ها و آقایان است. ترکیب رایحه با ترنج و فلفل سیاه آغاز می‌شود، سپس برگ بنفشه و گشنیز بر روی پایه‌ای از نعناع هندی، وانیل و عنبر قرار می‌گیرند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AVANTE/Rose-Nocturne-148878.html",
+    "extractedAt": "2026-11-27T08:29:56.432Z",
+    "name": "Rose Nocturne",
+    "brand": "AVANTÉ",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Coffee"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "White Flowers"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Rose Nocturne by AVANTÉ is a sweet fragrance for women contrasting rich coffee with delicate white flowers. Jasmine forms the floral heart, while vanilla and woody notes provide a warm finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148878.jpg",
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 50
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 30
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 15
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 12
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 148878,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rose Nocturne",
+    "brandFa": "AVANTÉ",
+    "nameFa": "Rose Nocturne",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "قهوه"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گل‌های سفید"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Rose Nocturne از برند AVANTÉ یک عطر شیرین زنانه است که تضاد بین رایحه غنی قهوه و گلهای سفید ظریف را به نمایش می‌گذارد. یاس رایحه اصلی گل‌دار را تشکیل می‌دهد، در حالی که رایحه‌های وانیل و چوبی پایانی گرم به عطر می‌بخشند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AVANTE/L-Homme-Royal-148877.html",
+    "extractedAt": "2026-11-27T08:30:02.304Z",
+    "name": "L'Homme Royal",
+    "brand": "AVANTÉ",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Cardamom",
+      "Bergamot",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Vetiver",
+      "Tonka Bean"
+    ],
+    "description": "Homme Royal by AVANTÉ is a woody spicy fragrance for men. It opens with cardamom, bergamot and black pepper, followed by geranium over a base of cedarwood, vetiver and tonka bean.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148877.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 89
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 21
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 148877,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Homme Royal",
+    "brandFa": "AVANTÉ",
+    "nameFa": "L'Homme Royal",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "هل",
+      "برگاموت",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "وتیور",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Homme Royal از برند AVANTÉ یک عطر چوبی تند برای آقایان است. این عطر با رایحه هل، ترنج و فلفل سیاه آغاز می‌شود و سپس رایحه شمعدانی بر پایه رایحه چوب سدر، خس‌خس و دانه‌ تونکا ادامه می‌یابد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AVANTE/Noir-Eternel-148876.html",
+    "extractedAt": "2026-11-27T08:30:07.456Z",
+    "name": "Noir Éternel",
+    "brand": "AVANTÉ",
+    "family": "Citrus Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Citruses"
+    ],
+    "middleNotes": [
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "Noir Éternel by AVANTÉ is a fragrance for men, launched in 2026. Bergamot and citruses open the composition, followed by orange blossom over a base of patchouli and woody notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148876.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 68
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 40
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 148876,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Noir Éternel",
+    "brandFa": "AVANTÉ",
+    "nameFa": "Noir Éternel",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "برگاموت",
+      "مرکبات"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Noir Éternel از برند AVANTÉ یک عطر مردانه است که در سال 2026 عرضه شد. ترکیب رایحه با نت‌های اولیه ترنج و مرکبات آغاز می‌شود و سپس نت‌های میانی شکوفه پرتقال بر روی نت‌های پایه‌ای نعناع هندی و رایحه‌های چوبی قرار می‌گیرند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Hunter-Intense-50327.html",
+    "extractedAt": "2026-11-27T08:30:13.052Z",
+    "name": "Hunter Intense",
+    "brand": "Armaf",
+    "family": "Woody Aromatic",
+    "gender": "men. Top notes are Bergamot, Pomelo, Mandarin Orange and Lemon; middle notes are Lavender, Geranium, Ylang Ylang and Tuberose; base notes are Black Pepper and Cardamom",
+    "topNotes": [
+      "Bergamot",
+      "Pomelo",
+      "Mandarin Orange",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Geranium",
+      "Ylang Ylang",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Black Pepper",
+      "Cardamom"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50327.jpg",
+    "rating": 4.25,
+    "ratingVotes": 1248,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 91
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 31
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 18
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 17
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 50327,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Hunter",
+    "brandFa": "Armaf",
+    "nameFa": "Hunter Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "چوبی معطر",
+    "genderFa": "men. Top notes are Bergamot, Pomelo, Mandarin Orange and Lemon; middle notes are Lavender, Geranium, Ylang Ylang and Tuberose; base notes are Black Pepper and Cardamom",
+    "topNotesFa": [
+      "برگاموت",
+      "پوملو",
+      "نارنگی",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "گل جعفری",
+      "Ylang Ylang",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "فلفل سیاه",
+      "هل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Fragrance-One/Office-For-Men-55166.html",
+    "extractedAt": "2026-11-27T08:30:17.455Z",
+    "name": "Office For Men",
+    "brand": "Fragrance One",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Ambroxan",
+      "Bergamot",
+      "Orris Root"
+    ],
+    "middleNotes": [
+      "Woody Notes",
+      "Floral Notes",
+      "Ambergris",
+      "Amber",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Woody Notes",
+      "Musk",
+      "Patchouli",
+      "Cashalox"
+    ],
+    "description": "Office For Men is the first fragrance by the youtube reviewer Jeremy Fragrance. The fragrance is created by Alberto Morillias. It is light spicy woody fougere, featuring modern synthetic molecule with a woody, ambery and spicy profile as well as natural ingredients.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55166.jpg",
+    "rating": 3.54,
+    "ratingVotes": 3234,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 66
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 25
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 55166,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Office For Men",
+    "brandFa": "Fragrance One",
+    "nameFa": "Office For Men",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "آمبروکسان",
+      "برگاموت",
+      "ریشه زنبق"
+    ],
+    "middleNotesFa": [
+      "Woody Notes",
+      "Floral Notes",
+      "کهربا خاکستری",
+      "کهربا",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Woody Notes",
+      "موش",
+      "پچولی",
+      "Cashalox"
+    ],
+    "descriptionFa": "Office For Men اولین عطر از جرمی فرگرنس، منتقد یوتیوب است. این عطر توسط آلبرتو موریلیاس ساخته شده است. این عطر یک فوژر چوبی ملایم و تند است که حاوی مولکول مصنوعی مدرن با رایحه چوبی، عنبری و تند و همچنین مواد طبیعی است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/His-Confession-96866.html",
+    "extractedAt": "2026-11-27T08:30:22.733Z",
+    "name": "His Confession",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cinnamon",
+      "Lavender",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Benzoin",
+      "Cypress",
+      "Mahonial"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka",
+      "Amber",
+      "Incense",
+      "Cedarwood",
+      "Patchouli"
+    ],
+    "description": "Lattafa His Confession Eau De Parfum Spray for Men is a bold and captivating fragrance that embodies modern masculinity. It opens with a refreshing and spicy blend of mandarin, cinnamon, and lavender, creating an invigorating introduction that immediately commands attention. As the fragrance develops, it reveals a rich heart of iris, cypress, and benzoin, adding depth and sophistication. The composition is grounded by a warm and sensual base of vanilla, tonka beans, patchouli, cedarwood, incense, and amber, leaving a lasting and memorable impression. His Confession combines freshness with warmth, making it versatile for any occasion, whether day or night. This fragrance is the perfect choice for men who seek to exude confidence, elegance, and a touch of mystery, ensuring they make a statement wherever they go.<br /> <br /> Top Notes: Mandarin, Cinnamon and Lavender<br /> <br /> Middle Notes: Iris, Cypress, Benzoin and Mahonial<br /> <br /> Base Notes: Vanilla, Tonka Beans, Patchouli, Cedarwood, Incense and Amber",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96866.jpg",
+    "rating": 4.29,
+    "ratingVotes": 3128,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 96
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 62
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 35
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 96866,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "His Confession",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "His Confession",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "دارچین",
+      "اسطوخودوس",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "بنزوئین",
+      "سرو کوهی",
+      "Mahonial"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Tonka",
+      "کهربا",
+      "عود بخور",
+      "چوب سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "ادوتویلت اسپری Lattafa His Confession برای آقایان، عطری جسورانه و جذاب است که تجسم مردانگی مدرن است. این عطر با ترکیبی طراوت‌بخش و تند از نارنگی، دارچین و اسطوخودوس آغاز می‌شود و مقدمه‌ای نشاط‌بخش ایجاد می‌کند که بلافاصله توجه را به خود جلب می‌کند. با پخش شدن رایحه، نت‌های میانی غنی از زنبق، سرو و بنزوئین آشکار می‌شوند که عمق و پیچیدگی به عطر می‌بخشند. این ترکیب با یک رایحه پایه گرم و شهوانی از وانیل، چوب صندل و مشک تثبیت می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bujairami/Silent-Halo-124706.html",
+    "extractedAt": "2026-11-27T08:30:28.523Z",
+    "name": "Silent Halo",
+    "brand": "Bujairami",
+    "family": null,
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Adam Bujairami",
+    "topNotes": [
+      "Bergamot",
+      "Citron",
+      "Juniper"
+    ],
+    "middleNotes": [
+      "Nutmeg",
+      "Lavender",
+      "Geranium",
+      "Cypress"
+    ],
+    "baseNotes": [
+      "AMBROX® SUPER",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124706.jpg",
+    "rating": 4.32,
+    "ratingVotes": 44,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 64
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 22
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 18
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 15
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 124706,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Silent Halo",
+    "brandFa": "Bujairami",
+    "nameFa": "Silent Halo",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Adam Bujairami",
+    "topNotesFa": [
+      "برگاموت",
+      "Citron",
+      "عرعر"
+    ],
+    "middleNotesFa": [
+      "جوز هندی",
+      "اسطوخودوس",
+      "گل جعفری",
+      "سرو کوهی"
+    ],
+    "baseNotesFa": [
+      "AMBROX® SUPER",
+      "چوب صندل",
+      "پچولی"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Al-Majed-Oud/Serious-133158.html",
+    "extractedAt": "2026-11-27T08:30:32.287Z",
+    "name": "Serious",
+    "brand": "Al Majed Oud",
+    "family": "Woody Aromatic",
+    "gender": "women and men. The nose behind this fragrance is Quentin Bisch. Top note is Petitgrain; middle note is Tea; base note is Akigalawood",
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Tea"
+    ],
+    "baseNotes": [
+      "Akigalawood"
+    ],
+    "description": "Serious by Al Majed Oud is a fragrance created by Quentin Bisch. The composition is built around a concise structure of petitgrain, tea, and akigalawood, opening with a fresh green-citrus nuance, moving into an aromatic tea heart, and drying down to a woody base with subtly spicy facets.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133158.jpg",
+    "rating": 4.43,
+    "ratingVotes": 236,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 77
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 37
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 32
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 25
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 133158,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Serious",
+    "brandFa": "Al Majed Oud",
+    "nameFa": "Serious",
+    "familyFa": "چوبی معطر",
+    "genderFa": "women and men. The nose behind this fragrance is Quentin Bisch. Top note is Petitgrain; middle note is Tea; base note is Akigalawood",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "چای"
+    ],
+    "baseNotesFa": [
+      "Akigalawood"
+    ],
+    "descriptionFa": "Serious از برند Al Majed Oud عطری است که توسط کوئنتین بیش ساخته شده است. این ترکیب بر اساس ساختار فشرده‌ای از پتی‌گرن، چای و چوب آکیگالا ساخته شده است که با رایحه‌ای تازه از مرکبات سبز آغاز می‌شود، به قلب معطر چای می‌رسد و در نهایت به رایحه‌ای چوبی با جنبه‌های ظریف تند ختم می‌شود.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Montale/Ristretto-Intense-Cafe-55001.html",
+    "extractedAt": "2026-11-27T08:30:38.927Z",
+    "name": "Ristretto Intense Café",
+    "brand": "Montale",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": null,
+    "topNotes": [
+      "Coffee",
+      "Turkey Red Rose"
+    ],
+    "middleNotes": [
+      "Roasted Coffee Beans",
+      "French Rose",
+      "Woodsy Notes"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Caramel",
+      "White Musk",
+      "Amber"
+    ],
+    "description": "\"Intense Café Ristretto opens with a perfect waft of fresh brewing coffee that will take your breath away. The flourish of the coffee bean is paired with a fresh, vegetal rose. The two combine for an unexpectedly dry and refreshing top note.<br /> As the coffee softens, a vanillic white musk emerges, slightly sweetening the brew with just a hint of cream and sugar. This addictive and surprising gourmand is suitable for both men and women and is the perfect fix for the coffee addict in all of us.\" - Montale</p> <p>Top notes: Italian black coffee, Turkish rose water<br /> Heart notes: French rose buds, roasted coffee beans, woodsy notes<br /> Base notes: vanilla pods, white musk, caramel, amber</p> <p>The fragrance is available as a 50ml and 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55001.jpg",
+    "rating": 4.1,
+    "ratingVotes": 2697,
+    "accords": [
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 93
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 62
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 60
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 55001,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Ristretto Café",
+    "brandFa": "مونتال",
+    "nameFa": "Ristretto Intense Café",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "قهوه",
+      "Turkey Red Rose"
+    ],
+    "middleNotesFa": [
+      "Roasted Coffee Beans",
+      "French Rose",
+      "Woodsy Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کارامل",
+      "موش سفید",
+      "کهربا"
+    ],
+    "descriptionFa": "«Intense Café Ristretto با بویی عالی از قهوه تازه دم‌شده آغاز می‌شود که نفس شما را بند می‌آورد. رایحه شکوفایی دانه قهوه با رایحه گل رز تازه و گیاهی ترکیب می‌شود. این دو با هم ترکیب می‌شوند تا یک نت بالای غیرمنتظره، خشک و طراوت‌بخش ایجاد کنند.<br /> همانطور که رایحه قهوه ملایم می‌شود، مشک سفید وانیلی ظاهر می‌شود و با اندکی خامه و شکر، عطر را کمی شیرین می‌کند. این عطر خوشبو و اعتیادآور برای مردان و زنان مناسب است و",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mugler/Alien-707.html",
+    "extractedAt": "2026-11-27T08:30:44.218Z",
+    "name": "Alien",
+    "brand": "Mugler",
+    "family": "Oriental Woody",
+    "gender": "women",
+    "year": 2005,
+    "perfumer": "Dominique Ropion and Laurent Bruyere",
+    "topNotes": [
+      "Jasmine Sambac"
+    ],
+    "middleNotes": [
+      "Cashmeran"
+    ],
+    "baseNotes": [
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.707.jpg",
+    "rating": 3.99,
+    "ratingVotes": 36707,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 61
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 17
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 13
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 10
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 6
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 6
+      }
+    ],
+    "fragranticaId": 707,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alien",
+    "brandFa": "مولر",
+    "nameFa": "Alien",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Dominique Ropion and Laurent Bruyere",
+    "topNotesFa": [
+      "Jasmine Sambac"
+    ],
+    "middleNotesFa": [
+      "کشماران"
+    ],
+    "baseNotesFa": [
+      "کهربا"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/New-Notes/Felina-106629.html",
+    "extractedAt": "2026-11-27T08:30:48.834Z",
+    "name": "Felina",
+    "brand": "New Notes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Coffee",
+      "Chocolate",
+      "Caramel",
+      "Vanilla",
+      "Milk",
+      "Coconut",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Powdery Notes",
+      "Woody Notes",
+      "Tonka Bean",
+      "Tobacco",
+      "Olibanum",
+      "Juniper"
+    ],
+    "baseNotes": [
+      "Vanilla Bean",
+      "Vanilla",
+      "Musk",
+      "Sandalwood",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106629.jpg",
+    "rating": 3.58,
+    "ratingVotes": 289,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 88
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 80
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 70
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 64
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 106629,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Felina",
+    "brandFa": "New Notes",
+    "nameFa": "Felina",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "قهوه",
+      "شکلات",
+      "کارامل",
+      "وانیل",
+      "شیر",
+      "نارگیل",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "نت‌های پودری",
+      "Woody Notes",
+      "لوبیا تونکا",
+      "تنباکو",
+      "کندر",
+      "عرعر"
+    ],
+    "baseNotesFa": [
+      "Vanilla Bean",
+      "وانیل",
+      "موش",
+      "چوب صندل",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bujairami/Dead-Serious-137664.html",
+    "extractedAt": "2026-11-27T08:30:52.489Z",
+    "name": "Dead Serious",
+    "brand": "Bujairami",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Adam Bujairami",
+    "topNotes": [
+      "Sapodilla",
+      "Ambrette (Musk Mallow)"
+    ],
+    "middleNotes": [
+      "Magnolia",
+      "Violet",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137664.jpg",
+    "rating": 4.29,
+    "ratingVotes": 35,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 92
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 88
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 84
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 47
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 26
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 23
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 137664,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dead Serious",
+    "brandFa": "Bujairami",
+    "nameFa": "Dead Serious",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Adam Bujairami",
+    "topNotesFa": [
+      "Sapodilla",
+      "Ambrette (Musk Mallow)"
+    ],
+    "middleNotesFa": [
+      "ماگنولیا",
+      "بنفشه",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Natura/740-Sandalo-Breu-Branco-95779.html",
+    "extractedAt": "2026-11-27T08:30:56.283Z",
+    "name": "740 Sândalo Breu Branco",
+    "brand": "Natura",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Verônica Kato",
+    "topNotes": [
+      "Priprioca",
+      "Pink Pepper",
+      "Capitiú",
+      "Cardamom",
+      "Grapefruit",
+      "Bitter Orange"
+    ],
+    "middleNotes": [
+      "Fig",
+      "Violet",
+      "Lily of the Valley",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Breu-Branco",
+      "Musk",
+      "Amber",
+      "Cedar",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95779.jpg",
+    "rating": 4.49,
+    "ratingVotes": 120,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 63
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 47
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 39
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 95779,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "740 Sândalo Breu Branco",
+    "brandFa": "Natura",
+    "nameFa": "740 Sândalo Breu Branco",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Verônica Kato",
+    "topNotesFa": [
+      "Priprioca",
+      "فلفل صورتی",
+      "Capitiú",
+      "هل",
+      "گریپ‌فروت",
+      "پرتقال تلخ"
+    ],
+    "middleNotesFa": [
+      "انجیر",
+      "بنفشه",
+      "لاله سفید",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Breu-Branco",
+      "موش",
+      "کهربا",
+      "سرو",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Guerlain/Herbes-Troublantes-69275.html",
+    "extractedAt": "2026-11-27T08:30:59.894Z",
+    "name": "Herbes Troublantes",
+    "brand": "Guerlain",
+    "family": "Citrus Aromatic",
+    "gender": "women and men. <b>Herbes Troublantes</b> was launched in 2021. The nose behind this fragrance is Thierry Wasser. The fragrance features Herbal Notes, White Musk, Orange Blossom and Bergamot",
+    "year": 2021,
+    "perfumer": "Thierry Wasser",
+    "description": "Beneath its bucolic shell, this fresh-aromatic fragrance arouses powerful, vibrant emotions. The very spirit of Eau de Cologne is revisited here, draped in a musky, cottony veil - combined with the charm of sparkling Calabrian bergamot and refreshing herbs. Herbes Troublantes is the new name of \"Un Dimanche à la Campagne\".",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69275.jpg",
+    "rating": 4.33,
+    "ratingVotes": 1524,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 91
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 63
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 25
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 69275,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Herbes Troublantes",
+    "brandFa": "گرلن",
+    "nameFa": "Herbes Troublantes",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "women and men. <b>Herbes Troublantes</b> was launched in 2021. The nose behind this fragrance is Thierry Wasser. The fragrance features Herbal Notes, White Musk, Orange Blossom and Bergamot",
+    "perfumerFa": "Thierry Wasser",
+    "descriptionFa": "این عطر تازه و معطر، در زیر پوشش روستایی خود، احساسات قوی و پرنشاطی را برمی‌انگیزد. در اینجا روح واقعی ادکلن دوباره احیا شده است، در پرده‌ای مشک‌آلود و پنبه‌ای پیچیده شده - همراه با جذابیت ترنج درخشان کالابریایی و گیاهان معطر. Herbes Troublantes نام جدید «Un Dimanche à la Campagne» است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Henry-Rose/London-1983-122807.html",
+    "extractedAt": "2026-11-27T08:31:04.797Z",
+    "name": "London 1983",
+    "brand": "Henry Rose",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Patricia Choux",
+    "topNotes": [
+      "Fig",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Water Lily",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Blonde Woods",
+      "Orcanox™",
+      "Bourbon Vetiver"
+    ],
+    "description": "London 1983 by Henry Rose is a second-skin musk shaped by Michelle’s London memories amid the grit and glamour. It captures the mood of King’s Road, 1983: misfits, models, and the charge of possibility in the air.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122807.jpg",
+    "rating": 4.3,
+    "ratingVotes": 365,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 71
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 54
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 122807,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "London 1983",
+    "brandFa": "Henry Rose",
+    "nameFa": "London 1983",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Patricia Choux",
+    "topNotesFa": [
+      "انجیر",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "گل نیلوفر",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Blonde Woods",
+      "Orcanox™",
+      "Bourbon Vetiver"
+    ],
+    "descriptionFa": "London 1983 اثر هنری رز یک عطر مشک مانند پوست دوم است که بر اساس خاطرات میشل از لندن در میان سختی‌ها و زرق و برق شکل گرفته است. این عطر حال و هوای کینگ‌رود در سال 1983 را به تصویر می‌کشد: افراد نامتعارف، مدل‌ها و حس امکان‌پذیری که در فضا موج می‌زند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
