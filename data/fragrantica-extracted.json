@@ -152150,5 +152150,2225 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Vento-di-Curzola-148941.html",
+    "extractedAt": "2026-11-27T19:50:00.961Z",
+    "name": "Vento di Curzola",
+    "brand": "Ormesini 1271",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Simone Lo Bue",
+    "topNotes": [
+      "Grass",
+      "Mandarin Orange",
+      "Bergamot",
+      "Lemon Leaf"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Cardamom",
+      "Clary Sage",
+      "Incense"
+    ],
+    "baseNotes": [
+      "Meringue",
+      "Vetiver",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "\"Freshly cut grass on the hill of Curzola, the sea wind on your face, lavender and sage in the sun. And from afar, something sweet that already tells of home.</p> <p>Cut grass, mandarin, bergamot and lemon leaves open green and bright. Lavender, cardamom, clary sage and incense breathe at the heart, before meringue, vetiver, patchouli and musk leave a soft, sweet trail.</p> <p><em>Curzola is today's Korčula, in Croatia. Tradition has it that off its coast, in 1298, Marco Polo was taken prisoner by the Genoese; in that captivity he dictated the Milione.</em></p> <p>A fresh perfume of cut grass, citrus and lavender: Vento di Curzola is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148941.jpg",
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 59
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 34
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148941,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vento di Curzola",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Vento di Curzola",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Simone Lo Bue",
+    "topNotesFa": [
+      "علف",
+      "نارنگی",
+      "برگاموت",
+      "Lemon Leaf"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "هل",
+      "مریم‌گلی",
+      "عود بخور"
+    ],
+    "baseNotesFa": [
+      "Meringue",
+      "وتیور",
+      "پچولی",
+      "موش"
+    ],
+    "descriptionFa": "«علف تازه چیده شده روی تپه کورزولا، نسیم دریا روی صورتتان، اسطوخودوس و مریم‌گلی در آفتاب. و از دور، رایحه‌ای شیرین که از قبل یادآور خانه است.</p> <p>عطر علف تازه بریده‌شده، نارنگی، ترنج و برگ‌های لیمو، رایحه‌ای سبز و درخشان را ایجاد می‌کند. اسطوخودوس، هل، مریم‌گلی و بخور در قلب عطر نفس می‌کشند، قبل از اینکه مرنگ، وتیور، نعناع هندی و مشک اثری ملایم و شیرین از خود به‌جای بگذارند.</p> <p><em>کورزولا همان کورچولای امروزی در کرواسی است. طبق روایت رایج،",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Mirra-di-Cambalu-148940.html",
+    "extractedAt": "2026-11-27T19:50:07.694Z",
+    "name": "Mirra di Cambalù",
+    "brand": "Ormesini 1271",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Incense",
+      "Cardamom",
+      "Almond"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Lavender",
+      "Myrrh"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Labdanum",
+      "Amber",
+      "Musk"
+    ],
+    "description": "\"Morning in the imperial halls of Cambalù, myrrh melting into its smoke, fresh flowers on the thresholds. The silence before the Great Khan arrives.</p> <p>Incense, cardamom and almond open clear and airy. Iris, lavender and myrrh fill the heart, before patchouli, amber, labdanum and musk settle slow and solemn.</p> <p><em>Cambalù is today's Beijing, Khanbaliq, the capital of Kublai Khan, the end of the road in the Milione, the court that received Marco Polo.</em></p> <p>A myrrh and incense perfume, floral and resinous: Mirra di Cambalù is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148940.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 61
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 29
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 148940,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mirra di Cambalù",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Mirra di Cambalù",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "عود بخور",
+      "هل",
+      "بادام"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "اسطوخودوس",
+      "مور"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "لابدانوم",
+      "کهربا",
+      "موش"
+    ],
+    "descriptionFa": "«صبح در تالارهای امپراتوری کامبالو، مر که در دودش ذوب می‌شود، گلهای تازه روی آستانه‌ها. سکوت قبل از ورود خان بزرگ.</p> <p>رایحه بخور، هل و بادام به طور واضح و دلپذیر حس می‌شود. زنبق، اسطوخودوس و مر فضا را پر می‌کنند، قبل از اینکه رایحه نعناع هندی، عنبر، لادن و مشک به آرامی و با وقار بنشیند.</p> <p><em>کامبالو همان پکن امروزی است، خان‌بالیق، پایتخت قوبلای خان، مقصد نهایی در سفرنامه مارکو پولو، دربار که",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Sandalo-di-Khotan-148939.html",
+    "extractedAt": "2026-11-27T19:50:12.689Z",
+    "name": "Sandalo di Khotan",
+    "brand": "Ormesini 1271",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Sandalwood",
+      "Fig"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Milk"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "White Musk"
+    ],
+    "description": "\"The shade of a courtyard in the oasis of Khotan, freshly carved sandalwood, ripe figs split open in the sun. The peace of those who rest before the desert.</p> <p>Sandalwood and fig open creamy and smooth. Vanilla and milky notes round the heart, before sandalwood and white musk settle into quiet.</p> <p><em>Khotan is an oasis on the southern edge of the Taklamakan, in today's western China, a stop on the Silk Road Marco Polo crossed, renowned for its fine cloth and jade.</em></p> <p>A sandalwood and fig perfume, creamy and woody: Sandalo di Khotan is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148939.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 77
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 69
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 69
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 62
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 148939,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sandalo di Khotan",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Sandalo di Khotan",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "چوب صندل",
+      "انجیر"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "شیر"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش سفید"
+    ],
+    "descriptionFa": "«سایه حیاطی در واحه ختن، چوب صندل تازه تراشیده شده، انجیرهای رسیده که در آفتاب شکافته شده‌اند. آرامش کسانی که قبل از ورود به صحرا استراحت می‌کنند.</p> <p>چوب صندل و انجیر با رایحه‌ای خامه مانند و ملایم آغاز می‌شوند. نت‌های وانیلی و شیری قلب عطر را تکمیل می‌کنند، قبل از اینکه چوب صندل و مشک سفید به آرامش برسند.</p> <p><em>خوتن واحه ای در لبه جنوبی صحرای تکلامکان، در غرب چین امروزی است، جایی که مارکو پولو در مسیر جاده ابریشم از آن عبور کرد، و به خاطر... معروف است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Oro-di-Samarcanda-148938.html",
+    "extractedAt": "2026-11-27T19:50:18.798Z",
+    "name": "Oro di Samarcanda",
+    "brand": "Ormesini 1271",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Cardamom",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Saffron",
+      "Cumin",
+      "Black Pepper"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tobacco",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "\"Evening at an inn in Samarcanda, a cedarwood fire burning. Cardamom and cinnamon in the cups, the warmth that wraps around you.</p> <p>Cardamom and cinnamon open warm and golden. Saffron, cumin and black pepper glow at the heart, before vanilla, tobacco, cedarwood and patchouli close it in.</p> <p><em>Samarcanda is Samarkand, in today's Uzbekistan. The Milione calls it a very great and noble city, a crossroads of the caravans of the Silk Road.</em></p> <p>A cardamom and saffron perfume, warm and spiced: Oro di Samarcanda is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148938.jpg",
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 37
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 28
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 28
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 28
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 148938,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oro di Samarcanda",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Oro di Samarcanda",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "هل",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "زعفران",
+      "زیره",
+      "فلفل سیاه"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "تنباکو",
+      "سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "«غروب در مهمانخانه‌ای در سمرقند، آتش چوب سرو می‌سوزد. هل و دارچین در فنجان‌ها، گرمایی که شما را در بر می‌گیرد.</p> <p>هل و دارچین با رایحه‌ای گرم و طلایی باز می‌شوند. زعفران، زیره و فلفل سیاه در نت میانی می‌درخشند، قبل از اینکه وانیل، تنباکو، چوب سدر و نعناع هندی آن را تکمیل کنند.</p> <p><em>سمرقند همان سمرقند در ازبکستان امروزی است. در کتاب «میلیونه» از آن به‌عنوان شهری بسیار بزرگ و باشکوه و محل تلاقی کاروان‌های جاده ابریشم یاد شده است.&lt;/",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Spezie-di-Giava-148937.html",
+    "extractedAt": "2026-11-27T19:50:26.077Z",
+    "name": "Spezie di Giava",
+    "brand": "Ormesini 1271",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Incense",
+      "Bergamot",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Licorice",
+      "Labdanum"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Tonka Bean",
+      "Patchouli",
+      "Myrrh",
+      "Oud"
+    ],
+    "description": "\"The markets of Giava, freshly cut ginger, incense smoke drifting over sacks of licorice. The pleasure of lingering until the wind decides the way home.</p> <p>Incense, bergamot and ginger open bright and spiced. Damask rose, licorice and labdanum warm the heart, before sandalwood, tonka bean, patchouli, myrrh and oud settle deep.</p> <p><em>Giava is Java. The Milione calls it the greatest island in the world, rich in pepper, nutmeg, cloves and every precious spice.</em></p> <p>A ginger and incense perfume, spiced and oriental: Spezie di Giava is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148937.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 58
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 45
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 36
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148937,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spezie di Giava",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Spezie di Giava",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "عود بخور",
+      "برگاموت",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "شیرین‌بیان",
+      "لابدانوم"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "لوبیا تونکا",
+      "پچولی",
+      "مور",
+      "عود"
+    ],
+    "descriptionFa": "«بازارهای جاوا، زنجبیل تازه بریده‌شده، دود بخور که بر روی کیسه‌های شیرین‌بیان شناور است. لذت معطل ماندن تا زمانی که باد مسیر بازگشت به خانه را تعیین کند.</p> <p>عود، ترنج و زنجبیل با رایحه‌ای درخشان و تند آغاز می‌شوند. گل رز دمشقی، شیرین‌بیان و لادن قلب را گرم می‌کنند، سپس رایحه چوب صندل، دانه‌ی تونکا، نعناع هندی، مر و عود عمیقاً جا می‌افتند.</p> <p><em>جاوا همان جاوه است. کتاب «میلیونه» از آن به‌عنوان بزرگترین جزیره جهان یاد می‌کند که سرشار از فلفل، جوز هندی، میخک و",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Seta-di-Venezia-148936.html",
+    "extractedAt": "2026-11-27T19:50:32.321Z",
+    "name": "Seta di Venezia",
+    "brand": "Ormesini 1271",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Damask Rose"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Myrrh",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "White Musk"
+    ],
+    "description": "\"Mist over the lagoon, an Eastern rose resting on still water. Soft silk on the skin, the last caress of home.</p> <p>Damask rose opens soft and luminous. Iris, myrrh and sandalwood give the heart its powdery depth, before white musk settles like silk.</p> <p><em>Venice is where the journey begins and ends: the Polos set sail from the lagoon in 1271 and came home twenty-four years later.</em></p> <p>A rose and iris perfume, soft and powdery: Seta di Venezia is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148936.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 62
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 62
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 62
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 50
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 148936,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Seta di Venezia",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Seta di Venezia",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "گل رز دمشقی"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "مور",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "موش سفید"
+    ],
+    "descriptionFa": "«مه بر فراز تالاب، گل رز شرقی که بر روی آب آرام آرمیده است. ابریشم نرم روی پوست، آخرین نوازش خانه.</p> <p>گل رز دمشقی با رایحه‌ای ملایم و درخشان آغاز می‌شود. زنبق، مر و چوب صندل به نت میانی عطر عمق پودری‌اش را می‌بخشند، قبل از اینکه مشک سفید مانند ابریشم بنشیند.</p> <p><em>ونیز جایی است که سفر از آنجا آغاز می‌شود و به پایان می‌رسد: خانواده پولو در سال 1271 از تالاب حرکت کردند و بیست و چهار سال بعد به خانه بازگشتند.</em></p> <p>عطری با رایحه گل رز و زنبق، ملایم و پودری: Seta",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Incenso-di-Cambalu-148935.html",
+    "extractedAt": "2026-11-27T19:50:37.462Z",
+    "name": "Incenso di Cambalù",
+    "brand": "Ormesini 1271",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Juniper",
+      "Black Pepper",
+      "Incense"
+    ],
+    "middleNotes": [
+      "Cedar",
+      "Birch",
+      "Wormwood"
+    ],
+    "baseNotes": [
+      "Labdanum",
+      "Amber",
+      "Balsam Fir"
+    ],
+    "description": "\"A night at the gates of the palace of Cambalù. The moon high over the cedars, incense smoke rising slow through the silence of the gardens.</p> <p>Juniper, black pepper and incense open cold and resinous. Cedarwood, birch and wormwood deepen into the dark, before fir balsam, labdanum and amber settle in — slow and hypnotic.</p> <p><em>Cambalù is today's Beijing — Khanbaliq, the capital of Kublai Khan, the end of the road in the Milione, the court that received Marco Polo.</em></p> <p>An incense and amber perfume, woody and oriental: Incenso di Cambalù is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148935.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 91
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 75
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 50
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 31
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 31
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 148935,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Incenso di Cambalù",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Incenso di Cambalù",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "عرعر",
+      "فلفل سیاه",
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "سرو",
+      "توس",
+      "افسنتین"
+    ],
+    "baseNotesFa": [
+      "لابدانوم",
+      "کهربا",
+      "نراد بلسام"
+    ],
+    "descriptionFa": "«شبی در دروازه‌های کاخ کامبالو. ماه در بالای درختان سرو قرار دارد و دود بخور به‌آرامی در سکوت باغ‌ها بالا می‌رود.</p> <p>عرعر، فلفل سیاه و بخور با رایحه‌ای سرد و صمغی آغاز می‌شوند. چوب سدر، درخت توس و افسنتین در تاریکی عمیق‌تر می‌شوند، قبل از اینکه صمغ درخت صنوبر، لادن و عنبر - به آرامی و مسحورکننده - جای خود را پیدا کنند.</p> <p><em>کامبالو همان پکن امروزی است — خانبالیق، پایتخت کوبلای خان، انتهای جاده در میلیونه، دربار",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ormesini-1271/Orchidea-di-Cipangu-148934.html",
+    "extractedAt": "2026-11-27T19:50:42.393Z",
+    "name": "Orchidea di Cipangù",
+    "brand": "Ormesini 1271",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Moellhausen",
+    "topNotes": [
+      "Raspberry",
+      "Red Fruits"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Spun Sugar"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Amber",
+      "White Musk"
+    ],
+    "description": "\"Dawn in a garden of Cipangù. The stillness, the orchids still wet with dew, the light switching on the colours one at a time.</p> <p>Raspberry and red fruits burst open, sweet and bright. Caramelised sugar and jasmine bloom at the heart, before benzoin, amber and white musk settle close to the skin.</p> <p><em>Cipangù is Japan — the island of gold Marco Polo never reached, described in the Milione only from the tales of others, the East's farthest dream.</em></p> <p>A jasmine and raspberry perfume, fruity and floral: Orchidea di Cipangù is a 100 ml eau de parfum made in Italy, also available as a 5 ml travel size.\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148934.jpg",
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 97
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 90
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 50
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 148934,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Orchidea di Cipangù",
+    "brandFa": "Ormesini 1271",
+    "nameFa": "Orchidea di Cipangù",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Moellhausen",
+    "topNotesFa": [
+      "تمشک",
+      "Red Fruits"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Spun Sugar"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "کهربا",
+      "موش سفید"
+    ],
+    "descriptionFa": "«سپیده‌دم در باغی در چیپانگ‌گو. سکوت، ارکیده‌هایی که هنوز از شبنم خیس هستند، نوری که رنگ‌ها را یکی‌یکی روشن می‌کند.</p> <p>تمشک و میوه‌های قرمز، شیرین و درخشان، شکوفا می‌شوند. شکر کاراملی‌شده و شکوفه‌های یاس در نت میانی شکوفا می‌شوند، قبل از اینکه بنزوئین، عنبر و مشک سفید در نزدیکی پوست جا خوش کنند.</p> <p><em>Cipangù همان ژاپن است — جزیره‌ای طلایی که مارکو پولو هرگز به آن نرسید و در کتاب «میلیونه» تنها بر اساس روایت‌های دیگران توصیف شده است، دورترین نقطه شرق.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Viktor-Rolf/Spicebomb-Extreme-30499.html",
+    "extractedAt": "2026-11-27T19:50:46.925Z",
+    "name": "Spicebomb Extreme",
+    "brand": "Viktor&Rolf",
+    "family": "Oriental Spicy",
+    "gender": "men. <b>Spicebomb Extreme</b> was launched in 2015. Spicebomb Extreme was created by Carlos Benaïm and Jean-Christophe Hérault. The fragrance features Vanilla, Tobacco, Cinnamon, Cumin, Bourbon Whiskey and Saffron",
+    "year": 2015,
+    "perfumer": "Carlos Benaïm and Jean-Christophe Hérault",
+    "description": "The popular men’s fragrance by the house of Viktor & Rolf Spicebomb has received a more intense successor - SPICEBOMB EXTREME. The fragrance comes in a flacon shaped like hand grenade with a copper ring.</p> <p>It has explosive composition, which highlights aromatic lavender in unique way thanks to hot and tart spices. Lavender is mixed with caraway and black pepper, leaving a trail of hotness above masculine shades of tobacco and subtle, comfortable vanilla.</p> <p>Fragrance SPICEBOMB EXTREME arrives on the market in 2015 as 50 and 90ml Eau d Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.30499.jpg",
+    "rating": 4.48,
+    "ratingVotes": 17956,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 89
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 68
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 21
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 30499,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spicebomb Extreme",
+    "brandFa": "Viktor&Rolf",
+    "nameFa": "Spicebomb Extreme",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "men. <b>Spicebomb Extreme</b> was launched in 2015. Spicebomb Extreme was created by Carlos Benaïm and Jean-Christophe Hérault. The fragrance features Vanilla, Tobacco, Cinnamon, Cumin, Bourbon Whiskey and Saffron",
+    "perfumerFa": "Carlos Benaïm and Jean-Christophe Hérault",
+    "descriptionFa": "عطر محبوب مردانه Spicebomb از برند ویکتور و رالف، جانشینی قوی‌تر به نام SPICEBOMB EXTREME پیدا کرده است. این عطر در بطری‌ای به شکل نارنجک دستی با یک حلقه مسی عرضه می‌شود.</p> <p>این عطر دارای ترکیبی انفجاری است که به لطف ادویه‌های تند و ترش، رایحه اسطوخودوس معطر را به شیوه‌ای منحصر‌به‌فرد برجسته می‌کند. اسطوخودوس با زیره و فلفل سیاه ترکیب شده و ردبویی از تندی را بر روی رایحه‌های مردانه تنباکو و رایحه‌های ملایم و دلپذیر باقی می‌گذارد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Imrasasi-by-Rasasi/Hawas-Blanche-143464.html",
+    "extractedAt": "2026-11-27T19:50:53.392Z",
+    "name": "Hawas Blanche",
+    "brand": "Imrasasi by Rasasi",
+    "family": "Woody Chypre",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Mandarin Orange",
+      "Black Currant",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Basil",
+      "Wormwood",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Dry Wood",
+      "Moss",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Hawas Blanche by I’m Rasasi is an oriental woody-chypre fragrance from Rasasi, scheduled for launch in 2026. It opens with black currant, mandarin orange, bergamot and apple, followed by wormwood, geranium, basil and patchouli over a base of sandalwood, moss, musk and dry wood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143464.jpg",
+    "rating": 4.28,
+    "ratingVotes": 25,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 84
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 70
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 48
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 39
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 33
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 143464,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Blanche",
+    "brandFa": "Imrasasi by Rasasi",
+    "nameFa": "Hawas Blanche",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "سیب",
+      "نارنگی",
+      "توت سیاه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "ریحان",
+      "افسنتین",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "چوب خشک",
+      "خزه",
+      "موش",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Hawas Blanche از I’m Rasasi یک عطر شرقی چوبی-شیپر از برند Rasasi است که قرار است در سال ۲۰۲۶ عرضه شود. این عطر با رایحه انگور فرنگی سیاه، نارنگی ماندارین، ترنج و سیب آغاز می‌شود، سپس رایحه های افسنطین، شمعدانی، ریحان و نعناع هندی بر پایه رایحه صندل، خزه، مشک و چوب خشک ظاهر می‌شوند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Brioni/Brioni-Eau-de-Parfum-Suave-97159.html",
+    "extractedAt": "2026-11-27T19:51:00.119Z",
+    "name": "Brioni Eau de Parfum Suave",
+    "brand": "Brioni",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "Jérôme Epinette, Romain Almairac and Michel Almairac",
+    "topNotes": [
+      "Pink Pepper",
+      "Cardamom",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Vetiver"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Eau de Parfum Suave by Brioni is a new fragrance for men, released in 2024. It is being marketed by Lalique Group / Art & Fragrance.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97159.jpg",
+    "rating": 3.52,
+    "ratingVotes": 163,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 94
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 80
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 77
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 77
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 97159,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Brioni Suave",
+    "brandFa": "Brioni",
+    "nameFa": "Brioni Eau de Parfum Suave",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Jérôme Epinette, Romain Almairac and Michel Almairac",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "هل",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "وتیور"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Eau de Parfum Suave از برند Brioni یک عطر جدید مردانه است که در سال 2024 عرضه شده است. این عطر توسط گروه Lalique / Art & Fragrance عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Juliette-Has-A-Gun/Powder-Love-113627.html",
+    "extractedAt": "2026-11-27T19:51:04.562Z",
+    "name": "Powder Love",
+    "brand": "Juliette Has A Gun",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Romano Ricci",
+    "topNotes": [
+      "Cotton Candy",
+      "Marshmallow"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Candied Almond"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Ambroxan",
+      "Tonka Bean"
+    ],
+    "description": "Powder Love by Juliette Has A Gun is a powdery gourmand fragrance for women, created by Romano Ricci. Released in 2025, this scent combines playful notes of cotton candy and marshmallow with a heart of orange blossom and sugared almond. The base features tonka bean, ambroxan, and musk, resulting in a soft, nostalgic composition that evokes the sensation of airy sweetness and powdery warmth.</p> <p>Powder Love is available in 100 ml, 50 ml, and 7.5 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113627.jpg",
+    "rating": 3.84,
+    "ratingVotes": 1647,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 25
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 21
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 113627,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Powder Love",
+    "brandFa": "Juliette Has A Gun",
+    "nameFa": "Powder Love",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Romano Ricci",
+    "topNotesFa": [
+      "پشمک",
+      "مارشمالو"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Candied Almond"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "آمبروکسان",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Powder Love از برند Juliette Has A Gun یک عطر گُرمند پودری برای خانم‌ها است که توسط رومانو ریچی ساخته شده است. این عطر که در سال 2025 عرضه شد، رایحه‌های بازیگوش پشمک و مارشمالو را با رایحه میانی شکوفه پرتقال و بادام شکری ترکیب می‌کند. رایحه پایه شامل دانه‌های تونکا، آمبروکسان و مشک است که ترکیبی ملایم و نوستالژیک ایجاد می‌کند و حس شیرینی سبک و گرمای پودری را تداعی می‌کند.</p> <p>Powder Love در حجم‌های 100 میلی‌لیتر، 50 میلی‌لیتر و 7 میلی‌لیتر عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nobile-1942/La-Danza-delle-Libellule-14845.html",
+    "extractedAt": "2026-11-27T19:51:11.353Z",
+    "name": "La Danza delle Libellule",
+    "brand": "Nobile 1942",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2012,
+    "perfumer": null,
+    "topNotes": [
+      "Green Apple",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Cacao"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "“A bit of luxury every now and then cannot hurt! Dukes, Counts, castels, lush gardens and magnificent dresses, jolly trips and idle pastimes, romantic encounters and love intrigues... Al these elements form the background to the melody of \"The Dance of the Dragonflies\" Operetta by Franz Lehar. A fragrance to devote to yourself, when femininity cries out, claiming some time for frivolousness, cuddles and the gentle insouciance that all women deserve. With this spirit, La danza delle libellule, brings all the lightness necessary to soothe even the most troubled hearts. Apple and cedar smooth vanilla in this composition which starts with Nobile 1942’s distinctive bergamot. A pinch of cinnamon, cocoa to make the ensemble truly gourmand. The unavoidable musk keeps the graceful tone of the fragrance” — press release of the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14845.jpg",
+    "rating": 4.1,
+    "ratingVotes": 4019,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 95
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 55
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 54
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 52
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 14845,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "La Danza delle Libellule",
+    "brandFa": "Nobile 1942",
+    "nameFa": "La Danza delle Libellule",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "سیب سبز",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "کاکائو"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "سرو"
+    ],
+    "descriptionFa": "«کمی تجمل هر چند وقت یک‌بار ضرری ندارد! دوک‌ها، کنت‌ها، قلعه‌ها، باغ‌های سرسبز و لباس‌های باشکوه، سفرهای شاد و سرگرمی‌های بی‌هدف، ملاقات‌های عاشقانه و دسیسه‌های عشقی... همه این عناصر زمینه را برای ملودی اپرت «رقص سنجاقک‌ها» اثر فرانتس لِهار فراهم می‌کنند. عطری برای اختصاص دادن به خودتان، زمانی که زنانگی فریاد می‌زند و خواستار زمانی برای بی‌خیالی، نوازش و بی‌فکری ملایمی است که همه زنان سزاوار آن هستند.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Street-Origins/Amsterdam-Red-118758.html",
+    "extractedAt": "2026-11-27T19:51:18.257Z",
+    "name": "Amsterdam Red",
+    "brand": "Street Origins",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Cherry",
+      "Pepper",
+      "Davana"
+    ],
+    "middleNotes": [
+      "Cognac",
+      "Jasmine",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Tobacco",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "description": "Amsterdam Red by Street Origins is a unisex scent built around dark sweetness, warm spice, and a boozy nuance. It opens with cherry, pepper, and davana, leads to a heart of cognac, jasmine, and cinnamon, and settles into a tobacco, vanilla, and tonka bean base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118758.jpg",
+    "rating": 4.56,
+    "ratingVotes": 9,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 70
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 63
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 42
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 35
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 118758,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Amsterdam Red",
+    "brandFa": "Street Origins",
+    "nameFa": "Amsterdam Red",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گیلاس",
+      "فلفل",
+      "Davana"
+    ],
+    "middleNotesFa": [
+      "کوناک",
+      "یاسمن",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "تنباکو",
+      "لوبیا تونکا",
+      "وانیل"
+    ],
+    "descriptionFa": "Amsterdam Red از برند Street Origins یک عطر یونیسکس است که بر پایه شیرینی تیره، ادویه گرم و رایحه‌ای الکلی ساخته شده است. این عطر با رایحه گیلاس، فلفل و داوانا آغاز می‌شود، به رایحه اصلی کنیاک، یاسمن و دارچین می‌رسد و در نهایت به رایحه پایه تنباکو، وانیل و دانه‌های تونکا می‌نشیند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Future-Society/Solar-Canopy-87783.html",
+    "extractedAt": "2026-11-27T19:51:24.962Z",
+    "name": "Solar Canopy",
+    "brand": "Future Society",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Jérôme Epinette",
+    "topNotes": [
+      "Bergamot",
+      "Pink Pepper",
+      "Red Currant"
+    ],
+    "middleNotes": [
+      "Litchi",
+      "Turkish Rose",
+      "Magnolia",
+      "Pistachio"
+    ],
+    "baseNotes": [
+      "Sugar",
+      "Ambroxan",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.87783.jpg",
+    "rating": 3.76,
+    "ratingVotes": 174,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 69
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 68
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 54
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 52
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 87783,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Solar Canopy",
+    "brandFa": "Future Society",
+    "nameFa": "Solar Canopy",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jérôme Epinette",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل صورتی",
+      "Red Currant"
+    ],
+    "middleNotesFa": [
+      "Litchi",
+      "گل رز ترکی",
+      "ماگنولیا",
+      "پسته"
+    ],
+    "baseNotesFa": [
+      "شکر",
+      "آمبروکسان",
+      "وتیور"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Nebras-Elixir-113906.html",
+    "extractedAt": "2026-11-27T19:51:28.987Z",
+    "name": "Nebras Elixir",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Nanako Ogi",
+    "topNotes": [
+      "Milk Candy",
+      "Whipped Cream"
+    ],
+    "middleNotes": [
+      "Sugar Cane",
+      "Heliotrope"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Ambroxan",
+      "Musk"
+    ],
+    "description": "Nebras Elixir takes its name from the Arabic word ﻧﺒﺮاس, a symbol of light and radiance. Its design captures this luminous spirit through a sculpted bronze sunburst and an ivory body that evoke a bloom rising over glowing waters. At its heart rests a bronze shell, sun-sculpted and serene, immersed in a sea of white milk — abstract, solar, and enveloping.</p> <p>The fragrance opens with the sweet indulgence of milk candy, gradually melting into the soft creaminess of heliotrope and sugarcane. At the base, smooth vanilla blends with sensual musk and the golden warmth of ambrofix, creating a silky, radiant trail that lingers on the skin.</p> <p>Nebras Elixir is a luminous solar gourmand. It balances the elegance of white heliotrope with the playful sweetness of milk candy and cream, while vanilla lends indulgence and depth. Musk and ambrofix weave a glowing veil, leaving behind a sensation as soft as silk and as radiant as sunlight.</p> <p><strong>Behind the Fragrance</strong><br /> Crafted by perfumer Nanako Ogi, this creation captures both light and indulgence, celebrating radiance in every detail.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113906.jpg",
+    "rating": 4.12,
+    "ratingVotes": 1236,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 19
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 14
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 8
+      }
+    ],
+    "fragranticaId": 113906,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Nebras",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Nebras Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nanako Ogi",
+    "topNotesFa": [
+      "Milk Candy",
+      "خامه زده"
+    ],
+    "middleNotesFa": [
+      "Sugar Cane",
+      "گل هلیوتروپ"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "آمبروکسان",
+      "موش"
+    ],
+    "descriptionFa": "Nebras Elixir نام خود را از واژه عربی ﻧﺒﺮاس گرفته است که نمادی از نور و درخشش است. طراحی آن این روح درخشان را از طریق یک اشعه خورشیدی برنزی تراش‌خورده و بدنه عاجی‌رنگ که شکوفه‌ای را تداعی می‌کند که بر فراز آب‌های درخشان سر برمی‌آورد، به تصویر می‌کشد. در قلب آن یک صدف برنزی قرار دارد که توسط خورشید تراشیده شده و آرام است و در دریایی از شیر سفید غوطه‌ور شده است — انتزاعی، آفتابی و فراگیر.</p> <p>این عطر با لذت شیرین آب‌نبات شیری آغاز می‌شود و به‌تدریج در آن ذوب می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Michel-Germain/Sexual-Sugar-10533.html",
+    "extractedAt": "2026-11-27T19:51:35.159Z",
+    "name": "Sexual Sugar",
+    "brand": "Michel Germain",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2010,
+    "perfumer": null,
+    "topNotes": [
+      "Sugar",
+      "Wild Berries"
+    ],
+    "middleNotes": [
+      "Passion Flower",
+      "African Orange Flower"
+    ],
+    "baseNotes": [
+      "Vanille",
+      "Almond"
+    ],
+    "description": "“‘Sexual Sugar’ and ‘Sugar Daddy’ are not your ordinary fragrances. Infused with aphrodisiacs they do the flirting for you,” affirms Michel Germain. “Hugs and kisses are inevitable. They are guaranteed or your money refunded.”</p> <p></p> <p>'Sexual Sugar' tempts and teases with a burst of mouthwatering juicy wildberries and crystallized sugar. Sensual passionflower reveals a powdery soft centre sprinkled with the light freshness of orange flower. A highly addictive blend of fresh roasted almonds and caramelized vanilla breathlessly invites again and again.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10533.jpg",
+    "rating": 4.11,
+    "ratingVotes": 282,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 56
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 31
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 21
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 19
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 10533,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sexual Sugar",
+    "brandFa": "Michel Germain",
+    "nameFa": "Sexual Sugar",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "شکر",
+      "Wild Berries"
+    ],
+    "middleNotesFa": [
+      "Passion Flower",
+      "African Orange Flower"
+    ],
+    "baseNotesFa": [
+      "Vanille",
+      "بادام"
+    ],
+    "descriptionFa": "«‘Sexual Sugar’ و ‘Sugar Daddy’ عطر‌های معمولی نیستند. میشل ژرمن تأیید می‌کند: «این عطرها که حاوی مواد محرک جنسی هستند، کار معاشقه را برای شما انجام می‌دهند.» «آغوش و بوسه اجتناب‌ناپذیر هستند. این امر تضمین شده است و در غیر این صورت، وجه شما بازپرداخت می‌شود.»</p> <p></p> <p>«Sexual Sugar» با انفجاری از رایحه توت‌های وحشی آبدار و خوشمزه و شکر کریستالی، وسوسه می‌کند و تحریک می‌کند. گل ساعتی شهوانی، رایحه‌ای پودری و ملایم را آشکار می‌کند که با طراوت ملایم گل پرتقال آمیخته شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Regime-des-Fleurs/Dark-Subtle-Teas-143157.html",
+    "extractedAt": "2026-11-27T19:51:41.359Z",
+    "name": "Dark Subtle Teas",
+    "brand": "Régime des Fleurs",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Alia Raza",
+    "topNotes": [
+      "Bitter Orange",
+      "Benzoin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Black Tea",
+      "Rooibos Red Tea",
+      "Mate"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "Dark Subtle Teas by Regime des Fleurs is a tea-centered fragrance created by Alia Raza and launched in 2026. Black tea, rooibos and mate are combined with bergamot, bitter orange, benzoin, cedarwood, patchouli and vetiver to create a deep, woody aromatic composition designed to develop gradually on the skin.</p> <p>\"Tea for me is liquid sophistication…nuanced, layered and complex. At home I drink many different kinds — I’ve always loved it.</p> <p>The same is true in my work: I’m always hunting down new tea absolutes. I think tea notes in fragrance are familiar but not immediately recognizable, so they speak to us on a subconscious level.</p> <p>DARK SUBTLE TEAS showcases tea as the main event. Rather than a playful, citrusy green tea — we’ve all smelled that before — this one has intrigue and mystery to it. </p> <p>The formula balances unusual extracts of black tea, rooibos tea, and maté. Working with them can be challenging for a perfumer: they need to be finessed. Bergamot, orange, and warm benzoin resin let us enter the darker depths smoothly.</p> <p>This is a meditative, almost spiritual perfume for me. You’ll wear it as an intimate ritual…a private pleasure and a personal ceremony. </p> <p>Let it steep on skin before you inhale.” – Alia Raza, Founder, Perfumer & Artistic Director",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.143157.jpg",
+    "rating": 3.85,
+    "ratingVotes": 13,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 79
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 68
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 54
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 48
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 40
+      }
+    ],
+    "fragranticaId": 143157,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dark Subtle Teas",
+    "brandFa": "Régime des Fleurs",
+    "nameFa": "Dark Subtle Teas",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alia Raza",
+    "topNotesFa": [
+      "پرتقال تلخ",
+      "بنزوئین",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "چای سیاه",
+      "Rooibos Red Tea",
+      "گل ماته"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "وتیور",
+      "پچولی"
+    ],
+    "descriptionFa": "Dark Subtle Teas از برند Regime des Fleurs یک عطر با محوریت چای است که توسط علیا رضا ساخته شده و در سال 2026 عرضه شده است. چای سیاه، رویبوس و مته با ترنج، پرتقال تلخ، بنزوئین، چوب سدر، نعناع هندی و وتیور ترکیب می‌شوند تا ترکیبی عمیق، چوبی و معطر ایجاد کنند که به گونه‌ای طراحی شده است که به تدریج روی پوست باز شود.</p> <p>«چای برای من تجسم مایع ظرافت است… پر از ظریف‌کاری، لایه‌لایه و پیچیده. در خانه انواع مختلفی از چای را می‌نوشم — همیشه عاشق چای بوده‌ام.</p> &lt;",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Arabiyat-Prestige/Mahd-Al-Dhahab-Extrait-145037.html",
+    "extractedAt": "2026-11-27T19:51:46.793Z",
+    "name": "Mahd Al Dhahab Extrait",
+    "brand": "Arabiyat Prestige",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Mustafa Firoz",
+    "topNotes": [
+      "Red Fruits",
+      "Berries",
+      "Ginger",
+      "Bergamot",
+      "Grapefruit",
+      "Lemon",
+      "Juniper Berries",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Ginger",
+      "Clary Sage",
+      "Tea",
+      "Incense",
+      "Floral Notes",
+      "Cypress"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Sandalwood",
+      "Musk",
+      "Ambroxan",
+      "Patchouli",
+      "Guaiac Wood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.145037.jpg",
+    "rating": 4.76,
+    "ratingVotes": 227,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 84
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 77
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 62
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 57
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      }
+    ],
+    "fragranticaId": 145037,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait",
+    "baseName": "Mahd Al Dhahab",
+    "brandFa": "Arabiyat Prestige",
+    "nameFa": "Mahd Al Dhahab Extrait",
+    "concentrationFa": "اکستره",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Mustafa Firoz",
+    "topNotesFa": [
+      "Red Fruits",
+      "Berries",
+      "زنجبیل",
+      "برگاموت",
+      "گریپ‌فروت",
+      "لیمو",
+      "زغالک عرعر",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "زنجبیل",
+      "مریم‌گلی",
+      "چای",
+      "عود بخور",
+      "Floral Notes",
+      "سرو کوهی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب صندل",
+      "موش",
+      "آمبروکسان",
+      "پچولی",
+      "چوب گوئیک"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Body-Fantasies/Midnight-Orchid-138433.html",
+    "extractedAt": "2026-11-27T19:51:51.323Z",
+    "name": "Midnight Orchid",
+    "brand": "Body Fantasies",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Almond",
+      "Cassis"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Orchid",
+      "Peony"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Praline"
+    ],
+    "description": "Midnight Orchid by Body Fantasies is a floral-fruity gourmand fragrance with a soft woody base. It opens with cassis, grapefruit, and almond flower, develops through a heart of jasmine, orchid, and peony, and settles into praline, tonka bean, and cashmere woods.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138433.jpg",
+    "rating": 5,
+    "ratingVotes": 1,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 98
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 47
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 138433,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Midnight Orchid",
+    "brandFa": "Body Fantasies",
+    "nameFa": "Midnight Orchid",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "بادام",
+      "توت سیاه فرانسوی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Orchid",
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "پرالین"
+    ],
+    "descriptionFa": "Midnight Orchid از برند Body Fantasies یک عطر گلی-میوه‌ای گورماند با رایحه پایه ملایم چوبی است. این عطر با رایحه کاسیس، گریپ‌فروت و گل بادام آغاز می‌شود، سپس به رایحه میانی یاس، ارکیده و گل صدتومانی می‌رسد و در نهایت به رایحه پایانی پرالین، دانه‌ تونکا و چوب کشمیر ختم می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
