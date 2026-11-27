@@ -146878,5 +146878,1567 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Nox-148933.html",
+    "extractedAt": "2026-11-27T15:50:34.690Z",
+    "name": "Nox",
+    "brand": "Tiziana Terenzi",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Paolo Terenzi",
+    "topNotes": [
+      "Orange",
+      "Bergamot",
+      "Kumquat",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Amber",
+      "Violet",
+      "Magnolia",
+      "Myrrh",
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Tonka Bean",
+      "Oak",
+      "Cedar",
+      "Musk",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148933.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 78
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 49
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 45
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148933,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nox",
+    "brandFa": "تیتزیانا ترنتزی",
+    "nameFa": "Nox",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Paolo Terenzi",
+    "topNotesFa": [
+      "پرتقال",
+      "برگاموت",
+      "کومکوات",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "کهربا",
+      "بنفشه",
+      "ماگنولیا",
+      "مور",
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "لوبیا تونکا",
+      "Oak",
+      "سرو",
+      "موش",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dior/Sauvage-Special-Reserve-148932.html",
+    "extractedAt": "2026-11-27T15:50:40.136Z",
+    "name": "Sauvage Special Reserve",
+    "brand": "Dior",
+    "family": "Oriental Woody",
+    "gender": "men. This is a new fragrance. <b>Sauvage Special Reserve</b> was launched in 2026. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Aromatic Notes, Spices, Amber, Whiskey, Oak, Calabrian bergamot, Pepper and Lavender",
+    "year": 2026,
+    "perfumer": "Francis Kurkdjian",
+    "description": "Dior introduces <strong>Sauvage Special Reserve</strong>, an exceptional numbered edition that explores a new dimension of fragrance creation through the art of ageing. For the first time, the expertise of Maison Dior meets that of Glenmorangie, the renowned Scottish Highland whisky distillery, uniting two distinct disciplines in their appreciation of time, craftsmanship, and the transformative qualities of raw materials.</p> <p><strong>Dior Sauvage Special Reserve</strong> is released as a numbered edition, exclusively previewed at Harrods and available at selected retail locations.<br /> <br /> The composition is aromatic, spicy, and ambery, with the nuances of whiskey and oak barrels.<br /> All notes will be added soon.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148932.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 94
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 78
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 56
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 56
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 56
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 56
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 148932,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sauvage Special Reserve",
+    "brandFa": "دیور",
+    "nameFa": "Sauvage Special Reserve",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "men. This is a new fragrance. <b>Sauvage Special Reserve</b> was launched in 2026. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Aromatic Notes, Spices, Amber, Whiskey, Oak, Calabrian bergamot, Pepper and Lavender",
+    "perfumerFa": "Francis Kurkdjian",
+    "descriptionFa": "Dior عطر <strong>Sauvage Special Reserve</strong> را معرفی می‌کند، یک نسخه استثنایی و دارای شماره که ابعاد جدیدی از خلق عطر را از طریق هنر کهنه‌سازی بررسی می‌کند. برای اولین بار، تخصص Maison Dior با تخصص Glenmorangie، کارخانه ویسکی‌سازی مشهور منطقه هایلند اسکاتلند، پیوند می‌خورد و دو رشته متمایز را در قدردانی از زمان، مهارت و ویژگی‌های دگرگون‌کننده مواد اولیه متحد می‌کند.</p> <p><strong>Dior Sauv",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Coach/Coach-Platinum-50777.html",
+    "extractedAt": "2026-11-27T15:50:46.643Z",
+    "name": "Coach Platinum",
+    "brand": "Coach",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2018,
+    "perfumer": "Bruno Jovanovic",
+    "topNotes": [
+      "Pineapple",
+      "Black Pepper",
+      "Juniper Berries"
+    ],
+    "middleNotes": [
+      "Cashmeran",
+      "Sage",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Leather",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.50777.jpg",
+    "rating": 4.14,
+    "ratingVotes": 2161,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 82
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 80
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 69
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 51
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 50777,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coach Platinum",
+    "brandFa": "Coach",
+    "nameFa": "Coach Platinum",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Bruno Jovanovic",
+    "topNotesFa": [
+      "آناناس",
+      "فلفل سیاه",
+      "زغالک عرعر"
+    ],
+    "middleNotesFa": [
+      "کشماران",
+      "مریم‌گلی",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "چرم",
+      "چوب صندل",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Baruti/Nucleus-135992.html",
+    "extractedAt": "2026-11-27T15:50:51.204Z",
+    "name": "Nucleus",
+    "brand": "Baruti",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Nucleus</b> was launched in 2026. The nose behind this fragrance is Spyros Drosopoulos. The fragrance features Agarwood (Oud) and Woody Notes",
+    "year": 2026,
+    "perfumer": "Spyros Drosopoulos",
+    "description": "Improved version of Nooud with more Oud.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135992.jpg",
+    "rating": 4.5,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 135992,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nucleus",
+    "brandFa": "Baruti",
+    "nameFa": "Nucleus",
+    "genderFa": "women and men. This is a new fragrance. <b>Nucleus</b> was launched in 2026. The nose behind this fragrance is Spyros Drosopoulos. The fragrance features Agarwood (Oud) and Woody Notes",
+    "perfumerFa": "Spyros Drosopoulos",
+    "descriptionFa": "نسخه بهبودیافته Nooud با عود بیشتر.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zimaya/Sharaf-Blend-91883.html",
+    "extractedAt": "2026-11-27T15:50:56.457Z",
+    "name": "Sharaf Blend",
+    "brand": "Zimaya",
+    "family": "Aromatic Spicy",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Imran Fazlani",
+    "topNotes": [
+      "Dates",
+      "Nutmeg",
+      "Saffron"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Praline",
+      "Tuberose"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Amberwood",
+      "Benzoin",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91883.jpg",
+    "rating": 4.41,
+    "ratingVotes": 2393,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 61
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 39
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 26
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 21
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 91883,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sharaf Blend",
+    "brandFa": "Zimaya",
+    "nameFa": "Sharaf Blend",
+    "familyFa": "Aromatic Spicy",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Imran Fazlani",
+    "topNotesFa": [
+      "Dates",
+      "جوز هندی",
+      "زعفران"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "پرالین",
+      "گل شیپور"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چوب کهربایی",
+      "بنزوئین",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chasing-Scents/Private-Teahouse-95013.html",
+    "extractedAt": "2026-11-27T15:50:59.914Z",
+    "name": "Private Teahouse",
+    "brand": "Chasing Scents",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Sandy Wong",
+    "topNotes": [
+      "Smoke",
+      "Peach",
+      "Cacao",
+      "Ink"
+    ],
+    "middleNotes": [
+      "Lapsang Souchong Tea",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Peach",
+      "Labdanum",
+      "Sap"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95013.jpg",
+    "rating": 3.43,
+    "ratingVotes": 226,
+    "accords": [
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 92
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 52
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 38
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 95013,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Private Teahouse",
+    "brandFa": "Chasing Scents",
+    "nameFa": "Private Teahouse",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sandy Wong",
+    "topNotesFa": [
+      "دود",
+      "هلو",
+      "کاکائو",
+      "Ink"
+    ],
+    "middleNotesFa": [
+      "Lapsang Souchong Tea",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "هلو",
+      "لابدانوم",
+      "Sap"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dolce-Gabbana/The-One-for-Men-Eau-de-Parfum-31909.html",
+    "extractedAt": "2026-11-27T15:51:03.203Z",
+    "name": "The One for Men Eau de Parfum",
+    "brand": "Dolce&Gabbana",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2015,
+    "perfumer": "Olivier Polge",
+    "topNotes": [
+      "Grapefruit",
+      "Coriander",
+      "Basil"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Ginger",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Tobacco",
+      "Cedar"
+    ],
+    "description": "Dolce & Gabbana launched The One for Men in 2008 as the fragrance intended to become a masculine classics. In 2015, The One for Men Eau de Parfum appears as an enhanced, denser version of the scent.</p> <p>The elegant top notes of coriander, basil and grapefruit are leading to the heart where there is a warm blend of ginger, orange blossom and cardamom. Tobacco, sensual amber and cedar leave their mark at the base of the perfume.</p> <p>It is available as 50 and 100 ml Eau de Parfum in a dark bottle of the original design.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31909.jpg",
+    "rating": 4.49,
+    "ratingVotes": 17081,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 90
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 78
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 77
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 77
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 31909,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "The One for Men",
+    "brandFa": "Dolce&Gabbana",
+    "nameFa": "The One for Men Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Polge",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "گشنیز",
+      "ریحان"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "زنجبیل",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "تنباکو",
+      "سرو"
+    ],
+    "descriptionFa": "دولچه و گابانا The One for Men را در سال 2008 به عنوان عطری عرضه کرد که قرار بود به یک عطر کلاسیک مردانه تبدیل شود. در سال 2015، ادو پرفیوم The One for Men به عنوان نسخه‌ای قوی‌تر و غلیظ‌تر از این عطر عرضه شد.</p> <p>نت‌های ابتدایی شیک گشنیز، ریحان و گریپ‌فروت به نت‌های میانی می‌رسند که ترکیبی گرم از زنجبیل، شکوفه پرتقال و هل است. تنباکو، عنبر حسی و سرو ردپای خود را در رایحه پایه عطر باقی می‌گذارند.</p> <p>این عطر موجود است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Atkinsons/Shine-Despite-Everything-97366.html",
+    "extractedAt": "2026-11-27T15:51:09.734Z",
+    "name": "Shine Despite Everything",
+    "brand": "Atkinsons",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Pimento",
+      "Frankincense",
+      "Turmeric"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Ambrofix™",
+      "Rose",
+      "Orris"
+    ],
+    "baseNotes": [
+      "Akigalawood",
+      "Coumarin",
+      "Madagascar Vanilla"
+    ],
+    "description": "Shine Despite Everything is a homage to the legendary motto of Sarah Bernhardt, the renowned French actress and trailblazing icon of the late 19th and early 20th centuries. This fragrance captures her flamboyant, avant-gardist, and charismatic traits through its three main accords. The Flamboyant accord features a spicy blend of turmeric seeds and incense Orpur™. The Avant-gardist accord offers a sumptuous blend of iris Orpur™ with caramel and amber notes of Rosyfolia Orpur™. The Charismatic accord combines notes of Coumarine, premium-quality vanilla, and Akigalawood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97366.jpg",
+    "rating": 4.32,
+    "ratingVotes": 689,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 75
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 52
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 45
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 44
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 33
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 97366,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Shine Despite Everything",
+    "brandFa": "Atkinsons",
+    "nameFa": "Shine Despite Everything",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "فلفل هلندی",
+      "کندر",
+      "Turmeric"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "Ambrofix™",
+      "گل رز",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "Akigalawood",
+      "Coumarin",
+      "وانیل ماداگاسکار"
+    ],
+    "descriptionFa": "Shine Despite Everything ادای احترامی است به شعار افسانه‌ای سارا برنارد، بازیگر مشهور فرانسوی و نماد پیشگام اواخر قرن نوزدهم و اوایل قرن بیستم. این عطر ویژگی‌های پرزرق‌وبرق، پیشرو و کاریزماتیک او را از طریق سه آکورد اصلی خود به تصویر می‌کشد. ترکیب پرزرق‌وبرق شامل ترکیبی تند از دانه‌های زردچوبه و بخور Orpur™ است. ترکیب آوانگاردی، ترکیبی باشکوه از زنبق Orpur™ با کارامل و آمبر را ارائه می‌دهد.",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Serge-Lutens/La-Nuit-Tombee-123902.html",
+    "extractedAt": "2026-11-27T15:51:16.038Z",
+    "name": "La Nuit Tombée",
+    "brand": "Serge Lutens",
+    "family": "Oriental Woody",
+    "gender": "women and men. This is a new fragrance. <b>La Nuit Tombée</b> was launched in 2026. The fragrance features Incense, Cedarwood and Patchouli",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.123902.jpg",
+    "rating": 4.06,
+    "ratingVotes": 395,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 96
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 85
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 67
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 66
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 46
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 18
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 123902,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "La Nuit Tombée",
+    "brandFa": "سرژ لوتنس",
+    "nameFa": "La Nuit Tombée",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. This is a new fragrance. <b>La Nuit Tombée</b> was launched in 2026. The fragrance features Incense, Cedarwood and Patchouli",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Guilty-Elixir-de-Parfum-pour-Homme-84547.html",
+    "extractedAt": "2026-11-27T15:51:19.494Z",
+    "name": "Guilty Elixir de Parfum pour Homme",
+    "brand": "Gucci",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": "Quentin Bisch",
+    "topNotes": [
+      "Orange Blossom",
+      "Nutmeg",
+      "Pimento Seeds"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Orris",
+      "Osmanthus"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Ambrofix™",
+      "Benzoin",
+      "Patchouli"
+    ],
+    "description": "Gucci Guilty Pour Homme Elixir de Parfum is a woody, ambery leather fragrance for men. Guilty Elixirs are a daring assertion, a colorful extraversion: captivating and sophisticated scents that extend a loving invitation to accept who we are and let our authentic selves be seen while celebrating the countless iterations of love.</p> <p>Perfumers Quentin Bisch and Nathalie Cetto sign the composition. It opens with accents of peppery pimento and smoky nutmeg. A flamboyant and noble heart of orris butter, orange flower, and sensuous osmanthus is followed by a sensual base of vanillin, ambrofix, and benzoin, which is intensified by an overdose of patchouli. </p> <ul> <li>Top Notes: Orange Flower Absolute, Pimento, Nutmeg</li> <li>Heart Notes: Orris Butter, Orange Flower Absolute, Osmanthus</li> <li>Base Notes: Ambrofix, Benzoin Resinoid Laos, Vanillin Ex-rice, Patchouli Oil Colorless </li> </ul> <p>Extending a loving invitation to explore, create, and connect with our truest selves, Gucci Guilty Pour Femme and Pour Homme fragrances launched with a campaign starring A$AP Rocky, Julia Garner, and Elliot Page.</p> <p>Available in a 60ml bottle.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84547.jpg",
+    "rating": 4.28,
+    "ratingVotes": 5149,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 86
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 61
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 53
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 51
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 43
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 84547,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Guilty de Parfum pour Homme",
+    "brandFa": "گوشی",
+    "nameFa": "Guilty Elixir de Parfum pour Homme",
+    "concentrationFa": "اکسیر",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Quentin Bisch",
+    "topNotesFa": [
+      "گل پرتقال",
+      "جوز هندی",
+      "Pimento Seeds"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "ریشه زنبق",
+      "اسمانتوس"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Ambrofix™",
+      "بنزوئین",
+      "پچولی"
+    ],
+    "descriptionFa": "Gucci Guilty Pour Homme Elixir de Parfum یک عطر چوبی، کهربایی و چرمی برای مردان است. Guilty Elixirs یک ادعای جسورانه و یک برون‌گرایی رنگارنگ است: رایحه‌هایی جذاب و پیچیده که دعوتی محبت‌آمیز برای پذیرش خود واقعی‌مان و آشکار ساختن شخصیت اصیل‌مان هستند، در حالی که تجلی‌های بی‌شمار عشق را جشن می‌گیرند.</p> <p>عطاران کوئنتین بیش و ناتالی ستو این ترکیب را خلق کرده‌اند. این عطر با رایحه‌های فلفل دلمه‌ای تند و دودی آغاز می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Lift-Me-Up-115367.html",
+    "extractedAt": "2026-11-27T15:51:26.467Z",
+    "name": "Lift Me Up",
+    "brand": "Initio Parfums Prives",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Magnolia",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tonka",
+      "Ylang Ylang"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "LIFT ME UP captures the force of the sun, From the first golden ray to the last lingering glow.<br /> This floral-amber fragrance channels the sun’s revitalising energy to awaken your senses and uplift your spirit. Whether you’re seeking stress relief, a burst of summer vibes, or simply a brighter outlook, LIFT ME UP is your gateway to an instant lift in mood.<br /> A scent that soothes and empowers, elevating your mindset to a sunnier, more luminous version of yourself.</p> <p>Notes of Ylang-Ylang, Bergamot, and Magnolia burst with intensity, while an overdose of Musk fuses with the skin, releasing waves of warmth and vitality. The richness of roasted Tonka beans and Vanilla adds addictive depth, creating a sun-kissed perfume that feels like a never-ending summer.</p> <p>Backed by science. Driven by emotion.<br /> Designed to energise, empower, and connect.<br /> Let the sunshine in — and keep summer alive all year long.</p> <p><br /> <strong>Notes</strong>: Ylang-Ylang, Bergamot, Magnolia, Roasted Tonka Beans, Vanilla, Musk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115367.jpg",
+    "rating": 4.14,
+    "ratingVotes": 1076,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 45
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 27
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 115367,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lift Me Up",
+    "brandFa": "Initio Parfums Prives",
+    "nameFa": "Lift Me Up",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "ماگنولیا",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Tonka",
+      "Ylang Ylang"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "LIFT ME UP قدرت خورشید را از اولین پرتو طلایی تا آخرین درخشش باقی‌مانده به تصویر می‌کشد.<br /> این عطر گل‌دار و کهربایی، انرژی احیاکننده خورشید را منتقل می‌کند تا حواس شما را بیدار کند و روح شما را شاداب سازد. چه به دنبال کاهش استرس باشید، چه به دنبال انفجاری از حس و حال تابستانی، یا صرفاً به دنبال یک چشم‌انداز روشن‌تر، LIFT ME UP دروازه شما به سمت بهبود فوری خلق و خو است.<br /> عطری که آرامش‌بخش و توان‌بخش است و ذهنیت شما را به سمت حالتی آفتابی‌تر و روشن‌تر سوق می‌دهد.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/By-Kilian/Vodka-on-the-Rocks-2026-138189.html",
+    "extractedAt": "2026-11-27T15:51:32.523Z",
+    "name": "Vodka on the Rocks (2026)",
+    "brand": "By Kilian",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Sidonie Lancesseur",
+    "topNotes": [
+      "Aldehydes",
+      "Cardamom",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "Lily of the Valley",
+      "Rhubarb",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "Sandalwood"
+    ],
+    "description": "In 2026, the Vodka on the Rocks fragrance was repacked as part of The Liquors collection, with the composition stayling the same. It is built around a cool, crystalline accord. It opens with the On the Rocks accord alongside cardamom and coriander, develops through lily-of-the-valley, rose, and rhubarb, and settles into a base of oakmoss and sandalwood with a clean, elegant woody character.</p> <p>\"Vodka on the Rocks Eau de Parfum opens with a chilled accord of icy spices: Cardamom and Coriander. Gradually, Lily of the Valley reveals its luminous brightness, lifted by accents of fresh Rhubarb and Rose. The undertones of Oakmoss and Sandalwood bring perfectly balanced elegance. A shiver on the skin, like a pure, silky spirit poured over ice cubes.\"</p> <p>It is available in 50ml and 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138189.jpg",
+    "rating": 3.9,
+    "ratingVotes": 110,
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 97
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 90
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 90
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 72
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 69
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 63
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 60
+      }
+    ],
+    "fragranticaId": 138189,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vodka on the Rocks (2026)",
+    "brandFa": "بای کیلیان",
+    "nameFa": "Vodka on the Rocks (2026)",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Sidonie Lancesseur",
+    "topNotesFa": [
+      "آلدهیدها",
+      "هل",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "لاله سفید",
+      "Rhubarb",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "چوب صندل"
+    ],
+    "descriptionFa": "در سال 2026، عطر Vodka on the Rocks به عنوان بخشی از مجموعه The Liquors بسته‌بندی مجدد شد، در حالی که ترکیب آن بدون تغییر باقی ماند. این عطر بر اساس یک ترکیب خنک و کریستالی ساخته شده است. این عطر با نت On the Rocks همراه با هل و گشنیز آغاز می‌شود، سپس از طریق نت‌های گل برف، گل رز و ریواس توسعه می‌یابد و در نهایت در نت پایه‌ای از خزه بلوط و چوب صندل با طبعی چوبی، تمیز و ظریف استقرار می‌یابد.</p> <p>«ادو پرفیوم Vodka on the Rocks با یک نت آغاز می‌شود",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Afnan/Turathi-Electric-108244.html",
+    "extractedAt": "2026-11-27T15:51:37.595Z",
+    "name": "Turathi Electric",
+    "brand": "Afnan",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Imran Fazlani",
+    "topNotes": [
+      "Pear",
+      "Pink Grapefruit",
+      "Mandarin Orange",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Apple",
+      "Cedarwood"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "Turathi Electric by Afnan Perfumes is a unisex fragrance introduced in 2025. The scent opens with a bright and crisp freshness, followed by modern, smooth layers that evoke a sense of sophistication. Designed to capture the spirit of endless summer, it is suitable for both daytime and evening occasions.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.108244.jpg",
+    "rating": 4.04,
+    "ratingVotes": 2038,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 63
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 42
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 27
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 108244,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Turathi Electric",
+    "brandFa": "افنان",
+    "nameFa": "Turathi Electric",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Imran Fazlani",
+    "topNotesFa": [
+      "گلابی",
+      "Pink Grapefruit",
+      "نارنگی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "سیب",
+      "چوب سرو"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا",
+      "وانیل"
+    ],
+    "descriptionFa": "Turathi Electric از برند Afnan Perfumes یک عطر یونیسکس است که در سال 2025 عرضه شد. این عطر با طراوتی درخشان و با طراوت آغاز می‌شود و سپس لایه‌های مدرن و ملایمی از راه می‌رسند که حس ظرافت را تداعی می‌کنند. این عطر که برای القای حس تابستانی بی‌پایان طراحی شده است، هم برای استفاده در طول روز و هم برای مناسبت‌های شبانه مناسب است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Verset-Parfums/Andrea-For-Her-59201.html",
+    "extractedAt": "2026-11-27T15:51:42.893Z",
+    "name": "Andrea For Her",
+    "brand": "Verset Parfums",
+    "family": "Floral",
+    "gender": "women. Top note is Orange Blossom; middle note is Musk; base note is Vetiver",
+    "topNotes": [
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Musk"
+    ],
+    "baseNotes": [
+      "Vetiver"
+    ],
+    "description": "\"Andrea For Her is a sophisticated perfume for a modern woman. The white musk constitutes the essence of this perfume. Vetiver and orange blossom combine to form an extremely feminine blend.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59201.jpg",
+    "rating": 4.16,
+    "ratingVotes": 64,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 72
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 36
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 29
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 21
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 59201,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Andrea For Her",
+    "brandFa": "Verset Parfums",
+    "nameFa": "Andrea For Her",
+    "familyFa": "گلی",
+    "genderFa": "women. Top note is Orange Blossom; middle note is Musk; base note is Vetiver",
+    "topNotesFa": [
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "موش"
+    ],
+    "baseNotesFa": [
+      "وتیور"
+    ],
+    "descriptionFa": "«Andrea For Her یک عطر پیچیده برای زنان مدرن است. مشک سفید عصاره این عطر را تشکیل می‌دهد. وتيور و شکوفه پرتقال با هم ترکيب شده و معجونی فوق‌العاده زنانه را تشکیل می‌دهند.» - یادداشتی از برند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Prada-Paradoxe-Sweet-Chemistry-138068.html",
+    "extractedAt": "2026-11-27T15:51:48.291Z",
+    "name": "Prada Paradoxe Sweet Chemistry",
+    "brand": "Prada",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": "Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu",
+    "topNotes": [
+      "Blackcurrant Syrup",
+      "Orange Blossom"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Neroli",
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Neroli"
+    ],
+    "description": "Orada Paradoxe Sweet Chemistry is a 2026 edition in the Paradoxe line. Created by Nadège Le Garlantezec, Shyamala Maisondieu, and Antoine Maisondieu, it has a floral fruity gourmand profile built around blackcurrant syrup, orange blossom absolute, milk, and neroli.</p> <p>The composition opens with a dark-fruity sweetness, develops into a radiant floral heart, and settles into a creamy base that combines gourmand softness with the neroli signature associated with the collection. The fragrance is presented in a refillable format.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138068.jpg",
+    "rating": 4.06,
+    "ratingVotes": 788,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 94
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 64
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 138068,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Prada Paradoxe Sweet Chemistry",
+    "brandFa": "پرادا",
+    "nameFa": "Prada Paradoxe Sweet Chemistry",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nadège Le Garlantezec, Shyamala Maisondieu and Antoine Maisondieu",
+    "topNotesFa": [
+      "Blackcurrant Syrup",
+      "گل پرتقال"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "نرولی",
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "نرولی"
+    ],
+    "descriptionFa": "Orada Paradoxe Sweet Chemistry یک نسخه از سال ۲۰۲۶ در خط تولید Paradoxe است. این عطر که توسط Nadège Le Garlantezec، Shyamala Maisondieu و Antoine Maisondieu خلق شده است، دارای رایحه‌ای گلی، میوه‌ای و گورماند است که بر پایه شربت انگور فرنگی سیاه، عصاره خالص شکوفه پرتقال، شیر و نرولی ساخته شده است.</p> <p>این ترکیب با شیرینی میوه‌ای تیره آغاز می‌شود، به یک قلب گل‌دار درخشان تبدیل می‌شود و در یک پایه خامه ای قرار می‌گیرد که لطافت گورماند را با امضای نرولی ترکیب می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
