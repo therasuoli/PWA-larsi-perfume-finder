@@ -174738,5 +174738,1351 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Royal-Oud-12317.html",
+    "extractedAt": "2026-11-28T15:37:11.720Z",
+    "name": "Royal Oud",
+    "brand": "Creed",
+    "family": "Oriental Fougere",
+    "gender": "women and men",
+    "year": 2011,
+    "perfumer": "Olivier Creed and Julien Rasquinet",
+    "topNotes": [
+      "Pink Pepper",
+      "Lemon",
+      "Sicilian Bergamot"
+    ],
+    "middleNotes": [
+      "Cedar",
+      "Angelica",
+      "Galbanum"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Agarwood (Oud)",
+      "Musk"
+    ],
+    "description": "Creed has created their oud fragrance as a response to the many requests they received from clients, but they have adapted the scent to the style of their house. Wood, leather, marble and gold—the elements of a royal Persian palace—inspired this luxurious mix of the Persian and Parisian.</p> <p>Royal Oud is a stylish and warm fougere fragrance with a beautiful kaleidoscope of woody, aromatic green and spicy nuances. The note of oud is an integral part of the composition, playing its role in balanced equilibrium with other notes.</p> <p>Top notes include lemon, pink berry and bergamot. The middle notes consist of cedar, galbanum and angelic root. Base notes are Regal Indian oud, sandalwood and Tonkin musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.12317.jpg",
+    "rating": 4.34,
+    "ratingVotes": 5996,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 42
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 36
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 34
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 29
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 12317,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Royal Oud",
+    "brandFa": "کريد",
+    "nameFa": "Royal Oud",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olivier Creed and Julien Rasquinet",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "لیمو",
+      "Sicilian Bergamot"
+    ],
+    "middleNotesFa": [
+      "سرو",
+      "Angelica",
+      "گلبانوم"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Agarwood (Oud)",
+      "موش"
+    ],
+    "descriptionFa": "Creed عطر عود خود را در پاسخ به درخواست‌های متعدد مشتریانش ساخته است، اما این عطر را با سبک خانه خود تطبیق داده است. چوب، چرم، مرمر و طلا - عناصر یک کاخ سلطنتی ایرانی - الهام‌بخش این ترکیب باشکوه از سبک ایرانی و پاریسی بوده‌اند.</p> <p>Royal Oud یک عطر فوژر شیک و گرم با ترکیبی زیبا از رایحه‌های چوبی، سبز معطر و تند است. رایحه عود بخشی جدایی‌ناپذیر است",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Thameen/Coronet-117623.html",
+    "extractedAt": "2026-11-28T15:37:17.920Z",
+    "name": "Coronet",
+    "brand": "Thameen",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Cypress",
+      "Pink Pepper",
+      "juniper berry"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Geranium",
+      "Sage"
+    ],
+    "baseNotes": [
+      "Frankincense",
+      "Smoke",
+      "Amber",
+      "Vetiver",
+      "Musk",
+      "Oud"
+    ],
+    "description": "Coronet is part of Thameen London's Sovereign Collection, which draws inspiration from the Crown Jewels and British royal heritage. The fragrance opens with juniper berry, pink pepper, and cypress. The heart features a floral arrangement of geranium, sage, and rose, balanced by woody notes of amber, frankincense, oud, and smoke. The base consists of vetiver and musk.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117623.jpg",
+    "rating": 4.37,
+    "ratingVotes": 83,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 86
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 82
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 77
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 45
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 38
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 37
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 117623,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coronet",
+    "brandFa": "Thameen",
+    "nameFa": "Coronet",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "سرو کوهی",
+      "فلفل صورتی",
+      "juniper berry"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "گل جعفری",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "کندر",
+      "دود",
+      "کهربا",
+      "وتیور",
+      "موش",
+      "عود"
+    ],
+    "descriptionFa": "Coronet بخشی از مجموعه Sovereign برند Thameen London است که از جواهرات سلطنتی و میراث سلطنتی بریتانیا الهام گرفته است. این عطر با رایحه توت عرعر، فلفل صورتی و سرو آغاز می‌شود. نت میانی شامل ترکیبی از رایحه‌های گل شمعدانی، مریم‌گلی و گل رز است که با نت‌های چوبی عنبر، کندر، عود و دود متعادل می‌شود. رایحه پایه شامل وتیور و مشک است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Riiffs-Perfumes/Virtessa-138756.html",
+    "extractedAt": "2026-11-28T15:37:22.847Z",
+    "name": "Virtessa",
+    "brand": "Riiffs Perfumes",
+    "family": "Floral Fruity",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin",
+      "Blackcurrant",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Gardenia",
+      "Ylang Ylang"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Virtessa by RiiFFS is a fragrance built around a fruity-spicy opening of blackcurrant, mandarin, and pink pepper. The heart centers on white floral notes of gardenia absolute and ylang ylang, while amber, sandalwood, and musk create a warm, smooth base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138756.jpg",
+    "rating": 4.48,
+    "ratingVotes": 50,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 99
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 53
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 40
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 138756,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Virtessa",
+    "brandFa": "Riiffs Perfumes",
+    "nameFa": "Virtessa",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Mandarin",
+      "Blackcurrant",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گاردنیا",
+      "Ylang Ylang"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "Virtessa از برند RiiFFS عطری است که بر پایه نت‌های ابتدایی میوه‌ای-تند انگور فرنگی سیاه، نارنگی و فلفل صورتی ساخته شده است. نت‌های میانی بر رایحه‌های گل سفید شامل عصاره خالص گاردنیا و یلانگ یلانگ متمرکز است، در حالی که عنبر، چوب صندل و مشک یک پایه گرم و ملایم ایجاد می‌کنند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Wild-Vetiver-125485.html",
+    "extractedAt": "2026-11-28T15:37:29.029Z",
+    "name": "Wild Vetiver",
+    "brand": "Creed",
+    "family": "Citrus Aromatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot",
+      "Pink Pepper",
+      "Timur"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Blackcurrant",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Amberwood",
+      "Cedarwood"
+    ],
+    "description": "Wild Vetiver is a fresh and refined interpretation of vetiver that combines bright citrus notes with earthy woody elements. The fragrance opens with invigorating timur pepper and zesty citrus—bergamot and lemon—which provide a crisp, uplifting top. The heart features the characteristic vetiver note, complemented by subtle floral nuances including rose. The base reveals smooth, earthy woods that create a sophisticated, clean profile. The overall composition presents a versatile, bright scent suitable for daytime wear.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.125485.jpg",
+    "rating": 4.25,
+    "ratingVotes": 1937,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 88
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 84
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 69
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 47
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 125485,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Wild Vetiver",
+    "brandFa": "کريد",
+    "nameFa": "Wild Vetiver",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگاموت",
+      "فلفل صورتی",
+      "Timur"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "Blackcurrant",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "چوب کهربایی",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Wild Vetiver تفسیر تازه و ظریفی از وتیور است که رایحه‌های مرکباتی درخشان را با عناصر چوبی خاکی ترکیب می‌کند. این عطر با فلفل تیمور نشاط‌آور و مرکبات تند - ترنج و لیمو - آغاز می‌شود که رایحه‌ای طراوت‌بخش و روح‌نواز را در نت‌های اولیه ایجاد می‌کنند. نت میانی شامل نت مشخصه وتیور است که با ظرافت‌های ملایم گل‌ها از جمله گل رز تکمیل می‌شود. رایحه پایه شامل نت‌های چوبی ملایم و خاکی است که ترکیبی پیچیده و تمیز ایجاد می‌کنند. رایحه کلی",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Sehr-94967.html",
+    "extractedAt": "2026-11-28T15:37:34.907Z",
+    "name": "Sehr",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bitter Almond",
+      "Cinnamon"
+    ],
+    "middleNotes": [
+      "Akigalawood",
+      "Pomarose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla Absolute",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94967.jpg",
+    "rating": 3.79,
+    "ratingVotes": 1296,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 73
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 57
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 47
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 94967,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sehr",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Sehr",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "بادام تلخ",
+      "دارچین"
+    ],
+    "middleNotesFa": [
+      "Akigalawood",
+      "Pomarose",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Vanilla Absolute",
+      "لوبیا تونکا",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Elixir-101438.html",
+    "extractedAt": "2026-11-28T15:37:38.698Z",
+    "name": "Acqua di Giò Elixir",
+    "brand": "Giorgio Armani",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Bergamot",
+      "Green Mandarin",
+      "Nutmeg"
+    ],
+    "middleNotes": [
+      "Violet Leaf",
+      "Water Notes"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Patchouli",
+      "Vetiver",
+      "Labdanum"
+    ],
+    "description": "Giorgio Armani Acqua di Giò Elixir is a new fragrance for men launched in 2025 under the Acqua di Giò collection. This aromatic, woody fragrance opens with refreshing bergamot and spicy nutmeg, transitions into aquatic accords and aromatic violet leaf, and concludes with warm patchouli and leather.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101438.jpg",
+    "rating": 4.16,
+    "ratingVotes": 1816,
+    "accords": [
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 84
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 56
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 46
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 101438,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Acqua di Giò",
+    "brandFa": "Giorgio Armani",
+    "nameFa": "Acqua di Giò Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "برگاموت",
+      "Green Mandarin",
+      "جوز هندی"
+    ],
+    "middleNotesFa": [
+      "برگ بنفشه",
+      "Water Notes"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "پچولی",
+      "وتیور",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Giorgio Armani Acqua di Giò Elixir یک عطر جدید مردانه است که در سال 2025 تحت مجموعه Acqua di Giò عرضه شد. این عطر معطر و چوبی با رایحهٔ طراوت‌بخش برگاموت و جوز هندی تند آغاز می‌شود، سپس به نت‌های دریایی و برگ بنفشه معطر تغییر می‌کند و در نهایت با رایحهٔ گرم نعناع هندی و چرم به پایان می‌رسد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Babycat-73149.html",
+    "extractedAt": "2026-11-28T15:37:44.659Z",
+    "name": "Babycat",
+    "brand": "Yves Saint Laurent",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Dominique Ropion and Claire Liégent",
+    "topNotes": [
+      "Black",
+      "Pink Pepper",
+      "Black Pepper",
+      "elemi",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Olibanum",
+      "Saffron"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Suede",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73149.jpg",
+    "rating": 4.21,
+    "ratingVotes": 5581,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 90
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 72
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 73149,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Babycat",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "Babycat",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Dominique Ropion and Claire Liégent",
+    "topNotesFa": [
+      "Black",
+      "فلفل صورتی",
+      "فلفل سیاه",
+      "elemi",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "زعفران"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "چرم جیر",
+      "سرو"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Calvin-Klein/Sheer-Beauty-13962.html",
+    "extractedAt": "2026-11-28T15:37:49.784Z",
+    "name": "Sheer Beauty",
+    "brand": "Calvin Klein",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2012,
+    "perfumer": null,
+    "topNotes": [
+      "Bellini",
+      "Bergamot",
+      "Red Berries"
+    ],
+    "middleNotes": [
+      "Peony",
+      "Jasmine",
+      "Pink Lily"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Sandalwood",
+      "Vanille"
+    ],
+    "description": "Calvin Klein launches a new edition of Beauty fragrance from 2010 named Sheer Beauty. The original evokes timeless beauty and elegance, while the new edition turns to young women and emphasizes naturalness, self-confidence and charm.</p> <p></p> <p>The composition is floral – fruity, opening with notes of bergamot, red berries and peach Bellini. The perfume’s core includes flowers of peony, pink lily and jasmine. The base is velvety due to accords of sandalwood, musk and vanilla blossom.</p> <p> The bottle is designed as its predecessor, refreshed with pearly shades of blush color. The face of the fragrance is model Daphne Groeneveld. It is available from January 2012 as 30, 50 and 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.13962.jpg",
+    "rating": 3.77,
+    "ratingVotes": 2464,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 60
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 13962,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sheer Beauty",
+    "brandFa": "کلوین کلین",
+    "nameFa": "Sheer Beauty",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Bellini",
+      "برگاموت",
+      "Red Berries"
+    ],
+    "middleNotesFa": [
+      "گل داوودی",
+      "یاسمن",
+      "Pink Lily"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "چوب صندل",
+      "Vanille"
+    ],
+    "descriptionFa": "کالوین کلاین نسخه جدیدی از عطر Beauty را که در سال 2010 عرضه شده بود، با نام Sheer Beauty روانه بازار می‌کند. نسخه اصلی یادآور زیبایی و ظرافت جاودانه است، در حالی که نسخه جدید به سمت زنان جوان متمایل شده و بر طبیعی بودن، اعتماد به نفس و جذابیت تأکید دارد.</p> <p></p> <p>ترکیب این عطر گل‌فام - میوه‌ای است و با رایحه‌های ترنج، توت‌های قرمز و هلو بلینی آغاز می‌شود. نت اصلی عطر شامل گل‌های صدتومانی، نیلوفر صورتی و یاس است. رایحه پایه به دلیل ترکیباتش مخملی است",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Amyris-Femme-Extrait-de-Parfum-59745.html",
+    "extractedAt": "2026-11-28T15:37:56.185Z",
+    "name": "Amyris Femme Extrait de Parfum",
+    "brand": "Maison Francis Kurkdjian",
+    "family": "Floral Fruity",
+    "gender": "women. <b>Amyris Femme Extrait de Parfum</b> was launched in 2019. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Mandarin Blossom, Egyptian Jasmine, Amyris, Tuscan Iris, Pear, Woody Notes and Amber",
+    "year": 2019,
+    "perfumer": "Francis Kurkdjian",
+    "description": "\"Amyris is a luminous fragrance steeped in natural, urban elegance, reflecting a vibrant parisian lifestyle. In this new Extrait de parfum composition, Francis Kurkdjian infused new energy to the duo featuring amyris from Jamaica and iris from Florence: a floral-sunny accent for her, heightened by jasmine absolute, a playful whirlwind of the senses.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59745.jpg",
+    "rating": 3.93,
+    "ratingVotes": 533,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 38
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 37
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 26
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 24
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 59745,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Extrait de Parfum",
+    "baseName": "Amyris Femme",
+    "brandFa": "مزون فرانسیس کورکدیان",
+    "nameFa": "Amyris Femme Extrait de Parfum",
+    "concentrationFa": "اکستره پرفیوم",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "women. <b>Amyris Femme Extrait de Parfum</b> was launched in 2019. The nose behind this fragrance is Francis Kurkdjian. The fragrance features Mandarin Blossom, Egyptian Jasmine, Amyris, Tuscan Iris, Pear, Woody Notes and Amber",
+    "perfumerFa": "Francis Kurkdjian",
+    "descriptionFa": "«Amyris یک عطر درخشان است که آغشته به ظرافت طبیعی و شهری بوده و سبک زندگی پر جنب‌وجوش پاریسی را منعکس می‌کند. در این ترکیب جدید عصاره عطر، فرانسیس کورکجیان انرژی تازه‌ای به این زوج متشکل از آمیریس جامائیکا و زنبق فلورانس بخشید: یک رایحه گل‌دار و آفتابی برای خانم‌ها، که با عطر مطلق یاس تقویت شده است، یک گردباد شاداب از حواس.» - یادداشتی از برند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Alhambra/Pink-Eclipse-101639.html",
+    "extractedAt": "2026-11-28T15:38:01.704Z",
+    "name": "Pink Eclipse",
+    "brand": "Maison Alhambra",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Bergamot",
+      "Tangerine"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Neroli"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Amber",
+      "Benzoin"
+    ],
+    "description": "Lattafa Maison Alhambra Pink Eclipse is a vibrant Eau de Parfum crafted for women, offering a radiant and captivating scent. The fragrance opens with a bright and refreshing blend of bergamot, tangerine, and pear, delivering an uplifting and fruity introduction. At its heart, a floral harmony of orange blossom, jasmine, and neroli unfolds, adding elegance and sophistication. The base is a warm, sweet embrace of vanilla, benzoin, musk, and amber, creating a smooth and sensual finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101639.jpg",
+    "rating": 4.42,
+    "ratingVotes": 247,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 86
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 36
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 29
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 27
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 101639,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pink Eclipse",
+    "brandFa": "Maison Alhambra",
+    "nameFa": "Pink Eclipse",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت",
+      "تانجرین"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "یاسمن",
+      "نرولی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "کهربا",
+      "بنزوئین"
+    ],
+    "descriptionFa": "Lattafa Maison Alhambra Pink Eclipse یک ادو پرفیوم پرنشاط است که برای خانم‌ها ساخته شده و رایحه‌ای درخشان و فریبنده دارد. این عطر با ترکیبی درخشان و طراوت‌بخش از ترنج، نارنگی و گلابی آغاز می‌شود و مقدمه‌ای نشاط‌آور و میوه‌ای را ارائه می‌دهد. در نت میانی، هماهنگی گل‌های شکوفه پرتقال، یاسمن و نرولی آشکار می‌شود که ظرافت و پیچیدگی را به عطر می‌افزاید. رایحه پایه ترکیبی گرم و شیرین از وانیل، بنزوئین، مشک و عنبر است،",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tom-Ford/Lost-Cherry-51411.html",
+    "extractedAt": "2026-11-28T15:38:06.758Z",
+    "name": "Lost Cherry",
+    "brand": "Tom Ford",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Louise Turner",
+    "topNotes": [
+      "Bitter Almond",
+      "Black Cherry",
+      "Cherry Liqueur"
+    ],
+    "middleNotes": [
+      "Sour Cherry",
+      "Plum",
+      "Turkish Rose",
+      "Jasmine Sambac"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Cinnamon",
+      "Peru Balsam",
+      "Sandalwood",
+      "Benzoin",
+      "Cloves",
+      "Cedar",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "\"Tom Ford Lost Cherry is a full-bodied journey into the once-forbidden; a contrasting scent that reveals a tempting dichotomy of playful, candy-like gleam on the outside and luscious flesh on the inside.</p> <p>Innocence intersects indulgence with an opening that captures the classic perfection of the exotic cherry fruit–Black Cherry's ripe flesh dripping in cherry liqueur glistens with a teasing touch of Bitter Almond.</p> <p>The heart bursts forth in cherry waves of sweet and tart. Griotte Syrup expresses the textured maceration of voluptuous fruits while breathtaking florals Turkish Rose and Jasmine Sambac penetrate the senses and soul.</p> <p>Peru Balsam and Roasted Tonka at the drydown suggest a new portrait of an iconic symbol. When blended with an unexpected melange of sandalwood, vetiver and cedar, the finish reaches fantasy-inspiring levels of insatiability.\"</p> <p>Top notes: black cherry, cherry liquer, bitter almonds<br /> Heart notes: Griotte syrup, Turkish rose, jasmine Sambac<br /> Base notes: Peru balm, roasted tonka beans, sandalwood, vetiver, cedar</p> <p>Tom Ford Lost Cherry will be available from November 2018 as 50ml Eau de Parfum and 250ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51411.jpg",
+    "rating": 4.05,
+    "ratingVotes": 18988,
+    "accords": [
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 87
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 78
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 59
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 47
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 40
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 51411,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lost Cherry",
+    "brandFa": "تام فورد",
+    "nameFa": "Lost Cherry",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Louise Turner",
+    "topNotesFa": [
+      "بادام تلخ",
+      "گیلاس سیاه",
+      "Cherry Liqueur"
+    ],
+    "middleNotesFa": [
+      "گیلاس ترش",
+      "آلو",
+      "گل رز ترکی",
+      "Jasmine Sambac"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "دارچین",
+      "بلسام پرو",
+      "چوب صندل",
+      "بنزوئین",
+      "Cloves",
+      "سرو",
+      "پچولی",
+      "وتیور"
+    ],
+    "descriptionFa": "«Tom Ford Lost Cherry سفری پرمایه به دنیای چیزهایی است که زمانی ممنوع بودند؛ عطری متضاد که دوگانگی وسوسه‌انگیزی از درخششی بازیگوش و شیرین‌مانند در ظاهر و گوشتی لذیذ در باطن را آشکار می‌کند.</p> <p>معصومیت با شروعی که کمال کلاسیک میوه گیلاسِ اگزوتیک را به تصویر می‌کشد، با لذت‌طلبی تلاقی می‌کند - گوشت رسیده گیلاس سیاه که در لیکور گیلاس غوطه‌ور است، با رایحه تحریک‌کننده بادام تلخ می‌درخشد.</p> <p>نت میانی با",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Juliette-Has-A-Gun/Sunny-Side-Up-46128.html",
+    "extractedAt": "2026-11-28T15:38:12.947Z",
+    "name": "Sunny Side Up",
+    "brand": "Juliette Has A Gun",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2017,
+    "perfumer": "Romano Ricci",
+    "topNotes": [
+      "Vanilla Absolute",
+      "Amyris",
+      "Jasmine"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Coconut Milk",
+      "Orris Root",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Iso E Super",
+      "Ambrette (Musk Mallow)"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46128.jpg",
+    "rating": 3.68,
+    "ratingVotes": 3022,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 25
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 46128,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sunny Side Up",
+    "brandFa": "Juliette Has A Gun",
+    "nameFa": "Sunny Side Up",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Romano Ricci",
+    "topNotesFa": [
+      "Vanilla Absolute",
+      "امیریس",
+      "یاسمن"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "شیر نارگیل",
+      "ریشه زنبق",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Iso E Super",
+      "Ambrette (Musk Mallow)"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
