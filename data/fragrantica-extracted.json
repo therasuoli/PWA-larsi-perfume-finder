@@ -173405,5 +173405,1338 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Khamrah-Waha-132409.html",
+    "extractedAt": "2026-11-28T14:38:40.145Z",
+    "name": "Khamrah Waha",
+    "brand": "Lattafa Perfumes",
+    "family": "Aromatic Aquatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Bergamot",
+      "Yuzu",
+      "Juniper",
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Cucumber",
+      "Sea Salt",
+      "Sage",
+      "Iris"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk",
+      "Ambrofix™",
+      "Akigalawood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.132409.jpg",
+    "rating": 3.84,
+    "ratingVotes": 1699,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 85
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 71
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 46
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 43
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 132409,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Khamrah Waha",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Khamrah Waha",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "برگاموت",
+      "یوزو",
+      "عرعر",
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "خیار",
+      "نمک دریا",
+      "مریم‌گلی",
+      "زنبق"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "موش",
+      "Ambrofix™",
+      "Akigalawood"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bath-Body-Works/Golden-Cherry-Mist-116161.html",
+    "extractedAt": "2026-11-28T14:38:43.729Z",
+    "name": "Golden Cherry Mist",
+    "brand": "Bath & Body Works",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Golden Cherry Mist</b> was launched in 2025. The fragrance features Cherry",
+    "year": 2025,
+    "description": "Golden Cherry is described as a cozy, dreamy fragrance that evokes drifting off to a sweet dreamland. The scent features a soft, tart cherry note paired with warm woods, creating a faded rather than bright cherry impression. The fragrance has a cozy, warm character with woody undertones that complement the cherry. According to user reviews, the scent has moderate longevity and is part of Bath & Body Works' aromatherapy-inspired collection.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116161.jpg",
+    "rating": 3.72,
+    "ratingVotes": 36,
+    "accords": [
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 25
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 20
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 15
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 10
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 116161,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Golden Cherry Mist",
+    "brandFa": "Bath & Body Works",
+    "nameFa": "Golden Cherry Mist",
+    "genderFa": "women and men. This is a new fragrance. <b>Golden Cherry Mist</b> was launched in 2025. The fragrance features Cherry",
+    "descriptionFa": "Golden Cherry به عنوان یک عطر دلنشین و رویایی توصیف می‌شود که یادآور فرو رفتن در دنیای شیرین رویاهاست. این عطر دارای رایحه ملایم و ترش آلبالو است که با رایحه چوب‌های گرم ترکیب شده و به جای ایجاد حس آلبالوی تند، حس آلبالوی ملایم را القا می‌کند. این عطر دارای شخصیتی دلنشین و گرم با رایحه‌های زیرین چوبی است که مکمل رایحه گیلاس است. طبق نظرات کاربران، این رایحه ماندگاری متوسطی دارد و بخشی از مجموعه الهام‌گرفته از رایحه‌درمانی Bath & Body Works است.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-Bold-Citrus-103605.html",
+    "extractedAt": "2026-11-28T14:38:50.573Z",
+    "name": "Boss Bottled Bold Citrus",
+    "brand": "Hugo Boss",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Honorine Blanc and Sophie Labbé",
+    "topNotes": [
+      "Lemon",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Elemi resin",
+      "Bourbon Geranium"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "Make a vibrant splash this summer with <strong>BOSS Bottled Bold Citrus</strong>, the fresh and limited-edition eau de parfum that radiates energy and confidence. Bursting with luminous citrus notes, this bold new creation captures the spirit of the BOSS man—dynamic, stylish, and effortlessly self-assured during the sunniest season of the year.</p> <p>Crafted by head perfumer <strong>Sophie Labbé</strong> and master perfumer <strong>Honorine Blanc</strong>, Bold Citrus opens with an electrifying duo of <strong>primofiore lemon</strong> and <strong>bergamot</strong>, delivering a zesty and invigorating start. At its heart, the fragrance glows with <strong>honeyed elemi extract</strong> and the <strong>green brightness of geranium bourbon</strong>, adding depth and vibrancy. Anchoring the scent, <strong>patchouli</strong> and <strong>vetiver</strong> lend a rich, earthy finish—an elegant nod to the woody signature of the original BOSS Bottled.</p> <p>Presented in the iconic BOSS Bottled bottle with a vivid <strong>green double-lacquered finish</strong>, this limited edition reflects the uplifting freshness within. Bold, radiant, and unmistakably modern—<strong>BOSS Bottled Bold Citrus</strong> is summer confidence in a bottle.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103605.jpg",
+    "rating": 4.07,
+    "ratingVotes": 1199,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 90
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 49
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 37
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 26
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 19
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 19
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 103605,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Boss Bottled Bold Citrus",
+    "brandFa": "هوگو باس",
+    "nameFa": "Boss Bottled Bold Citrus",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Honorine Blanc and Sophie Labbé",
+    "topNotesFa": [
+      "لیمو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Elemi resin",
+      "Bourbon Geranium"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "پچولی"
+    ],
+    "descriptionFa": "این تابستان با <strong>BOSS Bottled Bold Citrus</strong>، ادو پرفیوم تازه و نسخه محدود که انرژی و اعتماد به نفس را منعکس می‌کند، جلوه‌ای پرنشاط ایجاد کنید. این عطر جدید و جسورانه که سرشار از رایحه‌های درخشان مرکبات است، روح مرد BOSS را منعکس می‌کند—مردی پویا، شیک و بی‌تکلف که در آفتابی‌ترین فصل سال از اعتماد به نفس بالایی برخوردار است.</p> <p>ساخته‌شده توسط <strong>سوفی لابه</strong>، عطر‌ساز ارشد، و <strong>هونورین بلان، استاد عطر‌سازی",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zernell-Gillie/Jazz-101272.html",
+    "extractedAt": "2026-11-28T14:38:56.182Z",
+    "name": "Jazz",
+    "brand": "Zernell Gillie",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. This is a new fragrance. <b>Jazz</b> was launched in 2024. The fragrance features Mahogany, Bourbon Vanilla, Honey, White Musk, Tobacco, Opoponax, Cacao, Red Mandarin and Ambergris",
+    "year": 2024,
+    "description": "Jazz Extrait de Parfum by Zernell Gillie Fragrances embodies the soulful and free-spirited essence of jazz music. It opens with a vibrant note of red mandarin, blending into a rich heart of mahogany, honey, and tobacco. The composition deepens with decadent cacao and Bourbon vanilla, balanced by opoponax and white musk for a sophisticated finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101272.jpg",
+    "rating": 4.31,
+    "ratingVotes": 205,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 98
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 53
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 52
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 101272,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jazz",
+    "brandFa": "Zernell Gillie",
+    "nameFa": "Jazz",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. This is a new fragrance. <b>Jazz</b> was launched in 2024. The fragrance features Mahogany, Bourbon Vanilla, Honey, White Musk, Tobacco, Opoponax, Cacao, Red Mandarin and Ambergris",
+    "descriptionFa": "عطر Jazz Extrait de Parfum از برند Zernell Gillie Fragrances تجسم‌بخش ماهیت پرشور و آزادمنشانه موسیقی جاز است. این عطر با نت پر جنب‌وجوش نارنگی قرمز آغاز می‌شود و در رایحه اصلی غنی از ماهون، عسل و تنباکو ادغام می‌شود. این ترکیب با رایحه غنی کاکائو و وانیل بوربون عمیق‌تر می‌شود و با رایحه اوپوپوناکس و مشک سفید متعادل می‌گردد تا رایحه‌ای پیچیده و شیک ایجاد کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/The-Dua-Brand/The-Vanilla-141178.html",
+    "extractedAt": "2026-11-28T14:39:01.075Z",
+    "name": "The Vanilla",
+    "brand": "The Dua Brand",
+    "family": "Oriental Vanilla",
+    "gender": "women and men. <b>The Vanilla</b> was launched in 2023. The nose behind this fragrance is Mahsam Raza. The fragrance features Vanilla, Mimosa, Brown sugar, Musk, Amber and Vetiver",
+    "year": 2023,
+    "perfumer": "Mahsam Raza",
+    "description": "The Vanilla by The Dua Brand is a sweet gourmand fragrance centered on vanilla, amber, and brown sugar. Mimosa adds a powdery, spicy facet, while musk and vetiver provide a soft, grounded base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.141178.jpg",
+    "rating": 4.8,
+    "ratingVotes": 5,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 90
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 65
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 65
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 58
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 141178,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "The Vanilla",
+    "brandFa": "The Dua Brand",
+    "nameFa": "The Vanilla",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women and men. <b>The Vanilla</b> was launched in 2023. The nose behind this fragrance is Mahsam Raza. The fragrance features Vanilla, Mimosa, Brown sugar, Musk, Amber and Vetiver",
+    "perfumerFa": "Mahsam Raza",
+    "descriptionFa": "The Vanilla از برند The Dua یک عطر شیرین گورماند است که بر پایه وانیل، عنبر و شکر قهوه‌ای ساخته شده است. میموزا جنبه‌ای پودری و تند به عطر می‌افزاید، در حالی که مشک و وتیور پایه‌ای ملایم و سنگین ایجاد می‌کنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Byermia/Udbaha-90492.html",
+    "extractedAt": "2026-11-28T14:39:07.160Z",
+    "name": "Udbaha",
+    "brand": "Byermia",
+    "family": "Floral",
+    "gender": "women and men. <b>Udbaha</b> was launched in 2023. The nose behind this fragrance is Ashek Zubayer. The fragrance features Oily Notes, Marigold, Marigold, Rose Oil, Agarwood (Oud), Oakmoss and Tuberose",
+    "year": 2023,
+    "perfumer": "Ashek Zubayer",
+    "description": "Introducing <strong>“Udbaha”</strong> – derived from উদ্বাহ meaning “marriage” – The Perfume is based on a vibrant Bangladeshi <strong>Holud Night</strong> celebration held the night before the wedding.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90492.jpg",
+    "rating": 3.35,
+    "ratingVotes": 17,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 86
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 76
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 71
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "oily",
+        "nameFa": "oily",
+        "percent": 54
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 54
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 90492,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Udbaha",
+    "brandFa": "Byermia",
+    "nameFa": "Udbaha",
+    "familyFa": "گلی",
+    "genderFa": "women and men. <b>Udbaha</b> was launched in 2023. The nose behind this fragrance is Ashek Zubayer. The fragrance features Oily Notes, Marigold, Marigold, Rose Oil, Agarwood (Oud), Oakmoss and Tuberose",
+    "perfumerFa": "Ashek Zubayer",
+    "descriptionFa": "معرفی <strong>«Udbaha»</strong> - برگرفته از کلمه উদ্বাহ به معنای «ازدواج» - این عطر بر اساس جشن پرشور <strong>شب حلود</strong> در بنگلادش است که شب قبل از عروسی برگزار می‌شود.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-Infinite-54204.html",
+    "extractedAt": "2026-11-28T14:39:13.220Z",
+    "name": "Boss Bottled Infinite",
+    "brand": "Hugo Boss",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": null,
+    "topNotes": [
+      "Apple",
+      "Cinnamon",
+      "Sage",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Rosemary",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Olive Tree"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54204.jpg",
+    "rating": 4.01,
+    "ratingVotes": 2568,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 93
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 57
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 57
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 37
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 54204,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Boss Bottled Infinite",
+    "brandFa": "هوگو باس",
+    "nameFa": "Boss Bottled Infinite",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "سیب",
+      "دارچین",
+      "مریم‌گلی",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "رزماری",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Olive Tree"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chris-Collins/Forbidden-Apple-Croque-Moi-115783.html",
+    "extractedAt": "2026-11-28T14:39:17.364Z",
+    "name": "Forbidden Apple Croque Moi",
+    "brand": "Chris Collins",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Alexis Grugeon",
+    "topNotes": [
+      "Red Apple",
+      "Brown sugar",
+      "Strawberry",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "White Rum",
+      "Cinnamon",
+      "Pomegranate",
+      "Fenugreek"
+    ],
+    "baseNotes": [
+      "Vanilla Absolute",
+      "Haitian Vetiver",
+      "Fir"
+    ],
+    "description": "A warm, sweet gourmand fragrance that captures the duality of temptation. Crisp red apple blends with strawberry blossom and pomegranate pulp, then softens into rich vanilla bourbon and warm woods. Inspired by the Garden of Eden and the allure of the apple, this luxury fragrance is crafted with 20 percent fragrance oil, offering long-lasting wear and bold presence. The scent balances fruity freshness with gourmand sweetness and woody depth, making it suitable for both daytime and evening wear.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115783.jpg",
+    "rating": 4.32,
+    "ratingVotes": 236,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 81
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 66
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 38
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 38
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 32
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 115783,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Forbidden Apple Croque Moi",
+    "brandFa": "Chris Collins",
+    "nameFa": "Forbidden Apple Croque Moi",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Alexis Grugeon",
+    "topNotesFa": [
+      "سیب قرمز",
+      "Brown sugar",
+      "توت‌فرنگی",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "White Rum",
+      "دارچین",
+      "Pomegranate",
+      "Fenugreek"
+    ],
+    "baseNotesFa": [
+      "Vanilla Absolute",
+      "Haitian Vetiver",
+      "نراد"
+    ],
+    "descriptionFa": "یک عطر گرم و شیرین گُرماند که دوگانگی وسوسه را به تصویر می‌کشد. ترکیبی از رایحه سیب قرمز ترد با شکوفه توت‌فرنگی و پالپ انار، که سپس به رایحه غنی وانیل بوربون و چوب‌های گرم تبدیل می‌شود. این عطر لوکس که از باغ عدن و جذابیت سیب الهام گرفته شده است، با 20 درصد روغن عطر ساخته شده و ماندگاری طولانی و حضور پررنگی دارد. این عطر، طراوت میوه‌ای را با شیرینی دلپذیر و عمق چوبی متعادل می‌کند و",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/RAVE/Now-Women-85088.html",
+    "extractedAt": "2026-11-28T14:39:23.405Z",
+    "name": "Now Women",
+    "brand": "RAVE",
+    "family": null,
+    "gender": "women",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Red Fruits",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Marshmallow",
+      "Jasmine",
+      "Lily of the Valley"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Moss"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85088.jpg",
+    "rating": 4.01,
+    "ratingVotes": 1794,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 71
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 67
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 53
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 51
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 85088,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Now Women",
+    "brandFa": "RAVE",
+    "nameFa": "Now Women",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Red Fruits",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "مارشمالو",
+      "یاسمن",
+      "لاله سفید"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "خزه"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Rouat-Al-Musk-70584.html",
+    "extractedAt": "2026-11-28T14:39:27.377Z",
+    "name": "Rouat Al Musk",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2019,
+    "perfumer": null,
+    "topNotes": [
+      "Orange Blossom",
+      "Fruits",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "White Flowers",
+      "Jasmine",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70584.jpg",
+    "rating": 3.66,
+    "ratingVotes": 698,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 28
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 21
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 19
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 18
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 15
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 14
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 70584,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Rouat Al Musk",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Rouat Al Musk",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گل پرتقال",
+      "Fruits",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "گل‌های سفید",
+      "یاسمن",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "وانیل"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rue-Broca/Oh-Tiara-Amethyst-77783.html",
+    "extractedAt": "2026-11-28T14:39:31.852Z",
+    "name": "Oh Tiara Amethyst",
+    "brand": "Rue Broca",
+    "family": "Woody Floral Musk",
+    "gender": "women",
+    "year": 2015,
+    "perfumer": null,
+    "topNotes": [
+      "Black Currant",
+      "Mandarin Orange",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Caramel",
+      "Rose",
+      "Orange Blossom",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77783.jpg",
+    "rating": 4.21,
+    "ratingVotes": 29,
+    "accords": [
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 99
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 89
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 75
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 61
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 57
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 77783,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oh Tiara Amethyst",
+    "brandFa": "Rue Broca",
+    "nameFa": "Oh Tiara Amethyst",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "توت سیاه",
+      "نارنگی",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "کارامل",
+      "گل رز",
+      "گل پرتقال",
+      "Lily-of-the-Valley"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Bohoboco/Eternal-Lily-Amber-77856.html",
+    "extractedAt": "2026-11-28T14:39:36.444Z",
+    "name": "Eternal Lily Amber",
+    "brand": "Bohoboco",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Granny Smith apple",
+      "Sicilian Mandarin"
+    ],
+    "middleNotes": [
+      "Lily",
+      "Turkish Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Patchouli",
+      "Madagascar Vanilla"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77856.jpg",
+    "rating": 3.57,
+    "ratingVotes": 287,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 42
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 36
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 29
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 28
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 27
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 77856,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eternal Lily Amber",
+    "brandFa": "Bohoboco",
+    "nameFa": "Eternal Lily Amber",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Granny Smith apple",
+      "نارنگی سیسیلی"
+    ],
+    "middleNotesFa": [
+      "لاله",
+      "گل رز ترکی",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "پچولی",
+      "وانیل ماداگاسکار"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Frassai/Victoria-70044.html",
+    "extractedAt": "2026-11-28T14:39:39.686Z",
+    "name": "Victoria",
+    "brand": "Frassai",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Irina Burlakova",
+    "topNotes": [
+      "Litchi",
+      "Petitgrain",
+      "Litsea Cubeba"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Styrax",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Agarwood (Oud)",
+      "Castoreum",
+      "Olibanum",
+      "Patchouli"
+    ],
+    "description": "VICTORIA is a fragrance of depth and sophisticated strength, a bold contrast between creamy tuberose and opulent oud highlighted with beautiful natural ingredients:<br /> Petitgrain, Litsea Cubeba, Pink Pepper Pure JETM,<br /> Pink Lychee Nat Neo JETM, Peach & Tuberose Nat Neo JETM,<br /> Tuberose Absolute, Styrax, Patchouli and Olibanum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70044.jpg",
+    "rating": 4.03,
+    "ratingVotes": 123,
+    "accords": [
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 89
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 71
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 49
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 45
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 70044,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Victoria",
+    "brandFa": "Frassai",
+    "nameFa": "Victoria",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Irina Burlakova",
+    "topNotesFa": [
+      "Litchi",
+      "پتیت‌گرین",
+      "Litsea Cubeba"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "استیراکس",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Agarwood (Oud)",
+      "کاستوریوم",
+      "کندر",
+      "پچولی"
+    ],
+    "descriptionFa": "VICTORIA عطری عمیق و با قدرت پیچیده است، تضادی جسورانه بین رایحه خامه مانند گل مریم و عود باشکوه که با مواد طبیعی زیبا برجسته شده است:<br /> پتی‌گرن، لیتسئا کیوبِبا، فلفل صورتی خالص JETM،<br /> لیچی صورتی طبیعی نئو JETM، هلو و مریم‌شب طبیعی نئو JETM،<br /> عصارۀ مریم، استیراکس، نعناع هندی و کندر.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
