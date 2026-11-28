@@ -162336,5 +162336,712 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Tiziana-Terenzi/Ecstasy-16524.html",
+    "extractedAt": "2026-11-28T05:49:45.351Z",
+    "name": "Ecstasy",
+    "brand": "Tiziana Terenzi",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2012,
+    "perfumer": "Paolo Terenzi",
+    "topNotes": [
+      "Spruce",
+      "Pine Tree",
+      "Pebbles"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Rose",
+      "Patchouli",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Soil Tincture",
+      "Woody Notes",
+      "Amber",
+      "Labdanum",
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "description": "The house of Tiziana Terenzi, known for its scented candles, presents its first Extrait de Parfum line in 2012. The line is inspired by fire with four different experiences of journey. “The hypnotic power and beauty of fire are always present in our lives, connecting us with great symbolic power to our emotions and to all of creation. The four new perfumes embody the four stages of a journey consumed by fire. In fire, every emotion, every image, every fragrance comes to life and exists almost independently from our thoughts. Our perfumes capture the indomitable spirit of our emotions. The creation of these perfume essences comes from the never-ending quest to depict and capture emotions. These perfumes embody the powerful Faustian desire to try to hold on to a beautiful moment, and the constant exploration of the “self and the non-self”. The fragrances are named XIX March, Ecstasy, Gold Rose Oudh and White Fire. The ones that have “black soul” are Gold Rose Oudh and White Fire and are labeled with leather label, while the ones with “white soul”, labeled with wood, are XIX March and Ecstasy. </p> <p> Ecstasy is a mystical fragrance of “the most intense journey into the “sacred fire” of the soul, in search of total authentic in the suspended gravity of absolute beauty.” </p> <p> Top notes: pine, spruce, stone powder. Heart: incense, patchouli, rose, violet. Base: sandalwood, amber, cistrose, tonka, forest land, ancient wood. </p> <p> It is available as 100 ml Extrait de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16524.jpg",
+    "rating": 3.75,
+    "ratingVotes": 1150,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 69
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 42
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 35
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 29
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 25
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 24
+      }
+    ],
+    "fragranticaId": 16524,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ecstasy",
+    "brandFa": "تیتزیانا ترنتزی",
+    "nameFa": "Ecstasy",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Paolo Terenzi",
+    "topNotesFa": [
+      "افرا",
+      "Pine Tree",
+      "Pebbles"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "گل رز",
+      "پچولی",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "Soil Tincture",
+      "Woody Notes",
+      "کهربا",
+      "لابدانوم",
+      "چوب صندل",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "خانه تیزیانا ترنزی که به خاطر شمع‌های معطرش شناخته می‌شود، اولین مجموعه عصاره عطر خود را در سال 2012 عرضه می‌کند. این مجموعه از آتش الهام گرفته شده و شامل چهار تجربه متفاوت از سفر است. «قدرت مسحورکننده و زیبایی آتش همیشه در زندگی ما حضور دارد و ما را با قدرتی نمادین به احساسات‌مان و به کل آفرینش پیوند می‌دهد. این چهار عطر جدید، چهار مرحله از یک سفر را که در آتش می‌سوزد، تجسم می‌بخشند. در آتش، هر احساس، هر تصویر،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Mix-Bar/Whipped-Almond-72677.html",
+    "extractedAt": "2026-11-28T05:49:51.018Z",
+    "name": "Whipped Almond",
+    "brand": "Mix:Bar",
+    "family": null,
+    "gender": "women and men. The fragrance features Almond, Milk, Sandalwood and Iris Flower",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72677.jpg",
+    "rating": 4.07,
+    "ratingVotes": 821,
+    "accords": [
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 100
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 58
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 47
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 72677,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Whipped Almond",
+    "brandFa": "Mix:Bar",
+    "nameFa": "Whipped Almond",
+    "genderFa": "women and men. The fragrance features Almond, Milk, Sandalwood and Iris Flower",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lake-Skye/Echo-Lake-70648.html",
+    "extractedAt": "2026-11-28T05:49:54.983Z",
+    "name": "Echo Lake",
+    "brand": "Lake & Skye",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2016,
+    "perfumer": "Courtney Somer",
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Juniper"
+    ],
+    "baseNotes": [
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70648.jpg",
+    "rating": 3.2,
+    "ratingVotes": 87,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 97
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 81
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 75
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 15
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 13
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 70648,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Echo Lake",
+    "brandFa": "Lake & Skye",
+    "nameFa": "Echo Lake",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Courtney Somer",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "عرعر"
+    ],
+    "baseNotesFa": [
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/TUMI/Kinetic-GMT-76413.html",
+    "extractedAt": "2026-11-28T05:49:59.917Z",
+    "name": "Kinetic [--:-- GMT]",
+    "brand": "TUMI",
+    "family": null,
+    "gender": "men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Pimento Leaf",
+      "Amberwood",
+      "Italian Mandarin"
+    ],
+    "middleNotes": [
+      "Olibanum",
+      "Nutmeg",
+      "Immortelle"
+    ],
+    "baseNotes": [
+      "Teak Wood",
+      "Smoke",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "Propelled forward by his obsession with innovation and passion for life. He is a force of nature and inspires all whom he encounters. Everyone is drawn to his ambition. He walks into a room and seizes control. Utterly determined, he never stops. Impossible is unacceptable. Solution and excellence are his focus. He is in complete control and not confined to the constructs of time. Introducing Kinetic [--:-- GMT]. His fragrance, his signature, a reflection of his persona. This fragrance was developed with an extreme concentration level and featured a patented anti-habituation technology that is ultra-long lasting.</p> <p>KEY NOTES:</p> <p>Top Notes: Orientalwood, Italian Mandarin, Pimento Leaves<br /> Middle Notes: Olibanum, Everlasting Flower, Nutmeg<br /> Bottom Notes: Sandalwood, Teakwood, Smoky Vanilla",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76413.jpg",
+    "rating": 3.92,
+    "ratingVotes": 288,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 74
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 41
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 40
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 27
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 24
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 19
+      }
+    ],
+    "fragranticaId": 76413,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Kinetic [--:-- GMT]",
+    "brandFa": "TUMI",
+    "nameFa": "Kinetic [--:-- GMT]",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Pimento Leaf",
+      "چوب کهربایی",
+      "Italian Mandarin"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "جوز هندی",
+      "Immortelle"
+    ],
+    "baseNotesFa": [
+      "Teak Wood",
+      "دود",
+      "چوب صندل",
+      "وانیل"
+    ],
+    "descriptionFa": "با وسواسش نسبت به نوآوری و اشتیاقش به زندگی به جلو پیش می‌رود. او یک نیروی طبیعی است و همه کسانی را که با آنها ملاقات می‌کند، الهام‌بخش می‌شود. همه جذب جاه‌طلبی او می‌شوند. او وارد اتاق می‌شود و کنترل را به دست می‌گیرد. او کاملاً مصمم است و هرگز متوقف نمی‌شود. غیرممکن برای او قابل‌قبول نیست. تمرکز او بر راه‌حل و تعالی است. او کاملاً کنترل اوضاع را در دست دارد و محدود به ساختارهای زمانی نیست. معرفی Kinetic [--:-- GMT]. عطر او، امضای او، یک",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Coach/Coach-for-Men-45343.html",
+    "extractedAt": "2026-11-28T05:50:05.010Z",
+    "name": "Coach for Men",
+    "brand": "Coach",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": "Anne Flipo and Bruno Jovanovic",
+    "topNotes": [
+      "Pear",
+      "Bergamot",
+      "Kumquat",
+      "Lavender",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Geranium",
+      "Coriander"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Suede",
+      "Amberwood",
+      "Haitian Vetiver"
+    ],
+    "description": "Coach for Men is a woody scent with a fresh opening, developed by IFF perfumers Anne Flipo and Bruno Jovanovic. </p> <p>Top notes: green nashi pear, bergamot, kumquat.</p> <p>Heart: cardamom, coriander, geranium.</p> <p>Base: vetiver Haiti LMR, suede, ambergris.</p> <p>Actor James Franco is the face of the fragrance, embodying the ideal of a cool American guy. The fragrance comes as a 12 percent Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45343.jpg",
+    "rating": 4.13,
+    "ratingVotes": 4725,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 99
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 51
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 41
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 40
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 45343,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coach for Men",
+    "brandFa": "Coach",
+    "nameFa": "Coach for Men",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Anne Flipo and Bruno Jovanovic",
+    "topNotesFa": [
+      "گلابی",
+      "برگاموت",
+      "کومکوات",
+      "اسطوخودوس",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "گل جعفری",
+      "گشنیز"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "چرم جیر",
+      "چوب کهربایی",
+      "Haitian Vetiver"
+    ],
+    "descriptionFa": "Coach for Men یک عطر چوبی با رایحه اولیه تازه است که توسط عطرسازان IFF، آن فلیپو و برونو یووانوویچ، ساخته شده است. </p> <p>نت‌های اولیه: گلابی ناشی سبز، ترنج، کام‌کوات.</p> <p>نت میانی: هل، گشنیز، شمعدانی.</p> <p>رایحه پایه: وتیور هائیتی LMR، جیر، عنبر سائل.</p> <p>بازیگر جیمز فرانکو چهره این عطر است که مظهر یک مرد آمریکایی جذاب است. این عطر به صورت ادوتویلت ۱۲ درصد عرضه می‌شود.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/What-We-Do-Is-Secret/Covert-Musk-116425.html",
+    "extractedAt": "2026-11-28T05:50:10.311Z",
+    "name": "Covert Musk",
+    "brand": "What We Do Is Secret",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Annick Menardo",
+    "topNotes": [
+      "Acácia",
+      "Honey"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Musk"
+    ],
+    "description": "This fragrance melts into your skin, becoming its natural extension and revealing its most alluring facets.</p> <p>The composition opens with acacia honey — a soft, golden touch that lends warmth and sweetness. At its heart lies ylang-ylang, sensual and slightly exotic, unfolding like a caress. All of this rests on musks that amplify the sense of intimacy, breath, and presence.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116425.jpg",
+    "rating": 3.65,
+    "ratingVotes": 130,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 47
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 30
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 19
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 116425,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Covert Musk",
+    "brandFa": "What We Do Is Secret",
+    "nameFa": "Covert Musk",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Annick Menardo",
+    "topNotesFa": [
+      "Acácia",
+      "عسل"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "موش"
+    ],
+    "descriptionFa": "این عطر در پوست شما جذب می‌شود، به امتداد طبیعی آن تبدیل می‌شود و جذاب‌ترین جنبه‌های آن را آشکار می‌کند.</p> <p>این ترکیب با عسل اقاقیا آغاز می‌شود — لمسی ملایم و طلایی که گرما و شیرینی می‌بخشد. در قلب آن رایحه یلانگ-یلانگ قرار دارد که حسی و کمی عجیب‌وغریب است و مانند یک نوازش آشکار می‌شود. همه اینها بر پایه مشک‌هایی است که حس صمیمیت، نفس و حضور را تقویت می‌کنند.",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ranger-Station/Two-Trick-Pony-122544.html",
+    "extractedAt": "2026-11-28T05:50:15.335Z",
+    "name": "Two Trick Pony",
+    "brand": "Ranger Station",
+    "family": null,
+    "gender": "women and men. <b>Two Trick Pony</b> was launched in 2022. Top note is Amber; middle note is Musk; </p><div v-pre class='fragrantica-blockquote'><p>Two Trick Pony features base notes of amber, ambroxan, woods, and musk that combine into a simple, elegant, and long-lasting aroma. Designed as a fragrance enhancer that can add dimension and depth when layered with other fragrances, it can also be worn independently. The fragrance is hand-mixed to order using high-quality fragrance and essential oils, and is formulated without parabens",
+    "year": 2022,
+    "description": "Two Trick Pony features base notes of amber, ambroxan, woods, and musk that combine into a simple, elegant, and long-lasting aroma. Designed as a fragrance enhancer that can add dimension and depth when layered with other fragrances, it can also be worn independently. The fragrance is hand-mixed to order using high-quality fragrance and essential oils, and is formulated without parabens.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122544.jpg",
+    "rating": 3.73,
+    "ratingVotes": 11,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 65
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 35
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 10
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 122544,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Two Trick Pony",
+    "brandFa": "Ranger Station",
+    "nameFa": "Two Trick Pony",
+    "genderFa": "women and men. <b>Two Trick Pony</b> was launched in 2022. Top note is Amber; middle note is Musk; </p><div v-pre class='fragrantica-blockquote'><p>Two Trick Pony features base notes of amber, ambroxan, woods, and musk that combine into a simple, elegant, and long-lasting aroma. Designed as a fragrance enhancer that can add dimension and depth when layered with other fragrances, it can also be worn independently. The fragrance is hand-mixed to order using high-quality fragrance and essential oils, and is formulated without parabens",
+    "descriptionFa": "Two Trick Pony دارای نت‌های پایه عنبر، آمبروکسان، چوب و مشک است که با هم ترکیبی از یک رایحه ساده، شیک و ماندگار را ایجاد می‌کنند. این عطر به عنوان یک تقویت‌کننده عطر طراحی شده است که می‌تواند در صورت استفاده همراه با عطرهای دیگر، بُعد و عمق بیشتری به آنها ببخشد، اما به طور مستقل نیز قابل استفاده است. این عطر به صورت دستی و طبق سفارش با استفاده از عطر و روغن‌های معطر با کیفیت بالا ترکیب می‌شود و در فرمولاسیون آن از پارابن استفاده نشده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
