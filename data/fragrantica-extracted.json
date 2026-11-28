@@ -160528,5 +160528,366 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Nectarine-Blossom-amp-Honey-3782.html",
+    "extractedAt": "2026-11-28T03:53:07.262Z",
+    "name": "Nectarine Blossom & Honey",
+    "brand": "Jo Malone London",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2005,
+    "perfumer": "Jo Malone",
+    "topNotes": [
+      "Green Notes",
+      "Black Currant",
+      "Petitgrain"
+    ],
+    "middleNotes": [
+      "Nectarine",
+      "Black locust",
+      "Black locust Honey"
+    ],
+    "baseNotes": [
+      "Peach",
+      "Plum",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3782.jpg",
+    "rating": 3.94,
+    "ratingVotes": 5402,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 66
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 31
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 24
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 21
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 17
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 3782,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nectarine Blossom & Honey",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Nectarine Blossom & Honey",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jo Malone",
+    "topNotesFa": [
+      "نت‌های سبز",
+      "توت سیاه",
+      "پتیت‌گرین"
+    ],
+    "middleNotesFa": [
+      "Nectarine",
+      "Black locust",
+      "Black locust Honey"
+    ],
+    "baseNotesFa": [
+      "هلو",
+      "آلو",
+      "وتیور"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sol-de-Janeiro/Cheirosa-68-73990.html",
+    "extractedAt": "2026-11-28T03:53:12.323Z",
+    "name": "Cheirosa '68",
+    "brand": "Sol de Janeiro",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Pitahaya",
+      "Litchi"
+    ],
+    "middleNotes": [
+      "Hibiscus",
+      "Jasmine",
+      "Sea Notes"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "This fruity floral scent invites you into our lush garden by the sea—a sun-dappled oasis brimming with vibrant flora and abundant sunshine. A transportive temptation for our fragrance lovers, this immersive and uplifting scent is kissed with joy, dancing with notes of Brazilian jasmine, pink dragonfruit, ocean air, and a sheer touch of Tropicália vanilla. Every sensorial spritz inspires endless smiles and creates connections with others.</p> <p>Our scent is inspired by the lush, sun dappled gardens of Rio – a city nestled near the ocean and in touch with the vibrant, expansive beauty of Brazil. This bright, kissed-with-joy fragrance invites you to this oasis-by-the sea experience where salty ocean air mingles with fresh blooms swaying in the breeze.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73990.jpg",
+    "rating": 3.86,
+    "ratingVotes": 5405,
+    "accords": [
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 99
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 56
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 48
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 47
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 38
+      }
+    ],
+    "fragranticaId": 73990,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cheirosa '68",
+    "brandFa": "Sol de Janeiro",
+    "nameFa": "Cheirosa '68",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Pitahaya",
+      "Litchi"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "یاسمن",
+      "Sea Notes"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "این رایحه میوه‌ای و گل‌دار شما را به باغ سرسبز ما در کنار دریا دعوت می‌کند—واحه‌ای آفتاب‌گیر مملو از گیاهان سرزنده و آفتاب فراوان. این رایحه همه جانبه و نشاط‌آور که وسوسه‌ای مسحورکننده برای عاشقان عطر ماست، با شادی آمیخته شده و با نت‌های یاس برزیلی، میوه اژدهای صورتی، هوای اقیانوس و رایحه‌ای ظریف از وانیل تروپیکالیا می‌رقصد. هر اسپری حسی باعث ایجاد لبخندهای بی‌پایان می‌شود و ارتباطاتی با دیگران ایجاد می‌کند.</p> <p>O",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kayali-Fragrances/Oudgasm-Chocolate-Oud-11-114118.html",
+    "extractedAt": "2026-11-28T03:53:19.377Z",
+    "name": "Oudgasm Chocolate Oud | 11",
+    "brand": "Kayali Fragrances",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Hamid Merati-Kashani",
+    "topNotes": [
+      "Rum",
+      "Caramel",
+      "Spices",
+      "Candy apple",
+      "Mate"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Cinnamon",
+      "Orris",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Cocoa",
+      "Agarwood (Oud)",
+      "Chocolate",
+      "Sandalwood",
+      "Cashmere Wood. The fragrance features Rum",
+      "Cocoa",
+      "Apple",
+      "Oud",
+      "Caramel",
+      "Chocolate",
+      "Incense",
+      "Orris",
+      "Velvet"
+    ],
+    "description": "Oudgasm Chocolate Oud | 11 by Kayali is part of the Oudgasm collection, set for release in 2025. Indulge in a gourmand fantasy with Oudgasm Chocolate Oud | 11, a decadent fragrance that wraps the skin in a magnetic warmth that feels both edible and sexy. It opens with the tempting blend of spiced rum and caramel apple, a flirtation of sweetness and spice. As it deepens, velvet orris and incense smolder at the heart, before melting into an addictive base of dark cocoa and chocolate oud.</p> <p>“Oudgasm Chocolate Oud | 11 is decadent, addictive, and deeply sensual. I’ve always been drawn to the contrast between rich oud and something sweet, and this fragrance captures that craving. I wanted to create a scent that feels bold and addictive — an indulgence that pushes the boundaries of traditional oud with a delicious, dessert-like twist.” Mona Kattan.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114118.jpg",
+    "rating": 3.95,
+    "ratingVotes": 385,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 50
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 43
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 38
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 114118,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oudgasm Chocolate Oud | 11",
+    "brandFa": "Kayali Fragrances",
+    "nameFa": "Oudgasm Chocolate Oud | 11",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Hamid Merati-Kashani",
+    "topNotesFa": [
+      "رام",
+      "کارامل",
+      "Spices",
+      "Candy apple",
+      "گل ماته"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "دارچین",
+      "ریشه زنبق",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "کاکائو",
+      "Agarwood (Oud)",
+      "شکلات",
+      "چوب صندل",
+      "Cashmere Wood. The fragrance features Rum",
+      "کاکائو",
+      "سیب",
+      "عود",
+      "کارامل",
+      "شکلات",
+      "عود بخور",
+      "ریشه زنبق",
+      "Velvet"
+    ],
+    "descriptionFa": "Oudgasm Chocolate Oud | 11 از برند Kayali بخشی از مجموعه Oudgasm است که قرار است در سال 2025 عرضه شود. با Oudgasm Chocolate Oud | 11، یک عطر خوشمزه و اغواکننده که پوست را در گرمایی مغناطیسی می‌پیچد که هم اشتها‌آور و هم سکسی به نظر می‌رسد، در یک فانتزی گورماند غوطه‌ور شوید. این عطر با ترکیبی وسوسه‌انگیز از رام ادویه‌دار و سیب کاراملی آغاز می‌شود، ترکیبی از شیرینی و ادویه که با هم بازی می‌کنند. با عمیق‌تر شدن رایحه، زنبق مخملی و بخور در نت میانی می‌سوزند و سپس در یک رایحه اعتیادآور ذوب می‌شوند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
