@@ -163043,5 +163043,1462 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AXE/Jungle-Fresh-148945.html",
+    "extractedAt": "2026-11-28T06:55:16.718Z",
+    "name": "Jungle Fresh",
+    "brand": "AXE",
+    "family": "Woody Aromatic",
+    "gender": "men. This is a new fragrance. <b>Jungle Fresh</b> was launched in 2026. The fragrance features Palm Leaf, Sandalwood, Ambergris, Herbal Notes, Lemon, Vetiver, Bergamot and Lavender",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148945.jpg",
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 87
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 78
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 78
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 43
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148945,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jungle Fresh",
+    "brandFa": "AXE",
+    "nameFa": "Jungle Fresh",
+    "familyFa": "چوبی معطر",
+    "genderFa": "men. This is a new fragrance. <b>Jungle Fresh</b> was launched in 2026. The fragrance features Palm Leaf, Sandalwood, Ambergris, Herbal Notes, Lemon, Vetiver, Bergamot and Lavender",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/AXE/Midnight-Amber-148944.html",
+    "extractedAt": "2026-11-28T06:55:21.491Z",
+    "name": "Midnight Amber",
+    "brand": "AXE",
+    "family": "Oriental",
+    "gender": "men. This is a new fragrance. <b>Midnight Amber</b> was launched in 2026. The fragrance features Hazelnut, Sandalwood, Vanilla and Amber",
+    "year": 2026,
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148944.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 62
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 62
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 25
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 148944,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Midnight Amber",
+    "brandFa": "AXE",
+    "nameFa": "Midnight Amber",
+    "familyFa": "شرقی",
+    "genderFa": "men. This is a new fragrance. <b>Midnight Amber</b> was launched in 2026. The fragrance features Hazelnut, Sandalwood, Vanilla and Amber",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Beau-55785.html",
+    "extractedAt": "2026-11-28T06:55:25.197Z",
+    "name": "Le Beau",
+    "brand": "Jean Paul Gaultier",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Quentin Bisch and Sonia Constant",
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Tonka Bean"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55785.jpg",
+    "rating": 4.31,
+    "ratingVotes": 12530,
+    "accords": [
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 77
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 47
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 33
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 55785,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Le Beau",
+    "brandFa": "ژان پل گوتیه",
+    "nameFa": "Le Beau",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Quentin Bisch and Sonia Constant",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا"
+    ],
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Luce-di-Tuscana-Italian-Fig-Wood-140584.html",
+    "extractedAt": "2026-11-28T06:55:30.309Z",
+    "name": "Luce di Tuscana Italian Fig & Wood",
+    "brand": "Zara",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Luce di Tuscana Italian Fig & Wood</b> was launched in 2026. The nose behind this fragrance is Jo Malone. The fragrance features Fig, Blonde Woods and Lemon",
+    "year": 2026,
+    "perfumer": "Jo Malone",
+    "description": "Luce di Tuscana Italian Fig & Wood by Zara is a unisex fragrance from The Art of Becoming collection. The composition combines the bright freshness of primofiore lemon with the soft, fruity character of Italian fig, resting on a clean blonde woods base. Its imagery suggests a sunlit Tuscan setting with cypress-lined paths and a calm, unhurried atmosphere.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.140584.jpg",
+    "rating": 4.08,
+    "ratingVotes": 87,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 65
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 38
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 13
+      },
+      {
+        "nameEn": "bitter",
+        "nameFa": "تلخ",
+        "percent": 12
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 3
+      }
+    ],
+    "fragranticaId": 140584,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Luce di Tuscana Italian Fig & Wood",
+    "brandFa": "Zara",
+    "nameFa": "Luce di Tuscana Italian Fig & Wood",
+    "genderFa": "women and men. This is a new fragrance. <b>Luce di Tuscana Italian Fig & Wood</b> was launched in 2026. The nose behind this fragrance is Jo Malone. The fragrance features Fig, Blonde Woods and Lemon",
+    "perfumerFa": "Jo Malone",
+    "descriptionFa": "Luce di Tuscana Italian Fig & Wood از برند Zara یک عطر یونیسکس از مجموعه The Art of Becoming است. این ترکیب، طراوت درخشان لیموی پرایموفیوره را با ویژگی ملایم و میوه‌ای انجیر ایتالیایی ترکیب می‌کند که بر پایه چوب‌های روشن و تمیز استوار است. تصاویر آن حاکی از یک منظره آفتاب‌گیر در توسکانی با مسیرهایی پوشیده از درخت سرو و فضایی آرام و بی‌شتاب است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Xerjoff/Layla-80272.html",
+    "extractedAt": "2026-11-28T06:55:36.955Z",
+    "name": "Layla",
+    "brand": "Xerjoff",
+    "family": null,
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Nutmeg",
+      "Cloves"
+    ],
+    "middleNotes": [
+      "Ylang-Ylang",
+      "Singapore Patchouli",
+      "Atlas Cedar"
+    ],
+    "baseNotes": [
+      "Madagascar Vanilla",
+      "Musk",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.80272.jpg",
+    "rating": 3.94,
+    "ratingVotes": 192,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 97
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 96
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 81
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 74
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 56
+      }
+    ],
+    "fragranticaId": 80272,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Layla",
+    "brandFa": "زروجف",
+    "nameFa": "Layla",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "جوز هندی",
+      "Cloves"
+    ],
+    "middleNotesFa": [
+      "ایلنگ‌ایلنگ",
+      "Singapore Patchouli",
+      "سرو اطلس"
+    ],
+    "baseNotesFa": [
+      "وانیل ماداگاسکار",
+      "موش",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/City-Rhythm/Tempo-107329.html",
+    "extractedAt": "2026-11-28T06:55:40.428Z",
+    "name": "Tempo",
+    "brand": "City Rhythm",
+    "family": "Woody",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": null,
+    "topNotes": [
+      "Strawberry",
+      "Limetta",
+      "Sugar",
+      "Bergamot",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Incense",
+      "Pepper",
+      "Lily of the Valley",
+      "Jasmine",
+      "Rose",
+      "Tonka"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood",
+      "Ambergris",
+      "Amber",
+      "Oakmoss",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107329.jpg",
+    "rating": 4.4,
+    "ratingVotes": 208,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 71
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 66
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 66
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 43
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 107329,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tempo",
+    "brandFa": "City Rhythm",
+    "nameFa": "Tempo",
+    "familyFa": "چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "توت‌فرنگی",
+      "Limetta",
+      "شکر",
+      "برگاموت",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "عود بخور",
+      "فلفل",
+      "لاله سفید",
+      "یاسمن",
+      "گل رز",
+      "Tonka"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "چوب صندل",
+      "کهربا خاکستری",
+      "کهربا",
+      "خزه بلوط",
+      "وتیور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Marc-Jacobs/Perfect-Eau-de-Toilette-78372.html",
+    "extractedAt": "2026-11-28T06:55:43.921Z",
+    "name": "Perfect Eau de Toilette",
+    "brand": "Marc Jacobs",
+    "family": "Floral",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Domitille Michalon Bertier",
+    "topNotes": [
+      "Polygonum",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Narcissus"
+    ],
+    "baseNotes": [
+      "Cedar"
+    ],
+    "description": "Perfect Eau de Toilette, the new fragrance from Marc Jacobs, comes out in late 2022/ early 2023 and is described as uplifting and joyful. The new flanker comes after the original Perfect Eau de Parfum and Perfect Intense. It is a luminous floral fragrance that celebrates the power of being true to yourself.</p> <p>Introducing Perfect Eau de Toilette, the new fragrance from Marc Jacobs. a companion to Perfect Eau de Parfum and Perfect Intense, the luminous floral scent celebrates the power of being true to yourself. Like the original fragrance that launched globally in July 2020, perfect eau de toilette is inspired by Marc Jacobs’s personal mantra: “I am perfect as I am,” which is symbolized by a tattoo of the word “perfect” on his wrist. Uplifting and joyful, Perfect Eau de Toilette brings a fresh olfactive facet and a more intimate interpretation of being<strong> #perfectasiam.</strong></p> <p>Perfect Eau de Toilette offers a vulnerable and unfiltered perspective on being seen as your authentic self. The new print and digital campaign is a powerful celebration of individuality, personal truth, and authenticity featuring an inclusive range of talent speaking about their own belief in true self-love. Shot in New York City, renowned fashion photographer Juergen Teller and creative director Katie Grand returned to the Marc Jacobs set, this time creating a minimalist backdrop in soft hues to highlight the contrasting beauty of the cast, allowing their unique personalities and youthful optimism to radiate through the #perfectasiam storytelling.</p> <p>The fragrance is a fresh and bright interpretation of the original comforting floral scent, composed by perfumer Domitlle Michalon-Bertier of IFF, reimagined a white bouquet with an unexpected twist of modern notes, including pink peppercorn and polygonum. The result is a luminous and joyful, clean, comforting floral with a woody base and an elegant trail.<br /> <br /> TOP NOTES: pink peppercorn, polygonum<br /> HEART NOTES: white daffodil<br /> BASE NOTES: cedarwood</p> <p>The design of Perfect Eau de Toilette design is a refreshed take on the original perfect bottle and packaging, crafted in collaboration with marc jacobs himself and featuring an elegant blend of unexpected elements. The weighted glass base is inspired by the femininity and grace of a classic parfum, with domed shoulders and a gilded collar. At the top, the crystal-cut cap is crowned with an eclectic assortment of mismatched charms, updated in a dazzling combination of cool green and blue hues that play with transparency and texture, combined with metallic silver and pale gold accents. Inside, the juice is presented in a soft green shade, reflecting the fresh, clean, and uplifting new fragrance offering. Complementary to the bottle, the outer packaging is a unique pastel green with a pearlescent finish, juxtaposed with sleek silver touches and a vibrant illustration by new york based artist jacky blue, which highlights the new charm of colors and textures.</p> <p>Available in 50 and 100 ml Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78372.jpg",
+    "rating": 3.82,
+    "ratingVotes": 732,
+    "accords": [
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 100
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 63
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 53
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 39
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 30
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 19
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 78372,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Toilette",
+    "baseName": "Perfect",
+    "brandFa": "Marc Jacobs",
+    "nameFa": "Perfect Eau de Toilette",
+    "concentrationFa": "ادو توالت",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Domitille Michalon Bertier",
+    "topNotesFa": [
+      "Polygonum",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "نرگس"
+    ],
+    "baseNotesFa": [
+      "سرو"
+    ],
+    "descriptionFa": "Perfect Eau de Toilette، عطر جدید Marc Jacobs، در اواخر سال 2022/ اوایل سال 2023 عرضه می‌شود و به عنوان عطری نشاط‌آور و شادی‌بخش توصیف می‌شود. این عطر جدید پس از عطر اصلی Perfect Eau de Parfum و Perfect Intense عرضه می‌شود. این عطر یک رایحه گل‌فام درخشان است که قدرت وفادار بودن به خود را تجلیل می‌کند.</p> <p>معرفی Perfect Eau de Toilette، عطر جدید از Marc Jacobs. مکمل Perfect Eau de Parfum و Perfect Intense،",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/City-Rhythm/Manhattan-Midnight-107326.html",
+    "extractedAt": "2026-11-28T06:55:50.665Z",
+    "name": "Manhattan Midnight",
+    "brand": "City Rhythm",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Violet Leaf",
+      "Cassia",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Tea",
+      "Pimento",
+      "Pepper",
+      "Frankincense",
+      "Myrrh",
+      "Rock rose"
+    ],
+    "baseNotes": [
+      "Tobacco Leaf",
+      "Vanilla",
+      "Vetiver"
+    ],
+    "description": "A refined, intense Elixir interpretation of the original Manhattan fragrance, designed for cooler seasons. Features a complex blend of violet leaf, cassia, bergamot, rock rose, frankincense, myrrh, pimento pepper, tea, tobacco leaf, vanilla, and vetiver. The scent balances fresh top notes with a warm, spicy-oriental base, evoking the nocturnal energy of Manhattan with sophistication and depth.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107326.jpg",
+    "rating": 4.38,
+    "ratingVotes": 258,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 90
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 88
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 85
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 70
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 64
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 59
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      }
+    ],
+    "fragranticaId": 107326,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Manhattan Midnight",
+    "brandFa": "City Rhythm",
+    "nameFa": "Manhattan Midnight",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "برگ بنفشه",
+      "دارچین چینی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "چای",
+      "فلفل هلندی",
+      "فلفل",
+      "کندر",
+      "مور",
+      "Rock rose"
+    ],
+    "baseNotesFa": [
+      "برگ تنباکو",
+      "وانیل",
+      "وتیور"
+    ],
+    "descriptionFa": "تفسیر Elixir که ترکیبی ظریف و شدید از عطر اصلی Manhattan است و برای فصول سردتر طراحی شده است. ترکیبی پیچیده از برگ بنفشه، دارچین چینی، ترنج، گل‌سنگ، کندر، مر، فلفل دلمه‌ای، چای، برگ تنباکو، وانیل و وتیور را شامل می‌شود. این رایحه، نت‌های بالای تازه را با پایه‌ای گرم، تند و شرقی متعادل می‌کند و انرژی شبانه منهتن را با ظرافت و عمق تداعی می‌کند.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Asad-Zanzibar-Limited-Edition-122722.html",
+    "extractedAt": "2026-11-28T06:55:56.942Z",
+    "name": "Asad Zanzibar Limited Edition",
+    "brand": "Lattafa Perfumes",
+    "family": "Oriental Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Marine notes",
+      "Lavender",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Soap",
+      "Cashmeran",
+      "Cinnamon"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood",
+      "Cedar",
+      "Tonka Bean"
+    ],
+    "description": "O Asad Zanzibar Limited Edition Lattafa é uma interpretação exclusiva e sofisticada da linha Asad, criada para transmitir intensidade, frescor e elegância em uma única fragrância. Inspirado na atmosfera vibrante e exótica de Zanzibar, este perfume combina notas marinhas refrescantes com especiarias quentes e uma base amadeirada envolvente, resultando em uma composição moderna e marcante.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.122722.jpg",
+    "rating": 4.14,
+    "ratingVotes": 493,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 88
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 85
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 84
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 67
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 47
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 122722,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Asad Zanzibar Limited Edition",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Asad Zanzibar Limited Edition",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "Marine notes",
+      "اسطوخودوس",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Soap",
+      "کشماران",
+      "دارچین"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چوب صندل",
+      "سرو",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "O Asad Zanzibar Limited Edition Lattafa تفسیر منحصر به فرد و پیچیده‌ای از خط تولید Asad است که برای القای شدت، طراوت و ظرافت در یک عطر واحد خلق شده است. این عطر که از فضای پر جنب و جوش و عجیب زنجبار الهام گرفته شده است، رایحه‌های دریایی خنک را با ادویه‌های گرم و رایحۀ پایه چوبی دلپذیر ترکیب می‌کند و در نتیجه ترکیبی مدرن و چشمگیر ایجاد می‌کند.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Massimo-Dutti/Figs-Cedar-136693.html",
+    "extractedAt": "2026-11-28T06:56:02.090Z",
+    "name": "Figs & Cedar",
+    "brand": "Massimo Dutti",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Fig",
+      "Violet"
+    ],
+    "baseNotes": [
+      "Cedar"
+    ],
+    "description": "Figs & Cedar by Massimo Dutti is an eau de parfum presented in the brand’s floral perfume range. It is described as having a floral, green and musky composition in which fig provides a juicy green sweetness with a natural, creamy nuance. The cedar element, highlighted in the fragrance name, adds a contrasting woody facet to the fig accord, creating a structured profile that blends smooth woods with the soft, creamy character of fig within a modern floral context.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136693.jpg",
+    "rating": 4.32,
+    "ratingVotes": 31,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 38
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 22
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 15
+      },
+      {
+        "nameEn": "bitter",
+        "nameFa": "تلخ",
+        "percent": 12
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 136693,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Figs & Cedar",
+    "brandFa": "Massimo Dutti",
+    "nameFa": "Figs & Cedar",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "انجیر",
+      "بنفشه"
+    ],
+    "baseNotesFa": [
+      "سرو"
+    ],
+    "descriptionFa": "Figs & Cedar از Massimo Dutti یک ادو پرفیوم است که در مجموعه عطر‌های گلی این برند عرضه شده است. این عطر به عنوان عطری با ترکیبات گل‌فام، سبز و مشکی توصیف می‌شود که در آن انجیر شیرینی سبز و آبداری را با یک حس طبیعی و خامه مانند ایجاد می‌کند. عنصر سدر که در نام عطر برجسته شده است، جنبه چوبی متضادی به ترکیب انجیر می‌افکند و ترکیبی ساختاریافته ایجاد می‌کند که چوب‌های ملایم را با ویژگی نرم و خامه مانند انجیر در یک کل منسجم ترکیب می‌کند.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Byredo/Future-Memories-138414.html",
+    "extractedAt": "2026-11-28T06:56:07.314Z",
+    "name": "Future Memories",
+    "brand": "Byredo",
+    "family": "Floral Aldehyde",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Quentin Bisch and Givaudan",
+    "topNotes": [
+      "Aldehydes",
+      "Blackcurrant",
+      "Galbanum"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Iris Butter",
+      "Labdanum",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Cream Liqueur",
+      "Ambrofix™",
+      "Musk"
+    ],
+    "description": "The brand’s captivating new fragrance, launched in 2026. It opens with a vibrant top accord of Galbanum Essence, Blackcurrant Accord, and sparkling Aldehydes. The heart unfolds with luxurious Iris Butter, earthy Labdanum, delicate Orange Blossom Accord, and soft White Vanilla Accord. In the base, it settles into a rich, addictive blend of Vanilla-Liqueur Accord, Madagascar Vanilla, Ambrofix, and sensual Musk.A modern, nostalgic yet forward-looking scent that blends green freshness, floral elegance, and warm, creamy vanilla depths — perfectly evoking memories yet to be made.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138414.jpg",
+    "rating": 3.75,
+    "ratingVotes": 934,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 73
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 55
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 53
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 35
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 138414,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Future Memories",
+    "brandFa": "بایردو",
+    "nameFa": "Future Memories",
+    "familyFa": "Floral Aldehyde",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Quentin Bisch and Givaudan",
+    "topNotesFa": [
+      "آلدهیدها",
+      "Blackcurrant",
+      "گلبانوم"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "Iris Butter",
+      "لابدانوم",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "Cream Liqueur",
+      "Ambrofix™",
+      "موش"
+    ],
+    "descriptionFa": "عطر جدید و جذاب این برند که در سال 2026 عرضه شد. این عطر با آکوردی پرنشاط از اسانس گلبانوم، آکورد انگور فرنگی سیاه و آلدئیدهای درخشان آغاز می‌شود. نت میانی با رایحه لوکس کره زنبق، لادن خاکی، نت ظریف شکوفه پرتقال و نت ملایم وانیل سفید آشکار می‌شود. در رایحه پایه، به ترکیبی غنی و اعتیادآور از آکورد لیکور وانیل، وانیل ماداگاسکار، آمبروفیکس و مشک حسی تبدیل می‌شود. رایحه‌ای مدرن، نوستالژیک و در عین حال آینده‌نگر.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Taskeen-Lactea-Divina-99799.html",
+    "extractedAt": "2026-11-28T06:56:12.047Z",
+    "name": "Taskeen Lactéa Divina",
+    "brand": "PARIS CORNER",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cacao",
+      "Incense"
+    ],
+    "middleNotes": [
+      "Tuberose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Milk",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "description": "Discover Taskeen Lactea Divina - a fragrance where milky elegance meets floral opulence. Opening with a touch of velvety cocoa and a whisper of incense, this scent unveils a heart of lush jasmine and creamy tuberose, casting a spell of floral radiance. As it settles, warm milk, rich vanilla, and comforting tonka bean create an embrace of soft indulgence. Lactea Divina is more than a perfume; it’s an experience of serene beauty and timeless grace, crafted for those who cherish the gentle and the divine.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99799.jpg",
+    "rating": 3.92,
+    "ratingVotes": 1432,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 84
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 76
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 52
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 52
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 42
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 99799,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Taskeen Lactéa Divina",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Taskeen Lactéa Divina",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "کاکائو",
+      "عود بخور"
+    ],
+    "middleNotesFa": [
+      "گل شیپور",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "شیر",
+      "وانیل",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Taskeen Lactea Divina را کشف کنید - عطری که در آن ظرافت شیری با شکوه گل‌ها آمیخته می‌شود. این عطر که با رایحه‌ای از کاکائوی مخملی و بویی خفیف از بخور آغاز می‌شود، در نت میانی خود رایحه‌ای از یاس پرطراوت و مریم‌ماهوش خامه مانند را آشکار می‌کند و جادوی درخشندگی گل‌ها را به نمایش می‌گذارد. با تثبیت رایحه، شیر گرم، وانیل غنی و دانه‌های تونکا آرامش‌بخش، آغوشی از لذت ملایم ایجاد می‌کنند. Lactea Divina فراتر از یک عطر است؛ این عطر تجربه‌ای از زیبایی آرام و وقار جاودانه است،",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-2023-84112.html",
+    "extractedAt": "2026-11-28T06:56:18.826Z",
+    "name": "Absolu Aventus 2023",
+    "brand": "Creed",
+    "family": null,
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Pink Pepper",
+      "Black Currant",
+      "Pineapple",
+      "Nutmeg",
+      "Cloves"
+    ],
+    "middleNotes": [
+      "Ginger",
+      "Cinnamon",
+      "Citron",
+      "Cardamom",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vetiver",
+      "Oakmoss",
+      "Ambroxan",
+      "Sandalwood",
+      "Musk",
+      "Tonka",
+      "Evernyl"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84112.jpg",
+    "rating": 4.42,
+    "ratingVotes": 3471,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 65
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 62
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 56
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 55
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 52
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 33
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 84112,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Absolu",
+    "baseName": "Aventus 2023",
+    "brandFa": "کريد",
+    "nameFa": "Absolu Aventus 2023",
+    "concentrationFa": "ابسولو",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "فلفل صورتی",
+      "توت سیاه",
+      "آناناس",
+      "جوز هندی",
+      "Cloves"
+    ],
+    "middleNotesFa": [
+      "زنجبیل",
+      "دارچین",
+      "Citron",
+      "هل",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وتیور",
+      "خزه بلوط",
+      "آمبروکسان",
+      "چوب صندل",
+      "موش",
+      "Tonka",
+      "Evernyl"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Crivelli/Papyrus-Moleculaire-59189.html",
+    "extractedAt": "2026-11-28T06:56:23.786Z",
+    "name": "Papyrus Moleculaire",
+    "brand": "Maison Crivelli",
+    "family": "Floral Woody Musk",
+    "gender": "women and men. <b>Papyrus Moleculaire</b> was launched in 2020. The nose behind this fragrance is Leslie Girard. The fragrance features Papyrus, Black Pepper, Elemi resin, Coriander, Amyris, Olibanum, Carrot Seeds, Tobacco and Tonka Bean",
+    "year": 2020,
+    "perfumer": "Leslie Girard",
+    "description": "\"Thibaud Crivelli discovered papyrus powder during an unexpected encounter with a group of women who were smoking cigarillos. The impromptu character of the moment, along with its feminine/virile duality, led him to work on a gender-free perfume highlighting a raw material little-known in Haute Perfumery. Papyrus, which has warm, woody, spicy and smoky notes, here reveals its more transparent, powdery yet spicy aspects. A strong signature with highly contrasting notes provides a rebellious perfume reflecting this stolen moment!</p> <p>Papyrus twist, carrot twirl, indigo grip. Incandescent roots, coriander boost, ground amyris. Strong character, powdery skin. Peppery tonka, a hint of cigar: rebellious sweetness, peals of laughter.</p> <p>Papyrus lies at the heart of this perfume. The spicy, original notes of this raw material are coupled with and heightened by a lively piquant duo of elemi and pepper. An aromatic raw material with green facets, elemi is accentuated by a touch of coriander, which adds a truly original head note. The papyrus heart of the perfume reveals a woody note of iris, while a soft amyris facet is enlivened by powdery carrot seed. The base sees tonka bean extend the rounded woods, as its hay facet combines with tobacco leaves. Meanwhile, frankincense boosts the pepper and powdery notes. From the heart through to the base, each raw material completes this unique and complex accord.\" - a note from the brand.</p> <p>\"I wanted to take a different approach to working on a papyrus-based fragrance. This wood is usually combined with very oriental notes and oud. I wanted to create a contrast between hot and cold, with the fresh, effusive notes of coriander leaf, followed by the spicy aspect of elemi, and the intense, smoky woody side of papyrus. This composition is warmed by a milky, musky amyris, which has entrancing notes of cigar. I added a hint of iris and powder to bring a touch of elegance and sensuality to the perfume.\" - <strong>Leslie Girard</strong>, the perfumer.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59189.jpg",
+    "rating": 3.94,
+    "ratingVotes": 1198,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 87
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 37
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 36
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 32
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 28
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 59189,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Papyrus Moleculaire",
+    "brandFa": "مزون کریولی",
+    "nameFa": "Papyrus Moleculaire",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "women and men. <b>Papyrus Moleculaire</b> was launched in 2020. The nose behind this fragrance is Leslie Girard. The fragrance features Papyrus, Black Pepper, Elemi resin, Coriander, Amyris, Olibanum, Carrot Seeds, Tobacco and Tonka Bean",
+    "perfumerFa": "Leslie Girard",
+    "descriptionFa": "«تیبو کریولی در جریان یک برخورد غیرمنتظره با گروهی از زنان که در حال سیگار برگ کشیدن بودند، با پودر پاپیروس آشنا شد. ماهیت بداهه‌وار آن لحظه، همراه با دوگانگی زنانه/مردانه آن، او را بر آن داشت تا روی یک عطر بدون جنسیت کار کند که ماده اولیه‌ای را برجسته می‌کند که در عطر‌سازی درجه یک کمتر شناخته شده است. پاپیروس که دارای رایحه‌های گرم، چوبی، تند و دودی است، در اینجا جنبه‌های شفاف‌تر، پودری و در عین حال تند خود را آشکار می‌کند. یک امضای قوی با",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
