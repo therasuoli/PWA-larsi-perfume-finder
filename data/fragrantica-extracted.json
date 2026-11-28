@@ -160889,5 +160889,1452 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sahari/Sahr-Al-Kalimat-109562.html",
+    "extractedAt": "2026-11-28T04:51:48.065Z",
+    "name": "Sahr Al Kalimat",
+    "brand": "Sahari",
+    "family": "Oriental Floral",
+    "gender": "women. Top notes are Jasmine Sambac, Tangerine, Bergamot and Pear; middle notes are Orange Blossom, Cherry Blossom, Neroli Essence and Neroli; base notes are White Musk, Vanilla, Benzoin and Amber",
+    "topNotes": [
+      "Jasmine Sambac",
+      "Tangerine",
+      "Bergamot",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Orange Blossom",
+      "Cherry Blossom",
+      "Neroli Essence",
+      "Neroli"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Vanilla",
+      "Benzoin",
+      "Amber"
+    ],
+    "description": "Sahr Al Kalimat by Sahari is a women's Eau de Parfum featuring a blend of fruity, floral, and warm notes. The top notes include Pear, Jasmine Sambac, Tangerine, and Bergamot. The heart notes are Orange Blossom, Cherry Blossom, Neroli Essence, and Neroli. The base notes are White Musk, Benzoin, Vanilla, and Amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109562.jpg",
+    "rating": 4.41,
+    "ratingVotes": 73,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 28
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 28
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 19
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 19
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 109562,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sahr Al Kalimat",
+    "brandFa": "Sahari",
+    "nameFa": "Sahr Al Kalimat",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women. Top notes are Jasmine Sambac, Tangerine, Bergamot and Pear; middle notes are Orange Blossom, Cherry Blossom, Neroli Essence and Neroli; base notes are White Musk, Vanilla, Benzoin and Amber",
+    "topNotesFa": [
+      "Jasmine Sambac",
+      "تانجرین",
+      "برگاموت",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل پرتقال",
+      "Cherry Blossom",
+      "Neroli Essence",
+      "نرولی"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "وانیل",
+      "بنزوئین",
+      "کهربا"
+    ],
+    "descriptionFa": "Sahr Al Kalimat از برند Sahari یک ادو پرفیوم زنانه است که ترکیبی از رایحه‌های میوه‌ای، گل‌دار و گرم را ارائه می‌دهد. نت‌های اولیه شامل گلابی، یاس سامباک، نارنگی و ترنج هستند. نت‌های میانی شامل شکوفه پرتقال، شکوفه گیلاس، عصاره نرولی و نرولی هستند. نت‌های پایه عبارتند از مشک سفید، بنزوئین، وانیل و عنبر.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lore/Lovely-and-a-little-twisted-114796.html",
+    "extractedAt": "2026-11-28T04:51:54.084Z",
+    "name": "Lovely and a little twisted",
+    "brand": "Lore",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Rose Milk",
+      "Pistachio"
+    ],
+    "middleNotes": [
+      "Oud",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Resin"
+    ],
+    "description": "Lovely and a little twisted by Lore is described as opening with a creamy, gourmand accord of rose milk and candied pistachio, moving into a denser heart of patchouli and oud, and settling into an amber-resin base. The composition contrasts sweet, milky facets with woody-resinous tones.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114796.jpg",
+    "rating": 3.96,
+    "ratingVotes": 325,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 45
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 33
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 27
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 26
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 24
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 114796,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lovely and a little twisted",
+    "brandFa": "Lore",
+    "nameFa": "Lovely and a little twisted",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Rose Milk",
+      "پسته"
+    ],
+    "middleNotesFa": [
+      "عود",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "Resin"
+    ],
+    "descriptionFa": "Lovely and a little twisted از برند Lore به این صورت توصیف می‌شود که با ترکیبی کرمی و خوش‌بو از شیر گل رز و پسته شکری آغاز می‌شود، سپس به رایحه‌ای قوی‌تر از نعناع هندی و عود می‌رسد و در نهایت در رایحه پایه کهربا و رزین تثبیت می‌شود. این ترکیب، جنبه‌های شیرین و شیری را با رایحه‌های چوبی-رزینی در تضاد قرار می‌دهد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Dumont/Nitro-White-95995.html",
+    "extractedAt": "2026-11-28T04:51:59.471Z",
+    "name": "Nitro White",
+    "brand": "Dumont",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Juniper Berries",
+      "Iris",
+      "Cypress"
+    ],
+    "middleNotes": [
+      "Myrrh",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Honey",
+      "Vanilla",
+      "Amber",
+      "Musk",
+      "Leather"
+    ],
+    "description": "Nitro White Dumont is a fragrance for men featuring a blend of intriguing notes. The composition opens with cypress, iris, and juniper berries, leading to a heart of patchouli and myrrh. The base is enriched with musk, amber, honey, vanilla, and leather.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95995.jpg",
+    "rating": 4.46,
+    "ratingVotes": 754,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 96
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 95
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 91
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 87
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 83
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 81
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      }
+    ],
+    "fragranticaId": 95995,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nitro White",
+    "brandFa": "Dumont",
+    "nameFa": "Nitro White",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "زغالک عرعر",
+      "زنبق",
+      "سرو کوهی"
+    ],
+    "middleNotesFa": [
+      "مور",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "عسل",
+      "وانیل",
+      "کهربا",
+      "موش",
+      "چرم"
+    ],
+    "descriptionFa": "Nitro White Dumont عطری برای آقایان است که ترکیبی از رایحه‌های جذاب را ارائه می‌دهد. این ترکیب با رایحه‌های سرو، زنبق و دانه‌های عرعر آغاز می‌شود و به رایحه‌های اصلی نعناع هندی و مر به‌سر می‌برد. رایحه پایه با مشک، عنبر، عسل، وانیل و چرم غنی شده است.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jorum-Studio/Spiritcask-79477.html",
+    "extractedAt": "2026-11-28T04:52:04.202Z",
+    "name": "Spiritcask",
+    "brand": "Jorum Studio",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "Euan McCall",
+    "topNotes": [
+      "Whiskey",
+      "Pear",
+      "Chamomile",
+      "Cognac",
+      "Rum"
+    ],
+    "middleNotes": [
+      "Malt",
+      "Jasmine",
+      "Ylang-Ylang"
+    ],
+    "baseNotes": [
+      "Vanilla Absolute",
+      "Whiskey",
+      "Maple",
+      "Oak",
+      "Cacao",
+      "Guaiac Wood",
+      "Lactones",
+      "Cedar",
+      "Coffee",
+      "Labdanum",
+      "Leather"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79477.jpg",
+    "rating": 4.01,
+    "ratingVotes": 381,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 37
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 36
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 31
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 31
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 20
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 16
+      },
+      {
+        "nameEn": "cacao",
+        "nameFa": "cacao",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 79477,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spiritcask",
+    "brandFa": "Jorum Studio",
+    "nameFa": "Spiritcask",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Euan McCall",
+    "topNotesFa": [
+      "ویسکی",
+      "گلابی",
+      "بابونه",
+      "کوناک",
+      "رام"
+    ],
+    "middleNotesFa": [
+      "Malt",
+      "یاسمن",
+      "ایلنگ‌ایلنگ"
+    ],
+    "baseNotesFa": [
+      "Vanilla Absolute",
+      "ویسکی",
+      "Maple",
+      "Oak",
+      "کاکائو",
+      "چوب گوئیک",
+      "Lactones",
+      "سرو",
+      "قهوه",
+      "لابدانوم",
+      "چرم"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Green-Irish-Tweed-474.html",
+    "extractedAt": "2026-11-28T04:52:07.807Z",
+    "name": "Green Irish Tweed",
+    "brand": "Creed",
+    "family": "Woody Floral Musk",
+    "gender": "men",
+    "year": 1985,
+    "perfumer": "Olivier Creed and Pierre Bourdon",
+    "topNotes": [
+      "Iris",
+      "Vervain"
+    ],
+    "middleNotes": [
+      "Violet Leaf"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Sandalwood"
+    ],
+    "description": "Green Irish Tweed by Creed is a classic Fougere fragrance. One of the signature scents of the house of Creed, this \"walk through the Irish countrywide\" is a favorite of many celebrities. The fragrance is rich, fresh, sporty and unforgettable.</p> <p>Green Irish Tweed opens with top notes of iris and lemon verbena. The middle notes include violet leaves. The base notes are ambergris and Mysore sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.474.jpg",
+    "rating": 4.29,
+    "ratingVotes": 12706,
+    "accords": [
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 70
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 70
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 70
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 41
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 35
+      }
+    ],
+    "fragranticaId": 474,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Green Irish Tweed",
+    "brandFa": "کريد",
+    "nameFa": "Green Irish Tweed",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Creed and Pierre Bourdon",
+    "topNotesFa": [
+      "زنبق",
+      "Vervain"
+    ],
+    "middleNotesFa": [
+      "برگ بنفشه"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Green Irish Tweed از برند Creed یک عطر کلاسیک فوژر است. این عطر که یکی از عطرهای خاص برند کرید است، «پیاده‌روی در سراسر حومه ایرلند» نام دارد و مورد علاقه بسیاری از افراد مشهور است. این عطر غنی، تازه، اسپرت و فراموش‌نشدنی است.</p> <p>Green Irish Tweed با نت‌های اولیه زنبق و وربنای لیمویی آغاز می‌شود. نت‌های میانی شامل برگ‌های بنفشه هستند. نت‌های پایه عبارتند از عنبر و چوب صندل میسور.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Andrea-Maack/Muse-107113.html",
+    "extractedAt": "2026-11-28T04:52:13.821Z",
+    "name": "Muse",
+    "brand": "Andrea Maack",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Domitille Michalon Bertier",
+    "topNotes": [
+      "Mango",
+      "Pink Pepper",
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Sweet Pea",
+      "Gardenia"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Cedarwood"
+    ],
+    "description": "Muse by Andrea Maack is a unisex fragrance inspired by the transition of a summer afternoon into evening. The scent opens with sweet pea and pink pepper, complemented by creamy gardenia, and settles into a warm base of sandalwood and cashmere. Muse evokes the atmosphere of a sunlit day and a balmy night by the ocean.</p> <p>\"A summer afternoon that glows from transparent blue into molten magenta. Melting mango creamsicles, coconut sun tans, and bare shoulders sprayed with warm freckles and glittering ocean mist. Sweet pea, pink pepper, and creamy gardenia shimmer over a base of warm sandalwood and cashmere. The scent of a summer day that never ends, and a balmy night that never should.\"</p> <p>Available in 15ml and 50ml Extrait de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107113.jpg",
+    "rating": 4.09,
+    "ratingVotes": 110,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 69
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 63
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 62
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 47
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 38
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 107113,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Muse",
+    "brandFa": "Andrea Maack",
+    "nameFa": "Muse",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Domitille Michalon Bertier",
+    "topNotesFa": [
+      "مانگو",
+      "فلفل صورتی",
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "گیاه نخود فرنگی شیرین",
+      "گاردنیا"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Cashmere Wood",
+      "چوب سرو"
+    ],
+    "descriptionFa": "Muse از Andrea Maack یک عطر یونیسکس است که از تغییر یک بعدازظهر تابستانی به غروب الهام گرفته شده است. این عطر با رایحه نخود شیرین و فلفل صورتی آغاز می‌شود، با رایحه ملایم گاردنیا تکمیل می‌شود و در نهایت به رایحه گرم چوب صندل و کشمیر می‌رسد. Muse حال و هوای یک روز آفتابی و یک شب معتدل کنار اقیانوس را تداعی می‌کند.</p> <p>«یک بعدازظهر تابستانی که از آبی شفاف به سمت سرخابی درخشان تغییر رنگ می‌دهد. بستنی‌های انبه‌ای در حال آب شدن، برنزه شدن با روغن نارگیل، و ب",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Novaa-Zara-Novaya-Zarya-The-New-Dawn/Krasnaa-Moskva-Red-Moscow-4758.html",
+    "extractedAt": "2026-11-28T04:52:19.721Z",
+    "name": "Красная Москва (Red Moscow)",
+    "brand": "Новая Заря (Novaya Zarya – The New Dawn)",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 1929,
+    "perfumer": "Auguste Michel",
+    "topNotes": [
+      "Coriander",
+      "Orange Blossom",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Carnation",
+      "Ylang-Ylang",
+      "Jasmine",
+      "Rose"
+    ],
+    "baseNotes": [
+      "Iris",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "description": "Krasnaya Moskva was the very first ‘Soviet’ fragrance and certainly the most popular. According to the perfumers working for Novaya Zarya (a perfume and cosmetics producing factory in Moscow, Russia), the fragrance was created by Auguste Michel, but the year the composition was launched remains obscure: it either happened in 1913, at the then Henri Brocard’s factory in Moscow (i.e. before the Revolution in 1917) or later, when the factory was nationalized and given a new, Soviet-like name – Novaya Zarya (the New Dawn).</p> <p>According to the Osmotheque’s files, Krasnaya Mosva was created in 1925, which technically seems to be right. Abroad, the fragrance is also known as Red Moscow or Moscou Rouge.</p> <p>Other sources insist that Krasnaya Moskva was actually just a new Soviet name for a fragrance once known as Le Bouquet Préféré de l'Impératrice (‘Empress’ s Favorite Bouquet’), a composition created in 1913 at the Brocard’s factory in Moscow after he had died.</p> <p>Krasnaya Moskva is known to every citizen of the former Soviet Union and its name is rife with emotional associations. The fragrance is a classic example of a soft floral chypre , with a cool head note (bergamot, coriander, neroli, aldehydes), a spicy floral heart, based on carnation, rose, jasmine and ylang-ylang and a base note, made up of woody and balsamic notes such as iris and Tonka bean.</p> <p>A typical scent of its time (a spicy floral), the composition combines cool, almost metallic notes with warm floral and woody accords. It is pleasantly hefty, a bit tangy and it develops beautifully on the skin. Krasnaya Moskva (in perfume strength, as well as others) and other fragrances by Novaya Zarya are available for purchase in the factory’s boutique on Nikolskaya Street (in the shop center of Gostiniy Dvor), as well as via Internet.</p> <p>Please read the article Krasnaya Moskva or Red Moscow by Novaya Zarya",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4758.jpg",
+    "rating": 3.81,
+    "ratingVotes": 4344,
+    "accords": [
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 83
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 69
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 57
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 46
+      }
+    ],
+    "fragranticaId": 4758,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Красная Москва (Red Moscow)",
+    "brandFa": "Новая Заря (Novaya Zarya – The New Dawn)",
+    "nameFa": "Красная Москва (Red Moscow)",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Auguste Michel",
+    "topNotesFa": [
+      "گشنیز",
+      "گل پرتقال",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "میخک",
+      "ایلنگ‌ایلنگ",
+      "یاسمن",
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "زنبق",
+      "وانیل",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Krasnaya Moskva اولین عطر «شوروی» و قطعاً محبوب‌ترین آنها بود. به گفته عطرسازانی که برای Novaya Zarya (کارخانه‌ای تولیدکننده عطر و لوازم آرایشی در مسکو، روسیه) کار می‌کنند، این عطر توسط آگوست میشل ساخته شده است، اما سال عرضه این ترکیب همچنان نامشخص است: یا در سال 1913، در کارخانه آن زمان هنری بروکارد در مسکو (یعنی قبل از انقلاب 1917) یا بعداً، زمانی که کارخانه ملی شد، اتفاق افتاده است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lush/29-High-Street-39761.html",
+    "extractedAt": "2026-11-28T04:52:26.544Z",
+    "name": "29 High Street",
+    "brand": "Lush",
+    "family": null,
+    "gender": "women and men. <b>29 High Street</b> was launched in 2013. The nose behind this fragrance is Pia Long. The fragrance features Floral Fruity Notes, Sweet Notes, Honey, Green Notes and Caramel",
+    "year": 2013,
+    "perfumer": "Pia Long",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39761.jpg",
+    "rating": 4.18,
+    "ratingVotes": 321,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 36
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 33
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 11
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 11
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 4
+      },
+      {
+        "nameEn": "sour",
+        "nameFa": "ترش",
+        "percent": 3
+      }
+    ],
+    "fragranticaId": 39761,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "29 High Street",
+    "brandFa": "لاش",
+    "nameFa": "29 High Street",
+    "genderFa": "women and men. <b>29 High Street</b> was launched in 2013. The nose behind this fragrance is Pia Long. The fragrance features Floral Fruity Notes, Sweet Notes, Honey, Green Notes and Caramel",
+    "perfumerFa": "Pia Long",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Lost-Eden-136390.html",
+    "extractedAt": "2026-11-28T04:52:31.198Z",
+    "name": "Lost Eden",
+    "brand": "Maison Martin Margiela",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Candy Apple"
+    ],
+    "middleNotes": [
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Oud",
+      "Indonesian Patchouli Leaf"
+    ],
+    "description": "Lost Eden by Maison Margiela is a 2026 fragrance from the Replica collection. Presented as an Eau de Parfum, it is inspired by the idea of the forbidden fruit and a mystical garden, translating that theme into a fruity-woody composition.</p> <p>The scent centers on a candied red apple accord that gives the opening a sweet and slightly tart character. Vanilla adds warmth and softness in the heart, while oud forms a darker, smoky base that gives the fragrance a more shadowed and woody finish.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136390.jpg",
+    "rating": 4.44,
+    "ratingVotes": 374,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "gourmand",
+        "nameFa": "گورماند",
+        "percent": 97
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 80
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 64
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 58
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 19
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 16
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 13
+      }
+    ],
+    "fragranticaId": 136390,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Lost Eden",
+    "brandFa": "Maison Martin Margiela",
+    "nameFa": "Lost Eden",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Candy Apple"
+    ],
+    "middleNotesFa": [
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "عود",
+      "Indonesian Patchouli Leaf"
+    ],
+    "descriptionFa": "Lost Eden از برند Maison Margiela یک عطر محصول سال 2026 از مجموعه Replica است. این عطر که به صورت ادو پرفیوم عرضه شده است، از ایده میوه ممنوعه و باغی اسرارآمیز الهام گرفته و این مضمون را به ترکیبی میوه‌ای-چوبی تبدیل کرده است.</p> <p>این عطر بر پایه نت سیب قرمز شکری ساخته شده است که به نت‌های اولیه آن شخصیتی شیرین و کمی ترش می‌دهد. وانیل گرما و لطافت را به نت میانی می‌افزاید، در حالی که عود یک پایه تیره و دودی ایجاد می‌کند که به عطر",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Odyssey-Mega-Man-83133.html",
+    "extractedAt": "2026-11-28T04:52:37.091Z",
+    "name": "Odyssey Mega Man",
+    "brand": "Armaf",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2023,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Bergamot",
+      "Orange",
+      "Ginger",
+      "Mint"
+    ],
+    "middleNotes": [
+      "Pineapple",
+      "Sage",
+      "Juniper",
+      "Geranium"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Cedar",
+      "Tonka Bean",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83133.jpg",
+    "rating": 4.24,
+    "ratingVotes": 2445,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 78
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 70
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 33
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 27
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 83133,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Odyssey Mega Man",
+    "brandFa": "Armaf",
+    "nameFa": "Odyssey Mega Man",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "لیمو",
+      "برگاموت",
+      "پرتقال",
+      "زنجبیل",
+      "نعناع"
+    ],
+    "middleNotesFa": [
+      "آناناس",
+      "مریم‌گلی",
+      "عرعر",
+      "گل جعفری"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "سرو",
+      "لوبیا تونکا",
+      "وتیور"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Perfumer-s-Workshop/Tea-Rose-5512.html",
+    "extractedAt": "2026-11-28T04:52:41.140Z",
+    "name": "Tea Rose",
+    "brand": "Perfumer's Workshop",
+    "family": "Floral",
+    "gender": "women",
+    "year": 1977,
+    "perfumer": null,
+    "topNotes": [
+      "Peony",
+      "Chamomile"
+    ],
+    "middleNotes": [
+      "Bulgarian Rose",
+      "Damask Rose",
+      "Tea Rose"
+    ],
+    "baseNotes": [
+      "Geranium",
+      "Violet Leaves",
+      "Cedarwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5512.jpg",
+    "rating": 3.79,
+    "ratingVotes": 3304,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 35
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 31
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 27
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 24
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 11
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 8
+      }
+    ],
+    "fragranticaId": 5512,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tea Rose",
+    "brandFa": "Perfumer's Workshop",
+    "nameFa": "Tea Rose",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "گل داوودی",
+      "بابونه"
+    ],
+    "middleNotesFa": [
+      "گل رز بلغاری",
+      "گل رز دمشقی",
+      "گل رز چای"
+    ],
+    "baseNotesFa": [
+      "گل جعفری",
+      "Violet Leaves",
+      "چوب سرو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Henry-Rose/Dave-102403.html",
+    "extractedAt": "2026-11-28T04:52:46.002Z",
+    "name": "Dave",
+    "brand": "Henry Rose",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Pascal Gaurin",
+    "topNotes": [
+      "Pink Pepper",
+      "Neroli",
+      "Tangerine"
+    ],
+    "middleNotes": [
+      "Almond Blossom",
+      "Lavender Extract",
+      "Orange"
+    ],
+    "baseNotes": [
+      "Chantilly Cream",
+      "Vanilla Bean",
+      "Tonka Bean",
+      "Cocoa Shell"
+    ],
+    "description": "Dave by Henry Rose is a fragrance that offers a harmonious blend of citrus, floral, and gourmand elements. It opens with the vibrant notes of tangerine heart, neroli, and pink pepper, leading to a heart of lavandin, orange flower, and almond blossom. The base is warm and comforting with vanilla bean chantilly, cocoa shell, and tonka bean.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102403.jpg",
+    "rating": 3.89,
+    "ratingVotes": 648,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 65
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 28
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 25
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 24
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 102403,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dave",
+    "brandFa": "Henry Rose",
+    "nameFa": "Dave",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Pascal Gaurin",
+    "topNotesFa": [
+      "فلفل صورتی",
+      "نرولی",
+      "تانجرین"
+    ],
+    "middleNotesFa": [
+      "Almond Blossom",
+      "Lavender Extract",
+      "پرتقال"
+    ],
+    "baseNotesFa": [
+      "Chantilly Cream",
+      "Vanilla Bean",
+      "لوبیا تونکا",
+      "Cocoa Shell"
+    ],
+    "descriptionFa": "Dave از برند Henry Rose عطری است که ترکیبی هماهنگ از عناصر مرکباتی، گلی و خوراکی را ارائه می‌دهد. این عطر با نت‌های پرنشاط قلب نارنگی، نرولی و فلفل صورتی آغاز می‌شود و به قلب لاواندین، شکوفه پرتقال و شکوفه بادام می‌رسد. رایحه پایه گرم و آرامش‌بخش است و شامل چانتیلی دانه‌های وانیل، پوست دانه‌های کاکائو و دانه‌های تونکا می‌شود.",
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jovoy-Paris/Pavillon-Rouge-51660.html",
+    "extractedAt": "2026-11-28T04:52:52.479Z",
+    "name": "Pavillon Rouge",
+    "brand": "Jovoy Paris",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2018,
+    "perfumer": "Marie Schnirer",
+    "topNotes": [
+      "Whiskey",
+      "Rum",
+      "Spices",
+      "Sesame"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Leather",
+      "Coffee",
+      "Tea"
+    ],
+    "baseNotes": [
+      "Ebony",
+      "Vanilla",
+      "Benzoin"
+    ],
+    "description": "\"As daylight starts to decline, a schooner is busy readying itself to dock. It’s distinctive lines leave no doubt to the sharpened eye of an onlooker. “This one must be a privateer...” mumble the old people assembled in the port as they gaze across at the looming warship; “he must have made a mistake, docking here!” As the wind rises there can be no more ambiguity for a Jolly Roger slams into view and whistles a Memento Mori that reminds us that life is fragile, so we must live it well. But here the skull and crossbones are emblazoned on a red flag, meaning a short but good life is better!</p> <p>Sucked in by the promises of the amber and vanilla aromas of rum and whiskey, a buccaneer rushes out onto the dock and blends into the crowd for a fleeting moment of tranquility during his overnight stopover. He knows that his proud ship will be gone before dawn. Disappeared completely, leaving only a trail of exotic spices and the precious woods of the treasures that fill his holds alongside the promise he made to an elegant woman to return one day “provided God gives her life”.</p> <p>A perfume of conquest and adventure, <em>Pavillon Rouge</em> is an ode to life. It invites conquering both day and night, without any fear and with the confidence of those who have braved death for some long-lost fortune or legendary glory.\" - a note from the brand.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.51660.jpg",
+    "rating": 4.02,
+    "ratingVotes": 793,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 98
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 83
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 73
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 59
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 48
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 46
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 51660,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Pavillon Rouge",
+    "brandFa": "Jovoy Paris",
+    "nameFa": "Pavillon Rouge",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Marie Schnirer",
+    "topNotesFa": [
+      "ویسکی",
+      "رام",
+      "Spices",
+      "Sesame"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "چرم",
+      "قهوه",
+      "چای"
+    ],
+    "baseNotesFa": [
+      "Ebony",
+      "وانیل",
+      "بنزوئین"
+    ],
+    "descriptionFa": "«همزمان با کوتاه شدن روز، یک کشتی دوقلو مشغول آماده شدن برای پهلو گرفتن است. خطوط متمایز آن برای چشم تیزبین یک تماشاگر هیچ شکی باقی نمی‌گذارد. افراد مسن جمع‌شده در بندر، در حالی که به کشتی جنگی در حال نزدیک شدن خیره شده‌اند، زیر لب زمزمه می‌کنند: «این یکی حتماً یک کشتی خصوصی است...» «حتماً اشتباه کرده که اینجا پهلو گرفته است!» با وزیدن باد، دیگر هیچ ابهامی وجود ندارد، زیرا پرچم دزدان دریایی در میدان دید ظاهر می‌شود و با صدای سوت‌مانند خود، یادآور مرگ است که به ما یادآوری می‌کند که",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
