@@ -158119,5 +158119,1337 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Creed/Centaurus-95601.html",
+    "extractedAt": "2026-11-28T02:10:31.612Z",
+    "name": "Centaurus",
+    "brand": "Creed",
+    "family": "Oriental Spicy",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Cinnamon",
+      "Tobacco",
+      "Cardamom",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Sandalwood",
+      "Patchouli",
+      "Heliotrope",
+      "Geranium",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Bourbon Vanilla",
+      "Benzoin",
+      "Tolu Balsam",
+      "Tonka Bean",
+      "Ambroxan"
+    ],
+    "description": "Creed Centaurus is a new fragrance for women and men launched in 2024 as part of The Oriental Universe collection. This amber, spicy fragrance begins with an opulent, spicy blast of cardamom, smoky tobacco, fiery cinnamon, and a dash of black pepper. The heart is composed of a heady bouquet of jasmine, heliotrope, and geranium elevated by creamy sandalwood and earthy patchouli. The blend nestles on a robust, woodsy base of ambroxan, benzoin, tolu balsam, and bourbon vanilla, creating an irresistible, long-lasting scent trail.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95601.jpg",
+    "rating": 4.02,
+    "ratingVotes": 1779,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 65
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 57
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 43
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 40
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 36
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 95601,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Centaurus",
+    "brandFa": "کريد",
+    "nameFa": "Centaurus",
+    "familyFa": "شرقی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "دارچین",
+      "تنباکو",
+      "هل",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "چوب صندل",
+      "پچولی",
+      "گل هلیوتروپ",
+      "گل جعفری",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل بوربن",
+      "بنزوئین",
+      "بلسام تولو",
+      "لوبیا تونکا",
+      "آمبروکسان"
+    ],
+    "descriptionFa": "Creed Centaurus یک عطر جدید برای خانم‌ها و آقایان است که در سال 2024 به‌عنوان بخشی از مجموعه The Oriental Universe عرضه شد. این عطر کهربایی و تند با انفجاری باشکوه و تند از هل، تنباکوی دودی، دارچین آتشین و کمی فلفل سیاه آغاز می‌شود. نت میانی از یک دسته گل مست‌کننده متشکل از یاس، هلیوتروپ و شمعدانی تشکیل شده است که با چوب صندل خامه‎‌مانند و نعناع هندی خاکی تقویت می‌شود. این ترکیب بر روی یک پایه قوی و چوبی از آمبروکسان، بنزوئین و تولو قرار دارد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ard-Al-Zaafaran/Ajeeb-146485.html",
+    "extractedAt": "2026-11-28T02:10:36.877Z",
+    "name": "Ajeeb",
+    "brand": "Ard Al Zaafaran",
+    "family": "Oriental Woody",
+    "gender": "women and men. Top notes are Plum and Bergamot; middle notes are Hazelnut, Black Pepper and Pineapple; base notes are Amber, Cedar and Patchouli",
+    "perfumer": "master perfumer Sophia Grojsman for Elizabeth Taylor",
+    "topNotes": [
+      "Plum",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Hazelnut",
+      "Black Pepper",
+      "Pineapple"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "Ajeeb by Ard Al Zaafaran is a unisex eau de parfum. It opens with plum and bergamot, followed by pineapple, hazelnut and black pepper, over a base of amber, patchouli and cedar.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.146485.jpg",
+    "rating": 4.5,
+    "ratingVotes": 4,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 98
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 80
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 20
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 20
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 18
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 146485,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ajeeb",
+    "brandFa": "Ard Al Zaafaran",
+    "nameFa": "Ajeeb",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. Top notes are Plum and Bergamot; middle notes are Hazelnut, Black Pepper and Pineapple; base notes are Amber, Cedar and Patchouli",
+    "perfumerFa": "master perfumer Sophia Grojsman for Elizabeth Taylor",
+    "topNotesFa": [
+      "آلو",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "فندق",
+      "فلفل سیاه",
+      "آناناس"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "Ajeeb از برند Ard Al Zaafaran یک ادو پرفیوم یونیسکس است. این عطر با آلو و ترنج آغاز می‌شود، سپس آناناس، فندق و فلفل سیاه و در نهایت رایحه‌های پایه شامل کهربا، نعناع هندی و سرو به مشام می‌رسند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ariana-Grande/Vanilla-Suede-96257.html",
+    "extractedAt": "2026-11-28T02:10:41.970Z",
+    "name": "Vanilla Suede",
+    "brand": "Ariana Grande",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Rice",
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Vanilla Suede by Ariana Grande is a richly sensorial fragrance that delivers an incredibly edible and delectable, almost veil-like sensuality. The top teases with sparkling notes, while the heart reveals intimate warmth with Creamy Sandalwood and Rice Milk. The base of Vanilla Beans and Liquid Musks further enhances the cocooning sensuality and skin-like appeal.</p> <p>\"LOVENOTES Vanilla Suede<br /> Lush. Sensuous. Exotic.</p> <p>Introducing Vanilla Suede, a richly sensorial fragrance.</p> <p>A LOVENOTE from Ariana Grande to the world, exclusively available in the UK.</p> <p>An irresistible beautiful second skin feeling, the fragrance delivers an incredibly edible and delectable, almost veil like sensuality. The top teases with an introduction of sparkling notes, but the essential story of intimate warmth starts to emerge in the heart from the Creamy Sandalwood and Rice Milk. The Vanilla Beans and Liquid Musks in the back further push this story bringing more cocooning sensuality and a skin-like appeal.</p> <p>Fragrance Notes<br /> Top: Italian Bergamot<br /> Mid: Creamy Sandalwood, Rice Milk<br /> Base: Vanilla Beans, Liquid Musks\"",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96257.jpg",
+    "rating": 4.11,
+    "ratingVotes": 515,
+    "accords": [
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 95
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 93
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 66
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 64
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 96257,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vanilla Suede",
+    "brandFa": "Ariana Grande",
+    "nameFa": "Vanilla Suede",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "Rice",
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش"
+    ],
+    "descriptionFa": "Vanilla Suede از آریانا گرانده یک عطر بسیار حسی است که حسی فوق‌العاده خوش‌بو و دلپذیر، تقریباً شبیه به یک پرده نازک، ایجاد می‌کند. نت‌های اولیه با رایحه‌های درخشان خود اغواگر هستند، در حالی که نت‌های میانی با چوب صندل خامه‌ای و شیر برنج، گرمای صمیمی را آشکار می‌کنند. رایحه پایه شامل دانه‌های وانیل و مشک مایع است که حس دلپذیر و جذابیت پوست‌مانند را بیشتر می‌کند.</p> <p>\"LOVENOTES Vanilla Suede<br /> پرطراوت. شهوانی. عجیب و غریب.</p> <p>معرفی Vani",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Elizabeth-Taylor/Black-Pearls-1702.html",
+    "extractedAt": "2026-11-28T02:10:47.212Z",
+    "name": "Black Pearls",
+    "brand": "Elizabeth Taylor",
+    "family": "Floral",
+    "gender": "women",
+    "year": 1996,
+    "perfumer": null,
+    "topNotes": [
+      "Peach",
+      "Gardenia",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "White Rose",
+      "Lotus",
+      "Water Lily"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1702.jpg",
+    "rating": 3.82,
+    "ratingVotes": 792,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 87
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 84
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 69
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 65
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 49
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 1702,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Black Pearls",
+    "brandFa": "Elizabeth Taylor",
+    "nameFa": "Black Pearls",
+    "familyFa": "گلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "هلو",
+      "گاردنیا",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "White Rose",
+      "نیلوفر آبی",
+      "گل نیلوفر"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Outis-wu-ming/Jiang-Gong-139617.html",
+    "extractedAt": "2026-11-28T02:10:52.123Z",
+    "name": "Jiang Gong",
+    "brand": "Outis 毋名",
+    "family": "Oriental Floral",
+    "gender": "women and men. The nose behind this fragrance is Wei Bai. Top notes are Sweet Orange, Pepper and Citron; middle notes are Damask Rose, Benzoin and Patchouli; base notes are Jatamansi or Spikenard, Red Myrrh, Indian Sandalwood, Frankincense and Vanilla",
+    "perfumer": "Wei Bai",
+    "topNotes": [
+      "Sweet Orange",
+      "Pepper",
+      "Citron"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Benzoin",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Jatamansi or Spikenard",
+      "Red Myrrh",
+      "Indian Sandalwood",
+      "Frankincense",
+      "Vanilla"
+    ],
+    "description": "Jiang Gong by OUTIS is a unisex parfum in the Oriental Floral family. The composition opens with herbal brightness, citrus tones, and pepper, then develops into a resinous heart of benzoin, Indonesian patchouli, and damask rose. The base combines red myrrh, frankincense, sandalwood, vanilla, and spikenard for a warm, smooth finish. The fragrance is presented by the brand as a study in inner release, stillness, and balance.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139617.jpg",
+    "rating": 4.6,
+    "ratingVotes": 5,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 91
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 89
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 82
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 70
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 60
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 139617,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jiang Gong",
+    "brandFa": "Outis 毋名",
+    "nameFa": "Jiang Gong",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. The nose behind this fragrance is Wei Bai. Top notes are Sweet Orange, Pepper and Citron; middle notes are Damask Rose, Benzoin and Patchouli; base notes are Jatamansi or Spikenard, Red Myrrh, Indian Sandalwood, Frankincense and Vanilla",
+    "perfumerFa": "Wei Bai",
+    "topNotesFa": [
+      "Sweet Orange",
+      "فلفل",
+      "Citron"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "بنزوئین",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "Jatamansi or Spikenard",
+      "Red Myrrh",
+      "Indian Sandalwood",
+      "کندر",
+      "وانیل"
+    ],
+    "descriptionFa": "Jiang Gong از برند OUTIS یک عطر یونیسکس از خانواده شرقی-گلی است. این ترکیب با طراوت گیاهی، رایحه‌های مرکبات و فلفل آغاز می‌شود، سپس به نت میانی رزینی از بنزوئین، نعناع هندی اندونزیایی و گل رز دمشقی تبدیل می‌شود. رایحه پایه ترکیبی از مر تلخ قرمز، کندر، چوب صندل، وانیل و سنبل هندی است که رایحه‌ای گرم و ملایم ایجاد می‌کند. این عطر توسط برند به عنوان پژوهشی در زمینه رهایی درونی، سکون و تعادل معرفی می‌شود.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Coconut-Passion-Brulee-111823.html",
+    "extractedAt": "2026-11-28T02:10:58.593Z",
+    "name": "Coconut Passion Brulee",
+    "brand": "Victoria's Secret",
+    "family": null,
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Brown sugar"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "description": "A gourmand fragrance mist described as an indulgent, sugared twist on the original Coconut Passion scent. It features coconut flakes and brown sugar notes for a decadent, dessert-like aroma.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.111823.jpg",
+    "rating": 4.52,
+    "ratingVotes": 132,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 60
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 52
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 18
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 16
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 13
+      },
+      {
+        "nameEn": "nutty",
+        "nameFa": "آجیلی",
+        "percent": 10
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 7
+      }
+    ],
+    "fragranticaId": 111823,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coconut Passion Brulee",
+    "brandFa": "Victoria's Secret",
+    "nameFa": "Coconut Passion Brulee",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "Brown sugar"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "descriptionFa": "یک اسپری خوشبوکننده با رایحه شیرین که به عنوان نسخه‌ای دلپذیر و شیرین از عطر اصلی Coconut Passion توصیف می‌شود. این عطر دارای رایحه‌های پرک نارگیل و شکر قهوه‌ای است که عطری دلپذیر و شبیه به دسر ایجاد می‌کند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Michael-Malul-London/Wood-Cardamom-105877.html",
+    "extractedAt": "2026-11-28T02:11:05.081Z",
+    "name": "Wood + Cardamom",
+    "brand": "Michael Malul London",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Hamid Merati-Kashani",
+    "topNotes": [
+      "Apple",
+      "Cardamom",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Violet Leaves",
+      "Ambroxan"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Musk",
+      "Earthy Notes"
+    ],
+    "description": "With one hand over your date’s eyes and the other hand in hers, you guide her through the empty halls of an art museum, building suspense about the evening ahead. You walk through an ornate archway into a candlelit room and uncover her eyes, watching as they light up. A private chef is whipping up a five course meal as a string quartet plays a waltz. This might just be the best date you’ve ever planned.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105877.jpg",
+    "rating": 4.05,
+    "ratingVotes": 58,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 95
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 89
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 77
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 68
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 105877,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Wood + Cardamom",
+    "brandFa": "Michael Malul London",
+    "nameFa": "Wood + Cardamom",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Hamid Merati-Kashani",
+    "topNotesFa": [
+      "سیب",
+      "هل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "Violet Leaves",
+      "آمبروکسان"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "موش",
+      "Earthy Notes"
+    ],
+    "descriptionFa": "در حالی که یک دست‌تان روی چشمان هم‌نشین‌تان است و دست دیگرتان در دست او، او را از تالارهای خالی یک موزه هنر عبور می‌دهید و هیجان شب پیش‌رو را افزایش می‌دهید. از زیر یک طاق تزئین‌شده عبور می‌کنید و وارد اتاقی می‌شوید که با نور شمع روشن شده است. دستتان را از روی چشمان او برمی‌دارید و می‌بینید که چشمانش برق می‌زند. یک سرآشپز خصوصی در حال تهیه یک غذای پنج‌دوره‌ای است و یک گروه چهارنفره سازهای زهی در حال نواختن یک والس هستند. این شاید بهترین قرار عاشقانه‌ای باشد که تا به حال برنامه‌ریزی کرده‌اید.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rayhaan/Tiger-112886.html",
+    "extractedAt": "2026-11-28T02:11:10.595Z",
+    "name": "Tiger",
+    "brand": "Rayhaan",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Nutmeg",
+      "Clove",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Milk",
+      "Rose",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Patchouli",
+      "Frankincense",
+      "Labdanum"
+    ],
+    "description": "Tiger by Rayhaan is an Eau de Parfum designed for men, featuring a dynamic composition that opens with spicy and fresh notes. The fragrance develops a warm and exotic heart, blending florals with lactonic nuances, and settles into a base of patchouli, frankincense, and amber. It is crafted to evoke a sense of strength and sophistication.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.112886.jpg",
+    "rating": 4.16,
+    "ratingVotes": 935,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 72
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 67
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 31
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 30
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 26
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 24
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 112886,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Tiger",
+    "brandFa": "Rayhaan",
+    "nameFa": "Tiger",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "جوز هندی",
+      "میخک",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "شیر",
+      "گل رز",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "پچولی",
+      "کندر",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Tiger از برند Rayhaan یک ادو پرفیوم مخصوص آقایان است که ترکیبی پویا دارد و با نت‌های تند و تازه آغاز می‌شود. این عطر یک رایحه میانی گرم و عجیب و غریب ایجاد می‌کند که ترکیبی از رایحه‌های گل‌دار با ظرافت‌های لاکتونیک است و در نهایت به رایحه پایه‌ای از نعناع هندی، کندر و عنبر می‌رسد. این عطر به گونه‌ای ساخته شده است که حس قدرت و ظرافت را القا کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/PARIS-CORNER/Eshal-Vanilla-110740.html",
+    "extractedAt": "2026-11-28T02:11:17.359Z",
+    "name": "Eshal Vanilla",
+    "brand": "PARIS CORNER",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Sugar",
+      "Sweet Notes"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Musk",
+      "Caramel"
+    ],
+    "description": "Eshal Vanilla by Paris Corner is a soft gourmand fragrance for women. It opens with sweet sugar notes, followed by a floral heart of jasmine and rose. The base features warm vanilla, caramel, and musk, resulting in a gentle and creamy scent profile.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110740.jpg",
+    "rating": 4.25,
+    "ratingVotes": 635,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 98
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 38
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 26
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 20
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 110740,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eshal Vanilla",
+    "brandFa": "PARIS CORNER",
+    "nameFa": "Eshal Vanilla",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "شکر",
+      "Sweet Notes"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش",
+      "کارامل"
+    ],
+    "descriptionFa": "Eshal Vanilla از برند Paris Corner یک عطر ملایم گُرمند برای خانم‌ها است. این عطر با رایحه‌های شیرین شکر آغاز می‌شود و سپس رایحه‌های گل‌مانند یاسمن و گل رز در نت‌های میانی آن حس می‌شوند. رایحه پایه شامل وانیل گرم، کارامل و مشک است که منجر به ایجاد یک پروفایل رایحه‌ای ملایم و کرمی می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ard-Al-Zaafaran/Hareem-Al-Sultan-Milky-Water-93824.html",
+    "extractedAt": "2026-11-28T02:11:23.800Z",
+    "name": "Hareem Al Sultan Milky Water",
+    "brand": "Ard Al Zaafaran",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Red Apple",
+      "Dark Chocolate"
+    ],
+    "middleNotes": [
+      "Peony"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "Hareem Al Sultan is a gourmet oriental feminine perfume from Ard Al Zaafaran. It is composed of top notes of red apple and dark chocolate, middle notes of peony, and base notes of vanilla and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93824.jpg",
+    "rating": 4,
+    "ratingVotes": 9,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 52
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 43
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 27
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 25
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 93824,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hareem Al Sultan Milky Water",
+    "brandFa": "Ard Al Zaafaran",
+    "nameFa": "Hareem Al Sultan Milky Water",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "سیب قرمز",
+      "Dark Chocolate"
+    ],
+    "middleNotesFa": [
+      "گل داوودی"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "وانیل"
+    ],
+    "descriptionFa": "Hareem Al Sultan یک عطر زنانه شرقی لذیذ از برند Ard Al Zaafaran است. این عطر از نت‌های بالای سیب قرمز و شکلات تلخ، نت‌های میانی گل صدتومانی و نت‌های پایه‌ای وانیل و چوب صندل تشکیل شده است.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Velvet-Rose-76867.html",
+    "extractedAt": "2026-11-28T02:11:28.482Z",
+    "name": "Velvet Rose",
+    "brand": "Lattafa Perfumes",
+    "family": null,
+    "gender": "women and men. Top notes are Rose and Patchouli; middle notes are Labdanum and Musk; base notes are Musk and Amber",
+    "topNotes": [
+      "Rose",
+      "Patchouli"
+    ],
+    "middleNotes": [
+      "Labdanum",
+      "Musk"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76867.jpg",
+    "rating": 3.71,
+    "ratingVotes": 390,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 95
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 75
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 72
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 33
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 76867,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Velvet Rose",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Velvet Rose",
+    "genderFa": "women and men. Top notes are Rose and Patchouli; middle notes are Labdanum and Musk; base notes are Musk and Amber",
+    "topNotesFa": [
+      "گل رز",
+      "پچولی"
+    ],
+    "middleNotesFa": [
+      "لابدانوم",
+      "موش"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nobile-1942/Il-Colore-del-Vento-105114.html",
+    "extractedAt": "2026-11-28T02:11:33.476Z",
+    "name": "Il Colore del Vento",
+    "brand": "Nobile 1942",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Mariaceleste Lombardo",
+    "topNotes": [
+      "Lemon",
+      "Ginger",
+      "Cardamom",
+      "Black Pepper",
+      "Coriander"
+    ],
+    "middleNotes": [
+      "Sugar",
+      "Bergamot",
+      "Champagne",
+      "Coffee"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Butter",
+      "Caramel",
+      "Amber",
+      "White Musk"
+    ],
+    "description": "Il Colore del Vento by Nobile 1942 is an amber oriental perfume inspired by the invisible force of the wind. It creates a balance between movement and harmony, offering an olfactory journey between lightness and depth. The fragrance opens with spicy top notes, followed by a heart of sweet and enveloping accords, and concludes with a velvety base.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105114.jpg",
+    "rating": 4.06,
+    "ratingVotes": 250,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 61
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 60
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 55
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 48
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 105114,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Il Colore del Vento",
+    "brandFa": "Nobile 1942",
+    "nameFa": "Il Colore del Vento",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Mariaceleste Lombardo",
+    "topNotesFa": [
+      "لیمو",
+      "زنجبیل",
+      "هل",
+      "فلفل سیاه",
+      "گشنیز"
+    ],
+    "middleNotesFa": [
+      "شکر",
+      "برگاموت",
+      "شامپاین",
+      "قهوه"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کره",
+      "کارامل",
+      "کهربا",
+      "موش سفید"
+    ],
+    "descriptionFa": "Il Colore del Vento از برند Nobile 1942 یک عطر شرقی کهربایی است که از نیروی نامرئی باد الهام گرفته شده است. این عطر تعادلی بین حرکت و هماهنگی ایجاد می‌کند و سفری بویایی بین سبکی و عمق را ارائه می‌دهد. این عطر با نت‌های ابتدایی تند آغاز می‌شود، سپس نت‌های میانی با ترکیبات شیرین و فراگیر ادامه می‌یابد و در نهایت با نت‌های پایانی مخملی به پایان می‌رسد.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
