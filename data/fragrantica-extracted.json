@@ -164500,5 +164500,1556 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Penhaligon-s/The-Blazing-Mister-Sam-Eau-de-Parfum-Intense-138861.html",
+    "extractedAt": "2026-11-28T08:08:26.586Z",
+    "name": "The Blazing Mister Sam Eau de Parfum Intense",
+    "brand": "Penhaligon's",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Plum"
+    ],
+    "middleNotes": [
+      "Tobacco"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138861.jpg",
+    "rating": 4.53,
+    "ratingVotes": 205,
+    "accords": [
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 82
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 78
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 74
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 47
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 39
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 28
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 138861,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum Intense",
+    "baseName": "The Blazing Mister Sam",
+    "brandFa": "پنهالیگونز",
+    "nameFa": "The Blazing Mister Sam Eau de Parfum Intense",
+    "concentrationFa": "ادو پرفیوم انتنس",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "آلو"
+    ],
+    "middleNotesFa": [
+      "تنباکو"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "پچولی"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lancome/Hypnose-170.html",
+    "extractedAt": "2026-11-28T08:08:31.636Z",
+    "name": "Hypnôse",
+    "brand": "Lancôme",
+    "family": "Oriental Vanilla",
+    "gender": "women. <b>Hypnôse</b> was launched in 2005. Hypnôse was created by Annick Menardo and Thierry Wasser. Top note is Passion Flower; middle notes are Jasmine and Gardenia; base notes are Vanille and Vetiver",
+    "year": 2005,
+    "perfumer": "Annick Menardo and Thierry Wasser",
+    "topNotes": [
+      "Passion Flower"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Gardenia"
+    ],
+    "baseNotes": [
+      "Vanille",
+      "Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.170.jpg",
+    "rating": 3.88,
+    "ratingVotes": 15563,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 85
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 71
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 51
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 50
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 30
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 26
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 170,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hypnôse",
+    "brandFa": "لانکوم",
+    "nameFa": "Hypnôse",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "women. <b>Hypnôse</b> was launched in 2005. Hypnôse was created by Annick Menardo and Thierry Wasser. Top note is Passion Flower; middle notes are Jasmine and Gardenia; base notes are Vanille and Vetiver",
+    "perfumerFa": "Annick Menardo and Thierry Wasser",
+    "topNotesFa": [
+      "Passion Flower"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "گاردنیا"
+    ],
+    "baseNotesFa": [
+      "Vanille",
+      "وتیور"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zara/Coconut-Tropic-Tides-126566.html",
+    "extractedAt": "2026-11-28T08:08:35.526Z",
+    "name": "Coconut Tropic Tides",
+    "brand": "Zara",
+    "family": "Oriental Vanilla",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Tropical Fruits",
+      "Coconut"
+    ],
+    "middleNotes": [
+      "Sandalwood"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Benzoin"
+    ],
+    "description": "Eau de Parfum. A warm wave of creamy coconut blends with juicy fruits and a golden vanilla base. The texture is dense, almost milky, balanced by soft sandalwood that provides depth and structure. Tonka and benzoin add a resinous and enveloping nuance that lingers on the skin like retained warmth after the sun. Creamy, intense and addictive, with a continuous feeling of humid summer.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.126566.jpg",
+    "rating": 4.02,
+    "ratingVotes": 117,
+    "accords": [
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 91
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 76
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 66
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 62
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 31
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 28
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 126566,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Coconut Tropic Tides",
+    "brandFa": "Zara",
+    "nameFa": "Coconut Tropic Tides",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "میوه‌های استوایی",
+      "نارگیل"
+    ],
+    "middleNotesFa": [
+      "چوب صندل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "بنزوئین"
+    ],
+    "descriptionFa": "ادو پرفیوم. موجی گرم از نارگیل خامه‌ای با میوه‌های آبدار و رایحه پایه وانیل طلایی ترکیب می‌شود. بافت آن غلیظ و تقریباً شیری‌مانند است که با چوب صندل ملایم متعادل شده و عمق و ساختار به آن می‌بخشد. تونکا و بنزوئین یک حس صمغی و فراگیر ایجاد می‌کنند که مانند گرمای باقی‌مانده پس از آفتاب روی پوست باقی می‌ماند. خوش‌بو، غلیظ و اعتیادآور، با حس مداوم تابستان مرطوب.",
+    "seasons": [
+      "summer",
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Rasasi/Hawas-Gold-Digger-139499.html",
+    "extractedAt": "2026-11-28T08:08:42.450Z",
+    "name": "Hawas Gold Digger",
+    "brand": "Rasasi",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Lavender",
+      "Mint",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Sage"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber",
+      "Cedarwood",
+      "Patchouli"
+    ],
+    "description": "Hawas Gold Digger by Rasasi is a men's fragrance introduced in 2026. It combines a fresh opening of pear, lavender, bergamot, and mint with a spiced aromatic heart of cinnamon and sage, settling into a warm base of vanilla, amber, patchouli, and cedarwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.139499.jpg",
+    "rating": 4.03,
+    "ratingVotes": 120,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 98
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 79
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 74
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 74
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 72
+      }
+    ],
+    "fragranticaId": 139499,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hawas Gold Digger",
+    "brandFa": "Rasasi",
+    "nameFa": "Hawas Gold Digger",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "گلابی",
+      "اسطوخودوس",
+      "نعناع",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا",
+      "چوب سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "Hawas Gold Digger از برند Rasasi یک عطر مردانه است که در سال 2026 عرضه شد. این عطر ترکیبی از نت‌های ابتدایی تازه گلابی، اسطوخودوس، ترنج و نعناع با نت‌های میانی معطر و تند دارچین و مریم‌گلی است که در نهایت به نت‌های پایانی گرم وانیل، عنبر، نعناع هندی و چوب سدر می‌رسد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Agustin-Fernandez/Jair-Bolsonaro-91203.html",
+    "extractedAt": "2026-11-28T08:08:49.167Z",
+    "name": "Jair Bolsonaro",
+    "brand": "Agustin Fernandez",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Orange",
+      "Tangerine",
+      "Lemon",
+      "Sicilian Lemon",
+      "Neroli",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Hyacinth",
+      "Rose",
+      "Jasmine",
+      "Sea Notes",
+      "Cyclamen",
+      "Coriander",
+      "Freesia",
+      "Violet",
+      "Rosemary",
+      "Nutmeg"
+    ],
+    "baseNotes": [
+      "Oakmoss",
+      "White Musk",
+      "Cedar",
+      "Patchouli",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91203.jpg",
+    "rating": 2.33,
+    "ratingVotes": 959,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 29
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 12
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 10
+      },
+      {
+        "nameEn": "terpenic",
+        "nameFa": "terpenic",
+        "percent": 7
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 6
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 5
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 4
+      }
+    ],
+    "fragranticaId": 91203,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Jair Bolsonaro",
+    "brandFa": "Agustin Fernandez",
+    "nameFa": "Jair Bolsonaro",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "پرتقال",
+      "تانجرین",
+      "لیمو",
+      "Sicilian Lemon",
+      "نرولی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "هیاسینت",
+      "گل رز",
+      "یاسمن",
+      "Sea Notes",
+      "Cyclamen",
+      "گشنیز",
+      "فریزیا",
+      "بنفشه",
+      "رزماری",
+      "جوز هندی"
+    ],
+    "baseNotesFa": [
+      "خزه بلوط",
+      "موش سفید",
+      "سرو",
+      "پچولی",
+      "کهربا"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Salvatore-Ferragamo/Signorina-In-Fiore-41733.html",
+    "extractedAt": "2026-11-28T08:08:52.682Z",
+    "name": "Signorina In Fiore",
+    "brand": "Salvatore Ferragamo",
+    "family": "Floral Fruity",
+    "gender": "women",
+    "year": 2017,
+    "perfumer": "Emilie Coppermann",
+    "topNotes": [
+      "Pomegranate",
+      "Sorbet",
+      "Pear"
+    ],
+    "middleNotes": [
+      "Cherry Blossom",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "Sandalwood"
+    ],
+    "description": "Signorina Fiore, the new perfume from the Signorina collection by Italian house Salvatore Ferragamo, comes out in 2017, after the original Signorina from 2011, Eau de Toilette version from 2012, Signorina Eleganza version from 2014 and Signorina Misteriosa from 2016. The new fragrance is signed by Emilie (Bevierre) Coppermann. </p> <p> Top notes: nashi pear sorbet and pomegranate. Heart: cherry blossom and jasmine. Base: white musk and sandalwood. </p> <p>It is available as an Eau de Toilette.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.41733.jpg",
+    "rating": 3.68,
+    "ratingVotes": 669,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 69
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 67
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 56
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 29
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 41733,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Signorina In Fiore",
+    "brandFa": "سالواتوره فراگامو",
+    "nameFa": "Signorina In Fiore",
+    "familyFa": "گلی میوه‌ای",
+    "genderFa": "زنانه",
+    "perfumerFa": "Emilie Coppermann",
+    "topNotesFa": [
+      "Pomegranate",
+      "سربت",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "Cherry Blossom",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Signorina Fiore، عطر جدید مجموعه Signorina از برند ایتالیایی Salvatore Ferragamo، در سال 2017، پس از Signorina اصلی در سال 2011، نسخه Eau de Toilette در سال 2012، نسخه Signorina Eleganza در سال 2014 و Signorina Misteriosa در سال 2016 عرضه می‌شود. این عطر جدید توسط امیلی (بِوِر) کوپِرمان ساخته شده است. </p> <p> نت‌های اولیه: سوربت گلابی ناشی و انار. نت میانی: شکوفه گیلاس و یاس. رایحه پایه: مشک سفید و چوب صندل",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Calvin-Klein/Eternity-Flame-For-Men-52856.html",
+    "extractedAt": "2026-11-28T08:08:58.566Z",
+    "name": "Eternity Flame For Men",
+    "brand": "Calvin Klein",
+    "family": "Oriental Fougere",
+    "gender": "men",
+    "year": 2019,
+    "perfumer": "Laurent Le Guernec",
+    "topNotes": [
+      "Pineapple"
+    ],
+    "middleNotes": [
+      "Rosemary"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Leather",
+      "Labdanum"
+    ],
+    "description": "Eternity Flame For Men is developed by perfumer Laurent Le Guernec from the top fruity and aromatic notes redefined with leather and amber accents. Announced as luxurious and addictive, the fragrance offers an oriental-fougere composition.</p> <p>Top notes: pineapple<br /> Heart: rosemary<br /> Base: labdanum</p> <p>It is available as a 30, 50 and 100ml Eau de Toilette.<br />",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.52856.jpg",
+    "rating": 3.82,
+    "ratingVotes": 576,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 49
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 47
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 46
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 52856,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eternity Flame For Men",
+    "brandFa": "کلوین کلین",
+    "nameFa": "Eternity Flame For Men",
+    "familyFa": "شرقی فرگر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Laurent Le Guernec",
+    "topNotesFa": [
+      "آناناس"
+    ],
+    "middleNotesFa": [
+      "رزماری"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "چرم",
+      "لابدانوم"
+    ],
+    "descriptionFa": "Eternity Flame For Men توسط عطرساز لوران لو گرنک از نت‌های اولیه میوه‌ای و معطر که با رایحه‌های چرم و عنبر بازتعریف شده‌اند، ساخته شده است. این عطر که به عنوان عطری لوکس و اعتیادآور معرفی شده است، ترکیبی از رایحه‌های شرقی و فوژر را ارائه می‌دهد.</p> <p>نت‌های اولیه: آناناس نت<br /> میانی: رزماری<br /> نت پایه: لادن</p> <p>این محصول به صورت ادوتویلت در اندازه‌های 30، 50 و 100 میلی‌لیتر عرضه می‌شود.<br />",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Amber-Labdanum-Cologne-Intense-109925.html",
+    "extractedAt": "2026-11-28T08:09:03.953Z",
+    "name": "Amber Labdanum Cologne Intense",
+    "brand": "Jo Malone London",
+    "family": null,
+    "gender": "women and men. This is a new fragrance. <b>Amber Labdanum Cologne Intense</b> was launched in 2025. The fragrance features Labdanum, Amber, Vanilla and Bitter Orange",
+    "year": 2025,
+    "description": "Amber Labdanum by Jo Malone is inspired by the landscapes of Andalusia in Southern Spain, where wild citrus flourishes. The fragrance combines bitter orange and amber labdanum, complemented by vanilla and roasted oakwood, resulting in a scent that balances warmth and complexity.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109925.jpg",
+    "rating": 4.12,
+    "ratingVotes": 390,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 27
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 22
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 17
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 15
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 15
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 109925,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Amber Labdanum Intense",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Amber Labdanum Cologne Intense",
+    "concentrationFa": "کلن",
+    "genderFa": "women and men. This is a new fragrance. <b>Amber Labdanum Cologne Intense</b> was launched in 2025. The fragrance features Labdanum, Amber, Vanilla and Bitter Orange",
+    "descriptionFa": "Amber Labdanum از برند Jo Malone الهام‌گرفته از مناظر آندلس در جنوب اسپانیا است، جایی که مرکبات وحشی در آن رشد می‌کنند. این عطر ترکیبی از نارنج تلخ و لادن کهربایی است که با رایحه وانیل و چوب بلوط برشته‌شده تکمیل می‌شود و در نتیجه عطری ایجاد می‌کند که تعادلی بین گرما و پیچیدگی دارد.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jo-Malone-London/Taif-Rose-Cologne-Intense-121904.html",
+    "extractedAt": "2026-11-28T08:09:09.876Z",
+    "name": "Taif Rose Cologne Intense",
+    "brand": "Jo Malone London",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Rose"
+    ],
+    "middleNotes": [
+      "Taif Rose"
+    ],
+    "baseNotes": [
+      "Amber",
+      "Coffee"
+    ],
+    "description": "Taif Rose by Jo Malone London is a unisex fragrance that highlights the distinct character of roses grown in the Taif region of Saudi Arabia. The composition focuses on a Taif rose accord, giving the scent a rich floral profile with a Middle Eastern inspiration. This floral note is paired with roasted coffee, which adds depth and a gently bitter warmth, while amber contributes a soft, resinous base that rounds out the fragrance. The result is a rose-centered scent with aromatic, gourmand, and warm nuances that can be worn across different occasions and seasons.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.121904.jpg",
+    "rating": 4.33,
+    "ratingVotes": 51,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 48
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 42
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 19
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 18
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 10
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 121904,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Cologne",
+    "baseName": "Taif Rose Intense",
+    "brandFa": "Jo Malone London",
+    "nameFa": "Taif Rose Cologne Intense",
+    "concentrationFa": "کلن",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گل رز"
+    ],
+    "middleNotesFa": [
+      "Taif Rose"
+    ],
+    "baseNotesFa": [
+      "کهربا",
+      "قهوه"
+    ],
+    "descriptionFa": "Taif Rose از برند Jo Malone London یک عطر یونیسکس است که ویژگی متمایز گل‌های رز کشت‌شده در منطقه طائف عربستان سعودی را برجسته می‌کند. این ترکیب بر نت گل رز طائف متمرکز است و به عطر، مشخصه‌هایی گل‌دار غنی با الهام از خاورمیانه می‌بخشد. این رایحه گل با قهوه بو داده ترکیب شده است که عمق و گرمای کمی تلخ به آن می‌افکند، در حالی که عنبر یک پایه ملایم و رزینی ایجاد می‌کند که رایحه را کامل می‌کند. نتیجه یک عطر",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "زمستان",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Floris/Mulberry-Fig-72620.html",
+    "extractedAt": "2026-11-28T08:09:15.011Z",
+    "name": "Mulberry Fig",
+    "brand": "Floris",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Penny Ellis and Nicola Pozzani",
+    "topNotes": [
+      "Fig",
+      "Cardamom",
+      "Violet Leaf"
+    ],
+    "middleNotes": [
+      "Iris",
+      "Vetiver",
+      "Cypress",
+      "Coconut"
+    ],
+    "baseNotes": [
+      "Amyris",
+      "Sandalwood",
+      "Cedar",
+      "Amber"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72620.jpg",
+    "rating": 3.89,
+    "ratingVotes": 161,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 29
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 27
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 25
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 23
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 22
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 72620,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Mulberry Fig",
+    "brandFa": "Floris",
+    "nameFa": "Mulberry Fig",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Penny Ellis and Nicola Pozzani",
+    "topNotesFa": [
+      "انجیر",
+      "هل",
+      "برگ بنفشه"
+    ],
+    "middleNotesFa": [
+      "زنبق",
+      "وتیور",
+      "سرو کوهی",
+      "نارگیل"
+    ],
+    "baseNotesFa": [
+      "امیریس",
+      "چوب صندل",
+      "سرو",
+      "کهربا"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/DS-Durga/Crystal-Pistil-59884.html",
+    "extractedAt": "2026-11-28T08:09:19.450Z",
+    "name": "Crystal Pistil",
+    "brand": "DS&Durga",
+    "family": "Floral Aquatic",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": null,
+    "topNotes": [
+      "Water Notes",
+      "Orange Blossom",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Paradisone",
+      "Floral Notes"
+    ],
+    "baseNotes": [
+      "Synthetic Civet",
+      "White Musk",
+      "Ambrette (Musk Mallow)"
+    ],
+    "description": "\"Add transparent orange blossom water, crystalline flower parts, and dew to any fragrance (or just rock it solo).\"</p> <p> <strong>top</strong>: orange flower water, dew-on-petals, pink pepper</p> <p><strong>middle</strong>: crystal flower parts, paradisone, jasmine water</p> <p><strong>base</strong>: civettone, white musks, ambrette seeds.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59884.jpg",
+    "rating": 3.89,
+    "ratingVotes": 235,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 91
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 45
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 27
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 22
+      }
+    ],
+    "fragranticaId": 59884,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Crystal Pistil",
+    "brandFa": "DS&Durga",
+    "nameFa": "Crystal Pistil",
+    "familyFa": "گلی آبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Water Notes",
+      "گل پرتقال",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "Paradisone",
+      "Floral Notes"
+    ],
+    "baseNotesFa": [
+      "Synthetic Civet",
+      "موش سفید",
+      "Ambrette (Musk Mallow)"
+    ],
+    "descriptionFa": "«گلاب شفاف شکوفه پرتقال، اجزای کریستالی گل و شبنم را به هر عطری اضافه کنید (یا فقط به تنهایی از آن استفاده کنید).»</p> <p> <strong>نت ابتدایی</strong>: گلاب پرتقال، شبنم روی گلبرگ‌ها، فلفل صورتی</p> <p>نت<strong> میانی</strong>: اجزای کریستالی گل، پارادیزون، آب یاسمن</p> <p><strong>رایحه پایه</strong>: سیوتون، مشک سفید، دانه‌های آمبرت.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Alhambra/Alpine-Homme-Sport-83311.html",
+    "extractedAt": "2026-11-28T08:09:24.302Z",
+    "name": "Alpine Homme Sport",
+    "brand": "Maison Alhambra",
+    "family": "Woody Aromatic",
+    "gender": "men. Top notes are Mandarin Orange, Mint, Cypress and Sage; middle notes are Cedar and Pepper; base notes are Tonka Bean, Musk and Sandalwood",
+    "topNotes": [
+      "Mandarin Orange",
+      "Mint",
+      "Cypress",
+      "Sage"
+    ],
+    "middleNotes": [
+      "Cedar",
+      "Pepper"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Musk",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83311.jpg",
+    "rating": 4.11,
+    "ratingVotes": 962,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 84
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 81
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 69
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 68
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 40
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 83311,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Alpine Homme Sport",
+    "brandFa": "Maison Alhambra",
+    "nameFa": "Alpine Homme Sport",
+    "familyFa": "چوبی معطر",
+    "genderFa": "men. Top notes are Mandarin Orange, Mint, Cypress and Sage; middle notes are Cedar and Pepper; base notes are Tonka Bean, Musk and Sandalwood",
+    "topNotesFa": [
+      "نارنگی",
+      "نعناع",
+      "سرو کوهی",
+      "مریم‌گلی"
+    ],
+    "middleNotesFa": [
+      "سرو",
+      "فلفل"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "موش",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Effects-Of-Uniq-98693.html",
+    "extractedAt": "2026-11-28T08:09:27.550Z",
+    "name": "Effects Of Uniq",
+    "brand": "Armaf",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Pear",
+      "Mandarin"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Coffee",
+      "Caramel",
+      "Cedarwood",
+      "Patchouli",
+      "White Musk"
+    ],
+    "description": "ARMAF's Úniq “Effects of Uniq” is a dazzling blend of sweetness and spice that captures the essence of modern elegance. With top notes of Mandarin and Pear, this luxurious fragrance offers a radiant and memorable freshness that enchants and lingers effortlessly.</p> <p><strong>Notes Detail:</strong></p> <p>Top Note: Mandarin & Pear</p> <p>Heart Note: Orange Blossom, Vanilla & White Florals</p> <p>Base Note: Cedarwood, Patchouli, White Musk, Coffee, Caramel",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98693.jpg",
+    "rating": 4.46,
+    "ratingVotes": 173,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "coffee",
+        "nameFa": "قهوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 73
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 71
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 64
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 63
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 55
+      }
+    ],
+    "fragranticaId": 98693,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Effects Of Uniq",
+    "brandFa": "Armaf",
+    "nameFa": "Effects Of Uniq",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "گلابی",
+      "Mandarin"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "قهوه",
+      "کارامل",
+      "چوب سرو",
+      "پچولی",
+      "موش سفید"
+    ],
+    "descriptionFa": "«Effects of Uniq» از برند ARMAF ترکیبی خیره‌کننده از شیرینی و ادویه است که ماهیت ظرافت مدرن را در خود جای داده است. این عطر لوکس با نت‌های بالای نارنگی و گلابی، طراوتی درخشان و به‌یادماندنی ارائه می‌دهد که به‌راحتی مجذوب می‌کند و ماندگار است.</p> <p><strong>جزئیات رایحه‌ها:</strong></p> <p>نت ابتدایی: نارنگی و گلابی</p> <p>نت میانی: شکوفه پرتقال، وانیل و گلهای سفید</p> <p>نت پایه: چوب سدر، نعناع هندی، مشک سفید، قهوه",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Le-Labo/Another-13-10131.html",
+    "extractedAt": "2026-11-28T08:09:33.154Z",
+    "name": "Another 13",
+    "brand": "Le Labo",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2010,
+    "perfumer": "Nathalie Lorson",
+    "topNotes": [
+      "Pear",
+      "Citruses",
+      "Apple"
+    ],
+    "middleNotes": [
+      "Ambrette (Musk Mallow)",
+      "Amyl Salicylate",
+      "Moss",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Iso E Super",
+      "Cetalox",
+      "Helvetolide",
+      "Ambrettolide. The fragrance features Iso E Super",
+      "Musk",
+      "Ambergris",
+      "Ambrette (Musk Mallow)",
+      "Pear",
+      "Cetalox",
+      "Amyl Salicylate",
+      "Ambrettolide",
+      "Moss",
+      "Jasmine"
+    ],
+    "description": "Perfume Another 13 is a product of collaboration between AnOther Mag and Le Labo. Its middle note is ambrox which posesses animalistic quality. Another 12 ingredients create the composition. This limited fragrance is available in only 50 copies as 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.10131.jpg",
+    "rating": 4.01,
+    "ratingVotes": 9925,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 29
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 24
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 20
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 10131,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Another 13",
+    "brandFa": "ل لابو",
+    "nameFa": "Another 13",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nathalie Lorson",
+    "topNotesFa": [
+      "گلابی",
+      "مرکبات",
+      "سیب"
+    ],
+    "middleNotesFa": [
+      "Ambrette (Musk Mallow)",
+      "Amyl Salicylate",
+      "خزه",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "Iso E Super",
+      "ستالوکس",
+      "Helvetolide",
+      "Ambrettolide. The fragrance features Iso E Super",
+      "موش",
+      "کهربا خاکستری",
+      "Ambrette (Musk Mallow)",
+      "گلابی",
+      "ستالوکس",
+      "Amyl Salicylate",
+      "Ambrettolide",
+      "خزه",
+      "یاسمن"
+    ],
+    "descriptionFa": "عطر Another 13 حاصل همکاری بین AnOther Mag و Le Labo است. نت میانی آن آمبروکس است که دارای ویژگی حیوانی است. 12 ماده دیگر ترکیب عطر را تشکیل می‌دهند. این عطر محدود تنها در 50 نسخه به صورت ادو پرفیوم 100 میلی‌لیتری عرضه می‌شود.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
   }
 ]
