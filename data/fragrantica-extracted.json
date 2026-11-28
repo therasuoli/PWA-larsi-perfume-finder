@@ -168735,5 +168735,1731 @@
     ],
     "timeOfDay": "day",
     "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Byermia/Maya-148948.html",
+    "extractedAt": "2026-11-28T11:39:42.570Z",
+    "name": "Maya",
+    "brand": "Byermia",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Rajesh Balkrishnan and Ashek Zubayer",
+    "topNotes": [
+      "Banana Leaf",
+      "Ozonic notes",
+      "Mango Blossom",
+      "Star Fruit"
+    ],
+    "middleNotes": [
+      "Frankincense",
+      "Ginger",
+      "Guava Leaf",
+      "Vanilla"
+    ],
+    "baseNotes": [
+      "Guaiac Wood",
+      "Stone",
+      "White Musk",
+      "Ambergris",
+      "Cedar"
+    ],
+    "description": "Inspired by the everyday world of the ancient Maya. In the chill before sunrise, the mountain orchards smell of wet leaves, unripe star fruit, and mango blossoms bruised by the night air, softened by dewy dragon fruit. High sun bakes the limestone courtyards to a dry, chalky warmth. Step inside the shade, and the air turns rich with custard apples, ripe guavas, and cracked cacao beans. When evening cools the stone, frankincense and copal burn down on clay hearths, lingering as resinous smoke and dark earth.</p> <p>Drawn from the landscapes and daily rhythms of the ancient Maya.</p> <p>Before sunrise, the mountain orchards are damp and cool—heavy with the sharp, green snap of unripe star fruit, bruised mango blossoms, and dewy dragon fruit. By midday, the sun pulls a dry, mineral heat from the limestone courtyards. Inside, out of the glare, woven baskets hold sweet custard apples, ripe guavas, and freshly cracked cacao. At dusk, copal and frankincense smolder on clay hearths, settling into the night air as woodsmoke and warm earth.</p> <p>Maya is the 2nd Release with Rajesh Balkrishnan.</p> <p>The concept took shape during his travels through Mexico and the ruins and surrounding terrain of Northern Guatemala. His aim was specific: a lush, fruity-fresh, transparent resinous composition unlike anything else on the market. During a visit to Sydney, he brought raw materials directly to Ashek Zubayer. Together, they sketched out the core structure in a single session, spending the following months refining and resting the formula until the final version was set. Currently offered as a limited production release.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148948.jpg",
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 80
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 68
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 64
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 148948,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Maya",
+    "brandFa": "Byermia",
+    "nameFa": "Maya",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Rajesh Balkrishnan and Ashek Zubayer",
+    "topNotesFa": [
+      "Banana Leaf",
+      "Ozonic notes",
+      "Mango Blossom",
+      "Star Fruit"
+    ],
+    "middleNotesFa": [
+      "کندر",
+      "زنجبیل",
+      "Guava Leaf",
+      "وانیل"
+    ],
+    "baseNotesFa": [
+      "چوب گوئیک",
+      "Stone",
+      "موش سفید",
+      "کهربا خاکستری",
+      "سرو"
+    ],
+    "descriptionFa": "الهام‌گرفته از دنیای روزمره مایاهای باستان. در هوای سرد قبل از طلوع آفتاب، باغ‌های کوهستانی بوی برگ‌های خیس، میوه ستاره‌ای نرسیده و شکوفه‌های انبه را می‌دهد که هوای شب آنها را پژمرده کرده و میوه اژدهای شبنم‌زده آنها را نرم کرده است. خورشید تابان حیاط‌های آهکی را گرم کرده و آنها را خشک و گچی می‌کند. وارد سایه شوید، هوا پر می‌شود از عطر سیب کاستارد، گواوای رسیده و دانه‌های کاکائوی شکسته. وقتی شب سنگ‌ها را خنک می‌کند، کندر و کوپال می‌سوزند.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Theodoros-Kalotinis/Yuzu-Cheesecake-148947.html",
+    "extractedAt": "2026-11-28T11:39:48.457Z",
+    "name": "Yuzu Cheesecake",
+    "brand": "Theodoros Kalotinis",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Theodoros Kalotinis",
+    "topNotes": [
+      "Butter",
+      "Yuzu"
+    ],
+    "middleNotes": [
+      "Cheese",
+      "Cream",
+      "Sugar"
+    ],
+    "baseNotes": [
+      "Biscuit"
+    ],
+    "description": "Inspired by the magic of exotic yuzu, the extraordinary citrus fruit whose intoxicating aroma captivated perfumer Theodoros Kalotinis during his travels in Japan. <strong>YUZU CHEESECAKE</strong> brings haute gastronomy and the art of perfumery together, transforming the most mouthwatering cheesecake into an irresistible olfactory experience.</p> <p>A <strong>freshly baked, buttery biscuit crust</strong>, velvety <strong>cream cheese</strong>, sweet <strong>sugar,</strong> and a generous topping of <strong>fresh yuzu jam</strong> create an extraordinary harmony of sweetness and freshness. Every note comes to life with exceptional realism, capturing the irresistible aroma of a freshly made cheesecake straight from the pâtisserie.</p> <p>A gourmand fragrance so delicious, you'll crave wearing it again and again.<br /> <strong>Warning… someone might just want to take a bite out of you!</strong>",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148947.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 41
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 41
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 37
+      },
+      {
+        "nameEn": "savory",
+        "nameFa": "خوشمزه",
+        "percent": 33
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 16
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 12
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 12
+      }
+    ],
+    "fragranticaId": 148947,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Yuzu Cheesecake",
+    "brandFa": "Theodoros Kalotinis",
+    "nameFa": "Yuzu Cheesecake",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Theodoros Kalotinis",
+    "topNotesFa": [
+      "کره",
+      "یوزو"
+    ],
+    "middleNotesFa": [
+      "Cheese",
+      "خامه",
+      "شکر"
+    ],
+    "baseNotesFa": [
+      "Biscuit"
+    ],
+    "descriptionFa": "الهام‌گرفته از جادوی یوزو عجیب و غریب، مرکبات خارق‌العاده‌ای که عطر مست‌کننده آن عطر‌ساز تئودوروس کالوتینیس را در سفرهایش به ژاپن مسحور کرد. <strong>YUZU CHEESECAKE</strong> غذاهای لذیذ و هنر عطر‌سازی را با هم پیوند می‌دهد و خوشمزه‌ترین چیزکیک را به تجربه‌ای بویایی مقاومت‌ناپذیر تبدیل می‌کند.</p> <p>یک <strong>لایه بیسکویت کره ای تازه پخته شده،</strong> <strong>پنیر خامه</strong>‌ای مخملی،",
+    "seasons": [
+      "winter",
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "زمستان",
+      "تابستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Theodoros-Kalotinis/Marshmallow-Cookies-148946.html",
+    "extractedAt": "2026-11-28T11:39:54.000Z",
+    "name": "Marshmallow Cookies",
+    "brand": "Theodoros Kalotinis",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Theodoros Kalotinis",
+    "topNotes": [
+      "Marshmallow",
+      "Butter"
+    ],
+    "middleNotes": [
+      "Sugar",
+      "Cookie Dough"
+    ],
+    "baseNotes": [
+      "Vanilla"
+    ],
+    "description": "Some scents have the power to make time stand still. This is one of them. Love at first breath. The delicious aroma of freshly baked cookies meets the airy sweetness of the fluffiest marshmallows, creating a temptation almost impossible to put into words.</p> <p>Irresistible cookie dough melts into a cloud of marshmallows, recreating that magical moment with extraordinary realism, when warm cookies emerge from the oven, filling the air with the most irresistible aroma. <strong>MARSHMALLOW COOKIES</strong> is more than just a gourmand fragrance. It is an obsession.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148946.jpg",
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 41
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 26
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 8
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 5
+      }
+    ],
+    "fragranticaId": 148946,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Marshmallow Cookies",
+    "brandFa": "Theodoros Kalotinis",
+    "nameFa": "Marshmallow Cookies",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Theodoros Kalotinis",
+    "topNotesFa": [
+      "مارشمالو",
+      "کره"
+    ],
+    "middleNotesFa": [
+      "شکر",
+      "Cookie Dough"
+    ],
+    "baseNotesFa": [
+      "وانیل"
+    ],
+    "descriptionFa": "برخی از رایحه‌ها این قدرت را دارند که زمان را متوقف کنند. این یکی از آنهاست. عشق در اولین نفس. رایحه خوش کلوچه‌های تازه پخته شده با شیرینی سبک‌ترین مارشمالوها ترکیب می‌شود و وسوسه‌ای ایجاد می‌کند که توصیف آن تقریباً غیرممکن است.</p> <p>خمیر کوکی مقاومت‌ناپذیر در ابر مارشمالو ذوب می‌شود و آن لحظه جادویی را با واقع‌گرایی خارق‌العاده‌ای بازآفرینی می‌کند، زمانی که کوکی‌های گرم از فر بیرون می‌آیند و هوا را با عطر خود پر می‌کنند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ellis-Brooklyn/Banana-Milkshake-106832.html",
+    "extractedAt": "2026-11-28T11:39:59.716Z",
+    "name": "Banana Milkshake",
+    "brand": "Ellis Brooklyn",
+    "family": "Citrus Gourmand",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Banana",
+      "Milk",
+      "Melon",
+      "Papaya"
+    ],
+    "middleNotes": [
+      "Strawberry",
+      "Apricot",
+      "Vanilla Orchid"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Ice cream",
+      "Tonka Bean",
+      "Rum",
+      "Wood barrel"
+    ],
+    "description": "\"WARNING! This boozy BANANA MILKSHAKE perfume mist is incredibly addictive. Milky banana notes blend with tonka beans and rum wood for a gourmand fragrance that lingers on the skin.\" -Ellis Brooklyn.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106832.jpg",
+    "rating": 4.09,
+    "ratingVotes": 185,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 75
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 59
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 34
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 31
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 20
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 106832,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Banana Milkshake",
+    "brandFa": "Ellis Brooklyn",
+    "nameFa": "Banana Milkshake",
+    "familyFa": "Citrus Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "موز",
+      "شیر",
+      "خربزه",
+      "پاپایا"
+    ],
+    "middleNotesFa": [
+      "توت‌فرنگی",
+      "زردآلو",
+      "Vanilla Orchid"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "Ice cream",
+      "لوبیا تونکا",
+      "رام",
+      "Wood barrel"
+    ],
+    "descriptionFa": "«هشدار! این اسپری عطر میلک‌شیک موز الکلی فوق‌العاده اعتیادآور است. رایحه‌های شیر موز با دانه‌های تونکا و چوب رام ترکیب می‌شوند و عطری خوشمزه ایجاد می‌کنند که روی پوست باقی می‌ماند.» -الیس بروکلین.",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Viktoria-Minya/Hedonist-17830.html",
+    "extractedAt": "2026-11-28T11:40:05.465Z",
+    "name": "Hedonist",
+    "brand": "Viktoria Minya",
+    "family": "Woody Chypre",
+    "gender": "women",
+    "year": 2013,
+    "perfumer": "Viktoria Minya",
+    "topNotes": [
+      "Peach",
+      "Rum",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Osmanthus",
+      "Tobacco",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Vetiver",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.17830.jpg",
+    "rating": 4.13,
+    "ratingVotes": 702,
+    "accords": [
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 61
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "rum",
+        "nameFa": "rum",
+        "percent": 57
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 37
+      }
+    ],
+    "fragranticaId": 17830,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Hedonist",
+    "brandFa": "Viktoria Minya",
+    "nameFa": "Hedonist",
+    "familyFa": "چوبی شیپر",
+    "genderFa": "زنانه",
+    "perfumerFa": "Viktoria Minya",
+    "topNotesFa": [
+      "هلو",
+      "رام",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "اسمانتوس",
+      "تنباکو",
+      "یاسمن",
+      "گل پرتقال"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "وتیور",
+      "سرو"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Zodiac/Apex-Power-135727.html",
+    "extractedAt": "2026-11-28T11:40:09.848Z",
+    "name": "Apex Power",
+    "brand": "Zodiac",
+    "family": "Aromatic",
+    "gender": "women and men. This is a new fragrance. <b>Apex Power</b> was launched in 2025. The fragrance features Akigalawood, Woodsy Notes, Ambroxan, Vetiver, Basil, Patchouli and Timur",
+    "year": 2025,
+    "description": "Apex Power by Zodiac is an aromatic fragrance for women and men, released in 2025. Its composition combines basil and timur with woody notes, akigalawood, vetiver, ambroxan, and patchouli, creating a fresh woody profile with spicy and earthy facets.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135727.jpg",
+    "rating": 4.93,
+    "ratingVotes": 28,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 38
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 30
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 30
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 24
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 24
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 18
+      }
+    ],
+    "fragranticaId": 135727,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Apex Power",
+    "brandFa": "Zodiac",
+    "nameFa": "Apex Power",
+    "familyFa": "معطر",
+    "genderFa": "women and men. This is a new fragrance. <b>Apex Power</b> was launched in 2025. The fragrance features Akigalawood, Woodsy Notes, Ambroxan, Vetiver, Basil, Patchouli and Timur",
+    "descriptionFa": "Apex Power از برند Zodiac یک عطر آروماتیک برای زنان و مردان است که در سال 2025 عرضه شد. ترکیبات آن شامل ریحان و فلفل تیمور همراه با نت‌های چوبی، چوب آکیگالا، وتیور، آمبروکسان و نعناع هندی است که ترکیبی چوبی و تازه با جنبه‌های تند و خاکی ایجاد می‌کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Montblanc/Legend-Spirit-33443.html",
+    "extractedAt": "2026-11-28T11:40:16.636Z",
+    "name": "Legend Spirit",
+    "brand": "Montblanc",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2016,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Grapefruit",
+      "Bergamot",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Water Notes",
+      "Lavender",
+      "Cardamom"
+    ],
+    "baseNotes": [
+      "White Musk",
+      "White Woods",
+      "Cashmere Wood",
+      "Oakmoss"
+    ],
+    "description": "Montblanc announces Legend Spirit for 2016 as a new version of the original Legend from 2011 with the slogan \"Follow Your Spirit.\" The original fragrance symbolizes timeless elegance and classicism; Legend Intense from 2013 is its night version; and the new edition is announced as the ultimate timeless and cool scent.</p> <p>Its aromatic - woody composition begins with a vibrant and refreshing blend of bergamot, pink pepper and grapefruit. A cool aquatic accord rules the heart which is mixed with aromatic tones of lavender and cardamom. The base ends with trendy blonde woods, cashmere, white musk and oak moss.</p> <p>It is available in white bottle as a 30, 50 and 100 ml Eau de Toilette with an accompanying collection.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33443.jpg",
+    "rating": 4.1,
+    "ratingVotes": 8943,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 60
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 57
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 52
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 51
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 49
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 44
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 33443,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Legend Spirit",
+    "brandFa": "مونت‌بلان",
+    "nameFa": "Legend Spirit",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "گریپ‌فروت",
+      "برگاموت",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "Water Notes",
+      "اسطوخودوس",
+      "هل"
+    ],
+    "baseNotesFa": [
+      "موش سفید",
+      "White Woods",
+      "Cashmere Wood",
+      "خزه بلوط"
+    ],
+    "descriptionFa": "مون‌بلان عطر Legend Spirit را برای سال 2016 به عنوان نسخه جدیدی از عطر اصلی Legend که در سال 2011 عرضه شده بود، با شعار «از روحت پیروی کن» معرفی می‌کند. عطر اصلی نمادی از ظرافت و کلاسیک بودن جاودانه است؛ Legend Intense محصول سال 2013 نسخه شبانه آن است؛ و نسخه جدید به عنوان عطری کاملاً جاودانه و خنک معرفی شده است.</p> <p>ترکیب معطر - چوبی آن با ترکیبی پرنشاط و طراوت‌بخش از ترنج، فلفل صورتی و گریپ‌فروت آغاز می‌شود.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bare-Rose-83716.html",
+    "extractedAt": "2026-11-28T11:40:23.106Z",
+    "name": "Bare Rose",
+    "brand": "Victoria's Secret",
+    "family": "Woody Floral Musk",
+    "gender": "women",
+    "year": 2023,
+    "perfumer": "Frank Voelkl",
+    "topNotes": [
+      "Pear"
+    ],
+    "middleNotes": [
+      "Rose"
+    ],
+    "baseNotes": [
+      "Dreamwood",
+      "Musk",
+      "Cedar"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83716.jpg",
+    "rating": 4.08,
+    "ratingVotes": 547,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 65
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 52
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 41
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 83716,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bare Rose",
+    "brandFa": "Victoria's Secret",
+    "nameFa": "Bare Rose",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Frank Voelkl",
+    "topNotesFa": [
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "گل رز"
+    ],
+    "baseNotesFa": [
+      "Dreamwood",
+      "موش",
+      "سرو"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "summer",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "بهار",
+      "پاییز",
+      "تابستان",
+      "زمستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/French-Avenue/Royal-Blend-Sequoia-109710.html",
+    "extractedAt": "2026-11-28T11:40:27.918Z",
+    "name": "Royal Blend Sequoia",
+    "brand": "French Avenue",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Raspberry",
+      "Cognac",
+      "Liquor"
+    ],
+    "middleNotes": [
+      "Rose",
+      "Moss"
+    ],
+    "baseNotes": [
+      "Praline",
+      "Oak",
+      "Sandalwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109710.jpg",
+    "rating": 4.27,
+    "ratingVotes": 1419,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 96
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 71
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 36
+      },
+      {
+        "nameEn": "alcohol",
+        "nameFa": "alcohol",
+        "percent": 35
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 16
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 14
+      }
+    ],
+    "fragranticaId": 109710,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Royal Blend Sequoia",
+    "brandFa": "French Avenue",
+    "nameFa": "Royal Blend Sequoia",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "تمشک",
+      "کوناک",
+      "مشروب"
+    ],
+    "middleNotesFa": [
+      "گل رز",
+      "خزه"
+    ],
+    "baseNotesFa": [
+      "پرالین",
+      "Oak",
+      "چوب صندل"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nishane/Meant-To-Be-Seen-116224.html",
+    "extractedAt": "2026-11-28T11:40:32.254Z",
+    "name": "Meant To Be Seen",
+    "brand": "Nishane",
+    "family": "Woody Floral Musk",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Jordi Fernández",
+    "topNotes": [
+      "Violet",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Orris Root",
+      "Moxalone",
+      "Civettone"
+    ],
+    "baseNotes": [
+      "Akigalawood",
+      "Sesame",
+      "Sandalwood",
+      "Ambrettolide"
+    ],
+    "description": "A scent that anchors the light when you feel unseen.</p> <p>There are moments when the world looks through you—when your presence is softened, your voice hushed, your radiance dimmed by self-doubt or silence.<br /> Meant to Be Seen is born from those moments. Not to mask them, but to transform them.</p> <p>It is a fragrance that acts as an anchor of light—a quiet yet powerful reminder that your essence deserves to be felt, noticed, remembered.</p> <p>Opening with the delicate brightness of bergamot and the tender grace of violet, the scent begins with a breath of clarity. At its heart, the rich creaminess of iris butter intertwines with moxalone and a soft animalic trace of civettone, creating a sensation of vulnerability refined into strength—delicate, yet unwavering.</p> <p>The base grounds this luminescence with unexpected warmth. Sesame and sandalwood brings a nutty, textured depth, while ambrettolide and akigalawood wrap the composition in a radiant, skin-like finish—soft, sensual, and lingering.</p> <p>Meant to Be Seen is not just a perfume—it is a declaration. For the quiet ones. For the daydreamers. For those whose glow has been dimmed but never lost. This is the scent that finds you in your stillness and reminds you:</p> <p>You were never meant to hide. You were always meant to be seen.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116224.jpg",
+    "rating": 4.19,
+    "ratingVotes": 1484,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 81
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 54
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 51
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 42
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 32
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 116224,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Meant To Be Seen",
+    "brandFa": "نیشانه",
+    "nameFa": "Meant To Be Seen",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jordi Fernández",
+    "topNotesFa": [
+      "بنفشه",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "ریشه زنبق",
+      "Moxalone",
+      "Civettone"
+    ],
+    "baseNotesFa": [
+      "Akigalawood",
+      "Sesame",
+      "چوب صندل",
+      "Ambrettolide"
+    ],
+    "descriptionFa": "عطری که وقتی احساس می‌کنید دیده نمی‌شوید، نور را تثبیت می‌کند.</p> <p>لحظاتی وجود دارد که دنیا از شما می‌گذرد—زمانی که حضور شما کمرنگ می‌شود، صدایتان خاموش می‌شود، درخشش شما به دلیل تردید یا سکوت کم‌نور می‌شود.<br /> Meant to Be Seen از چنین لحظاتی متولد شده است. نه برای پنهان کردن آنها، بلکه برای دگرگون کردن آنها.</p> <p>این عطر مانند لنگری از نور عمل می‌کند - یادآوری آرام اما قدرتمند که ذات شما شایسته آن است که احساس شود، دیده شود و به خاطر سپرده شود.&lt;/p",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ajmal/Chapter-4-102738.html",
+    "extractedAt": "2026-11-28T11:40:37.864Z",
+    "name": "Chapter 4",
+    "brand": "Ajmal",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Nathalie Lorson",
+    "topNotes": [
+      "Olibanum",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Black Cherry",
+      "Caramel",
+      "Davana"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Peru Balsam",
+      "Cypriol",
+      "Sandalwood",
+      "Cedarwood",
+      "Patchouli"
+    ],
+    "description": "The Untold Stories Collection celebrates boundless creativity, individuality, and the art of storytelling through fragrance. Crafted by five globally acclaimed perfumers, each chapter reflects a personal journey, offering a unique sensory experience that resonates with adventure, self-expression, and authenticity. Designed for those who value artistry and authenticity, this collection transforms perfumery into a canvas for storytelling.</p> <p>Chapter 4 is a bold and enigmatic fragrance that masterfully balances contrasts, blending the luscious vibrancy of black cherry with the smoky sophistication of leather. It begins with a surprising sparkle of olibanum and pink pepper—an intriguing combination that ignites curiosity and sets the stage for what’s to come. At its heart, black cherry radiates juicy sweetness, wrapped in the golden warmth of caramel and the herbaceous intrigue of Davana India. As the fragrance unfolds, darker, more grounded notes take center stage. The raw intensity of leather is softened by the creamy elegance of sandalwood and cedarwood, while Peru balsam adds a resinous sweetness that deepens the composition. Smoky whispers of patchouli and Cypriol weave seamlessly through, creating a magnetic finish that leaves an unforgettable impression—daring yet refined.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102738.jpg",
+    "rating": 4.37,
+    "ratingVotes": 99,
+    "accords": [
+      {
+        "nameEn": "cherry",
+        "nameFa": "cherry",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 82
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 63
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 61
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 33
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 32
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 31
+      }
+    ],
+    "fragranticaId": 102738,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Chapter 4",
+    "brandFa": "Ajmal",
+    "nameFa": "Chapter 4",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Nathalie Lorson",
+    "topNotesFa": [
+      "کندر",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گیلاس سیاه",
+      "کارامل",
+      "Davana"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "بلسام پرو",
+      "سایپریول",
+      "چوب صندل",
+      "چوب سرو",
+      "پچولی"
+    ],
+    "descriptionFa": "مجموعه «داستان‌های ناگفته» خلاقیت بی‌کران، فردیت و هنر داستان‌گویی از طریق عطر را گرامی می‌دارد. هر فصل که توسط پنج عطر‌ساز مشهور جهانی ساخته شده است، منعکس‌کننده یک سفر شخصی است و تجربه‌ای حسی منحصربه‌فرد ارائه می‌دهد که با ماجراجویی، ابراز وجود و اصالت طنین‌انداز می‌شود. این مجموعه که برای کسانی طراحی شده است که برای هنر و اصالت ارزش قائل هستند، عطر‌سازی را به بومی برای داستان‌سرایی تبدیل می‌کند.</p> <p>Ch",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Asad-Zanzibar-90713.html",
+    "extractedAt": "2026-11-28T11:40:43.388Z",
+    "name": "Asad Zanzibar",
+    "brand": "Lattafa Perfumes",
+    "family": null,
+    "gender": "men",
+    "year": 2024,
+    "perfumer": "Fanny Bal",
+    "topNotes": [
+      "Lavender",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Coconut Water",
+      "Iris",
+      "Salt"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Incense"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90713.jpg",
+    "rating": 3.22,
+    "ratingVotes": 3919,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 79
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 77
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 71
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 67
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 46
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 40
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 36
+      }
+    ],
+    "fragranticaId": 90713,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Asad Zanzibar",
+    "brandFa": "Lattafa Perfumes",
+    "nameFa": "Asad Zanzibar",
+    "genderFa": "مردانه",
+    "perfumerFa": "Fanny Bal",
+    "topNotesFa": [
+      "اسطوخودوس",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "Coconut Water",
+      "زنبق",
+      "نمک"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "عود بخور"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Lalique/Lalique-Le-Parfum-1840.html",
+    "extractedAt": "2026-11-28T11:40:48.634Z",
+    "name": "Lalique Le Parfum",
+    "brand": "Lalique",
+    "family": "Oriental",
+    "gender": "women",
+    "year": 2005,
+    "perfumer": "Dominique Ropion",
+    "topNotes": [
+      "West Indian Bay",
+      "Pink Pepper",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Heliotrope",
+      "Almond",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.1840.jpg",
+    "rating": 4,
+    "ratingVotes": 6989,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 62
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 48
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 41
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 40
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 34
+      },
+      {
+        "nameEn": "almond",
+        "nameFa": "بادامی",
+        "percent": 33
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 1840,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Parfum",
+    "baseName": "Lalique Le",
+    "brandFa": "لالیک",
+    "nameFa": "Lalique Le Parfum",
+    "concentrationFa": "پرفیوم",
+    "familyFa": "شرقی",
+    "genderFa": "زنانه",
+    "perfumerFa": "Dominique Ropion",
+    "topNotesFa": [
+      "West Indian Bay",
+      "فلفل صورتی",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "گل هلیوتروپ",
+      "بادام",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "لوبیا تونکا",
+      "چوب صندل",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Matiere-Premiere/Radical-Rose-66043.html",
+    "extractedAt": "2026-11-28T11:40:53.171Z",
+    "name": "Radical Rose",
+    "brand": "Matière Première",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>Radical Rose</b> was launched in 2020. The nose behind this fragrance is Aurélien Guichard. The fragrance features Rose, Patchouli, Saffron, Labdanum and Pepper",
+    "year": 2020,
+    "perfumer": "Aurélien Guichard",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66043.jpg",
+    "rating": 4.14,
+    "ratingVotes": 1936,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 88
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 65
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 51
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 38
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 32
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 31
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 66043,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Radical Rose",
+    "brandFa": "Matière Première",
+    "nameFa": "Radical Rose",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>Radical Rose</b> was launched in 2020. The nose behind this fragrance is Aurélien Guichard. The fragrance features Rose, Patchouli, Saffron, Labdanum and Pepper",
+    "perfumerFa": "Aurélien Guichard",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Nishane/Ani-54785.html",
+    "extractedAt": "2026-11-28T11:40:57.721Z",
+    "name": "Ani",
+    "brand": "Nishane",
+    "family": "Oriental Floral",
+    "gender": "women and men",
+    "year": 2019,
+    "perfumer": "Cécile Zarokian",
+    "topNotes": [
+      "Ginger",
+      "Bergamot",
+      "Pink Pepper",
+      "Green Notes"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Black Currant",
+      "Turkish Rose"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Benzoin",
+      "Sandalwood",
+      "Cedar",
+      "Patchouli",
+      "Ambergris",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.54785.jpg",
+    "rating": 4.25,
+    "ratingVotes": 11579,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 88
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 82
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 79
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 64
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 60
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 54
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 54785,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ani",
+    "brandFa": "نیشانه",
+    "nameFa": "Ani",
+    "familyFa": "Oriental Floral",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Cécile Zarokian",
+    "topNotesFa": [
+      "زنجبیل",
+      "برگاموت",
+      "فلفل صورتی",
+      "نت‌های سبز"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "توت سیاه",
+      "گل رز ترکی"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بنزوئین",
+      "چوب صندل",
+      "سرو",
+      "پچولی",
+      "کهربا خاکستری",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Emanuel-Ungaro/Moon-116481.html",
+    "extractedAt": "2026-11-28T11:41:02.617Z",
+    "name": "Moon",
+    "brand": "Emanuel Ungaro",
+    "family": "Woody Spicy",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Basil",
+      "Cardamom",
+      "Black Pepper"
+    ],
+    "middleNotes": [
+      "Geranium",
+      "Bamboo",
+      "Kumquat",
+      "White Ginger Lily"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Moon by Emanuel Ungaro is an eau de parfum for women described as an aromatic fougere with a space-inspired concept. It opens with black pepper, basil, and cardamom, moves to a heart of geranium, kumquat, bamboo, and ginger lily, and rests on a base of sandalwood, patchouli, and vanilla. The presentation references lunar imagery with a planet-shaped bottle that continues the brand’s Cosmic design language.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116481.jpg",
+    "rating": 3.53,
+    "ratingVotes": 188,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 80
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 43
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 33
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 31
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 31
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 25
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 20
+      }
+    ],
+    "fragranticaId": 116481,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Moon",
+    "brandFa": "Emanuel Ungaro",
+    "nameFa": "Moon",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "ریحان",
+      "هل",
+      "فلفل سیاه"
+    ],
+    "middleNotesFa": [
+      "گل جعفری",
+      "بامبو",
+      "کومکوات",
+      "White Ginger Lily"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وانیل",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Moon از Emanuel Ungaro یک ادو پرفیوم زنانه است که به عنوان یک عطر فوژر معطر با مفهومی الهام‌گرفته از فضا توصیف می‌شود. این عطر با رایحه فلفل سیاه، ریحان و هل آغاز می‌شود، به رایحه میانی شمعدانی، کام‌کوات، بامبو و زنجبیل می‌رسد و بر پایه رایحه چوب صندل، نعناع هندی و وانیل استوار است. این عطر با بطری به شکل سیاره که زبان طراحی کیهانی برند را ادامه می‌دهد، به تصاویر ماه اشاره دارد.",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
