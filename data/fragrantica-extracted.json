@@ -156940,5 +156940,1184 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Valentino/Vendetta-Uomo-2026-137496.html",
+    "extractedAt": "2026-11-28T00:50:41.734Z",
+    "name": "Vendetta Uomo (2026)",
+    "brand": "Valentino",
+    "family": "Woody Spicy",
+    "gender": "men",
+    "year": 2026,
+    "perfumer": "Marie Salamagne",
+    "topNotes": [
+      "Ginger"
+    ],
+    "middleNotes": [
+      "Cinnamon",
+      "Liquor"
+    ],
+    "baseNotes": [
+      "Patchouli"
+    ],
+    "description": "Vendetta Uomo by Valentino is a men's woody spicy fragrance released in 2026. Created by Marie Salamagne and launched alongside Vendetta Donna, it revisits the Vendetta name first introduced with Vendetta Pour Homme in 1991.</p> <p>The composition develops from a fresh ginger opening into a cinnamon liquor accord, settling on a patchouli base for a warm, spicy, and woody character.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137496.jpg",
+    "rating": 3.79,
+    "ratingVotes": 866,
+    "accords": [
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 100
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 98
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 51
+      },
+      {
+        "nameEn": "alcohol",
+        "nameFa": "alcohol",
+        "percent": 47
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 43
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 32
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 26
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 17
+      }
+    ],
+    "fragranticaId": 137496,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Vendetta Uomo (2026)",
+    "brandFa": "Valentino",
+    "nameFa": "Vendetta Uomo (2026)",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه",
+    "perfumerFa": "Marie Salamagne",
+    "topNotesFa": [
+      "زنجبیل"
+    ],
+    "middleNotesFa": [
+      "دارچین",
+      "مشروب"
+    ],
+    "baseNotesFa": [
+      "پچولی"
+    ],
+    "descriptionFa": "Vendetta Uomo از برند Valentino یک عطر چوبی تند مردانه است که در سال 2026 عرضه شد. این عطر که توسط ماری سالامانیه خلق شده و همزمان با Vendetta Donna عرضه شده است، نام Vendetta را که اولین بار در سال 1991 با Vendetta Pour Homme معرفی شد، احیا می‌کند.</p> <p>این ترکیب از نت ابتدایی زنجبیل تازه شروع می‌شود و به نت میانی مشروب دارچینی می‌رسد و در نهایت روی نت پایه‌ای نعناع هندی قرار می‌گیرد تا شخصیتی گرم، تند و چوبی ایجاد کند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Bianco-Latte-64757.html",
+    "extractedAt": "2026-11-28T00:50:47.542Z",
+    "name": "Bianco Latte",
+    "brand": "Giardini Di Toscana",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2014,
+    "perfumer": "Silvia Martinelli",
+    "topNotes": [
+      "Caramel"
+    ],
+    "middleNotes": [
+      "Coumarin",
+      "Honey"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "White Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64757.jpg",
+    "rating": 4.06,
+    "ratingVotes": 12000,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 84
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 71
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 38
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 37
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 37
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 26
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 64757,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Bianco Latte",
+    "brandFa": "Giardini Di Toscana",
+    "nameFa": "Bianco Latte",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Silvia Martinelli",
+    "topNotesFa": [
+      "کارامل"
+    ],
+    "middleNotesFa": [
+      "Coumarin",
+      "عسل"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "موش سفید"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Eros-Energy-92647.html",
+    "extractedAt": "2026-11-28T00:50:51.897Z",
+    "name": "Eros Energy",
+    "brand": "Versace",
+    "family": "Citrus Aromatic",
+    "gender": "men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Lemon",
+      "Lime",
+      "Grapefruit",
+      "Blood Orange",
+      "Sicilian Bergamot",
+      "Mandarin Orange"
+    ],
+    "middleNotes": [
+      "Pink Pepper",
+      "White Amber",
+      "Black Currant"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "description": "Eros Energy is inspired by the breathtaking beauty of the Mediterranean coastline; the freshness of its scenery, the wildness of the air, and the luxury of a vast Italian vacation.</p> <p>Channing Tatum stars in the Versace Eros campaign that debuts the collection’s latest eau de parfum pour homme, Eros Energy, and joins the existing Eros and Eros Flame fragrances.</p> <p>Love, passion, desire and the breathtaking beauty of the Mediterranean shores form the inspirations of this olfactory creation. A unique freshness and sensuality to feel powerful, sexy and positive. Versace Eros Energy is the fragrance of a passionate man, master of himself and the codes of masculine allure.</p> <p>Top notes: bergamot, blood orange, lime, mandarin, grapefruit, Lemon<br /> Heart notes: white amber, blackcurrant, pink pepper<br /> Base notes: patchouli, musk, oakmoss<br /> <br /> Available as 50ml and 100ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.92647.jpg",
+    "rating": 3.98,
+    "ratingVotes": 7162,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 18
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 17
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 13
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 12
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 12
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 9
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 9
+      }
+    ],
+    "fragranticaId": 92647,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Eros Energy",
+    "brandFa": "ورساچه",
+    "nameFa": "Eros Energy",
+    "familyFa": "مرکباتی معطر",
+    "genderFa": "مردانه",
+    "topNotesFa": [
+      "لیمو",
+      "لیمو سبز",
+      "گریپ‌فروت",
+      "پرتقال خونی",
+      "Sicilian Bergamot",
+      "نارنگی"
+    ],
+    "middleNotesFa": [
+      "فلفل صورتی",
+      "کهربا سفید",
+      "توت سیاه"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "خزه بلوط",
+      "پچولی"
+    ],
+    "descriptionFa": "Eros Energy از زیبایی خیره‌کننده سواحل مدیترانه، طراوت مناظر آن، هوای وحشی و لذت یک تعطیلات طولانی در ایتالیا الهام گرفته است.</p> <p>چنینگ تاتوم در کمپین Versace Eros بازی می‌کند که جدیدترین ادو پرفیوم مردانه این مجموعه، Eros Energy، را معرفی می‌کند و به عطر‌های موجود Eros و Eros Flame می‌پیوندد.</p> <p>عشق، شور، هوس و زیبایی خیره‌کننده سواحل مدیترانه",
+    "seasons": [
+      "summer",
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Marc-Jacobs/Daisy-Murakami-Yellow-118174.html",
+    "extractedAt": "2026-11-28T00:50:57.274Z",
+    "name": "Daisy Murakami Yellow",
+    "brand": "Marc Jacobs",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2025,
+    "perfumer": "Alberto Morillas",
+    "topNotes": [
+      "Kumquat",
+      "Mandarin",
+      "Grapefruit",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Gardenia",
+      "Strawberry",
+      "Rose",
+      "Raspberry"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Praline"
+    ],
+    "description": "Daisy Murakami Yellow is a limited-edition flanker to Marc Jacobs’ 2007 Daisy, created in collaboration with artist Takashi Murakami. Positioned as a floral-fruity composition, it opens with mandarin, grapefruit, pink pepper, and kumquat; the heart blends strawberry, raspberry, gardenia, and rose; and the base rests on cedarwood and praline.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118174.jpg",
+    "rating": 3.84,
+    "ratingVotes": 184,
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 53
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 51
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 22
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 22
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 20
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 16
+      }
+    ],
+    "fragranticaId": 118174,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Daisy Murakami Yellow",
+    "brandFa": "Marc Jacobs",
+    "nameFa": "Daisy Murakami Yellow",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Alberto Morillas",
+    "topNotesFa": [
+      "کومکوات",
+      "Mandarin",
+      "گریپ‌فروت",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "گاردنیا",
+      "توت‌فرنگی",
+      "گل رز",
+      "تمشک"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "پرالین"
+    ],
+    "descriptionFa": "Daisy Murakami Yellow یک نسخه جانبی با تیراژ محدود از عطر Daisy مارک جیکوبز در سال 2007 است که با همکاری هنرمند تاکاشی موراکامی ساخته شده است. این عطر که به عنوان یک ترکیب گل‌دار-میوه‌ای شناخته می‌شود، با رایحه نارنگی، گریپ‌فروت، فلفل صورتی و کام‌کوات آغاز می‌شود؛ نت میانی ترکیبی از توت‌فرنگی، تمشک، گاردنیا و گل رز است؛ و نت پایه بر پایه رایحه چوب سدر و پرالین استوار است.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Imaginary-Authors/Decisions-Decisions-64277.html",
+    "extractedAt": "2026-11-28T00:51:02.219Z",
+    "name": "Decisions, Decisions",
+    "brand": "Imaginary Authors",
+    "family": "Oriental Floral",
+    "gender": "women and men. <b>Decisions, Decisions</b> was launched in 2020. The nose behind this fragrance is Josh Meyer. The fragrance features Labdanum, Tuberose, Geranium, Jasmine Sambac and Raspberry",
+    "year": 2020,
+    "perfumer": "Josh Meyer",
+    "description": "\"One of the most eccentric and sparkling voices of her generation, Jasmine Duchamp might be best known as the leader of the Wishbone Girls, a young group of activists who met in the basement of her mother’s Tuscaloosa, Alabama nail salon. Inspired by the outlaws seen in the black and white Westerns of her youth, Duchamp developed the smooth yet resilient tone which would reverberate around the world. Marvel at the unconventional thinking behind her most bombastic triumphs and be stunned silent by a breathtaking ending no one could have predicted.\"</p> <p>\"I know that I should not, and yet I absolutely will. What can I say? I am defenseless when it comes to thrills.\"</p> <p>NOTES: Tuberose, Sarsaparilla, Geranium, Labdanum, Jasmine Sambac, Raspberry, Sweet Suspense.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64277.jpg",
+    "rating": 3.59,
+    "ratingVotes": 169,
+    "accords": [
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "tuberose",
+        "nameFa": "گل شیپوری",
+        "percent": 68
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 55
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 44
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 36
+      },
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 34
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 64277,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Decisions, Decisions",
+    "brandFa": "Imaginary Authors",
+    "nameFa": "Decisions, Decisions",
+    "familyFa": "Oriental Floral",
+    "genderFa": "women and men. <b>Decisions, Decisions</b> was launched in 2020. The nose behind this fragrance is Josh Meyer. The fragrance features Labdanum, Tuberose, Geranium, Jasmine Sambac and Raspberry",
+    "perfumerFa": "Josh Meyer",
+    "descriptionFa": "«جاسمین دوچامپ، یکی از عجیب‌ترین و درخشان‌ترین صداهای نسل خود، احتمالاً بیشتر به عنوان رهبر گروه Wishbone Girls شناخته می‌شود، گروهی از فعالان جوان که در زیرزمین سالن ناخن مادرش در تاسکالوسا، آلاباما، دور هم جمع می‌شدند. داشامپ که از قانون‌شکنان دیده شده در فیلم‌های وسترن سیاه و سفید دوران جوانی‌اش الهام گرفته بود، لحن ملایم اما مقاوم خود را که در سراسر جهان طنین‌انداز می‌شد، پرورش داد. از تفکر غیرمتعارف پشت این موضوع شگفت‌زده شوید",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Azzaro/Forever-Wanted-Elixir-102882.html",
+    "extractedAt": "2026-11-28T00:51:08.452Z",
+    "name": "Forever Wanted Elixir",
+    "brand": "Azzaro",
+    "family": "Leather",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Honorine Blanc, Sophie Labbé and Clement Gavarry",
+    "topNotes": [
+      "Raspberry",
+      "Green Mandarin",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Lavender",
+      "Clary Sage"
+    ],
+    "baseNotes": [
+      "Leather",
+      "Wolfwood",
+      "Vetiver"
+    ],
+    "description": "Azzaro Forever Wanted Elixir is a captivating fusion of woody, fruity, and leathery notes, where the intensity of rich leather harmonizes with the irresistible sweetness of red fruits. This bold composition creates an unforgettable trail, leaving a lasting impression wherever you go. The iconic Azzaro Wanted bottle is reimagined in striking gold tones, exuding confidence and sophistication.</p> <p>Top: Raspberry, Green Mandarin, Bergamot;<br /> Middle: Clary Sage Heart, Lavandin Essence, Heart of Cardamom;<br /> Base: Leather Accord, Vetiver Heart, Wolfwood",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102882.jpg",
+    "rating": 4.23,
+    "ratingVotes": 2746,
+    "accords": [
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 100
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 95
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 67
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 63
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 49
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 42
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 37
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 29
+      }
+    ],
+    "fragranticaId": 102882,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Elixir",
+    "baseName": "Forever Wanted",
+    "brandFa": "Azzaro",
+    "nameFa": "Forever Wanted Elixir",
+    "concentrationFa": "اکسیر",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Honorine Blanc, Sophie Labbé and Clement Gavarry",
+    "topNotesFa": [
+      "تمشک",
+      "Green Mandarin",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "اسطوخودوس",
+      "مریم‌گلی"
+    ],
+    "baseNotesFa": [
+      "چرم",
+      "Wolfwood",
+      "وتیور"
+    ],
+    "descriptionFa": "Azzaro Forever Wanted Elixir ترکیبی جذاب از رایحه‌های چوبی، میوه‌ای و چرمی است که در آن شدت رایحه چرم غنی با شیرینی مقاومت‌ناپذیر میوه‌های قرمز هماهنگ می‌شود. این ترکیب جسورانه اثری فراموش‌نشدنی ایجاد می‌کند و در هر کجا که بروید، تأثیری ماندگار بر جای می‌گذارد. بطری نمادین Azzaro Wanted در رنگ‌های طلایی خیره‌کننده طراحی شده است که نشان‌دهنده اعتماد به نفس و ظرافت است.</p> <p>نت ابتدایی: تمشک، نارنگی سبز، ترنج؛<br /> M",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/DS-Durga/Steamed-Rainbow-79740.html",
+    "extractedAt": "2026-11-28T00:51:14.474Z",
+    "name": "Steamed Rainbow",
+    "brand": "DS&Durga",
+    "family": "Aromatic",
+    "gender": "women and men",
+    "year": 2023,
+    "perfumer": "David Seth Moltz",
+    "topNotes": [
+      "Blood Mandarin",
+      "elemi",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Grass",
+      "Almond Blossom",
+      "Cedar"
+    ],
+    "baseNotes": [
+      "Violet",
+      "Vetiver"
+    ],
+    "description": "“Our spring launch is something I’ve been working on for years. I used one red ingredient, one orange, and do on to make something that smells like a real rainbow. If only you could catch one.” D.S.</p> <p>red mandarin, orange, yellow elemi resin<br /> green cedar, blue almond flower, indigo grass<br /> violet, vetyver vapors",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79740.jpg",
+    "rating": 4.09,
+    "ratingVotes": 1482,
+    "accords": [
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 83
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 70
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 65
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 64
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 50
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 48
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 39
+      }
+    ],
+    "fragranticaId": 79740,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Steamed Rainbow",
+    "brandFa": "DS&Durga",
+    "nameFa": "Steamed Rainbow",
+    "familyFa": "معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "David Seth Moltz",
+    "topNotesFa": [
+      "Blood Mandarin",
+      "elemi",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "علف",
+      "Almond Blossom",
+      "سرو"
+    ],
+    "baseNotesFa": [
+      "بنفشه",
+      "وتیور"
+    ],
+    "descriptionFa": "«مجموعه بهاری ما چیزی است که سال‌ها روی آن کار کرده‌ام. من از یک ماده قرمز، یک ماده نارنجی و غیره استفاده کردم تا چیزی بسازم که بوی یک رنگین‌کمان واقعی را بدهد. ای کاش می‌توانستید یکی از آنها را بگیرید.» دی.‌اس.</p> <p>نارنگی قرمز، پرتقال، صمغ المی زرد<br /> سدر سبز، گل بادام آبی، بنفشه علفی<br /> نیلی، بخارات وتیور",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Blue-Eau-de-Parfum-38051.html",
+    "extractedAt": "2026-11-28T00:51:19.050Z",
+    "name": "Polo Blue Eau de Parfum",
+    "brand": "Ralph Lauren",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2016,
+    "perfumer": "Carlos Benaïm",
+    "topNotes": [
+      "Sea Notes",
+      "Bergamot",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Basil",
+      "Verbena",
+      "Clary Sage",
+      "Orris"
+    ],
+    "baseNotes": [
+      "Suede",
+      "Woodsy Notes",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.38051.jpg",
+    "rating": 4.27,
+    "ratingVotes": 2515,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 55
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 42
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 27
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 23
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 38051,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Polo Blue",
+    "brandFa": "Ralph Lauren",
+    "nameFa": "Polo Blue Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Carlos Benaïm",
+    "topNotesFa": [
+      "Sea Notes",
+      "برگاموت",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "ریحان",
+      "Verbena",
+      "مریم‌گلی",
+      "ریشه زنبق"
+    ],
+    "baseNotesFa": [
+      "چرم جیر",
+      "Woodsy Notes",
+      "وتیور",
+      "پچولی"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Oddity/Dead-Air-77568.html",
+    "extractedAt": "2026-11-28T00:51:22.360Z",
+    "name": "Dead Air",
+    "brand": ".Oddity",
+    "family": null,
+    "gender": "women and men. <b>Dead Air</b> was launched in 2022. The nose behind this fragrance is Mark Buxton. The fragrance features Davana, Patchouli, Lovage Root, Salt, Opoponax, Oak, Violet Leaf, Narcissus, Vetiver, Dates, Cedar, Labdanum and Freesia",
+    "year": 2022,
+    "perfumer": "Mark Buxton",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77568.jpg",
+    "rating": 3.61,
+    "ratingVotes": 216,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 97
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 75
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 65
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 62
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 62
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 49
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 41
+      }
+    ],
+    "fragranticaId": 77568,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dead Air",
+    "brandFa": ".Oddity",
+    "nameFa": "Dead Air",
+    "genderFa": "women and men. <b>Dead Air</b> was launched in 2022. The nose behind this fragrance is Mark Buxton. The fragrance features Davana, Patchouli, Lovage Root, Salt, Opoponax, Oak, Violet Leaf, Narcissus, Vetiver, Dates, Cedar, Labdanum and Freesia",
+    "perfumerFa": "Mark Buxton",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Natura/Ekos-Pedra-109345.html",
+    "extractedAt": "2026-11-28T00:51:26.372Z",
+    "name": "Ekos Pedra",
+    "brand": "Natura",
+    "family": "Woody Aromatic",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": "Verônica Kato",
+    "topNotes": [
+      "Breu-Branco",
+      "Lavender",
+      "Bergamot",
+      "Artemisia"
+    ],
+    "middleNotes": [
+      "Mineral notes",
+      "Geranium",
+      "Cypress"
+    ],
+    "baseNotes": [
+      "Moss",
+      "Amber",
+      "Patchouli"
+    ],
+    "description": "Ekos Pedra is an Eau de Parfum that reflects the richness of the Amazon rainforest. A fragrance that expresses strength and power, with aromatic and mineral notes from the tar resin.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109345.jpg",
+    "rating": 4.22,
+    "ratingVotes": 267,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 97
+      },
+      {
+        "nameEn": "mineral",
+        "nameFa": "معدنی",
+        "percent": 79
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 60
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 52
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 52
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 46
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 109345,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Ekos Pedra",
+    "brandFa": "Natura",
+    "nameFa": "Ekos Pedra",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Verônica Kato",
+    "topNotesFa": [
+      "Breu-Branco",
+      "اسطوخودوس",
+      "برگاموت",
+      "افسنتین"
+    ],
+    "middleNotesFa": [
+      "Mineral notes",
+      "گل جعفری",
+      "سرو کوهی"
+    ],
+    "baseNotesFa": [
+      "خزه",
+      "کهربا",
+      "پچولی"
+    ],
+    "descriptionFa": "Ekos Pedra یک ادو پرفیوم است که غنای جنگل‌های بارانی آمازون را منعکس می‌کند. عطری که بیانگر قدرت و توانمندی است، با رایحه‌های معطر و معدنی حاصل از رزین قیر.",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Jorum-Studio/Gorseland-73893.html",
+    "extractedAt": "2026-11-28T00:51:32.690Z",
+    "name": "Gorseland",
+    "brand": "Jorum Studio",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "Euan McCall",
+    "topNotes": [
+      "Gorse",
+      "Apple",
+      "Chamomile",
+      "Lemon",
+      "Lavender"
+    ],
+    "middleNotes": [
+      "Black Elder",
+      "Geranium macrorrhizum (Zdravetz)",
+      "Neroli"
+    ],
+    "baseNotes": [
+      "cannabis"
+    ],
+    "description": "\"As neon gold blooms erupt from sun-bleached concrete crags, beauty and dereliction coexist.</p> <p>Place reference: Salisbury Crags, Edinburgh</p> <p>Impression: Pineapple weed, Neroli oil, Chamomile, Gorseflower, Crab Apple, Lemon oil, Astilbe & Lavender Absolute</p> <p>Fade: Gooseberry, Milk-vetch, Elderflower, Catchfly, Woodruff, Gorsewood, Zdravetz & Kush Accord\"</p> <p>(info as provided by the brand.)",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73893.jpg",
+    "rating": 3.99,
+    "ratingVotes": 481,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 64
+      },
+      {
+        "nameEn": "yellow floral",
+        "nameFa": "گل زرد",
+        "percent": 61
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 58
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 58
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 50
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 49
+      }
+    ],
+    "fragranticaId": 73893,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Gorseland",
+    "brandFa": "Jorum Studio",
+    "nameFa": "Gorseland",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Euan McCall",
+    "topNotesFa": [
+      "Gorse",
+      "سیب",
+      "بابونه",
+      "لیمو",
+      "اسطوخودوس"
+    ],
+    "middleNotesFa": [
+      "Black Elder",
+      "Geranium macrorrhizum (Zdravetz)",
+      "نرولی"
+    ],
+    "baseNotesFa": [
+      "cannabis"
+    ],
+    "descriptionFa": "«همزمان با شکوفه‌های طلایی نئونی که از صخره‌های بتنی آفتاب‌سوخته بیرون می‌زنند، زیبایی و ویرانی در کنار هم وجود دارند.</p> <p>مکان مورد نظر: سالزبری کرَگز، ادینبورگ</p> <p>نت اولیه: علف آناناسی، روغن نرولی، بابونه، گل خار، سیب وحشی، روغن لیمو، آستیلب و عصاره خالص اسطوخودوس</p> <p>رایحه پایانی: انگور فرنگی، آستراگالوس، گل درخت پیراکانتا، گل چسبک، گل راعی، درخت خار، گل رزماری وحشی و ترکیب کوش»</p> <p>(اطلاعات ارائه شده توسط برند.)",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
