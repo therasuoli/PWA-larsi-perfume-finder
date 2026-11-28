@@ -167509,5 +167509,1231 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Versace/Versace-Man-Eau-Fraiche-Extreme-107802.html",
+    "extractedAt": "2026-11-28T10:43:17.701Z",
+    "name": "Versace Man Eau Fraîche Extreme",
+    "brand": "Versace",
+    "family": "Woody Aromatic",
+    "gender": "men",
+    "year": 2025,
+    "perfumer": "Olivier Cresp",
+    "topNotes": [
+      "Orange Blossom",
+      "Lemon",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Lavender",
+      "Clary Sage",
+      "Bourbon Geranium"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Musk",
+      "Virginian Cedar"
+    ],
+    "description": "Versace eau fraîche extrême, for the strong and self-confident man, a lover of luxury and very attentive to the dictates of fashion. For the man who makes his soul his strong point, who feels free and knows how to enjoy life moment by moment, versace eau fraîche extrême, a new olfactory harmony where the most classic ingredients of men's perfumery are renewed with new accents, giving life to a perfume with surprising freshness.</p> <p>The citrus notes of lemon and orange blossom open with a vibrant brightness, crossed by the spicy nuance of pink pepper from Madagascar. In the heart, the aromatic power of clary sage, lavender and geranium intertwines in a sophisticated and hypnotic accord. The base releases a magnetic attraction, where the warm intensity of cedar wood meets the enveloping depth of ambrox® and musk, creating a persistent and irresistible trail. An extreme fragrance, for those who are not afraid to dare.</p> <p><strong>Top Notes:</strong><br /> Lemon, Orange Blossom, Pink Pepper from Madagascar</p> <p><strong>Heart Notes:</strong><br /> Clary Sage from Provence, Diva Lavender, Geranium Bourbon</p> <p><strong>Base Notes:</strong><br /> Virginia Cedarwood, Ambrox®, Musk",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107802.jpg",
+    "rating": 3.83,
+    "ratingVotes": 1023,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 80
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 73
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 64
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 57
+      },
+      {
+        "nameEn": "lavender",
+        "nameFa": "اسطوخودوسی",
+        "percent": 53
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 48
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 43
+      }
+    ],
+    "fragranticaId": 107802,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Versace Man Eau Fraîche Extreme",
+    "brandFa": "ورساچه",
+    "nameFa": "Versace Man Eau Fraîche Extreme",
+    "familyFa": "چوبی معطر",
+    "genderFa": "مردانه",
+    "perfumerFa": "Olivier Cresp",
+    "topNotesFa": [
+      "گل پرتقال",
+      "لیمو",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "اسطوخودوس",
+      "مریم‌گلی",
+      "Bourbon Geranium"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "موش",
+      "سرو ویرجینیا"
+    ],
+    "descriptionFa": "ورساچه او فرش اکستریم، برای مردی قوی و با اعتماد به نفس، عاشق تجملات و بسیار توجه‌کننده به دستورات مد. برای مردی که روح خود را نقطه قوت خود می‌داند، که احساس آزادی می‌کند و می‌داند چگونه لحظه به لحظه از زندگی لذت ببرد، ورساچه او فرش اکستریم، هماهنگی بویایی جدیدی است که در آن کلاسیک‌ترین مواد تشکیل‌دهنده عطر مردانه با جلوه‌های جدید تجدید می‌شوند و به عطری با طراوت شگفت‌انگیز جان می‌بخشند.</p> <p>مرکبات",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Beverly-Hills-Polo-Club/Blaze-118682.html",
+    "extractedAt": "2026-11-28T10:43:24.238Z",
+    "name": "Blaze",
+    "brand": "Beverly Hills Polo Club",
+    "family": "Leather",
+    "gender": "men. Top notes are Basil and Verbena; middle notes are Cardamom and Leather; base notes are Cedarwood and Patchouli",
+    "topNotes": [
+      "Basil",
+      "Verbena"
+    ],
+    "middleNotes": [
+      "Cardamom",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Cedarwood",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118682.jpg",
+    "rating": 3.71,
+    "ratingVotes": 70,
+    "accords": [
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 88
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 68
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 65
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 43
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 41
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 36
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 118682,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Blaze",
+    "brandFa": "Beverly Hills Polo Club",
+    "nameFa": "Blaze",
+    "familyFa": "چرمی",
+    "genderFa": "men. Top notes are Basil and Verbena; middle notes are Cardamom and Leather; base notes are Cedarwood and Patchouli",
+    "topNotesFa": [
+      "ریحان",
+      "Verbena"
+    ],
+    "middleNotesFa": [
+      "هل",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "چوب سرو",
+      "پچولی"
+    ],
+    "seasons": [
+      "winter",
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "زمستان",
+      "بهار",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Diptyque/Eau-Rose-Eau-De-Parfum-71661.html",
+    "extractedAt": "2026-11-28T10:43:28.479Z",
+    "name": "Eau Rose Eau De Parfum",
+    "brand": "Diptyque",
+    "family": "Floral Woody Musk",
+    "gender": "women",
+    "year": 2022,
+    "perfumer": "Fabrice Pellegrin",
+    "topNotes": [
+      "Litchi"
+    ],
+    "middleNotes": [
+      "Damask Rose",
+      "Grasse Rose",
+      "Rose Water",
+      "Chamomile",
+      "Artichoke"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Eau Rose has got a new concentration, Eau De Parfum. In the perfume, firad rose is used – the rose is upcycled through the use of discarded Damascena rose water during the distillation process. Added artichoke is used as a rose oil enhancer (it has a unique fleshy green warm earthy odor with a slightly bitter opening).",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71661.jpg",
+    "rating": 4.27,
+    "ratingVotes": 1721,
+    "accords": [
+      {
+        "nameEn": "rose",
+        "nameFa": "رزی",
+        "percent": 100
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 49
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 41
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 38
+      },
+      {
+        "nameEn": "tropical",
+        "nameFa": "استوایی",
+        "percent": 35
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 33
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 27
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 25
+      }
+    ],
+    "fragranticaId": 71661,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau De Parfum",
+    "baseName": "Eau Rose",
+    "brandFa": "دیپتیک",
+    "nameFa": "Eau Rose Eau De Parfum",
+    "concentrationFa": "Eau De Parfum",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "زنانه",
+    "perfumerFa": "Fabrice Pellegrin",
+    "topNotesFa": [
+      "Litchi"
+    ],
+    "middleNotesFa": [
+      "گل رز دمشقی",
+      "Grasse Rose",
+      "Rose Water",
+      "بابونه",
+      "Artichoke"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Eau Rose غلظت جدیدی پیدا کرده است، Eau De Parfum. در این عطر، از گل رز فراد استفاده شده است - این گل رز از طریق استفاده از گلاب گل رز دمشقی که در فرآیند تقطیر دور ریخته می‌شود، بازیافت می‌شود. کنگر فرنگی اضافه شده به عنوان تقویت‌کننده روغن گل رز استفاده می‌شود (این ماده دارای رایحه‌ای منحصر‌به‌فرد، گوشتی، سبز، گرم و خاکی با شروعی کمی تلخ است).",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "پاییز",
+      "زمستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/French-Avenue/Spirito-Ignite-135599.html",
+    "extractedAt": "2026-11-28T10:43:34.624Z",
+    "name": "Spirito Ignite",
+    "brand": "French Avenue",
+    "family": "Floral Woody Musk",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Iris",
+      "Popcorn",
+      "Pink Pepper"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Violet",
+      "Magnolia"
+    ],
+    "baseNotes": [
+      "Vetiver",
+      "Musk",
+      "Cedarwood"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135599.jpg",
+    "rating": 4.01,
+    "ratingVotes": 67,
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 99
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 89
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 84
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 76
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 69
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 48
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 42
+      }
+    ],
+    "fragranticaId": 135599,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Spirito Ignite",
+    "brandFa": "French Avenue",
+    "nameFa": "Spirito Ignite",
+    "familyFa": "Floral Woody Musk",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "زنبق",
+      "Popcorn",
+      "فلفل صورتی"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "بنفشه",
+      "ماگنولیا"
+    ],
+    "baseNotesFa": [
+      "وتیور",
+      "موش",
+      "چوب سرو"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/L-Homme-734.html",
+    "extractedAt": "2026-11-28T10:43:38.220Z",
+    "name": "L'Homme",
+    "brand": "Yves Saint Laurent",
+    "family": "Woody Floral Musk",
+    "gender": "men",
+    "year": 2006,
+    "perfumer": "Anne Flipo, Pierre Wargnye, Dominique Ropion and Juliette Karagueuzoglou",
+    "topNotes": [
+      "Ginger",
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Spices",
+      "Violet Leaf",
+      "White Pepper",
+      "Basil"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Cedar",
+      "Tahitian Vetiver"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.734.jpg",
+    "rating": 4.35,
+    "ratingVotes": 12206,
+    "accords": [
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 78
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 40
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 38
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 24
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 23
+      }
+    ],
+    "fragranticaId": 734,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "L'Homme",
+    "brandFa": "ایو سن لوران",
+    "nameFa": "L'Homme",
+    "familyFa": "Woody Floral Musk",
+    "genderFa": "مردانه",
+    "perfumerFa": "Anne Flipo, Pierre Wargnye, Dominique Ropion and Juliette Karagueuzoglou",
+    "topNotesFa": [
+      "زنجبیل",
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Spices",
+      "برگ بنفشه",
+      "فلفل سفید",
+      "ریحان"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "سرو",
+      "Tahitian Vetiver"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Sabrina-Carpenter/Sweet-Tooth-Lemon-Pie-120032.html",
+    "extractedAt": "2026-11-28T10:43:42.805Z",
+    "name": "Sweet Tooth Lemon Pie",
+    "brand": "Sabrina Carpenter",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Candied Lemon",
+      "Sugar",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Limoncello",
+      "Meringue",
+      "Condensed Milk"
+    ],
+    "baseNotes": [
+      "Graham Crackers",
+      "Vanilla",
+      "Chantilly Cream",
+      "Tonka Bean"
+    ],
+    "description": "Sweet Tooth Lemon Pie by Sabrina Carpenter offers a fresh burst of lemon and a lingering trace of sultry sweetness. Zesty citrus unfolds into delicate notes of creamy vanilla and graham cracker crust, evoking the irresistible scent of a freshly baked pie. One spritz and you’ll want seconds.</p> <p>“This fragrance feels fun, happy, and a little nostalgic which is the perfect combination,\" said Sabrina Carpenter. “I’m so excited to be adding this to my Sweet Tooth collection.”",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120032.jpg",
+    "rating": 3.7,
+    "ratingVotes": 1237,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 56
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 40
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 28
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 19
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 17
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 8
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 7
+      }
+    ],
+    "fragranticaId": 120032,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Sweet Tooth Lemon Pie",
+    "brandFa": "Sabrina Carpenter",
+    "nameFa": "Sweet Tooth Lemon Pie",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "Candied Lemon",
+      "شکر",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Limoncello",
+      "Meringue",
+      "شیر عسلی"
+    ],
+    "baseNotesFa": [
+      "Graham Crackers",
+      "وانیل",
+      "Chantilly Cream",
+      "لوبیا تونکا"
+    ],
+    "descriptionFa": "Sweet Tooth Lemon Pie از سابرینا کارپنتر، انفجاری از طراوت لیمو و اثری ماندگار از شیرینی دلپذیر را ارائه می‌دهد. رایحه مرکبات تند به نت‌های ظریف وانیل خامه‎‌دار و پوسته بیسکویت گراهام تبدیل می‌شود و عطر وسوسه‌انگیز پای تازه پخته‌شده را تداعی می‌کند. با یک اسپری، دلتان می‌خواهد دوباره اسپری کنید.</p> <p>سابرینا کارپنتر گفت: «این عطر حس شادی، نشاط و کمی نوستالژی دارد که ترکیبی عالی است.» «خیلی خوشحالم که این عطر را به مجموعه اضافه می‌کنم.»",
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "تابستان",
+      "زمستان",
+      "بهار",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Kylie-Cosmetics/Cosmic-Kylie-Jenner-90957.html",
+    "extractedAt": "2026-11-28T10:43:48.370Z",
+    "name": "Cosmic Kylie Jenner",
+    "brand": "Kylie Cosmetics",
+    "family": "Oriental Floral",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": "Nicole Mancini",
+    "topNotes": [
+      "Star Jasmine",
+      "Blood Orange"
+    ],
+    "middleNotes": [
+      "Amber",
+      "Red Peony"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Vanilla",
+      "Cedar"
+    ],
+    "description": "\"Cosmic Kylie Jenner is a sweet, warm floral, elevated scent that is perfect for day and night. An ambery floral eau de parfum, the scent is magnetic, addictive, and out of this world. The sculptural bottle was designed to look like a piece of art from another world and is formed to fit perfectly in the palm of your hand.\"</p> <p>Top: star jasmine and blood orange</p> <p>Heart: golden amber accord and red peony accord</p> <p>Hase: vanilla musk accord and cedarwood</p> <p>Available in 10, 30, 50, and 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90957.jpg",
+    "rating": 3.96,
+    "ratingVotes": 2776,
+    "accords": [
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 94
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 84
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 79
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 76
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 69
+      },
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 59
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 90957,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Cosmic Kylie Jenner",
+    "brandFa": "Kylie Cosmetics",
+    "nameFa": "Cosmic Kylie Jenner",
+    "familyFa": "Oriental Floral",
+    "genderFa": "زنانه",
+    "perfumerFa": "Nicole Mancini",
+    "topNotesFa": [
+      "Star Jasmine",
+      "پرتقال خونی"
+    ],
+    "middleNotesFa": [
+      "کهربا",
+      "Red Peony"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "وانیل",
+      "سرو"
+    ],
+    "descriptionFa": "«Cosmic Kylie Jenner یک عطر شیرین، گرم، گل‌فام و برجسته است که برای استفاده در روز و شب عالی است. این عطر که یک ادو پرفیوم گل‌دار کهربایی است، رایحه‌ای جذاب، اعتیادآور و فراتر از این دنیا دارد. بطری مجسمه‌مانند طوری طراحی شده که شبیه یک اثر هنری از دنیایی دیگر به نظر برسد و شکلی دارد که کاملاً در کف دست شما جا می‌گیرد.»</p> <p>نت اولیه: یاس ستاره‌ای و پرتقال خونی</p> <p>نت میانی: ترکیب کهربای طلایی و ترکیب گل صدتومانی قرمز</p> <p>رایحه پایه: آکورد مشک وانیلی",
+    "seasons": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "تابستان",
+      "پاییز"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Mataha/Escapade-Gourmande-72607.html",
+    "extractedAt": "2026-11-28T10:43:53.580Z",
+    "name": "Escapade Gourmande",
+    "brand": "Maison Mataha",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": "Vincent Ricord",
+    "topNotes": [
+      "Sugar Cane"
+    ],
+    "middleNotes": [
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "baseNotes": [
+      "Benzoin",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72607.jpg",
+    "rating": 4.11,
+    "ratingVotes": 2176,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 73
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 39
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 25
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 22
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 18
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 10
+      }
+    ],
+    "fragranticaId": 72607,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Escapade Gourmande",
+    "brandFa": "Maison Mataha",
+    "nameFa": "Escapade Gourmande",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Vincent Ricord",
+    "topNotesFa": [
+      "Sugar Cane"
+    ],
+    "middleNotesFa": [
+      "وانیل",
+      "لوبیا تونکا"
+    ],
+    "baseNotesFa": [
+      "بنزوئین",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Phlur/Heavy-Cream-97027.html",
+    "extractedAt": "2026-11-28T10:43:57.605Z",
+    "name": "Heavy Cream",
+    "brand": "Phlur",
+    "family": null,
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": "Gil Clavien",
+    "topNotes": [
+      "Sugar",
+      "Marshmallow",
+      "Lemon",
+      "Orange"
+    ],
+    "middleNotes": [
+      "Coconut",
+      "Ambrettolide",
+      "Jasmine"
+    ],
+    "baseNotes": [
+      "Whipped Cream",
+      "Vanilla",
+      "Caramel"
+    ],
+    "description": "Heavy Cream is a confectionery delight with a milky impression of decadent sweetness. A swirl of whipped gourmands comes alive while bright citrus and luminous florals envelop the skin in an evocative, velvety dream. It is sweet, silky yet light as air.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.97027.jpg",
+    "rating": 3.6,
+    "ratingVotes": 1288,
+    "accords": [
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 72
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 28
+      },
+      {
+        "nameEn": "coconut",
+        "nameFa": "نارگیلی",
+        "percent": 26
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 21
+      },
+      {
+        "nameEn": "caramel",
+        "nameFa": "کاراملی",
+        "percent": 13
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 12
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 11
+      }
+    ],
+    "fragranticaId": 97027,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Heavy Cream",
+    "brandFa": "Phlur",
+    "nameFa": "Heavy Cream",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Gil Clavien",
+    "topNotesFa": [
+      "شکر",
+      "مارشمالو",
+      "لیمو",
+      "پرتقال"
+    ],
+    "middleNotesFa": [
+      "نارگیل",
+      "Ambrettolide",
+      "یاسمن"
+    ],
+    "baseNotesFa": [
+      "خامه زده",
+      "وانیل",
+      "کارامل"
+    ],
+    "descriptionFa": "Heavy Cream یک عطر شیرینی‌فروشی است که رایحه‌ای شیری و شیرینی دلپذیر دارد. گردبادی از رایحه‌های خوشمزه و دلپذیر زنده می‌شود، در حالی که مرکبات شاداب و گل‌های درخشان پوست را در رویایی خاطره‌انگیز و مخملی فرا می‌گیرند. شیرین، ابریشمی و در عین حال سبک همچون هواست.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Hooga/Oud-Mood-146874.html",
+    "extractedAt": "2026-11-28T10:44:02.772Z",
+    "name": "Oud Mood",
+    "brand": "Hooga",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Florian Gallo",
+    "topNotes": [
+      "Sichuan Pepper",
+      "Black Pepper",
+      "Cardamom"
+    ],
+    "middleNotes": [
+      "Leather",
+      "Papyrus",
+      "Tea Leaf",
+      "Dark Chocolate"
+    ],
+    "baseNotes": [
+      "Sandalwood",
+      "Mahogany",
+      "Oud"
+    ],
+    "description": "Oud Mood by Hooga is a woody spicy fragrance launched in 2026 and created by Florian Gallo. Inspired by the atmosphere of a dimly lit room where cigar smoke mingles with aged leather, it opens with Sichuan pepper, black pepper and cardamom, followed by tea leaf, papyrus, leather and dark chocolate over a base of mahogany, oud and sandalwood.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.146874.jpg",
+    "rating": 3.5,
+    "ratingVotes": 2,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 79
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 76
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 48
+      },
+      {
+        "nameEn": "oud",
+        "nameFa": "عودی",
+        "percent": 34
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 34
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 31
+      },
+      {
+        "nameEn": "chocolate",
+        "nameFa": "شکلاتی",
+        "percent": 28
+      }
+    ],
+    "fragranticaId": 146874,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Oud Mood",
+    "brandFa": "Hooga",
+    "nameFa": "Oud Mood",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Florian Gallo",
+    "topNotesFa": [
+      "فلفل سیچوان",
+      "فلفل سیاه",
+      "هل"
+    ],
+    "middleNotesFa": [
+      "چرم",
+      "پاپیروس",
+      "Tea Leaf",
+      "Dark Chocolate"
+    ],
+    "baseNotesFa": [
+      "چوب صندل",
+      "Mahogany",
+      "عود"
+    ],
+    "descriptionFa": "Oud Mood از برند Hooga یک عطر چوبی تند است که در سال 2026 عرضه شد و توسط فلوریان گالو ساخته شده است. این عطر که از فضای یک اتاق کم‌نور الهام گرفته شده است، جایی که دود سیگار با بوی چرم کهنه در هم می‌آمیزد، با نت‌های فلفل سیچوان، فلفل سیاه و هل آغاز می‌شود و سپس نت‌های برگ چای، پاپیروس، چرم و شکلات تلخ بر روی پایه‌ای از ماهون، عود و چوب صندل قرار می‌گیرند.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Ahmed-Al-Maghribi/Frost-Ice-128058.html",
+    "extractedAt": "2026-11-28T10:44:08.174Z",
+    "name": "Frost Ice",
+    "brand": "Ahmed Al Maghribi",
+    "family": "Aromatic Aquatic",
+    "gender": "women",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Watermelon",
+      "Mandarin Orange",
+      "Sea Notes",
+      "Grapefruit"
+    ],
+    "middleNotes": [
+      "Jasmine",
+      "Rosemary"
+    ],
+    "baseNotes": [
+      "Ambergris",
+      "Moss",
+      "Woodsy Notes",
+      "Patchouli"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.128058.jpg",
+    "rating": 4.44,
+    "ratingVotes": 107,
+    "accords": [
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 97
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 84
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 73
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 58
+      },
+      {
+        "nameEn": "white floral",
+        "nameFa": "گل سفید",
+        "percent": 46
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 46
+      },
+      {
+        "nameEn": "marine",
+        "nameFa": "دریایی",
+        "percent": 45
+      }
+    ],
+    "fragranticaId": 128058,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Frost Ice",
+    "brandFa": "Ahmed Al Maghribi",
+    "nameFa": "Frost Ice",
+    "familyFa": "Aromatic Aquatic",
+    "genderFa": "زنانه",
+    "topNotesFa": [
+      "هندوانه",
+      "نارنگی",
+      "Sea Notes",
+      "گریپ‌فروت"
+    ],
+    "middleNotesFa": [
+      "یاسمن",
+      "رزماری"
+    ],
+    "baseNotesFa": [
+      "کهربا خاکستری",
+      "خزه",
+      "Woodsy Notes",
+      "پچولی"
+    ],
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
