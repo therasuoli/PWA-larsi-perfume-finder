@@ -176084,5 +176084,1392 @@
     ],
     "timeOfDay": "night",
     "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Eclore/Choronos-148952.html",
+    "extractedAt": "2026-11-28T16:38:07.259Z",
+    "name": "Choronos",
+    "brand": "Maison Éclore",
+    "family": "Woody Aquatic",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Benoît Bergia",
+    "topNotes": [
+      "Aldehydes"
+    ],
+    "middleNotes": [
+      "Water Notes",
+      "Ironwood"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber"
+    ],
+    "description": "Choronos by Maison Éclore is a cold, mineral fragrance evoking suspended air, mountain water and metallic woods. Aldehydes open the composition, followed by water and ironwood over a base of musk and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148952.jpg",
+    "accords": [
+      {
+        "nameEn": "fresh",
+        "nameFa": "تازه",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 91
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 91
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 91
+      },
+      {
+        "nameEn": "aldehydic",
+        "nameFa": "آلدهیدی",
+        "percent": 91
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 59
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 32
+      },
+      {
+        "nameEn": "soapy",
+        "nameFa": "صابونی",
+        "percent": 27
+      }
+    ],
+    "fragranticaId": 148952,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Choronos",
+    "brandFa": "Maison Éclore",
+    "nameFa": "Choronos",
+    "familyFa": "Woody Aquatic",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Benoît Bergia",
+    "topNotesFa": [
+      "آلدهیدها"
+    ],
+    "middleNotesFa": [
+      "Water Notes",
+      "Ironwood"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا"
+    ],
+    "descriptionFa": "Choronos by Maison Éclore is a cold, mineral fragrance evoking suspended air, mountain water and metallic woods. Aldehydes open the composition, followed by water and ironwood over a base of musk and amber.",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "summer",
+    "secondarySeason": "spring",
+    "primarySeasonFa": "تابستان",
+    "secondarySeasonFa": "بهار",
+    "seasonsFa": [
+      "تابستان",
+      "بهار",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Eclore/Agave-Blood-148951.html",
+    "extractedAt": "2026-11-28T16:38:11.186Z",
+    "name": "Agave Blood",
+    "brand": "Maison Éclore",
+    "family": null,
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Benoît Bergia",
+    "topNotes": [
+      "Lime",
+      "Tequila",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Agave",
+      "Sea Salt"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Amber",
+      "Woody Notes"
+    ],
+    "description": "Agave Blood by Maison Éclore opens with lime, tequila and lemon, followed by blue agave and fleur de sel over a base of musk, amber and dry woody notes.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148951.jpg",
+    "accords": [
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 55
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 55
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 50
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 50
+      },
+      {
+        "nameEn": "salty",
+        "nameFa": "شور",
+        "percent": 45
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 33
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 148951,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Agave Blood",
+    "brandFa": "Maison Éclore",
+    "nameFa": "Agave Blood",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Benoît Bergia",
+    "topNotesFa": [
+      "لیمو سبز",
+      "Tequila",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "Agave",
+      "نمک دریا"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "کهربا",
+      "Woody Notes"
+    ],
+    "descriptionFa": "Agave Blood by Maison Éclore opens with lime, tequila and lemon, followed by blue agave and fleur de sel over a base of musk, amber and dry woody notes.",
+    "seasons": [
+      "spring",
+      "summer",
+      "winter",
+      "autumn"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "summer",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "تابستان",
+    "seasonsFa": [
+      "بهار",
+      "تابستان",
+      "زمستان",
+      "پاییز"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Eclore/Venom-Milk-148950.html",
+    "extractedAt": "2026-11-28T16:38:16.285Z",
+    "name": "Venom Milk",
+    "brand": "Maison Éclore",
+    "family": "Leather",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": "Benoît Bergia",
+    "topNotes": [
+      "Milk"
+    ],
+    "middleNotes": [
+      "Amber",
+      "Leather"
+    ],
+    "baseNotes": [
+      "Musk",
+      "Orris Root"
+    ],
+    "description": "Venom Milk by Maison Éclore contrasts a pale milky accord with amber and leather. It opens with milk, develops into a heart of amber and leather, and settles on musk and iris root.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148950.jpg",
+    "accords": [
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 100
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 80
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 80
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 80
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 80
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 72
+      },
+      {
+        "nameEn": "animalic",
+        "nameFa": "حیوانی",
+        "percent": 68
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 32
+      }
+    ],
+    "fragranticaId": 148950,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Venom Milk",
+    "brandFa": "Maison Éclore",
+    "nameFa": "Venom Milk",
+    "familyFa": "چرمی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Benoît Bergia",
+    "topNotesFa": [
+      "شیر"
+    ],
+    "middleNotesFa": [
+      "کهربا",
+      "چرم"
+    ],
+    "baseNotesFa": [
+      "موش",
+      "ریشه زنبق"
+    ],
+    "descriptionFa": "Venom Milk by Maison Éclore contrasts a pale milky accord with amber and leather. It opens with milk, develops into a heart of amber and leather, and settles on musk and iris root.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Parise-Royal/Nocteria-148949.html",
+    "extractedAt": "2026-11-28T16:38:20.508Z",
+    "name": "Nocteria",
+    "brand": "Parisé Royàl",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2026,
+    "perfumer": null,
+    "topNotes": [
+      "Whiskey"
+    ],
+    "middleNotes": [
+      "Tonka Bean",
+      "Cinnamon",
+      "Brown sugar"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "NOCTERIA by Parisé Royàl is a unisex extrait de parfum launched in November 2026. The warm gourmand composition opens with whiskey, followed by a heart of tonka bean, cinnamon and brown sugar over a base of vanilla and amber.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.148949.jpg",
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 88
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 82
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 76
+      },
+      {
+        "nameEn": "whiskey",
+        "nameFa": "whiskey",
+        "percent": 59
+      },
+      {
+        "nameEn": "cinnamon",
+        "nameFa": "دارچینی",
+        "percent": 59
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 35
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 26
+      }
+    ],
+    "fragranticaId": 148949,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Nocteria",
+    "brandFa": "Parisé Royàl",
+    "nameFa": "Nocteria",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "ویسکی"
+    ],
+    "middleNotesFa": [
+      "لوبیا تونکا",
+      "دارچین",
+      "Brown sugar"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "کهربا"
+    ],
+    "descriptionFa": "NOCTERIA by Parisé Royàl is a unisex extrait de parfum launched in November 2026. The warm gourmand composition opens with whiskey, followed by a heart of tonka bean, cinnamon and brown sugar over a base of vanilla and amber.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Jaxob/Poet-s-Potion-120964.html",
+    "extractedAt": "2026-11-28T16:38:25.556Z",
+    "name": "Poet’s Potion",
+    "brand": "Maison Jaxob",
+    "family": "Woody Spicy",
+    "gender": "women and men",
+    "year": 2017,
+    "perfumer": "Jacob Chimoni",
+    "topNotes": [
+      "Cognac",
+      "Pink Pepper",
+      "elemi",
+      "Basil"
+    ],
+    "middleNotes": [
+      "Tobacco",
+      "Myrrh",
+      "Black Vanilla Husk",
+      "Indian Patchouli",
+      "Frankincense"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Birch",
+      "Cambodian Oud",
+      "Amber",
+      "Musk"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120964.jpg",
+    "rating": 4.5,
+    "ratingVotes": 12,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 93
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 79
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 69
+      },
+      {
+        "nameEn": "tobacco",
+        "nameFa": "تنباکویی",
+        "percent": 57
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 56
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 51
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 47
+      }
+    ],
+    "fragranticaId": 120964,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Poet’s Potion",
+    "brandFa": "Maison Jaxob",
+    "nameFa": "Poet’s Potion",
+    "familyFa": "چوبی ادویه‌ای",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Jacob Chimoni",
+    "topNotesFa": [
+      "کوناک",
+      "فلفل صورتی",
+      "elemi",
+      "ریحان"
+    ],
+    "middleNotesFa": [
+      "تنباکو",
+      "مور",
+      "Black Vanilla Husk",
+      "Indian Patchouli",
+      "کندر"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "توس",
+      "Cambodian Oud",
+      "کهربا",
+      "موش"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Prada/Prada-L-Homme-Intense-45396.html",
+    "extractedAt": "2026-11-28T16:38:29.503Z",
+    "name": "Prada L'Homme Intense",
+    "brand": "Prada",
+    "family": "Oriental Woody",
+    "gender": "men",
+    "year": 2017,
+    "perfumer": "Daniela Andrier",
+    "topNotes": [
+      "Iris"
+    ],
+    "middleNotes": [
+      "Amber",
+      "Patchouli"
+    ],
+    "baseNotes": [
+      "Tonka Bean",
+      "Leather",
+      "Sandalwood"
+    ],
+    "description": "Prada's new fragrant pair, Prada La Femme and Prada L'Homme, premiered on the market mid-2016. A year later, their enriched and intensified compositions in Eau de Parfum Intense concentration are announced.</p> <p>Prada L'Homme Intense promises \"a multi-layered experience\" and enhances the scent of iris and amber with notes of leather and patchouli, while tonka bean gives it an oriental signature. The goal of the scent and its opaque bottle is to evoke \"the elusive nature of the multi-faceted Prada man.\"</p> <p>It is available as a 50 and 100 ml Eau de Parfum.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45396.jpg",
+    "rating": 4.54,
+    "ratingVotes": 7551,
+    "accords": [
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 100
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 82
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 74
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 55
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 54
+      },
+      {
+        "nameEn": "violet",
+        "nameFa": "بنفشه",
+        "percent": 50
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 45396,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Intense",
+    "baseName": "Prada L'Homme",
+    "brandFa": "پرادا",
+    "nameFa": "Prada L'Homme Intense",
+    "concentrationFa": "انتنس",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه",
+    "perfumerFa": "Daniela Andrier",
+    "topNotesFa": [
+      "زنبق"
+    ],
+    "middleNotesFa": [
+      "کهربا",
+      "پچولی"
+    ],
+    "baseNotesFa": [
+      "لوبیا تونکا",
+      "چرم",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Prada's new fragrant pair, Prada La Femme and Prada L'Homme, premiered on the market mid-2016. A year later, their enriched and intensified compositions in Eau de Parfum Intense concentration are announced.</p> <p>Prada L'Homme Intense promises \"a multi-layered experience\" and enhances the scent of iris and amber with notes of leather and patchouli, while tonka bean gives it an oriental signature. The goal of the scent and its opaque bottle is to evoke \"the elusive nature of the multi-faceted Prada man.\"</p> <p>It is available as a 50 and 100 ml Eau de Parfum.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Toskovat/Empty-Wishes-Well-75419.html",
+    "extractedAt": "2026-11-28T16:38:34.396Z",
+    "name": "Empty Wishes Well",
+    "brand": "Toskovat'",
+    "family": null,
+    "gender": "women and men",
+    "year": 2022,
+    "perfumer": "David-Lev Jipa-Slivinschi",
+    "topNotes": [
+      "Metallic notes"
+    ],
+    "middleNotes": [
+      "Rain Notes",
+      "Dried Fallen Leaves",
+      "Stone",
+      "Sage",
+      "Myrrh"
+    ],
+    "baseNotes": [
+      "Earthy Notes",
+      "Patchouli",
+      "Java vetiver oil",
+      "Haitian Vetiver",
+      "Galbanum",
+      "Amyris",
+      "Carrot Seeds"
+    ],
+    "description": "Today I remembered making wishes and having hope.<br /> I found this rusty old coin in my pocket, from somebody I can’t recall, from a place I don’t know, with a purpose it hasn’t served. When I was a child and I would find them, I’d keep them until I saw the first well and I would make a wish.<br /> But now money doesn’t make wishes come true, and there is no well. They dried up. Father told me the holy water font became mouldy. Marble cracked and prayers turned to dust on walls.<br /> But I still have my hope. I know rain will come and I will melt in the soil I walked on and nature will bring nurture. And more shall live again.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75419.jpg",
+    "rating": 4.04,
+    "ratingVotes": 428,
+    "accords": [
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 91
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 74
+      },
+      {
+        "nameEn": "aquatic",
+        "nameFa": "آبی",
+        "percent": 48
+      },
+      {
+        "nameEn": "metallic",
+        "nameFa": "فلزی",
+        "percent": 43
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 37
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 34
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 34
+      }
+    ],
+    "fragranticaId": 75419,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Empty Wishes Well",
+    "brandFa": "Toskovat'",
+    "nameFa": "Empty Wishes Well",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "David-Lev Jipa-Slivinschi",
+    "topNotesFa": [
+      "Metallic notes"
+    ],
+    "middleNotesFa": [
+      "Rain Notes",
+      "Dried Fallen Leaves",
+      "Stone",
+      "مریم‌گلی",
+      "مور"
+    ],
+    "baseNotesFa": [
+      "Earthy Notes",
+      "پچولی",
+      "Java vetiver oil",
+      "Haitian Vetiver",
+      "گلبانوم",
+      "امیریس",
+      "Carrot Seeds"
+    ],
+    "descriptionFa": "Today I remembered making wishes and having hope.<br /> I found this rusty old coin in my pocket, from somebody I can’t recall, from a place I don’t know, with a purpose it hasn’t served. When I was a child and I would find them, I’d keep them until I saw the first well and I would make a wish.<br /> But now money doesn’t make wishes come true, and there is no well. They dried up. Father told me the holy water font became mouldy. Marble cracked and prayers turned to dust on walls.<br /> But I still have my hope. I know rain will come and I will melt in the soil I walked on and nature will bring nurture. And more shall live again.",
+    "seasons": [
+      "autumn",
+      "winter",
+      "summer",
+      "spring"
+    ],
+    "primarySeason": "autumn",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "پاییز",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "پاییز",
+      "زمستان",
+      "تابستان",
+      "بهار"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Armaf/Club-de-Nuit-Precieux-I-93272.html",
+    "extractedAt": "2026-11-28T16:38:38.994Z",
+    "name": "Club de Nuit Precieux I",
+    "brand": "Armaf",
+    "family": "Oriental Woody",
+    "gender": "women and men",
+    "year": 2024,
+    "perfumer": null,
+    "topNotes": [
+      "Pineapple",
+      "Lemon",
+      "Bergamot",
+      "Pink Pepper",
+      "Caramel",
+      "Black Pepper",
+      "Pear"
+    ],
+    "middleNotes": [
+      "oak moss",
+      "White Wood",
+      "Jasmine",
+      "Lily of the Valley",
+      "Anise"
+    ],
+    "baseNotes": [
+      "Ambroxan",
+      "Cedar",
+      "White Musk",
+      "Leather",
+      "Patchouli",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "Warmth-enabling, Precieux I embodies finesse and verve that transcends the conventional. This chypre amber fragrance is intelligently created with attention to detail. Honor the magic of uniquely clubbed zingy, spicy, and woody tones.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93272.jpg",
+    "rating": 4.47,
+    "ratingVotes": 3310,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 100
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 95
+      },
+      {
+        "nameEn": "fruity",
+        "nameFa": "میوه‌ای",
+        "percent": 83
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 69
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 67
+      },
+      {
+        "nameEn": "mossy",
+        "nameFa": "خزه‌ای",
+        "percent": 50
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      }
+    ],
+    "fragranticaId": 93272,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Club de Nuit Precieux I",
+    "brandFa": "Armaf",
+    "nameFa": "Club de Nuit Precieux I",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "آناناس",
+      "لیمو",
+      "برگاموت",
+      "فلفل صورتی",
+      "کارامل",
+      "فلفل سیاه",
+      "گلابی"
+    ],
+    "middleNotesFa": [
+      "oak moss",
+      "White Wood",
+      "یاسمن",
+      "لاله سفید",
+      "انیسون"
+    ],
+    "baseNotesFa": [
+      "آمبروکسان",
+      "سرو",
+      "موش سفید",
+      "چرم",
+      "پچولی",
+      "کهربا",
+      "وانیل"
+    ],
+    "descriptionFa": "Warmth-enabling, Precieux I embodies finesse and verve that transcends the conventional. This chypre amber fragrance is intelligently created with attention to detail. Honor the magic of uniquely clubbed zingy, spicy, and woody tones.",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Meo-Fusciuni/Last-Season-90344.html",
+    "extractedAt": "2026-11-28T16:38:42.636Z",
+    "name": "Last Season",
+    "brand": "Meo Fusciuni",
+    "family": "Aromatic Green",
+    "gender": "women and men. <b>Last Season</b> was launched in 2024. The nose behind this fragrance is Meo Fusciuni. The fragrance features Leather, Oakmoss, Agarwood (Oud), Castoreum, Artemisia, Hay, Seaweed, Vetiver, Patchouli, Birch, Costus, Canadian Pine, Galbanum, Guaiac Wood, Immortelle, Mate, Tobacco, Cedar, Laurels, Chamomile, Labdanum, Musk, Olibanum, Sandalwood and Myrrh",
+    "year": 2024,
+    "perfumer": "Meo Fus",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90344.jpg",
+    "rating": 3.89,
+    "ratingVotes": 426,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "leather",
+        "nameFa": "چرمی",
+        "percent": 76
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 69
+      },
+      {
+        "nameEn": "herbal",
+        "nameFa": "گیاهی",
+        "percent": 54
+      },
+      {
+        "nameEn": "fresh spicy",
+        "nameFa": "ادویه‌ای تازه",
+        "percent": 50
+      },
+      {
+        "nameEn": "smoky",
+        "nameFa": "دودی",
+        "percent": 46
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 45
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 44
+      }
+    ],
+    "fragranticaId": 90344,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Last Season",
+    "brandFa": "Meo Fusciuni",
+    "nameFa": "Last Season",
+    "familyFa": "Aromatic Green",
+    "genderFa": "women and men. <b>Last Season</b> was launched in 2024. The nose behind this fragrance is Meo Fusciuni. The fragrance features Leather, Oakmoss, Agarwood (Oud), Castoreum, Artemisia, Hay, Seaweed, Vetiver, Patchouli, Birch, Costus, Canadian Pine, Galbanum, Guaiac Wood, Immortelle, Mate, Tobacco, Cedar, Laurels, Chamomile, Labdanum, Musk, Olibanum, Sandalwood and Myrrh",
+    "perfumerFa": "Meo Fus",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Trudon/450-113434.html",
+    "extractedAt": "2026-11-28T16:38:47.153Z",
+    "name": "45°",
+    "brand": "Trudon",
+    "family": "Oriental Vanilla",
+    "gender": "women and men",
+    "year": 2025,
+    "perfumer": null,
+    "topNotes": [
+      "Honey",
+      "Bergamot"
+    ],
+    "middleNotes": [
+      "Vanilla Absolute",
+      "Vanilla",
+      "Georgywood"
+    ],
+    "baseNotes": [
+      "Vanilla",
+      "Benzoin"
+    ],
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113434.jpg",
+    "rating": 4.39,
+    "ratingVotes": 571,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "honey",
+        "nameFa": "عسلی",
+        "percent": 93
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 63
+      },
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 42
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 32
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 30
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 21
+      },
+      {
+        "nameEn": "warm spicy",
+        "nameFa": "ادویه‌ای گرم",
+        "percent": 21
+      }
+    ],
+    "fragranticaId": 113434,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "45°",
+    "brandFa": "Trudon",
+    "nameFa": "45°",
+    "familyFa": "شرقی وانیلی",
+    "genderFa": "مردانه و زنانه",
+    "topNotesFa": [
+      "عسل",
+      "برگاموت"
+    ],
+    "middleNotesFa": [
+      "Vanilla Absolute",
+      "وانیل",
+      "Georgywood"
+    ],
+    "baseNotesFa": [
+      "وانیل",
+      "بنزوئین"
+    ],
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Chanel/Le-Lion-Eau-de-Parfum-61036.html",
+    "extractedAt": "2026-11-28T16:38:51.289Z",
+    "name": "Le Lion Eau de Parfum",
+    "brand": "Chanel",
+    "family": "Oriental",
+    "gender": "women and men",
+    "year": 2020,
+    "perfumer": "Olivier Polge",
+    "topNotes": [
+      "Bergamot",
+      "Lemon"
+    ],
+    "middleNotes": [
+      "Labdanum",
+      "Amber"
+    ],
+    "baseNotes": [
+      "Patchouli",
+      "Madagascar Vanilla",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Le Lion de Chanel is a new Chanel fragrance from Les Exclusifs de Chanel.</p> <p>Le Lion de Chanel is described as a fragrance characterized by strength and charm, luxury and elegance, built around amber and leathery notes softened with vanilla and bergamot.</p> <p>Top notes: bergamot, lemon<br /> Heart: labdanum, amber<br /> Base: vanilla, patchouli, sandalwood, musk</p> <p>Perfumer Olivier Polge did not dedicate this creation to the animal, but to the vision that CHANEL took over from it. \"I was much more interested in the emblematic CHANEL lion than the animal,\" says Perfumer-Creator for the House of CHANEL.</p> <p>Le Lion de Chanel is available as a 75 and 200 ml Eau de Parfum.<br />",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61036.jpg",
+    "rating": 4.13,
+    "ratingVotes": 3089,
+    "accords": [
+      {
+        "nameEn": "amber",
+        "nameFa": "کهربایی",
+        "percent": 100
+      },
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 63
+      },
+      {
+        "nameEn": "musky",
+        "nameFa": "مشی",
+        "percent": 47
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "citrus",
+        "nameFa": "مرکباتی",
+        "percent": 37
+      },
+      {
+        "nameEn": "patchouli",
+        "nameFa": "پچولی",
+        "percent": 34
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 30
+      },
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 30
+      }
+    ],
+    "fragranticaId": 61036,
+    "imageUrlSource": "pattern1-id",
+    "concentration": "Eau de Parfum",
+    "baseName": "Le Lion",
+    "brandFa": "شنل",
+    "nameFa": "Le Lion Eau de Parfum",
+    "concentrationFa": "ادو پرفیوم",
+    "familyFa": "شرقی",
+    "genderFa": "مردانه و زنانه",
+    "perfumerFa": "Olivier Polge",
+    "topNotesFa": [
+      "برگاموت",
+      "لیمو"
+    ],
+    "middleNotesFa": [
+      "لابدانوم",
+      "کهربا"
+    ],
+    "baseNotesFa": [
+      "پچولی",
+      "وانیل ماداگاسکار",
+      "موش",
+      "چوب صندل"
+    ],
+    "descriptionFa": "Le Lion de Chanel is a new Chanel fragrance from Les Exclusifs de Chanel.</p> <p>Le Lion de Chanel is described as a fragrance characterized by strength and charm, luxury and elegance, built around amber and leathery notes softened with vanilla and bergamot.</p> <p>Top notes: bergamot, lemon<br /> Heart: labdanum, amber<br /> Base: vanilla, patchouli, sandalwood, musk</p> <p>Perfumer Olivier Polge did not dedicate this creation to the animal, but to the vision that CHANEL took over from it. \"I was much more interested in the emblematic CHANEL lion than the animal,\" says Perfumer-Creator for the House of CHANEL.</p> <p>Le Lion de Chanel is available as a 75 and 200 ml Eau de Parfum.<br />",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Orchid-94979.html",
+    "extractedAt": "2026-11-28T16:38:55.293Z",
+    "name": "Flora Gorgeous Orchid",
+    "brand": "Gucci",
+    "family": "Floral Fruity Gourmand",
+    "gender": "women",
+    "year": 2024,
+    "perfumer": "Marie Salamagne",
+    "topNotes": [
+      "Vanilla"
+    ],
+    "middleNotes": [
+      "Vanilla Orchid"
+    ],
+    "baseNotes": [
+      "Ozonic notes"
+    ],
+    "description": "Gucci Flora Gorgeous Orchid is the first ozonic floral gourmand fragrance of the House, with an innovative approach that infuses this gourmand scent with a fresh perspective on vanilla. The creation weaves together the familiar sweetness of Vanilla with notes imparted through the Ozonic Accord. This unconventional fusion further highlights the luminous sensuality of Vanilla Orchid, elevating its gourmand richness to new heights. The creamy floral dimension that emerges from the fragrance is infused with airy brightness.",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94979.jpg",
+    "rating": 4.09,
+    "ratingVotes": 4504,
+    "accords": [
+      {
+        "nameEn": "vanilla",
+        "nameFa": "وانیلی",
+        "percent": 100
+      },
+      {
+        "nameEn": "ozonic",
+        "nameFa": "اوزونی",
+        "percent": 68
+      },
+      {
+        "nameEn": "floral",
+        "nameFa": "گلی",
+        "percent": 55
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 54
+      },
+      {
+        "nameEn": "sweet",
+        "nameFa": "شیرین",
+        "percent": 52
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 18
+      },
+      {
+        "nameEn": "lactonic",
+        "nameFa": "شیری",
+        "percent": 16
+      },
+      {
+        "nameEn": "balsamic",
+        "nameFa": "بالسامی",
+        "percent": 15
+      }
+    ],
+    "fragranticaId": 94979,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Flora Gorgeous Orchid",
+    "brandFa": "گوشی",
+    "nameFa": "Flora Gorgeous Orchid",
+    "familyFa": "Floral Fruity Gourmand",
+    "genderFa": "زنانه",
+    "perfumerFa": "Marie Salamagne",
+    "topNotesFa": [
+      "وانیل"
+    ],
+    "middleNotesFa": [
+      "Vanilla Orchid"
+    ],
+    "baseNotesFa": [
+      "Ozonic notes"
+    ],
+    "descriptionFa": "Gucci Flora Gorgeous Orchid is the first ozonic floral gourmand fragrance of the House, with an innovative approach that infuses this gourmand scent with a fresh perspective on vanilla. The creation weaves together the familiar sweetness of Vanilla with notes imparted through the Ozonic Accord. This unconventional fusion further highlights the luminous sensuality of Vanilla Orchid, elevating its gourmand richness to new heights. The creamy floral dimension that emerges from the fragrance is infused with airy brightness.",
+    "seasons": [
+      "spring",
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "primarySeason": "spring",
+    "secondarySeason": "winter",
+    "primarySeasonFa": "بهار",
+    "secondarySeasonFa": "زمستان",
+    "seasonsFa": [
+      "بهار",
+      "زمستان",
+      "پاییز",
+      "تابستان"
+    ],
+    "timeOfDay": "night",
+    "timeOfDayFa": "شب"
+  },
+  {
+    "fragranticaUrl": "https://www.fragrantica.com/perfume/Maison-Jaxob/Dramatic-Pause-120972.html",
+    "extractedAt": "2026-11-28T16:38:59.729Z",
+    "name": "Dramatic Pause",
+    "brand": "Maison Jaxob",
+    "family": "Oriental Woody",
+    "gender": "women and men. <b>Dramatic Pause</b> was launched in 2017. The nose behind this fragrance is Jacob Chimoni. The fragrance features Eucalyptus, Pink Pepper, Indonesian Oud, Orris, Bourbon Vetiver, Fig Leaf, Madagascar Vanilla, elemi, Green Forest, Australian Sandalwood, Olibanum, Angelica Root and Siam Benzoin",
+    "year": 2017,
+    "perfumer": "J",
+    "imageUrl": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120972.jpg",
+    "rating": 4.5,
+    "ratingVotes": 10,
+    "accords": [
+      {
+        "nameEn": "woody",
+        "nameFa": "چوبی",
+        "percent": 100
+      },
+      {
+        "nameEn": "aromatic",
+        "nameFa": "معطر",
+        "percent": 57
+      },
+      {
+        "nameEn": "iris",
+        "nameFa": "زنبق",
+        "percent": 43
+      },
+      {
+        "nameEn": "powdery",
+        "nameFa": "پودری",
+        "percent": 42
+      },
+      {
+        "nameEn": "earthy",
+        "nameFa": "خاکی",
+        "percent": 38
+      },
+      {
+        "nameEn": "camphor",
+        "nameFa": "camphor",
+        "percent": 36
+      },
+      {
+        "nameEn": "soft spicy",
+        "nameFa": "ادویه‌ای نرم",
+        "percent": 33
+      },
+      {
+        "nameEn": "green",
+        "nameFa": "سبز",
+        "percent": 33
+      }
+    ],
+    "fragranticaId": 120972,
+    "imageUrlSource": "pattern1-id",
+    "concentration": null,
+    "baseName": "Dramatic Pause",
+    "brandFa": "Maison Jaxob",
+    "nameFa": "Dramatic Pause",
+    "familyFa": "شرقی چوبی",
+    "genderFa": "women and men. <b>Dramatic Pause</b> was launched in 2017. The nose behind this fragrance is Jacob Chimoni. The fragrance features Eucalyptus, Pink Pepper, Indonesian Oud, Orris, Bourbon Vetiver, Fig Leaf, Madagascar Vanilla, elemi, Green Forest, Australian Sandalwood, Olibanum, Angelica Root and Siam Benzoin",
+    "perfumerFa": "J",
+    "seasons": [
+      "winter",
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "primarySeason": "winter",
+    "secondarySeason": "autumn",
+    "primarySeasonFa": "زمستان",
+    "secondarySeasonFa": "پاییز",
+    "seasonsFa": [
+      "زمستان",
+      "پاییز",
+      "بهار",
+      "تابستان"
+    ],
+    "timeOfDay": "day",
+    "timeOfDayFa": "روز"
   }
 ]
